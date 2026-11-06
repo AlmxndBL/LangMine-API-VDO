@@ -1,6 +1,0 @@
-{
-  "$schema":"https://hyperframes.heygen.com/schema/hyperframes.json",
-  "paths":{"blocks":"compositions","components":"compositions/components","assets":"assets"},
-  "authoringSkill":"hyperframes",
-  "registryItems":[{"name":"inline-highlight","type":"hyperframes:component","target":"compositions/components/inline-highlight.html"},{"name":"browser-device-stage","type":"hyperframes:component","target":"compositions/components/browser-device-stage-upstream.html"}]
-}

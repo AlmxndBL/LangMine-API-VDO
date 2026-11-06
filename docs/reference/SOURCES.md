@@ -8,7 +8,7 @@
 
 - [คู่มือที่ผู้ใช้ให้](../../langmind-api.md): ระบุว่าเป็นสำเนาจากเจ้าของโปรเจกต์เมื่อ 1 พฤศจิกายน 2026 ไม่มี upstream URL/version และยังไม่รับรอง live behavior ใช้ส่วน `ต้นฉบับครบทุกหมวด` แยกจากข้อกำหนด AlmondChat ด้านบน
 - [เว็บไซต์ผลิตภัณฑ์](https://langmind.in.th/): ตรวจในช่วงสำรวจ ยืนยันชื่อและแนวผลิตภัณฑ์เกี่ยวกับ agent/knowledge แต่ข้อความ marketing ไม่แทน API contract หรือผลทดสอบ
-- สำหรับคลิปแรก คู่มือระบุ dataset upload แบบ background, สถานะ pending/processing/indexed/failed, การผูก dataset กับ agent และ blocking chat ที่คืน answer/citations/usage
+- ตัวอย่างความสามารถในคู่มือ (ยังไม่ใช่การเลือกให้ EP01 ใหม่): คู่มือระบุ dataset upload แบบ background, สถานะ pending/processing/indexed/failed, การผูก dataset กับ agent และ blocking chat ที่คืน answer/citations/usage
 - ยังไม่ยืนยันบัญชีจริง model/credential/RAG readiness, actual limits/cost และคุณภาพ citations ไม่มีการเรียก live API ในขั้นเตรียมเอกสาร
 - ไฟล์คู่มือเดิมมี relative links ของ AlmondChat ที่ไม่อยู่ใน workspace นี้ ไม่ถือว่าเป็นลิงก์ของระบบเอกสารใหม่ และไม่แก้/ย้าย snapshot โดยพลการ
 

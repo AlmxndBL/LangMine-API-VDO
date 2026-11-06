@@ -1,30 +1,25 @@
-# EP01 — งานเดิมที่พักไว้
+# EP01 — เริ่มวางแผนใหม่
 
-Episode ID: ep01-api-introduction
-ชื่อแนวคิดเดิม: API คืออะไร และ LangMind API ใช้ทำอะไรได้บ้าง
+Episode ID: `ep01-api-introduction`
+อัปเดต 6 พฤศจิกายน 2026 (Asia/Bangkok)
 
-ผู้ใช้ให้กลับไปวางระบบระดับโปรเจกต์ก่อน **ยังไม่ปรับ storyboard หรือผลิต EP01 ต่อ**
-next action กลางอยู่ [แผนหลัก](../../docs/plans/2026-11-06-workspace-foundation.md) เอกสารด้านล่างเป็นประวัติและหลักฐาน ไม่ใช่แผน active ที่ล็อกแล้ว
+## สถานะและขอบเขต
+ผู้ใช้ยืนยันให้ลบข้อมูล EP01 เดิม รวมร่างคืนสินค้าและแผนเก่า แล้วสร้างตอนนี้ใหม่เพื่อทดลอง [Workflow](../../docs/WORKFLOW.md)
+เริ่มจาก W3 ไม่ใช้บท ภาพ ซีน ระยะเวลา หรือผลตรวจของรุ่นเดิมเป็นข้อกำหนด ผู้ใช้อนุมัติทิศทาง W3 สำหรับคนไม่รู้จัก API และให้เริ่มทำต่อแล้ว วันที่ 6 พฤศจิกายน 2026 บท/แบบภาพ W4 ที่จัดทำต่อยังไม่ใช่งานที่ผู้ใช้ตรวจรับ
+รอบนี้วางแผน ไม่มีการเจนภาพ ประกอบ timeline เรียก live/paid API สร้าง provider resources หรือ render
 
-## v3 ที่เก็บไว้
-- [Blueprint และบทเดิม](BLUEPRINT-v3.md)
-- [Source preview](video/v3-preview/index.html)
-- [Asset provenance](video/v3-preview/assets/ASSET-LEDGER.md)
-- [Review และผลตรวจ ณ เวลาที่ทำ](video/v3-preview/REVIEW.md)
-v3 เป็น visual preview 104 วินาที 8 ฉาก มี raster demo 4 ภาพและผู้เล่ามนุษย์ 2 ท่า ไม่มีเสียงจริงหรือ live API; รอบ v3 ไม่ export MP4
-URL ที่เคยใช้ http://localhost:3004/#project/v3-preview เป็นประวัติ ยังไม่ตรวจว่า server เปิดอยู่
-feedback ของผู้ใช้: v3 ดีขึ้นแล้ว แต่ข้อความรับหน้าที่เล่าเรื่องมากเกินไป บางองค์ประกอบยังไม่ดึงดูดเมื่อเทียบ reference
+| ขั้น | สถานะ | สิ่งที่มี / สิ่งที่ต้องทำต่อ |
+|---|---|---|
+| W0–W2 ฐานกลาง | ใช้เอกสารกลางเดิม | Catalog และแนวภาพเป็นฐาน ไม่ใช่ชุดที่เลือกให้ EP01 แล้ว |
+| W3 โจทย์และโครงเรื่อง | ผู้ใช้อนุมัติให้เริ่มต่อ | [แผน W3](PLAN.md) มีผู้ชม คำถาม ขอบเขต หลักฐาน และโครงซีนคร่าว ๆ |
+| เลือก Catalog รายตอน | เลือกฐานจาก preview แล้ว | [Catalog](CATALOG.md); ยังไม่ติดตั้งหรือ integration |
+| W4 Storyboard/แบบหน้าจอ | จัดทำร่าง v1 | [บท](SCRIPT.md), [Storyboard/แบบหน้าจอ/manifest](STORYBOARD.md); ยังต้องลองอ่านออกเสียงจริง |
+| W5–W7 Sample/ผลิต/ตรวจ | ยังไม่เริ่ม | ไม่มี assets รายตอน เสียง หรือผลตรวจวิดีโอใหม่ |
 
-## รุ่นก่อนหน้า
-- [Blueprint v2](BLUEPRINT-v2.md)
-- [Storyboard v1](script/STORYBOARD.md)
-- [Storylines](video/STORYLINES.md)
-- [Spec](video/SPEC.md) และ [Review](video/REVIEW.md)
-- [MP4 draft v1](exports/ep01-api-introduction-v001-draft.mp4)
-- [ภาพรวม render เดิม](exports/storyboard-rendered.png)
-- [Request screen เดิม](exports/request-screen.png)
-ผลตรวจรุ่นเก่าไม่รับรองงานใหม่; ไม่เขียนทับ source/exports/review ระหว่างรีเซ็ต
+## Next action
+ลองอ่านบทร่างออกเสียง ตรวจเวลาและถ้อยคำ จากนั้นเตรียม APP-Q/APP-A สำหรับ sample B04–B05 ตามแบบใน STORYBOARD ตรวจภาพนิ่งก่อนประกอบ motion พร้อมเสียงร่าง ไม่ต้องขออนุมัติ W3 ซ้ำ
+ช่องทาง ความยาว ระดับเทคนิค และรายละเอียดที่ยังเปิดอยู่ใน PLAN ไม่ใช้ค่าจากคลิปเดิมแทนคำตอบ
 
-## เมื่อต้องกลับมาทำ
-ใช้ workflow/guidelines กลางและ task ที่ระบุขอบเขตใหม่ก่อนเลือกเรื่องหรือซีน
-ตัวละครกลางใหม่คือ [robot](../../shared/assets/characters/robot/README.md) แต่ยังไม่ได้แทนใน source เดิม ภาพคนเดิมคงอยู่เป็นหลักฐานเวอร์ชันเก่า
+## Verification รอบสร้างใหม่
+ตรวจ Markdown local file links, ขอบเขตไฟล์ที่ลบ และ SHA-256 คู่มือ API ผล terminal บันทึกใน [แผนรีเซ็ต](../../docs/plans/2026-11-06-ep01-reset.md)
+ไม่มี visual/storytelling/audio acceptance หรือ live API evidence ในรอบนี้

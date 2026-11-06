@@ -1,10 +1,9 @@
-# Episodes — ผลงานเดิมและพื้นที่รายตอน
+# Episodes
 
-งาน active เป็นการวางระบบระดับโปรเจกต์ ดู [แผนหลัก](../docs/plans/2026-11-06-workspace-foundation.md) ไม่เริ่มผลิตหรือเลือก storyboard จากสารบัญนี้
+งานปัจจุบันคือวางแผน EP01 ใหม่ตาม [Workflow](../docs/WORKFLOW.md) และ [แผนรีเซ็ต](../docs/plans/2026-11-06-ep01-reset.md)
 
-| ID | เรื่อง/สถานะอ้างอิง | ทางเข้า |
+| ID | ทางเข้า | หมายเหตุ |
 |---|---|---|
-| EP01 | แนวคิดคลิปแนะนำ API ที่พักระหว่างรีเซ็ตระบบ | [README ตอน](ep01-api-introduction/README.md) |
-| ยังไม่กำหนดตอน | ร่างคืนสินค้าเดิม เก็บเป็นไอเดีย | [README เดิม](ep01-return-policy/README.md) |
+| EP01 | [ep01-api-introduction](ep01-api-introduction/README.md) | เริ่มใหม่ สถานะและ next action อยู่ README ตอน |
 
-ไม่กำหนด EP02 แทนผู้ใช้ เมื่อกลับมางานรายตอนใช้ workflow และ guidelines กลางก่อน ไม่คัดลอก AGENTS/API/style เข้าแต่ละตอน
+ข้อมูล EP01 รุ่นก่อนและร่างคืนสินค้าถูกลบตามคำยืนยัน ไม่กำหนด EP02 แทนผู้ใช้

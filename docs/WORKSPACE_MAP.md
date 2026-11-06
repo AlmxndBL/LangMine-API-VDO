@@ -1,3 +1,5 @@
+> อัปเดต 6 พฤศจิกายน 2026: ผู้ใช้ยืนยันลบ EP01 เดิมรวมร่างคืนสินค้าแล้ว และให้เริ่ม ep01-api-introduction ใหม่ตาม workflow งาน active คือ W3 วางแผนจากมุมคนดู ยังไม่เจนภาพ ประกอบ timeline หรือ render ข้อความเกี่ยวกับการพัก EP01 หรือหลักฐานรุ่นเก่าด้านล่างเป็นบริบทก่อนคำสั่งนี้ สถานะปัจจุบันดู README ตอนและแผนรีเซ็ต EP01
+
 # Workspace map
 
 Root: C:/Users/Admin/Desktop/work/gitlab_intern/LangMine-API-VDO
@@ -26,7 +28,7 @@ Root: C:/Users/Admin/Desktop/work/gitlab_intern/LangMine-API-VDO
 | episodes/<id>/video/ | HyperFrames source และ QA ตามเวอร์ชัน |
 | episodes/<id>/exports/ | render แยกจาก source |
 
-เอกสาร/blueprint/preview เก่าเป็น historical evidence เก็บตำแหน่งเดิม ไม่ย้ายหรือลบทับ
+เก็บ historical evidence เว้นแต่ผู้ใช้ยืนยันลบชัดเจน เช่น รอบรีเซ็ต EP01 นี้
 เมื่อถึงงานรายตอนให้ระบุ episode ID ชัดก่อนอ่าน/แก้ เอกสารกลางไม่บังคับ EP01
 สำเนา shared ที่ต้องใช้ใน project บันทึกต้นทาง รุ่น/hash และการปรับ ไม่แก้ source กลางเพื่อแก้ตอนเดียว
 ไม่สร้าง template engine, shared backend, runtime หรือ empty directories เผื่ออนาคต
