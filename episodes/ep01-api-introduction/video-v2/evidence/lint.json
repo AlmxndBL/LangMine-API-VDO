@@ -1,0 +1,172 @@
+{
+  "ok": true,
+  "errorCount": 0,
+  "warningCount": 16,
+  "infoCount": 0,
+  "findings": [
+    {
+      "code": "duplicate_media_discovery_risk",
+      "severity": "warning",
+      "message": "Detected 2 matching img entries with the same source/start/duration.",
+      "fixHint": "Avoid duplicated media nodes that can be discovered twice during compilation.",
+      "snippet": "img src=assets/app-q-v1.png data-start= data-duration=",
+      "file": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html"
+    },
+    {
+      "code": "timeline_track_too_dense",
+      "severity": "warning",
+      "message": "Track 1 has 14 timed elements in this HTML file. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+      "fixHint": "Move coherent scene groups into separate .html files under compositions/ and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate.",
+      "file": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html"
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"s01\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "s01",
+      "fixHint": "Move <section id=\"s01\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+      "line": 1,
+      "column": 454
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"s02\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "s02",
+      "fixHint": "Move <section id=\"s02\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+      "line": 3,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"s03\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "s03",
+      "fixHint": "Move <section id=\"s03\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+      "line": 5,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"s04\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "s04",
+      "fixHint": "Move <section id=\"s04\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+      "line": 7,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"s05\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "s05",
+      "fixHint": "Move <section id=\"s05\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+      "line": 9,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"s06\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "s06",
+      "fixHint": "Move <section id=\"s06\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+      "line": 11,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"s07\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "s07",
+      "fixHint": "Move <section id=\"s07\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+      "line": 13,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"s08\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "s08",
+      "fixHint": "Move <section id=\"s08\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+      "line": 15,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"s09\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "s09",
+      "fixHint": "Move <section id=\"s09\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+      "line": 17,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"s10\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "s10",
+      "fixHint": "Move <section id=\"s10\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+      "line": 19,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"s11\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "s11",
+      "fixHint": "Move <section id=\"s11\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+      "line": 27,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"s12\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "s12",
+      "fixHint": "Move <section id=\"s12\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+      "line": 35,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"s13\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "s13",
+      "fixHint": "Move <section id=\"s13\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+      "line": 37,
+      "column": 1
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"s14\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "s14",
+      "fixHint": "Move <section id=\"s14\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+      "line": 39,
+      "column": 1
+    }
+  ],
+  "filesScanned": 1,
+  "_meta": {
+    "version": "0.9.19",
+    "latestVersion": "0.9.19",
+    "updateAvailable": false,
+    "checkedAt": "2026-11-06T09:13:06.889Z",
+    "skillsOutdated": 2,
+    "skillsMissing": 0
+  }
+}
