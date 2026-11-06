@@ -18,7 +18,7 @@ ink("#to-screen", 708, 798, 748, 738, 709, 681);
 
 function draw(path, start, duration) {
   const length = path.getTotalLength();
-  tl.set(path, { strokeDasharray: length, strokeDashoffset: length }, 0);
+  gsap.set(path, { strokeDasharray: length, strokeDashoffset: length });
   tl.set(path, { visibility: "visible" }, start);
   tl.to(path, { strokeDashoffset: 0, duration, ease: "power1.inOut" }, start);
 }
@@ -97,4 +97,5 @@ function wobbleRect (w, h, r, seed, amp) {
           d += " Q " + wob(31) + " " + wob(32) + " " + (r + wob(33)) + " " + wob(34);
           return d;
         };
+
 

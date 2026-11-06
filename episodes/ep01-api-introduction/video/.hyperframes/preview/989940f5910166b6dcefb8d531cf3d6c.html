@@ -1597,7 +1597,7 @@ h1{position:absolute;left:92px;right:92px;top:237px;margin:0;font-size:77px;line
 </style>
 
 <script data-hyperframes-preview-runtime="1" src="/api/runtime.js"></script>
-<meta name="hyperframes-project-signature" content="e223f72aa3962d891f963bb5">
+<meta name="hyperframes-project-signature" content="3284dacac2485de0c4933aca">
 </head>
 <body>
 <main data-hf-id="hf-5v7e" id="sample" data-composition-id="ep01-b04-b05" data-width="1080" data-height="1920" data-fps="30" data-duration="33.167">
@@ -1668,7 +1668,7 @@ ink("#to-app", 708, 1191, 750, 1094, 709, 1013);
 ink("#to-screen", 708, 798, 748, 738, 709, 681);
 function draw(path, start, duration) {
   const length = path.getTotalLength();
-  tl.set(path, { strokeDasharray: length, strokeDashoffset: length }, 0);
+  gsap.set(path, { strokeDasharray: length, strokeDashoffset: length });
   tl.set(path, { visibility: "visible" }, start);
   tl.to(path, { strokeDashoffset: 0, duration, ease: "power1.inOut" }, start);
 }
