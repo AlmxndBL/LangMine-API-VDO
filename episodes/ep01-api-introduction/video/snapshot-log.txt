@@ -1,0 +1,22 @@
+◆  Capturing 11 frames at [4s, 15s, 27s, 37s, 48s, 60s, 71s, 81s, 90s, 101s, 111s] from video
+
+   Fonts: 1 loaded
+   Note: added an end-of-timeline frame at 113.75s. Short beats between your --at times may still be skipped — pass them explicitly.
+   Revision: f98e0823-06a4-4d75-a24e-fad8edd8abf4 (recorded-revision)
+   State: C:\Users\Admin\Desktop\work\gitlab_intern\LangMine-API-VDO\episodes\ep01-api-introduction\video\.hyperframes\video-state.json
+
+◇  12 snapshots saved to C:\Users\Admin\Desktop\work\gitlab_intern\LangMine-API-VDO\episodes\ep01-api-introduction\video\.hyperframes\artifacts\snapshots\b852ae9f-17de-4ec1-a8cd-319768500879
+   C:\Users\Admin\Desktop\work\gitlab_intern\LangMine-API-VDO\episodes\ep01-api-introduction\video\.hyperframes\artifacts\snapshots\b852ae9f-17de-4ec1-a8cd-319768500879\frame-00-at-4s.png
+   C:\Users\Admin\Desktop\work\gitlab_intern\LangMine-API-VDO\episodes\ep01-api-introduction\video\.hyperframes\artifacts\snapshots\b852ae9f-17de-4ec1-a8cd-319768500879\frame-01-at-15s.png
+   C:\Users\Admin\Desktop\work\gitlab_intern\LangMine-API-VDO\episodes\ep01-api-introduction\video\.hyperframes\artifacts\snapshots\b852ae9f-17de-4ec1-a8cd-319768500879\frame-02-at-27s.png
+   C:\Users\Admin\Desktop\work\gitlab_intern\LangMine-API-VDO\episodes\ep01-api-introduction\video\.hyperframes\artifacts\snapshots\b852ae9f-17de-4ec1-a8cd-319768500879\frame-03-at-37s.png
+   C:\Users\Admin\Desktop\work\gitlab_intern\LangMine-API-VDO\episodes\ep01-api-introduction\video\.hyperframes\artifacts\snapshots\b852ae9f-17de-4ec1-a8cd-319768500879\frame-04-at-48s.png
+   C:\Users\Admin\Desktop\work\gitlab_intern\LangMine-API-VDO\episodes\ep01-api-introduction\video\.hyperframes\artifacts\snapshots\b852ae9f-17de-4ec1-a8cd-319768500879\frame-05-at-60s.png
+   C:\Users\Admin\Desktop\work\gitlab_intern\LangMine-API-VDO\episodes\ep01-api-introduction\video\.hyperframes\artifacts\snapshots\b852ae9f-17de-4ec1-a8cd-319768500879\frame-06-at-71s.png
+   C:\Users\Admin\Desktop\work\gitlab_intern\LangMine-API-VDO\episodes\ep01-api-introduction\video\.hyperframes\artifacts\snapshots\b852ae9f-17de-4ec1-a8cd-319768500879\frame-07-at-81s.png
+   C:\Users\Admin\Desktop\work\gitlab_intern\LangMine-API-VDO\episodes\ep01-api-introduction\video\.hyperframes\artifacts\snapshots\b852ae9f-17de-4ec1-a8cd-319768500879\frame-08-at-90s.png
+   C:\Users\Admin\Desktop\work\gitlab_intern\LangMine-API-VDO\episodes\ep01-api-introduction\video\.hyperframes\artifacts\snapshots\b852ae9f-17de-4ec1-a8cd-319768500879\frame-09-at-101s.png
+   C:\Users\Admin\Desktop\work\gitlab_intern\LangMine-API-VDO\episodes\ep01-api-introduction\video\.hyperframes\artifacts\snapshots\b852ae9f-17de-4ec1-a8cd-319768500879\frame-10-at-111s.png
+   C:\Users\Admin\Desktop\work\gitlab_intern\LangMine-API-VDO\episodes\ep01-api-introduction\video\.hyperframes\artifacts\snapshots\b852ae9f-17de-4ec1-a8cd-319768500879\frame-11-at-113.75s.png
+   C:\Users\Admin\Desktop\work\gitlab_intern\LangMine-API-VDO\episodes\ep01-api-introduction\video\.hyperframes\artifacts\snapshots\b852ae9f-17de-4ec1-a8cd-319768500879\contact-sheet-1.jpg (grid view for AI review)
+   C:\Users\Admin\Desktop\work\gitlab_intern\LangMine-API-VDO\episodes\ep01-api-introduction\video\.hyperframes\artifacts\snapshots\b852ae9f-17de-4ec1-a8cd-319768500879\contact-sheet-2.jpg (grid view for AI review)

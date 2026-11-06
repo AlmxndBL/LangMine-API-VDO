@@ -1,0 +1,88 @@
+{
+  "sceneCount": 8,
+  "assets": [
+    {
+      "name": "demo-question.png",
+      "width": 1052,
+      "height": 1495,
+      "pngColorType": 2,
+      "bytes": 1444764
+    },
+    {
+      "name": "demo-answer.png",
+      "width": 1052,
+      "height": 1495,
+      "pngColorType": 2,
+      "bytes": 1709340
+    },
+    {
+      "name": "demo-knowledge.png",
+      "width": 1052,
+      "height": 1495,
+      "pngColorType": 2,
+      "bytes": 1544787
+    },
+    {
+      "name": "demo-voice.png",
+      "width": 1052,
+      "height": 1495,
+      "pngColorType": 2,
+      "bytes": 1669166
+    },
+    {
+      "name": "guide-point.png",
+      "width": 1064,
+      "height": 1479,
+      "pngColorType": 6,
+      "bytes": 1086087
+    },
+    {
+      "name": "guide-explain.png",
+      "width": 1064,
+      "height": 1478,
+      "pngColorType": 6,
+      "bytes": 941107
+    },
+    {
+      "name": "langmind-logo.png",
+      "width": 689,
+      "height": 606,
+      "pngColorType": 6,
+      "bytes": 96320
+    }
+  ],
+  "missingAssets": [],
+  "paletteContrast": [
+    {
+      "fg": "ink",
+      "bg": "paper",
+      "ratio": 13.685917301750274,
+      "normalTextPass": true
+    },
+    {
+      "fg": "teal",
+      "bg": "paper",
+      "ratio": 5.899946575340369,
+      "normalTextPass": true
+    },
+    {
+      "fg": "muted",
+      "bg": "paper",
+      "ratio": 8.200504239283271,
+      "normalTextPass": true
+    },
+    {
+      "fg": "ink",
+      "bg": "yellow",
+      "ratio": 10.26636860449052,
+      "normalTextPass": true
+    },
+    {
+      "fg": "white",
+      "bg": "ink",
+      "ratio": 14.352159837768246,
+      "normalTextPass": true
+    }
+  ],
+  "scope": "Palette calculation only; raster text inspected visually, not certified pixel by pixel"
+}

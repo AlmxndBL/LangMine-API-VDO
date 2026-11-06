@@ -1,0 +1,947 @@
+{
+  "ok": false,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 12
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": false,
+    "errorCount": 5,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 27,
+        "selector": "#s03-answer > div:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 151,
+          "top": 1055.34,
+          "right": 452.27,
+          "bottom": 1182.69,
+          "width": 301.27,
+          "height": 127.35
+        },
+        "containerSelector": "#s03 > section:nth-of-type(1) > p:nth-of-type(1)",
+        "text": "เปิดจันทร์–ศุกร์ 9:00–17:00 ครับ",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s03.html",
+        "bbox": {
+          "x": 151,
+          "y": 1055.34,
+          "width": 301.27,
+          "height": 127.35
+        },
+        "firstSeen": 25.475,
+        "lastSeen": 30.57,
+        "occurrences": 10,
+        "heldMs": 5094.999999999999,
+        "times": [
+          25.475,
+          26.112,
+          26.749,
+          27,
+          27.385,
+          28.022,
+          28.659,
+          29.296,
+          29.933,
+          30.57
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 48,
+        "selector": "#s05 > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 121,
+          "top": 1093.03,
+          "right": 515.95,
+          "bottom": 1182.53,
+          "width": 394.95,
+          "height": 89.5
+        },
+        "containerSelector": "#s05 > section:nth-of-type(1) > p:nth-of-type(1)",
+        "text": "รับ JSON ครบคำตอบ หรือใช้ SSE เพื่อรับข้อความทยอยมา",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s05.html",
+        "bbox": {
+          "x": 121,
+          "y": 1093.03,
+          "width": 394.95,
+          "height": 89.5
+        },
+        "firstSeen": 40.123,
+        "lastSeen": 51.587,
+        "occurrences": 20,
+        "heldMs": 11464.000000000005,
+        "times": [
+          40.123,
+          40.76,
+          41.397,
+          42.034,
+          42.67,
+          43.307,
+          43.944,
+          44.581,
+          45.218,
+          45.855,
+          46.492,
+          47.128,
+          47.765,
+          48,
+          48.402,
+          49.039,
+          49.676,
+          50.313,
+          50.95,
+          51.587
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 81,
+        "selector": "p.footnote",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 121,
+          "top": 1115,
+          "right": 505.64,
+          "bottom": 1158,
+          "width": 384.64,
+          "height": 43
+        },
+        "containerSelector": "#s08 > section:nth-of-type(1) > p:nth-of-type(1)",
+        "text": "ยังไม่ใส่ตัวเลข: ไม่มีข้อมูลใช้งานจริง",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s08.html",
+        "bbox": {
+          "x": 121,
+          "y": 1115,
+          "width": 384.64,
+          "height": 43
+        },
+        "firstSeen": 74.514,
+        "lastSeen": 83.43,
+        "occurrences": 16,
+        "heldMs": 8916.000000000011,
+        "times": [
+          74.514,
+          75.151,
+          75.788,
+          76.425,
+          77.061,
+          77.698,
+          78.335,
+          78.972,
+          79.609,
+          80.246,
+          80.883,
+          81,
+          81.52,
+          82.156,
+          82.793,
+          83.43
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 81,
+        "selector": "#s08 > section:nth-of-type(1) > p:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 82,
+          "top": 1133,
+          "right": 598.02,
+          "bottom": 1272.14,
+          "width": 516.02,
+          "height": 139.14
+        },
+        "containerSelector": "#s08 > section:nth-of-type(1) > div:nth-of-type(3)",
+        "text": "นำข้อมูลจริงมาทำ หน้าติดตามในระบบของเรา",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s08.html",
+        "bbox": {
+          "x": 82,
+          "y": 1133,
+          "width": 516.02,
+          "height": 139.14
+        },
+        "firstSeen": 74.514,
+        "lastSeen": 83.43,
+        "occurrences": 16,
+        "heldMs": 8916.000000000011,
+        "times": [
+          74.514,
+          75.151,
+          75.788,
+          76.425,
+          77.061,
+          77.698,
+          78.335,
+          78.972,
+          79.609,
+          80.246,
+          80.883,
+          81,
+          81.52,
+          82.156,
+          82.793,
+          83.43
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 101,
+        "selector": "#s10-result",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 121,
+          "top": 1192,
+          "right": 557.42,
+          "bottom": 1281.5,
+          "width": 436.42,
+          "height": 89.5
+        },
+        "containerSelector": "#s10 > section:nth-of-type(1) > p:nth-of-type(1)",
+        "text": "รับ answer และข้อมูลประกอบ แล้วแอปจัดการแสดงผล/ข้อผิดพลาด",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s10.html",
+        "bbox": {
+          "x": 121,
+          "y": 1192,
+          "width": 436.42,
+          "height": 89.5
+        },
+        "firstSeen": 100.626,
+        "lastSeen": 104.447,
+        "occurrences": 8,
+        "heldMs": 3820.999999999998,
+        "times": [
+          100.626,
+          101,
+          101.263,
+          101.899,
+          102.536,
+          103.173,
+          103.81,
+          104.447
+        ]
+      }
+    ],
+    "duration": 114,
+    "samples": [
+      4,
+      15,
+      27,
+      37,
+      48,
+      60,
+      71,
+      81,
+      90,
+      101,
+      111
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 5,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      4,
+      27,
+      60,
+      81,
+      111
+    ],
+    "checked": 59,
+    "passed": 59
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 22,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 2 text elements stay under it for 0.5 s or more, the smallest \"แอปของเรา\" at 27 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "แอปของเรา",
+        "selector": "#s01 > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > b:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s01.html",
+        "bbox": {
+          "x": 197,
+          "y": 657.5,
+          "width": 129.22,
+          "height": 41
+        },
+        "time": 0,
+        "times": [
+          0,
+          0
+        ],
+        "fontPx": 27,
+        "floorPx": 28,
+        "seconds": 8.183,
+        "elements": [
+          {
+            "selector": "#s01 > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > b:nth-of-type(1)",
+            "text": "แอปของเรา",
+            "fontPx": 27,
+            "time": 0,
+            "seconds": 8.183
+          },
+          {
+            "selector": "#s01 > section:nth-of-type(1) > div:nth-of-type(5)",
+            "text": "LANGMIND / API INTRO",
+            "fontPx": 27,
+            "time": 0,
+            "seconds": 8.183
+          }
+        ]
+      },
+      {
+        "code": "film_silent",
+        "severity": "warning",
+        "message": "This 114 s film has no sound source (no <audio>, no <video> with sound): add a music bed and sounds on the visible actions unless the person asked for silence; see references/sound.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and \"LANGMIND / API INTRO\" renders at 27 px for 10.85 s: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "LANGMIND / API INTRO",
+        "selector": "#s02 > section:nth-of-type(1) > div:nth-of-type(4)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s02.html",
+        "bbox": {
+          "x": 82,
+          "y": 1789,
+          "width": 321.88,
+          "height": 41
+        },
+        "time": 8.184,
+        "times": [
+          8.184
+        ],
+        "fontPx": 27,
+        "floorPx": 28,
+        "seconds": 10.847,
+        "elements": [
+          {
+            "selector": "#s02 > section:nth-of-type(1) > div:nth-of-type(4)",
+            "text": "LANGMIND / API INTRO",
+            "fontPx": 27,
+            "time": 8.184,
+            "seconds": 10.847
+          }
+        ]
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 5.14 s (13.70–18.84 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 13.703,
+        "seconds": 5.138,
+        "floorSeconds": 3,
+        "until": 18.841
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 2 text elements stay under it for 0.5 s or more, the smallest \"ตัวอย่างการสื่อสาร\" at 27 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "ตัวอย่างการสื่อสาร",
+        "selector": "#s03 > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > b:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s03.html",
+        "bbox": {
+          "x": 125,
+          "y": 532.5,
+          "width": 204.59,
+          "height": 41
+        },
+        "time": 19.032,
+        "times": [
+          19.032,
+          19.032
+        ],
+        "fontPx": 27,
+        "floorPx": 28,
+        "seconds": 11.989,
+        "elements": [
+          {
+            "selector": "#s03 > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > b:nth-of-type(1)",
+            "text": "ตัวอย่างการสื่อสาร",
+            "fontPx": 27,
+            "time": 19.032,
+            "seconds": 11.989
+          },
+          {
+            "selector": "#s03 > section:nth-of-type(1) > div:nth-of-type(5)",
+            "text": "LANGMIND / API INTRO",
+            "fontPx": 27,
+            "time": 19.032,
+            "seconds": 11.989
+          }
+        ]
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 4.95 s (25.88–30.83 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 25.883,
+        "seconds": 4.948,
+        "floorSeconds": 3,
+        "until": 30.831
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and \"LANGMIND / API INTRO\" renders at 27 px for 9.13 s: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "LANGMIND / API INTRO",
+        "selector": "#s04 > section:nth-of-type(1) > div:nth-of-type(4)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s04.html",
+        "bbox": {
+          "x": 82,
+          "y": 1789,
+          "width": 321.88,
+          "height": 41
+        },
+        "time": 31.022,
+        "times": [
+          31.022
+        ],
+        "fontPx": 27,
+        "floorPx": 28,
+        "seconds": 9.135,
+        "elements": [
+          {
+            "selector": "#s04 > section:nth-of-type(1) > div:nth-of-type(4)",
+            "text": "LANGMIND / API INTRO",
+            "fontPx": 27,
+            "time": 31.022,
+            "seconds": 9.135
+          }
+        ]
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 4.19 s (35.78–39.97 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 35.78,
+        "seconds": 4.187,
+        "floorSeconds": 3,
+        "until": 39.967
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 2 text elements stay under it for 0.5 s or more, the smallest \"ตัวอย่างเว็บช่วยลูกค้า\" at 27 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "ตัวอย่างเว็บช่วยลูกค้า",
+        "selector": "#s05 > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > b:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s05.html",
+        "bbox": {
+          "x": 125,
+          "y": 532.5,
+          "width": 235.92,
+          "height": 41
+        },
+        "time": 40.157,
+        "times": [
+          40.157,
+          40.157
+        ],
+        "fontPx": 27,
+        "floorPx": 28,
+        "seconds": 11.99,
+        "elements": [
+          {
+            "selector": "#s05 > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > b:nth-of-type(1)",
+            "text": "ตัวอย่างเว็บช่วยลูกค้า",
+            "fontPx": 27,
+            "time": 40.157,
+            "seconds": 11.99
+          },
+          {
+            "selector": "#s05 > section:nth-of-type(1) > div:nth-of-type(5)",
+            "text": "LANGMIND / API INTRO",
+            "fontPx": 27,
+            "time": 40.157,
+            "seconds": 11.99
+          }
+        ]
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 5.33 s (46.63–51.96 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 46.628,
+        "seconds": 5.329,
+        "floorSeconds": 3,
+        "until": 51.957
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 2 text elements stay under it for 0.5 s or more, the smallest \"ตัวอย่างค้นคู่มือ\" at 27 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "ตัวอย่างค้นคู่มือ",
+        "selector": "#s06 > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > b:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s06.html",
+        "bbox": {
+          "x": 125,
+          "y": 532.5,
+          "width": 174.27,
+          "height": 41
+        },
+        "time": 52.147,
+        "times": [
+          52.147,
+          52.147
+        ],
+        "fontPx": 27,
+        "floorPx": 28,
+        "seconds": 11.99,
+        "elements": [
+          {
+            "selector": "#s06 > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > b:nth-of-type(1)",
+            "text": "ตัวอย่างค้นคู่มือ",
+            "fontPx": 27,
+            "time": 52.147,
+            "seconds": 11.99
+          },
+          {
+            "selector": "#s06 > section:nth-of-type(1) > div:nth-of-type(5)",
+            "text": "LANGMIND / API INTRO",
+            "fontPx": 27,
+            "time": 52.147,
+            "seconds": 11.99
+          }
+        ]
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 4.38 s (59.57–63.95 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 59.569,
+        "seconds": 4.378,
+        "floorSeconds": 3,
+        "until": 63.947
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 2 text elements stay under it for 0.5 s or more, the smallest \"แอปต่อหลาย API เข้าด้วยกัน\" at 27 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "แอปต่อหลาย API เข้าด้วยกัน",
+        "selector": "#s07 > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > b:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s07.html",
+        "bbox": {
+          "x": 125,
+          "y": 532.5,
+          "width": 317.38,
+          "height": 41
+        },
+        "time": 64.137,
+        "times": [
+          64.137,
+          64.137
+        ],
+        "fontPx": 27,
+        "floorPx": 28,
+        "seconds": 9.896,
+        "elements": [
+          {
+            "selector": "#s07 > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > b:nth-of-type(1)",
+            "text": "แอปต่อหลาย API เข้าด้วยกัน",
+            "fontPx": 27,
+            "time": 64.137,
+            "seconds": 9.896
+          },
+          {
+            "selector": "#s07 > section:nth-of-type(1) > div:nth-of-type(5)",
+            "text": "LANGMIND / API INTRO",
+            "fontPx": 27,
+            "time": 64.137,
+            "seconds": 9.896
+          }
+        ]
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 3.81 s (70.04–73.84 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 70.037,
+        "seconds": 3.806,
+        "floorSeconds": 3,
+        "until": 73.843
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 2 text elements stay under it for 0.5 s or more, the smallest \"หมวดข้อมูลที่นำไปทำ dashboard ได้\" at 27 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "หมวดข้อมูลที่นำไปทำ dashboard ได้",
+        "selector": "#s08 > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > b:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s08.html",
+        "bbox": {
+          "x": 125,
+          "y": 532.5,
+          "width": 408.69,
+          "height": 41
+        },
+        "time": 74.033,
+        "times": [
+          74.033,
+          74.033
+        ],
+        "fontPx": 27,
+        "floorPx": 28,
+        "seconds": 10.087,
+        "elements": [
+          {
+            "selector": "#s08 > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > b:nth-of-type(1)",
+            "text": "หมวดข้อมูลที่นำไปทำ dashboard ได้",
+            "fontPx": 27,
+            "time": 74.033,
+            "seconds": 10.087
+          },
+          {
+            "selector": "#s08 > section:nth-of-type(1) > div:nth-of-type(5)",
+            "text": "LANGMIND / API INTRO",
+            "fontPx": 27,
+            "time": 74.033,
+            "seconds": 10.087
+          }
+        ]
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 4.00 s (79.93–83.93 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 79.933,
+        "seconds": 3.997,
+        "floorSeconds": 3,
+        "until": 83.93
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 2 text elements stay under it for 0.5 s or more, the smallest \"ตัวอย่างความสามารถจากคู่มือ\" at 27 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "ตัวอย่างความสามารถจากคู่มือ",
+        "selector": "#s09 > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > b:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s09.html",
+        "bbox": {
+          "x": 125,
+          "y": 532.5,
+          "width": 328.55,
+          "height": 41
+        },
+        "time": 84.12,
+        "times": [
+          84.12,
+          84.12
+        ],
+        "fontPx": 27,
+        "floorPx": 28,
+        "seconds": 8.945,
+        "elements": [
+          {
+            "selector": "#s09 > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > b:nth-of-type(1)",
+            "text": "ตัวอย่างความสามารถจากคู่มือ",
+            "fontPx": 27,
+            "time": 84.12,
+            "seconds": 8.945
+          },
+          {
+            "selector": "#s09 > section:nth-of-type(1) > div:nth-of-type(4)",
+            "text": "LANGMIND / API INTRO",
+            "fontPx": 27,
+            "time": 84.12,
+            "seconds": 8.945
+          }
+        ]
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 3.43 s (89.45–92.88 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 89.449,
+        "seconds": 3.426,
+        "floorSeconds": 3,
+        "until": 92.875
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 2 text elements stay under it for 0.5 s or more, the smallest \"ตัวอย่าง request แบบ blocking\" at 27 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "ตัวอย่าง request แบบ blocking",
+        "selector": "#s10 > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > b:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s10.html",
+        "bbox": {
+          "x": 125,
+          "y": 532.5,
+          "width": 374.75,
+          "height": 41
+        },
+        "time": 93.065,
+        "times": [
+          93.065,
+          93.065
+        ],
+        "fontPx": 27,
+        "floorPx": 28,
+        "seconds": 11.99,
+        "elements": [
+          {
+            "selector": "#s10 > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > b:nth-of-type(1)",
+            "text": "ตัวอย่าง request แบบ blocking",
+            "fontPx": 27,
+            "time": 93.065,
+            "seconds": 11.99
+          },
+          {
+            "selector": "#s10 > section:nth-of-type(1) > div:nth-of-type(5)",
+            "text": "LANGMIND / API INTRO",
+            "fontPx": 27,
+            "time": 93.065,
+            "seconds": 11.99
+          }
+        ]
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 3.24 s (96.68–99.92 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 96.681,
+        "seconds": 3.236,
+        "floorSeconds": 3,
+        "until": 99.917
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 4.19 s (100.68–104.86 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 100.678,
+        "seconds": 4.187,
+        "floorSeconds": 3,
+        "until": 104.865
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and \"LANGMIND / API INTRO\" renders at 27 px for 8.94 s: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "LANGMIND / API INTRO",
+        "selector": "#s11 > section:nth-of-type(1) > div:nth-of-type(4)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s11.html",
+        "bbox": {
+          "x": 82,
+          "y": 1789,
+          "width": 321.88,
+          "height": 41
+        },
+        "time": 105.055,
+        "times": [
+          105.055
+        ],
+        "fontPx": 27,
+        "floorPx": 28,
+        "seconds": 8.945,
+        "elements": [
+          {
+            "selector": "#s11 > section:nth-of-type(1) > div:nth-of-type(4)",
+            "text": "LANGMIND / API INTRO",
+            "fontPx": 27,
+            "time": 105.055,
+            "seconds": 8.945
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "step": 0.1900000000000004,
+    "samples": 599
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "audio_none",
+        "severity": "info",
+        "message": "The film has no sound: no clip in it plays audio.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      }
+    ]
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

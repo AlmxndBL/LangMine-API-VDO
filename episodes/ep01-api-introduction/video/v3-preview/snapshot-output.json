@@ -1,0 +1,621 @@
+{
+  "ok": true,
+  "outputDir": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e",
+  "frames": [
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-01-at-0.3s.png",
+      "time": 0.3,
+      "role": "beat",
+      "label": "s01"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-02-at-4s.png",
+      "time": 4,
+      "role": "beat",
+      "label": "s01 mid"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-03-at-8.3s.png",
+      "time": 8.3,
+      "role": "beat",
+      "label": "s02"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-04-at-16s.png",
+      "time": 16,
+      "role": "beat",
+      "label": "s02 mid"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-05-at-24.3s.png",
+      "time": 24.3,
+      "role": "beat",
+      "label": "s03"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-06-at-29s.png",
+      "time": 29,
+      "role": "beat",
+      "label": "s03 mid"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-07-at-34.3s.png",
+      "time": 34.3,
+      "role": "beat",
+      "label": "s04"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-08-at-42s.png",
+      "time": 42,
+      "role": "beat",
+      "label": "s04 mid"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-09-at-50.3s.png",
+      "time": 50.3,
+      "role": "beat",
+      "label": "s05"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-10-at-57s.png",
+      "time": 57,
+      "role": "beat",
+      "label": "s05 mid"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-11-at-64.3s.png",
+      "time": 64.3,
+      "role": "beat",
+      "label": "s06"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-12-at-71s.png",
+      "time": 71,
+      "role": "beat",
+      "label": "s06 mid"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-13-at-78.3s.png",
+      "time": 78.3,
+      "role": "beat",
+      "label": "s07"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-14-at-85s.png",
+      "time": 85,
+      "role": "beat",
+      "label": "s07 mid"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-15-at-92.3s.png",
+      "time": 92.3,
+      "role": "beat",
+      "label": "s08"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-16-at-98s.png",
+      "time": 98,
+      "role": "beat",
+      "label": "s08 mid"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-01-1-at-7.8s.png",
+      "time": 7.8,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-01-2-at-7.9s.png",
+      "time": 7.9,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-01-3-at-8s.png",
+      "time": 8,
+      "role": "seam",
+      "label": "cut s01 -> s02"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-01-4-at-8.1s.png",
+      "time": 8.1,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-01-5-at-8.2s.png",
+      "time": 8.2,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-02-1-at-23.8s.png",
+      "time": 23.8,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-02-2-at-23.9s.png",
+      "time": 23.9,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-02-3-at-24s.png",
+      "time": 24,
+      "role": "seam",
+      "label": "cut s02 -> s03"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-02-4-at-24.1s.png",
+      "time": 24.1,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-02-5-at-24.2s.png",
+      "time": 24.2,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-03-1-at-33.8s.png",
+      "time": 33.8,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-03-2-at-33.9s.png",
+      "time": 33.9,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-03-3-at-34s.png",
+      "time": 34,
+      "role": "seam",
+      "label": "cut s03 -> s04"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-03-4-at-34.1s.png",
+      "time": 34.1,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-03-5-at-34.2s.png",
+      "time": 34.2,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-04-1-at-49.8s.png",
+      "time": 49.8,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-04-2-at-49.9s.png",
+      "time": 49.9,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-04-3-at-50s.png",
+      "time": 50,
+      "role": "seam",
+      "label": "cut s04 -> s05"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-04-4-at-50.1s.png",
+      "time": 50.1,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-04-5-at-50.2s.png",
+      "time": 50.2,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-05-1-at-63.8s.png",
+      "time": 63.8,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-05-2-at-63.9s.png",
+      "time": 63.9,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-05-3-at-64s.png",
+      "time": 64,
+      "role": "seam",
+      "label": "cut s05 -> s06"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-05-4-at-64.1s.png",
+      "time": 64.1,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-05-5-at-64.2s.png",
+      "time": 64.2,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-06-1-at-77.8s.png",
+      "time": 77.8,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-06-2-at-77.9s.png",
+      "time": 77.9,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-06-3-at-78s.png",
+      "time": 78,
+      "role": "seam",
+      "label": "cut s06 -> s07"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-06-4-at-78.1s.png",
+      "time": 78.1,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-06-5-at-78.2s.png",
+      "time": 78.2,
+      "role": "seam",
+      "label": "+0.2"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-07-1-at-91.8s.png",
+      "time": 91.8,
+      "role": "seam",
+      "label": "cut -0.2"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-07-2-at-91.9s.png",
+      "time": 91.9,
+      "role": "seam",
+      "label": "-0.1"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-07-3-at-92s.png",
+      "time": 92,
+      "role": "seam",
+      "label": "cut s07 -> s08"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-07-4-at-92.1s.png",
+      "time": 92.1,
+      "role": "seam",
+      "label": "+0.1"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-07-5-at-92.2s.png",
+      "time": 92.2,
+      "role": "seam",
+      "label": "+0.2"
+    }
+  ],
+  "contactSheets": [
+    "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-beats.jpg",
+    "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-seam-01.jpg",
+    "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-seam-02.jpg",
+    "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-seam-03.jpg",
+    "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-seam-04.jpg",
+    "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-seam-05.jpg",
+    "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-seam-06.jpg",
+    "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-seam-07.jpg",
+    "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-phone.jpg"
+  ],
+  "review": {
+    "window": [
+      0,
+      104
+    ],
+    "scenes": [
+      {
+        "id": "s01",
+        "start": 0,
+        "end": 8
+      },
+      {
+        "id": "s02",
+        "start": 8,
+        "end": 24
+      },
+      {
+        "id": "s03",
+        "start": 24,
+        "end": 34
+      },
+      {
+        "id": "s04",
+        "start": 34,
+        "end": 50
+      },
+      {
+        "id": "s05",
+        "start": 50,
+        "end": 64
+      },
+      {
+        "id": "s06",
+        "start": 64,
+        "end": 78
+      },
+      {
+        "id": "s07",
+        "start": 78,
+        "end": 92
+      },
+      {
+        "id": "s08",
+        "start": 92,
+        "end": 104
+      }
+    ],
+    "beats": [
+      {
+        "time": 0.3,
+        "label": "s01",
+        "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-01-at-0.3s.png"
+      },
+      {
+        "time": 4,
+        "label": "s01 mid",
+        "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-02-at-4s.png"
+      },
+      {
+        "time": 8.3,
+        "label": "s02",
+        "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-03-at-8.3s.png"
+      },
+      {
+        "time": 16,
+        "label": "s02 mid",
+        "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-04-at-16s.png"
+      },
+      {
+        "time": 24.3,
+        "label": "s03",
+        "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-05-at-24.3s.png"
+      },
+      {
+        "time": 29,
+        "label": "s03 mid",
+        "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-06-at-29s.png"
+      },
+      {
+        "time": 34.3,
+        "label": "s04",
+        "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-07-at-34.3s.png"
+      },
+      {
+        "time": 42,
+        "label": "s04 mid",
+        "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-08-at-42s.png"
+      },
+      {
+        "time": 50.3,
+        "label": "s05",
+        "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-09-at-50.3s.png"
+      },
+      {
+        "time": 57,
+        "label": "s05 mid",
+        "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-10-at-57s.png"
+      },
+      {
+        "time": 64.3,
+        "label": "s06",
+        "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-11-at-64.3s.png"
+      },
+      {
+        "time": 71,
+        "label": "s06 mid",
+        "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-12-at-71s.png"
+      },
+      {
+        "time": 78.3,
+        "label": "s07",
+        "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-13-at-78.3s.png"
+      },
+      {
+        "time": 85,
+        "label": "s07 mid",
+        "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-14-at-85s.png"
+      },
+      {
+        "time": 92.3,
+        "label": "s08",
+        "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-15-at-92.3s.png"
+      },
+      {
+        "time": 98,
+        "label": "s08 mid",
+        "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\beat-16-at-98s.png"
+      }
+    ],
+    "seams": [
+      {
+        "time": 8,
+        "from": "s01",
+        "to": "s02",
+        "times": [
+          7.8,
+          7.9,
+          8,
+          8.1,
+          8.2
+        ],
+        "paths": [
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-01-1-at-7.8s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-01-2-at-7.9s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-01-3-at-8s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-01-4-at-8.1s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-01-5-at-8.2s.png"
+        ],
+        "sheet": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-seam-01.jpg"
+      },
+      {
+        "time": 24,
+        "from": "s02",
+        "to": "s03",
+        "times": [
+          23.8,
+          23.9,
+          24,
+          24.1,
+          24.2
+        ],
+        "paths": [
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-02-1-at-23.8s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-02-2-at-23.9s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-02-3-at-24s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-02-4-at-24.1s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-02-5-at-24.2s.png"
+        ],
+        "sheet": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-seam-02.jpg"
+      },
+      {
+        "time": 34,
+        "from": "s03",
+        "to": "s04",
+        "times": [
+          33.8,
+          33.9,
+          34,
+          34.1,
+          34.2
+        ],
+        "paths": [
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-03-1-at-33.8s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-03-2-at-33.9s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-03-3-at-34s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-03-4-at-34.1s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-03-5-at-34.2s.png"
+        ],
+        "sheet": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-seam-03.jpg"
+      },
+      {
+        "time": 50,
+        "from": "s04",
+        "to": "s05",
+        "times": [
+          49.8,
+          49.9,
+          50,
+          50.1,
+          50.2
+        ],
+        "paths": [
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-04-1-at-49.8s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-04-2-at-49.9s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-04-3-at-50s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-04-4-at-50.1s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-04-5-at-50.2s.png"
+        ],
+        "sheet": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-seam-04.jpg"
+      },
+      {
+        "time": 64,
+        "from": "s05",
+        "to": "s06",
+        "times": [
+          63.8,
+          63.9,
+          64,
+          64.1,
+          64.2
+        ],
+        "paths": [
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-05-1-at-63.8s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-05-2-at-63.9s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-05-3-at-64s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-05-4-at-64.1s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-05-5-at-64.2s.png"
+        ],
+        "sheet": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-seam-05.jpg"
+      },
+      {
+        "time": 78,
+        "from": "s06",
+        "to": "s07",
+        "times": [
+          77.8,
+          77.9,
+          78,
+          78.1,
+          78.2
+        ],
+        "paths": [
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-06-1-at-77.8s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-06-2-at-77.9s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-06-3-at-78s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-06-4-at-78.1s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-06-5-at-78.2s.png"
+        ],
+        "sheet": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-seam-06.jpg"
+      },
+      {
+        "time": 92,
+        "from": "s07",
+        "to": "s08",
+        "times": [
+          91.8,
+          91.9,
+          92,
+          92.1,
+          92.2
+        ],
+        "paths": [
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-07-1-at-91.8s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-07-2-at-91.9s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-07-3-at-92s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-07-4-at-92.1s.png",
+          "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\seam-07-5-at-92.2s.png"
+        ],
+        "sheet": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-seam-07.jpg"
+      }
+    ],
+    "sheets": {
+      "beats": [
+        "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-beats.jpg"
+      ],
+      "seams": [
+        "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-seam-01.jpg",
+        "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-seam-02.jpg",
+        "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-seam-03.jpg",
+        "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-seam-04.jpg",
+        "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-seam-05.jpg",
+        "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-seam-06.jpg",
+        "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-seam-07.jpg"
+      ],
+      "phone": [
+        "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\v3-preview\\.hyperframes\\artifacts\\snapshots\\104d45b5-4747-404d-b896-78b4b8799e4e\\review-phone.jpg"
+      ]
+    },
+    "notes": []
+  },
+  "_meta": {
+    "version": "0.9.19",
+    "latestVersion": "0.9.19",
+    "updateAvailable": false,
+    "checkedAt": "2026-11-06T09:13:06.889Z",
+    "skillsOutdated": 2,
+    "skillsMissing": 0
+  }
+}
