@@ -1,0 +1,68 @@
+[
+  {
+    "file": "assets\\05-point-up.png",
+    "sha256": "6596f6b0a6fd7a57a3a6cc6c31b8da13e18cf17bf14777351480bd222e04dc01",
+    "size": [
+      445,
+      436
+    ],
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ]
+  },
+  {
+    "file": "assets\\app-a-v1.png",
+    "sha256": "094abfe59ea69c3e3810ae006d9e023eeb6f36a8182eeb037e2ce0b092f3bfe2",
+    "size": [
+      1122,
+      1402
+    ],
+    "mode": "RGB",
+    "alpha_range": null
+  },
+  {
+    "file": "assets\\app-followup-v2.png",
+    "sha256": "fc1683053f8147cd94e701bf2a21f88ecd926e79f6f7869e4944c07c1bd29386",
+    "size": [
+      1122,
+      1402
+    ],
+    "mode": "RGB",
+    "alpha_range": null
+  },
+  {
+    "file": "assets\\app-q-v1.png",
+    "sha256": "7321d3fac317bd4506570c4ca846c624d2603a6caa4778a608315fb9aabdf244",
+    "size": [
+      1122,
+      1402
+    ],
+    "mode": "RGB",
+    "alpha_range": null
+  },
+  {
+    "file": "assets\\knowledge-v2.png",
+    "sha256": "61567004bce012c6700e9b9733d0066a0f5826af7524ebd1609e5818787b7221",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha_range": null
+  },
+  {
+    "file": "assets\\langmind-logo.png",
+    "sha256": "025dbb6064076ac724f42009635e715f985a3d2df8abfa374a8fcec398979c49",
+    "size": [
+      689,
+      606
+    ],
+    "mode": "RGBA",
+    "alpha_range": [
+      0,
+      255
+    ]
+  }
+]

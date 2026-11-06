@@ -1,0 +1,83 @@
+{
+  "errors": [],
+  "externalRequests": 0,
+  "assets": {
+    "fonts": true,
+    "broken": 0
+  },
+  "captionOverflows": [],
+  "seekMatches": true,
+  "frames": [
+    {
+      "scene": "s01",
+      "time": 7.874999999999999,
+      "file": "s01.jpg"
+    },
+    {
+      "scene": "s02",
+      "time": 20.525,
+      "file": "s02.jpg"
+    },
+    {
+      "scene": "s03",
+      "time": 35.875,
+      "file": "s03.jpg"
+    },
+    {
+      "scene": "s04",
+      "time": 50.375,
+      "file": "s04.jpg"
+    },
+    {
+      "scene": "s05",
+      "time": 65.7875,
+      "file": "s05.jpg"
+    },
+    {
+      "scene": "s06",
+      "time": 82.4816,
+      "file": "s06.jpg"
+    },
+    {
+      "scene": "s07",
+      "time": 99.06960000000001,
+      "file": "s07.jpg"
+    },
+    {
+      "scene": "s08",
+      "time": 115.90100000000001,
+      "file": "s08.jpg"
+    },
+    {
+      "scene": "s09",
+      "time": 130.3201,
+      "file": "s09.jpg"
+    },
+    {
+      "scene": "s10",
+      "time": 143.6765,
+      "file": "s10.jpg"
+    },
+    {
+      "scene": "s11",
+      "time": 159.2831,
+      "file": "s11.jpg"
+    },
+    {
+      "scene": "s12",
+      "time": 175.62699999999998,
+      "file": "s12.jpg"
+    },
+    {
+      "scene": "s13",
+      "time": 191.65859999999998,
+      "file": "s13.jpg"
+    },
+    {
+      "scene": "s14",
+      "time": 208.99659999999997,
+      "file": "s14.jpg"
+    }
+  ],
+  "duration": 214.37799999999996
+}

@@ -1,0 +1,679 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 16,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "duplicate_media_discovery_risk",
+        "severity": "warning",
+        "message": "Detected 2 matching img entries with the same source/start/duration.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Avoid duplicated media nodes that can be discovered twice during compilation."
+      },
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "Track 1 has 14 timed elements in this HTML file. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into separate .html files under compositions/ and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s01\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s01",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s01\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s02\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s02",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s02\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s03\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s03",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s03\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s04\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s04",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s04\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s05\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s05",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s05\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s06\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s06",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s06\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s07\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s07",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s07\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s08\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s08",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s08\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s09\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s09",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s09\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s10\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s10",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s10\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s11\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s11",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s11\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s12\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s12",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s12\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s13\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s13",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s13\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"s14\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#s14",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"s14\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 5,
+    "findings": [
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 68.036,
+        "selector": "#s05-cap-3",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 160.31,
+          "top": 1626,
+          "right": 919.67,
+          "bottom": 1753.34,
+          "width": 759.36,
+          "height": 127.34
+        },
+        "containerSelector": "#s05-cap-4",
+        "text": "ส่วนหน้าจอที่ผู้ใช้เห็น ยังเป็นสิ่งที่แอปของเราออกแบบและ",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {
+          "data-start": "64.525000",
+          "data-duration": "3.570000",
+          "data-track-index": "8",
+          "data-track-kind": "captions",
+          "data-layout-allow-caption-zone": ""
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 160.31,
+          "y": 1626,
+          "width": 759.36,
+          "height": 127.34
+        },
+        "firstSeen": 68.036,
+        "lastSeen": 68.036,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          68.036
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 99.07,
+        "selector": "div.device.followup-device > div:nth-of-type(2) > img:nth-of-type(1)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 126.83,
+          "top": 376.31,
+          "right": 953.17,
+          "bottom": 1408.85,
+          "width": 826.34,
+          "height": 1032.54
+        },
+        "containerSelector": "div.device.followup-device > div:nth-of-type(2)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 171,
+          "top": 526,
+          "right": 909,
+          "bottom": 1448.16,
+          "width": 738,
+          "height": 922.16
+        },
+        "overflow": {
+          "left": 44.17,
+          "right": 44.17,
+          "top": 149.69
+        },
+        "dataAttributes": {
+          "data-hf-render-id": "hf-media-4",
+          "data-hf-authored-opacity": ""
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 126.83,
+          "y": 376.31,
+          "width": 826.34,
+          "height": 1032.54
+        },
+        "firstSeen": 99.07,
+        "lastSeen": 99.07,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          99.07
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 151.477,
+        "selector": "div.pipeline.return > div:nth-of-type(2) > small:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 345.67,
+          "top": 965.14,
+          "right": 734.31,
+          "bottom": 1008.14,
+          "width": 388.64,
+          "height": 43
+        },
+        "containerSelector": "div.pipeline.return > div:nth-of-type(4)",
+        "text": "เชื่อมต่อ • เก็บกุญแจอย่างปลอดภัย",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 345.67,
+          "y": 965.14,
+          "width": 388.64,
+          "height": 43
+        },
+        "firstSeen": 151.477,
+        "lastSeen": 151.477,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          151.477
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 151.977,
+        "selector": "div.pipeline.return > div:nth-of-type(2) > strong:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 398.72,
+          "top": 888,
+          "right": 681.27,
+          "bottom": 962,
+          "width": 282.55,
+          "height": 74
+        },
+        "containerSelector": "div.pipeline.return > div:nth-of-type(4)",
+        "text": "ระบบของแอป",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 398.72,
+          "y": 888,
+          "width": 282.55,
+          "height": 74
+        },
+        "firstSeen": 151.977,
+        "lastSeen": 151.977,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          151.977
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 174.583,
+        "selector": "#s12-cap-2",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 167.45,
+          "top": 1626,
+          "right": 912.53,
+          "bottom": 1753.34,
+          "width": 745.08,
+          "height": 127.34
+        },
+        "containerSelector": "#s12-cap-3",
+        "text": "เตรียมระบบเสียงไว้ ก็ส่งข้อความไปอ่านออกเสียงต่อได้ การ",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {
+          "data-start": "171.089500",
+          "data-duration": "3.507500",
+          "data-track-index": "8",
+          "data-track-kind": "captions",
+          "data-layout-allow-caption-zone": ""
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 167.45,
+          "y": 1626,
+          "width": 745.08,
+          "height": 127.34
+        },
+        "firstSeen": 174.583,
+        "lastSeen": 174.583,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          174.583
+        ]
+      }
+    ],
+    "duration": 214.37799999999996,
+    "samples": [
+      7.875,
+      35.875,
+      82.482,
+      99.07,
+      143.677,
+      159.283,
+      208.997
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 5,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      7.875,
+      35.875,
+      99.07,
+      143.677,
+      208.997
+    ],
+    "checked": 55,
+    "passed": 55
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 2,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 8 text elements stay under it for 0.5 s or more, the smallest \"แอปของเรา\" at 18 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "แอปของเรา",
+        "selector": "div.device.hook-device > div:nth-of-type(1) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 482.81,
+          "y": 490.5,
+          "width": 114.36,
+          "height": 38
+        },
+        "time": 0,
+        "times": [
+          0,
+          87.684,
+          115.242,
+          128.126,
+          156.757,
+          181.81,
+          184.673,
+          187.894
+        ],
+        "fontPx": 18,
+        "floorPx": 28,
+        "seconds": 11.453,
+        "elements": [
+          {
+            "selector": "div.device.hook-device > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "แอปของเรา",
+            "fontPx": 18,
+            "time": 0,
+            "seconds": 11.453
+          },
+          {
+            "selector": "div.device.followup-device > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "แอปของเรา",
+            "fontPx": 25,
+            "time": 87.684,
+            "seconds": 16.463
+          },
+          {
+            "selector": "div.example-screen > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "แอปของเรา",
+            "fontPx": 25,
+            "time": 128.126,
+            "seconds": 6.442
+          },
+          {
+            "selector": "div.answer-display > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "แอปของเรา",
+            "fontPx": 25,
+            "time": 156.757,
+            "seconds": 7.516
+          },
+          {
+            "selector": "div.voice-condition.piece",
+            "text": "ต้องเปิดฟีเจอร์เสียงและสิทธิ์ที่เกี่ยวข้อง",
+            "fontPx": 27,
+            "time": 115.242,
+            "seconds": 6.084
+          },
+          {
+            "selector": "div.task-group > div:nth-of-type(1) > small:nth-of-type(1)",
+            "text": "ฝั่งระบบ",
+            "fontPx": 27,
+            "time": 181.81,
+            "seconds": 14.673
+          },
+          {
+            "selector": "div.task-group > div:nth-of-type(2) > small:nth-of-type(1)",
+            "text": "ผู้ใช้แต่ละคน",
+            "fontPx": 27,
+            "time": 184.673,
+            "seconds": 11.81
+          },
+          {
+            "selector": "div.task-group > div:nth-of-type(3) > small:nth-of-type(1)",
+            "text": "ระหว่างใช้งาน",
+            "fontPx": 27,
+            "time": 187.894,
+            "seconds": 8.589
+          }
+        ]
+      },
+      {
+        "code": "film_silent",
+        "severity": "warning",
+        "message": "This 214 s film has no sound source (no <audio>, no <video> with sound): add a music bed and sounds on the visible actions unless the person asked for silence; see references/sound.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      }
+    ],
+    "enabled": true,
+    "step": 0.3580000000000041,
+    "samples": 599
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "audio_none",
+        "severity": "info",
+        "message": "The film has no sound: no clip in it plays audio.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      }
+    ]
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "c2a42a34-8ca7-4a9e-a4b5-159d494e18ca",
+    "revision": "5ea7a486-a5e0-4d7b-9f07-da2e7702f31c",
+    "report": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video-v2\\.hyperframes\\artifacts\\checks\\c2a42a34-8ca7-4a9e-a4b5-159d494e18ca.json",
+    "attribution": "recorded-revision"
+  },
+  "_meta": {
+    "version": "0.9.19",
+    "latestVersion": "0.9.19",
+    "updateAvailable": false,
+    "checkedAt": "2026-11-06T15:33:44.332Z",
+    "skillsOutdated": 2,
+    "skillsMissing": 0,
+    "updateNotice": "For the user: 2 installed HyperFrames skills are out of date (this run is HyperFrames CLI 0.9.19). To update them, run: npx hyperframes update"
+  }
+}
