@@ -4,7 +4,7 @@
 
 Workspace ของ Jack สำหรับวางแผนและผลิตคลิปภาษาไทยเกี่ยวกับ LangMind API ผู้ชมคือ developer และคนที่ต้องการนำ AI/API ไปสร้างฟีเจอร์
 
-**งานปัจจุบัน: EP01 v2 แบบขยายคำอธิบาย** ดู [README ตอน](episodes/ep01-api-introduction/README.md) และ [แผน v2](docs/plans/2026-11-06-ep01-v2.md) เสียงเต็มยังค้างหลัง Edge TTS ล้มเหลวและหยุดเรียกซ้ำ
+**งานปัจจุบัน: EP01 v2 แบบขยายคำอธิบาย** มี draft พร้อมเสียงและฉบับปรับฟอนต์แล้ว ดู [README ตอน](episodes/ep01-api-introduction/README.md) สำหรับสถานะและข้อจำกัด หลักการทำตอนต่อไปอยู่ใน [Workflow](docs/WORKFLOW.md)
 
 ## เริ่มจากที่นี่
 | เอกสาร | หน้าที่ |

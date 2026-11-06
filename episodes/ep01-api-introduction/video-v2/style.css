@@ -34,3 +34,15 @@ svg path{fill:none;stroke:var(--ink);stroke-width:8;stroke-linecap:round;stroke-
 @media(prefers-reduced-motion:reduce){body.preview-reduced .progress{display:none}}
 
 .voice-condition{font-size:29px}.task small{font-size:29px}
+.thread-tag{left:190px;top:1400px;padding:8px 20px}
+.return .traveler{left:100px;max-width:none;font-size:32px}
+.state-flow{position:absolute;top:545px;left:120px;right:120px}
+.state-origin{width:520px;margin:auto}
+.state-flow svg{display:block;width:100%;height:210px}
+.state-outcomes{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.state-outcomes .diagram-box{padding:24px 14px}
+.state-outcomes strong{font-size:43px}
+.state-outcomes small{font-size:29px}
+.state-wait{background:#e2edcf}
+.state-error{background:#f0e3d6}
+.state-review{top:1220px;transform:none;font-size:42px}

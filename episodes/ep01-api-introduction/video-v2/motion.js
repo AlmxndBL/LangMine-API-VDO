@@ -22,22 +22,26 @@ for (const s of scenes) {
   if (s.kind === 'followup') {
     tl.fromTo(`${selector} .screen-slot img`, { scale: 1.02, y: 60 }, { scale: 1.12, y: -95, duration: s.duration * .5, ease: 'power1.inOut' }, at(.22));
   }
-  if (s.kind === 'example') {
-    tl.to(`${selector} .source-note`, { scale: .84, opacity: 0, duration: .5 }, at(.5));
-    tl.to(`${selector} .example-screen`, { opacity: 1, duration: .5 }, at(.52));
-  }
   if (s.kind === 'outbound') {
     tl.set(`${selector} .api-tag`, { x: 175, y: 20 }, s.start);
-    tl.fromTo(`${selector} .traveler`, { opacity: 0, y: 0 }, { opacity: 1, duration: .2 }, at(.24));
-    tl.to(`${selector} .traveler`, { y: 345, duration: s.duration * .23, ease: 'power1.inOut' }, at(.28));
-    tl.to(`${selector} .flow-service`, { backgroundColor: '#c6e0d7', duration: .4 }, at(.55));
+    tl.fromTo(`${selector} .traveler`, { opacity: 0, y: -36 }, { opacity: 1, y: 0, duration: .45 }, at(.08));
+    tl.to(`${selector} .flow-app`, { backgroundColor: '#c9dcb0', duration: .35 }, at(.22));
+    tl.to(`${selector} .traveler`, { y: 335, duration: .9, ease: 'power1.inOut' }, at(.43));
+    tl.to(`${selector} .flow-service`, { backgroundColor: '#c6e0d7', duration: .4 }, at(.68));
   }
   if (s.kind === 'inbound') {
     tl.fromTo(`${selector} .traveler`, { opacity: 0, y: 345 }, { opacity: 1, duration: .25 }, at(.08));
-    tl.to(`${selector} .traveler`, { y: 0, duration: s.duration * .24, ease: 'power1.inOut' }, at(.12));
-    tl.to(`${selector} .return-diagram`, { opacity: 0, scale: .96, duration: .35 }, at(.5));
-    tl.to(`${selector} .answer-display`, { opacity: 1, duration: .4 }, at(.52));
-    tl.to(`${selector} .answer-display .screen-slot img`, { scale: 1.12, y: -75, duration: .9, ease: 'power2.inOut' }, at(.72));
+    tl.to(`${selector} .flow-app`, { backgroundColor: '#c6e0d7', duration: .4 }, at(.27));
+    tl.to(`${selector} .traveler`, { y: 0, duration: .95, ease: 'power1.inOut' }, at(.43));
+    tl.to(`${selector} .return-diagram`, { opacity: 0, scale: .96, duration: .35 }, at(.66));
+    tl.to(`${selector} .answer-display`, { opacity: 1, duration: .4 }, at(.69));
+    tl.to(`${selector} .answer-display .screen-slot img`, { scale: 1.12, y: -60, duration: .8, ease: 'power2.inOut' }, at(.81));
+  }
+  if (s.kind === 'responsibility') {
+    tl.fromTo(`${selector} .state-wait`, { opacity: 0 }, { opacity: 1, duration: .35 }, at(.12));
+    tl.fromTo(`${selector} .state-error`, { opacity: 0 }, { opacity: 1, duration: .35 }, at(.33));
+    tl.to(`${selector} .state-wait`, { backgroundColor: '#fffdf7', duration: .35 }, at(.33));
+    tl.fromTo(`${selector} .state-review`, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: .45 }, at(.71));
   }
   if (s.kind === 'brand') {
     tl.fromTo(`${selector} .robot`, { y: 60, opacity: 0 }, { y: 0, opacity: 1, duration: .6, ease: 'power2.out' }, at(.12));

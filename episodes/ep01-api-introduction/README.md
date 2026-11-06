@@ -5,19 +5,21 @@ Episode ID: `ep01-api-introduction`
 
 ## งานปัจจุบัน: v2
 
+มี [draft พร้อมเสียง Kore](video-voice/ep01-v2-voice-draft.mp4) แยกจาก animatic โดยใช้เสียง 11 ช่วงที่สร้างใน Voice Studio และขยายเวลาฉากตามความยาวไฟล์เสียง [ผลตรวจและข้อจำกัด](video-voice/REVIEW.md) ข้อความบนจอเป็นข้อความสรุปและจับเวลาประมาณ ยังต้องฟังตรวจจังหวะและการออกเสียงตลอดคลิป
+
+มี [ฉบับปรับฟอนต์ Sarabun และจัดซับกลางกรอบ](video-voice/ep01-v2-voice-sarabun.mp4) ตรวจ HyperFrames check, MP4 decode และดูเฟรมมือถือแล้ว เสียงและ timing ใช้ชุดเดิม ยังต้องตรวจซับกับเสียงจริงตลอดคลิป
+
 ผู้ใช้ให้ขยายคำอธิบาย ไม่ล็อกความยาว เพิ่มภาพและ motion โดยใช้ antislop AFTER และ ui-ux-pro-max ดู [แผน v2](../../docs/plans/2026-11-06-ep01-v2.md), [บท/claim ledger](SCRIPT-v2.md) และ [Storyboard v2](STORYBOARD-v2.md)
 
-มี animatic ทั้งเรื่อง 14 ช่วง ความยาว 214.378 วินาที ประมาณ 3:34 ที่ [video-v2](video-v2/index.html) ใช้เวลาอ่านข้อความชั่วคราว ยังไม่ใช่ timing จากเสียงเต็ม
+ฉบับตรวจภาพ r2 มี 11 ฉาก ความยาว 1:41.63 ตามเวลาอ่านชั่วคราว พาคำถามเดิมไปจนเห็นคำตอบกลับก่อนอธิบายงานต่อยอด และแสดงสถานะรอ/เรียกไม่สำเร็จเป็นแผนภาพ [เปิด source](video-v2/index.html)
 
-- [ดู MP4 animatic v2 (ไม่มีเสียงพากย์)](video-v2/ep01-v2-animatic.mp4)
-- [ภาพจาก MP4 ที่ขนาดมือถือ](video-v2/evidence/rendered-mobile-frames.jpg)
-- [ทดลองเสียงผู้หญิงช่วงแรก](video-v2/assets/female-voice-audition.mp3)
-- [ผลตรวจและข้อจำกัด v2](video-v2/REVIEW.md)
-- [ที่มาภาพและ prompt เต็ม](video-v2/evidence/ASSETS-v2.md)
+- [MP4 animatic v2 r2](video-v2/ep01-v2-animatic-r2.mp4)
+- [เฟรมจาก MP4 r2 ที่ขนาดมือถือ](video-v2/evidence/rendered-mobile-r2.jpg)
+- [ผลตรวจ r2](video-v2/REVIEW-r2.md)
+- [MP4 animatic v2 เดิม](video-v2/ep01-v2-animatic.mp4) และ [ผลตรวจเดิม](video-v2/REVIEW.md)
+- [ที่มาภาพและ prompt](video-v2/evidence/ASSETS-v2.md)
 
-เสียงเต็มยังไม่สำเร็จ: ผู้ใช้เลือกและอนุญาตส่งบทไป Edge TTS ผู้หญิง Premwadee; ได้ช่วงแรก แต่ช่วงถัดไป NoAudioReceived สองครั้ง ผู้ใช้ให้ทดลองประโยคสั้นอีกหนึ่งรอบ ยังล้มเหลว จึงหยุดตามคำสั่ง ไม่เปลี่ยน provider ไม่ใช้เสียงเดิมแทน และไม่อ้างว่าคลิปเสียงเสร็จแล้ว
-
-ขั้นถัดไป: ตรวจ animatic/บททั้งเรื่องกับผู้ใช้และผู้เริ่มต้น แล้วเลือกวิธีพากย์ที่ใช้งานได้ก่อนปรับ timing สุดท้าย ไม่เรียก Edge ซ้ำอัตโนมัติ
+ผู้ใช้เลือกเสียงทดลอง Kore แบบที่ 2 และให้ประกอบเสียงทั้งตอน เก็บ [audition เดิม](video-v2/assets/female-voice-audition.mp3) เป็นหลักฐานการทดลอง
 
 ## ประวัติ sample v1
 
