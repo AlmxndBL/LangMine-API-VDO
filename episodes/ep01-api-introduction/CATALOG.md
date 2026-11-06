@@ -18,3 +18,9 @@ custom อนุญาตเฉพาะการจัด node/ลูกศร�
 ## หลักฐานเครื่องมือ
 `npx --no-install hyperframes catalog --query 'diagram flow arrow' --json` ล้มเหลว ENOTFOUND registry.npmjs.org ไม่ได้ผล catalog จาก CLI และไม่ได้ติดตั้ง dependency
 จึงตรวจจากหน้า preview ทางการด้วย browser; ไม่มีการอ้างว่าอ่าน source หรือติดตั้งสำเร็จจากภาพ preview
+
+## Integration ของ sample v1
+
+CLI 0.9.19 ค้นและติดตั้งสองรายการได้ในรอบนี้ มีไฟล์ต้นทางและ hash ใน [lock](video/hyperframes.lock.json) การทดสอบเลือกนำ seeded outline, ลำดับวาด และ quadratic connector พร้อม tangent barbs จาก hw-pipeline มาใช้ใน composition แนวตั้ง แยกคู่พิกัดของเส้นขากลับเพื่อรักษาทิศจากบริการผ่านระบบไปหน้าจอ จึงไม่จำเป็นต้องนำ Offset Path Traveler มาใช้ เส้นขากลับวาดครบก่อนภาพเปลี่ยน จากผล seek และเฟรมที่จับ
+
+Browser Device Stage ใช้โครง window chrome, dots และ screen slot จากต้นทาง ปรับเป็น 4:5 และสลับ raster แบบ cut ในตำแหน่งเดิมเพื่อรักษาเหตุและผล ตัด skeleton, title URL และ drift ออกเพื่อให้ข้อความนิ่ง ผลทดสอบครอบคลุมส่วนที่ปรับใช้จริง ไม่ได้ตรวจตัวเลือกหรือ transition ทุกแบบของ primitive ต้นฉบับ
