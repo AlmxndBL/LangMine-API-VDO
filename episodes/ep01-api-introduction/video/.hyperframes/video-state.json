@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "692ea82f-a136-4ee3-9195-b52b88a56702",
-  "currentRevision": "61f08926-80d8-46fb-9315-e63437d6fed7",
+  "currentRevision": "4effd828-d81c-4343-a466-92a7133e21b0",
   "pendingChanges": false,
   "files": {
     "assets/05-point-up.png": {
@@ -65,8 +65,8 @@
       "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\3f\\3f49dcdd1aa7a5157854b85afe155c9d719bc81f060b932d233aa3899c2d1395"
     },
     "evidence/mobile-frames.jpg": {
-      "hash": "9374765ebe0956895068ff1148b669352d726fef134c01b9fc7293880609506d",
-      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\93\\9374765ebe0956895068ff1148b669352d726fef134c01b9fc7293880609506d"
+      "hash": "67741afb133f0cb4e781217d915521908e5c1d2c9a7fb168abe404a0a0612365",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\67\\67741afb133f0cb4e781217d915521908e5c1d2c9a7fb168abe404a0a0612365"
     },
     "evidence/frames/frame-00-at-0s.png": {
       "hash": "c7e66a78ec6c7e5a316d966d326a4f24e17f7f88f9bac0727c27aa738c68bc7d",
@@ -115,6 +115,30 @@
     "evidence/frames/contact-sheet-2.jpg": {
       "hash": "e65a56b9a75fe6568ee67cd2a135c3a0a558b34f3d6271569a3305c163a8a64f",
       "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\e6\\e65a56b9a75fe6568ee67cd2a135c3a0a558b34f3d6271569a3305c163a8a64f"
+    },
+    "evidence/ASSETS-v1.md": {
+      "hash": "06fc84c1a8081455a1c00a6c74dc79f5755ba3919832962fcfdb0ed35c732124",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\06\\06fc84c1a8081455a1c00a6c74dc79f5755ba3919832962fcfdb0ed35c732124"
+    },
+    "evidence/verify-seek.cjs": {
+      "hash": "86f4769afaff24ee60dfd482d5f98e6f6d5dc176490dd5d6560001bf0d763fd5",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\86\\86f4769afaff24ee60dfd482d5f98e6f6d5dc176490dd5d6560001bf0d763fd5"
+    },
+    "evidence/asset-sha256-v1.txt": {
+      "hash": "47d9d18eaef98e8f31f833a5e918d8cc84766cb4ac3c11495fb5e051675b66ea",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\47\\47d9d18eaef98e8f31f833a5e918d8cc84766cb4ac3c11495fb5e051675b66ea"
+    },
+    "evidence/render-local.cjs": {
+      "hash": "681f06967ab55757020a2759e46d87ec68ac17d0fa71cc343106d9ef53295c6e",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\68\\681f06967ab55757020a2759e46d87ec68ac17d0fa71cc343106d9ef53295c6e"
+    },
+    "ep01-b04-b05-draft-v1.mp4": {
+      "hash": "d8fb5ed1bf726d0954e589b02f5a929b614fd8d666cc6cd1404c79329b7480ef",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\d8\\d8fb5ed1bf726d0954e589b02f5a929b614fd8d666cc6cd1404c79329b7480ef"
+    },
+    "evidence/REVIEW-v1.md": {
+      "hash": "2278e585b84ec1aa7fe3045c0c8ce9884376353bbe1f90e83664dd5bf1f7073c",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\22\\2278e585b84ec1aa7fe3045c0c8ce9884376353bbe1f90e83664dd5bf1f7073c"
     }
   },
   "revisions": {
@@ -319,12 +343,216 @@
           "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\0d\\0d1423bfd401dc9ee2e4cbb34498d635736e7f114c027371a6e6f187e23d93d5"
         }
       }
+    },
+    "d5c761b2-7b82-4ff0-8104-7bcb3898e581": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793976949553,
+      "endedAt": 1793976951871,
+      "files": {
+        "evidence/asset-sha256-v1.txt": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\47\\47d9d18eaef98e8f31f833a5e918d8cc84766cb4ac3c11495fb5e051675b66ea"
+        },
+        "evidence/ASSETS-v1.md": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\1a\\1ad76e2173a713799a1c62ac366bf5458d1f5f83f10121a77a8215afca1bf16f"
+        },
+        "evidence/verify-seek.cjs": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\f7\\f7ace8eb2403be9c01fa500ced008853f89e7cebb61e0ac4818de0a5ceb551c0"
+        }
+      }
+    },
+    "549e510b-8391-42cf-b3a1-59d4a69f14dc": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793977008558,
+      "endedAt": 1793977010568,
+      "files": {
+        "evidence/render-local.cjs": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\68\\681f06967ab55757020a2759e46d87ec68ac17d0fa71cc343106d9ef53295c6e"
+        }
+      }
+    },
+    "69c3014b-81e4-46f1-875b-26cb73fdebbf": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793977014526,
+      "endedAt": 1793977016529,
+      "files": {
+        "ep01-b04-b05-draft-v1.mp4": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\64\\64d52708f594e8a1a3a4f76deef7275c8ad5184480c9473d8f60a0c9b6f4628b"
+        }
+      }
+    },
+    "0471b766-638e-472d-8d47-b873bcc417a0": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793977093214,
+      "endedAt": 1793977095220,
+      "files": {
+        "ep01-b04-b05-draft-v1.mp4": {
+          "before": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\64\\64d52708f594e8a1a3a4f76deef7275c8ad5184480c9473d8f60a0c9b6f4628b",
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\fe\\fe5573e657eaa689e1ec7d928663327ac2a5f8834f0a598981a6f8bdfeab7b46"
+        }
+      }
+    },
+    "a54593c6-52d1-4cbd-855e-20e269aea84e": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793977095521,
+      "endedAt": 1793977097533,
+      "files": {
+        "ep01-b04-b05-draft-v1.mp4": {
+          "before": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\fe\\fe5573e657eaa689e1ec7d928663327ac2a5f8834f0a598981a6f8bdfeab7b46",
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\d8\\d8fb5ed1bf726d0954e589b02f5a929b614fd8d666cc6cd1404c79329b7480ef"
+        }
+      }
+    },
+    "f0f6b393-a771-4bec-8269-b19cae25f45a": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793977127680,
+      "endedAt": 1793977129692,
+      "files": {
+        "evidence/mobile-frames.jpg": {
+          "before": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\93\\9374765ebe0956895068ff1148b669352d726fef134c01b9fc7293880609506d",
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\67\\67741afb133f0cb4e781217d915521908e5c1d2c9a7fb168abe404a0a0612365"
+        }
+      }
+    },
+    "f126e2a7-45f2-491c-bc0a-8ca599345d34": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793977212547,
+      "endedAt": 1793977214557,
+      "files": {
+        "evidence/REVIEW-v1.md": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\22\\2278e585b84ec1aa7fe3045c0c8ce9884376353bbe1f90e83664dd5bf1f7073c"
+        }
+      }
+    },
+    "4effd828-d81c-4343-a466-92a7133e21b0": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793977316683,
+      "endedAt": 1793977318695,
+      "files": {
+        "evidence/ASSETS-v1.md": {
+          "before": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\1a\\1ad76e2173a713799a1c62ac366bf5458d1f5f83f10121a77a8215afca1bf16f",
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\06\\06fc84c1a8081455a1c00a6c74dc79f5755ba3919832962fcfdb0ed35c732124"
+        },
+        "evidence/verify-seek.cjs": {
+          "before": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\f7\\f7ace8eb2403be9c01fa500ced008853f89e7cebb61e0ac4818de0a5ceb551c0",
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\86\\86f4769afaff24ee60dfd482d5f98e6f6d5dc176490dd5d6560001bf0d763fd5"
+        }
+      }
     }
   },
   "checks": {
-    "latest": null,
-    "revisions": {},
-    "unversioned": []
+    "latest": {
+      "revision": null,
+      "id": "163fea93-92d8-47f9-b1ef-2f79f66f4eba"
+    },
+    "revisions": {
+      "61f08926-80d8-46fb-9315-e63437d6fed7": [
+        {
+          "id": "cf59a040-d93a-4834-8c80-73c10013fd58",
+          "scope": "project",
+          "report": "D:\\New folder\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\.hyperframes\\artifacts\\checks\\cf59a040-d93a-4834-8c80-73c10013fd58.json",
+          "metadata": {
+            "ok": false,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1793976935677,
+          "contentHash": "2f43043b7d3ea669e1cce19a6c4d62fecd0323f4f9eb14b7cab7417ffa828205",
+          "revision": "61f08926-80d8-46fb-9315-e63437d6fed7",
+          "inputFingerprint": "6de508728fa6d3df5d5f692bae5a69b43182cd5c788681c8b460dd3446a5e24f",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "id": "163fea93-92d8-47f9-b1ef-2f79f66f4eba",
+        "scope": "project",
+        "report": "D:\\New folder\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\.hyperframes\\artifacts\\checks\\163fea93-92d8-47f9-b1ef-2f79f66f4eba.json",
+        "metadata": {
+          "ok": false,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "at": [
+              2,
+              7,
+              12.8,
+              16,
+              17.5,
+              18.1,
+              19.5,
+              22.2,
+              30
+            ],
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1793977107107,
+        "contentHash": "bd230bd938b1a134adf53f33d5cf65d3198239a3590fa7aaa734f3f0ce19fa02",
+        "revision": null,
+        "inputFingerprint": "56be761d010de3c165eb3e6f86f4cd7ecb96a9399ced71c2e291b29e6c4b9eb4",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      }
+    ]
   },
   "snapshots": {
     "latest": {
