@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<title>EP01 · B04–B05 · Draft v1</title>
+<script src="assets/gsap.min.js"></script>
+<style>
+@font-face{font-family:Thai;src:url(assets/fonts/NotoSansThai.ttf) format("truetype");font-weight:100 900;font-display:block}
+*{box-sizing:border-box}body{margin:0;font-family:Thai,sans-serif;color:#20352c}
+#sample{position:relative;width:1080px;height:1920px;overflow:hidden;background:repeating-linear-gradient(0deg,#f8f4e9 0 59px,#e8e2d5 60px 62px)}
+.kicker{position:absolute;left:93px;top:119px;font-size:34px;font-weight:720;letter-spacing:.045em;color:#3e5d4f}
+.kicker::after{content:"";display:block;width:132px;height:9px;background:#a9cc79;transform:rotate(-3deg);margin-top:9px}
+.note{position:absolute;right:93px;top:117px;font-size:33px;font-weight:680;border:3px solid #446050;border-radius:44px;padding:9px 23px;background:#fcfaf1}
+.scene{position:absolute;inset:0}
+h1{position:absolute;left:92px;right:92px;top:237px;margin:0;font-size:77px;line-height:1.26;letter-spacing:-.015em}
+#intro h1{top:300px;font-size:86px}
+#intro h1 em{font-style:normal;background:linear-gradient(transparent 72%,#c8de9b 72% 94%,transparent 94%)}
+.logo-paper{position:absolute;left:312px;top:667px;width:592px;height:463px;background:#fff;border:6px solid #20352c;border-radius:26px 34px 23px 29px;transform:rotate(-3deg);box-shadow:10px 12px #a2b78d;display:grid;place-items:center}
+.logo-paper img{width:349px;height:auto;display:block}
+.robot{position:absolute;width:389px;left:45px;top:1080px}
+.device{position:absolute;left:100px;top:427px;width:880px;border:8px solid #20352c;background:white;border-radius:29px;overflow:hidden;box-shadow:12px 14px #a2b78d}
+.bds-bar{height:66px;display:flex;align-items:center;justify-content:center;position:relative;background:#e8ede2;border-bottom:4px solid #20352c;font-size:30px;font-weight:650}
+.bds-dots{position:absolute;left:25px;display:flex;gap:10px}.bds-dots i{width:12px;height:12px;border-radius:50%;background:#688276}
+.bds-screen{position:relative;width:864px;height:1080px;overflow:hidden;background:white}
+.bds-screen img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+#app-a,#flow,#return-title,#roles-title,#answer-title,#answer-label,#question-label,#node-screen,#node-app,#node-service{opacity:0}
+#detail{height:392px;top:648px}.detail-window{position:relative;width:864px;height:318px;overflow:hidden}
+.detail-window{background:white url(assets/app-a-v1.png) -76.8px -735px / 1017.6px 1272px no-repeat}
+#flow svg{position:absolute;inset:0;width:100%;height:100%}
+.box{fill:#fffaf0;stroke:#263b32;stroke-width:7;stroke-linecap:round;stroke-linejoin:round}
+#node-app .box{fill:#e4edce}#node-service .box{fill:#e5f1ee}
+.node-label{font:730 58px Thai;fill:#22382e;text-anchor:middle}
+.node-sub{font:550 37px Thai;fill:#39594c;text-anchor:middle}
+.connector{fill:none;stroke:#436739;stroke-width:9;stroke-linecap:round;stroke-linejoin:round}
+.connector.return{stroke:#116965}
+.path-label{font:720 35px Thai;fill:#294b39}
+.path-label.return{fill:#116965}
+.caption{position:absolute;left:76px;right:76px;top:1609px;min-height:163px;border-radius:23px;background:#23382e;color:#fffaf0;text-align:center;padding:20px 25px;font-size:43px;line-height:1.39;font-weight:630}
+</style>
+</head>
+<body>
+<main id="sample" data-composition-id="ep01-b04-b05" data-width="1080" data-height="1920" data-fps="30" data-duration="33.167">
+<div class="kicker">EP01 &nbsp; / &nbsp; API</div><div class="note">ภาพจำลอง</div>
+<section id="intro" class="clip scene" data-start="0" data-duration="4.884" data-track-index="1">
+<h1>ปลายทางคือ<br><em>ผู้ช่วย AI</em></h1>
+<div class="logo-paper" data-layout-allow-overlap><img src="assets/langmind-logo.png" alt="LangMind"></div>
+<img class="robot" src="assets/05-point-up.png" alt="" data-layout-allow-overlap>
+</section>
+<section id="screen" class="clip scene" data-start="4.884" data-duration="18.316" data-track-index="2">
+<h1 id="screen-title">คำถามบนแอป</h1><h1 id="answer-title">คำตอบบนแอป</h1>
+<div class="device">
+  <div class="bds-bar"><span class="bds-dots" aria-hidden="true"><i></i><i></i><i></i></span>แอปของเรา</div>
+  <div class="bds-screen"><img id="app-q" src="assets/app-q-v1.png" alt="หน้าจอส่งคำถามแล้ว" data-layout-allow-overlap><img id="app-a" src="assets/app-a-v1.png" alt="หน้าจอได้รับคำตอบแล้ว" data-layout-allow-overlap></div>
+</div>
+</section>
+<section id="detail-scene" class="clip scene" data-start="20.7" data-duration="3.192" data-track-index="3">
+<h1>คำตอบบนแอป</h1>
+<div class="device" id="detail"><div class="bds-bar"><span class="bds-dots" aria-hidden="true"><i></i><i></i><i></i></span>แอปของเรา</div>
+<div class="detail-window" role="img" aria-label="ขยายบริเวณคำตอบ"></div></div>
+</section>
+<section id="flow" class="scene" data-layout-allow-overlap>
+<h1 id="flow-title">คำถามเดินทาง<br>ไปอย่างไร?</h1>
+<h1 id="return-title">ข้อมูลคำตอบ<br>เดินทางกลับ</h1>
+<h1 id="roles-title">ใครทำอะไร?</h1>
+<svg viewBox="0 0 1080 1920" aria-label="เส้นทางคำถามและข้อมูลคำตอบ">
+  <g id="node-screen" transform="translate(162 488)">
+    <path class="box"/><text class="node-label" x="378" y="106">หน้าจอแอป</text>
+  </g>
+  <g id="node-app" transform="translate(162 820)">
+    <path class="box"/><text class="node-label" x="378" y="82">ระบบของแอป</text>
+    <text class="node-sub" x="378" y="138">เชื่อมต่อและรับข้อมูล</text>
+  </g>
+  <g id="node-service" transform="translate(162 1213)">
+    <path class="box"/><text class="node-label" x="378" y="82">LangMind</text>
+    <text class="node-sub" x="378" y="138">บริการผู้ช่วย AI</text>
+  </g>
+  <path id="to-system" class="connector"/>
+  <path id="to-service" class="connector"/>
+  <path id="to-app" class="connector return"/>
+  <path id="to-screen" class="connector return"/>
+  <text id="question-label" class="path-label" x="435" y="1128">คำถาม</text>
+  <text id="answer-label" class="path-label return" x="565" y="1128" text-anchor="end">ข้อมูลคำตอบ</text>
+</svg>
+</section>
+<div id="caption-1" class="clip caption" data-start="0" data-duration="4.734" data-track-index="8">ถ้าใช้ LangMind<br>แอปเรียกผู้ช่วย AI ที่ตั้งค่าไว้ได้</div>
+<div id="caption-2" class="clip caption" data-start="4.884" data-duration="4.878" data-track-index="8">อย่างคำถามนี้<br>เริ่มใช้บริการต้องเตรียมอะไร?</div>
+<div id="caption-3" class="clip caption" data-start="9.912" data-duration="3.690" data-track-index="8">ระบบของแอป<br>ส่งคำถามไปให้ LangMind</div>
+<div id="caption-4" class="clip caption" data-start="13.752" data-duration="4.192" data-track-index="8">LangMind ส่งข้อมูลคำตอบ<br>กลับมาที่ระบบของแอป</div>
+<div id="caption-5" class="clip caption" data-start="18.244" data-duration="5.498" data-track-index="8">แล้วแอปของเรา<br>นำคำตอบไปแสดงบนหน้าจอ</div>
+<div id="caption-6" class="clip caption" data-start="23.892" data-duration="3.658" data-track-index="8">หน้าจอกับการเชื่อมต่อ<br>เป็นส่วนที่เราทำ</div>
+<div id="caption-7" class="clip caption" data-start="27.7" data-duration="4.567" data-track-index="8">ส่วน LangMind ให้บริการ<br>ผู้ช่วย AI ผ่าน API</div>
+<audio id="vo" class="clip" data-start="0" data-duration="33.16" data-track-index="9" src="assets/vo-draft.wav"></audio>
+</main>
+<script src="motion.js"></script>
+</body>
+</html>
+

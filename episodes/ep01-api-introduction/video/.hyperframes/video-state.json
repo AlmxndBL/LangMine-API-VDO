@@ -1,0 +1,523 @@
+{
+  "version": 1,
+  "historyId": "692ea82f-a136-4ee3-9195-b52b88a56702",
+  "currentRevision": "3c9b3a1c-7095-440c-b6c2-7b75f6651148",
+  "pendingChanges": false,
+  "files": {
+    "assets/05-point-up.png": {
+      "hash": "6596f6b0a6fd7a57a3a6cc6c31b8da13e18cf17bf14777351480bd222e04dc01",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\65\\6596f6b0a6fd7a57a3a6cc6c31b8da13e18cf17bf14777351480bd222e04dc01"
+    },
+    "assets/fonts/Caveat-700-latin.woff2": {
+      "hash": "891951df5e8b5b0f0bc760d31375405e795c666b5add70437de12d4a6482b33f",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\89\\891951df5e8b5b0f0bc760d31375405e795c666b5add70437de12d4a6482b33f"
+    },
+    "assets/fonts/NotoSansThai-OFL.txt": {
+      "hash": "2e98fd23a52d253db8612cd5942c8f2ff4111b21d2367050fdca91d8ccc374a0",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\2e\\2e98fd23a52d253db8612cd5942c8f2ff4111b21d2367050fdca91d8ccc374a0"
+    },
+    "assets/fonts/NotoSansThai.ttf": {
+      "hash": "5a1c559bb539583c8a1fd99d1c5b9491e5e14478c9cd2bd0970d5c3096cc9ef8",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\5a\\5a1c559bb539583c8a1fd99d1c5b9491e5e14478c9cd2bd0970d5c3096cc9ef8"
+    },
+    "assets/gsap.min.js": {
+      "hash": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\c1\\c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    "assets/langmind-logo.png": {
+      "hash": "025dbb6064076ac724f42009635e715f985a3d2df8abfa374a8fcec398979c49",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\02\\025dbb6064076ac724f42009635e715f985a3d2df8abfa374a8fcec398979c49"
+    },
+    "compositions/components/browser-device-stage.html": {
+      "hash": "59b20814d38bf58ec1c6c7727ed954e89e9f38a7392eddf6d266ce586bad6764",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\59\\59b20814d38bf58ec1c6c7727ed954e89e9f38a7392eddf6d266ce586bad6764"
+    },
+    "compositions/hw-pipeline.html": {
+      "hash": "664026da23a2d3aadf214106b77c920d9ac4548083963e994f53f6e9bb938ac2",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\66\\664026da23a2d3aadf214106b77c920d9ac4548083963e994f53f6e9bb938ac2"
+    },
+    "evidence/voice-timing.json": {
+      "hash": "9496405fdc2dc4bfa12f52ac3d2cb2b5664a6ed3cc67e585f6dfe17f253d139a",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\94\\9496405fdc2dc4bfa12f52ac3d2cb2b5664a6ed3cc67e585f6dfe17f253d139a"
+    },
+    "hyperframes.lock.json": {
+      "hash": "5d07ae008551115ab94596c2f93791e5f28bcd9cdfe2fce326b170e70d368016",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\5d\\5d07ae008551115ab94596c2f93791e5f28bcd9cdfe2fce326b170e70d368016"
+    },
+    "index.html": {
+      "hash": "0d7a8b2948238c7b81da7191cee175e5b4c4739f5bbdd389ad5e4404847c4413",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\0d\\0d7a8b2948238c7b81da7191cee175e5b4c4739f5bbdd389ad5e4404847c4413"
+    },
+    "motion.js": {
+      "hash": "e9f6af6f42e3165f4991ddd3d59b55c9eddbd5b6b2bc3c42df066aa9469a24fa",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\e9\\e9f6af6f42e3165f4991ddd3d59b55c9eddbd5b6b2bc3c42df066aa9469a24fa"
+    },
+    "assets/app-a-v1.png": {
+      "hash": "094abfe59ea69c3e3810ae006d9e023eeb6f36a8182eeb037e2ce0b092f3bfe2",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\09\\094abfe59ea69c3e3810ae006d9e023eeb6f36a8182eeb037e2ce0b092f3bfe2"
+    },
+    "assets/app-q-v1.png": {
+      "hash": "7321d3fac317bd4506570c4ca846c624d2603a6caa4778a608315fb9aabdf244",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\73\\7321d3fac317bd4506570c4ca846c624d2603a6caa4778a608315fb9aabdf244"
+    },
+    "assets/vo-draft.wav": {
+      "hash": "3f49dcdd1aa7a5157854b85afe155c9d719bc81f060b932d233aa3899c2d1395",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\3f\\3f49dcdd1aa7a5157854b85afe155c9d719bc81f060b932d233aa3899c2d1395"
+    },
+    "evidence/mobile-frames.jpg": {
+      "hash": "9374765ebe0956895068ff1148b669352d726fef134c01b9fc7293880609506d",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\93\\9374765ebe0956895068ff1148b669352d726fef134c01b9fc7293880609506d"
+    },
+    "evidence/frames/frame-00-at-0s.png": {
+      "hash": "c7e66a78ec6c7e5a316d966d326a4f24e17f7f88f9bac0727c27aa738c68bc7d",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\c7\\c7e66a78ec6c7e5a316d966d326a4f24e17f7f88f9bac0727c27aa738c68bc7d"
+    },
+    "evidence/frames/frame-01-at-2s.png": {
+      "hash": "139a18da08ecc9b11d09c1bc33eaa2e3be0b4ffe1962d324d87bcfc71eeb8057",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\13\\139a18da08ecc9b11d09c1bc33eaa2e3be0b4ffe1962d324d87bcfc71eeb8057"
+    },
+    "evidence/frames/frame-02-at-7s.png": {
+      "hash": "1c0a4715cddd1fe4034c958334b74fea53761e0a4f5a543c5ec3301fc937d66a",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\1c\\1c0a4715cddd1fe4034c958334b74fea53761e0a4f5a543c5ec3301fc937d66a"
+    },
+    "evidence/frames/frame-03-at-12.8s.png": {
+      "hash": "76f78b4e8ab7b64888c3161fe49b511b0091e12906df6a4292eebc50e9282135",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\76\\76f78b4e8ab7b64888c3161fe49b511b0091e12906df6a4292eebc50e9282135"
+    },
+    "evidence/frames/frame-04-at-16s.png": {
+      "hash": "ed42a74a65600a694d03dbe02f202ec8eb67cf5da3ecc0d11c16338921e35164",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\ed\\ed42a74a65600a694d03dbe02f202ec8eb67cf5da3ecc0d11c16338921e35164"
+    },
+    "evidence/frames/frame-05-at-17.5s.png": {
+      "hash": "bb8dc313588520e6144157fda65659a2a96d0346ab6b81ef86972001799ff6bd",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\bb\\bb8dc313588520e6144157fda65659a2a96d0346ab6b81ef86972001799ff6bd"
+    },
+    "evidence/frames/frame-06-at-18.1s.png": {
+      "hash": "c88842810c1678d30c83f9b8af5694f02fea511e57100522c2f97f0881129ca6",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\c8\\c88842810c1678d30c83f9b8af5694f02fea511e57100522c2f97f0881129ca6"
+    },
+    "evidence/frames/frame-07-at-19.5s.png": {
+      "hash": "50962dad697e6e604563bcad36dea0f102e64b7e78c725b38514fd83928188f1",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\50\\50962dad697e6e604563bcad36dea0f102e64b7e78c725b38514fd83928188f1"
+    },
+    "evidence/frames/frame-08-at-22.2s.png": {
+      "hash": "37b73735cf141cbb2bc57695aa42703ce1d6679b00d5acb461d1a011a82715bd",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\37\\37b73735cf141cbb2bc57695aa42703ce1d6679b00d5acb461d1a011a82715bd"
+    },
+    "evidence/frames/frame-09-at-30s.png": {
+      "hash": "055d6c100cccbde9fce9928519f07e72b539289a21173add1e30814e44ed572b",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\05\\055d6c100cccbde9fce9928519f07e72b539289a21173add1e30814e44ed572b"
+    },
+    "evidence/frames/contact-sheet-1.jpg": {
+      "hash": "717651d25fb7c7c705e67d46016f6b7bdf2070cd3b78084e4036d5708f35f301",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\71\\717651d25fb7c7c705e67d46016f6b7bdf2070cd3b78084e4036d5708f35f301"
+    },
+    "evidence/frames/contact-sheet-2.jpg": {
+      "hash": "e65a56b9a75fe6568ee67cd2a135c3a0a558b34f3d6271569a3305c163a8a64f",
+      "content": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\e6\\e65a56b9a75fe6568ee67cd2a135c3a0a558b34f3d6271569a3305c163a8a64f"
+    }
+  },
+  "revisions": {
+    "b0be13bd-3776-4278-baa8-88ec3413e490": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793976726622,
+      "endedAt": 1793976731581,
+      "files": {
+        "evidence/frames/frame-00-at-2s.png": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\13\\139a18da08ecc9b11d09c1bc33eaa2e3be0b4ffe1962d324d87bcfc71eeb8057"
+        },
+        "evidence/frames/frame-01-at-7s.png": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\1c\\1c0a4715cddd1fe4034c958334b74fea53761e0a4f5a543c5ec3301fc937d66a"
+        },
+        "evidence/frames/frame-02-at-12.8s.png": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\b1\\b1a5e4d7425187aa7a2a5ddf1d9b78b704fa8ac02866f706bb58a0370da624f2"
+        },
+        "evidence/frames/frame-03-at-16s.png": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\d3\\d3eedf367550ad1ebac8ec99302ae33b4c3c8526a27bb6b2052bcd06f059dcfe"
+        },
+        "evidence/frames/frame-04-at-18.1s.png": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\c8\\c88842810c1678d30c83f9b8af5694f02fea511e57100522c2f97f0881129ca6"
+        },
+        "evidence/frames/frame-05-at-19.5s.png": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\50\\50962dad697e6e604563bcad36dea0f102e64b7e78c725b38514fd83928188f1"
+        },
+        "evidence/frames/frame-06-at-22.2s.png": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\2b\\2ba99b4ed52e148679c371e824b92db16cca9d7b9a6e0b6a6c7515cb3571d18a"
+        },
+        "evidence/frames/frame-07-at-30s.png": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\05\\055d6c100cccbde9fce9928519f07e72b539289a21173add1e30814e44ed572b"
+        }
+      }
+    },
+    "bf481e0e-42c2-4e9e-95d5-cf7345aaf85c": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793976735532,
+      "endedAt": 1793976737538,
+      "files": {
+        "evidence/frames/contact-sheet.jpg": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\7c\\7c2e23408a223eabf595dea9c1d8f2271b7c753408b0031072cda136c7cdbcd0"
+        }
+      }
+    },
+    "43f9bafc-8788-471d-835b-33bbc5984c35": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793976740911,
+      "endedAt": 1793976742922,
+      "files": {
+        "evidence/mobile-frames.jpg": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\93\\9374765ebe0956895068ff1148b669352d726fef134c01b9fc7293880609506d"
+        }
+      }
+    },
+    "0ea40465-89bc-4ab3-b37b-97cd2a1e5962": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793976760158,
+      "endedAt": 1793976762348,
+      "files": {
+        "index.html": {
+          "before": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\cd\\cde4af297f6438047f086931ca025d5433f96b6ae5a0dc5bef6ebb134e89fd6a",
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\0d\\0d7a8b2948238c7b81da7191cee175e5b4c4739f5bbdd389ad5e4404847c4413"
+        },
+        "motion.js": {
+          "before": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\7b\\7be94e952b36028c0ca2ef23ebbd22c837f20deb1195ef1dfae35114a26bbd4d",
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\e9\\e9f6af6f42e3165f4991ddd3d59b55c9eddbd5b6b2bc3c42df066aa9469a24fa"
+        }
+      }
+    },
+    "3c9b3a1c-7095-440c-b6c2-7b75f6651148": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1793976792521,
+      "endedAt": 1793976800448,
+      "files": {
+        "evidence/frames/contact-sheet-1.jpg": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\71\\717651d25fb7c7c705e67d46016f6b7bdf2070cd3b78084e4036d5708f35f301"
+        },
+        "evidence/frames/contact-sheet-2.jpg": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\e6\\e65a56b9a75fe6568ee67cd2a135c3a0a558b34f3d6271569a3305c163a8a64f"
+        },
+        "evidence/frames/contact-sheet.jpg": {
+          "before": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\7c\\7c2e23408a223eabf595dea9c1d8f2271b7c753408b0031072cda136c7cdbcd0",
+          "after": null
+        },
+        "evidence/frames/frame-00-at-0s.png": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\c7\\c7e66a78ec6c7e5a316d966d326a4f24e17f7f88f9bac0727c27aa738c68bc7d"
+        },
+        "evidence/frames/frame-00-at-2s.png": {
+          "before": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\13\\139a18da08ecc9b11d09c1bc33eaa2e3be0b4ffe1962d324d87bcfc71eeb8057",
+          "after": null
+        },
+        "evidence/frames/frame-01-at-2s.png": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\13\\139a18da08ecc9b11d09c1bc33eaa2e3be0b4ffe1962d324d87bcfc71eeb8057"
+        },
+        "evidence/frames/frame-01-at-7s.png": {
+          "before": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\1c\\1c0a4715cddd1fe4034c958334b74fea53761e0a4f5a543c5ec3301fc937d66a",
+          "after": null
+        },
+        "evidence/frames/frame-02-at-12.8s.png": {
+          "before": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\b1\\b1a5e4d7425187aa7a2a5ddf1d9b78b704fa8ac02866f706bb58a0370da624f2",
+          "after": null
+        },
+        "evidence/frames/frame-02-at-7s.png": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\1c\\1c0a4715cddd1fe4034c958334b74fea53761e0a4f5a543c5ec3301fc937d66a"
+        },
+        "evidence/frames/frame-03-at-12.8s.png": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\76\\76f78b4e8ab7b64888c3161fe49b511b0091e12906df6a4292eebc50e9282135"
+        },
+        "evidence/frames/frame-03-at-16s.png": {
+          "before": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\d3\\d3eedf367550ad1ebac8ec99302ae33b4c3c8526a27bb6b2052bcd06f059dcfe",
+          "after": null
+        },
+        "evidence/frames/frame-04-at-16s.png": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\ed\\ed42a74a65600a694d03dbe02f202ec8eb67cf5da3ecc0d11c16338921e35164"
+        },
+        "evidence/frames/frame-04-at-18.1s.png": {
+          "before": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\c8\\c88842810c1678d30c83f9b8af5694f02fea511e57100522c2f97f0881129ca6",
+          "after": null
+        },
+        "evidence/frames/frame-05-at-17.5s.png": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\bb\\bb8dc313588520e6144157fda65659a2a96d0346ab6b81ef86972001799ff6bd"
+        },
+        "evidence/frames/frame-05-at-19.5s.png": {
+          "before": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\50\\50962dad697e6e604563bcad36dea0f102e64b7e78c725b38514fd83928188f1",
+          "after": null
+        },
+        "evidence/frames/frame-06-at-18.1s.png": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\c8\\c88842810c1678d30c83f9b8af5694f02fea511e57100522c2f97f0881129ca6"
+        },
+        "evidence/frames/frame-06-at-22.2s.png": {
+          "before": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\2b\\2ba99b4ed52e148679c371e824b92db16cca9d7b9a6e0b6a6c7515cb3571d18a",
+          "after": null
+        },
+        "evidence/frames/frame-07-at-19.5s.png": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\50\\50962dad697e6e604563bcad36dea0f102e64b7e78c725b38514fd83928188f1"
+        },
+        "evidence/frames/frame-07-at-30s.png": {
+          "before": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\05\\055d6c100cccbde9fce9928519f07e72b539289a21173add1e30814e44ed572b",
+          "after": null
+        },
+        "evidence/frames/frame-08-at-22.2s.png": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\37\\37b73735cf141cbb2bc57695aa42703ce1d6679b00d5acb461d1a011a82715bd"
+        },
+        "evidence/frames/frame-09-at-30s.png": {
+          "before": null,
+          "after": "C:\\Users\\ASUS\\.cache\\hyperframes\\history\\692ea82f-a136-4ee3-9195-b52b88a56702\\blobs\\05\\055d6c100cccbde9fce9928519f07e72b539289a21173add1e30814e44ed572b"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": {
+      "revision": null,
+      "id": "fd601e9e-babd-453a-8bf0-496496f4759b-9"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "scope": "full",
+        "id": "fd601e9e-babd-453a-8bf0-496496f4759b-0",
+        "image": "D:\\New folder\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\evidence\\frames\\frame-00-at-0s.png",
+        "time": 0,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793976796767,
+        "contentHash": "c7e66a78ec6c7e5a316d966d326a4f24e17f7f88f9bac0727c27aa738c68bc7d",
+        "revision": null,
+        "inputFingerprint": "b3ecc7e5d962770e58792a6e2c86305659184b18f98b1698f79b1eaddff37df0",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "fd601e9e-babd-453a-8bf0-496496f4759b-1",
+        "image": "D:\\New folder\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\evidence\\frames\\frame-01-at-2s.png",
+        "time": 2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793976796767,
+        "contentHash": "139a18da08ecc9b11d09c1bc33eaa2e3be0b4ffe1962d324d87bcfc71eeb8057",
+        "revision": null,
+        "inputFingerprint": "b3ecc7e5d962770e58792a6e2c86305659184b18f98b1698f79b1eaddff37df0",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "fd601e9e-babd-453a-8bf0-496496f4759b-2",
+        "image": "D:\\New folder\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\evidence\\frames\\frame-02-at-7s.png",
+        "time": 7,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793976796767,
+        "contentHash": "1c0a4715cddd1fe4034c958334b74fea53761e0a4f5a543c5ec3301fc937d66a",
+        "revision": null,
+        "inputFingerprint": "b3ecc7e5d962770e58792a6e2c86305659184b18f98b1698f79b1eaddff37df0",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "fd601e9e-babd-453a-8bf0-496496f4759b-3",
+        "image": "D:\\New folder\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\evidence\\frames\\frame-03-at-12.8s.png",
+        "time": 12.8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793976796768,
+        "contentHash": "76f78b4e8ab7b64888c3161fe49b511b0091e12906df6a4292eebc50e9282135",
+        "revision": null,
+        "inputFingerprint": "b3ecc7e5d962770e58792a6e2c86305659184b18f98b1698f79b1eaddff37df0",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "fd601e9e-babd-453a-8bf0-496496f4759b-4",
+        "image": "D:\\New folder\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\evidence\\frames\\frame-04-at-16s.png",
+        "time": 16,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793976796768,
+        "contentHash": "ed42a74a65600a694d03dbe02f202ec8eb67cf5da3ecc0d11c16338921e35164",
+        "revision": null,
+        "inputFingerprint": "b3ecc7e5d962770e58792a6e2c86305659184b18f98b1698f79b1eaddff37df0",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "fd601e9e-babd-453a-8bf0-496496f4759b-5",
+        "image": "D:\\New folder\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\evidence\\frames\\frame-05-at-17.5s.png",
+        "time": 17.5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793976796768,
+        "contentHash": "bb8dc313588520e6144157fda65659a2a96d0346ab6b81ef86972001799ff6bd",
+        "revision": null,
+        "inputFingerprint": "b3ecc7e5d962770e58792a6e2c86305659184b18f98b1698f79b1eaddff37df0",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "fd601e9e-babd-453a-8bf0-496496f4759b-6",
+        "image": "D:\\New folder\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\evidence\\frames\\frame-06-at-18.1s.png",
+        "time": 18.1,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793976796768,
+        "contentHash": "c88842810c1678d30c83f9b8af5694f02fea511e57100522c2f97f0881129ca6",
+        "revision": null,
+        "inputFingerprint": "b3ecc7e5d962770e58792a6e2c86305659184b18f98b1698f79b1eaddff37df0",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "fd601e9e-babd-453a-8bf0-496496f4759b-7",
+        "image": "D:\\New folder\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\evidence\\frames\\frame-07-at-19.5s.png",
+        "time": 19.5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793976796769,
+        "contentHash": "50962dad697e6e604563bcad36dea0f102e64b7e78c725b38514fd83928188f1",
+        "revision": null,
+        "inputFingerprint": "b3ecc7e5d962770e58792a6e2c86305659184b18f98b1698f79b1eaddff37df0",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "fd601e9e-babd-453a-8bf0-496496f4759b-8",
+        "image": "D:\\New folder\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\evidence\\frames\\frame-08-at-22.2s.png",
+        "time": 22.2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793976796769,
+        "contentHash": "37b73735cf141cbb2bc57695aa42703ce1d6679b00d5acb461d1a011a82715bd",
+        "revision": null,
+        "inputFingerprint": "b3ecc7e5d962770e58792a6e2c86305659184b18f98b1698f79b1eaddff37df0",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      },
+      {
+        "scope": "full",
+        "id": "fd601e9e-babd-453a-8bf0-496496f4759b-9",
+        "image": "D:\\New folder\\LangMine-API-VDO\\episodes\\ep01-api-introduction\\video\\evidence\\frames\\frame-09-at-30s.png",
+        "time": 30,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793976796769,
+        "contentHash": "055d6c100cccbde9fce9928519f07e72b539289a21173add1e30814e44ed572b",
+        "revision": null,
+        "inputFingerprint": "b3ecc7e5d962770e58792a6e2c86305659184b18f98b1698f79b1eaddff37df0",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      }
+    ]
+  }
+}
