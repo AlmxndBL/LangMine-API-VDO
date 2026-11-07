@@ -1,0 +1,10 @@
+{
+  "python.defaultInterpreterPath": "C:\\Python313\\python.exe",
+  "python.analysis.extraPaths": [
+    "C:\\Python313\\Lib\\site-packages"
+  ],
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingImports": "none"
+  }
+}
+
