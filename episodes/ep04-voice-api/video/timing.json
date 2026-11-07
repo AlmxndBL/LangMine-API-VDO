@@ -1,0 +1,73 @@
+{
+  "fps": 30,
+  "lead_in": 0.4,
+  "beat_gap": 0.5,
+  "tail": 1.2,
+  "chars_per_second": 11,
+  "note": "say = text for the narrator (voice file); cap = on-screen caption (\\n = line break). Without voice files, durations are estimated from say length. Put voice files at the paths below and run `node build.mjs` to retime everything from the real audio.",
+  "beats": [
+    {
+      "id": "b03",
+      "voice": "assets/voice/b03.wav",
+      "segments": [
+        {
+          "cue": "device",
+          "say": "สเต็ปแรกคือการฟัง ผู้ใช้กดไมค์แล้วพูดว่า ขอสั่งอเมริกาโน่เย็นหนึ่งแก้วครับ",
+          "cap": "สเต็ปแรกคือการฟัง ผู้ใช้กดไมค์แล้วพูดว่า\n“ขอสั่งอเมริกาโน่เย็น 1 แก้วครับ”"
+        },
+        {
+          "cue": "request",
+          "say": "ระบบหลังบ้านของแอป ส่งไฟล์เสียงขนาดไม่เกินสี่เมกะไบต์ ไปที่ Voice Transcribe ของ LangMind",
+          "cap": "ระบบหลังบ้านของแอปส่งไฟล์เสียง (ไม่เกิน 4 MB)\nไปที่ Voice Transcribe ของ LangMind"
+        },
+        {
+          "cue": "response",
+          "say": "แล้วได้ข้อความที่ถอดจากเสียงกลับมา",
+          "cap": "แล้วได้ข้อความที่ถอดจากเสียงกลับมา"
+        }
+      ]
+    },
+    {
+      "id": "b04",
+      "voice": "assets/voice/b04.wav",
+      "segments": [
+        {
+          "cue": "request",
+          "say": "สเต็ปที่สองคือการคิด ส่งข้อความนี้เข้า Chat API ของ Agent พร้อมระบุ input mode เป็น voice",
+          "cap": "สเต็ปที่สองคือการคิด ส่งข้อความเข้า Chat API\nพร้อมระบุ input_mode เป็น voice"
+        },
+        {
+          "cue": "highlight",
+          "say": "Agent ที่ใส่ข้อมูลเมนูร้านไว้ จะตอบสั้น กระชับ เป็นภาษาพูด",
+          "cap": "Agent ที่ใส่ข้อมูลเมนูร้านไว้\nจะตอบสั้น กระชับ เป็นภาษาพูด"
+        },
+        {
+          "cue": "response",
+          "say": "และส่ง conversation ID กลับมา ไว้ใช้คุยต่อในรอบถัดไป",
+          "cap": "และส่ง conversation_id กลับมา\nไว้ใช้คุยต่อในรอบถัดไป"
+        }
+      ]
+    },
+    {
+      "id": "b05",
+      "voice": "assets/voice/b05.wav",
+      "segments": [
+        {
+          "cue": "request",
+          "say": "สเต็ปสุดท้ายคือการพูด ส่งคำตอบเข้า Voice Speech ของ LangMind",
+          "cap": "สเต็ปสุดท้ายคือการพูด\nส่งคำตอบเข้า Voice Speech ของ LangMind"
+        },
+        {
+          "cue": "response",
+          "say": "จะได้ไฟล์เสียงกลับมา เป็น MP3 หรือ WAV ตามที่ตั้งค่าไว้",
+          "cap": "ได้ไฟล์เสียงกลับมา\nเป็น MP3 หรือ WAV ตามที่ตั้งค่าไว้"
+        },
+        {
+          "cue": "device",
+          "say": "แล้วแอปก็เปิดเสียงนั้นให้ผู้ใช้ฟัง",
+          "cap": "แล้วแอปก็เปิดเสียงนั้นให้ผู้ใช้ฟัง"
+        }
+      ]
+    }
+  ]
+}

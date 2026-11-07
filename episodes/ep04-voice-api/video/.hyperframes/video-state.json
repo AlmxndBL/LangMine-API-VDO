@@ -1,0 +1,901 @@
+{
+  "version": 1,
+  "historyId": "de3ccf61-f256-46a0-8947-4278e47cfadb",
+  "currentRevision": "f205c1f5-13a5-411f-b783-4bb683b0a18b",
+  "pendingChanges": false,
+  "files": {
+    "assets/01-question.png": {
+      "hash": "c7d8bbe30cbc7ecbaf439b499ed35c4c2cb9dead8144dd08fcb84445065a5085",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\c7\\c7d8bbe30cbc7ecbaf439b499ed35c4c2cb9dead8144dd08fcb84445065a5085"
+    },
+    "assets/04-open-arms.png": {
+      "hash": "2269ed3e6e97689c292f2836dcec6769d81deb19ccc80d3e131be761a3459dcd",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\22\\2269ed3e6e97689c292f2836dcec6769d81deb19ccc80d3e131be761a3459dcd"
+    },
+    "assets/05-point-up.png": {
+      "hash": "6596f6b0a6fd7a57a3a6cc6c31b8da13e18cf17bf14777351480bd222e04dc01",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\65\\6596f6b0a6fd7a57a3a6cc6c31b8da13e18cf17bf14777351480bd222e04dc01"
+    },
+    "assets/app-voice-a.jpg": {
+      "hash": "44cfa0f44e99511ed3d1e985fa5d604e2a3ea4e1ef6908f5905af0ece2294aac",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\44\\44cfa0f44e99511ed3d1e985fa5d604e2a3ea4e1ef6908f5905af0ece2294aac"
+    },
+    "assets/app-voice-q.jpg": {
+      "hash": "7e4ae9e45b310147b99812fc3f24a58e1a032f2ad253213e45cfac5539cde7e2",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\7e\\7e4ae9e45b310147b99812fc3f24a58e1a032f2ad253213e45cfac5539cde7e2"
+    },
+    "assets/fonts/NotoSansThai-OFL.txt": {
+      "hash": "0e4067898723c9acddf967edda99a5ed2088cd857a8e9949084f609358efe38a",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\0e\\0e4067898723c9acddf967edda99a5ed2088cd857a8e9949084f609358efe38a"
+    },
+    "assets/fonts/NotoSansThai.ttf": {
+      "hash": "5a1c559bb539583c8a1fd99d1c5b9491e5e14478c9cd2bd0970d5c3096cc9ef8",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\5a\\5a1c559bb539583c8a1fd99d1c5b9491e5e14478c9cd2bd0970d5c3096cc9ef8"
+    },
+    "assets/fonts/Sarabun-Bold.ttf": {
+      "hash": "d38308ca27d067b9a1b79006337c1f9a66c29aa016d96a9d88d3801da7fa83b9",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\d3\\d38308ca27d067b9a1b79006337c1f9a66c29aa016d96a9d88d3801da7fa83b9"
+    },
+    "assets/fonts/Sarabun-OFL.txt": {
+      "hash": "8f5639919580943ac354cf131d69f1a452c686cfd68e2743a319f70b1dab2bff",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\8f\\8f5639919580943ac354cf131d69f1a452c686cfd68e2743a319f70b1dab2bff"
+    },
+    "assets/fonts/Sarabun-Regular.ttf": {
+      "hash": "226d4f368fbc0457990ddef2692679badfd2c1a4e89e5ac4d43c10ba7743b2f1",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\22\\226d4f368fbc0457990ddef2692679badfd2c1a4e89e5ac4d43c10ba7743b2f1"
+    },
+    "assets/gsap.min.js": {
+      "hash": "fd6978c80858a3036c39b4e53b5a6f9385d759d43283e6b1de89237e5640d85f",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\fd\\fd6978c80858a3036c39b4e53b5a6f9385d759d43283e6b1de89237e5640d85f"
+    },
+    "assets/langmind-logo.png": {
+      "hash": "025dbb6064076ac724f42009635e715f985a3d2df8abfa374a8fcec398979c49",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\02\\025dbb6064076ac724f42009635e715f985a3d2df8abfa374a8fcec398979c49"
+    },
+    "index.html": {
+      "hash": "64b21c9ff2cac96c690d6d0a122256484667ee9a33003342d1f5bf851fb4e180",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\64\\64b21c9ff2cac96c690d6d0a122256484667ee9a33003342d1f5bf851fb4e180"
+    },
+    "motion.js": {
+      "hash": "eeeca57499032dbda7ab7f67b82fe8a251093a1c58ea297f3431964ba24d6f78",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\ee\\eeeca57499032dbda7ab7f67b82fe8a251093a1c58ea297f3431964ba24d6f78"
+    },
+    "assets/app-voice-a.png": {
+      "hash": "10af805421b9e370a0d37099c55c1215a4647953de1b225053f9ac396482afd9",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\10\\10af805421b9e370a0d37099c55c1215a4647953de1b225053f9ac396482afd9"
+    },
+    "assets/app-voice-q.png": {
+      "hash": "7db19ce7dae6897323abdce315c3668586fc7cd98e85f96dbabe3209f198ee4d",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\7d\\7db19ce7dae6897323abdce315c3668586fc7cd98e85f96dbabe3209f198ee4d"
+    },
+    "assets/fonts/Kanit-Medium.ttf": {
+      "hash": "50a237034244026a7c63fe55e24e0b4298babe363cde043e032075b764c545a2",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\50\\50a237034244026a7c63fe55e24e0b4298babe363cde043e032075b764c545a2"
+    },
+    "assets/fonts/Kanit-Regular.ttf": {
+      "hash": "27170c049660b2f962d3ed28441fd20f4c743503ca031fec9c2b4542d6c52736",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\27\\27170c049660b2f962d3ed28441fd20f4c743503ca031fec9c2b4542d6c52736"
+    },
+    "assets/fonts/Prompt-Light.ttf": {
+      "hash": "79412cf5ef7f60d7f1dff4e178707b0bc662dd76608697a7a36b4769454f8b82",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\79\\79412cf5ef7f60d7f1dff4e178707b0bc662dd76608697a7a36b4769454f8b82"
+    },
+    "assets/fonts/Prompt-Medium.ttf": {
+      "hash": "6a42451be692eba473c639f4bcdc6c6d9160a3d632319a64287e3ed1fae15d6b",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\6a\\6a42451be692eba473c639f4bcdc6c6d9160a3d632319a64287e3ed1fae15d6b"
+    },
+    "assets/fonts/Prompt-Regular.ttf": {
+      "hash": "dbd497803cec3caffbc6b7f599ca6fed8beea0ed7e0ad1e098130c5ebbc4fd42",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\db\\dbd497803cec3caffbc6b7f599ca6fed8beea0ed7e0ad1e098130c5ebbc4fd42"
+    },
+    "evidence/a_card_crop.png": {
+      "hash": "d38f50946a13db4421d52ab4e7d4f0955690bf3b1a5baa3297dde2b2ea257efb",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\d3\\d38f50946a13db4421d52ab4e7d4f0955690bf3b1a5baa3297dde2b2ea257efb"
+    },
+    "evidence/app-voice-a-prev.jpg": {
+      "hash": "dd7ea0d1bba0ef5f258051e58a31b446ac5e4bf576852285af84edfae58ebdb2",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\dd\\dd7ea0d1bba0ef5f258051e58a31b446ac5e4bf576852285af84edfae58ebdb2"
+    },
+    "evidence/app-voice-q-orig.jpg": {
+      "hash": "2ac3910874017545e10d6273a24dcfb6d9614af9be6c9518acf07b3cf16cb0be",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\2a\\2ac3910874017545e10d6273a24dcfb6d9614af9be6c9518acf07b3cf16cb0be"
+    },
+    "evidence/btn_crop.png": {
+      "hash": "81ece9e1638f5fd1cb955a00edb0b8221f98661dc8927d8446ec6d6fe5bc952c",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\81\\81ece9e1638f5fd1cb955a00edb0b8221f98661dc8927d8446ec6d6fe5bc952c"
+    },
+    "evidence/card_crop.png": {
+      "hash": "d0b666647ceb6bd083ec251dc7dd347a912520380b9f397cc1e84eca9dfd0c10",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\d0\\d0b666647ceb6bd083ec251dc7dd347a912520380b9f397cc1e84eca9dfd0c10"
+    },
+    "evidence/make-voice-a.py": {
+      "hash": "290075920f09facfb949ed4a2d4e32f120e438c0b5c1bf312bd5f9cd934046da",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\29\\290075920f09facfb949ed4a2d4e32f120e438c0b5c1bf312bd5f9cd934046da"
+    },
+    "evidence/make-voice-screens.py": {
+      "hash": "ee35ccf1d2677856cd93c32420366a5b302d88004919473fd060deb2247cd4d5",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\ee\\ee35ccf1d2677856cd93c32420366a5b302d88004919473fd060deb2247cd4d5"
+    },
+    "evidence/test-a.jpg": {
+      "hash": "44cfa0f44e99511ed3d1e985fa5d604e2a3ea4e1ef6908f5905af0ece2294aac",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\44\\44cfa0f44e99511ed3d1e985fa5d604e2a3ea4e1ef6908f5905af0ece2294aac"
+    },
+    "evidence/test_noto.png": {
+      "hash": "9a61bcd48c70f2be98169dfddb629e0a30978837b9735b2250b1b5c36bb771fe",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\9a\\9a61bcd48c70f2be98169dfddb629e0a30978837b9735b2250b1b5c36bb771fe"
+    },
+    "evidence/test-q.jpg": {
+      "hash": "7e4ae9e45b310147b99812fc3f24a58e1a032f2ad253213e45cfac5539cde7e2",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\7e\\7e4ae9e45b310147b99812fc3f24a58e1a032f2ad253213e45cfac5539cde7e2"
+    },
+    "evidence/test_thai.png": {
+      "hash": "d38e951699c5313a4041c23728d8a79371ed212c704a8c8fdef76a095f46ef16",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\d3\\d38e951699c5313a4041c23728d8a79371ed212c704a8c8fdef76a095f46ef16"
+    },
+    "evidence/test_voice_a_sharp.jpg": {
+      "hash": "0bc320cb5f134914757687f8377b0d941feb7d5974b784deb6769aeb9a3cb779",
+      "content": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\0b\\0bc320cb5f134914757687f8377b0d941feb7d5974b784deb6769aeb9a3cb779"
+    }
+  },
+  "revisions": {
+    "77137377-9be1-4e21-89fd-d773c9d0783d": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794035743675,
+      "endedAt": 1794035743695,
+      "files": {
+        "assets/app-voice-a.jpg": {
+          "before": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\df\\df531541959a891cfbc14dfbecd4058b044e0b27638e1c5b8b39423ded493727",
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\78\\78d15d64d5f9668b25cbb9629c4cd96cd230cc8aa2d2a7fb86b988a71bdb8036"
+        },
+        "index.html": {
+          "before": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\2d\\2d6d33c8cfc7629f2108b1a721bd2f23a3420350c81660f6dd89471a879c3481",
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\16\\16b3a09a5a40a3efc2e5b37709a388aee3d1a04e4016141b24f3923fee49a496"
+        },
+        "motion.js": {
+          "before": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\63\\6304dd740e7ea9da177d4f41efb50f1e5e45885b2fee159bc31013bd40ed67b7",
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\d0\\d0b0b701148656508b518457f2e0a44aa7b33d90ed6399e550117cb8d07be949"
+        }
+      }
+    },
+    "588becaa-099a-4cc3-b6dd-068c5734f856": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794037875530,
+      "endedAt": 1794037875591,
+      "files": {
+        "assets/app-voice-a.jpg": {
+          "before": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\78\\78d15d64d5f9668b25cbb9629c4cd96cd230cc8aa2d2a7fb86b988a71bdb8036",
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\02\\028339bd3bc3a9ce5038a762056a1c983561c119719b98ebca97b571f7923e7e"
+        },
+        "assets/app-voice-a.png": {
+          "before": null,
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\97\\970b5747abf51fda0a0c8bc21108fec73a246b75e698afd78c864d5e1c15dd80"
+        },
+        "assets/app-voice-q.jpg": {
+          "before": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\c1\\c15c01cae263f7c0e87d75cf5e6c691ea87a35ae8de44a8f36383119b81f58d3",
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\2a\\2ac3910874017545e10d6273a24dcfb6d9614af9be6c9518acf07b3cf16cb0be"
+        },
+        "assets/app-voice-q.png": {
+          "before": null,
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\7e\\7e0927a00cb3afa99b38c9ca262f01f02db72f255e0768d56ec21c7f8bb54d3e"
+        },
+        "index.html": {
+          "before": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\16\\16b3a09a5a40a3efc2e5b37709a388aee3d1a04e4016141b24f3923fee49a496",
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\64\\64b21c9ff2cac96c690d6d0a122256484667ee9a33003342d1f5bf851fb4e180"
+        }
+      }
+    },
+    "4012e73f-829a-4dff-a3a8-94ba4d0048ae": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794040249420,
+      "endedAt": 1794040249430,
+      "files": {
+        "assets/app-voice-a.png": {
+          "before": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\97\\970b5747abf51fda0a0c8bc21108fec73a246b75e698afd78c864d5e1c15dd80",
+          "after": null
+        },
+        "assets/app-voice-q.png": {
+          "before": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\7e\\7e0927a00cb3afa99b38c9ca262f01f02db72f255e0768d56ec21c7f8bb54d3e",
+          "after": null
+        },
+        "motion.js": {
+          "before": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\d0\\d0b0b701148656508b518457f2e0a44aa7b33d90ed6399e550117cb8d07be949",
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\ee\\eeeca57499032dbda7ab7f67b82fe8a251093a1c58ea297f3431964ba24d6f78"
+        }
+      }
+    },
+    "f205c1f5-13a5-411f-b783-4bb683b0a18b": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794045230073,
+      "endedAt": 1794045230397,
+      "files": {
+        "assets/app-voice-a.jpg": {
+          "before": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\02\\028339bd3bc3a9ce5038a762056a1c983561c119719b98ebca97b571f7923e7e",
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\44\\44cfa0f44e99511ed3d1e985fa5d604e2a3ea4e1ef6908f5905af0ece2294aac"
+        },
+        "assets/app-voice-a.png": {
+          "before": null,
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\10\\10af805421b9e370a0d37099c55c1215a4647953de1b225053f9ac396482afd9"
+        },
+        "assets/app-voice-q.jpg": {
+          "before": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\2a\\2ac3910874017545e10d6273a24dcfb6d9614af9be6c9518acf07b3cf16cb0be",
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\7e\\7e4ae9e45b310147b99812fc3f24a58e1a032f2ad253213e45cfac5539cde7e2"
+        },
+        "assets/app-voice-q.png": {
+          "before": null,
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\7d\\7db19ce7dae6897323abdce315c3668586fc7cd98e85f96dbabe3209f198ee4d"
+        },
+        "assets/fonts/Kanit-Medium.ttf": {
+          "before": null,
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\50\\50a237034244026a7c63fe55e24e0b4298babe363cde043e032075b764c545a2"
+        },
+        "assets/fonts/Kanit-Regular.ttf": {
+          "before": null,
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\27\\27170c049660b2f962d3ed28441fd20f4c743503ca031fec9c2b4542d6c52736"
+        },
+        "assets/fonts/Prompt-Light.ttf": {
+          "before": null,
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\79\\79412cf5ef7f60d7f1dff4e178707b0bc662dd76608697a7a36b4769454f8b82"
+        },
+        "assets/fonts/Prompt-Medium.ttf": {
+          "before": null,
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\6a\\6a42451be692eba473c639f4bcdc6c6d9160a3d632319a64287e3ed1fae15d6b"
+        },
+        "assets/fonts/Prompt-Regular.ttf": {
+          "before": null,
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\db\\dbd497803cec3caffbc6b7f599ca6fed8beea0ed7e0ad1e098130c5ebbc4fd42"
+        },
+        "evidence/a_card_crop.png": {
+          "before": null,
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\d3\\d38f50946a13db4421d52ab4e7d4f0955690bf3b1a5baa3297dde2b2ea257efb"
+        },
+        "evidence/app-voice-a-prev.jpg": {
+          "before": null,
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\dd\\dd7ea0d1bba0ef5f258051e58a31b446ac5e4bf576852285af84edfae58ebdb2"
+        },
+        "evidence/app-voice-q-orig.jpg": {
+          "before": null,
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\2a\\2ac3910874017545e10d6273a24dcfb6d9614af9be6c9518acf07b3cf16cb0be"
+        },
+        "evidence/btn_crop.png": {
+          "before": null,
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\81\\81ece9e1638f5fd1cb955a00edb0b8221f98661dc8927d8446ec6d6fe5bc952c"
+        },
+        "evidence/card_crop.png": {
+          "before": null,
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\d0\\d0b666647ceb6bd083ec251dc7dd347a912520380b9f397cc1e84eca9dfd0c10"
+        },
+        "evidence/make-voice-a.py": {
+          "before": null,
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\29\\290075920f09facfb949ed4a2d4e32f120e438c0b5c1bf312bd5f9cd934046da"
+        },
+        "evidence/make-voice-screens.py": {
+          "before": null,
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\ee\\ee35ccf1d2677856cd93c32420366a5b302d88004919473fd060deb2247cd4d5"
+        },
+        "evidence/test-a.jpg": {
+          "before": null,
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\44\\44cfa0f44e99511ed3d1e985fa5d604e2a3ea4e1ef6908f5905af0ece2294aac"
+        },
+        "evidence/test_noto.png": {
+          "before": null,
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\9a\\9a61bcd48c70f2be98169dfddb629e0a30978837b9735b2250b1b5c36bb771fe"
+        },
+        "evidence/test-q.jpg": {
+          "before": null,
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\7e\\7e4ae9e45b310147b99812fc3f24a58e1a032f2ad253213e45cfac5539cde7e2"
+        },
+        "evidence/test_thai.png": {
+          "before": null,
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\d3\\d38e951699c5313a4041c23728d8a79371ed212c704a8c8fdef76a095f46ef16"
+        },
+        "evidence/test_voice_a_sharp.jpg": {
+          "before": null,
+          "after": "C:\\Users\\dacha\\.cache\\hyperframes\\history\\de3ccf61-f256-46a0-8947-4278e47cfadb\\blobs\\0b\\0bc320cb5f134914757687f8377b0d941feb7d5974b784deb6769aeb9a3cb779"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": "77137377-9be1-4e21-89fd-d773c9d0783d",
+      "id": "4c69a190-46dc-4286-837e-827a104d5bb3"
+    },
+    "revisions": {
+      "77137377-9be1-4e21-89fd-d773c9d0783d": [
+        {
+          "id": "4c69a190-46dc-4286-837e-827a104d5bb3",
+          "scope": "project",
+          "report": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\checks\\4c69a190-46dc-4286-837e-827a104d5bb3.json",
+          "metadata": {
+            "ok": false,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1794035753630,
+          "contentHash": "49105d2482d04777e46b560a25abb2930092d673902e04d22a9d82a8961a3056",
+          "revision": "77137377-9be1-4e21-89fd-d773c9d0783d",
+          "inputFingerprint": "fefa939b2dbccc088ff4fbc928940fd55ba0ec3b7d5720923d75b2b5d45afa84",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "id": "688c1242-b1d5-4756-99d1-841c184f50c9",
+        "scope": "project",
+        "report": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\checks\\688c1242-b1d5-4756-99d1-841c184f50c9.json",
+        "metadata": {
+          "ok": false,
+          "browserSkipped": true,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1794033459519,
+        "contentHash": "977d5cace04d0fcadd73cfe98067ec0ef40857181a403c9f2ce96baeed1def2b",
+        "revision": null,
+        "inputFingerprint": "7afb28ac70e0fe5a1ecf5a0d22a93f367533ed5f4e0d6cdfdc3ecb4cbbdacac4",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": {
+      "revision": "f205c1f5-13a5-411f-b783-4bb683b0a18b",
+      "id": "64e431c8-a36b-4e07-9fa6-6e70c8f90ea9-5"
+    },
+    "revisions": {
+      "77137377-9be1-4e21-89fd-d773c9d0783d": [
+        {
+          "scope": "full",
+          "id": "a2d26eb0-b4da-4e85-931d-7eba6dfa4e6c-0",
+          "image": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\snapshots\\4752b364-779c-489b-bbf1-d11808c81295\\frame-00-at-4s.png",
+          "time": 4,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [
+              "1 image(s) failed to load at 4s, so the frame may be missing them: http://127.0.0.1:57962/assets/app-voice-q.png",
+              "1 image(s) failed to load at 36s, so the frame may be missing them: http://127.0.0.1:57962/assets/app-voice-a.png",
+              "1 image(s) failed to load at 41.75s, so the frame may be missing them: http://127.0.0.1:57962/assets/app-voice-a.png"
+            ],
+            "partial": true
+          },
+          "createdAt": 1794036358264,
+          "contentHash": "451a707a721f4ec474f58d2c90908d8048d103dc23c423e700f66b895f9157a8",
+          "revision": "77137377-9be1-4e21-89fd-d773c9d0783d",
+          "inputFingerprint": "fefa939b2dbccc088ff4fbc928940fd55ba0ec3b7d5720923d75b2b5d45afa84",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "a2d26eb0-b4da-4e85-931d-7eba6dfa4e6c-1",
+          "image": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\snapshots\\4752b364-779c-489b-bbf1-d11808c81295\\frame-01-at-12s.png",
+          "time": 12,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [
+              "1 image(s) failed to load at 4s, so the frame may be missing them: http://127.0.0.1:57962/assets/app-voice-q.png",
+              "1 image(s) failed to load at 36s, so the frame may be missing them: http://127.0.0.1:57962/assets/app-voice-a.png",
+              "1 image(s) failed to load at 41.75s, so the frame may be missing them: http://127.0.0.1:57962/assets/app-voice-a.png"
+            ],
+            "partial": true
+          },
+          "createdAt": 1794036358264,
+          "contentHash": "5a01e6452b9b20c7c5fea16f557987963e4b187b7816a7a0b18b0b1e0c9efe05",
+          "revision": "77137377-9be1-4e21-89fd-d773c9d0783d",
+          "inputFingerprint": "fefa939b2dbccc088ff4fbc928940fd55ba0ec3b7d5720923d75b2b5d45afa84",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "a2d26eb0-b4da-4e85-931d-7eba6dfa4e6c-2",
+          "image": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\snapshots\\4752b364-779c-489b-bbf1-d11808c81295\\frame-02-at-20s.png",
+          "time": 20,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [
+              "1 image(s) failed to load at 4s, so the frame may be missing them: http://127.0.0.1:57962/assets/app-voice-q.png",
+              "1 image(s) failed to load at 36s, so the frame may be missing them: http://127.0.0.1:57962/assets/app-voice-a.png",
+              "1 image(s) failed to load at 41.75s, so the frame may be missing them: http://127.0.0.1:57962/assets/app-voice-a.png"
+            ],
+            "partial": true
+          },
+          "createdAt": 1794036358264,
+          "contentHash": "b5839ff8e29bed4cc089c44fe054099bd4d4604197b10bb0e442b141a9eedac2",
+          "revision": "77137377-9be1-4e21-89fd-d773c9d0783d",
+          "inputFingerprint": "fefa939b2dbccc088ff4fbc928940fd55ba0ec3b7d5720923d75b2b5d45afa84",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "a2d26eb0-b4da-4e85-931d-7eba6dfa4e6c-3",
+          "image": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\snapshots\\4752b364-779c-489b-bbf1-d11808c81295\\frame-03-at-28s.png",
+          "time": 28,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [
+              "1 image(s) failed to load at 4s, so the frame may be missing them: http://127.0.0.1:57962/assets/app-voice-q.png",
+              "1 image(s) failed to load at 36s, so the frame may be missing them: http://127.0.0.1:57962/assets/app-voice-a.png",
+              "1 image(s) failed to load at 41.75s, so the frame may be missing them: http://127.0.0.1:57962/assets/app-voice-a.png"
+            ],
+            "partial": true
+          },
+          "createdAt": 1794036358264,
+          "contentHash": "b5839ff8e29bed4cc089c44fe054099bd4d4604197b10bb0e442b141a9eedac2",
+          "revision": "77137377-9be1-4e21-89fd-d773c9d0783d",
+          "inputFingerprint": "fefa939b2dbccc088ff4fbc928940fd55ba0ec3b7d5720923d75b2b5d45afa84",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "a2d26eb0-b4da-4e85-931d-7eba6dfa4e6c-4",
+          "image": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\snapshots\\4752b364-779c-489b-bbf1-d11808c81295\\frame-04-at-36s.png",
+          "time": 36,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [
+              "1 image(s) failed to load at 4s, so the frame may be missing them: http://127.0.0.1:57962/assets/app-voice-q.png",
+              "1 image(s) failed to load at 36s, so the frame may be missing them: http://127.0.0.1:57962/assets/app-voice-a.png",
+              "1 image(s) failed to load at 41.75s, so the frame may be missing them: http://127.0.0.1:57962/assets/app-voice-a.png"
+            ],
+            "partial": true
+          },
+          "createdAt": 1794036358265,
+          "contentHash": "1728c82bfb0f4929e6474b743f1263b685b85927a0411089e686a8de3fb1e80a",
+          "revision": "77137377-9be1-4e21-89fd-d773c9d0783d",
+          "inputFingerprint": "fefa939b2dbccc088ff4fbc928940fd55ba0ec3b7d5720923d75b2b5d45afa84",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "a2d26eb0-b4da-4e85-931d-7eba6dfa4e6c-5",
+          "image": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\snapshots\\4752b364-779c-489b-bbf1-d11808c81295\\frame-05-at-41.75s.png",
+          "time": 41.75,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [
+              "1 image(s) failed to load at 4s, so the frame may be missing them: http://127.0.0.1:57962/assets/app-voice-q.png",
+              "1 image(s) failed to load at 36s, so the frame may be missing them: http://127.0.0.1:57962/assets/app-voice-a.png",
+              "1 image(s) failed to load at 41.75s, so the frame may be missing them: http://127.0.0.1:57962/assets/app-voice-a.png"
+            ],
+            "partial": true
+          },
+          "createdAt": 1794036358265,
+          "contentHash": "1728c82bfb0f4929e6474b743f1263b685b85927a0411089e686a8de3fb1e80a",
+          "revision": "77137377-9be1-4e21-89fd-d773c9d0783d",
+          "inputFingerprint": "fefa939b2dbccc088ff4fbc928940fd55ba0ec3b7d5720923d75b2b5d45afa84",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "588becaa-099a-4cc3-b6dd-068c5734f856": [
+        {
+          "scope": "full",
+          "id": "d8b56831-a873-4f7d-8454-4053cd0f6936-0",
+          "image": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\snapshots\\dc74cb2a-dc3e-4e23-a17a-90965761d5a0\\frame-00-at-4s.png",
+          "time": 4,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794037881271,
+          "contentHash": "247882ff1359cb6d148ee0c2e7bf2b0ba1ce77cfb016a894ce8d719e99ffb669",
+          "revision": "588becaa-099a-4cc3-b6dd-068c5734f856",
+          "inputFingerprint": "08232b4f911bdb985876c8148f4b5bf6522f2bbb170502e0117db6603a038354",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "d8b56831-a873-4f7d-8454-4053cd0f6936-1",
+          "image": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\snapshots\\dc74cb2a-dc3e-4e23-a17a-90965761d5a0\\frame-01-at-12s.png",
+          "time": 12,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794037881272,
+          "contentHash": "5a01e6452b9b20c7c5fea16f557987963e4b187b7816a7a0b18b0b1e0c9efe05",
+          "revision": "588becaa-099a-4cc3-b6dd-068c5734f856",
+          "inputFingerprint": "08232b4f911bdb985876c8148f4b5bf6522f2bbb170502e0117db6603a038354",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "d8b56831-a873-4f7d-8454-4053cd0f6936-2",
+          "image": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\snapshots\\dc74cb2a-dc3e-4e23-a17a-90965761d5a0\\frame-02-at-20s.png",
+          "time": 20,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794037881272,
+          "contentHash": "b5839ff8e29bed4cc089c44fe054099bd4d4604197b10bb0e442b141a9eedac2",
+          "revision": "588becaa-099a-4cc3-b6dd-068c5734f856",
+          "inputFingerprint": "08232b4f911bdb985876c8148f4b5bf6522f2bbb170502e0117db6603a038354",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "d8b56831-a873-4f7d-8454-4053cd0f6936-3",
+          "image": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\snapshots\\dc74cb2a-dc3e-4e23-a17a-90965761d5a0\\frame-03-at-28s.png",
+          "time": 28,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794037881272,
+          "contentHash": "b5839ff8e29bed4cc089c44fe054099bd4d4604197b10bb0e442b141a9eedac2",
+          "revision": "588becaa-099a-4cc3-b6dd-068c5734f856",
+          "inputFingerprint": "08232b4f911bdb985876c8148f4b5bf6522f2bbb170502e0117db6603a038354",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "d8b56831-a873-4f7d-8454-4053cd0f6936-4",
+          "image": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\snapshots\\dc74cb2a-dc3e-4e23-a17a-90965761d5a0\\frame-04-at-36s.png",
+          "time": 36,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794037881272,
+          "contentHash": "1728c82bfb0f4929e6474b743f1263b685b85927a0411089e686a8de3fb1e80a",
+          "revision": "588becaa-099a-4cc3-b6dd-068c5734f856",
+          "inputFingerprint": "08232b4f911bdb985876c8148f4b5bf6522f2bbb170502e0117db6603a038354",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "d8b56831-a873-4f7d-8454-4053cd0f6936-5",
+          "image": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\snapshots\\dc74cb2a-dc3e-4e23-a17a-90965761d5a0\\frame-05-at-41.75s.png",
+          "time": 41.75,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794037881272,
+          "contentHash": "1728c82bfb0f4929e6474b743f1263b685b85927a0411089e686a8de3fb1e80a",
+          "revision": "588becaa-099a-4cc3-b6dd-068c5734f856",
+          "inputFingerprint": "08232b4f911bdb985876c8148f4b5bf6522f2bbb170502e0117db6603a038354",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "4012e73f-829a-4dff-a3a8-94ba4d0048ae": [
+        {
+          "scope": "full",
+          "id": "344a8201-782e-4828-ab83-899d81c981ea-0",
+          "image": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\snapshots\\0efc2c32-1d04-48b3-be09-9712e866719e\\frame-00-at-4s.png",
+          "time": 4,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794040256189,
+          "contentHash": "247882ff1359cb6d148ee0c2e7bf2b0ba1ce77cfb016a894ce8d719e99ffb669",
+          "revision": "4012e73f-829a-4dff-a3a8-94ba4d0048ae",
+          "inputFingerprint": "dbcfd90fa6de40d6431bdfb03e4742c2f3993a96c33b88d48bff11aef2d08f62",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "344a8201-782e-4828-ab83-899d81c981ea-1",
+          "image": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\snapshots\\0efc2c32-1d04-48b3-be09-9712e866719e\\frame-01-at-12s.png",
+          "time": 12,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794040256190,
+          "contentHash": "5a01e6452b9b20c7c5fea16f557987963e4b187b7816a7a0b18b0b1e0c9efe05",
+          "revision": "4012e73f-829a-4dff-a3a8-94ba4d0048ae",
+          "inputFingerprint": "dbcfd90fa6de40d6431bdfb03e4742c2f3993a96c33b88d48bff11aef2d08f62",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "344a8201-782e-4828-ab83-899d81c981ea-2",
+          "image": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\snapshots\\0efc2c32-1d04-48b3-be09-9712e866719e\\frame-02-at-20s.png",
+          "time": 20,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794040256191,
+          "contentHash": "99b71587195bfa3d5bcb246c7624a09f2ee20341b6830f20913c5290831655ee",
+          "revision": "4012e73f-829a-4dff-a3a8-94ba4d0048ae",
+          "inputFingerprint": "dbcfd90fa6de40d6431bdfb03e4742c2f3993a96c33b88d48bff11aef2d08f62",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "344a8201-782e-4828-ab83-899d81c981ea-3",
+          "image": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\snapshots\\0efc2c32-1d04-48b3-be09-9712e866719e\\frame-03-at-28s.png",
+          "time": 28,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794040256191,
+          "contentHash": "99b71587195bfa3d5bcb246c7624a09f2ee20341b6830f20913c5290831655ee",
+          "revision": "4012e73f-829a-4dff-a3a8-94ba4d0048ae",
+          "inputFingerprint": "dbcfd90fa6de40d6431bdfb03e4742c2f3993a96c33b88d48bff11aef2d08f62",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "344a8201-782e-4828-ab83-899d81c981ea-4",
+          "image": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\snapshots\\0efc2c32-1d04-48b3-be09-9712e866719e\\frame-04-at-36s.png",
+          "time": 36,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794040256191,
+          "contentHash": "1728c82bfb0f4929e6474b743f1263b685b85927a0411089e686a8de3fb1e80a",
+          "revision": "4012e73f-829a-4dff-a3a8-94ba4d0048ae",
+          "inputFingerprint": "dbcfd90fa6de40d6431bdfb03e4742c2f3993a96c33b88d48bff11aef2d08f62",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "344a8201-782e-4828-ab83-899d81c981ea-5",
+          "image": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\snapshots\\0efc2c32-1d04-48b3-be09-9712e866719e\\frame-05-at-41.75s.png",
+          "time": 41.75,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794040256191,
+          "contentHash": "1728c82bfb0f4929e6474b743f1263b685b85927a0411089e686a8de3fb1e80a",
+          "revision": "4012e73f-829a-4dff-a3a8-94ba4d0048ae",
+          "inputFingerprint": "dbcfd90fa6de40d6431bdfb03e4742c2f3993a96c33b88d48bff11aef2d08f62",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "f205c1f5-13a5-411f-b783-4bb683b0a18b": [
+        {
+          "scope": "full",
+          "id": "64e431c8-a36b-4e07-9fa6-6e70c8f90ea9-0",
+          "image": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\snapshots\\d07b6770-4143-4998-a1d7-eafa1c957923\\frame-00-at-4s.png",
+          "time": 4,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794045238754,
+          "contentHash": "f7da45c7b415fc61eb3ab8dff430fc9908b4690be4b4a279d484663c3a2a40da",
+          "revision": "f205c1f5-13a5-411f-b783-4bb683b0a18b",
+          "inputFingerprint": "665ea74d225a1c3ce5f358e7503e77cf5d030868113c0a684b3f4e1332caa69e",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "64e431c8-a36b-4e07-9fa6-6e70c8f90ea9-1",
+          "image": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\snapshots\\d07b6770-4143-4998-a1d7-eafa1c957923\\frame-01-at-12s.png",
+          "time": 12,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794045238756,
+          "contentHash": "74bf5d09372dcfe3fa86d333791cb8328feeae34120d52e84accd482ebab378d",
+          "revision": "f205c1f5-13a5-411f-b783-4bb683b0a18b",
+          "inputFingerprint": "665ea74d225a1c3ce5f358e7503e77cf5d030868113c0a684b3f4e1332caa69e",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "64e431c8-a36b-4e07-9fa6-6e70c8f90ea9-2",
+          "image": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\snapshots\\d07b6770-4143-4998-a1d7-eafa1c957923\\frame-02-at-20s.png",
+          "time": 20,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794045238756,
+          "contentHash": "d1f1b31cb035eba2060e338d822b49daf855974c1d6712d88465a2390ee00cba",
+          "revision": "f205c1f5-13a5-411f-b783-4bb683b0a18b",
+          "inputFingerprint": "665ea74d225a1c3ce5f358e7503e77cf5d030868113c0a684b3f4e1332caa69e",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "64e431c8-a36b-4e07-9fa6-6e70c8f90ea9-3",
+          "image": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\snapshots\\d07b6770-4143-4998-a1d7-eafa1c957923\\frame-03-at-28s.png",
+          "time": 28,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794045238757,
+          "contentHash": "d1f1b31cb035eba2060e338d822b49daf855974c1d6712d88465a2390ee00cba",
+          "revision": "f205c1f5-13a5-411f-b783-4bb683b0a18b",
+          "inputFingerprint": "665ea74d225a1c3ce5f358e7503e77cf5d030868113c0a684b3f4e1332caa69e",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "64e431c8-a36b-4e07-9fa6-6e70c8f90ea9-4",
+          "image": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\snapshots\\d07b6770-4143-4998-a1d7-eafa1c957923\\frame-04-at-36s.png",
+          "time": 36,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794045238757,
+          "contentHash": "e60fdc7df7248cf53f96ccfe1d6b2101a8df6aa37cd20f0bdd17ea98db16bf8b",
+          "revision": "f205c1f5-13a5-411f-b783-4bb683b0a18b",
+          "inputFingerprint": "665ea74d225a1c3ce5f358e7503e77cf5d030868113c0a684b3f4e1332caa69e",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "64e431c8-a36b-4e07-9fa6-6e70c8f90ea9-5",
+          "image": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video\\.hyperframes\\artifacts\\snapshots\\d07b6770-4143-4998-a1d7-eafa1c957923\\frame-05-at-41.75s.png",
+          "time": 41.75,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794045238758,
+          "contentHash": "e60fdc7df7248cf53f96ccfe1d6b2101a8df6aa37cd20f0bdd17ea98db16bf8b",
+          "revision": "f205c1f5-13a5-411f-b783-4bb683b0a18b",
+          "inputFingerprint": "665ea74d225a1c3ce5f358e7503e77cf5d030868113c0a684b3f4e1332caa69e",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": []
+  }
+}
