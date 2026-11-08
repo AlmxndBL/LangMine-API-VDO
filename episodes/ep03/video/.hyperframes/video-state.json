@@ -1,0 +1,4170 @@
+{
+  "version": 1,
+  "historyId": "e6a5d410-9fe2-4691-9130-1398a22e04f5",
+  "currentRevision": "3be33958-9b30-4554-9ca1-ac8e0902b4dd",
+  "pendingChanges": false,
+  "files": {
+    "ASSETS.md": {
+      "hash": "6710eeca311e8e28262dd375c8a6ccb3bd433475b25bdf47b53ff6a90f776091",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\e6a5d410-9fe2-4691-9130-1398a22e04f5\\blobs\\67\\6710eeca311e8e28262dd375c8a6ccb3bd433475b25bdf47b53ff6a90f776091"
+    },
+    "assets/brand/langmind-logo.png": {
+      "hash": "025dbb6064076ac724f42009635e715f985a3d2df8abfa374a8fcec398979c49",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\e6a5d410-9fe2-4691-9130-1398a22e04f5\\blobs\\02\\025dbb6064076ac724f42009635e715f985a3d2df8abfa374a8fcec398979c49"
+    },
+    "assets/characters/01-question.png": {
+      "hash": "c7d8bbe30cbc7ecbaf439b499ed35c4c2cb9dead8144dd08fcb84445065a5085",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\e6a5d410-9fe2-4691-9130-1398a22e04f5\\blobs\\c7\\c7d8bbe30cbc7ecbaf439b499ed35c4c2cb9dead8144dd08fcb84445065a5085"
+    },
+    "assets/characters/05-point-up.png": {
+      "hash": "6596f6b0a6fd7a57a3a6cc6c31b8da13e18cf17bf14777351480bd222e04dc01",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\e6a5d410-9fe2-4691-9130-1398a22e04f5\\blobs\\65\\6596f6b0a6fd7a57a3a6cc6c31b8da13e18cf17bf14777351480bd222e04dc01"
+    },
+    "assets/characters/10-thumbs-up.png": {
+      "hash": "a12f374f8b804ab812c185f2191ec19b736cfea8466bae947a54926f4764cb17",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\e6a5d410-9fe2-4691-9130-1398a22e04f5\\blobs\\a1\\a12f374f8b804ab812c185f2191ec19b736cfea8466bae947a54926f4764cb17"
+    },
+    "assets/characters/20-laptop.png": {
+      "hash": "66584b5a029117702af7f8bb85634b4a3979b327ca4bbafee62d572db008ab72",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\e6a5d410-9fe2-4691-9130-1398a22e04f5\\blobs\\66\\66584b5a029117702af7f8bb85634b4a3979b327ca4bbafee62d572db008ab72"
+    },
+    "assets/characters/39-tiptoe.png": {
+      "hash": "dd9a9452dcd8ffaa03d9cbc440511b21807b4adc9e0dbc291bd4205ad41f7f4b",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\e6a5d410-9fe2-4691-9130-1398a22e04f5\\blobs\\dd\\dd9a9452dcd8ffaa03d9cbc440511b21807b4adc9e0dbc291bd4205ad41f7f4b"
+    },
+    "assets/fonts/Sarabun-Bold.ttf": {
+      "hash": "d38308ca27d067b9a1b79006337c1f9a66c29aa016d96a9d88d3801da7fa83b9",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\e6a5d410-9fe2-4691-9130-1398a22e04f5\\blobs\\d3\\d38308ca27d067b9a1b79006337c1f9a66c29aa016d96a9d88d3801da7fa83b9"
+    },
+    "assets/fonts/Sarabun-OFL.txt": {
+      "hash": "8f5639919580943ac354cf131d69f1a452c686cfd68e2743a319f70b1dab2bff",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\e6a5d410-9fe2-4691-9130-1398a22e04f5\\blobs\\8f\\8f5639919580943ac354cf131d69f1a452c686cfd68e2743a319f70b1dab2bff"
+    },
+    "assets/fonts/Sarabun-Regular.ttf": {
+      "hash": "226d4f368fbc0457990ddef2692679badfd2c1a4e89e5ac4d43c10ba7743b2f1",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\e6a5d410-9fe2-4691-9130-1398a22e04f5\\blobs\\22\\226d4f368fbc0457990ddef2692679badfd2c1a4e89e5ac4d43c10ba7743b2f1"
+    },
+    "assets/ui/scr-01-chat-loading.png": {
+      "hash": "38fdeb49a700a9a9756bcaa817c98adf0e77d006a1461679bf321b6d166940d1",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\e6a5d410-9fe2-4691-9130-1398a22e04f5\\blobs\\38\\38fdeb49a700a9a9756bcaa817c98adf0e77d006a1461679bf321b6d166940d1"
+    },
+    "assets/ui/scr-02-chat-streaming.png": {
+      "hash": "6a54a039fec7d224702bc5cfae9f8671c244f768f42d347f69b890a623369693",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\e6a5d410-9fe2-4691-9130-1398a22e04f5\\blobs\\6a\\6a54a039fec7d224702bc5cfae9f8671c244f768f42d347f69b890a623369693"
+    },
+    "assets/vendor/gsap.min.js": {
+      "hash": "fd6978c80858a3036c39b4e53b5a6f9385d759d43283e6b1de89237e5640d85f",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\e6a5d410-9fe2-4691-9130-1398a22e04f5\\blobs\\fd\\fd6978c80858a3036c39b4e53b5a6f9385d759d43283e6b1de89237e5640d85f"
+    },
+    "build.mjs": {
+      "hash": "7b5b4304ffeb702f544389a18299005fc8d7281757e20b9523f069ef667bedd2",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\e6a5d410-9fe2-4691-9130-1398a22e04f5\\blobs\\7b\\7b5b4304ffeb702f544389a18299005fc8d7281757e20b9523f069ef667bedd2"
+    },
+    "index.html": {
+      "hash": "757350b0b61351ace155f66517012dd91ba7faa17fb4d65d915792725996193c",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\e6a5d410-9fe2-4691-9130-1398a22e04f5\\blobs\\75\\757350b0b61351ace155f66517012dd91ba7faa17fb4d65d915792725996193c"
+    },
+    "timing.json": {
+      "hash": "fd2265cf930f737698958f150dbcf99e4c94f5310f4e8711d485f13a905a083a",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\e6a5d410-9fe2-4691-9130-1398a22e04f5\\blobs\\fd\\fd2265cf930f737698958f150dbcf99e4c94f5310f4e8711d485f13a905a083a"
+    },
+    "REVIEW-silent-v1.md": {
+      "hash": "b4bad40d10cac013e4d1d30e563b8e310d89adc3439e9bb9b3bf6fe1efca9cef",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\e6a5d410-9fe2-4691-9130-1398a22e04f5\\blobs\\b4\\b4bad40d10cac013e4d1d30e563b8e310d89adc3439e9bb9b3bf6fe1efca9cef"
+    }
+  },
+  "revisions": {
+    "597386a5-6f17-438f-8634-ab143bfcbb96": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794067980231,
+      "endedAt": 1794067980255,
+      "files": {
+        "build.mjs": {
+          "before": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\e6a5d410-9fe2-4691-9130-1398a22e04f5\\blobs\\53\\53e6997b3c5750f4a7ff2bd843dbd3d91eee4d828fb654172a1e5a57d5aa403a",
+          "after": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\e6a5d410-9fe2-4691-9130-1398a22e04f5\\blobs\\7b\\7b5b4304ffeb702f544389a18299005fc8d7281757e20b9523f069ef667bedd2"
+        },
+        "index.html": {
+          "before": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\e6a5d410-9fe2-4691-9130-1398a22e04f5\\blobs\\ca\\ca77aaa03d64f33cf7e8c9d3036b97899628431123558c748a0a942c346c9130",
+          "after": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\e6a5d410-9fe2-4691-9130-1398a22e04f5\\blobs\\75\\757350b0b61351ace155f66517012dd91ba7faa17fb4d65d915792725996193c"
+        }
+      }
+    },
+    "c2b717b1-08ed-4832-8cc4-7b2ddc394c26": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794068244725,
+      "endedAt": 1794068246726,
+      "files": {
+        "REVIEW-silent-v1.md": {
+          "before": null,
+          "after": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\e6a5d410-9fe2-4691-9130-1398a22e04f5\\blobs\\65\\650006e2c93dc17178ac6f69ab605135ccd4047a59b7c28a7217c51730f6563c"
+        }
+      }
+    },
+    "3be33958-9b30-4554-9ca1-ac8e0902b4dd": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794068581028,
+      "endedAt": 1794068583028,
+      "files": {
+        "REVIEW-silent-v1.md": {
+          "before": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\e6a5d410-9fe2-4691-9130-1398a22e04f5\\blobs\\65\\650006e2c93dc17178ac6f69ab605135ccd4047a59b7c28a7217c51730f6563c",
+          "after": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\e6a5d410-9fe2-4691-9130-1398a22e04f5\\blobs\\b4\\b4bad40d10cac013e4d1d30e563b8e310d89adc3439e9bb9b3bf6fe1efca9cef"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "771b0060-f7b5-4b27-ba13-13c1146b3d6d"
+    },
+    "revisions": {
+      "597386a5-6f17-438f-8634-ab143bfcbb96": [
+        {
+          "id": "7f58b0b1-2d05-4e47-a003-44e183f1a78b",
+          "scope": "project",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "contrast": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto"
+            }
+          },
+          "createdAt": 1794067987800,
+          "contentHash": "fee91be57f030b9ca410adbbef9db7516933080cf6a2e33172d9f63d30f2278c",
+          "revision": "597386a5-6f17-438f-8634-ab143bfcbb96",
+          "inputFingerprint": "1dfdb57227e346971830e0bb4b0a8b8744825c96aebc579d92738873235c8be2",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "2b82be88-8425-474f-a158-bd9b789e9e71"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "id": "771b0060-f7b5-4b27-ba13-13c1146b3d6d",
+        "scope": "project",
+        "report": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\checks\\771b0060-f7b5-4b27-ba13-13c1146b3d6d.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1794066933573,
+        "contentHash": "fee91be57f030b9ca410adbbef9db7516933080cf6a2e33172d9f63d30f2278c",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": {
+      "revision": null,
+      "id": "15a3710d-6a75-4f88-837f-2f010a864af7-161"
+    },
+    "revisions": {
+      "597386a5-6f17-438f-8634-ab143bfcbb96": [
+        {
+          "scope": "full",
+          "id": "92363e27-65a7-4d92-a840-f1f9f789b70b-0",
+          "time": 3.05,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794068097960,
+          "contentHash": "4d0d58101ee24f8679ca4129a167edbf601da6122873e62ffa7214de265f77ea",
+          "revision": "597386a5-6f17-438f-8634-ab143bfcbb96",
+          "inputFingerprint": "1dfdb57227e346971830e0bb4b0a8b8744825c96aebc579d92738873235c8be2",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "2b82be88-8425-474f-a158-bd9b789e9e71"
+        },
+        {
+          "scope": "full",
+          "id": "92363e27-65a7-4d92-a840-f1f9f789b70b-1",
+          "time": 45.1,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794068097965,
+          "contentHash": "8d23e124450b3ca43a3e4a517c3ee7d6afe2880201518643a460a603e8ec29a5",
+          "revision": "597386a5-6f17-438f-8634-ab143bfcbb96",
+          "inputFingerprint": "1dfdb57227e346971830e0bb4b0a8b8744825c96aebc579d92738873235c8be2",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "2b82be88-8425-474f-a158-bd9b789e9e71"
+        },
+        {
+          "scope": "full",
+          "id": "92363e27-65a7-4d92-a840-f1f9f789b70b-2",
+          "time": 102.75,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794068097969,
+          "contentHash": "88887ad258cdc6713110b3004061c293cf19d5d239505838a896cc2d96b44468",
+          "revision": "597386a5-6f17-438f-8634-ab143bfcbb96",
+          "inputFingerprint": "1dfdb57227e346971830e0bb4b0a8b8744825c96aebc579d92738873235c8be2",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "2b82be88-8425-474f-a158-bd9b789e9e71"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-0",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-01-at-0.3s.png",
+        "time": 0.3,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC01-PAIN"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820453,
+        "contentHash": "7e9b988321b0ce43984c2d56aace22367da116bec3a30568d650a2f1ed4fa7e6",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-1",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-02-at-0.9s.png",
+        "time": 0.9,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC01-C01"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820453,
+        "contentHash": "08c6ffef4a9b86fbd8215318df23ce3d954a9d05b998d73f8bd86d6e7ab31a77",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-2",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-03-at-3.05s.png",
+        "time": 3.05,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC01-C01 mid"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820453,
+        "contentHash": "08c6ffef4a9b86fbd8215318df23ce3d954a9d05b998d73f8bd86d6e7ab31a77",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-3",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-04-at-6.433s.png",
+        "time": 6.433,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC01-C02"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820453,
+        "contentHash": "08fff70ea739b7b4415fa4de184dd3fe3f69d3bd8ca50b8a1a58b414d604b15c",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-4",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-05-at-9s.png",
+        "time": 9,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC01-PAIN mid"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820453,
+        "contentHash": "08fff70ea739b7b4415fa4de184dd3fe3f69d3bd8ca50b8a1a58b414d604b15c",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-5",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-06-at-9.567s.png",
+        "time": 9.567,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC01-C02 mid"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820453,
+        "contentHash": "08fff70ea739b7b4415fa4de184dd3fe3f69d3bd8ca50b8a1a58b414d604b15c",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-6",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-07-at-18.3s.png",
+        "time": 18.3,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC02-COMPARE"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820453,
+        "contentHash": "d00c346975cb1fe8ea86c021dff26bef1815174b769ecd161487816ed01da035",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-7",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-08-at-18.8s.png",
+        "time": 18.8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC02-C01"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820453,
+        "contentHash": "da62437a802e71a88f623f25359fab4b39d77b4a5f2bd617a22c5c38288e957b",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-8",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-09-at-21.25s.png",
+        "time": 21.25,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC02-C01 mid"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820454,
+        "contentHash": "da62437a802e71a88f623f25359fab4b39d77b4a5f2bd617a22c5c38288e957b",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-9",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-10-at-24.8s.png",
+        "time": 24.8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC02-C02"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820454,
+        "contentHash": "bf89f293e5bcab3713a1fceee0c3733b1259f034aa3aa995c6c236b86c0ac8e6",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-10",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-11-at-27.5s.png",
+        "time": 27.5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC02-C02 mid"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820454,
+        "contentHash": "bf89f293e5bcab3713a1fceee0c3733b1259f034aa3aa995c6c236b86c0ac8e6",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-11",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-12-at-28s.png",
+        "time": 28,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC02-COMPARE mid"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820454,
+        "contentHash": "bf89f293e5bcab3713a1fceee0c3733b1259f034aa3aa995c6c236b86c0ac8e6",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-12",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-13-at-38.3s.png",
+        "time": 38.3,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC03-EVENTS"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820454,
+        "contentHash": "78fb811de4aed77987eb3d64eeb625c61b884f910d43bdb2b6faab4518755dc2",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-13",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-14-at-38.9s.png",
+        "time": 38.9,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC03-C01"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820455,
+        "contentHash": "e47551e2e5ec4a6dcdb0cef94e93f32bbadfffffaea1e788df2f8c8c3c7da56e",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-14",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-15-at-41.3s.png",
+        "time": 41.3,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC03-C01 mid"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820455,
+        "contentHash": "1f8adf9b4928ffa694a0d2c90893fd2efe5b0c0d64a8defe39e67a9883e4cbe1",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-15",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-16-at-45.1s.png",
+        "time": 45.1,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC03-C02"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820456,
+        "contentHash": "6b2a1233f14858c5c570f660fd7500d5d5417c0c1cfd6d4aad019c5eca9d828a",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-16",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-17-at-47.5s.png",
+        "time": 47.5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC03-C02 mid"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820456,
+        "contentHash": "6b2a1233f14858c5c570f660fd7500d5d5417c0c1cfd6d4aad019c5eca9d828a",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-17",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-18-at-51.3s.png",
+        "time": 51.3,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC03-C03"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820456,
+        "contentHash": "c0741ac56b49d52e8fb09d06f1241a326cc5cc65f6972fd12dcba2e92d23a437",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-18",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-19-at-52.5s.png",
+        "time": 52.5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC03-EVENTS mid"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820457,
+        "contentHash": "c0741ac56b49d52e8fb09d06f1241a326cc5cc65f6972fd12dcba2e92d23a437",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-19",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-20-at-54.5s.png",
+        "time": 54.5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC03-C03 mid"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820457,
+        "contentHash": "c0741ac56b49d52e8fb09d06f1241a326cc5cc65f6972fd12dcba2e92d23a437",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-20",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-21-at-67.3s.png",
+        "time": 67.3,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC04-APP"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820457,
+        "contentHash": "4eb33dc50ad1ee6a39edefd5988630c542037022cdce8db43d2975204e54b7c4",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-21",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-22-at-67.9s.png",
+        "time": 67.9,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC04-C01"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820458,
+        "contentHash": "132e624920d44dc318fb0b3d4e1cb9fd988ab1aab2b72dfb8110e3e69b58b5be",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-22",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-23-at-70.55s.png",
+        "time": 70.55,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC04-C01 mid"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820458,
+        "contentHash": "7c0a796b5ce95da8eb2c8f5c0c17182a5d0dd71cd2ac3e94b1b3c68da007869f",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-23",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-24-at-74.3s.png",
+        "time": 74.3,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC04-C02"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820459,
+        "contentHash": "6527b6fdabbd71a7f77919b91fc3059883d74f9e8028c343738a9a0c63c32d60",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-24",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-25-at-76s.png",
+        "time": 76,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC04-APP mid"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820459,
+        "contentHash": "6527b6fdabbd71a7f77919b91fc3059883d74f9e8028c343738a9a0c63c32d60",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-25",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-26-at-76.834s.png",
+        "time": 76.834,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC04-C02 mid"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820460,
+        "contentHash": "6527b6fdabbd71a7f77919b91fc3059883d74f9e8028c343738a9a0c63c32d60",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-26",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-27-at-85.3s.png",
+        "time": 85.3,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC05-OUTRO"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820460,
+        "contentHash": "3b3d80da5d74f8eb240149a30ba0720bc065f933ede68c8eeb89b1cd3068d1cd",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-27",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-28-at-85.8s.png",
+        "time": 85.8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC05-C01"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820461,
+        "contentHash": "9bb8991e997267856fe573c792c2981fc38ac3a66a09310ab78794e3ef29d257",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-28",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-29-at-88s.png",
+        "time": 88,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC05-C01 mid"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820461,
+        "contentHash": "9bb8991e997267856fe573c792c2981fc38ac3a66a09310ab78794e3ef29d257",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-29",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-30-at-91.3s.png",
+        "time": 91.3,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC05-C02"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820462,
+        "contentHash": "95096ca7ab85b51e3d5889575903af7501673977a6e2b394a8e41f8b86c22fce",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-30",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-31-at-94s.png",
+        "time": 94,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC05-OUTRO mid"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820462,
+        "contentHash": "95096ca7ab85b51e3d5889575903af7501673977a6e2b394a8e41f8b86c22fce",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-31",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\beat-32-at-94.25s.png",
+        "time": 94.25,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "beat",
+            "label": "SC05-C02 mid"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820463,
+        "contentHash": "95096ca7ab85b51e3d5889575903af7501673977a6e2b394a8e41f8b86c22fce",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-32",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-01-1-at-0.4s.png",
+        "time": 0.4,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820463,
+        "contentHash": "0c6d03020298753055cda57edd54dd1ad8a6a49d4f5168c66949d8201452e975",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-33",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-01-2-at-0.5s.png",
+        "time": 0.5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820464,
+        "contentHash": "a6a84bbd4ff8cea0a4f877d93b377a8ed62b287243277a39b40ca857fe3aa948",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-34",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-01-3-at-0.6s.png",
+        "time": 0.6,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC01-PAIN -> SC01-C01"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820465,
+        "contentHash": "a84e3ef93449f967313194e6501b05b2df1f57410d25edfccfb561a01d88d00a",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-35",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-01-4-at-0.7s.png",
+        "time": 0.7,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820465,
+        "contentHash": "08c6ffef4a9b86fbd8215318df23ce3d954a9d05b998d73f8bd86d6e7ab31a77",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-36",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-01-5-at-0.8s.png",
+        "time": 0.8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820466,
+        "contentHash": "08c6ffef4a9b86fbd8215318df23ce3d954a9d05b998d73f8bd86d6e7ab31a77",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-37",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-02-1-at-5.3s.png",
+        "time": 5.3,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820467,
+        "contentHash": "08c6ffef4a9b86fbd8215318df23ce3d954a9d05b998d73f8bd86d6e7ab31a77",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-38",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-02-2-at-5.4s.png",
+        "time": 5.4,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820467,
+        "contentHash": "08c6ffef4a9b86fbd8215318df23ce3d954a9d05b998d73f8bd86d6e7ab31a77",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-39",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-02-3-at-5.5s.png",
+        "time": 5.5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC01-C01 -> SC01-C02"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820468,
+        "contentHash": "cba6edc2f705de01b5c479ac9aa60428166e4a1a471551418e0f49ab0ccfbce7",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-40",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-02-4-at-5.6s.png",
+        "time": 5.6,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820469,
+        "contentHash": "cba6edc2f705de01b5c479ac9aa60428166e4a1a471551418e0f49ab0ccfbce7",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-41",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-02-5-at-5.7s.png",
+        "time": 5.7,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820469,
+        "contentHash": "cba6edc2f705de01b5c479ac9aa60428166e4a1a471551418e0f49ab0ccfbce7",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-42",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-03-1-at-5.933s.png",
+        "time": 5.933,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820470,
+        "contentHash": "cba6edc2f705de01b5c479ac9aa60428166e4a1a471551418e0f49ab0ccfbce7",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-43",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-03-2-at-6.033s.png",
+        "time": 6.033,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820471,
+        "contentHash": "cba6edc2f705de01b5c479ac9aa60428166e4a1a471551418e0f49ab0ccfbce7",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-44",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-03-3-at-6.133s.png",
+        "time": 6.133,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC01-PAIN -> SC01-C02"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820472,
+        "contentHash": "08fff70ea739b7b4415fa4de184dd3fe3f69d3bd8ca50b8a1a58b414d604b15c",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-45",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-03-4-at-6.233s.png",
+        "time": 6.233,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820473,
+        "contentHash": "08fff70ea739b7b4415fa4de184dd3fe3f69d3bd8ca50b8a1a58b414d604b15c",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-46",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-03-5-at-6.333s.png",
+        "time": 6.333,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820474,
+        "contentHash": "08fff70ea739b7b4415fa4de184dd3fe3f69d3bd8ca50b8a1a58b414d604b15c",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-47",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-04-1-at-12.8s.png",
+        "time": 12.8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820475,
+        "contentHash": "08fff70ea739b7b4415fa4de184dd3fe3f69d3bd8ca50b8a1a58b414d604b15c",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-48",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-04-2-at-12.9s.png",
+        "time": 12.9,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820476,
+        "contentHash": "08fff70ea739b7b4415fa4de184dd3fe3f69d3bd8ca50b8a1a58b414d604b15c",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-49",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-04-3-at-13s.png",
+        "time": 13,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC01-C02 -> SC02-COMPARE"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820477,
+        "contentHash": "cba6edc2f705de01b5c479ac9aa60428166e4a1a471551418e0f49ab0ccfbce7",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-50",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-04-4-at-13.1s.png",
+        "time": 13.1,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820478,
+        "contentHash": "cba6edc2f705de01b5c479ac9aa60428166e4a1a471551418e0f49ab0ccfbce7",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-51",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-04-5-at-13.2s.png",
+        "time": 13.2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820479,
+        "contentHash": "cba6edc2f705de01b5c479ac9aa60428166e4a1a471551418e0f49ab0ccfbce7",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-52",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-05-1-at-17.8s.png",
+        "time": 17.8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820479,
+        "contentHash": "cba6edc2f705de01b5c479ac9aa60428166e4a1a471551418e0f49ab0ccfbce7",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-53",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-05-2-at-17.9s.png",
+        "time": 17.9,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820480,
+        "contentHash": "cba6edc2f705de01b5c479ac9aa60428166e4a1a471551418e0f49ab0ccfbce7",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-54",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-05-3-at-18s.png",
+        "time": 18,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC01-PAIN -> SC02-COMPARE"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820481,
+        "contentHash": "e3a415698a9ad926c126a50f428f34082d6cc0029295d90f142971df1fdc324b",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-55",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-05-4-at-18.1s.png",
+        "time": 18.1,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820482,
+        "contentHash": "e3a415698a9ad926c126a50f428f34082d6cc0029295d90f142971df1fdc324b",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-56",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-05-5-at-18.2s.png",
+        "time": 18.2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820483,
+        "contentHash": "e3a415698a9ad926c126a50f428f34082d6cc0029295d90f142971df1fdc324b",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-57",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-06-1-at-18.3s.png",
+        "time": 18.3,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820484,
+        "contentHash": "d00c346975cb1fe8ea86c021dff26bef1815174b769ecd161487816ed01da035",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-58",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-06-2-at-18.4s.png",
+        "time": 18.4,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820485,
+        "contentHash": "a91abb22eeb749ed2635211530140a845b534a5ce1dae206f5569243b8d07474",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-59",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-06-3-at-18.5s.png",
+        "time": 18.5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC02-COMPARE -> SC02-C01"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820486,
+        "contentHash": "c9d863f2d3594c943ce8449ac4282f28bc8d171fef0de239ce61a04b833d9533",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-60",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-06-4-at-18.6s.png",
+        "time": 18.6,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820487,
+        "contentHash": "4d5579fb6ec514c8ac511c630ee8cb2a1ab1da0e91e4e76b8aaaf781e2564fb5",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-61",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-06-5-at-18.7s.png",
+        "time": 18.7,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820489,
+        "contentHash": "da62437a802e71a88f623f25359fab4b39d77b4a5f2bd617a22c5c38288e957b",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-62",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-07-1-at-23.8s.png",
+        "time": 23.8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820490,
+        "contentHash": "da62437a802e71a88f623f25359fab4b39d77b4a5f2bd617a22c5c38288e957b",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-63",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-07-2-at-23.9s.png",
+        "time": 23.9,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820491,
+        "contentHash": "da62437a802e71a88f623f25359fab4b39d77b4a5f2bd617a22c5c38288e957b",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-64",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-07-3-at-24s.png",
+        "time": 24,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC02-C01 -> SC02-C02"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820492,
+        "contentHash": "938d69037a3a1b9b2342cf208eb0bf6a3ec8a4bd96186df024d77eb5c2fe4bd1",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-65",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-07-4-at-24.1s.png",
+        "time": 24.1,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820494,
+        "contentHash": "938d69037a3a1b9b2342cf208eb0bf6a3ec8a4bd96186df024d77eb5c2fe4bd1",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-66",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-07-5-at-24.2s.png",
+        "time": 24.2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820495,
+        "contentHash": "938d69037a3a1b9b2342cf208eb0bf6a3ec8a4bd96186df024d77eb5c2fe4bd1",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-67",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-08-1-at-24.3s.png",
+        "time": 24.3,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820496,
+        "contentHash": "938d69037a3a1b9b2342cf208eb0bf6a3ec8a4bd96186df024d77eb5c2fe4bd1",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-68",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-08-2-at-24.4s.png",
+        "time": 24.4,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820497,
+        "contentHash": "938d69037a3a1b9b2342cf208eb0bf6a3ec8a4bd96186df024d77eb5c2fe4bd1",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-69",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-08-3-at-24.5s.png",
+        "time": 24.5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC02-COMPARE -> SC02-C02"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820498,
+        "contentHash": "bf89f293e5bcab3713a1fceee0c3733b1259f034aa3aa995c6c236b86c0ac8e6",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-70",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-08-4-at-24.6s.png",
+        "time": 24.6,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820499,
+        "contentHash": "bf89f293e5bcab3713a1fceee0c3733b1259f034aa3aa995c6c236b86c0ac8e6",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-71",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-08-5-at-24.7s.png",
+        "time": 24.7,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820501,
+        "contentHash": "bf89f293e5bcab3713a1fceee0c3733b1259f034aa3aa995c6c236b86c0ac8e6",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-72",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-09-1-at-30.3s.png",
+        "time": 30.3,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820502,
+        "contentHash": "bf89f293e5bcab3713a1fceee0c3733b1259f034aa3aa995c6c236b86c0ac8e6",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-73",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-09-2-at-30.4s.png",
+        "time": 30.4,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820503,
+        "contentHash": "bf89f293e5bcab3713a1fceee0c3733b1259f034aa3aa995c6c236b86c0ac8e6",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-74",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-09-3-at-30.5s.png",
+        "time": 30.5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC02-C02 -> SC03-EVENTS"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820505,
+        "contentHash": "938d69037a3a1b9b2342cf208eb0bf6a3ec8a4bd96186df024d77eb5c2fe4bd1",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-75",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-09-4-at-30.6s.png",
+        "time": 30.6,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820507,
+        "contentHash": "938d69037a3a1b9b2342cf208eb0bf6a3ec8a4bd96186df024d77eb5c2fe4bd1",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-76",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-09-5-at-30.7s.png",
+        "time": 30.7,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820509,
+        "contentHash": "938d69037a3a1b9b2342cf208eb0bf6a3ec8a4bd96186df024d77eb5c2fe4bd1",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-77",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-10-1-at-37.8s.png",
+        "time": 37.8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820510,
+        "contentHash": "938d69037a3a1b9b2342cf208eb0bf6a3ec8a4bd96186df024d77eb5c2fe4bd1",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-78",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-10-2-at-37.9s.png",
+        "time": 37.9,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820511,
+        "contentHash": "938d69037a3a1b9b2342cf208eb0bf6a3ec8a4bd96186df024d77eb5c2fe4bd1",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-79",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-10-3-at-38s.png",
+        "time": 38,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC02-COMPARE -> SC03-EVENTS"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820513,
+        "contentHash": "093e419529e3a5bad469de3dfdf3152848b43514572498ef8610e90ed4fb86b8",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-80",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-10-4-at-38.1s.png",
+        "time": 38.1,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820514,
+        "contentHash": "093e419529e3a5bad469de3dfdf3152848b43514572498ef8610e90ed4fb86b8",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-81",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-10-5-at-38.2s.png",
+        "time": 38.2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820516,
+        "contentHash": "093e419529e3a5bad469de3dfdf3152848b43514572498ef8610e90ed4fb86b8",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-82",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-11-1-at-38.4s.png",
+        "time": 38.4,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820517,
+        "contentHash": "63ea5ff80cd41d107231aff602e2e4c5d7ce9aed02fd01cfa0109bc031536492",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-83",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-11-2-at-38.5s.png",
+        "time": 38.5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820519,
+        "contentHash": "4d273b2e06896c61ca2172f305452a8cac7313ae508bc79db88351cbe2cb54d2",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-84",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-11-3-at-38.6s.png",
+        "time": 38.6,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC03-EVENTS -> SC03-C01"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820520,
+        "contentHash": "d543158bf253e90ecf76dc5daed95984d24e22346972be21d3555715a5288f67",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-85",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-11-4-at-38.7s.png",
+        "time": 38.7,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820522,
+        "contentHash": "e47551e2e5ec4a6dcdb0cef94e93f32bbadfffffaea1e788df2f8c8c3c7da56e",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-86",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-11-5-at-38.8s.png",
+        "time": 38.8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820525,
+        "contentHash": "e47551e2e5ec4a6dcdb0cef94e93f32bbadfffffaea1e788df2f8c8c3c7da56e",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-87",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-12-1-at-43.8s.png",
+        "time": 43.8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820526,
+        "contentHash": "cdcf3881f88646f91846eda517e07234e8457332eadd3d09acca9803096e273f",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-88",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-12-2-at-43.9s.png",
+        "time": 43.9,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820528,
+        "contentHash": "cdcf3881f88646f91846eda517e07234e8457332eadd3d09acca9803096e273f",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-89",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-12-3-at-44s.png",
+        "time": 44,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC03-C01 -> SC03-C02"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820530,
+        "contentHash": "5bb221f0140945c128c72ba7d7adefa2122d6055edd8f653ba4797fe5602df5a",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-90",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-12-4-at-44.1s.png",
+        "time": 44.1,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820532,
+        "contentHash": "5bb221f0140945c128c72ba7d7adefa2122d6055edd8f653ba4797fe5602df5a",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-91",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-12-5-at-44.2s.png",
+        "time": 44.2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820533,
+        "contentHash": "5bb221f0140945c128c72ba7d7adefa2122d6055edd8f653ba4797fe5602df5a",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-92",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-13-1-at-44.6s.png",
+        "time": 44.6,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820535,
+        "contentHash": "5bb221f0140945c128c72ba7d7adefa2122d6055edd8f653ba4797fe5602df5a",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-93",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-13-2-at-44.7s.png",
+        "time": 44.7,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820537,
+        "contentHash": "5bb221f0140945c128c72ba7d7adefa2122d6055edd8f653ba4797fe5602df5a",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-94",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-13-3-at-44.8s.png",
+        "time": 44.8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC03-EVENTS -> SC03-C02"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820538,
+        "contentHash": "6b2a1233f14858c5c570f660fd7500d5d5417c0c1cfd6d4aad019c5eca9d828a",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-95",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-13-4-at-44.9s.png",
+        "time": 44.9,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820540,
+        "contentHash": "6b2a1233f14858c5c570f660fd7500d5d5417c0c1cfd6d4aad019c5eca9d828a",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-96",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-13-5-at-45s.png",
+        "time": 45,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820542,
+        "contentHash": "6b2a1233f14858c5c570f660fd7500d5d5417c0c1cfd6d4aad019c5eca9d828a",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-97",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-14-1-at-50s.png",
+        "time": 50,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820544,
+        "contentHash": "6b2a1233f14858c5c570f660fd7500d5d5417c0c1cfd6d4aad019c5eca9d828a",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-98",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-14-2-at-50.1s.png",
+        "time": 50.1,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820545,
+        "contentHash": "6b2a1233f14858c5c570f660fd7500d5d5417c0c1cfd6d4aad019c5eca9d828a",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-99",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-14-3-at-50.2s.png",
+        "time": 50.2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC03-C02 -> SC03-C03"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820547,
+        "contentHash": "5bb221f0140945c128c72ba7d7adefa2122d6055edd8f653ba4797fe5602df5a",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-100",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-14-4-at-50.3s.png",
+        "time": 50.3,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820549,
+        "contentHash": "5bb221f0140945c128c72ba7d7adefa2122d6055edd8f653ba4797fe5602df5a",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-101",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-14-5-at-50.4s.png",
+        "time": 50.4,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820551,
+        "contentHash": "5bb221f0140945c128c72ba7d7adefa2122d6055edd8f653ba4797fe5602df5a",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-102",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-15-1-at-50.8s.png",
+        "time": 50.8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820553,
+        "contentHash": "5bb221f0140945c128c72ba7d7adefa2122d6055edd8f653ba4797fe5602df5a",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-103",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-15-2-at-50.9s.png",
+        "time": 50.9,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820555,
+        "contentHash": "5bb221f0140945c128c72ba7d7adefa2122d6055edd8f653ba4797fe5602df5a",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-104",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-15-3-at-51s.png",
+        "time": 51,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC03-EVENTS -> SC03-C03"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820557,
+        "contentHash": "c0741ac56b49d52e8fb09d06f1241a326cc5cc65f6972fd12dcba2e92d23a437",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-105",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-15-4-at-51.1s.png",
+        "time": 51.1,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820558,
+        "contentHash": "c0741ac56b49d52e8fb09d06f1241a326cc5cc65f6972fd12dcba2e92d23a437",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-106",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-15-5-at-51.2s.png",
+        "time": 51.2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820560,
+        "contentHash": "c0741ac56b49d52e8fb09d06f1241a326cc5cc65f6972fd12dcba2e92d23a437",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-107",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-16-1-at-57.8s.png",
+        "time": 57.8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820562,
+        "contentHash": "c0741ac56b49d52e8fb09d06f1241a326cc5cc65f6972fd12dcba2e92d23a437",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-108",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-16-2-at-57.9s.png",
+        "time": 57.9,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820564,
+        "contentHash": "c0741ac56b49d52e8fb09d06f1241a326cc5cc65f6972fd12dcba2e92d23a437",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-109",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-16-3-at-58s.png",
+        "time": 58,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC03-C03 -> SC04-APP"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820566,
+        "contentHash": "5bb221f0140945c128c72ba7d7adefa2122d6055edd8f653ba4797fe5602df5a",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-110",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-16-4-at-58.1s.png",
+        "time": 58.1,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820568,
+        "contentHash": "5bb221f0140945c128c72ba7d7adefa2122d6055edd8f653ba4797fe5602df5a",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-111",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-16-5-at-58.2s.png",
+        "time": 58.2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820570,
+        "contentHash": "5bb221f0140945c128c72ba7d7adefa2122d6055edd8f653ba4797fe5602df5a",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-112",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-17-1-at-66.8s.png",
+        "time": 66.8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820572,
+        "contentHash": "5bb221f0140945c128c72ba7d7adefa2122d6055edd8f653ba4797fe5602df5a",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-113",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-17-2-at-66.9s.png",
+        "time": 66.9,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820574,
+        "contentHash": "5bb221f0140945c128c72ba7d7adefa2122d6055edd8f653ba4797fe5602df5a",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-114",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-17-3-at-67s.png",
+        "time": 67,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC03-EVENTS -> SC04-APP"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820577,
+        "contentHash": "34a1c08c8fcb6a7e937ddead20ea1b71e5e9e53ff0dc9b5c2fe6e7e85e9843f9",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-115",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-17-4-at-67.1s.png",
+        "time": 67.1,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820579,
+        "contentHash": "34a1c08c8fcb6a7e937ddead20ea1b71e5e9e53ff0dc9b5c2fe6e7e85e9843f9",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-116",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-17-5-at-67.2s.png",
+        "time": 67.2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820581,
+        "contentHash": "34a1c08c8fcb6a7e937ddead20ea1b71e5e9e53ff0dc9b5c2fe6e7e85e9843f9",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-117",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-18-1-at-67.4s.png",
+        "time": 67.4,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820583,
+        "contentHash": "35981450949ee1c1c5425405fcf80b8e77edec75190d03fe102336ca557cb857",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-118",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-18-2-at-67.5s.png",
+        "time": 67.5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820585,
+        "contentHash": "08a3d1acbac3e70518e2483afaa357d72b7bda554129a87bc50e2d742e385afb",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-119",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-18-3-at-67.6s.png",
+        "time": 67.6,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC04-APP -> SC04-C01"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820588,
+        "contentHash": "e87eac94febabef88f61f246c2effa291bc4280fa168062d8e8919865c73e194",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-120",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-18-4-at-67.7s.png",
+        "time": 67.7,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820590,
+        "contentHash": "132e624920d44dc318fb0b3d4e1cb9fd988ab1aab2b72dfb8110e3e69b58b5be",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-121",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-18-5-at-67.8s.png",
+        "time": 67.8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820592,
+        "contentHash": "132e624920d44dc318fb0b3d4e1cb9fd988ab1aab2b72dfb8110e3e69b58b5be",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-122",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-19-1-at-73.3s.png",
+        "time": 73.3,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820595,
+        "contentHash": "3951bdb55fef02796e8764e746b47547d0154893adf9c442c017108463a36e09",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-123",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-19-2-at-73.4s.png",
+        "time": 73.4,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820597,
+        "contentHash": "3951bdb55fef02796e8764e746b47547d0154893adf9c442c017108463a36e09",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-124",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-19-3-at-73.5s.png",
+        "time": 73.5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC04-C01 -> SC04-C02"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820599,
+        "contentHash": "8b5a5f5fa1eabc5dbed5a14ce2b416988455bd638b75f1a6fd53eb7a046dc520",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-125",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-19-4-at-73.6s.png",
+        "time": 73.6,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820602,
+        "contentHash": "8b5a5f5fa1eabc5dbed5a14ce2b416988455bd638b75f1a6fd53eb7a046dc520",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-126",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-19-5-at-73.7s.png",
+        "time": 73.7,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820604,
+        "contentHash": "8b5a5f5fa1eabc5dbed5a14ce2b416988455bd638b75f1a6fd53eb7a046dc520",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-127",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-20-1-at-73.8s.png",
+        "time": 73.8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820607,
+        "contentHash": "8b5a5f5fa1eabc5dbed5a14ce2b416988455bd638b75f1a6fd53eb7a046dc520",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-128",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-20-2-at-73.9s.png",
+        "time": 73.9,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820609,
+        "contentHash": "8b5a5f5fa1eabc5dbed5a14ce2b416988455bd638b75f1a6fd53eb7a046dc520",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-129",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-20-3-at-74s.png",
+        "time": 74,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC04-APP -> SC04-C02"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820611,
+        "contentHash": "e3f5b1ba06dcdaf28e50f5c1f9a6f2b4ee69b16ae80da8d29fd8c39f15ac5192",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-130",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-20-4-at-74.1s.png",
+        "time": 74.1,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820613,
+        "contentHash": "e3f5b1ba06dcdaf28e50f5c1f9a6f2b4ee69b16ae80da8d29fd8c39f15ac5192",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-131",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-20-5-at-74.2s.png",
+        "time": 74.2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820616,
+        "contentHash": "e3f5b1ba06dcdaf28e50f5c1f9a6f2b4ee69b16ae80da8d29fd8c39f15ac5192",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-132",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-21-1-at-79.467s.png",
+        "time": 79.467,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820618,
+        "contentHash": "e3f5b1ba06dcdaf28e50f5c1f9a6f2b4ee69b16ae80da8d29fd8c39f15ac5192",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-133",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-21-2-at-79.567s.png",
+        "time": 79.567,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820620,
+        "contentHash": "e3f5b1ba06dcdaf28e50f5c1f9a6f2b4ee69b16ae80da8d29fd8c39f15ac5192",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-134",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-21-3-at-79.667s.png",
+        "time": 79.667,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC04-C02 -> SC05-OUTRO"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820623,
+        "contentHash": "8b5a5f5fa1eabc5dbed5a14ce2b416988455bd638b75f1a6fd53eb7a046dc520",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-135",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-21-4-at-79.767s.png",
+        "time": 79.767,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820626,
+        "contentHash": "8b5a5f5fa1eabc5dbed5a14ce2b416988455bd638b75f1a6fd53eb7a046dc520",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-136",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-21-5-at-79.867s.png",
+        "time": 79.867,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820628,
+        "contentHash": "8b5a5f5fa1eabc5dbed5a14ce2b416988455bd638b75f1a6fd53eb7a046dc520",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-137",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-22-1-at-84.8s.png",
+        "time": 84.8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820631,
+        "contentHash": "8b5a5f5fa1eabc5dbed5a14ce2b416988455bd638b75f1a6fd53eb7a046dc520",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-138",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-22-2-at-84.9s.png",
+        "time": 84.9,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820633,
+        "contentHash": "8b5a5f5fa1eabc5dbed5a14ce2b416988455bd638b75f1a6fd53eb7a046dc520",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-139",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-22-3-at-85s.png",
+        "time": 85,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC04-APP -> SC05-OUTRO"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820636,
+        "contentHash": "2ada40afb37624d54206ee698acfd1ec2119e22a65f28a5f51eef8554c29ab76",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-140",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-22-4-at-85.1s.png",
+        "time": 85.1,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820638,
+        "contentHash": "2ada40afb37624d54206ee698acfd1ec2119e22a65f28a5f51eef8554c29ab76",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-141",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-22-5-at-85.2s.png",
+        "time": 85.2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820641,
+        "contentHash": "2ada40afb37624d54206ee698acfd1ec2119e22a65f28a5f51eef8554c29ab76",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-142",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-23-1-at-85.3s.png",
+        "time": 85.3,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820643,
+        "contentHash": "3b3d80da5d74f8eb240149a30ba0720bc065f933ede68c8eeb89b1cd3068d1cd",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-143",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-23-2-at-85.4s.png",
+        "time": 85.4,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820646,
+        "contentHash": "f20c6d0c644e6dcb694f53ae6f7376b4a4f64a36b38173a316e237ff081e633c",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-144",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-23-3-at-85.5s.png",
+        "time": 85.5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC05-OUTRO -> SC05-C01"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820649,
+        "contentHash": "99d060feea8edd454d3bb2e602bd778e9dc614b4190737ecfbb0656574bbb18c",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-145",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-23-4-at-85.6s.png",
+        "time": 85.6,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820652,
+        "contentHash": "acebb162d24c52d0e3a1ac6dea417cde169bc789628fe23e220723c2b2215c64",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-146",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-23-5-at-85.7s.png",
+        "time": 85.7,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820654,
+        "contentHash": "9bb8991e997267856fe573c792c2981fc38ac3a66a09310ab78794e3ef29d257",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-147",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-24-1-at-90.3s.png",
+        "time": 90.3,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820658,
+        "contentHash": "9bb8991e997267856fe573c792c2981fc38ac3a66a09310ab78794e3ef29d257",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-148",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-24-2-at-90.4s.png",
+        "time": 90.4,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820662,
+        "contentHash": "9bb8991e997267856fe573c792c2981fc38ac3a66a09310ab78794e3ef29d257",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-149",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-24-3-at-90.5s.png",
+        "time": 90.5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC05-C01 -> SC05-C02"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820665,
+        "contentHash": "0f319a7fee3279bf29f7c4ac3afea444917d0d2b8e31ea1728905f8847bf78a8",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-150",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-24-4-at-90.6s.png",
+        "time": 90.6,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820667,
+        "contentHash": "0f319a7fee3279bf29f7c4ac3afea444917d0d2b8e31ea1728905f8847bf78a8",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-151",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-24-5-at-90.7s.png",
+        "time": 90.7,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820670,
+        "contentHash": "0f319a7fee3279bf29f7c4ac3afea444917d0d2b8e31ea1728905f8847bf78a8",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-152",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-25-1-at-90.8s.png",
+        "time": 90.8,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820674,
+        "contentHash": "0f319a7fee3279bf29f7c4ac3afea444917d0d2b8e31ea1728905f8847bf78a8",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-153",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-25-2-at-90.9s.png",
+        "time": 90.9,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820678,
+        "contentHash": "0f319a7fee3279bf29f7c4ac3afea444917d0d2b8e31ea1728905f8847bf78a8",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-154",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-25-3-at-91s.png",
+        "time": 91,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC05-OUTRO -> SC05-C02"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820682,
+        "contentHash": "95096ca7ab85b51e3d5889575903af7501673977a6e2b394a8e41f8b86c22fce",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-155",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-25-4-at-91.1s.png",
+        "time": 91.1,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820685,
+        "contentHash": "95096ca7ab85b51e3d5889575903af7501673977a6e2b394a8e41f8b86c22fce",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-156",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-25-5-at-91.2s.png",
+        "time": 91.2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820689,
+        "contentHash": "95096ca7ab85b51e3d5889575903af7501673977a6e2b394a8e41f8b86c22fce",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-157",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-26-1-at-97.3s.png",
+        "time": 97.3,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut -0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820692,
+        "contentHash": "95096ca7ab85b51e3d5889575903af7501673977a6e2b394a8e41f8b86c22fce",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-158",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-26-2-at-97.4s.png",
+        "time": 97.4,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "-0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820695,
+        "contentHash": "95096ca7ab85b51e3d5889575903af7501673977a6e2b394a8e41f8b86c22fce",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-159",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-26-3-at-97.5s.png",
+        "time": 97.5,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "cut SC05-C02 -> end"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820698,
+        "contentHash": "0f319a7fee3279bf29f7c4ac3afea444917d0d2b8e31ea1728905f8847bf78a8",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-160",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-26-4-at-97.6s.png",
+        "time": 97.6,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.1"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820701,
+        "contentHash": "0f319a7fee3279bf29f7c4ac3afea444917d0d2b8e31ea1728905f8847bf78a8",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "15a3710d-6a75-4f88-837f-2f010a864af7-161",
+        "image": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\.hyperframes\\artifacts\\snapshots\\d3835f44-3003-4cf7-989c-6d87bd555181\\seam-26-5-at-97.7s.png",
+        "time": 97.7,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "review": {
+            "role": "seam",
+            "label": "+0.2"
+          },
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1794067820704,
+        "contentHash": "0f319a7fee3279bf29f7c4ac3afea444917d0d2b8e31ea1728905f8847bf78a8",
+        "revision": null,
+        "inputFingerprint": "fb92061f9c5f2e0632b31c344be72d56fbefe732e944cf8008697966d7d6d81e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "renders": {
+    "latest": {
+      "id": "2b82be88-8425-474f-a158-bd9b789e9e71",
+      "completedAt": 1794068429850,
+      "output": "D:\\ฝึกงาน 4 เดือน\\LangMine-API-VDO\\episodes\\ep03\\video\\renders\\EP03-silent-v1.mp4",
+      "status": "completed",
+      "revision": "c2b717b1-08ed-4832-8cc4-7b2ddc394c26"
+    },
+    "retainedRevisions": [
+      "c2b717b1-08ed-4832-8cc4-7b2ddc394c26"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}
