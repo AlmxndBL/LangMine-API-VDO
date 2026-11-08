@@ -1,0 +1,117 @@
+{
+  "episodeId": "ep03-streaming-chat",
+  "version": "silent-v1",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationFrames": 3090,
+  "timingBasis": "provisional-reading-holds; not speech-synchronized",
+  "audioStatus": "none",
+  "voiceAlignment": {
+    "audioAsset": null,
+    "narrationRevision": null,
+    "status": "awaiting-recording",
+    "provisionalFields": "scene startFrame/durationFrames and caption startFrame/endFrame",
+    "retimeRule": "When final narration exists, update scene and caption frame boundaries from measured phrase anchors; retain IDs and save as a new timing version.",
+    "alignmentRule": "Align Thai captions to phrase boundaries and actual pauses; manually listen-check transcription and wording. Do not infer speech timing from character count alone.",
+    "frameRounding": "Round measured boundaries to the nearest frame at fps."
+  },
+  "voiceCues": [
+    {"id":"V01-QUESTION","sceneId":"SC01-PAIN","anchor":"คำถามเปิดเรื่องเกี่ยวกับการรอ","visualAction":"คงภาพคำถามก่อนเข้าสู่ภาพ blocking","captionIds":["SC01-C01"]},
+    {"id":"V01-BLOCKING","sceneId":"SC01-PAIN","anchor":"อธิบายว่าระบบรอคำตอบครบก้อน","visualAction":"เน้นสถานะรอและป้าย Blocking","captionIds":["SC01-C02"]},
+    {"id":"V02-ENDPOINT","sceneId":"SC02-COMPARE","anchor":"แนะนำ POST /chat/message และ SSE","visualAction":"เปิดการเปรียบเทียบสองสถานะ","captionIds":["SC02-C01"]},
+    {"id":"V02-STREAM","sceneId":"SC02-COMPARE","anchor":"อธิบายว่าข้อมูลมาเป็น event; ไม่อ้าง latency ที่รับประกัน","visualAction":"เน้นฝั่ง Streaming พร้อมป้ายภาพจำลอง","captionIds":["SC02-C02"]},
+    {"id":"V03-START","sceneId":"SC03-EVENTS","anchor":"message_start และ identifiers","visualAction":"เผย event แรก","captionIds":["SC03-C01"]},
+    {"id":"V03-MESSAGE","sceneId":"SC03-EVENTS","anchor":"message chunks","visualAction":"เผยชิ้นส่วนคำตอบ","captionIds":["SC03-C02"]},
+    {"id":"V03-CITATIONS","sceneId":"SC03-EVENTS","anchor":"citations หากมี","visualAction":"ระบุว่าเป็น event ที่อาจมี","captionIds":["SC03-C03"]},
+    {"id":"V03-END","sceneId":"SC03-EVENTS","anchor":"message_end และ terminal state","visualAction":"ปิดลำดับ event เมื่อพูดถึงความสมบูรณ์","captionIds":["SC03-C03"]},
+    {"id":"V04-APP-FLOW","sceneId":"SC04-APP","anchor":"แอปรับ event ต่อชิ้นส่วน และอัปเดต UI","visualAction":"เผยขั้นตอน integration ตามเสียง","captionIds":["SC04-C01"]},
+    {"id":"V04-SECURITY","sceneId":"SC04-APP","anchor":"เก็บ API key ฝั่ง server และรอ message_end","visualAction":"เน้น security และจุดจบของ turn","captionIds":["SC04-C02"]},
+    {"id":"V05-RECAP","sceneId":"SC05-OUTRO","anchor":"สรุป request → event stream → UI","visualAction":"ประกอบภาพสรุป","captionIds":["SC05-C01"]},
+    {"id":"V05-SECURITY","sceneId":"SC05-OUTRO","anchor":"ย้ำ API key และข้อจำกัดภาพจำลอง","visualAction":"ค้างการ์ดสรุปตามจังหวะพูด","captionIds":["SC05-C02"]}
+  ],
+  "scenes": [
+    {
+      "id": "SC01-PAIN",
+      "title": "ทำไมแชทถึงดูเหมือนค้าง?",
+      "startFrame": 0,
+      "durationFrames": 540,
+      "visual": "loading",
+      "asset": "assets/ui/scr-01-chat-loading.png",
+      "robot": "assets/characters/01-question.png",
+      "voiceCueIds": ["V01-QUESTION", "V01-BLOCKING"],
+      "voiceCue": "เปิดด้วยคำถามเรื่องการรอ; เปลี่ยนไปอธิบาย blocking",
+      "notes": ["เวลาที่เห็นในภาพ UI เป็นตัวอย่างสมมติ ไม่ใช่ผลวัด latency"]
+    },
+    {
+      "id": "SC02-COMPARE",
+      "title": "ต่างกันที่ข้อมูลกลับมาเป็นช่วง",
+      "startFrame": 540,
+      "durationFrames": 600,
+      "visual": "comparison",
+      "leftAsset": "assets/ui/scr-01-chat-loading.png",
+      "rightAsset": "assets/ui/scr-02-chat-streaming.png",
+      "robot": "assets/characters/05-point-up.png",
+      "voiceCueIds": ["V02-ENDPOINT", "V02-STREAM"],
+      "voiceCue": "แนะนำ POST /chat/message และความหมายของการทยอยรับ event",
+      "notes": ["ลำดับภาพเป็นตัวอย่างอธิบาย ไม่ยืนยันว่า token แรกมาถึงภายในเวลาที่กำหนด"]
+    },
+    {
+      "id": "SC03-EVENTS",
+      "title": "ลำดับ event ของ SSE",
+      "startFrame": 1140,
+      "durationFrames": 870,
+      "visual": "events",
+      "robot": "assets/characters/20-laptop.png",
+      "voiceCueIds": ["V03-START", "V03-MESSAGE", "V03-CITATIONS", "V03-END"],
+      "voiceCue": "message_start → message chunks → citations (ถ้ามี) → message_end",
+      "events": [
+        {"name": "message_start", "detail": "เริ่ม turn และส่ง IDs"},
+        {"name": "message", "detail": "ชิ้นส่วนคำตอบ"},
+        {"name": "citations", "detail": "มีได้ตามผลที่ส่งกลับ"},
+        {"name": "message_end", "detail": "คำตอบเต็มและ usage; terminal event"}
+      ]
+    },
+    {
+      "id": "SC04-APP",
+      "title": "แอปต้องต่อข้อมูลและอัปเดตหน้าจอ",
+      "startFrame": 2010,
+      "durationFrames": 540,
+      "visual": "app-flow",
+      "robot": "assets/characters/39-tiptoe.png",
+      "voiceCueIds": ["V04-APP-FLOW", "V04-SECURITY"],
+      "voiceCue": "หน้าที่ integration ฝั่งแอป; จบ turn เมื่อได้รับ message_end",
+      "steps": [
+        "Server เก็บ API key และส่ง POST /chat/message",
+        "แอปรับและอ่าน SSE events",
+        "ต่อ message chunks แล้วอัปเดต UI",
+        "ถือว่าจบเมื่อได้รับ message_end"
+      ]
+    },
+    {
+      "id": "SC05-OUTRO",
+      "title": "จำ flow นี้ไว้",
+      "startFrame": 2550,
+      "durationFrames": 540,
+      "visual": "outro",
+      "robot": "assets/characters/10-thumbs-up.png",
+      "logo": "assets/brand/langmind-logo.png",
+      "voiceCueIds": ["V05-RECAP", "V05-SECURITY"],
+      "voiceCue": "สรุป endpoint, event stream และความปลอดภัยของ API key",
+      "notes": ["ภาพและข้อความตอบจำลองไม่ใช่ผลเรียก API จริง"]
+    }
+  ],
+  "captions": [
+    {"id":"SC01-C01","sceneId":"SC01-PAIN","startFrame":18,"endFrame":165,"text":"เคยส่งคำถามแล้ว\nต้องรอหน้าจอนิ่งไหม?","voiceCueIds":["V01-QUESTION"],"audioStartSec":null,"audioEndSec":null},
+    {"id":"SC01-C02","sceneId":"SC01-PAIN","startFrame":184,"endFrame":390,"text":"Blocking รอให้คำตอบ\nครบก้อนก่อนส่งกลับ","voiceCueIds":["V01-BLOCKING"],"audioStartSec":null,"audioEndSec":null},
+    {"id":"SC02-C01","sceneId":"SC02-COMPARE","startFrame":555,"endFrame":720,"text":"POST /chat/message ใช้ SSE\nรับข้อมูลเป็น event","voiceCueIds":["V02-ENDPOINT"],"audioStartSec":null,"audioEndSec":null},
+    {"id":"SC02-C02","sceneId":"SC02-COMPARE","startFrame":735,"endFrame":915,"text":"ข้อความจำลองทยอยปรากฏ\nไม่ได้วัดความเร็ว API","voiceCueIds":["V02-STREAM"],"audioStartSec":null,"audioEndSec":null},
+    {"id":"SC03-C01","sceneId":"SC03-EVENTS","startFrame":1158,"endFrame":1320,"text":"message_start\nแจ้งการเริ่มและ IDs","voiceCueIds":["V03-START"],"audioStartSec":null,"audioEndSec":null},
+    {"id":"SC03-C02","sceneId":"SC03-EVENTS","startFrame":1344,"endFrame":1506,"text":"message ส่งชิ้นส่วนคำตอบ\nระหว่าง stream","voiceCueIds":["V03-MESSAGE"],"audioStartSec":null,"audioEndSec":null},
+    {"id":"SC03-C03","sceneId":"SC03-EVENTS","startFrame":1530,"endFrame":1740,"text":"citations อาจมีได้ · message_end\nยืนยันคำตอบสมบูรณ์","voiceCueIds":["V03-CITATIONS","V03-END"],"audioStartSec":null,"audioEndSec":null},
+    {"id":"SC04-C01","sceneId":"SC04-APP","startFrame":2028,"endFrame":2205,"text":"แอปรับ event แล้วต่อชิ้นส่วน\nเพื่ออัปเดตข้อความบน UI","voiceCueIds":["V04-APP-FLOW"],"audioStartSec":null,"audioEndSec":null},
+    {"id":"SC04-C02","sceneId":"SC04-APP","startFrame":2220,"endFrame":2390,"text":"เก็บ API key ไว้ฝั่ง server\nรอ message_end ก่อนปิด turn","voiceCueIds":["V04-SECURITY"],"audioStartSec":null,"audioEndSec":null},
+    {"id":"SC05-C01","sceneId":"SC05-OUTRO","startFrame":2565,"endFrame":2715,"text":"ส่งคำขอ → อ่าน event →\nแสดงผลทีละชิ้นในแอป","voiceCueIds":["V05-RECAP"],"audioStartSec":null,"audioEndSec":null},
+    {"id":"SC05-C02","sceneId":"SC05-OUTRO","startFrame":2730,"endFrame":2925,"text":"API key อยู่ฝั่ง server\nภาพทั้งหมดเป็นตัวอย่างจำลอง","voiceCueIds":["V05-SECURITY"],"audioStartSec":null,"audioEndSec":null}
+  ]
+}
