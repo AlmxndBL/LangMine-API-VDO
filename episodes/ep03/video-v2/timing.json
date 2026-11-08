@@ -1,0 +1,29 @@
+{
+  "episodeId": "ep03-streaming-chat",
+  "version": "animatic-v2",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationSeconds": 55,
+  "audioStatus": "none; voice audition pending user selection",
+  "timingBasis": "silent story holds; not speech-synchronized",
+  "beats": [
+    {"id":"beat01","start":0,"duration":10,"title":"ส่งคำถามแล้ว แอปกำลังรอ","kind":"waiting"},
+    {"id":"beat02","start":10,"duration":11,"title":"ต่างกันที่วิธีรับข้อมูล","kind":"compare"},
+    {"id":"beat03","start":21,"duration":13,"title":"ข้อมูลมาเป็นลำดับ event","kind":"events"},
+    {"id":"beat04","start":34,"duration":12,"title":"ส่วนที่แอปต้องจัดการเอง","kind":"responsibilities"},
+    {"id":"beat05","start":46,"duration":9,"title":"รับเป็นช่วง จบเมื่อได้ message_end","kind":"summary"}
+  ],
+  "onScreenCues": [
+    {"id":"cue01","start":0.5,"duration":4.5,"text":"คำถามเดียวกัน\nแต่รูปแบบการรับคำตอบต่างกัน"},
+    {"id":"cue02","start":10.5,"duration":5,"text":"รับผลครบก่อนแสดง\nหรือทยอยรับผ่าน SSE"},
+    {"id":"cue03","start":31,"duration":2.5,"text":"อ่าน event ตามลำดับ\nคำตอบสมบูรณ์เมื่อได้ message_end"},
+    {"id":"cue04","start":40.5,"duration":4.5,"text":"เก็บ API key ที่ server\nBackend อ่าน stream แล้วส่งให้ UI"},
+    {"id":"cue05","start":52,"duration":2.5,"text":"แอปเลือกวิธีแสดงผลเอง\nคำตอบสมบูรณ์เมื่อได้ message_end"}
+  ],
+  "claims": {
+    "documented": ["POST /chat/message uses SSE", "message_start → message → citations (if any) → message_end", "message_end carries the complete answer and usage", "keep API keys on the app server"],
+    "illustrative": ["chat screen rasters", "screen content", "all motion in this silent animatic"],
+    "unknown": ["latency", "time to first token", "provider performance on a live request"]
+  }
+}

@@ -1,0 +1,81 @@
+<template>
+<style>
+  
+  @font-face{font-family:Sarabun;src:url('assets/fonts/Sarabun-Regular.ttf') format('truetype');font-weight:400}
+  @font-face{font-family:Sarabun;src:url('assets/fonts/Sarabun-Bold.ttf') format('truetype');font-weight:700}
+  *{box-sizing:border-box} html,body{margin:0;width:1080px;height:1920px;overflow:hidden}
+  #root{position:absolute;inset:0;background:#f3f0e8;color:#162536;font-family:Sarabun,sans-serif;overflow:hidden}
+  #root:before{content:'';position:absolute;inset:30px;border:2px solid #d7d2c8;border-radius:32px;pointer-events:none}
+  .grain{position:absolute;inset:0;background-image:radial-gradient(#c7c0b5 0.7px,transparent 0.7px);background-size:18px 18px;opacity:.16}
+  .kicker{position:absolute;left:96px;top:78px;color:#08795f;font-size:25px;font-weight:700;letter-spacing:1px}
+  .title{position:absolute;left:96px;top:138px;width:888px;margin:0;font-size:62px;line-height:1.14;font-weight:700;letter-spacing:-1px}
+  .eyebrow{font-size:25px;font-weight:700;color:#657181;letter-spacing:.4px}
+  .tag{position:absolute;padding:10px 18px;border:2px solid #c9d6ce;border-radius:14px;background:#fffdf8;color:#335246;font-size:24px;font-weight:700}
+  .accent{color:#08795f}.muted{color:#5c6a78}.line{position:absolute;height:5px;border-radius:5px;background:#9bc6b4;transform-origin:left center}
+  .screen{object-fit:contain;border:3px solid #1d3544;border-radius:28px;box-shadow:0 18px 42px rgba(26,45,55,.18);background:white}
+  .robot{object-fit:contain}.caption{position:absolute;left:108px;top:1570px;width:864px;min-height:170px;padding:25px 34px;border:2px solid #24495a;border-radius:18px;background:#fffdf8;color:#162536;display:flex;align-items:center;justify-content:center;text-align:center;white-space:pre-line;font-size:39px;line-height:1.24;font-weight:700;box-shadow:0 10px 24px rgba(22,37,54,.12);z-index:20}
+  .node{position:absolute;border-radius:18px;background:#fffdf8;border:2px solid #c8d4d1;box-shadow:0 10px 28px rgba(22,37,54,.1);display:flex;align-items:center;gap:20px;padding:24px 28px}
+  .node-mark{width:58px;height:58px;flex:0 0 58px;border-radius:50%;display:grid;place-items:center;background:#08795f;color:#fffdf8;font-size:28px;font-weight:700}
+  .node-title{font-size:34px;font-weight:700;line-height:1.18}.node-detail{font-size:27px;line-height:1.25;color:#536271;margin-top:4px}
+  .small-note{font-size:23px;color:#536271}.scene-label{position:absolute;left:96px;top:270px;color:#5c6a78;font-size:26px}
+  .pill{display:inline-flex;padding:9px 16px;border-radius:999px;background:#e3eee8;color:#075c4a;font-size:23px;font-weight:700}
+  .scene-label .pill{margin-right:10px}
+  .kicker,.title,.scene-label,.tag,.screen,.robot,.node,.flow-line,.responsibility,.handoff-arrow,.boundary-note,.brand-logo,.summary-step,.micro-note,.compare-tag,.compare-screen,.compare-foot{position:absolute}
+  .screen{left:222px;top:300px;width:636px;height:1130px}
+  #b1-robot{left:52px;top:1215px;width:158px;height:158px}
+  #b1-note{left:250px;top:1490px;width:580px;height:58px;display:flex;align-items:center;justify-content:center;text-align:center}
+  .compare-tag{top:365px;width:448px;padding:12px 15px;border-radius:16px;text-align:center;font-size:27px;font-weight:700;border:2px solid #a9c4b6;background:#fffdf8;color:#075c4a}
+  .left-tag{left:64px}.right-tag{right:64px;background:#e3eee8}
+  .compare-screen{top:440px;width:432px;height:768px;object-fit:contain;border:3px solid #1d3544;border-radius:22px;background:white;box-shadow:0 14px 34px rgba(26,45,55,.16)}
+  #b2-screen-left{left:74px}#b2-screen-right{right:74px}
+  .compare-foot{left:108px;top:1280px;width:864px;text-align:center;font-size:25px;color:#586a72}
+  .api-node{left:150px;top:365px;width:780px;height:132px;border-color:#7ab8a0}
+  .flow-line{left:536px;top:468px;width:7px;height:760px;background:#9bc6b4}
+  .flow-line:after{content:'';position:absolute;left:-11px;bottom:-1px;border-left:15px solid transparent;border-right:15px solid transparent;border-top:22px solid #08795f}
+  .event{left:150px;width:780px;height:142px}
+  .event-one{top:505px}.event-two{top:679px}.event-three{top:853px;border-style:dashed}.event-four{top:1027px;border-color:#99a8cf}
+  .client-node{left:150px;top:1245px;width:780px;height:138px;background:#e7eee9}
+  .flow-robot{right:54px;top:1370px;width:138px;height:138px}
+  .server-card,.client-card{left:144px;width:792px;height:250px;border-radius:28px;background:#fffdf8;box-shadow:0 14px 34px rgba(22,37,54,.11);display:flex;flex-direction:column;justify-content:center;gap:12px;padding:28px 38px}
+  .server-card{top:450px;height:265px;border:3px solid #08795f}.client-card{top:1000px;border:3px solid #8295a6}
+  .client-ghost{left:144px;top:725px;width:792px;height:240px;border:3px dashed #9bc6b4;border-radius:24px;display:grid;place-items:center;color:#5c6a78;font-size:30px;font-weight:700}
+  .server-card strong,.client-card strong{font-size:39px;line-height:1.2}.server-card>span:last-child,.client-card>span:last-child{font-size:29px;color:#586a72}
+  .server-chip,.client-chip{align-self:flex-start;border-radius:999px;padding:5px 14px;background:#e3eee8;color:#075c4a;font-size:21px;font-weight:700;letter-spacing:1px}
+  .client-chip{background:#e9edf1;color:#3d5365}
+  .handoff-arrow{left:520px;top:710px;width:40px;height:245px}
+  .handoff-arrow:before{content:'';position:absolute;left:17px;top:0;width:6px;height:218px;background:#9bc6b4;border-radius:6px}
+  .handoff-arrow:after{content:'';position:absolute;left:7px;bottom:0;border-left:15px solid transparent;border-right:15px solid transparent;border-top:22px solid #08795f}
+  .app-robot{right:70px;top:1285px;width:150px;height:150px}
+  .boundary-note{left:145px;top:1370px;width:700px;color:#536271;font-size:25px;font-weight:700}
+  .brand-logo{left:112px;top:360px;width:225px;height:185px;object-fit:contain}
+  .summary-robot{right:130px;top:360px;width:170px;height:170px}
+  .summary-step{left:144px;width:792px;height:133px;border-radius:20px;background:#fffdf8;border:2px solid #c8d4d1;box-shadow:0 8px 20px rgba(22,37,54,.09);display:flex;align-items:center;gap:24px;padding:20px 28px}
+  .step-one{top:650px}.step-two{top:840px}.step-three{top:1030px;border-color:#08795f;background:#e3eee8}
+  .summary-step span{width:54px;height:54px;flex:0 0 54px;border-radius:50%;display:grid;place-items:center;background:#08795f;color:white;font-size:28px;font-weight:700}
+  .summary-step strong{font-size:34px;line-height:1.2}
+  .micro-note{left:108px;top:1400px;width:864px;text-align:center;color:#5c6a78;font-size:23px;font-weight:700}</style>
+<div id="root" data-composition-id="beat03" data-width="1080" data-height="1920" data-duration="13">
+  <div class="grain"></div>
+  <div id="beat03-kicker" class="clip kicker" data-start="0" data-duration="13" data-track-index="0">LANGMIND · EP03 / SSE</div>
+  <h1 id="beat03-title" class="clip title" data-start="0" data-duration="13" data-track-index="0">ข้อมูลมาเป็นลำดับ event</h1>
+  
+    <div id="b3-api" class="clip node api-node" data-start="0" data-duration="13" data-track-index="0" ><span class="node-mark">API</span><div><div class="node-title">POST /chat/message</div><div class="node-detail">Server-Sent Events</div></div></div>
+    <div class="flow-line" aria-hidden="true"></div>
+    <div id="b3-e1" class="clip node event event-one" data-start="0" data-duration="13" data-track-index="1" ><span class="node-mark">1</span><div><div class="node-title">message_start</div><div class="node-detail">เริ่มและแจ้ง conversation/message ID</div></div></div>
+    <div id="b3-e2" class="clip node event event-two" data-start="0" data-duration="13" data-track-index="2" ><span class="node-mark">2</span><div><div class="node-title">message</div><div class="node-detail">ชิ้นส่วนข้อความ (chunks)</div></div></div>
+    <div id="b3-e3" class="clip node event event-three" data-start="0" data-duration="13" data-track-index="3" ><span class="node-mark">3</span><div><div class="node-title">citations <span class="small-note">(ถ้ามี)</span></div><div class="node-detail">แหล่งอ้างอิงประกอบคำตอบ</div></div></div>
+    <div id="b3-e4" class="clip node event event-four" data-start="0" data-duration="13" data-track-index="4" ><span class="node-mark">4</span><div><div class="node-title">message_end</div><div class="node-detail">คำตอบฉบับเต็มและ usage</div></div></div>
+    <div id="b3-client" class="clip node client-node" data-start="0" data-duration="13" data-track-index="5" ><span class="node-mark">APP</span><div><div class="node-title">App Backend รับ event</div><div class="node-detail">นำข้อมูลที่ได้รับไปแสดงผล</div></div></div>
+</div>
+<script>
+  window.__timelines = window.__timelines || {};
+  const tl = gsap.timeline({ paused: true });
+    tl.fromTo('#b3-api', { opacity: 0, y: -12 }, { opacity: 1, y: 0, duration: 0.35, ease: 'power2.out' }, 0.35);
+    tl.fromTo('#b3-e1', { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.34, ease: 'power2.out' }, 0.5);
+    tl.fromTo('#b3-e2', { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.34, ease: 'power2.out' }, 3.25);
+    tl.fromTo('#b3-e3', { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.34, ease: 'power2.out' }, 6.5);
+    tl.fromTo('#b3-e4', { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.34, ease: 'power2.out' }, 9.75);
+
+  window.__timelines['beat03'] = tl;
+</script>
+</template>

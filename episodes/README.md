@@ -1,10 +1,10 @@
 # Episodes
 
-งานปัจจุบันคือวางแผน EP01 ใหม่ตาม [Workflow](../docs/WORKFLOW.md) และ [แผนรีเซ็ต](../docs/plans/2026-11-06-ep01-reset.md)
+งานรายตอนล่าสุดคือ EP03 silent animatic v2 ตาม [Workflow](../docs/WORKFLOW.md); สถานะและ next action ของแต่ละตอนอยู่ใน README ตอนนั้น
 
 | ID | ทางเข้า | หมายเหตุ |
 |---|---|---|
-| EP01 | [ep01-api-introduction](ep01-api-introduction/README.md) | เริ่มใหม่ สถานะและ next action อยู่ README ตอน |
-| EP03 | [ep03](ep03/README.md) | ได้รับอนุมัติ W3 หัวข้อ Streaming API (SSE) รอทำ W4 |
+| EP01 | [ep01-api-introduction](ep01-api-introduction/README.md) | ก่อนหน้า EP03; สถานะและหลักฐานอยู่ README ตอน |
+| EP03 | [ep03](ep03/README.md) | W3–W5 ทบทวนแล้ว; silent animatic v2 มีไฟล์ MP4; W7 ยังไม่ครบ |
 
 ข้อมูล EP01 รุ่นก่อนและร่างคืนสินค้าถูกลบตามคำยืนยัน ไม่กำหนด EP02 แทนผู้ใช้

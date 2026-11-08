@@ -1,10 +1,10 @@
-> อัปเดต 6 พฤศจิกายน 2026: งาน active คือ EP01 v2 ผู้ใช้ให้ขยายเนื้อหา เพิ่มภาพและ motion และทำคลิปใหม่ ดู README ตอนและแผน v2 สำหรับสถานะปัจจุบัน งานฐานกลาง/รีเซ็ตเป็นประวัติ
+> อัปเดต 8 พฤศจิกายน 2026: งานรายตอนที่ทำล่าสุดคือ EP03 silent animatic v2 ซึ่งเรนเดอร์แล้ว; เสียงพากย์ยังรอ Voice Audition และ W7 ยังไม่ครบ ดู [README EP03](episodes/ep03/README.md) และ [review v2](episodes/ep03/video-v2/REVIEW-v2.md) สำหรับหลักฐาน งาน EP01 v2 มีสถานะของตนใน README ตอน
 
 # LangMind API Video
 
 Workspace ของ Jack สำหรับวางแผนและผลิตคลิปภาษาไทยเกี่ยวกับ LangMind API ผู้ชมคือ developer และคนที่ต้องการนำ AI/API ไปสร้างฟีเจอร์
 
-**งานปัจจุบัน: EP01 v2 แบบขยายคำอธิบาย** มี draft พร้อมเสียงและฉบับปรับฟอนต์แล้ว ดู [README ตอน](episodes/ep01-api-introduction/README.md) สำหรับสถานะและข้อจำกัด หลักการทำตอนต่อไปอยู่ใน [Workflow](docs/WORKFLOW.md)
+**งานปัจจุบัน: EP03 — Streaming API (SSE)** มี silent animatic v2 แนวตั้ง 55 วินาทีแล้ว ยังไม่ sync กับเสียงและไม่ใช่ฉบับรับงานสุดท้าย ดู [README EP03](episodes/ep03/README.md) สำหรับสถานะและข้อจำกัด หลักการผลิตอยู่ใน [Workflow](docs/WORKFLOW.md)
 
 ## เริ่มจากที่นี่
 | เอกสาร | หน้าที่ |

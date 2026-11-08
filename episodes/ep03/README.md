@@ -12,8 +12,8 @@ Episode ID: `ep03-streaming-chat`
 | **W3 ออกแบบเรื่องและขอบเขต** | **ผ่านการทบทวนและอนุมัติ (Done)** | [plan/PLAN.md](plan/PLAN.md) — ปรับขอบเขตตาม snapshot `langmind-api.md`, ตัดตัวเลขเวลาจำลอง, แยก API vs Backend/App |
 | **W4 Storyboard & แบบหน้าจอ** | **ปรับปรุงแล้วเสร็จ (Done)** | • [SCRIPT.md](SCRIPT.md) — ใช้ "ทยอยส่ง/แสดง" แทน "ทันที", ไม่เคลมความเร็ว<br>• [STORYBOARD.md](STORYBOARD.md) — แตก 5 Beats, สเปกหน้าจอมีป้ายภาพจำลอง<br>• [CATALOG.md](CATALOG.md) — ทบทวน Motion ตามหน้าที่จริงของซีน |
 | **W5 ภาพนิ่ง & ตัวอย่างเสียง** | **ภาพนิ่งผ่าน / เสียงรอเลือก (Pending Voice)** | • [evidence/ASSETS.md](evidence/ASSETS.md) — ทะเบียนสินทรัพย์ (ตัดตัวเลขเวลาผลวัดออก)<br>• [evidence/REVIEW-sample.md](evidence/REVIEW-sample.md) — ผลตรวจภาพและสเปก Audition<br>• [evidence/mobile-frames.jpg](evidence/mobile-frames.jpg) — แผ่นตรวจขนาดมือถือ |
-| **W6 ประกอบคลิป HyperFrames** | ยังไม่เริ่ม | รอผู้ใช้เลือกเสียงพากย์ จึงจะนำเสียงจริงมาเป็นฐาน Timing ของไทม์ไลน์ |
-| **W7 ตรวจส่งมอบ 4 ประตู** | ยังไม่เริ่ม | รอการเรนเดอร์ MP4 |
+| **W6 ประกอบคลิป** | **มี silent animatic v2 แล้ว; ยังไม่ sync เสียง** | [video-v2/README.md](video-v2/README.md), [MP4](video-v2/renders/EP03-animatic-v2.mp4), [review](video-v2/REVIEW-v2.md) |
+| **W7 ตรวจส่งมอบ 4 ประตู** | **ตรวจ export และเฟรมตัวอย่างบางส่วน; ยังไม่ครบ** | Technical export อ่านได้; HyperFrames runtime/preview ถูก localhost access denial, ยังไม่มี audio review หรือทดสอบกับผู้ชมใหม่ ดู [review v2](video-v2/REVIEW-v2.md) |
 
 ---
 
@@ -34,5 +34,6 @@ Episode ID: `ep03-streaming-chat`
 ---
 
 ## 3. Next Actions (ขั้นตอนถัดไป)
-- ให้ผู้ใช้รับทราบและตรวจสอบผลการทบทวนเอกสาร W3–W5 ใน `episodes/ep03/`
-- เตรียมดำเนินการเรื่องเสียงตัวอย่าง (Voice Audition) เมื่อผู้ใช้พร้อมเลือกแนวเสียง
+- ทำ Voice Audition ย่อหน้าต่อเนื่องและให้ผู้ใช้เลือกเสียงก่อนผลิตเสียงเต็ม; ใช้เสียงจริงเป็นฐาน retime
+- หลังมีเสียงและ runtime ตรวจได้ ให้ตรวจ W7 เพิ่ม โดยแยก technical, visual, storytelling และ audio; สถานะนี้ไม่ใช่การรับงานจากผู้ใช้
+- รอบ v2 นี้ใช้ local assets เท่านั้น ไม่เรียก live/paid API, ไม่สร้าง provider resource และไม่ publish
