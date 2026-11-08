@@ -1,0 +1,29 @@
+<!doctype html><html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=1080, initial-scale=1"><title>EP03 · SSE · Animatic v2</title>
+<style>
+@font-face{font-family:Sarabun;src:url('assets/fonts/Sarabun-Regular.ttf') format('truetype');font-weight:400}@font-face{font-family:Sarabun;src:url('assets/fonts/Sarabun-Bold.ttf') format('truetype');font-weight:700}
+*{box-sizing:border-box}html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#f3f0e8;font-family:Sarabun,sans-serif;color:#162536}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden;background:#f3f0e8}.scene-host{position:absolute;inset:0}
+#caption-track{position:absolute;inset:0;z-index:30;pointer-events:none}.caption{position:absolute;left:108px;top:1570px;width:864px;min-height:170px;padding:25px 34px;border:2px solid #24495a;border-radius:18px;background:#fffdf8;color:#162536;display:flex;align-items:center;justify-content:center;text-align:center;white-space:pre-line;font-size:39px;line-height:1.24;font-weight:700;box-shadow:0 10px 24px rgba(22,37,54,.12)}.caption small{position:absolute;right:18px;bottom:8px;color:#677684;font-size:17px;font-weight:700}
+</style></head><body><main id="root" data-composition-id="main" data-start="0" data-duration="55" data-width="1080" data-height="1920" data-fps="30">
+<div id="beat01" class="scene-host" data-composition-id="beat01" data-composition-src="compositions/beat01.html" data-start="0" data-duration="10" data-track-index="0" data-track-kind="graphics" data-width="1080" data-height="1920" aria-label="ส่งคำถามแล้ว แอปกำลังรอ"></div>
+<div id="beat02" class="scene-host" data-composition-id="beat02" data-composition-src="compositions/beat02.html" data-start="10" data-duration="11" data-track-index="0" data-track-kind="graphics" data-width="1080" data-height="1920" aria-label="ต่างกันที่วิธีรับข้อมูล"></div>
+<div id="beat03" class="scene-host" data-composition-id="beat03" data-composition-src="compositions/beat03.html" data-start="21" data-duration="13" data-track-index="0" data-track-kind="graphics" data-width="1080" data-height="1920" aria-label="ข้อมูลมาเป็นลำดับ event"></div>
+<div id="beat04" class="scene-host" data-composition-id="beat04" data-composition-src="compositions/beat04.html" data-start="34" data-duration="12" data-track-index="0" data-track-kind="graphics" data-width="1080" data-height="1920" aria-label="ส่วนที่แอปต้องจัดการเอง"></div>
+<div id="beat05" class="scene-host" data-composition-id="beat05" data-composition-src="compositions/beat05.html" data-start="46" data-duration="9" data-track-index="0" data-track-kind="graphics" data-width="1080" data-height="1920" aria-label="รับเป็นช่วง จบเมื่อได้ message_end"></div>
+<div id="caption-track" data-track-kind="captions"><div id="cue01" class="clip caption" data-start="0.5" data-duration="4.5" data-track-index="5"><span>คำถามเดียวกัน
+แต่รูปแบบการรับคำตอบต่างกัน</span><small>01 / 05</small></div>
+<div id="cue02" class="clip caption" data-start="10.5" data-duration="5" data-track-index="5"><span>รับผลครบก่อนแสดง
+หรือทยอยรับผ่าน SSE</span><small>02 / 05</small></div>
+<div id="cue03" class="clip caption" data-start="31" data-duration="2.5" data-track-index="5"><span>อ่าน event ตามลำดับ
+คำตอบสมบูรณ์เมื่อได้ message_end</span><small>03 / 05</small></div>
+<div id="cue04" class="clip caption" data-start="40.5" data-duration="4.5" data-track-index="5"><span>เก็บ API key ที่ server
+Backend อ่าน stream แล้วส่งให้ UI</span><small>04 / 05</small></div>
+<div id="cue05" class="clip caption" data-start="52" data-duration="2.5" data-track-index="5"><span>แอปเลือกวิธีแสดงผลเอง
+คำตอบสมบูรณ์เมื่อได้ message_end</span><small>05 / 05</small></div></div>
+</main><script src="assets/vendor/gsap.min.js"></script><script>window.__timelines=window.__timelines||{};const rootTl=gsap.timeline({paused:true});
+  rootTl.fromTo('#cue01', {opacity:0,y:16}, {opacity:1,y:0,duration:.25,ease:'power2.out'}, 0.5);
+  rootTl.fromTo('#cue02', {opacity:0,y:16}, {opacity:1,y:0,duration:.25,ease:'power2.out'}, 10.5);
+  rootTl.fromTo('#cue03', {opacity:0,y:16}, {opacity:1,y:0,duration:.25,ease:'power2.out'}, 31);
+  rootTl.fromTo('#cue04', {opacity:0,y:16}, {opacity:1,y:0,duration:.25,ease:'power2.out'}, 40.5);
+  rootTl.fromTo('#cue05', {opacity:0,y:16}, {opacity:1,y:0,duration:.25,ease:'power2.out'}, 52);
+window.__timelines['main']=rootTl;</script></body></html>
