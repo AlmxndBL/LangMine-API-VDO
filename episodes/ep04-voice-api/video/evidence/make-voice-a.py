@@ -1,0 +1,121 @@
+"""Build APP-VOICE-A from APP-VOICE-Q so both states share the exact same frame.
+
+Only three regions change: the speech bubble (answer text), the button glyph
+(mic -> speaker) and the status line. Everything else is Q's pixels untouched.
+"""
+import sys
+import numpy as np
+import cv2
+from PIL import Image, ImageDraw, ImageFont
+
+SRC, OUT, FONT = sys.argv[1], sys.argv[2], sys.argv[3]
+SS = 4  # supersampling factor for drawn shapes
+
+q = Image.open(SRC).convert("RGB")
+assert q.size == (1440, 1800), q.size
+img = q.copy()
+
+TEXT = (22, 24, 22)
+WHITE_CARD = (255, 255, 255)
+BUBBLE = (240, 241, 235)
+GREEN = (60, 124, 89)
+
+
+def font(size, wght):
+    f = ImageFont.truetype(FONT, size, layout_engine=ImageFont.Layout.RAQM)
+    f.set_variation_by_axes([wght, 100])
+    return f
+
+
+# ---------- 1. Speech bubble with the answer ----------
+# Card interior area we redraw (well inside the card's rounded edge).
+PX0, PY0, PX1, PY1 = 400, 540, 1040, 950
+patch = Image.new("RGB", ((PX1 - PX0) * SS, (PY1 - PY0) * SS), WHITE_CARD)
+d = ImageDraw.Draw(patch)
+
+lines = ["รับอเมริกาโน่เย็น 1 แก้วครับ", "ทั้งหมด 65 บาท", "รับหวานกี่เปอร์เซ็นต์ดีครับ?"]
+SIZE, LEAD, WGHT = 47, 72, int(sys.argv[4])         # one size for every line, light weight
+BX0, BX1, BY0 = 418, 1021, 580          # same left/right/top as Q's bubble
+PAD_X, PAD_TOP, PAD_BOTTOM = 38, 34, 44
+f = font(SIZE * SS, WGHT)
+asc = f.getmetrics()[0]
+BY1 = BY0 + PAD_TOP + LEAD * len(lines) + PAD_BOTTOM - (LEAD - SIZE * 1.15)
+BY1 = round(BY1)
+
+def S(x, y):
+    return ((x - PX0) * SS, (y - PY0) * SS)
+
+d.rounded_rectangle([S(BX0, BY0), S(BX1, BY1)], radius=36 * SS, fill=BUBBLE)
+# tail, same shape/position as Q (bottom-left)
+d.polygon([S(468, BY1 - 2), S(522, BY1 - 2), S(468, BY1 + 42)], fill=BUBBLE)
+
+for i, t in enumerate(lines):
+    x, y = S(BX0 + PAD_X, BY0 + PAD_TOP + i * LEAD)
+    d.text((x, y), t, font=f, fill=TEXT)
+    w = f.getbbox(t)[2] / SS
+    assert BX0 + PAD_X + w <= BX1 - 24, (t, w)
+
+img.paste(patch.resize((PX1 - PX0, PY1 - PY0), Image.LANCZOS), (PX0, PY0))
+
+# ---------- 2. Button glyph: mic -> speaker ----------
+CX, CY = 720, 1278
+a = np.asarray(img).copy()
+yy, xx = np.mgrid[0:a.shape[0], 0:a.shape[1]]
+inside = (xx - CX) ** 2 + (yy - CY) ** 2 <= 92 ** 2
+glyph = inside & (a.astype(int).sum(2) > 3 * 120)
+mask = cv2.dilate(glyph.astype(np.uint8) * 255, np.ones((7, 7), np.uint8))
+# button face is flat: fill glyph with the local button colour, then soften seams
+a[mask > 0] = GREEN
+a = cv2.inpaint(a, cv2.dilate(mask, np.ones((3, 3), np.uint8)) - mask, 3, cv2.INPAINT_TELEA)
+img = Image.fromarray(a)
+
+R = 100
+ic = Image.new("L", (2 * R * SS, 2 * R * SS), 0)
+g = ImageDraw.Draw(ic)
+def P(x, y):
+    return ((x + R) * SS, (y + R) * SS)
+ox = -6  # optical centring of the whole glyph inside the button
+# speaker: body + cone as one outline, then round every corner (morphological opening)
+g.polygon([P(-50 + ox, -18), P(-30 + ox, -18), P(-4 + ox, -42), P(-4 + ox, 42),
+           P(-30 + ox, 18), P(-50 + ox, 18)], fill=255)
+k = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * 6 * SS + 1, 2 * 6 * SS + 1))
+body = cv2.morphologyEx(np.asarray(ic), cv2.MORPH_OPEN, k)
+ic = Image.fromarray(body)
+g = ImageDraw.Draw(ic)
+# sound waves with round caps, stroke matched to Q's mic stand
+SW = 10
+c = (8 + ox, 0)
+for r, span in [(24, 48), (46, 48)]:
+    box = [P(c[0] - r, c[1] - r), P(c[0] + r, c[1] + r)]
+    g.arc(box, -span, span, fill=255, width=SW * SS)
+    for ang in (-span, span):
+        th = np.radians(ang)
+        rm = r - SW / 2
+        ex, ey = c[0] + rm * np.cos(th), c[1] + rm * np.sin(th)
+        g.ellipse([P(ex - SW / 2, ey - SW / 2), P(ex + SW / 2, ey + SW / 2)], fill=255)
+ic = ic.resize((2 * R, 2 * R), Image.LANCZOS)
+img.paste(Image.new("RGB", ic.size, (255, 255, 255)), (CX - R, CY - R), ic)
+
+# ---------- 3. Status line ----------
+a = np.asarray(img).copy()
+SX0, SY0, SX1, SY1 = 380, 1480, 1060, 1572
+region = a[SY0:SY1, SX0:SX1].astype(int)
+tmask = (region.sum(2) < 3 * 200).astype(np.uint8) * 255
+tmask = cv2.dilate(tmask, np.ones((9, 9), np.uint8))
+full = np.zeros(a.shape[:2], np.uint8)
+full[SY0:SY1, SX0:SX1] = tmask
+a = cv2.inpaint(a, full, 6, cv2.INPAINT_TELEA)
+img = Image.fromarray(a)
+
+status = "กำลังเล่นเสียงตอบกลับ..."
+sf = font(49, int(sys.argv[5]))
+ref = font(49, 400)
+# align to Q's baseline: Q's text top (sara-free glyph tops) measured at y=1498 for 'กำลังฟังเสียงพูด...'
+ref_top = ref.getbbox("กำลังฟังเสียงพูด...")[1]
+y = 1498 - ref_top
+w = sf.getbbox(status)[2]
+sd = ImageDraw.Draw(img)
+sd.text((round(720 - w / 2), y), status, font=sf, fill=TEXT)
+
+img.save(OUT, quality=95, subsampling=0, optimize=True)
+print("bubble", (BX0, BY0, BX1, BY1), "out", img.size)

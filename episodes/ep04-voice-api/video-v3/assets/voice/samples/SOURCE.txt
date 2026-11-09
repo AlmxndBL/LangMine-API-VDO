@@ -1,0 +1,3 @@
+Generated with Edge TTS (Microsoft neural voices) via the edge-tts package.
+Voices: th-TH-NiwatNeural · rate -16% · used in video: th-TH-NiwatNeural
+Check the usage terms before publishing; record the chosen voice in REVIEW.md.

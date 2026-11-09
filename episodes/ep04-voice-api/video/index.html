@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<title>EP04 · Voice API · B01–B06 draft</title>
+<link rel="stylesheet" href="style.css">
+<script src="assets/gsap.min.js"></script>
+</head>
+<body>
+<main id="film" data-composition-id="ep04-voice" data-width="1080" data-height="1920" data-fps="30" data-duration="86.26666666666667">
+  <div class="kicker">EP04 &nbsp;/&nbsp; VOICE API</div>
+  <div class="note">ภาพจำลอง</div>
+
+  <section id="stage" class="clip" data-start="0" data-duration="86.26666666666667" data-track-index="1">
+    <h1 id="h-b01" class="heading">คุยด้วยเสียง<small>ในแอปของคุณ</small></h1>
+    <h1 id="h-b02" class="heading">ท่อ 3 สเต็ป<small>ฟัง → คิด → พูด</small></h1>
+    <h1 id="h-b06" class="heading"><span class="num">✓</span>เช็กลิสต์<small>ก่อนเริ่มใช้งาน</small></h1>
+    <h1 id="h-b03" class="heading"><span class="num">1</span>ฟัง<small>ถอดเสียงเป็นข้อความ</small></h1>
+    <h1 id="h-b04" class="heading"><span class="num">2</span>คิด<small>ตอบแบบภาษาพูด</small></h1>
+    <h1 id="h-b05" class="heading"><span class="num">3</span>พูด<small>อ่านคำตอบออกเสียง</small></h1>
+    <div class="spine">
+      <span id="pill-b03" class="pill">1 ฟัง</span><i></i><span id="pill-b04" class="pill">2 คิด</span><i></i><span id="pill-b05" class="pill">3 พูด</span>
+    </div>
+
+    <div class="device" id="device">
+      <div class="screen">
+        <img id="img-q" src="assets/app-voice-q.jpg" width="1440" height="1800" alt="หน้าจอลูกค้ากดไมค์สั่งกาแฟ (ภาพจำลอง)" data-layout-allow-overflow>
+        <img id="img-a" src="assets/app-voice-a.jpg" width="1440" height="1800" alt="หน้าจอแอปเล่นเสียงตอบกลับ (ภาพจำลอง)" data-layout-allow-overflow>
+      </div>
+    </div>
+    <div class="wave big"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="wave-label" id="wave-label"></div>
+
+    
+  <div class="panel" id="panel-b03">
+    <div class="slot-in"><div class="chip in-chip"><svg class="ico" viewBox="0 0 24 24"><rect x="8.5" y="2.5" width="7" height="12" rx="3.5"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3.5"/></svg><span><b>order.wav</b> · เสียงจากไมค์</span></div></div>
+    <svg class="arrow" id="arr1-b03" viewBox="0 0 60 70"><path d="M30 4 V58 M14 44 L30 62 L46 44"/><circle class="dot" cx="30" cy="8" r="7"/></svg>
+    <div class="code">
+      <div class="code-head"><span class="method">POST</span><span class="scope">สิทธิ์ voice:invoke</span></div>
+      <div class="code-path">/api/v1/agents/{id}/voice/transcribe</div>
+      <div class="code-body"><div class="ln ">Authorization: Bearer <span class="v">$LM_TOKEN</span></div><div class="ln ">-F <span class="v">audio=@order.wav;type=audio/wav</span></div><div class="ln ">-F <span class="v">language=th</span></div></div>
+      <div class="code-foot">ไฟล์ไม่เกิน 4 MB · wav, mp3, webm, ogg, m4a</div>
+    </div>
+    <svg class="arrow" id="arr2-b03" viewBox="0 0 60 70"><path d="M30 4 V58 M14 44 L30 62 L46 44"/><circle class="dot" cx="30" cy="8" r="7"/></svg>
+    <div class="slot-out"><div class="chip out-chip json">{ <span class="k">"text"</span>: <span class="v">"ขอสั่งอเมริกาโน่เย็น 1 แก้วครับ"</span> }</div></div>
+  </div>
+
+  <div class="panel" id="panel-b04">
+    <div class="slot-in"><div class="chip in-chip"><svg class="ico" viewBox="0 0 24 24"><path d="M4 6h16M4 11h16M4 16h10"/></svg><span>“ขอสั่งอเมริกาโน่เย็น 1 แก้วครับ”</span></div></div>
+    <svg class="arrow" id="arr1-b04" viewBox="0 0 60 70"><path d="M30 4 V58 M14 44 L30 62 L46 44"/><circle class="dot" cx="30" cy="8" r="7"/></svg>
+    <div class="code">
+      <div class="code-head"><span class="method">POST</span><span class="scope">สิทธิ์ chat:invoke</span></div>
+      <div class="code-path">/api/chat/message/blocking</div>
+      <div class="code-body"><div class="ln "><span class="k">"agent_id"</span>: <span class="v">"01J8..."</span>,</div><div class="ln "><span class="k">"query"</span>: <span class="v">"ขอสั่งอเมริกาโน่เย็น 1 แก้วครับ"</span>,</div><div class="ln hl"><span class="mark"></span><span class="k">"input_mode"</span>: <span class="v">"voice"</span>,</div><div class="ln "><span class="k">"conversation_id"</span>: <span class="v">null</span></div></div>
+      <div class="code-foot">Agent ใช้การตั้งค่า “ตอบแบบภาษาพูด” ที่เปิดไว้</div>
+    </div>
+    <svg class="arrow" id="arr2-b04" viewBox="0 0 60 70"><path d="M30 4 V58 M14 44 L30 62 L46 44"/><circle class="dot" cx="30" cy="8" r="7"/></svg>
+    <div class="slot-out"><div class="chip out-chip json">{ <span class="k">"answer"</span>: <span class="v">"รับอเมริกาโน่เย็น 1 แก้วครับ<br>&nbsp;&nbsp;&nbsp;ทั้งหมด 65 บาท<br>&nbsp;&nbsp;&nbsp;รับหวานกี่เปอร์เซ็นต์ดีครับ?"</span>,<div class="ln hl2">&nbsp;&nbsp;<span class="mark"></span><span class="k">"conversation_id"</span>: <span class="v">"c_7Q2…"</span> }</div><em>คำตอบตัวอย่าง (ภาพจำลอง)</em></div></div>
+  </div>
+
+  <div class="panel" id="panel-b05">
+    <div class="slot-in"><div class="chip in-chip"><svg class="ico" viewBox="0 0 24 24"><path d="M4 6h16M4 11h16M4 16h10"/></svg><span>“รับอเมริกาโน่เย็น 1 แก้วครับ ทั้งหมด…”</span></div></div>
+    <svg class="arrow" id="arr1-b05" viewBox="0 0 60 70"><path d="M30 4 V58 M14 44 L30 62 L46 44"/><circle class="dot" cx="30" cy="8" r="7"/></svg>
+    <div class="code">
+      <div class="code-head"><span class="method">POST</span><span class="scope">สิทธิ์ voice:invoke</span></div>
+      <div class="code-path">/api/v1/agents/{id}/voice/speech</div>
+      <div class="code-body"><div class="ln "><span class="k">"text"</span>: <span class="v">"รับอเมริกาโน่เย็น 1 แก้วครับ…"</span>,</div><div class="ln "><span class="k">"format"</span>: <span class="v">"auto"</span></div></div>
+      <div class="code-foot">ข้อความไม่เกิน 4,000 ตัวอักษรต่อครั้ง</div>
+    </div>
+    <svg class="arrow" id="arr2-b05" viewBox="0 0 60 70"><path d="M30 4 V58 M14 44 L30 62 L46 44"/><circle class="dot" cx="30" cy="8" r="7"/></svg>
+    <div class="slot-out"><div class="chip out-chip audio"><svg class="ico" viewBox="0 0 24 24"><path class="fill" d="M3.5 9.5h3.5l5-4v13l-5-4H3.5z"/><path d="M15.5 9a4 4 0 0 1 0 6M18.5 6.5a7.5 7.5 0 0 1 0 11"/></svg><span><b>audio/mpeg</b> หรือ <b>audio/wav</b></span><div class="wave mini"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div></div>
+  </div>
+
+    
+  <div class="scene" id="overview">
+    <div class="no-train" id="no-train"><b class="x">✕</b><span>ไม่ต้องเทรนโมเดลเสียงเอง</span></div>
+    <div class="ov-card" id="ov-1" style="--c:#38815A"><b class="ov-num">1</b><div><div class="ov-verb">ฟัง <em>เสียง → ข้อความ</em></div><div class="ov-api">Voice API · <code>voice/transcribe</code></div></div></div>
+    <svg class="arrow" id="ov-arr1" viewBox="0 0 60 70"><path d="M30 4 V58 M14 44 L30 62 L46 44"/><circle class="dot" cx="30" cy="8" r="7"/></svg>
+    <div class="ov-card" id="ov-2" style="--c:#8d732c"><b class="ov-num">2</b><div><div class="ov-verb">คิด <em>ข้อความ → คำตอบ</em></div><div class="ov-api">Chat API ของ Agent<br><code>chat/message/blocking</code></div></div></div>
+    <svg class="arrow" id="ov-arr2" viewBox="0 0 60 70"><path d="M30 4 V58 M14 44 L30 62 L46 44"/><circle class="dot" cx="30" cy="8" r="7"/></svg>
+    <div class="ov-card" id="ov-3" style="--c:#1E7578"><b class="ov-num">3</b><div><div class="ov-verb">พูด <em>คำตอบ → เสียง</em></div><div class="ov-api">Voice API · <code>voice/speech</code></div></div></div>
+  </div>
+    
+  <div class="scene" id="checklist">
+    <div class="check" id="check-1"><svg class="tick" viewBox="0 0 48 48"><circle cx="24" cy="24" r="21"/><path d="M14 25 L21 32 L35 17"/></svg><div><div class="check-t">เปิด “สนทนาด้วยเสียง” + publish</div><div class="check-d">ไม่เปิด = 403 VOICE_DISABLED<br>แก้แล้วไม่ publish = ยังไม่มีผล</div></div></div><div class="check" id="check-2"><svg class="tick" viewBox="0 0 48 48"><circle cx="24" cy="24" r="21"/><path d="M14 25 L21 32 L35 17"/></svg><div><div class="check-t">สิทธิ์ <code>voice:invoke</code> + <code>chat:invoke</code></div><div class="check-d">voice = ถอด/อ่านเสียง · chat = ถาม Agent</div></div></div><div class="check" id="check-3"><svg class="tick" viewBox="0 0 48 48"><circle cx="24" cy="24" r="21"/><path d="M14 25 L21 32 L35 17"/></svg><div><div class="check-t">เก็บ API Key ฝั่ง server</div><div class="check-d">แอปมือถือเรียกผ่าน backend ของคุณ<br>ไม่ฝัง Key ไว้ในแอป</div></div></div>
+  </div>
+    <img id="robot-q" class="robot q" src="assets/01-question.png" width="445" height="503" alt="">
+    <div class="server-note q" id="ask-b01"><b>เบื้องหลังเชื่อมต่ออย่างไร?</b><br>แอป → ? → คำตอบเป็นเสียง</div>
+    <img id="robot-b06" class="robot b06" src="assets/04-open-arms.png" width="425" height="503" alt="">
+    <img id="robot-b05" class="robot b05" src="assets/04-open-arms.png" width="425" height="503" alt="">
+    <div class="server-note b05" id="tip-b05"><b>ปรับเสียงได้</b> ด้วย voice, speed<br>ไม่ส่ง = ใช้ค่าเสียงของ Agent ที่ publish</div>
+    <img id="robot" class="robot" src="assets/05-point-up.png" width="445" height="436" alt="">
+    <div class="server-note" id="server-note"><b>เรียกจาก server ของแอป</b><br>API Key ไม่ใส่ในแอปมือถือ</div>
+  </section>
+
+  <div id="cap-b01-0" class="clip caption" data-start="0.4" data-duration="4.533333333333333" data-track-index="8" data-layout-allow-caption-zone>เคยไหม ผู้ใช้พิมพ์ไม่สะดวก<br>เช่น กำลังขับรถ หรือมือไม่ว่าง</div>
+<div id="cap-b01-1" class="clip caption" data-start="4.933333333333334" data-duration="3.533333333333333" data-track-index="8" data-layout-allow-caption-zone>ถ้าแอปคุยด้วยเสียงได้<br>ก็จะใช้งานง่ายขึ้นมาก</div>
+<div id="cap-b01-2" class="clip caption" data-start="8.466666666666667" data-duration="2.8333333333333335" data-track-index="8" data-layout-allow-caption-zone>แต่เบื้องหลัง ต้องเชื่อมต่อระบบอย่างไร?</div>
+<div id="cap-b02-0" class="clip caption" data-start="11.8" data-duration="3.3333333333333335" data-track-index="8" data-layout-allow-caption-zone>ไม่ต้องสร้างหรือเทรนโมเดลเสียงเองตั้งแต่ต้น</div>
+<div id="cap-b02-1" class="clip caption" data-start="15.1" data-duration="6.466666666666667" data-track-index="8" data-layout-allow-caption-zone>LangMind มี Voice API ถอดเสียง/อ่านออกเสียง<br>ใช้คู่กับ Chat API ของ Agent</div>
+<div id="cap-b02-2" class="clip caption" data-start="21.566666666666666" data-duration="3.1666666666666665" data-track-index="8" data-layout-allow-caption-zone>ต่อกันเป็นท่อ 3 สเต็ป<br>ฟัง → คิด → พูด</div>
+<div id="cap-b03-0" class="clip caption" data-start="25.233333333333334" data-duration="5.6" data-track-index="8" data-layout-allow-caption-zone>สเต็ปแรกคือการฟัง ผู้ใช้กดไมค์แล้วพูดว่า<br>“ขอสั่งอเมริกาโน่เย็น 1 แก้วครับ”</div>
+<div id="cap-b03-1" class="clip caption" data-start="30.833333333333332" data-duration="6.066666666666666" data-track-index="8" data-layout-allow-caption-zone>ระบบหลังบ้านของแอปส่งไฟล์เสียง (ไม่เกิน 4 MB)<br>ไปที่ Voice Transcribe ของ LangMind</div>
+<div id="cap-b03-2" class="clip caption" data-start="36.9" data-duration="3.066666666666667" data-track-index="8" data-layout-allow-caption-zone>แล้วได้ข้อความที่ถอดจากเสียงกลับมา</div>
+<div id="cap-b04-0" class="clip caption" data-start="40.46666666666667" data-duration="6.766666666666667" data-track-index="8" data-layout-allow-caption-zone>สเต็ปที่สองคือการคิด ส่งข้อความเข้า Chat API<br>พร้อมระบุ input_mode เป็น voice</div>
+<div id="cap-b04-1" class="clip caption" data-start="47.233333333333334" data-duration="4.433333333333334" data-track-index="8" data-layout-allow-caption-zone>Agent ที่ใส่ข้อมูลเมนูร้านไว้<br>จะตอบสั้น กระชับ เป็นภาษาพูด</div>
+<div id="cap-b04-2" class="clip caption" data-start="51.666666666666664" data-duration="4.433333333333334" data-track-index="8" data-layout-allow-caption-zone>และส่ง conversation_id กลับมา<br>ไว้ใช้คุยต่อในรอบถัดไป</div>
+<div id="cap-b05-0" class="clip caption" data-start="56.6" data-duration="4.166666666666667" data-track-index="8" data-layout-allow-caption-zone>สเต็ปสุดท้ายคือการพูด<br>ส่งคำตอบเข้า Voice Speech ของ LangMind</div>
+<div id="cap-b05-1" class="clip caption" data-start="60.766666666666666" data-duration="4.3" data-track-index="8" data-layout-allow-caption-zone>ได้ไฟล์เสียงกลับมา<br>เป็น MP3 หรือ WAV ตามที่ตั้งค่าไว้</div>
+<div id="cap-b05-2" class="clip caption" data-start="65.06666666666666" data-duration="3.1666666666666665" data-track-index="8" data-layout-allow-caption-zone>แล้วแอปก็เปิดเสียงนั้นให้ผู้ใช้ฟัง</div>
+<div id="cap-b06-0" class="clip caption" data-start="68.73333333333333" data-duration="4.866666666666666" data-track-index="8" data-layout-allow-caption-zone>สรุป 3 สิ่งที่ต้องเตรียม<br>1. เปิดสนทนาด้วยเสียงใน Agent แล้ว publish</div>
+<div id="cap-b06-1" class="clip caption" data-start="73.6" data-duration="3.7666666666666666" data-track-index="8" data-layout-allow-caption-zone>2. API Key ต้องมีสิทธิ์<br>voice:invoke และ chat:invoke</div>
+<div id="cap-b06-2" class="clip caption" data-start="77.36666666666666" data-duration="3.4" data-track-index="8" data-layout-allow-caption-zone>3. เก็บ API Key ไว้ที่ server ของแอปเท่านั้น</div>
+<div id="cap-b06-3" class="clip caption" data-start="80.73333333333333" data-duration="4.333333333333333" data-track-index="8" data-layout-allow-caption-zone>เพียงเท่านี้ แอปของคุณ<br>ก็พร้อมคุยกับผู้ใช้ด้วยเสียงแล้วครับ</div>
+  <audio id="vo-b01" class="clip" data-start="0.4" data-duration="10.9" data-track-index="9" src="assets/voice/b01.wav"></audio>
+<audio id="vo-b02" class="clip" data-start="11.8" data-duration="12.933333333333334" data-track-index="9" src="assets/voice/b02.wav"></audio>
+<audio id="vo-b03" class="clip" data-start="25.233333333333334" data-duration="14.766666666666667" data-track-index="9" src="assets/voice/b03.wav"></audio>
+<audio id="vo-b04" class="clip" data-start="40.46666666666667" data-duration="15.633333333333333" data-track-index="9" src="assets/voice/b04.wav"></audio>
+<audio id="vo-b05" class="clip" data-start="56.6" data-duration="11.633333333333333" data-track-index="9" src="assets/voice/b05.wav"></audio>
+<audio id="vo-b06" class="clip" data-start="68.73333333333333" data-duration="16.333333333333332" data-track-index="9" src="assets/voice/b06.wav"></audio>
+</main>
+<script>window.FILM={"duration":86.26666666666667,"beats":[{"id":"b01","start":0.4,"duration":10.9,"segments":[{"cue":"device","start":0.4,"duration":4.533333333333333},{"cue":"voice","start":4.933333333333334,"duration":3.533333333333333},{"cue":"question","start":8.466666666666667,"duration":2.8333333333333335}]},{"id":"b02","start":11.8,"duration":12.933333333333334,"segments":[{"cue":"no-train","start":11.8,"duration":3.3333333333333335},{"cue":"apis","start":15.1,"duration":6.466666666666667},{"cue":"pipeline","start":21.566666666666666,"duration":3.1666666666666665}]},{"id":"b03","start":25.233333333333334,"duration":14.766666666666667,"segments":[{"cue":"device","start":25.233333333333334,"duration":5.6},{"cue":"request","start":30.833333333333332,"duration":6.066666666666666},{"cue":"response","start":36.9,"duration":3.066666666666667}]},{"id":"b04","start":40.46666666666667,"duration":15.633333333333333,"segments":[{"cue":"request","start":40.46666666666667,"duration":6.766666666666667},{"cue":"highlight","start":47.233333333333334,"duration":4.433333333333334},{"cue":"response","start":51.666666666666664,"duration":4.433333333333334}]},{"id":"b05","start":56.6,"duration":11.633333333333333,"segments":[{"cue":"request","start":56.6,"duration":4.166666666666667},{"cue":"response","start":60.766666666666666,"duration":4.3},{"cue":"device","start":65.06666666666666,"duration":3.1666666666666665}]},{"id":"b06","start":68.73333333333333,"duration":16.333333333333332,"segments":[{"cue":"check1","start":68.73333333333333,"duration":4.866666666666666},{"cue":"check2","start":73.6,"duration":3.7666666666666666},{"cue":"check3","start":77.36666666666666,"duration":3.4},{"cue":"outro","start":80.73333333333333,"duration":4.333333333333333}]}]}</script>
+<script src="motion.js"></script>
+</body>
+</html>
