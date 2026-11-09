@@ -1,0 +1,50 @@
+{
+  "version": "4.2",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "chars_per_second": 11,
+  "inter_segment_seconds": 0.35,
+  "lead_in_seconds": 0.5,
+  "tail_seconds": 1.5,
+  "silent_draft": true,
+  "note": "Timing is estimated from narration character count. Replace it with measured voice timing after voice approval; no audio is embedded.",
+  "beats": [
+    {"id":"b1","title":"แชทที่คุ้นเคย","phase":1,"scene":"chat","segments":[
+      {"cue":"ask","say":"เคยขอให้ผู้ช่วยช่วยร่างข้อความ แล้วอยากให้แก้ต่ออีกนิดไหม?","cap":"เคยขอให้ผู้ช่วยช่วยร่างข้อความ\nแล้วอยากให้แก้ต่ออีกนิดไหม?"},
+      {"cue":"follow-up","say":"ตัวอย่างนี้เริ่มจากแชทที่คุ้นเคย: ขอร่าง แล้วถามให้สั้นลงในเรื่องเดิม","cap":"ขอร่างข้อความ → ถามให้สั้นลง\nคุยต่อในเรื่องเดิม"}
+    ]},
+    {"id":"b2","title":"สิ่งที่อยู่หลังแชท","phase":1,"scene":"architecture","segments":[
+      {"cue":"roles","say":"หน้าจอแชทคือสิ่งที่ผู้ใช้เห็น ส่วน API คือทางเชื่อมของระบบ","cap":"หน้าจอแชท = สิ่งที่ผู้ใช้เห็น\nChat API = ทางเชื่อมของระบบ"},
+      {"cue":"flow","say":"แอปส่งคำถามให้ระบบหลังบ้าน แล้วระบบหลังบ้านเรียก Chat API; แอปของคุณเป็นผู้แสดงคำตอบ","cap":"แอป → ระบบหลังบ้าน → Chat API → Agent\nคำตอบกลับไปให้แอปแสดงผล"}
+    ]},
+    {"id":"b3","title":"เตรียมก่อนเชื่อม","phase":2,"scene":"prepare","segments":[
+      {"cue":"agent","say":"เตรียม Agent ที่เผยแพร่แล้ว และใช้ agent ID ของ Agent นั้น","cap":"1 · Agent ที่เผยแพร่แล้ว\nเตรียม agent_id ของ Agent นั้น"},
+      {"cue":"key","say":"สร้าง Personal API Key ที่มีสิทธิ์ chat invoke แล้วเก็บ Key ไว้ฝั่ง server","cap":"2 · Personal API Key\nscope: chat:invoke · เก็บไว้ที่ server"}
+    ]},
+    {"id":"b4","title":"ส่งคำถามแรก","phase":3,"scene":"request","segments":[
+      {"cue":"route","say":"ส่งคำถามผ่าน POST api chat message ซึ่งตอบกลับเป็น SSE โดยค่าเริ่มต้น","cap":"POST /api/chat/message\nค่าเริ่มต้น: SSE stream"},
+      {"cue":"payload","say":"ระบบหลังบ้านใส่ Bearer Key และข้อมูลคำขอ; conversation ID เป็น null เพื่อเริ่มบทสนทนาใหม่","cap":"Bearer Key · agent_id · query\nconversation_id: null = เริ่มใหม่"}
+    ]},
+    {"id":"b5","title":"อ่าน SSE ให้จบ","phase":3,"scene":"events","segments":[
+      {"cue":"meaning","say":"SSE หรือ Server-Sent Events ส่งข้อมูลจาก server มาเป็นลำดับ","cap":"SSE = Server-Sent Events\nข้อมูลทยอยส่งจาก server"},
+      {"cue":"chunks","say":"message start ส่ง ID ก่อน; message ทยอยส่งเนื้อหา; citations อาจมี","cap":"message_start → ได้ ID\nmessage → คำตอบทยอยมา · citations อาจมี"},
+      {"cue":"end","say":"message end ส่งคำตอบเต็มและข้อมูล usage","cap":"message_end → คำตอบเต็ม\nและข้อมูล usage"}
+    ]},
+    {"id":"b6","title":"ถามต่อในห้องเดิม","phase":3,"scene":"followup","segments":[
+      {"cue":"reuse","say":"เมื่อถามต่อ ให้นำ conversation ID ที่ได้รับจาก stream เดิมมาใส่ในคำขอใหม่","cap":"คำขอถัดไปใช้ conversation_id\nที่ได้รับจาก stream เดิม"},
+      {"cue":"continue","say":"จึงส่งข้อความใหม่ในบทสนทนาเดิม; ใช้ null เมื่อเริ่มบทสนทนาใหม่","cap":"ID เดิม = คุยต่อในห้องเดิม\nnull = เริ่มบทสนทนาใหม่"}
+    ]},
+    {"id":"b7","title":"Chat API เส้นทางอื่น","phase":3,"scene":"routes","segments":[
+      {"cue":"control","say":"ยังมี endpoint สำหรับพรีวิว รอคำตอบเต็มแบบ JSON และหยุด stream","cap":"ส่ง/ควบคุม: message · preview\nblocking · stop"},
+      {"cue":"history","say":"อ่านหรือแก้ประวัติ ให้คะแนนคำตอบ และดาวน์โหลดไฟล์ที่ Agent สร้างได้; DELETE เป็นการลบถาวร","cap":"ประวัติ · feedback · generated files\nDELETE conversation = ลบถาวร"}
+    ]},
+    {"id":"b8","title":"สรุปลำดับใช้งาน","phase":3,"scene":"recap","segments":[
+      {"cue":"steps","say":"เก็บ Key ที่ server ส่งคำถาม อ่าน stream จน message end แล้วเก็บ conversation ID เพื่อถามต่อ","cap":"เก็บ Key ที่ server → ส่งคำถาม\nอ่านจน message_end → เก็บ ID ถามต่อ"},
+      {"cue":"responsibility","say":"API ส่งข้อมูลกลับมา ส่วนแอปของคุณเลือกวิธีแสดงผลบนหน้าจอ","cap":"API ส่งข้อมูลกลับ\nแอปของคุณจัดการการแสดงผล"}
+    ]},
+    {"id":"b9","title":"ปิดเรื่อง","phase":3,"scene":"outro","segments":[
+      {"cue":"brand","say":"นี่คือภาพรวมการเริ่มต้นใช้ Chat API กับ LangMind ดูรายละเอียดเพิ่มเติมได้ที่ langmind.in.th","cap":"Chat API ใน LangMind\nlangmind.in.th"}
+    ]}
+  ]
+}

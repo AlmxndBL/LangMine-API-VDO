@@ -21,7 +21,7 @@
 รอบนี้บันทึกแผนและออกแบบช่วงเพิ่มเติม ยังไม่ผลิต timeline ภาพ เสียง หรือ MP4 ดู [แผน EP02](../../episodes/ep02-custom-chat/PLAN.md) สำหรับขอบเขตที่อนุมัติ แบบช่วงท้าย ข้อจำกัด Catalog และลำดับงานถัดไป ไม่ตีความการอนุมัติแนวเรื่องเป็นผลตรวจรับภาพหรือเสียงที่ยังไม่ผลิต
 
 ### สถานะ EP03 ที่ส่งต่อจาก dev_boy
-9 พ.ย. 2026: EP03 v4 Chat API อยู่ W4 draft: มี [บท](../../episodes/ep03/video-v4/SCRIPT-v4.md), [storyboard และแบบหน้าจอ](../../episodes/ep03/video-v4/STORYBOARD-v4.md), [Catalog shortlist](../../episodes/ep03/video-v4/CATALOG-v4.md) และ [แผน/API evidence](../../episodes/ep03/video-v4/PLAN.md). W5 ยังไม่เริ่มสร้างภาพ/เสียงหรือทดลอง Catalog ในแนวตั้ง; จึงยังไม่มี timeline/คลิป v4. v3.1 ยังคงเป็นคลิปล่าสุดที่ผลิต; รายละเอียดเดิมอยู่ [README EP03](../../episodes/ep03/README.md) และ [review v3.1](../../episodes/ep03/video-v3.1/REVIEW-v3.1.md). บันทึกนี้ไม่เปลี่ยนลำดับงานหลัก EP02 ที่ระบุไว้ด้านบน.
+9 พ.ย. 2026: สร้าง [EP03 v4.2 Silent Draft](../../episodes/ep03/video-v4.2/renders/ep03-v4.2-silent.mp4) ใหม่เป็น 9 Beat, 110.47s, 1080×1920/30fps; สถานะเป็น draft รอผู้ใช้รีวิวและยังไม่ sync เสียง. source/แผน/ข้อจำกัดอยู่ [README v4.2](../../episodes/ep03/video-v4.2/README.md) และ [REVIEW v4.2](../../episodes/ep03/video-v4.2/REVIEW-v4.2.md). CLI เรียก Volta ไม่ได้และ preview ถูกปิด จึงใช้ fallback renderer และยังไม่มีผล HyperFrames native check. v4.1 และรุ่นเก่ายังคงเป็นหลักฐานเดิม; สถานะรวมอยู่ [README EP03](../../episodes/ep03/README.md). บันทึกนี้ไม่เปลี่ยนลำดับงานหลัก EP02 ที่ระบุไว้ด้านบน.
 ## ประวัติการจัดฐานกลางก่อนคำสั่งรีเซ็ต EP01
 ส่วนด้านล่างบันทึกรอบก่อน ไม่ใช่สถานะหรือสิทธิ์ผลิตปัจจุบัน ไฟล์ EP01 เก่าที่กล่าวถึงถูกลบแล้ว
 
