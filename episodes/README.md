@@ -13,4 +13,5 @@
 | EP09 | [ep09-analytics-feedback](ep09-analytics-feedback/README.md) | [ep09-analytics-feedback-silent.mp4](ep09-analytics-feedback/video/ep09-analytics-feedback-silent.mp4) | Analytics & Feedback API (วัดผล คุมงบ Token & เก็บคะแนน) — 216.47s / 23.14 MB (W6 Silent Draft) |
 | EP10 | [ep10-inbox-line-channel](ep10-inbox-line-channel/README.md) | [ep10-inbox-line-channel-silent.mp4](ep10-inbox-line-channel/video/ep10-inbox-line-channel-silent.mp4) | Inbox API & LINE Channel (ดึงเธรด เช็ก Handover & Export) — 216.93s / 15.16 MB (W6 Silent Draft) |
 | EP11 | [ep11-agents-versioning](ep11-agents-versioning/README.md) | [ep11-agents-versioning-silent.mp4](ep11-agents-versioning/video/ep11-agents-versioning-silent.mp4) | Agents & Versioning API (สร้าง ปรับรุ่น Publish & Rollback) — 233.13s / 16.60 MB (W6 Silent Draft) |
-
+| EP12 | [ep12-inbox-api](ep12-inbox-api/README.md) | [ep12-inbox-draft-v1.mp4](ep12-inbox-api/video/ep12-inbox-draft-v1.mp4) | Inbox API — หน้ากล่องแชทของร้าน (use case A) — 188.03s / 15.60 MB (W5 Silent Draft v1 ภาพ/บท/ฉากครบ รอเสียงพากย์) |
+| EP13 | [ep13-short-links-api](ep13-short-links-api/README.md) | [ep13-short-links-draft-v1.mp4](ep13-short-links-api/video/ep13-short-links-draft-v1.mp4) | Short Links API — ลิงก์โปรของร้าน ย่อลิงก์และนับคลิก — 231.33s / 15.77 MB (W5 Silent Draft v1 ภาพ/บท/ฉากครบ รอเสียงพากย์) |
