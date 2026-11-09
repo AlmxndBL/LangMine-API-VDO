@@ -1,0 +1,23 @@
+<template>
+<style>*{box-sizing:border-box}
+@font-face{font-family:Sarabun;src:url("assets/fonts/Sarabun-Bold.ttf")}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#f3f0e8}
+#root{position:absolute;inset:0;width:1080px;height:1920px;overflow:hidden}
+.plate{position:absolute;inset:0;width:1080px;height:1920px;object-fit:cover;opacity:0}
+</style>
+<div id="root" data-composition-id="beat01" data-width="1080" data-height="1920" data-duration="8" data-layout-allow-overlap="true">
+<img id="stage-b1-question" class="clip plate" data-start="0" data-duration="4" data-track-index="0" data-layout-allow-overlap="true" src="assets/plates/v3.1/b1-question.png" alt="เริ่มจากคำถามเดียวกัน — b1-question">
+<img id="stage-b1-waiting" class="clip plate" data-start="4" data-duration="4" data-track-index="0" data-layout-allow-overlap="true" src="assets/plates/v3.1/b1-waiting.png" alt="เริ่มจากคำถามเดียวกัน — b1-waiting">
+
+</div>
+<script>
+  window.__timelines = window.__timelines || {};
+  const tl = gsap.timeline({paused:true});
+  tl.set("#stage-b1-question", {opacity:1}, 0);
+  tl.set("#stage-b1-question", {opacity:0}, 4);
+  tl.set("#stage-b1-waiting", {opacity:1}, 4);
+  tl.set("#stage-b1-waiting", {opacity:0}, 8);
+
+  window.__timelines["beat01"] = tl;
+</script>
+</template>

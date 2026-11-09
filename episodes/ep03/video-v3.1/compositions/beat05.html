@@ -1,0 +1,26 @@
+<template>
+<style>*{box-sizing:border-box}
+@font-face{font-family:Sarabun;src:url("assets/fonts/Sarabun-Bold.ttf")}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#f3f0e8}
+#root{position:absolute;inset:0;width:1080px;height:1920px;overflow:hidden}
+.plate{position:absolute;inset:0;width:1080px;height:1920px;object-fit:cover;opacity:0}
+</style>
+<div id="root" data-composition-id="beat05" data-width="1080" data-height="1920" data-duration="8" data-layout-allow-overlap="true">
+<img id="stage-b5-recap-1" class="clip plate" data-start="0" data-duration="2.666667" data-track-index="0" data-layout-allow-overlap="true" src="assets/plates/v3.1/b5-recap-1.png" alt="จำให้ได้สองจุด — b5-recap-1">
+<img id="stage-b5-recap-2" class="clip plate" data-start="2.666667" data-duration="2.666667" data-track-index="0" data-layout-allow-overlap="true" src="assets/plates/v3.1/b5-recap-2.png" alt="จำให้ได้สองจุด — b5-recap-2">
+<img id="stage-b5-recap-3" class="clip plate" data-start="5.333333" data-duration="2.666667" data-track-index="0" data-layout-allow-overlap="true" src="assets/plates/v3.1/b5-recap-3.png" alt="จำให้ได้สองจุด — b5-recap-3">
+
+</div>
+<script>
+  window.__timelines = window.__timelines || {};
+  const tl = gsap.timeline({paused:true});
+  tl.set("#stage-b5-recap-1", {opacity:1}, 0);
+  tl.set("#stage-b5-recap-1", {opacity:0}, 2.666667);
+  tl.set("#stage-b5-recap-2", {opacity:1}, 2.666667);
+  tl.set("#stage-b5-recap-2", {opacity:0}, 5.333333);
+  tl.set("#stage-b5-recap-3", {opacity:1}, 5.333333);
+  tl.set("#stage-b5-recap-3", {opacity:0}, 8);
+
+  window.__timelines["beat05"] = tl;
+</script>
+</template>
