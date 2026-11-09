@@ -1,0 +1,53 @@
+{
+  "episodeId": "ep03-streaming-chat",
+  "version": "animatic-v3",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationSeconds": 52,
+  "audioStatus": "none; voice audition pending user selection",
+  "subtitleStatus": "draft Thai captions burned into each stage; not speech-synchronized",
+  "timingBasis": "silent story holds with draft per-stage captions; not speech-synchronized",
+  "beats": [
+    {"id":"beat01","start":0,"duration":8,"title":"เริ่มจากคำถามเดียวกัน","kind":"question"},
+    {"id":"beat02","start":8,"duration":11,"title":"คำตอบแสดงคนละจังหวะ","kind":"compare"},
+    {"id":"beat03","start":19,"duration":13,"title":"ข้อความมาเป็นลำดับ event","kind":"events"},
+    {"id":"beat04","start":32,"duration":12,"title":"ใครส่ง ใครอ่าน ใครแสดง","kind":"roles"},
+    {"id":"beat05","start":44,"duration":8,"title":"จำให้ได้สองจุด","kind":"recap"}
+  ],
+  "stages": [
+    {"id":"b1-question","beat":"beat01","frames":120,"file":"b1-question.png","caption":"ลองนึกถึงคำถามที่ส่งเข้าแอปแชต"},
+    {"id":"b1-waiting","beat":"beat01","frames":120,"file":"b1-waiting.png","caption":"ส่งแล้ว แต่คำตอบยังไม่แสดง"},
+    {"id":"b2-compare-1","beat":"beat02","frames":110,"file":"b2-compare-1.png","caption":"แบบรับครบ: รอคำตอบทั้งชุดก่อนแสดง"},
+    {"id":"b2-compare-2","beat":"beat02","frames":110,"file":"b2-compare-2.png","caption":"แบบ Streaming: รับข้อมูลเป็นลำดับ"},
+    {"id":"b2-compare-3","beat":"beat02","frames":110,"file":"b2-compare-3.png","caption":"แอปเลือกทยอยแสดงข้อความที่ได้รับ"},
+    {"id":"b3-event-1","beat":"beat03","frames":98,"file":"b3-event-1.png","caption":"message_start: เริ่มและให้รหัสบทสนทนา/ข้อความ"},
+    {"id":"b3-event-2","beat":"beat03","frames":97,"file":"b3-event-2.png","caption":"message: เนื้อหาคำตอบทยอยมาเป็นชิ้น"},
+    {"id":"b3-event-3","beat":"beat03","frames":97,"file":"b3-event-3.png","caption":"citations: อาจมีแหล่งอ้างอิงประกอบ"},
+    {"id":"b3-event-4","beat":"beat03","frames":98,"file":"b3-event-4.png","caption":"message_end: ได้คำตอบครบแล้ว"},
+    {"id":"b4-roles-1","beat":"beat04","frames":120,"file":"b4-roles-1.png","caption":"API ส่ง event กลับทาง SSE"},
+    {"id":"b4-roles-2","beat":"beat04","frames":120,"file":"b4-roles-2.png","caption":"Backend เก็บ key และอ่าน stream"},
+    {"id":"b4-roles-3","beat":"beat04","frames":120,"file":"b4-roles-3.png","caption":"UI แสดงผลตามที่แอปออกแบบ"},
+    {"id":"b5-recap-1","beat":"beat05","frames":80,"file":"b5-recap-1.png","caption":"Backend ส่งคำขอและอ่าน stream"},
+    {"id":"b5-recap-2","beat":"beat05","frames":80,"file":"b5-recap-2.png","caption":"UI เลือกวิธีแสดงข้อความ"},
+    {"id":"b5-recap-3","beat":"beat05","frames":80,"file":"b5-recap-3.png","caption":"คำตอบครบเมื่อได้รับ message_end"}
+  ],
+  "claims": {
+    "documented": [
+      "POST /chat/message/blocking returns the complete result",
+      "POST /chat/message uses Server-Sent Events",
+      "message_start → message → citations (if any) → message_end",
+      "message_end carries the complete answer and usage",
+      "the app Backend keeps the API key and parses the stream"
+    ],
+    "illustrative": [
+      "chat question and display states",
+      "example chunk reveals"
+    ],
+    "unknown": [
+      "latency",
+      "time to first token",
+      "provider performance on a live request"
+    ]
+  }
+}
