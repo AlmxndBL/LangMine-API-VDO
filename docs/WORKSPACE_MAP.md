@@ -18,6 +18,8 @@ Root: C:/Users/Admin/Desktop/work/gitlab_intern/LangMine-API-VDO
 | docs/SKILLS.md | เครื่องมือและที่ติดตั้ง |
 | docs/reference/SOURCES.md | หลักฐานและข้อจำกัดของแหล่ง |
 | docs/plans/2026-11-06-workspace-foundation.md | สถานะกลางและ next action |
+| .agents/skills/langmind-video-producer/ | สกิลผลิตวิดีโออธิบาย API ตามมาตรฐาน EP04-EP11 ครบวงจร พร้อมแม่แบบ |
+| ideas/ | คลังไอเดียและ Use Cases สำหรับทำคลิปหรือต่อยอดโซลูชัน |
 | shared/assets/brand/ | โลโก้ต้นฉบับและ provenance |
 | shared/assets/characters/robot/ | ZIP ต้นฉบับ 44 PNG manifest และ contact sheet |
 | episodes/README.md | สารบัญผลงาน |

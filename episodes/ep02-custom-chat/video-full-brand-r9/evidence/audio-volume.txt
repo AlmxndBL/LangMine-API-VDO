@@ -1,0 +1,33 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'episodes/ep02-custom-chat/video-full-brand-r9/assets/narration-original.m4a':
+  Metadata:
+    major_brand     : M4A 
+    minor_version   : 512
+    compatible_brands: M4A isomiso2
+    encoder         : Lavf63.1.101
+  Duration: 00:05:10.43, start: 0.000000, bitrate: 178 kb/s
+  Stream #0:0[0x1](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 176 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+[Parsed_volumedetect_0 @ 0000018211f38240] n_samples: 0
+Stream mapping:
+  Stream #0:0 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : M4A 
+    minor_version   : 512
+    compatible_brands: M4A isomiso2
+    encoder         : Lavf63.1.101
+  Stream #0:0(und): Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s (default)
+    Metadata:
+      encoder         : Lavc63.1.101 pcm_s16le
+      handler_name    : SoundHandler
+size=N/A time=00:02:37.14 bitrate=N/A speed= 304x elapsed=0:00:00.51    
+size=N/A time=00:04:28.84 bitrate=N/A speed= 258x elapsed=0:00:01.04    
+[Parsed_volumedetect_0 @ 0000018211e12ec0] n_samples: 29801600
+[Parsed_volumedetect_0 @ 0000018211e12ec0] mean_volume: -17.1 dB
+[Parsed_volumedetect_0 @ 0000018211e12ec0] max_volume: -1.1 dB
+[Parsed_volumedetect_0 @ 0000018211e12ec0] histogram_1db: 26931
+[Parsed_volumedetect_0 @ 0000018211e12ec0] histogram_2db: 36427
+[out#0/null @ 0000018210306040] video:0KiB audio:58206KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:05:10.43 bitrate=N/A speed= 274x elapsed=0:00:01.13    

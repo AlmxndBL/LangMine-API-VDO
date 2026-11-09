@@ -1,0 +1,24 @@
+{
+  "issues": [
+    {
+      "level": "warn",
+      "scene": "journey",
+      "t": 0.75,
+      "message": "\"FRONTEND\" is 15.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "journey",
+      "t": 5,
+      "message": "\"SERVER\" is 15.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "journey",
+      "t": 8.25,
+      "message": "\"LANGMIND\" is 15.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    }
+  ],
+  "duration": 20.266666666666666,
+  "scenes": 1
+}

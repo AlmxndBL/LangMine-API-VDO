@@ -1,0 +1,40 @@
+{
+  "file": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\video-full-brand-r9\\ep02-complete-langmind-r9.mp4",
+  "format": {
+    "filename": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\video-full-brand-r9\\ep02-complete-langmind-r9.mp4",
+    "nb_streams": 3,
+    "nb_programs": 0,
+    "nb_stream_groups": 0,
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "format_long_name": "QuickTime / MOV",
+    "start_time": "0.000000",
+    "duration": "310.433333",
+    "size": "29595798",
+    "bit_rate": "762696",
+    "probe_score": 100,
+    "tags": {
+      "major_brand": "isom",
+      "minor_version": "512",
+      "compatible_brands": "isomiso2avc1mp41",
+      "encoder": "Lavf63.1.101"
+    }
+  },
+  "video": {
+    "codec": "h264",
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": "9313"
+  },
+  "audio": {
+    "codec": "aac",
+    "sampleRate": "48000",
+    "channels": 2,
+    "originalAudioHash": "SHA256=bef0a5c9ffded53eed95a42e23b8b64cd7825a3223af463172b82f28bc1c110d",
+    "finalAudioHash": "SHA256=bef0a5c9ffded53eed95a42e23b8b64cd7825a3223af463172b82f28bc1c110d",
+    "unchanged": true
+  },
+  "chapters": 16,
+  "sha256": "b17f5c5756b992c2e5e7c5cff3dac09e4e8365913fffe5257d1fe5134d0fa89f",
+  "decodeExit": 0
+}

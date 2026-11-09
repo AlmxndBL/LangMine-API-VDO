@@ -1,0 +1,227 @@
+{
+  "audio": [
+    {
+      "beat": "B01",
+      "file": "assets/EP02 B01 ความเร็วปกติ.wav",
+      "duration": 18.944,
+      "start": 0.5,
+      "sha256": "ca2a50651319cf28a082d9bb8237e330de402eb4a9d9348a36050c77e76a68ef",
+      "sourceHashMatches": true,
+      "speed": 1
+    },
+    {
+      "beat": "B02",
+      "file": "assets/EP02 B02 ความเร็วปกติ.wav",
+      "duration": 14.325333,
+      "start": 20.444,
+      "sha256": "fe8f18b4b762fd7d8286771143572f2a597584c5e885ee54c8f8b50ed52c41bd",
+      "sourceHashMatches": true,
+      "speed": 1
+    },
+    {
+      "beat": "B03",
+      "file": "assets/EP02 B03 ความเร็วปกติ.wav",
+      "duration": 20.245333,
+      "start": 35.769333,
+      "sha256": "3fe5112709cf21971079dc03b69914661f8c8d5bf01eeadb065025a382435ed8",
+      "sourceHashMatches": true,
+      "speed": 1
+    },
+    {
+      "beat": "B04",
+      "file": "assets/EP02 B04 ความเร็วปกติ.wav",
+      "duration": 18.72,
+      "start": 57.014666000000005,
+      "sha256": "07e6acec90e456753145b7c98004addbcb15bfacc4c4a474ca265666c876e36d",
+      "sourceHashMatches": true,
+      "speed": 1
+    },
+    {
+      "beat": "B05",
+      "file": "assets/EP02 B05 ความเร็วปกติ.wav",
+      "duration": 24.288,
+      "start": 76.734666,
+      "sha256": "e94e33a3f6a1e5c9c844c6199ebc0e6c4380966786bb3855b4ab7d813b91b909",
+      "sourceHashMatches": true,
+      "speed": 1
+    },
+    {
+      "beat": "B06",
+      "file": "assets/EP02 B06 ความเร็วปกติ.wav",
+      "duration": 26.976,
+      "start": 102.022666,
+      "sha256": "349886ac12f9c9af66690a5857811c031d3a586547d39d1eac27240738e7c459",
+      "sourceHashMatches": true,
+      "speed": 1
+    },
+    {
+      "beat": "B07",
+      "file": "assets/EP02 B07 ความเร็วปกติ.wav",
+      "duration": 16.608,
+      "start": 129.99866600000001,
+      "sha256": "28eeb680ed96ec168859da2ffe73ad4f9d4cc42987946c8b75a850b8db603b4d",
+      "sourceHashMatches": true,
+      "speed": 1
+    },
+    {
+      "beat": "B08",
+      "file": "assets/EP02 B08 ความเร็วปกติ.wav",
+      "duration": 24.138667,
+      "start": 147.60666600000002,
+      "sha256": "bb2a0c20034d38c27c558df8d01c8d61a0df57776a9f2ed958d6e190d2ce937a",
+      "sourceHashMatches": true,
+      "speed": 1
+    },
+    {
+      "beat": "B09",
+      "file": "assets/EP02 B09 ความเร็วปกติ.wav",
+      "duration": 17.952,
+      "start": 172.74533300000002,
+      "sha256": "6e1db8d3fec82d931160a09e23dd5540f6a73d322219c05c07f14c11e109424b",
+      "sourceHashMatches": true,
+      "speed": 1
+    },
+    {
+      "beat": "B10",
+      "file": "assets/EP02 B10 ความเร็วปกติ.wav",
+      "duration": 17.130667,
+      "start": 191.69733300000001,
+      "sha256": "a43bfdaf9966482e9c11250d89990e27a6e7654c9cf3324da9762c03cac8d22a",
+      "sourceHashMatches": true,
+      "speed": 1
+    },
+    {
+      "beat": "B11",
+      "file": "assets/EP02 B11 ความเร็วปกติ.wav",
+      "duration": 11.914667,
+      "start": 209.828,
+      "sha256": "0cd471e14add3c30a17574d3209c0d1d5ab3ca8c4b58120d717682ffaf048162",
+      "sourceHashMatches": true,
+      "speed": 1
+    },
+    {
+      "beat": "B12",
+      "file": "assets/EP02 B12 ความเร็วปกติ.wav",
+      "duration": 17.984,
+      "start": 222.742667,
+      "sha256": "c471d46537a9ad55ef24a27c82c91ce58cc2c102f4193e5ccf5b5a75a61c23e5",
+      "sourceHashMatches": true,
+      "speed": 1
+    },
+    {
+      "beat": "B13",
+      "file": "assets/EP02 B13 ความเร็วปกติ.wav",
+      "duration": 10.762667,
+      "start": 247.72666700000002,
+      "sha256": "86ab5690a1cc27964fdd77f761ba75d7554a5d53ece1c55421832da106b2b34c",
+      "sourceHashMatches": true,
+      "speed": 1
+    },
+    {
+      "beat": "B14",
+      "file": "assets/EP02 B14 ความเร็วปกติ.wav",
+      "duration": 16,
+      "start": 259.48933400000004,
+      "sha256": "65d3d546f557d25dd8aa3275e37d31a98241a6a0f5444120a2d123f6f46dfcd7",
+      "sourceHashMatches": true,
+      "speed": 1
+    },
+    {
+      "beat": "B15",
+      "file": "assets/EP02 B15 ความเร็วปกติ.wav",
+      "duration": 26.112,
+      "start": 276.48933400000004,
+      "sha256": "ee19ae9ae4d59d195b2bb503638e59245837103c0e59ba3c8b37bd4882bf371f",
+      "sourceHashMatches": true,
+      "speed": 1
+    },
+    {
+      "beat": "B16",
+      "file": "assets/EP02 B16 ความเร็วปกติ.wav",
+      "duration": 2.528,
+      "start": 303.60133400000007,
+      "sha256": "ba9b83ddee3b8c60bab738addee5acc192647565df465635d9c99e28c48dad37",
+      "sourceHashMatches": true,
+      "speed": 1
+    }
+  ],
+  "visualAssets": [
+    {
+      "file": "assets/01-question.png",
+      "sha256": "c7d8bbe30cbc7ecbaf439b499ed35c4c2cb9dead8144dd08fcb84445065a5085"
+    },
+    {
+      "file": "assets/04-open-arms.png",
+      "sha256": "2269ed3e6e97689c292f2836dcec6769d81deb19ccc80d3e131be761a3459dcd"
+    },
+    {
+      "file": "assets/05-point-up.png",
+      "sha256": "6596f6b0a6fd7a57a3a6cc6c31b8da13e18cf17bf14777351480bd222e04dc01"
+    },
+    {
+      "file": "assets/06-thinking.png",
+      "sha256": "e75615014a2d280c0af1f018ebdb7a1307162f64e1f8a2ae235112dfa6144957"
+    },
+    {
+      "file": "assets/agent-source.png",
+      "sha256": "b42e44ad51c5f27ea4dbb0caee32c27c27bea233d0da5f8b4d7d0dbcac80e7f0"
+    },
+    {
+      "file": "assets/agent-url.png",
+      "sha256": "eff33394f1a8d88f82759a4aa5d78bf3d19f421287c5fecb27360ff2cd54c029"
+    },
+    {
+      "file": "assets/chat-screen.png",
+      "sha256": "031704a9c99532e8abf623dbc79d7d24623d57c2be08508cb7e50ca418e78006"
+    },
+    {
+      "file": "assets/key-age.mp4",
+      "sha256": "d7fa9287a5dc4ddec87c2997cbaeb5627043e1e5265a3eb13607e6173ee6c821"
+    },
+    {
+      "file": "assets/key-name.mp4",
+      "sha256": "7a278980eaf7c873987b55121d330d750a8e85205c6fef623d9963d606e23f11"
+    },
+    {
+      "file": "assets/key-panel.mp4",
+      "sha256": "e7aeb32ab54e99feab66ac210bef5ff7f03c1bee3e9494fae1dabda5d62a47d5"
+    },
+    {
+      "file": "assets/key-scope.mp4",
+      "sha256": "bcd18b5f9b2f9f0f8356d16e09e44e4624480c2fd34b441442f3165244edfb78"
+    },
+    {
+      "file": "assets/logo.png",
+      "sha256": "025dbb6064076ac724f42009635e715f985a3d2df8abfa374a8fcec398979c49"
+    },
+    {
+      "file": "assets/NotoSansThai.ttf",
+      "sha256": "5a1c559bb539583c8a1fd99d1c5b9491e5e14478c9cd2bd0970d5c3096cc9ef8"
+    },
+    {
+      "file": "assets/robot.png",
+      "sha256": "6596f6b0a6fd7a57a3a6cc6c31b8da13e18cf17bf14777351480bd222e04dc01"
+    },
+    {
+      "file": "assets/Sarabun-Bold.ttf",
+      "sha256": "d38308ca27d067b9a1b79006337c1f9a66c29aa016d96a9d88d3801da7fa83b9"
+    },
+    {
+      "file": "assets/Sarabun-Regular.ttf",
+      "sha256": "226d4f368fbc0457990ddef2692679badfd2c1a4e89e5ac4d43c10ba7743b2f1"
+    }
+  ],
+  "total": 310.43333333333334,
+  "provider": "No API calls; supplied Voice Studio WAV files",
+  "catalog": [
+    "chatgpt-exchange",
+    "ai-chat-reveal",
+    "flowchart-vertical",
+    "code-highlight",
+    "code-diff",
+    "onboarding-stepper-flow",
+    "dart-cursor",
+    "multi-device-splay",
+    "extruded-logo"
+  ]
+}

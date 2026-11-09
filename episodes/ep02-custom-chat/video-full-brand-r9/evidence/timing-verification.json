@@ -1,0 +1,21 @@
+{
+  "shots": 38,
+  "beats": 16,
+  "kinds": [
+    "chat",
+    "hero",
+    "flow",
+    "cards",
+    "footage",
+    "code",
+    "agent",
+    "diff",
+    "devices",
+    "workspace",
+    "logo"
+  ],
+  "captions": 51,
+  "invalidCaptionRanges": 0,
+  "originalDuration": 310.43333333333334,
+  "renderFrames": 9313
+}

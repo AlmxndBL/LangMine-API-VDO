@@ -1,0 +1,362 @@
+{
+  "ok": false,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 2,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "font_face_local_only",
+        "severity": "warning",
+        "message": "@font-face 'apple color emoji' only names a font installed on this machine (src: local()). A local render uses the installed copy; a cloud render or another machine has none and falls back to a different font.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\video-full-r3\\compositions\\b01-1.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add a url() source to the font file (.woff2) inside the project, or use a Google Fonts family, so every render draws the same glyphs."
+      },
+      {
+        "code": "root_path_missing_in_preview",
+        "severity": "warning",
+        "message": "\"/api/chat\" starts at the server's root. Render and snapshot serve the project there, but Studio's preview serves it under the project's own path, so the preview cannot find this file.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\video-full-r3\\compositions\\b07-2.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Use \"api/chat\" instead."
+      }
+    ],
+    "filesScanned": 43
+  },
+  "runtime": {
+    "ok": false,
+    "errorCount": 1,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "console_error",
+        "severity": "error",
+        "message": "[HyperFrames] composition script error: b01-1 TypeError: Cannot read properties of undefined (reading 'clock')",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-width": "1080",
+          "data-height": "1920",
+          "data-duration": "310.43333333333334",
+          "data-fps": "30",
+          "data-start": "0"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920
+        },
+        "time": 0,
+        "url": "",
+        "line": 585
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "THREE.WebGLProgram: Program Info Log: (210,81-129): warning X4122: sum of 0.996094 and -2.98545e-017 cannot be represented accurately in double precision\n(209,37-61): warning X4122: sum of 1 and -1.49272e-017 cannot be represented accurately in double precision\n(210,82-106): warning X4122: sum of 1 and -1.49272e-017 cannot be represented accurately in double precision\n(209,37-61): warning X4122: sum of 1 and -1.66644e-018 cannot be represented accurately in double precision\n(210,82-106): warning X4122: sum of 1 and -1.66644e-018 cannot be represented accurately in double precision\n\n\n\u0000",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-width": "1080",
+          "data-height": "1920",
+          "data-duration": "310.43333333333334",
+          "data-fps": "30",
+          "data-start": "0"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920
+        },
+        "time": 0,
+        "url": "http://127.0.0.1:64901/assets/three/three.core.js",
+        "line": 2000
+      }
+    ]
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 2,
+    "findings": [
+      {
+        "code": "clipped_text",
+        "severity": "info",
+        "time": 4,
+        "selector": "div.composer",
+        "message": "Text content is clipped by its own box.",
+        "rect": {
+          "left": 122,
+          "top": 1178,
+          "right": 958,
+          "bottom": 1258,
+          "width": 836,
+          "height": 80
+        },
+        "text": "ถาม ChatGPT",
+        "fixHint": "Text is 836px x 80px inside 836px x 80px and overflows by up to 3px; increase the text box height to at least ~83px, or allow wrapping with max-width/fitTextFontSize.",
+        "overflow": {
+          "bottom": 3
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/b01-1.html",
+        "bbox": {
+          "x": 122,
+          "y": 1178,
+          "width": 836,
+          "height": 80
+        },
+        "firstSeen": 4,
+        "lastSeen": 4,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          4
+        ]
+      },
+      {
+        "code": "connector_orphan",
+        "severity": "info",
+        "time": 142,
+        "selector": "#b07-3 > div:nth-of-type(1) > div:nth-of-type(2) > svg:nth-of-type(1) > path:nth-of-type(1)",
+        "message": "Connector shaft is visible while its endpoint #b02-2 > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) is not on stage.",
+        "rect": {
+          "left": 540,
+          "top": 615,
+          "right": 540,
+          "bottom": 735,
+          "width": 0,
+          "height": 120
+        },
+        "containerSelector": "#b07-3 > div:nth-of-type(1) > div:nth-of-type(2) > svg:nth-of-type(1)",
+        "fixHint": "Show the shaft only after both ends are on, and hide it with the earlier exit. Do not give the line its own clock.",
+        "dataAttributes": {},
+        "sourceFile": "compositions/b07-3.html",
+        "bbox": {
+          "x": 540,
+          "y": 615,
+          "width": 0,
+          "height": 120
+        },
+        "firstSeen": 142,
+        "lastSeen": 142,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          142
+        ]
+      }
+    ],
+    "duration": 310.43333333333334,
+    "samples": [
+      4,
+      55,
+      84,
+      105,
+      116,
+      142,
+      165,
+      218,
+      228,
+      243,
+      262,
+      269,
+      287,
+      305
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 2,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      4,
+      105,
+      165,
+      243,
+      305
+    ],
+    "checked": 44,
+    "passed": 44
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 5,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"EP02 · เว็บแชทของเราเอง\" (6 words) is on screen 0.94 s (±0.02 s), under its 1.72 s floor: hold it about 0.5 s + 0.3 s a word (2.30 s here) before it leaves or changes; see references/motion.md.",
+        "text": "EP02 · เว็บแชทของเราเอง",
+        "selector": "#b07-1 > div:nth-of-type(1) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/b07-1.html",
+        "bbox": {
+          "x": 110,
+          "y": 105,
+          "width": 350.8,
+          "height": 41
+        },
+        "time": 130.016,
+        "words": 6,
+        "seconds": 0.94,
+        "floorSeconds": 1.725
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"กดส่งจากหน้าเว็บ\" (5 words) is on screen 0.94 s (±0.02 s), under its 1.50 s floor: hold it about 0.5 s + 0.3 s a word (2.00 s here) before it leaves or changes; see references/motion.md.",
+        "text": "กดส่งจากหน้าเว็บ",
+        "selector": "#b07-1 > div:nth-of-type(1) > h1:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/b07-1.html",
+        "bbox": {
+          "x": 302.42,
+          "y": 203.87,
+          "width": 475.12999999999994,
+          "height": 92.25999999999999
+        },
+        "time": 130.016,
+        "words": 5,
+        "seconds": 0.94,
+        "floorSeconds": 1.5
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"ผู้ช่วยร้านเรา\" (4 words) is on screen 0.94 s (±0.02 s), under its 1.27 s floor: hold it about 0.5 s + 0.3 s a word (1.70 s here) before it leaves or changes; see references/motion.md.",
+        "text": "ผู้ช่วยร้านเรา",
+        "selector": "#b07-1 > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/b07-1.html",
+        "bbox": {
+          "x": 418.2,
+          "y": 432.5,
+          "width": 243.59999999999997,
+          "height": 58
+        },
+        "time": 130.016,
+        "words": 4,
+        "seconds": 0.94,
+        "floorSeconds": 1.275
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"ภาพจำลอง · คำตอบตัวอย่าง\" (5 words) is on screen 0.94 s (±0.02 s), under its 1.50 s floor: hold it about 0.5 s + 0.3 s a word (2.00 s here) before it leaves or changes; see references/motion.md.",
+        "text": "ภาพจำลอง · คำตอบตัวอย่าง",
+        "selector": "#b07-1 > div:nth-of-type(1) > div:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/b07-1.html",
+        "bbox": {
+          "x": 144,
+          "y": 1319,
+          "width": 431.8399999999999,
+          "height": 50
+        },
+        "time": 130.016,
+        "words": 5,
+        "seconds": 0.94,
+        "floorSeconds": 1.5
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "\"ช่วยเขียนข้อความแจ้งลูกค้าว่าสินค้าส่งช้า ให้สุภาพหน่อย\" (12 words) is on screen 0.68 s (±0.02 s), under its 3.07 s floor: hold it about 0.5 s + 0.3 s a word (4.10 s here) before it leaves or changes; see references/motion.md.",
+        "text": "ช่วยเขียนข้อความแจ้งลูกค้าว่าสินค้าส่งช้า ให้สุภาพหน่อย",
+        "selector": "#b07-1 > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/b07-1.html",
+        "bbox": {
+          "x": 233,
+          "y": 577,
+          "width": 659.33,
+          "height": 129
+        },
+        "time": 130.276,
+        "words": 12,
+        "seconds": 0.681,
+        "floorSeconds": 3.075
+      }
+    ],
+    "enabled": true,
+    "step": 0.5180000000000007,
+    "samples": 600
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "38443ebc-3ebe-4f12-9fb3-dc0b38b93c52",
+    "revision": null,
+    "report": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\video-full-r3\\.hyperframes\\artifacts\\checks\\38443ebc-3ebe-4f12-9fb3-dc0b38b93c52.json",
+    "attribution": "inputs-changed"
+  },
+  "_meta": {
+    "version": "0.9.19",
+    "latestVersion": "0.9.19",
+    "updateAvailable": false,
+    "checkedAt": "2026-11-07T02:32:27.021Z",
+    "skillsOutdated": 2,
+    "skillsMissing": 0
+  }
+}

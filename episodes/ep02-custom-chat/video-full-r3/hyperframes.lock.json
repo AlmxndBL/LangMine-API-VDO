@@ -1,0 +1,13 @@
+{
+  "assets/fonts/inter-latin-400-normal.woff2": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc",
+  "assets/fonts/inter-latin-500-normal.woff2": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f",
+  "assets/fonts/inter-latin-600-normal.woff2": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a",
+  "assets/fonts/inter-LICENSE.txt": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345",
+  "compositions/assets/fonts/Geist-Bold.typeface.json": "0413a22e5ea454b0dfcc7283d86e651305d4e47f53abe55f78fe3f858213fc63",
+  "compositions/assets/fonts/Geist-OFL.txt": "930853ee1daa68554d9e35c8a9175affb74f699fad9a5da6ee5ebe76379d9137",
+  "compositions/chatgpt-exchange.html": "9cf40ed8586152a049ec7515eaa6e3961f0110ce744e52a529c3b68b0fd4ff63",
+  "compositions/components/logo-brand-close.html": "afd249a6bf34702f71a9bf4464adbe8f2dd3a768f9729701ee4a57f205991089",
+  "compositions/components/multi-device-splay.html": "9b9f7081592f2d750b5bae5d19cefe39ea40c881f68e0da5863ac8b75e0e2ca1",
+  "compositions/extruded-logo.html": "e3f0cd23004cc651500707fb79c496df90493ec9fb4df42775e516421af52392",
+  "TEMPLATE.md": "84e966762dc2a80e271f656373d9e940bc49958e40c8ce4c58bbfdda9df7d0f5"
+}

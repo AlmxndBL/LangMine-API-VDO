@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<title>EP09 · Analytics & Feedback API</title>
+<link rel="stylesheet" href="style.css">
+<script src="assets/gsap.min.js"></script>
+</head>
+<body>
+<main id="film" data-composition-id="ep09-analytics-feedback" data-width="1080" data-height="1920" data-fps="30" data-duration="216.46666666666667">
+  <div class="kicker">EP09 &nbsp;/&nbsp; ANALYTICS &amp; FEEDBACK</div>
+  <div class="note">ภาพจำลอง</div>
+  <section id="stage" class="clip" data-start="0" data-duration="216.46666666666667" data-track-index="1">
+    <div class="spine"><span id="sp1" class="pill">1 เตรียม</span><i></i><span id="sp2" class="pill">2 เชื่อม</span><i></i><span id="sp3" class="pill">3 ใช้ผล</span></div>
+    <section class="scene" id="sc-b1">
+    <h1 class="heading">วัดผลแชท AI<small>คุมงบ &amp; คุณภาพยังไง?</small></h1>
+    <div class="place" style="left:242px;top:370px">
+  <div class="device" id="dev-b1" style="width:596px">
+    <div class="screen" style="width:580px;height:652px">
+      <img src="assets/app-chat-feedback.jpg" width="1440" height="1800" alt="หน้าจอแชทลูกค้าพร้อมปุ่มให้คะแนน (ภาพจำลอง)" data-layout-allow-overflow style="width:580px">
+      <img class="img-a" src="assets/app-analytics-dashboard.jpg" width="1440" height="1800" alt="หน้าจอ Dashboard สรุปสถิติและต้นทุน (ภาพจำลอง)" data-layout-allow-overflow style="width:580px">
+    </div>
+  </div></div>
+    <img class="robot" src="assets/01-question.png" width="445" height="503" alt="" style="left:70px;top:1060px;width:180px" data-in="1" data-at="0.2" data-anim="pop">
+    <div class="tip" style="left:270px;top:1090px;font-size:32px" data-in="1" data-at="0.4" data-anim="left"><b>เปิดใช้แชท AI จริงแล้ว</b><br>คนใช้กี่คน · เสียค่า Token เท่าไหร่?</div>
+    <div class="qrow" style="top:1290px">
+      <span class="qchip" data-in="2" data-at="0.4" data-anim="pop">เตรียมอะไร?</span>
+      <span class="qchip" data-in="2" data-at="1" data-anim="pop">เชื่อมตรงไหน?</span>
+      <span class="qchip" data-in="2" data-at="1.6" data-anim="pop">ใช้ผลยังไง?</span>
+    </div></section>
+<section class="scene" id="sc-b2">
+    <h1 class="heading">ภาพรวม<small>3 ส่วน · 3 จังหวะ</small></h1>
+    <div class="group" data-out="1" data-out-at="0">
+      <div class="node" style="top:430px" data-in="0" data-at="0.1" data-anim="up"><svg class="ico big" viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg><div><b>หน้าแชทของลูกค้า</b><span class="alias" data-in="0" data-at="2" data-anim="left">= ส่งคำถาม + กดถูกใจ</span></div></div>
+      <div class="lane" style="top:640px">
+        <div class="lane-l" data-in="0" data-at="0.6" data-anim="left"><b>แชท / ประเมิน</b><span data-in="0" data-at="2.4" data-anim="up">ส่ง user_id</span></div>
+        <svg class="varrow" data-in="0" data-at="0.5" data-anim="up" viewBox="0 0 60 250" style="height:250px"><path pathLength="1" d="M30 6 V236 M14 222 L30 240 L46 222"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="228"/></svg>
+        <svg class="varrow up" data-in="0" data-at="1.2" data-anim="up" viewBox="0 0 60 250" style="height:250px"><path pathLength="1" d="M30 6 V236 M14 222 L30 240 L46 222"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="228"/></svg>
+        <div class="lane-r" data-in="0" data-at="1.3" data-anim="up"><b>รายงานสถิติ</b><span data-in="0" data-at="2.8" data-anim="up">Dashboard</span></div>
+      </div>
+      <div class="node lm" style="top:910px" data-in="0" data-at="0.9" data-anim="up"><img src="assets/langmind-logo.png" width="689" height="606" alt="LangMind"><div><b>LangMind Analytics API</b><span class="alias" data-in="0" data-at="2.2" data-anim="left">= รวบรวมสถิติ &amp; ต้นทุน</span></div></div>
+    </div>
+    <div class="node wide" style="top:400px" data-in="1" data-at="0.3" data-anim="up"><svg class="ico big" viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg><div><b>หน้าแชทของลูกค้า</b><span>ส่ง user_id · กดปุ่ม 👍/👎</span></div></div>
+    <div class="lane small" style="top:600px">
+      <div class="lane-l" data-in="1" data-at="0.7" data-anim="left"><b>คำขอ &amp; คะแนน</b></div>
+      <svg class="varrow" data-in="1" data-at="0.6" data-anim="up" viewBox="0 0 60 150" style="height:150px"><path pathLength="1" d="M30 6 V136 M14 122 L30 140 L46 122"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="128"/></svg><svg class="varrow up" data-in="1" data-at="0.9" data-anim="up" viewBox="0 0 60 150" style="height:150px"><path pathLength="1" d="M30 6 V136 M14 122 L30 140 L46 122"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="128"/></svg>
+      <div class="lane-r" data-in="1" data-at="1" data-anim="up"><b>คำตอบ &amp; สถิติ</b></div>
+    </div>
+    <div class="node wide" style="top:760px" data-in="1" data-at="1.1" data-anim="up"><svg class="ico big" viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg><div><b>ระบบหลังบ้านของคุณ</b><span>เก็บ API Key 2 สิทธิ์</span></div><span class="badge haskey" data-in="1" data-at="1.6" data-anim="pop"><svg class="ico " viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg>Key</span></div>
+    <div class="lane small" style="top:960px">
+      <div class="calls3" data-in="2" data-at="0.2" data-anim="up">
+        <span class="step s1" data-in="2" data-at="0.4" data-anim="pop">1 ส่ง user_id</span>
+        <span class="step s2" data-in="2" data-at="0.8" data-anim="pop">2 feedback</span>
+        <span class="step s3" data-in="2" data-at="1.2" data-anim="pop">3 analytics</span>
+      </div>
+      <svg class="varrow" data-in="1" data-at="1.7" data-anim="up" viewBox="0 0 60 150" style="height:150px"><path pathLength="1" d="M30 6 V136 M14 122 L30 140 L46 122"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="128"/></svg><svg class="varrow up" data-in="1" data-at="2" data-anim="up" viewBox="0 0 60 150" style="height:150px"><path pathLength="1" d="M30 6 V136 M14 122 L30 140 L46 122"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="128"/></svg>
+      <div class="lane-r" data-in="1" data-at="2.1" data-anim="up"><b>สรุปต้นทุน</b></div>
+    </div>
+    <div class="node wide lm" style="top:1120px" data-in="1" data-at="2.2" data-anim="up"><img src="assets/langmind-logo.png" width="689" height="606" alt="LangMind"><div><b>LangMind</b><span>Chat API · Feedback · Analytics</span></div></div></section>
+<section class="scene" id="sc-b3">
+    <h1 class="heading"><span class="num">1</span>เตรียม<small>ต้องมี 3 อย่าง</small></h1>
+    <div class="stack" style="top:410px">
+      <div class="card" data-in="0" data-at="0.4" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><div><b>user_id และ message_id</b><span class="mono">usr_cafe_01 · msg_01J8...</span></div></div>
+        <div class="chips"><span class="chip mono" data-in="0" data-at="1.2" data-anim="pop">user_id</span><span class="chip mono" data-in="0" data-at="1.6" data-anim="pop">message_id</span></div>
+        <div class="warn" data-in="1" data-at="0.2" data-anim="up">user_id ใช้นับผู้ใช้จริง · message_id ใช้ส่งคะแนนประเมิน</div>
+      </div>
+      <div class="card" data-in="2" data-at="0.1" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="M11 12l8.5-8.5M16 7l2.5 2.5M14 9l2 2"/></svg><div><b>API Key (ต้องมี 2 สิทธิ์)</b><span class="mono">lmpat_••••••••</span></div></div>
+        <div class="chips"><span class="chip mono" data-in="2" data-at="0.8" data-anim="pop">chat:invoke</span><span class="chip mono" data-in="2" data-at="1.4" data-anim="pop">analytics:read</span></div>
+      </div>
+      <div class="card" data-in="3" data-at="0.1" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg><div><b>ระบบหลังบ้าน (Backend Server)</b><span>เก็บ Key ปลอดภัย · เรียกดูสถิตินำมาแสดง Dashboard</span></div></div>
+      </div>
+    </div></section>
+<section class="scene" id="sc-b4">
+    <h1 class="heading"><span class="num">2</span>เชื่อม<small>ครั้งที่ 1 · ส่ง user_id</small></h1>
+    
+  <div class="minimap" style="--c:#38815A">
+    <span class="mm-node"><svg class="ico " viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>หน้าแชท</span>
+    <i class="mm-link"></i>
+    <span class="mm-node srv"><svg class="ico " viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg>หลังบ้าน<svg class="ico sm" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+    <span class="mm-call">1 · ส่ง user_id</span>
+    <span class="mm-node lm"><img src="assets/langmind-logo.png" width="689" height="606" alt="">LangMind</span>
+  </div>
+    
+  <div class="panel">
+    <div class="slot-in" data-in="0" data-at="0.2" data-anim="up"><div class="chip in-chip"><svg class="ico " viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><span><b>user_id</b>: "usr_cafe_01"</span></div></div>
+    <svg class="varrow" data-in="0" data-at="0.6" data-anim="up" viewBox="0 0 60 60" style="height:60px"><path pathLength="1" d="M30 6 V46 M14 32 L30 50 L46 32"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="38"/></svg>
+    <div class="code" data-in="0" data-at="0.9" data-anim="up">
+      <div class="code-head"><span class="method">POST</span><span class="scope">สิทธิ์ chat:invoke</span></div>
+      <div class="code-path">/api/chat/message</div>
+      <div class="code-body"><div class="ln " data-in="0" data-at="0.8" data-anim="left"><span class="k">"query"</span>: <span class="v">"ราคาสินค้า A เท่าไร"</span>,</div><div class="ln hl" data-in="0" data-at="1.1" data-anim="left"><span class="mark" data-mark="1" data-mark-at="0.2"></span><span class="k">"user_id"</span>: <span class="v">"usr_cafe_01"</span>,</div><div class="ln " data-in="0" data-at="1.4" data-anim="left"><span class="k">"conversation_id"</span>: <span class="v">null</span></div></div>
+      <div class="code-foot">ไม่ส่ง user_id = นับเป็นเจ้าของ Key คนเดียว · ส่ง = นับแยกคนตามจริง</div>
+    </div>
+    <svg class="varrow" data-in="1" data-at="-0.09999999999999998" data-anim="up" viewBox="0 0 60 60" style="height:60px"><path pathLength="1" d="M30 6 V46 M14 32 L30 50 L46 32"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="38"/></svg>
+    <div class="slot-out" data-in="1" data-at="0.2" data-anim="up"><div class="chip out-chip json">{ <span class="k">"answer"</span>: <span class="v">"สินค้า A ราคา 590 บาทค่ะ"</span>,<br>
+  &nbsp;&nbsp;<span class="k">"message_id"</span>: <span class="v">"msg_01J8..."</span>, <span class="k">"conversation_id"</span>: <span class="v">"c_01J8..."</span> }</div><em data-layout-ignore style="font-size:28px">คำตอบพร้อม message_id (ภาพจำลอง)</em></div>
+  </div></section>
+<section class="scene" id="sc-b5">
+    <h1 class="heading"><span class="num">2</span>เชื่อม<small>ครั้งที่ 2 · เก็บ feedback</small></h1>
+    
+  <div class="minimap" style="--c:#8d732c">
+    <span class="mm-node"><svg class="ico " viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>หน้าแชท</span>
+    <i class="mm-link"></i>
+    <span class="mm-node srv"><svg class="ico " viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg>หลังบ้าน<svg class="ico sm" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+    <span class="mm-call">2 · เก็บ feedback</span>
+    <span class="mm-node lm"><img src="assets/langmind-logo.png" width="689" height="606" alt="">LangMind</span>
+  </div>
+    
+  <div class="panel">
+    <div class="slot-in" data-in="0" data-at="0.2" data-anim="up"><div class="chip in-chip"><svg class="ico " viewBox="0 0 24 24"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg><span>กด 👍 <b>ถูกใจ (rating: 1)</b></span></div></div>
+    <svg class="varrow" data-in="0" data-at="0.6" data-anim="up" viewBox="0 0 60 60" style="height:60px"><path pathLength="1" d="M30 6 V46 M14 32 L30 50 L46 32"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="38"/></svg>
+    <div class="code" data-in="0" data-at="0.9" data-anim="up">
+      <div class="code-head"><span class="method">POST</span><span class="scope">สิทธิ์ chat:invoke</span></div>
+      <div class="code-path">/api/chat/messages/{id}/feedback</div>
+      <div class="code-body"><div class="ln " data-in="0" data-at="0.8" data-anim="left">POST /api/chat/messages/msg_01J8.../feedback</div><div class="ln hl" data-in="0" data-at="1.1" data-anim="left"><span class="mark" data-mark="1" data-mark-at="0.2"></span><span class="k">"rating"</span>: <span class="v">1</span>,</div><div class="ln " data-in="0" data-at="1.4" data-anim="left"><span class="k">"comment"</span>: <span class="v">"ตอบตรงประเด็นดี"</span></div></div>
+      <div class="code-foot">rating รับเฉพาะ 1 (ถูกใจ) หรือ -1 (ไม่ถูกใจ) ไม่ใช่สเกล 1-5</div>
+    </div>
+    <svg class="varrow" data-in="1" data-at="-0.09999999999999998" data-anim="up" viewBox="0 0 60 60" style="height:60px"><path pathLength="1" d="M30 6 V46 M14 32 L30 50 L46 32"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="38"/></svg>
+    <div class="slot-out" data-in="1" data-at="0.2" data-anim="up"><div class="chip out-chip json">{ <span class="k">"status"</span>: <span class="v">"success"</span>, <span class="k">"http_code"</span>: <span class="v">204</span> }</div><em data-layout-ignore style="font-size:28px">บันทึกคะแนนสำเร็จ (ภาพจำลอง)</em></div>
+  </div></section>
+<section class="scene" id="sc-b6">
+    <h1 class="heading"><span class="num">2</span>เชื่อม<small>ครั้งที่ 3 · ดึงสถิติ</small></h1>
+    
+  <div class="minimap" style="--c:#1E7578">
+    <span class="mm-node"><svg class="ico " viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>หน้าแชท</span>
+    <i class="mm-link"></i>
+    <span class="mm-node srv"><svg class="ico " viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg>หลังบ้าน<svg class="ico sm" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+    <span class="mm-call">3 · ดึงสถิติ</span>
+    <span class="mm-node lm"><img src="assets/langmind-logo.png" width="689" height="606" alt="">LangMind</span>
+  </div>
+    <div class="group" data-out="2" data-out-at="0">
+    
+  <div class="panel">
+    <div class="slot-in" data-in="0" data-at="0.2" data-anim="up"><div class="chip in-chip"><svg class="ico " viewBox="0 0 24 24"><path d="M18 20V10M12 20V4M6 20v-6"/></svg><span><b>GET /api/analytics/agents/{id}</b></span></div></div>
+    <svg class="varrow" data-in="0" data-at="0.6" data-anim="up" viewBox="0 0 60 60" style="height:60px"><path pathLength="1" d="M30 6 V46 M14 32 L30 50 L46 32"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="38"/></svg>
+    <div class="code" data-in="0" data-at="0.9" data-anim="up">
+      <div class="code-head"><span class="method">GET</span><span class="scope">สิทธิ์ analytics:read</span></div>
+      <div class="code-path">/api/analytics/agents/{id}?from=...&to=...</div>
+      <div class="code-body"><div class="ln " data-in="0" data-at="0.8" data-anim="left">Query: <span class="k">from</span>=<span class="v">2026-08-01</span>&amp;<span class="k">to</span>=<span class="v">2026-08-18</span></div><div class="ln " data-in="0" data-at="1.1" data-anim="left">Authorization: Bearer <span class="v">$LM_TOKEN</span></div></div>
+      <div class="code-foot">คืน summary, daily, models, channels (web/line), tools</div>
+    </div>
+    <svg class="varrow" data-in="1" data-at="-0.09999999999999998" data-anim="up" viewBox="0 0 60 60" style="height:60px"><path pathLength="1" d="M30 6 V46 M14 32 L30 50 L46 32"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="38"/></svg>
+    <div class="slot-out" data-in="1" data-at="0.2" data-anim="up"><div class="chip out-chip json">{ <span class="k">"conversations"</span>: <span class="v">42</span>, <span class="k">"users"</span>: <span class="v">30</span>,<br>
+  &nbsp;&nbsp;<span class="k">"tokens"</span>: <span class="v">50400</span>, <span class="k">"cost_usd"</span>: <span class="v">"1.2600"</span>,<br>
+  &nbsp;&nbsp;<span class="k">"feedback"</span>: { <span class="k">"positive"</span>: <span class="v">18</span>, <span class="k">"negative"</span>: <span class="v">1</span> } }</div><em data-layout-ignore style="font-size:28px">สถิติสรุป (ภาพจำลองจากคู่มือ)</em></div>
+  </div>
+    </div>
+    <div class="place" style="left:270px;top:440px" data-in="2" data-at="0.2" data-anim="up">
+  <div class="device" id="dev-b6" style="width:540px">
+    <div class="screen" style="width:524px;height:610px">
+      <img src="assets/app-chat-feedback.jpg" width="1440" height="1800" alt="หน้าจอแชทลูกค้าพร้อมปุ่มให้คะแนน (ภาพจำลอง)" data-layout-allow-overflow style="width:524px">
+      <img class="img-a" src="assets/app-analytics-dashboard.jpg" width="1440" height="1800" alt="หน้าจอ Dashboard สรุปสถิติและต้นทุน (ภาพจำลอง)" data-layout-allow-overflow style="width:524px">
+    </div>
+  </div></div>
+    <img class="robot" src="assets/11-reading.png" width="448" height="503" alt="" style="left:60px;top:1110px;width:170px" data-in="2" data-at="0.4" data-anim="pop">
+    <div class="tip" style="left:250px;top:1140px" data-in="2" data-at="0.6" data-anim="left"><b>Dashboard สรุปงบ AI</b><br>คุมต้นทุน Token &amp; เช็กผลตอบรับแยกรายวัน</div></section>
+<section class="scene" id="sc-b7">
+    <h1 class="heading"><span class="num">3</span>ใช้ผล<small>สร้าง Dashboard คุมงบ AI</small></h1>
+    <div class="stack" style="top:410px">
+      <div class="use" data-in="0" data-at="0.4" data-anim="left"><svg class="ico big" viewBox="0 0 24 24"><path d="M18 20V10M12 20V4M6 20v-6"/></svg><div><b>คุมงบประมาณค่า Token</b><span>ดู total_tokens และ cost_usd รู้ทันทีเมื่อมีค่าใช้จ่ายผิดปกติ</span></div></div>
+      <div class="use" data-in="1" data-at="0.2" data-anim="left"><svg class="ico big" viewBox="0 0 24 24"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg><div><b>ติดตามคุณภาพคำตอบ</b><span>ดู feedback_positive / negative เพื่อนำข้อคิดเห็นไปปรับปรุง</span></div></div>
+      <div class="use" data-in="2" data-at="0.2" data-anim="left"><svg class="ico big" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><div><b>วิเคราะห์ช่องทาง &amp; ผู้ใช้</b><span>แยกสถิติ Web / LINE และอัตราสำเร็จของโมเดล</span></div></div>
+    </div>
+    <img class="robot" src="assets/14-heart.png" width="480" height="503" alt="" style="left:60px;top:1130px;width:170px" data-in="2" data-at="0.8" data-anim="pop">
+    <div class="tip" style="left:250px;top:1150px" data-in="2" data-at="1" data-anim="left">นำข้อมูลไปสร้าง <b>Dashboard ภายในองค์กร</b><br>ช่วยให้ทีมดูแลทั้งงบและประสบการณ์ผู้ใช้ได้พร้อมกัน</div></section>
+<section class="scene" id="sc-b8">
+    <h1 class="heading">สรุป<small>เตรียม → เชื่อม 3 จังหวะ → ใช้ผล</small></h1>
+    <div class="stack" style="top:410px">
+      
+        <div class="recap" style="--c:#38815A" data-in="0" data-at="0.1" data-anim="up">
+          <span class="recap-t"><b>1</b>เตรียม</span>
+          <div class="chips"><span class="chip" data-in="0" data-at="0.4" data-anim="pop">user_id + message_id</span><span class="chip" data-in="0" data-at="0.6000000000000001" data-anim="pop">Key (chat + analytics)</span><span class="chip" data-in="0" data-at="0.8" data-anim="pop">ระบบหลังบ้าน</span></div>
+        </div>
+        <div class="recap" style="--c:#8d732c" data-in="1" data-at="0.1" data-anim="up">
+          <span class="recap-t"><b>2</b>เชื่อม</span>
+          <div class="chips"><span class="chip" data-in="1" data-at="0.4" data-anim="pop">1 ส่ง user_id</span><i class="arr" data-in="1" data-at="0.6000000000000001" data-anim="up">→</i><span class="chip" data-in="1" data-at="0.8" data-anim="pop">2 เก็บ feedback (1/-1)</span><i class="arr" data-in="1" data-at="1" data-anim="up">→</i><span class="chip" data-in="1" data-at="1.2000000000000002" data-anim="pop">3 ดึง analytics</span></div>
+        </div>
+        <div class="recap" style="--c:#1E7578" data-in="2" data-at="0.1" data-anim="up">
+          <span class="recap-t"><b>3</b>ใช้ผล</span>
+          <div class="chips"><span class="chip" data-in="2" data-at="0.4" data-anim="pop">คุมงบ Token (cost_usd)</span><span class="chip" data-in="2" data-at="0.6000000000000001" data-anim="pop">พัฒนาคุณภาพคำตอบ</span><span class="chip" data-in="2" data-at="0.8" data-anim="pop">Dashboard สรุปผล</span></div>
+        </div>
+    </div>
+    <img class="robot" src="assets/10-thumbs-up.png" width="425" height="503" alt="" style="left:410px;top:1180px;width:260px" data-in="2" data-at="1" data-anim="up"></section>
+<section class="scene" id="sc-b9">
+    <div class="sponsor">
+      <div class="sp-by" data-in="0" data-at="0.2" data-anim="up">สนับสนุนโดย</div>
+      <img class="sp-logo" src="assets/langmind-logo.png" width="689" height="606" alt="LangMind" data-in="0" data-at="0.5" data-anim="pop">
+      <div class="sp-url" data-in="1" data-at="0.3" data-anim="pop">langmind.in.th</div>
+      <div class="chips sp-chips" data-in="1" data-at="0.8" data-anim="up"><span class="chip">Agent</span><span class="chip">Analytics API</span><span class="chip">Feedback API</span></div>
+    </div></section>
+  </section>
+  <div id="cap-b1-0" class="clip caption" data-start="0.4" data-duration="6.9" data-track-index="8" data-layout-allow-caption-zone>พอปล่อยแชท AI ขึ้นใช้งานจริง<br>คำถามสำคัญคือ มีลูกค้าเข้ามาใช้กี่คน</div>
+<div id="cap-b1-1" class="clip caption" data-start="7.3" data-duration="6.6" data-track-index="8" data-layout-allow-caption-zone>ใช้โทเค็นและค่าใช้จ่ายเท่าไหร่<br>คำตอบไหนที่ลูกค้าชอบหรือไม่ชอบ</div>
+<div id="cap-b1-2" class="clip caption" data-start="13.9" data-duration="7.566666666666666" data-track-index="8" data-layout-allow-caption-zone>ถ้าอยากทำระบบวัดผลแบบนี้ ต้องเตรียมอะไร<br>เชื่อมตรงไหน และเอาผลไปใช้ยังไง</div>
+<div id="cap-b2-0" class="clip caption" data-start="21.966666666666665" data-duration="8.233333333333333" data-track-index="8" data-layout-allow-caption-zone>ภาพรวมเชื่อมระหว่างหน้าแชท<br>ระบบหลังบ้านของคุณ และ LangMind</div>
+<div id="cap-b2-1" class="clip caption" data-start="30.166666666666668" data-duration="4.5" data-track-index="8" data-layout-allow-caption-zone>1 ส่ง user_id ตอนแชทเพื่อนับคน</div>
+<div id="cap-b2-2" class="clip caption" data-start="34.666666666666664" data-duration="8.9" data-track-index="8" data-layout-allow-caption-zone>2 ส่งคะแนนถูกใจ/ไม่ถูกใจ<br>→ 3 ดึงสถิติแสดงบน Dashboard</div>
+<div id="cap-b3-0" class="clip caption" data-start="44.03333333333333" data-duration="9.666666666666666" data-track-index="8" data-layout-allow-caption-zone>สิ่งที่ต้องเตรียม อย่างแรกคือ<br>user_id และ message_id</div>
+<div id="cap-b3-1" class="clip caption" data-start="53.733333333333334" data-duration="11.1" data-track-index="8" data-layout-allow-caption-zone>อย่างที่สอง API Key ที่มี 2 สิทธิ์:<br>chat:invoke และ analytics:read</div>
+<div id="cap-b3-2" class="clip caption" data-start="64.83333333333333" data-duration="4.066666666666666" data-track-index="8" data-layout-allow-caption-zone>อย่างที่สาม ระบบหลังบ้านสำหรับเก็บ Key</div>
+<div id="cap-b4-0" class="clip caption" data-start="69.4" data-duration="9.033333333333333" data-track-index="8" data-layout-allow-caption-zone>ครั้งที่ 1: ส่ง user_id ตอนเรียกแชท<br>ถ้าไม่ส่ง ทุกคำขอจะนับเป็นเจ้าของ Key คนเดียว</div>
+<div id="cap-b4-1" class="clip caption" data-start="78.43333333333334" data-duration="12.033333333333333" data-track-index="8" data-layout-allow-caption-zone>ส่ง user_id ของผู้ใช้ปลายทางไปด้วย<br>สถิติจึงจะนับผู้ใช้แยกคนได้ตามจริง</div>
+<div id="cap-b4-2" class="clip caption" data-start="90.5" data-duration="10.266666666666667" data-track-index="8" data-layout-allow-caption-zone>ถ้าส่ง conversation_id: null พร้อม user_id<br>ระบบอาจคุยต่อในเธรดที่เปิดอยู่ของคนนั้น</div>
+<div id="cap-b5-0" class="clip caption" data-start="103.73333333333333" data-duration="6.8" data-track-index="8" data-layout-allow-caption-zone>ครั้งที่ 2 เก็บคะแนนคำตอบ: เมื่อลูกค้ากด 👍 หรือ 👎</div>
+<div id="cap-b5-1" class="clip caption" data-start="110.53333333333333" data-duration="13.8" data-track-index="8" data-layout-allow-caption-zone>POST /api/chat/messages/{id}/feedback<br>rating: 1 (ถูกใจ) หรือ -1 (ไม่ถูกใจ)</div>
+<div id="cap-b5-2" class="clip caption" data-start="124.36666666666666" data-duration="6.233333333333333" data-track-index="8" data-layout-allow-caption-zone>ใส่ comment เพิ่มเติมได้<br>ระบบตอบกลับ 204 No Content</div>
+<div id="cap-b6-0" class="clip caption" data-start="133.6" data-duration="10.9" data-track-index="8" data-layout-allow-caption-zone>ครั้งที่ 3 ดึงสถิติ: GET /api/analytics/agents<br>ระบุช่วงวันที่ ?from=...&amp;to=... สิทธิ์ analytics:read</div>
+<div id="cap-b6-1" class="clip caption" data-start="144.5" data-duration="4.533333333333333" data-track-index="8" data-layout-allow-caption-zone>หรือระบุ /{id} เพื่อดูเจาะลึกเฉพาะ Agent</div>
+<div id="cap-b6-2" class="clip caption" data-start="149.03333333333333" data-duration="10.8" data-track-index="8" data-layout-allow-caption-zone>คืนข้อมูล summary, daily, models,<br>channels (web/line) และ tools</div>
+<div id="cap-b7-0" class="clip caption" data-start="162.83333333333334" data-duration="11.133333333333333" data-track-index="8" data-layout-allow-caption-zone>สร้าง Dashboard คุมงบได้ครบถ้วน:<br>บทสนทนา · ผู้ใช้ Active · โทเค็น · ค่าใช้จ่าย USD</div>
+<div id="cap-b7-1" class="clip caption" data-start="173.96666666666667" data-duration="3.8" data-track-index="8" data-layout-allow-caption-zone>อัตราสำเร็จ LLM · คะแนนถูกใจ 👍 / ไม่ถูกใจ 👎</div>
+<div id="cap-b7-2" class="clip caption" data-start="177.76666666666668" data-duration="8.466666666666667" data-track-index="8" data-layout-allow-caption-zone>รู้ทันทีเมื่อมีข้อผิดพลาด<br>คุมต้นทุนและพัฒนาคำตอบได้ตรงจุด</div>
+<div id="cap-b8-0" class="clip caption" data-start="186.76666666666668" data-duration="4.066666666666666" data-track-index="8" data-layout-allow-caption-zone>สรุป: เตรียม user_id + message_id<br>และ API Key (chat:invoke + analytics:read)</div>
+<div id="cap-b8-1" class="clip caption" data-start="190.8" data-duration="7.233333333333333" data-track-index="8" data-layout-allow-caption-zone>เชื่อม 3 จังหวะ: ส่ง user_id<br>→ เก็บ feedback → ดึงสถิติ analytics</div>
+<div id="cap-b8-2" class="clip caption" data-start="198.03333333333333" data-duration="6.933333333333334" data-track-index="8" data-layout-allow-caption-zone>ดูแลทั้งคุณภาพคำตอบและต้นทุน AI<br>ได้อย่างมั่นใจครับ</div>
+<div id="cap-b9-0" class="clip caption" data-start="205.46666666666667" data-duration="2.566666666666667" data-track-index="8" data-layout-allow-caption-zone>คลิปนี้สนับสนุนโดย LangMind</div>
+<div id="cap-b9-1" class="clip caption" data-start="208.03333333333333" data-duration="6.4" data-track-index="8" data-layout-allow-caption-zone>เริ่มสร้างและติดตามผลการทำงานของ Agent<br>ได้ที่ langmind.in.th</div>
+  
+</main>
+<script>window.FILM={"duration":216.46666666666667,"beats":[{"id":"b1","start":0.4,"duration":21.066666666666666,"segments":[{"cue":"problem","start":0.4,"duration":6.9},{"cue":"metrics","start":7.3,"duration":6.6},{"cue":"questions","start":13.9,"duration":7.566666666666666}]},{"id":"b2","start":21.966666666666665,"duration":21.6,"segments":[{"cue":"overview","start":21.966666666666665,"duration":8.233333333333333},{"cue":"steps-intro","start":30.166666666666668,"duration":4.5},{"cue":"steps-23","start":34.666666666666664,"duration":8.9}]},{"id":"b3","start":44.03333333333333,"duration":24.866666666666667,"segments":[{"cue":"ids","start":44.03333333333333,"duration":9.666666666666666},{"cue":"api-key","start":53.733333333333334,"duration":11.1},{"cue":"server","start":64.83333333333333,"duration":4.066666666666666}]},{"id":"b4","start":69.4,"duration":31.333333333333332,"segments":[{"cue":"request","start":69.4,"duration":9.033333333333333},{"cue":"separate-users","start":78.43333333333334,"duration":12.033333333333333},{"cue":"convo-thread","start":90.5,"duration":10.266666666666667}]},{"id":"b5","start":103.73333333333333,"duration":26.866666666666667,"segments":[{"cue":"request","start":103.73333333333333,"duration":6.8},{"cue":"rating-scale","start":110.53333333333333,"duration":13.8},{"cue":"comment-204","start":124.36666666666666,"duration":6.233333333333333}]},{"id":"b6","start":133.6,"duration":26.233333333333334,"segments":[{"cue":"request","start":133.6,"duration":10.9},{"cue":"agent-detail","start":144.5,"duration":4.533333333333333},{"cue":"response-sections","start":149.03333333333333,"duration":10.8}]},{"id":"b7","start":162.83333333333334,"duration":23.4,"segments":[{"cue":"dashboard-metrics","start":162.83333333333334,"duration":11.133333333333333},{"cue":"quality-metrics","start":173.96666666666667,"duration":3.8},{"cue":"cost-control","start":177.76666666666668,"duration":8.466666666666667}]},{"id":"b8","start":186.76666666666668,"duration":18.233333333333334,"segments":[{"cue":"r1","start":186.76666666666668,"duration":4.066666666666666},{"cue":"r2","start":190.8,"duration":7.233333333333333},{"cue":"r3","start":198.03333333333333,"duration":6.933333333333334}]},{"id":"b9","start":205.46666666666667,"duration":8.966666666666667,"segments":[{"cue":"sponsor","start":205.46666666666667,"duration":2.566666666666667},{"cue":"cta","start":208.03333333333333,"duration":6.4}]}]}</script>
+<script src="motion.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "duration": 40,
+  "frames": 1200,
+  "transitionSeconds": 0.7,
+  "pace": 1,
+  "scenes": [
+    {
+      "id": "chat",
+      "index": 0,
+      "start": 0,
+      "dur": 12,
+      "lead": 0,
+      "text": "",
+      "transition": "none",
+      "voice": null,
+      "words": [],
+      "marks": {},
+      "attrs": {
+        "min": 12,
+        "hold": 0,
+        "transition": "cut"
+      }
+    },
+    {
+      "id": "key",
+      "index": 1,
+      "start": 12,
+      "dur": 12,
+      "lead": 0,
+      "text": "",
+      "transition": "fade",
+      "voice": null,
+      "words": [],
+      "marks": {},
+      "attrs": {
+        "min": 12,
+        "hold": 0,
+        "transition": "fade"
+      }
+    },
+    {
+      "id": "code",
+      "index": 2,
+      "start": 24,
+      "dur": 12,
+      "lead": 0,
+      "text": "",
+      "transition": "fade",
+      "voice": null,
+      "words": [],
+      "marks": {},
+      "attrs": {
+        "min": 12,
+        "hold": 0,
+        "transition": "fade"
+      }
+    },
+    {
+      "id": "brand",
+      "index": 3,
+      "start": 36,
+      "dur": 4,
+      "lead": 0,
+      "text": "",
+      "transition": "fade",
+      "voice": null,
+      "words": [],
+      "marks": {},
+      "attrs": {
+        "min": 4,
+        "hold": 0,
+        "transition": "fade"
+      }
+    }
+  ],
+  "voiceSpans": []
+}

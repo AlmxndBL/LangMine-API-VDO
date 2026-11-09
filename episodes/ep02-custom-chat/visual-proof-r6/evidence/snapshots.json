@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "outputDir": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\visual-proof-r6\\.hyperframes\\artifacts\\snapshots\\661e0550-d103-4026-b5d3-6a8033ba6b91",
+  "frames": [
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\visual-proof-r6\\.hyperframes\\artifacts\\snapshots\\661e0550-d103-4026-b5d3-6a8033ba6b91\\frame-00-at-2s.png",
+      "time": 2
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\visual-proof-r6\\.hyperframes\\artifacts\\snapshots\\661e0550-d103-4026-b5d3-6a8033ba6b91\\frame-01-at-6s.png",
+      "time": 6
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\visual-proof-r6\\.hyperframes\\artifacts\\snapshots\\661e0550-d103-4026-b5d3-6a8033ba6b91\\frame-02-at-10s.png",
+      "time": 10
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\visual-proof-r6\\.hyperframes\\artifacts\\snapshots\\661e0550-d103-4026-b5d3-6a8033ba6b91\\frame-03-at-15s.png",
+      "time": 15
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\visual-proof-r6\\.hyperframes\\artifacts\\snapshots\\661e0550-d103-4026-b5d3-6a8033ba6b91\\frame-04-at-19s.png",
+      "time": 19
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\visual-proof-r6\\.hyperframes\\artifacts\\snapshots\\661e0550-d103-4026-b5d3-6a8033ba6b91\\frame-05-at-25s.png",
+      "time": 25
+    }
+  ],
+  "contactSheets": [
+    "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\visual-proof-r6\\.hyperframes\\artifacts\\snapshots\\661e0550-d103-4026-b5d3-6a8033ba6b91\\contact-sheet.jpg"
+  ],
+  "_meta": {
+    "version": "0.9.19",
+    "latestVersion": "0.9.19",
+    "updateAvailable": false,
+    "checkedAt": "2026-11-07T09:02:25.247Z",
+    "skillsOutdated": 2,
+    "skillsMissing": 0
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "fps": 30,
+  "lead_in": 0.4,
+  "beat_gap": 0.5,
+  "tail": 2.0,
+  "chars_per_second": 11,
+  "note": "EP11 Agents & Versioning API. say = narration (voice), cap = caption (\\n = line break). Timing calculated from narration length (11 chars/sec + 0.35s gap) when audio files are absent.",
+  "beats": [
+    {
+      "id": "b1",
+      "voice": "assets/voice/b1.wav",
+      "segments": [
+        {
+          "cue": "modify_safe",
+          "say": "เวลาที่เรามี Agent ใช้งานจริงอยู่ แล้วอยากปรับปรุง Prompt หรือเปลี่ยนค่าโมเดล จะทำอย่างไรไม่ให้กระทบลูกค้าที่กำลังคุยอยู่",
+          "cap": "เวลาที่ Agent ใช้งานจริงอยู่\nอยากแก้ Prompt ทำอย่างไรไม่ให้กระทบลูกค้า?"
+        },
+        {
+          "cue": "rollback_question",
+          "say": "และถ้าปรับแล้วผลลัพธ์ไม่เป็นไปตามคาด จะย้อนกลับไปเวอร์ชันเดิมทันทีได้อย่างไร",
+          "cap": "และถ้าผลลัพธ์ไม่เป็นไปตามคาด\nจะย้อนกลับไปเวอร์ชันเดิมทันทีได้อย่างไร?"
+        },
+        {
+          "cue": "questions",
+          "say": "ถ้าอยากจัดการรุ่นของ Agent แบบมืออาชีพ ต้องเตรียมอะไร เชื่อมตรงไหน และเอาผลไปใช้ยังไง มาดูกันครับ",
+          "cap": "ถ้าอยากจัดการรุ่นของ Agent แบบมืออาชีพ\nต้องเตรียมอะไร เชื่อมตรงไหน และใช้ผลยังไง"
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "voice": "assets/voice/b2.wav",
+      "segments": [
+        {
+          "cue": "published_vs_draft",
+          "say": "ภาพรวมของฟีเจอร์นี้คือการแยกเวอร์ชันที่ใช้งานจริง หรือ published ออกจากฉบับร่าง หรือ draft",
+          "cap": "ภาพรวมคือการแยกเวอร์ชันใช้งานจริง (Published)\nออกจากฉบับร่าง (Draft)"
+        },
+        {
+          "cue": "calls_intro",
+          "say": "โดยระบบหลังบ้านของเราจะเรียก Agents API สามขั้นตอนหลัก",
+          "cap": "โดยระบบหลังบ้านเรียก Agents API 3 ขั้นตอนหลัก"
+        },
+        {
+          "cue": "calls_list",
+          "say": "คือ เช็กโมเดลและสร้าง Agent บันทึกการแก้ไขเป็นเวอร์ชันร่าง และสั่ง publish เพื่อเปิดใช้งานจริง หรือสั่ง rollback เพื่อย้อนกลับครับ",
+          "cap": "1.สร้าง Agent → 2.บันทึกร่าง (versions)\n→ 3.สั่ง publish หรือ rollback"
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "voice": "assets/voice/b3.wav",
+      "segments": [
+        {
+          "cue": "credential",
+          "say": "เริ่มจากสิ่งที่ต้องเตรียม อย่างแรกคือตั้งค่า Credential ของโมเดลบนเว็บให้พร้อม",
+          "cap": "สิ่งที่ต้องเตรียม อย่างแรกคือ\nตั้งค่า LLM Credential บนเว็บให้พร้อม"
+        },
+        {
+          "cue": "key_scopes",
+          "say": "อย่างที่สองคือ API Key ที่มีสิทธิ์ agents read สำหรับอ่านข้อมูลโมเดลและประวัติเวอร์ชัน และสิทธิ์ agents write สำหรับสร้าง แก้ไข และเปลี่ยนเวอร์ชัน",
+          "cap": "อย่างที่สอง API Key ที่มีสิทธิ์\nagents:read และ agents:write"
+        },
+        {
+          "cue": "server",
+          "say": "อย่างที่สามคือระบบหลังบ้านหรือสคริปต์ที่เก็บ Key ไว้อย่างปลอดภัยครับ",
+          "cap": "อย่างที่สาม ระบบหลังบ้านหรือสคริปต์\nที่เก็บ Key ไว้อย่างปลอดภัย"
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "voice": "assets/voice/b4.wav",
+      "segments": [
+        {
+          "cue": "models",
+          "say": "มาดูการเชื่อมครั้งที่หนึ่ง การเช็กโมเดลและสร้าง Agent ก่อนสร้างให้เรียก GET ไปที่ providers models เพื่อดูรายชื่อ provider และโมเดลที่เราได้รับสิทธิ์ใช้งานในคำตอบเดียว",
+          "cap": "ครั้งที่ 1 เช็กโมเดล: GET /api/providers/models\nรวม provider และโมเดลที่ใช้ได้ในคำตอบเดียว"
+        },
+        {
+          "cue": "create",
+          "say": "จากนั้นนำค่า provider type เช่น openrouter และ model name มาส่ง POST ที่ agents พร้อมชื่อและคำสั่งเริ่มต้น",
+          "cap": "นำ provider_type และ model_name\nมาส่ง POST /api/agents สร้าง Agent"
+        },
+        {
+          "cue": "v1_published",
+          "say": "ระบบจะสร้าง Agent และ publish เวอร์ชันที่หนึ่งให้อัตโนมัติครับ",
+          "cap": "ระบบจะสร้าง Agent\nและ publish เวอร์ชันที่ 1 ให้อัตโนมัติ"
+        }
+      ],
+      "hold": 2.5
+    },
+    {
+      "id": "b5",
+      "voice": "assets/voice/b5.wav",
+      "segments": [
+        {
+          "cue": "versions_request",
+          "say": "ครั้งที่สอง การบันทึกเวอร์ชันใหม่เป็นฉบับร่าง เมื่อต้องการปรับ Prompt หรือค่า generation อย่าง temperature และ max tokens",
+          "cap": "ครั้งที่ 2 บันทึกฉบับร่าง: ปรับ Prompt\nหรือค่า temperature และ max_tokens"
+        },
+        {
+          "cue": "publish_false",
+          "say": "ให้ส่ง POST ไปที่ agents ตามด้วย ID และ versions พร้อมระบุหมายเหตุ note และตั้งค่า publish เป็น false",
+          "cap": "ส่ง POST .../versions พร้อมระบุ note\nและตั้งค่า \"publish\": false"
+        },
+        {
+          "cue": "draft_safe",
+          "say": "ระบบจะตรวจสอบค่ากับ context window ของโมเดล แล้วบันทึกเป็นเวอร์ชันที่สองในสถานะฉบับร่าง โดยยังไม่กระทบลูกค้าที่ใช้งานเวอร์ชันหนึ่งอยู่ครับ",
+          "cap": "บันทึกเป็นเวอร์ชัน 2 ในสถานะฉบับร่าง (Draft)\nโดยยังไม่กระทบลูกค้าที่ใช้งานเวอร์ชัน 1 อยู่"
+        }
+      ],
+      "hold": 2.5
+    },
+    {
+      "id": "b6",
+      "voice": "assets/voice/b6.wav",
+      "segments": [
+        {
+          "cue": "publish",
+          "say": "ครั้งที่สาม การสั่งเปิดใช้งานจริง หรือย้อนกลับ เมื่อตรวจฉบับร่างจนมั่นใจแล้ว ให้ส่ง POST ไปที่ publish โดยระบุ version ID หรือส่งว่างเพื่อให้ระบบ publish ร่างล่าสุดให้อัตโนมัติ",
+          "cap": "ครั้งที่ 3 เปิดใช้งานจริง: POST .../publish\n(ส่งว่างเพื่อ publish ร่างล่าสุดอัตโนมัติ)"
+        },
+        {
+          "cue": "rollback",
+          "say": "และถ้าเปิดใช้แล้วอยากย้อนกลับไปเวอร์ชันก่อนหน้า ก็ส่ง POST ไปที่ rollback ได้ทันทีโดยไม่ต้องส่งข้อมูลใน body เลยครับ",
+          "cap": "หากต้องการย้อนกลับ ส่ง POST .../rollback\nได้ทันทีโดยไม่ต้องส่งข้อมูลใน body"
+        }
+      ],
+      "hold": 2.5
+    },
+    {
+      "id": "b7",
+      "voice": "assets/voice/b7.wav",
+      "segments": [
+        {
+          "cue": "patch_vs_versions",
+          "say": "นอกจากนี้ยังมีรายละเอียดที่ช่วยให้จัดการผ่านโค้ดได้ครบวงจร คือถ้าต้องการแก้เฉพาะชื่อ คำอธิบาย ไอคอน หรือการมองเห็น ให้เรียกที่ PATCH agents ID แต่ถ้าแก้ Prompt หรือโมเดลต้องผ่าน versions เสมอ",
+          "cap": "PATCH /agents/{id} = แก้ชื่อ/ไอคอน/การมองเห็น\nส่วน Prompt หรือ Model ต้องผ่าน /versions เสมอ"
+        },
+        {
+          "cue": "duplicate_put",
+          "say": "รวมถึงสามารถคัดลอก Agent ทั้งตัวด้วยคำสั่ง duplicate และผูกคลังความรู้ เครื่องมือ หรือ credential ผ่านคำสั่ง PUT ได้ทั้งหมดครับ",
+          "cap": "คัดลอก Agent ด้วย POST .../duplicate\nและผูก datasets / tools / credential ผ่าน PUT"
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "voice": "assets/voice/b8.wav",
+      "segments": [
+        {
+          "cue": "r1",
+          "say": "สรุปครับ เตรียม API Key สิทธิ์ agents read และ write",
+          "cap": "สรุป: เตรียม API Key\nสิทธิ์ agents:read และ agents:write"
+        },
+        {
+          "cue": "r2",
+          "say": "เชื่อมสามขั้นตอน คือดูโมเดลแล้วสร้าง Agent บันทึกร่างใหม่ที่ versions และสั่งเปิดใช้ที่ publish หรือย้อนกลับที่ rollback",
+          "cap": "เชื่อม 3 ขั้นตอน: สร้าง Agent (v1)\nบันทึกร่าง (versions) · publish หรือ rollback"
+        },
+        {
+          "cue": "r3",
+          "say": "ช่วยให้ทีมของคุณอัปเกรด AI ได้อย่างปลอดภัยทุกครั้งครับ",
+          "cap": "ช่วยให้ทีมพัฒนาบริหารจัดการรุ่นของ AI\nได้อย่างปลอดภัยทุกครั้ง"
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "voice": "assets/voice/b9.wav",
+      "segments": [
+        {
+          "cue": "sponsor",
+          "say": "คลิปนี้สนับสนุนโดย LangMind",
+          "cap": "คลิปนี้สนับสนุนโดย LangMind"
+        },
+        {
+          "cue": "cta",
+          "say": "เริ่มสร้างและบริหารจัดการ Agent ของคุณได้ที่ LangMind ดอท อิน ดอท ทีเอช",
+          "cap": "เริ่มสร้างและบริหารจัดการ Agent ของคุณ\nได้ที่ langmind.in.th"
+        }
+      ]
+    }
+  ]
+}

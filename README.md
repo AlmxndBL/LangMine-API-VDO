@@ -1,3 +1,7 @@
+> สถานะล่าสุด 9 พ.ย. 2026: ปรับปรุงระบบการทำงานทั้งหมดสู่มาตรฐาน EP04-EP11 Master Standard: จัดทำสกิลประจำโปรเจกต์ `langmind-video-producer` พร้อมแม่แบบสมบูรณ์ และปรับปรุง [Workflow](docs/WORKFLOW.md) สู่ระบบ 9 Beat + สถาปัตยกรรม 2 ระดับ (Silent Draft + Voiceover) รองรับการสร้างตอนใหม่ (EP03, EP05, EP12+) ให้ได้ผลลัพธ์ระดับเดียวกัน 100%
+
+> สถานะ 9 พ.ย. 2026: ผลิตและ Render วิดีโอฉบับภาพไม่มีเสียง (Silent Draft) ของ EP06–EP11 ครบทั้ง 6 ตอนตามโครงสร้างเดียวกับ EP04 v3 (1080×1920 30fps H.264, ธีม Editorial Paper & Sage Ink, โครง 9 Beat, Mockups ภาพจริง, ไฮไลต์โค้ด sweep, ป้ายผู้สนับสนุน LangMind) พักการทำเสียงตามคำสั่งผู้ใช้ · ดูสารบัญที่ [Episodes](episodes/README.md) ข้อความก่อนหน้าด้านล่างเป็นประวัติ
+
 > สถานะล่าสุด 7 พ.ย. 2026: EP02 r10 ฉบับภาพไม่มีเสียง renderและตรวจไฟล์แล้ว ใช้ Code Highlight Sweep ตามคำสั่งล่าสุด 7:20นาที 1080×1920/30fps เก็บVOไว้ทำภายหลัง ไม่publish · [MP4](episodes/ep02-custom-chat/video-continuity-r10/ep02-continuity-r10.mp4) · [ผลตรวจ/ข้อจำกัด](episodes/ep02-custom-chat/video-continuity-r10/REVIEW.md) · [สถานะตอน](episodes/ep02-custom-chat/README.md) ข้อความก่อนหน้าด้านล่างเป็นประวัติ
 
 > งาน active 7 พ.ย. 2026: ออกแบบ EP02 r10 เสร็จสำหรับส่งต่อผลิต ยังไม่ผลิต/render รุ่นใหม่ ดู [สถานะตอน](episodes/ep02-custom-chat/README.md), [ระบบภาพ](episodes/ep02-custom-chat/DESIGN.md), [storyboard พร้อมบท](episodes/ep02-custom-chat/STORYBOARD.md) ใช้สี Brand r9 เพิ่ม hook/เฉลยและความต่อเนื่อง งบ7:20นาที ข้อมูลรุ่นเก่าด้านล่างเป็นประวัติ
@@ -27,6 +31,7 @@ Workspace ของ Jack สำหรับวางแผนและผลิ�
 | [Skills](docs/SKILLS.md) | เครื่องมือและการติดตั้งที่มีอยู่ |
 | [Sources](docs/reference/SOURCES.md) | ที่มาและข้อจำกัดหลักฐาน |
 | [Episodes](episodes/README.md) | ทางเข้างานรายตอน |
+| [คลังไอเดีย Use Cases](ideas/README.md) | รวมไอเดียเพื่อสังคม ธุรกิจ เลขาส่วนตัว การตลาด และ Agency |
 | [API snapshot](langmind-api.md) | คู่มือเดิม เก็บโดยไม่แก้ |
 
 ไม่มี live LangMind API evidence ใน workspace นี้ การจัดเอกสารและนำเข้า assets ไม่ใช่หลักฐานว่า API หรือคลิปใหม่ผ่านการตรวจแล้ว

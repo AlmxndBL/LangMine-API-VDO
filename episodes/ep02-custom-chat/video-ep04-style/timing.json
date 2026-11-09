@@ -1,0 +1,591 @@
+{
+  "fps": 30,
+  "total": 440,
+  "note": "EP02 r10 in EP04 video-v3 style: uses exact voice-r10/assets/B01.wav..B16.wav and r10 content/storyline (440s total at 1.0x, plus 1.25x 352s export).",
+  "beats": [
+    {
+      "id": "b01",
+      "beat": "B01",
+      "title": "พิมพ์ว่า “ขอสั้นลง” แชทรู้ได้อย่างไร?",
+      "voice": "assets/voice/B01.wav",
+      "start": 0,
+      "duration": 8.4,
+      "end": 18,
+      "length": 18,
+      "segments": [
+        {
+          "cue": "see-q2",
+          "start": 0,
+          "duration": 3,
+          "say": "พิมพ์ว่า ขอสั้นลง แชทรู้ได้อย่างไรว่าหมายถึงข้อความไหน?",
+          "cap": "พิมพ์ว่า “ขอสั้นลง”\nแชทรู้ได้อย่างไรว่าหมายถึงข้อความไหน?"
+        },
+        {
+          "cue": "two-ways",
+          "start": 3,
+          "duration": 7,
+          "say": "ต้องส่งเรื่องเดิมใหม่ หรือมีตัวเชื่อม?",
+          "cap": "ต้องส่งเรื่องเดิมซ้ำใหม่ทุกครั้ง…\nหรือมีตัวเชื่อมบทสนทนา?"
+        },
+        {
+          "cue": "guess-hold",
+          "start": 10,
+          "duration": 8,
+          "say": "(ลองทายก่อน แล้วไปดูคำตอบพร้อมกัน)",
+          "cap": "แชทรู้ได้อย่างไร\nว่า “ขอสั้นลง” หมายถึงอะไร?"
+        }
+      ]
+    },
+    {
+      "id": "b02",
+      "beat": "B02",
+      "title": "ย้อนดูข้อความแรกของทีมร้านค้า",
+      "voice": "assets/voice/B02.wav",
+      "start": 18,
+      "duration": 16.52,
+      "end": 40,
+      "length": 22,
+      "segments": [
+        {
+          "cue": "rewind-q1",
+          "start": 18,
+          "duration": 6,
+          "say": "มาดูตัวอย่างทีมร้านค้า เราอยากมีหน้าเว็บให้ทีมใช้ร่างข้อความสุภาพ",
+          "cap": "ใช้เว็บช่วยทีมขาย\nร่างข้อความสุภาพให้ลูกค้า"
+        },
+        {
+          "cue": "first-then-short",
+          "start": 24,
+          "duration": 8,
+          "say": "เริ่มจากขอแจ้งลูกค้าว่าสินค้าส่งช้า แล้วค่อยขอฉบับสั้นสำหรับ LINE",
+          "cap": "เริ่มจากแจ้งลูกค้าว่าสินค้าส่งช้า\nแล้วค่อยขอฉบับสั้นสำหรับ LINE"
+        },
+        {
+          "cue": "demo-note",
+          "start": 32,
+          "duration": 8,
+          "say": "ภาพนี้เป็นตัวอย่างอธิบาย ยังไม่ได้เรียก API จริง และยังไม่ได้ส่งข้อความให้ลูกค้า",
+          "cap": "ภาพตัวอย่างอธิบาย · ยังไม่ได้เรียก API จริง\nและยังไม่ได้ส่งข้อความให้ลูกค้า"
+        }
+      ]
+    },
+    {
+      "id": "b03",
+      "beat": "B03",
+      "title": "มองเป็น 3 ส่วน: หน้าเว็บ · Server · Agent",
+      "voice": "assets/voice/B03.wav",
+      "start": 40,
+      "duration": 23.2,
+      "end": 68,
+      "length": 28,
+      "segments": [
+        {
+          "cue": "three-parts",
+          "start": 40,
+          "duration": 6,
+          "say": "มองเป็นสามส่วน หน้าเว็บคือที่พิมพ์และอ่าน",
+          "cap": "มองเป็น 3 ส่วน: หน้าเว็บของเรา\nคือที่พิมพ์คำถามและอ่านคำตอบ"
+        },
+        {
+          "cue": "server-part",
+          "start": 46,
+          "duration": 6,
+          "say": "server ของแอปรับข้อความและเก็บข้อมูลเชื่อมต่อ",
+          "cap": "Server ของแอปรับข้อความ\nและเก็บข้อมูลเชื่อมต่อ (API key)"
+        },
+        {
+          "cue": "agent-part",
+          "start": 52,
+          "duration": 5,
+          "say": "ส่วน LangMind Agent คือผู้ช่วยที่เราตั้งหน้าที่ไว้",
+          "cap": "ส่วน LangMind Agent\nคือผู้ช่วยที่เราตั้งหน้าที่ไว้"
+        },
+        {
+          "cue": "roundtrip",
+          "start": 57,
+          "duration": 6,
+          "say": "คำถามเดินทางผ่าน server และคำตอบก็กลับมาทางเดิม",
+          "cap": "หน้าเว็บส่งข้อความผ่าน Server\nแล้วคุยกับ LangMind Agent"
+        },
+        {
+          "cue": "we-build",
+          "start": 63,
+          "duration": 5,
+          "say": "หน้าจอกับส่วนเชื่อมต่อนี้เป็นส่วนที่เราพัฒนา ไม่ต้องให้หน้าเว็บถือ key ไปหา Agent เอง",
+          "cap": "เราพัฒนาหน้าเว็บ + Server\nไม่ต้องให้หน้าเว็บถือ key เอง"
+        }
+      ]
+    },
+    {
+      "id": "b04",
+      "beat": "B04",
+      "title": "เตรียมผู้ช่วย และแยกสองค่า",
+      "voice": "assets/voice/B04.wav",
+      "start": 68,
+      "duration": 23.72,
+      "end": 96,
+      "length": 28,
+      "segments": [
+        {
+          "cue": "agent-ready",
+          "start": 68,
+          "duration": 8,
+          "say": "ก่อนเชื่อม ต้องมี Agent ที่พร้อมใช้งาน เช่น ผู้ช่วยร่างข้อความไทยสุภาพโดยไม่แต่งวันส่งสินค้า",
+          "cap": "เตรียม Agent ให้พร้อมใช้งาน\nเช่น ร่างข้อความสุภาพ · ไม่แต่งวันส่งสินค้า"
+        },
+        {
+          "cue": "agent-id",
+          "start": 76,
+          "duration": 8,
+          "say": "จากนั้นแยกสองค่า รหัส Agent ใช้เลือกว่าจะให้ผู้ช่วยตัวไหนตอบ",
+          "cap": "แยก 2 ค่า: รหัส Agent (Agent ID)\nใช้เลือกว่าจะให้ผู้ช่วยตัวไหนตอบ"
+        },
+        {
+          "cue": "api-key",
+          "start": 84,
+          "duration": 7,
+          "say": "ส่วน API key ใช้ยืนยันสิทธิ์ในการเรียก",
+          "cap": "ส่วน API key ใช้ยืนยันสิทธิ์ในการเรียก"
+        },
+        {
+          "cue": "not-conv-id",
+          "start": 91,
+          "duration": 5,
+          "say": "สองค่านี้ทำหน้าที่ต่างกัน และไม่ใช่รหัสบทสนทนาที่เราจะเห็นตอนถามต่อ",
+          "cap": "Agent ID เลือกผู้ช่วย · API key ยืนยันสิทธิ์\n(คนละตัวกับรหัสบทสนทนาตอนถามต่อ)"
+        }
+      ]
+    },
+    {
+      "id": "b05",
+      "beat": "B05",
+      "title": "สร้าง key สำหรับแอปเรา",
+      "voice": "assets/voice/B05.wav",
+      "start": 96,
+      "duration": 30.32,
+      "end": 136,
+      "length": 40,
+      "segments": [
+        {
+          "cue": "key-name",
+          "start": 96,
+          "duration": 10,
+          "say": "ในหน้าจัดการ API สร้าง key สำหรับแอปนี้ ตั้งชื่อเพื่อจำว่าใช้กับงานไหน",
+          "cap": "สร้าง API key สำหรับแอปนี้\nตั้งชื่อเป็นป้ายกำกับว่าใช้กับงานไหน"
+        },
+        {
+          "cue": "key-age",
+          "start": 106,
+          "duration": 10,
+          "say": "อายุคือช่วงเวลาที่ key ใช้งานได้ ส่วนสิทธิ์บอกว่าเรียกงานอะไร",
+          "cap": "เลือกอายุการใช้งานของ key\nและเลือกสิทธิ์ว่าเรียกงานอะไรได้"
+        },
+        {
+          "cue": "key-scope",
+          "start": 116,
+          "duration": 11,
+          "say": "ตัวอย่างแชทนี้ใช้ chat:invoke รหัส Agent เราจะคัดลอกจากหน้าผู้ช่วย จึงไม่ต้องเพิ่มสิทธิ์อ่านรายการสำหรับขั้นตอนนั้น",
+          "cap": "ตั้งชื่อ key เลือกอายุ และสิทธิ์ chat:invoke\n(รหัส Agent คัดลอกจากหน้าผู้ช่วยได้โดยตรง)"
+        },
+        {
+          "cue": "key-to-server",
+          "start": 127,
+          "duration": 9,
+          "say": "เมื่อสร้างแล้วให้นำ key ไปตั้งค่าที่ server ภาพขั้นตอนเดิมนี้ไม่ได้ยืนยันว่า key ยังใช้ได้ในปัจจุบัน",
+          "cap": "นำ key ไปตั้งค่าที่ Server\n(ภาพขั้นตอนตัวอย่าง ไม่ใช่ key ที่ใช้งานจริง)"
+        }
+      ]
+    },
+    {
+      "id": "b06",
+      "beat": "B06",
+      "title": "ตั้งค่าฝั่ง server",
+      "voice": "assets/voice/B06.wav",
+      "start": 136,
+      "duration": 24.6,
+      "end": 172,
+      "length": 36,
+      "segments": [
+        {
+          "cue": "env-names",
+          "start": 136,
+          "duration": 10,
+          "say": "เก็บ key เป็นค่าตั้งต้นฝั่ง server ชื่อ LANGMIND_API_KEY อีกค่าชื่อ LANGMIND_AGENT_ID",
+          "cap": "เก็บค่าตั้งต้นฝั่ง Server:\nLANGMIND_API_KEY และ LANGMIND_AGENT_ID"
+        },
+        {
+          "cue": "url-agent-id",
+          "start": 146,
+          "duration": 12,
+          "say": "ให้เปิดหน้า Agent ของคุณ แล้วคัดลอกเฉพาะรหัสหลัง /agents/ ไม่ใช่ทั้ง URL ในภาพใช้ค่าตัวอย่างเพื่อบอกตำแหน่ง",
+          "cap": "คัดลอกเฉพาะรหัสหลัง /agents/ (ไม่ใช่ทั้ง URL)\nตัวอย่างตำแหน่ง ไม่ใช่ Agent ร้านนี้"
+        },
+        {
+          "cue": "process-env",
+          "start": 158,
+          "duration": 8,
+          "say": "โค้ด server อ่านค่าจากชื่อเหล่านี้",
+          "cap": "โค้ด Server อ่านค่าผ่าน process.env"
+        },
+        {
+          "cue": "no-browser-key",
+          "start": 166,
+          "duration": 6,
+          "say": "จึงไม่ต้องฝัง key จริงไว้ในหน้าเว็บที่ผู้ใช้เปิดดูได้",
+          "cap": "เก็บ key กับ Agent ID ไว้ฝั่ง Server\nไม่ฝัง key จริงในหน้าเว็บ"
+        }
+      ]
+    },
+    {
+      "id": "b07",
+      "beat": "B07",
+      "title": "หน้าเว็บส่งข้อความให้ /api/chat",
+      "voice": "assets/voice/B07.wav",
+      "start": 172,
+      "duration": 23.28,
+      "end": 198,
+      "length": 26,
+      "segments": [
+        {
+          "cue": "click-send",
+          "start": 172,
+          "duration": 5,
+          "say": "กลับมาที่ข้อความแรก เมื่อกดส่ง",
+          "cap": "กลับมาที่ข้อความแรก: เมื่อผู้ใช้กดส่งครั้งเดียว"
+        },
+        {
+          "cue": "route-api-chat",
+          "start": 177,
+          "duration": 7,
+          "say": "หน้าเว็บส่งข้อความไป /api/chat ซึ่งเป็นทางรับข้อความใน server ที่เราพัฒนา ไม่ใช่ endpoint ของ LangMind",
+          "cap": "หน้าเว็บส่งข้อความให้ /api/chat\n(Route ใน Server ของเรา ไม่ใช่ URL ของ LangMind)"
+        },
+        {
+          "cue": "server-checks",
+          "start": 184,
+          "duration": 7,
+          "say": "server ตรวจผู้ใช้และข้อความ แล้วหาบทสนทนาของผู้ใช้นั้น ก่อนส่งต่อไปยัง Agent",
+          "cap": "Server ตรวจผู้ใช้และหาบทสนทนา\nก่อนส่งต่อไปยัง LangMind Agent"
+        },
+        {
+          "cue": "frontend-no-key",
+          "start": 191,
+          "duration": 7,
+          "say": "หน้าเว็บจึงไม่ต้องรู้ key ของเรา",
+          "cap": "หน้าเว็บส่งข้อความให้ /api/chat\nโดยไม่ต้องรู้ API key ของเรา"
+        }
+      ]
+    },
+    {
+      "id": "b08",
+      "beat": "B08",
+      "title": "แกะกล่อง POST Request",
+      "voice": "assets/voice/B08.wav",
+      "start": 198,
+      "duration": 28.16,
+      "end": 234,
+      "length": 36,
+      "segments": [
+        {
+          "cue": "post-endpoint",
+          "start": 198,
+          "duration": 9,
+          "say": "server ส่ง POST ไปที่ API ของ LangMind เส้นทาง chat/message/blocking ซึ่งรอคำตอบเต็มก่อน",
+          "cap": "Server ส่ง POST ไปที่ /api/chat/message/blocking\n(รอคำตอบเต็มก่อน)"
+        },
+        {
+          "cue": "headers-auth",
+          "start": 207,
+          "duration": 9,
+          "say": "ส่วนหัว Authorization ใส่ Bearer ตามด้วย key และบอกว่าข้อมูลเป็น JSON",
+          "cap": "ส่วนหัว: Authorization: Bearer <API_KEY>\nและ Content-Type: application/json"
+        },
+        {
+          "cue": "body-q1",
+          "start": 216,
+          "duration": 8,
+          "say": "ใน body มี agent_id เลือกผู้ช่วย query คือคำถาม และ conversation_id ครั้งแรกเป็น null",
+          "cap": "POST ส่งคำถามพร้อม key\nครั้งแรก conversation_id = null"
+        },
+        {
+          "cue": "no-user-id-note",
+          "start": 224,
+          "duration": 10,
+          "say": "ตัวอย่างนี้ไม่ส่ง user_id จึงอย่าเหมารวมว่า null เริ่มเรื่องใหม่เสมอในทุกเงื่อนไข",
+          "cap": "ตัวอย่างนี้ไม่ส่ง user_id\n(อย่าเหมารวมว่า null เริ่มเรื่องใหม่เสมอในทุกเงื่อนไข)"
+        }
+      ]
+    },
+    {
+      "id": "b09",
+      "beat": "B09",
+      "title": "ส่งคำขอ แล้วตรวจผล",
+      "voice": "assets/voice/B09.wav",
+      "start": 234,
+      "duration": 23.6,
+      "end": 264,
+      "length": 30,
+      "segments": [
+        {
+          "cue": "server-fetch",
+          "start": 234,
+          "duration": 8,
+          "say": "ในโค้ดฝั่ง server ใช้ fetch ส่งคำขอนี้ ค่า key กับรหัส Agent อ่านจากค่าตั้งต้น",
+          "cap": "โค้ดฝั่ง Server ใช้ fetch ส่งคำขอ\nอ่าน key และ Agent ID จากค่าตั้งต้น"
+        },
+        {
+          "cue": "body-from-user",
+          "start": 242,
+          "duration": 8,
+          "say": "ส่วนคำถามมาจากหน้าเว็บ และรหัสบทสนทนามาจากข้อมูลของผู้ใช้นั้น",
+          "cap": "คำถามมาจากหน้าเว็บ\nส่วนรหัสบทสนทนามาจากข้อมูลของผู้ใช้นั้น"
+        },
+        {
+          "cue": "check-res-ok",
+          "start": 250,
+          "duration": 7,
+          "say": "เมื่อได้ผลกลับมา ต้องตรวจว่าสำเร็จและรูปแบบข้อมูลถูกต้องก่อนนำไปใช้",
+          "cap": "Server ส่งคำขอ ตรวจผล (response.ok)\nแล้วค่อยนำคำตอบไปใช้"
+        },
+        {
+          "cue": "snippet-note",
+          "start": 257,
+          "duration": 7,
+          "say": "โค้ดบนภาพเป็นส่วนอธิบาย ยังต้องเชื่อมระบบผู้ใช้และการเก็บข้อมูลจริง",
+          "cap": "โค้ดประกอบคำอธิบาย\nยังต้องเชื่อมระบบผู้ใช้และที่เก็บข้อมูลจริง"
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "beat": "B10",
+      "title": "แสดงคำตอบ · เก็บรหัสบทสนทนา",
+      "voice": "assets/voice/B10.wav",
+      "start": 264,
+      "duration": 22.16,
+      "end": 292,
+      "length": 28,
+      "segments": [
+        {
+          "cue": "res-answer",
+          "start": 264,
+          "duration": 8,
+          "say": "ผลตัวอย่างนี้มี answer คือข้อความคำตอบ และ conversation_id คือรหัสบทสนทนา",
+          "cap": "answer คือคำตอบ\nconversation_id คือรหัสบทสนทนา"
+        },
+        {
+          "cue": "save-id-owner",
+          "start": 272,
+          "duration": 7,
+          "say": "server เก็บรหัสไว้คู่กับเจ้าของ แล้วส่งคำตอบไปให้หน้าเว็บแสดง",
+          "cap": "Server เก็บ conversation_id คู่กับเจ้าของ\nแล้วส่ง answer ไปให้หน้าเว็บแสดง"
+        },
+        {
+          "cue": "first-msg-done",
+          "start": 279,
+          "duration": 6,
+          "say": "ตอนนี้ข้อความแรกเดินทางครบแล้ว",
+          "cap": "ตอนนี้ข้อความแรกเดินทางครบแล้ว!"
+        },
+        {
+          "cue": "remember-id",
+          "start": 285,
+          "duration": 7,
+          "say": "ลองจำรหัสบทสนทนานี้ไว้ เพราะอีกสักครู่เราจะใช้มันกับคำว่า ขอสั้นลง",
+          "cap": "จำ conversation_id (conv_demo_01) ไว้\nเราจะใช้มันตอนพิมพ์ว่า “ขอสั้นลง”"
+        }
+      ]
+    },
+    {
+      "id": "b11",
+      "beat": "B11",
+      "title": "กรณีระหว่างรอ · ถ้าส่งไม่สำเร็จ",
+      "voice": "assets/voice/B11.wav",
+      "start": 292,
+      "duration": 20.08,
+      "end": 316,
+      "length": 24,
+      "segments": [
+        {
+          "cue": "pending-state",
+          "start": 292,
+          "duration": 7,
+          "say": "ระหว่างรอ แอปควรบอกว่ากำลังรอคำตอบและกันกดส่งซ้ำ",
+          "cap": "ระหว่างรอ: แอปแจ้งว่ากำลังรอคำตอบ\nและกันการกดส่งซ้ำ"
+        },
+        {
+          "cue": "error-state",
+          "start": 299,
+          "duration": 8,
+          "say": "ถ้าส่งไม่สำเร็จ ให้บอกตรง ๆ และเก็บข้อความไว้ให้ลองใหม่",
+          "cap": "แอปแจ้งว่ากำลังรอ\nและเก็บข้อความเมื่อล้มเหลวให้กดลองใหม่"
+        },
+        {
+          "cue": "app-responsibility",
+          "start": 307,
+          "duration": 9,
+          "say": "สถานะเหล่านี้เป็นส่วนที่เราต้องจัดการในแอป ไม่ใช่ข้อความที่ Agent ตอบ ตอนนี้กลับมาที่ตัวอย่างที่ได้รับคำตอบแล้ว เพื่อถามต่อกัน",
+          "cap": "แอปจัดการสถานะเอง (ไม่ใช่คำตอบ Agent)\nกลับมาที่แชทเดิมเพื่อถามต่อกัน"
+        }
+      ]
+    },
+    {
+      "id": "b12",
+      "beat": "B12",
+      "title": "เฉลย: ถามต่อด้วย conversation_id เดิม",
+      "voice": "assets/voice/B12.wav",
+      "start": 316,
+      "duration": 26.2,
+      "end": 354,
+      "length": 38,
+      "segments": [
+        {
+          "cue": "ask-what-changes",
+          "start": 316,
+          "duration": 7,
+          "say": "ขอสั้นลง ต้องเปลี่ยนอะไร เก็บอะไรไว้?",
+          "cap": "“ขอสั้นลง” ต้องเปลี่ยนอะไร…\nและเก็บอะไรไว้?"
+        },
+        {
+          "cue": "change-query-keep-id",
+          "start": 323,
+          "duration": 10,
+          "say": "เราเปลี่ยน query เป็น ขอสั้นลงสำหรับส่งใน LINE แต่ส่ง conversation_id เดิมที่ได้จากรอบก่อน จึงเป็นการคุยต่อในบทสนทนาเดียวกัน",
+          "cap": "เปลี่ยน query เป็นคำถามใหม่\nแต่ส่ง conversation_id เดิม (conv_demo_01)"
+        },
+        {
+          "cue": "not-key-and-check-owner",
+          "start": 333,
+          "duration": 8,
+          "say": "ไม่ใช่เอา API key หรือรหัส Agent มาแทนรหัสนี้ server ยังต้องตรวจด้วยว่าบทสนทนานั้นเป็นของผู้ใช้คนนี้",
+          "cap": "ถามต่อด้วย conversation_id เดิม\nServer ต้องตรวจเจ้าของบทสนทนาด้วย"
+        },
+        {
+          "cue": "short-draft-ready",
+          "start": 341,
+          "duration": 13,
+          "say": "คำตอบที่เห็นเป็นร่างให้ตรวจอีกครั้ง ยังไม่ได้ส่งเข้า LINE",
+          "cap": "ได้ร่างข้อความฉบับสั้นในบทสนทนาเดิม\n(สำหรับตรวจอีกครั้ง ยังไม่ได้ส่งเข้า LINE)"
+        }
+      ]
+    },
+    {
+      "id": "b13",
+      "beat": "B13",
+      "title": "รอคำตอบครบ vs รับข้อมูลเป็นช่วง",
+      "voice": "assets/voice/B13.wav",
+      "start": 354,
+      "duration": 13.96,
+      "end": 372,
+      "length": 18,
+      "segments": [
+        {
+          "cue": "wait-full",
+          "start": 354,
+          "duration": 7,
+          "say": "ตัวอย่างที่ผ่านมารอคำตอบครบแล้วค่อยแสดง",
+          "cap": "ตัวอย่างที่ผ่านมา: รอคำตอบครบแล้วค่อยแสดง (Blocking)"
+        },
+        {
+          "cue": "stream-both-sides",
+          "start": 361,
+          "duration": 11,
+          "say": "ถ้าอยากให้ทยอยขึ้น มี endpoint แบบรับข้อมูลเป็นช่วง แต่ต้องปรับทั้ง server และหน้าเว็บ ไม่ใช่แค่ทำตัวอักษรค่อย ๆ ปรากฏ หรือเปลี่ยน URL อย่างเดียว",
+          "cap": "คำตอบทยอยขึ้นได้ แต่ต้องปรับทั้ง Server และหน้าเว็บ\n(ไม่ใช่แค่ทำตัวอักษรค่อย ๆ ปรากฏ)"
+        }
+      ]
+    },
+    {
+      "id": "b14",
+      "beat": "B14",
+      "title": "ออกแบบหน้าจอให้เหมาะกับทีม",
+      "voice": "assets/voice/B14.wav",
+      "start": 372,
+      "duration": 18.96,
+      "end": 396,
+      "length": 24,
+      "segments": [
+        {
+          "cue": "mobile-view",
+          "start": 372,
+          "duration": 8,
+          "say": "เมื่อเข้าใจวงจรนี้ เราออกแบบหน้าจอให้เข้ากับทีมได้ มือถืออาจเน้นพิมพ์กับอ่าน",
+          "cap": "มือถือ: เน้นพิมพ์คำถามและอ่านคำตอบ"
+        },
+        {
+          "cue": "desktop-view",
+          "start": 380,
+          "duration": 9,
+          "say": "ส่วนจอใหญ่เพิ่มพื้นที่แก้ข้อความก่อนนำไปใช้",
+          "cap": "จอใหญ่: เพิ่มพื้นที่แก้ข้อความก่อนนำไปใช้"
+        },
+        {
+          "cue": "same-agent-loop",
+          "start": 389,
+          "duration": 7,
+          "say": "การจัดพื้นที่และปุ่มเหล่านี้เป็นงานของแอปที่เราพัฒนา ส่วนการเรียก Agent ยังใช้หลักเดิม",
+          "cap": "ออกแบบหน้าจอให้เหมาะกับทีม\nส่วนการเรียก Agent ยังใช้หลักเดิม"
+        }
+      ]
+    },
+    {
+      "id": "b15",
+      "beat": "B15",
+      "title": "ทวนวงจร และแยก 3 ค่าสำคัญ",
+      "voice": "assets/voice/B15.wav",
+      "start": 396,
+      "duration": 22.64,
+      "end": 420,
+      "length": 24,
+      "segments": [
+        {
+          "cue": "replay-flow",
+          "start": 396,
+          "duration": 10,
+          "say": "ลองทวนจากข้อความเดียว หน้าเว็บส่งคำถาม server เชื่อมกับ Agent แล้วนำ answer กลับมาแสดง ส่วน conversation_id เก็บไว้ถามต่อ",
+          "cap": "ทวนวงจร: หน้าเว็บ → Server → Agent → แสดง answer\nและเก็บ conversation_id ไว้ถามต่อ"
+        },
+        {
+          "cue": "three-values",
+          "start": 406,
+          "duration": 10,
+          "say": "Agent ID เลือกผู้ช่วย API key ยืนยันสิทธิ์ และรหัสบทสนทนาเชื่อมเรื่องเดิม",
+          "cap": "Agent ID เลือกผู้ช่วย · API key ยืนยันสิทธิ์\nconversation_id เชื่อมแชทเดิม"
+        },
+        {
+          "cue": "your-first-task",
+          "start": 416,
+          "duration": 4,
+          "say": "ถ้าคุณจะเริ่ม ลองเลือกข้อความหนึ่งเรื่องที่อยากให้ผู้ช่วยร่างก่อน",
+          "cap": "คุณอยากให้ผู้ช่วยร่างเรื่องอะไรเป็นเรื่องแรก?"
+        }
+      ]
+    },
+    {
+      "id": "b16",
+      "beat": "B16",
+      "title": "ตาคุณลองแล้ว · LangMind",
+      "voice": "assets/voice/B16.wav",
+      "start": 420,
+      "duration": 11.48,
+      "end": 440,
+      "length": 20,
+      "segments": [
+        {
+          "cue": "cta-try",
+          "start": 420,
+          "duration": 7,
+          "say": "ตาคุณลองแล้ว ใช้ Agent ของคุณร่างข้อความหนึ่งเรื่อง แล้วขอให้สั้นลงในแชทเดิม",
+          "cap": "เริ่มจากข้อความเดียว\nแล้วลองถามต่อในแชทเดิม"
+        },
+        {
+          "cue": "brand-url",
+          "start": 427,
+          "duration": 13,
+          "say": "เริ่มสำรวจ LangMind ได้ที่ แลงมายด์ ดอต ไอเอ็น ดอต ทีเอช",
+          "cap": "เริ่มสำรวจ LangMind ได้ที่\nhttps://langmind.in.th"
+        }
+      ]
+    }
+  ]
+}

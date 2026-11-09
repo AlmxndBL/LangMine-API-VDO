@@ -1,0 +1,586 @@
+/* Editorial Paper & Sage Ink — Design System (EP04-EP11 Master Standard) */
+
+@font-face {
+  font-family: 'Sarabun';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/Sarabun-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sarabun';
+  font-style: normal;
+  font-weight: 700;
+  src: url('assets/fonts/Sarabun-Bold.ttf') format('truetype');
+}
+
+:root {
+  --bg: #fcfbf7;
+  --card-bg: #ffffff;
+  --card-border: #ede8df;
+  --ink: #2c2825;
+  --ink-dim: #524c46;
+  --green: #38815A;
+  --gold: #8d732c;
+  --teal: #1E7578;
+  --red: #c0392b;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 1080px;
+  height: 1920px;
+  overflow: hidden;
+  background: var(--bg);
+  font-family: 'Sarabun', sans-serif;
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+.film {
+  position: relative;
+  width: 1080px;
+  height: 1920px;
+  background: var(--bg);
+}
+
+.scene {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1080px;
+  height: 1920px;
+  display: none;
+}
+
+.scene-inner {
+  position: relative;
+  width: 1080px;
+  height: 1920px;
+}
+
+/* Headings */
+.heading {
+  position: absolute;
+  top: 140px;
+  left: 80px;
+  right: 80px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--ink);
+  letter-spacing: -0.5px;
+}
+
+.heading .num {
+  display: inline-block;
+  width: 54px;
+  height: 54px;
+  line-height: 52px;
+  text-align: center;
+  border-radius: 50%;
+  background: var(--green);
+  color: #fff;
+  font-size: 34px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.heading small {
+  display: block;
+  font-size: 36px;
+  font-weight: 400;
+  color: var(--ink-dim);
+  margin-top: 8px;
+}
+
+/* Subtitles (Captions) */
+.caps {
+  position: absolute;
+  bottom: 120px;
+  left: 60px;
+  right: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  z-index: 100;
+}
+
+.cap {
+  position: absolute;
+  max-width: 960px;
+  padding: 18px 36px;
+  background: rgba(255, 255, 255, 0.94);
+  border: 1.5px solid rgba(220, 214, 204, 0.9);
+  border-radius: 40px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #1a1918;
+  text-align: center;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+  opacity: 0;
+  transform: translateY(6px);
+  backdrop-filter: blur(8px);
+}
+
+/* Minimap Overview Strip */
+.minimap {
+  position: absolute;
+  top: 270px;
+  left: 80px;
+  right: 80px;
+  height: 64px;
+  background: #fff;
+  border: 1.5px solid var(--card-border);
+  border-left: 6px solid var(--c, var(--green));
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  gap: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.03);
+}
+
+.mm-node {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.mm-node img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.mm-call {
+  padding: 4px 14px;
+  background: var(--c, var(--green));
+  color: #fff;
+  border-radius: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.mm-link {
+  flex: 1;
+  height: 2px;
+  background: #e2ddd3;
+}
+
+/* Device Mockups */
+.device {
+  position: relative;
+  background: #1e1e1e;
+  border-radius: 36px;
+  padding: 8px;
+  box-shadow: 0 24px 60px rgba(0,0,0,0.18);
+  overflow: hidden;
+}
+
+.device .screen {
+  position: relative;
+  border-radius: 28px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.device img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.device .img-a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+/* Robot Mascot */
+.robot {
+  position: absolute;
+  filter: drop-shadow(0 16px 24px rgba(0,0,0,0.1));
+}
+
+/* Question Chips & Tips */
+.qrow {
+  position: absolute;
+  left: 80px;
+  right: 80px;
+  display: flex;
+  gap: 20px;
+}
+
+.qchip {
+  flex: 1;
+  padding: 16px 20px;
+  background: #fff;
+  border: 2px solid var(--card-border);
+  border-radius: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.04);
+}
+
+.tip {
+  position: absolute;
+  padding: 24px 30px;
+  background: #fff;
+  border-left: 6px solid var(--green);
+  border-radius: 16px;
+  font-size: 32px;
+  line-height: 1.45;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+}
+
+/* Stack Cards & Overview Nodes */
+.stack {
+  position: absolute;
+  left: 80px;
+  right: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.card {
+  background: #fff;
+  border: 1.5px solid var(--card-border);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+}
+
+.card-h {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-h b {
+  font-size: 38px;
+  display: block;
+}
+
+.card-h span {
+  font-size: 28px;
+  color: var(--ink-dim);
+}
+
+.warn {
+  margin-top: 18px;
+  padding: 14px 20px;
+  background: #fdf3f2;
+  border-left: 4px solid var(--red);
+  border-radius: 8px;
+  font-size: 26px;
+  color: #78261f;
+}
+
+.chips {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  background: #f5f2eb;
+  border-radius: 12px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.chip.mono {
+  font-family: monospace;
+  background: #ece8df;
+}
+
+/* Code Panels */
+.panel {
+  position: absolute;
+  top: 360px;
+  left: 80px;
+  right: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.code {
+  width: 100%;
+  background: #ffffff;
+  border: 1.5px solid var(--card-border);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 12px 32px rgba(0,0,0,0.05);
+}
+
+.code-head {
+  padding: 16px 24px;
+  background: #f9f7f2;
+  border-bottom: 1px solid var(--card-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.code-head .method {
+  padding: 4px 14px;
+  background: var(--green);
+  color: #fff;
+  font-weight: 700;
+  border-radius: 8px;
+  font-size: 24px;
+}
+
+.code-head .scope {
+  font-size: 24px;
+  color: var(--ink-dim);
+  font-family: monospace;
+}
+
+.code-path {
+  padding: 14px 24px;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: 700;
+  color: #1a1918;
+  background: #faf8f5;
+  border-bottom: 1px solid #f0ece3;
+}
+
+.code-body {
+  padding: 24px;
+  font-family: monospace;
+  font-size: 26px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.ln {
+  position: relative;
+  z-index: 0;
+  isolation: isolate;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.ln.hl {
+  background: #fdf6e2;
+  border-left: 4px solid var(--gold);
+}
+
+.code-body .k { color: #8d732c; font-weight: 700; }
+.code-body .v { color: #38815A; }
+
+.code-foot {
+  padding: 14px 24px;
+  background: #fbf9f5;
+  border-top: 1px solid var(--card-border);
+  font-size: 24px;
+  color: var(--ink-dim);
+}
+
+/* Slots for Input/Output */
+.slot-in, .slot-out {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 6px 0;
+}
+
+.in-chip, .out-chip {
+  padding: 12px 24px;
+  background: #ffffff;
+  border: 1.5px solid var(--card-border);
+  border-radius: 16px;
+  font-size: 26px;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.03);
+}
+
+.out-chip.json {
+  font-family: monospace;
+  background: #fbfbf9;
+  border-left: 5px solid var(--green);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.out-chip em {
+  font-family: 'Sarabun', sans-serif;
+  font-style: normal;
+  font-size: 22px;
+  color: var(--ink-dim);
+}
+
+/* Vertical Animated Arrows */
+.varrow {
+  display: block;
+  margin: 0 auto;
+}
+
+.varrow path {
+  fill: none;
+  stroke: #c8c0b2;
+  stroke-width: 3.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.varrow .dot {
+  fill: var(--green);
+}
+
+/* Architecture Node */
+.node.wide {
+  position: absolute;
+  left: 80px;
+  right: 80px;
+  background: #fff;
+  border: 1.5px solid var(--card-border);
+  border-radius: 20px;
+  padding: 24px 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.04);
+}
+
+.node.wide b { font-size: 34px; display: block; }
+.node.wide span { font-size: 26px; color: var(--ink-dim); }
+.node.wide.lm { border-left: 6px solid var(--green); }
+.node.wide.lm img { width: 50px; height: 50px; object-fit: contain; }
+
+.lane {
+  position: absolute;
+  left: 80px;
+  right: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.calls3 {
+  display: flex;
+  gap: 14px;
+}
+
+.calls3 .step {
+  padding: 8px 16px;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.calls3 .s1 { background: var(--green); }
+.calls3 .s2 { background: var(--gold); }
+.calls3 .s3 { background: var(--teal); }
+
+/* Recap Cards */
+.recap .rc {
+  display: flex;
+  gap: 24px;
+  background: #fff;
+  border: 1.5px solid var(--card-border);
+  border-radius: 20px;
+  padding: 28px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.03);
+}
+
+.rc-n {
+  width: 56px;
+  height: 56px;
+  line-height: 56px;
+  background: var(--green);
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.rc-b b { font-size: 32px; display: block; margin-bottom: 6px; }
+.rc-b p { font-size: 26px; color: var(--ink-dim); }
+.rc-tag {
+  display: inline-block;
+  padding: 3px 10px;
+  background: #ede8df;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+/* Sponsor Scene */
+.sponsor {
+  position: absolute;
+  top: 500px;
+  left: 80px;
+  right: 80px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sp-logo img {
+  width: 180px;
+  height: auto;
+  margin-bottom: 30px;
+  filter: drop-shadow(0 12px 24px rgba(0,0,0,0.1));
+}
+
+.sp-tag { font-size: 36px; color: var(--ink-dim); margin-bottom: 12px; }
+.sp-name { font-size: 72px; font-weight: 700; color: var(--ink); margin-bottom: 20px; }
+.sp-sub { font-size: 34px; color: var(--ink-dim); max-width: 800px; line-height: 1.4; margin-bottom: 40px; }
+.sp-url {
+  font-size: 44px;
+  font-weight: 700;
+  color: var(--green);
+  padding: 16px 44px;
+  background: #fff;
+  border: 2px solid var(--green);
+  border-radius: 40px;
+  box-shadow: 0 8px 24px rgba(56, 129, 90, 0.15);
+}
+
+/* SVGs and Icons */
+.ico {
+  width: 28px;
+  height: 28px;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+.ico.big {
+  width: 44px;
+  height: 44px;
+}

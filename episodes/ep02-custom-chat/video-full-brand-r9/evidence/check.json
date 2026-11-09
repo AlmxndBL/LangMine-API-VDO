@@ -1,0 +1,1806 @@
+{
+  "issues": [
+    {
+      "level": "warn",
+      "scene": "b01_1",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b01_1",
+      "t": 0,
+      "message": "\"B01 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b01_1",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b01_1",
+      "t": 0,
+      "message": "\"ตรวจข้อความก่อนนำไปส่งให้ลูกค้า\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b01_1",
+      "t": 0.25,
+      "message": "\"team.example / assistant\" is 11.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b01_1",
+      "t": 0.25,
+      "message": "\"ร่างข้อความภาษาไทยสำหรับทีมขาย\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b01_1",
+      "t": 0.25,
+      "message": "\"พิมพ์ข้อความถึงผู้ช่วย…\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b01_1",
+      "t": 0.25,
+      "message": "\"ส่ง\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b01_2",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b01_2",
+      "t": 0,
+      "message": "\"B01 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b01_2",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b01_2",
+      "t": 0.75,
+      "message": "\"หน้าเว็บและส่วนเชื่อมต่อ เป็นส่วนที่เราพ\" is 14.6px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b02_1",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b02_1",
+      "t": 0,
+      "message": "\"B02 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b02_1",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b02_1",
+      "t": 0,
+      "message": "\"ตรวจข้อความก่อนนำไปส่งให้ลูกค้า\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b02_1",
+      "t": 0.25,
+      "message": "\"team.example / assistant\" is 11.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b02_1",
+      "t": 0.25,
+      "message": "\"ร่างข้อความภาษาไทยสำหรับทีมขาย\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b02_1",
+      "t": 0.25,
+      "message": "\"พิมพ์ข้อความถึงผู้ช่วย…\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b02_1",
+      "t": 0.25,
+      "message": "\"ส่ง\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b02_2",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b02_2",
+      "t": 0,
+      "message": "\"B02 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b02_2",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b02_2",
+      "t": 0,
+      "message": "\"ถามต่อในบทสนทนาเดิม\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b02_2",
+      "t": 0.25,
+      "message": "\"team.example / assistant\" is 11.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b02_2",
+      "t": 0.25,
+      "message": "\"ร่างข้อความภาษาไทยสำหรับทีมขาย\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b02_2",
+      "t": 0.25,
+      "message": "\"พิมพ์ข้อความถึงผู้ช่วย…\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b02_2",
+      "t": 0.25,
+      "message": "\"ส่ง\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b03_1",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b03_1",
+      "t": 0,
+      "message": "\"B03 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b03_1",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b03_1",
+      "t": 0,
+      "message": "\"หน้าเว็บ → server → Agent → คำตอบ\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b03_1",
+      "t": 0.25,
+      "message": "\"พิมพ์คำถาม · อ่านคำตอบ\" is 15.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b03_1",
+      "t": 3.75,
+      "message": "\"เก็บ key · เชื่อมต่อ API\" is 15.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b03_1",
+      "t": 7.75,
+      "message": "\"ผู้ช่วยที่ตั้งหน้าที่ไว้\" is 15.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b04_1",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b04_1",
+      "t": 0,
+      "message": "\"B04 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b04_1",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b04_1",
+      "t": 0,
+      "message": "\"Agent = ผู้ช่วยที่เราตั้งหน้าที่ไว้\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b04_2",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b04_2",
+      "t": 0,
+      "message": "\"B04 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b04_2",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b04_2",
+      "t": 0,
+      "message": "\"นำทั้งคู่ไปตั้งค่าฝั่ง server\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b04_2",
+      "t": 0.25,
+      "message": "\"เลือกผู้ช่วย\" is 15.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b04_2",
+      "t": 0.75,
+      "message": "\"ยืนยันสิทธิ์\" is 15.6px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_1",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_1",
+      "t": 0,
+      "message": "\"B05 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_1",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_1",
+      "t": 0,
+      "message": "\"ชื่อ key เป็นป้ายกำกับให้จำได้\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_1",
+      "t": 0.25,
+      "message": "\"LangMind · หน้าจอจำลอง\" is 11.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_1",
+      "t": 0.25,
+      "message": "\"สำหรับเว็บผู้ช่วยทีมขาย\" is 14.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_1",
+      "t": 0.25,
+      "message": "\"ชื่อ key\" is 9.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_1",
+      "t": 0.25,
+      "message": "\"อายุการใช้งาน\" is 9.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_1",
+      "t": 0.25,
+      "message": "\"กำหนดอายุ key\" is 14.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_1",
+      "t": 0.25,
+      "message": "\"สนทนากับ Agent\" is 14.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_1",
+      "t": 0.25,
+      "message": "\"สร้าง key\" is 14.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_1",
+      "t": 0.75,
+      "message": "\"เว\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_1",
+      "t": 1,
+      "message": "\"เว็บผ\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_1",
+      "t": 1.25,
+      "message": "\"เว็บผู้ช่\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_1",
+      "t": 1.5,
+      "message": "\"เว็บผู้ช่วย\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_1",
+      "t": 1.75,
+      "message": "\"เว็บผู้ช่วยทีมข\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_1",
+      "t": 2,
+      "message": "\"เว็บผู้ช่วยทีมขาย\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_2",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_2",
+      "t": 0,
+      "message": "\"B05 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_2",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_2",
+      "t": 0,
+      "message": "\"อายุ = ช่วงเวลาที่ key ใช้งานได้\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_2",
+      "t": 0.25,
+      "message": "\"LangMind · หน้าจอจำลอง\" is 11.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_2",
+      "t": 0.25,
+      "message": "\"สำหรับเว็บผู้ช่วยทีมขาย\" is 14.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_2",
+      "t": 0.25,
+      "message": "\"ชื่อ key\" is 9.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_2",
+      "t": 0.25,
+      "message": "\"เว็บผู้ช่วยทีมขาย\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_2",
+      "t": 0.25,
+      "message": "\"อายุการใช้งาน\" is 9.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_2",
+      "t": 0.25,
+      "message": "\"เลือกให้เหมาะกับการใช้งาน\" is 14.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_2",
+      "t": 0.25,
+      "message": "\"สนทนากับ Agent\" is 14.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_2",
+      "t": 0.25,
+      "message": "\"สร้าง key\" is 14.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_3",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_3",
+      "t": 0,
+      "message": "\"B05 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_3",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_3",
+      "t": 0,
+      "message": "\"ตัวอย่างแชทใช้ chat:invoke\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_3",
+      "t": 0.25,
+      "message": "\"LangMind · หน้าจอจำลอง\" is 11.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_3",
+      "t": 0.25,
+      "message": "\"สำหรับเว็บผู้ช่วยทีมขาย\" is 14.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_3",
+      "t": 0.25,
+      "message": "\"ชื่อ key\" is 9.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_3",
+      "t": 0.25,
+      "message": "\"เว็บผู้ช่วยทีมขาย\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_3",
+      "t": 0.25,
+      "message": "\"อายุการใช้งาน\" is 9.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_3",
+      "t": 0.25,
+      "message": "\"เลือกให้เหมาะกับการใช้งาน\" is 14.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_3",
+      "t": 0.25,
+      "message": "\"สนทนากับ Agent\" is 14.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_3",
+      "t": 0.25,
+      "message": "\"สร้าง key\" is 14.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_3",
+      "t": 7.25,
+      "message": "\"สร้างแล้ว\" is 14.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_4",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_4",
+      "t": 0,
+      "message": "\"B05 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_4",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_4",
+      "t": 0,
+      "message": "\"ฝั่ง server ของแอป\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_4",
+      "t": 0,
+      "message": "\"ภาพอธิบาย · ค่าจริงเก็บฝั่ง server\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b05_4",
+      "t": 0,
+      "message": "\"โค้ดเฉพาะส่วนเพื่ออธิบาย ไม่ใช่โปรเจกต์พ\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b06_1",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b06_1",
+      "t": 0,
+      "message": "\"B06 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b06_1",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b06_1",
+      "t": 0,
+      "message": "\"ฝั่ง server ของแอป\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b06_1",
+      "t": 0,
+      "message": "\"key ยืนยันสิทธิ์ · Agent ID เลือกผู้ช่วย\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b06_1",
+      "t": 0,
+      "message": "\"โค้ดเฉพาะส่วนเพื่ออธิบาย ไม่ใช่โปรเจกต์พ\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b06_2",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b06_2",
+      "t": 0,
+      "message": "\"B06 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b06_2",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b06_2",
+      "t": 0,
+      "message": "\"รหัสเลือกผู้ช่วย ไม่ใช่ key ยืนยันสิทธิ์\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b06_2",
+      "t": 0.25,
+      "message": "\"langmind.in.th/agents/<AGENT_ID>\" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b06_2",
+      "t": 0.25,
+      "message": "\"หน้าที่: ร่างข้อความไทยสุภาพ\" is 15.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b06_3",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b06_3",
+      "t": 0,
+      "message": "\"B06 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b06_3",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b06_3",
+      "t": 0,
+      "message": "\"ฝั่ง server ของแอป\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b06_3",
+      "t": 0,
+      "message": "\".env → ค่าตั้งต้น → โค้ด server\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b06_3",
+      "t": 0,
+      "message": "\"โค้ดเฉพาะส่วนเพื่ออธิบาย ไม่ใช่โปรเจกต์พ\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b07_1",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b07_1",
+      "t": 0,
+      "message": "\"B07 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b07_1",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b07_1",
+      "t": 0,
+      "message": "\"แอปเป็นผู้จัดการสถานะรอและกันส่งซ้ำ\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b07_1",
+      "t": 0.25,
+      "message": "\"team.example / assistant\" is 11.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b07_1",
+      "t": 0.25,
+      "message": "\"ร่างข้อความภาษาไทยสำหรับทีมขาย\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b07_1",
+      "t": 0.25,
+      "message": "\"ส่งแล้ว · รอคำตอบก่อนส่งข้อความใหม่\" is 13.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b07_1",
+      "t": 0.25,
+      "message": "\"รอคำตอบ…\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b07_1",
+      "t": 0.25,
+      "message": "\"รอ…\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b07_2",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b07_2",
+      "t": 0,
+      "message": "\"B07 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b07_2",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b07_2",
+      "t": 0,
+      "message": "\"หน้าเว็บของเรา\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b07_2",
+      "t": 0,
+      "message": "\"หน้าเว็บส่งข้อความให้ server ของแอป\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b07_2",
+      "t": 0,
+      "message": "\"โค้ดเฉพาะส่วนเพื่ออธิบาย ไม่ใช่โปรเจกต์พ\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b07_3",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b07_3",
+      "t": 0,
+      "message": "\"B07 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b07_3",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b07_3",
+      "t": 0,
+      "message": "\"หน้าเว็บ → server → Agent → คำตอบ\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b07_3",
+      "t": 0.25,
+      "message": "\"พิมพ์คำถาม · อ่านคำตอบ\" is 15.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b07_3",
+      "t": 0.5,
+      "message": "\"เก็บ key · เชื่อมต่อ API\" is 15.6px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b07_3",
+      "t": 0.75,
+      "message": "\"ผู้ช่วยที่ตั้งหน้าที่ไว้\" is 15.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b08_1",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b08_1",
+      "t": 0,
+      "message": "\"B08 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b08_1",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b08_1",
+      "t": 0,
+      "message": "\"ฝั่ง server ของแอป\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b08_1",
+      "t": 0,
+      "message": "\"endpoint ของ LangMind · รอคำตอบเต็ม\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b08_1",
+      "t": 0,
+      "message": "\"โค้ดเฉพาะส่วนเพื่ออธิบาย ไม่ใช่โปรเจกต์พ\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b08_2",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b08_2",
+      "t": 0,
+      "message": "\"B08 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b08_2",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b08_2",
+      "t": 0,
+      "message": "\"ฝั่ง server ของแอป\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b08_2",
+      "t": 0,
+      "message": "\"JSON = ข้อมูลที่เขียนเป็นชื่อช่องกับค่า\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b08_2",
+      "t": 0,
+      "message": "\"โค้ดเฉพาะส่วนเพื่ออธิบาย ไม่ใช่โปรเจกต์พ\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b08_3",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b08_3",
+      "t": 0,
+      "message": "\"B08 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b08_3",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b08_3",
+      "t": 0,
+      "message": "\"ฝั่ง server ของแอป\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b08_3",
+      "t": 0,
+      "message": "\"ครั้งแรกยังไม่มีรหัสบทสนทนา\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b08_3",
+      "t": 0,
+      "message": "\"โค้ดเฉพาะส่วนเพื่ออธิบาย ไม่ใช่โปรเจกต์พ\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b09_1",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b09_1",
+      "t": 0,
+      "message": "\"B09 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b09_1",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b09_1",
+      "t": 0,
+      "message": "\"ฝั่ง server ของแอป\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b09_1",
+      "t": 0,
+      "message": "\"ภาพย่อเพื่ออธิบาย · key อ่านจากฝั่ง serv\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b09_1",
+      "t": 0,
+      "message": "\"โค้ดเฉพาะส่วนเพื่ออธิบาย ไม่ใช่โปรเจกต์พ\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b09_2",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b09_2",
+      "t": 0,
+      "message": "\"B09 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b09_2",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b09_2",
+      "t": 0,
+      "message": "\"ฝั่ง server ของแอป\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b09_2",
+      "t": 0,
+      "message": "\"เลือกผู้ช่วย + คำถาม + รหัสบทสนทนา\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b09_2",
+      "t": 0,
+      "message": "\"โค้ดเฉพาะส่วนเพื่ออธิบาย ไม่ใช่โปรเจกต์พ\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b09_3",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b09_3",
+      "t": 0,
+      "message": "\"B09 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b09_3",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b09_3",
+      "t": 0,
+      "message": "\"ฝั่ง server ของแอป\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b09_3",
+      "t": 0,
+      "message": "\"ข้อผิดพลาดต้องแยกจากคำตอบของผู้ช่วย\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b09_3",
+      "t": 0,
+      "message": "\"โค้ดเฉพาะส่วนเพื่ออธิบาย ไม่ใช่โปรเจกต์พ\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b10_1",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b10_1",
+      "t": 0,
+      "message": "\"B10 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b10_1",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b10_1",
+      "t": 0,
+      "message": "\"ฝั่ง server ของแอป\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b10_1",
+      "t": 0,
+      "message": "\"answer → แชท · conversation_id → server\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b10_1",
+      "t": 0,
+      "message": "\"โค้ดเฉพาะส่วนเพื่ออธิบาย ไม่ใช่โปรเจกต์พ\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b10_2",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b10_2",
+      "t": 0,
+      "message": "\"B10 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b10_2",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b10_2",
+      "t": 0,
+      "message": "\"ตรวจข้อความก่อนนำไปส่งให้ลูกค้า\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b10_2",
+      "t": 0.25,
+      "message": "\"team.example / assistant\" is 11.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b10_2",
+      "t": 0.25,
+      "message": "\"ร่างข้อความภาษาไทยสำหรับทีมขาย\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b10_2",
+      "t": 0.25,
+      "message": "\"พิมพ์ข้อความถึงผู้ช่วย…\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b10_2",
+      "t": 0.25,
+      "message": "\"ส่ง\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b11_1",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b11_1",
+      "t": 0,
+      "message": "\"B11 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b11_1",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b11_1",
+      "t": 0,
+      "message": "\"แอปเป็นผู้จัดการสถานะรอและกันส่งซ้ำ\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b11_1",
+      "t": 0.25,
+      "message": "\"team.example / assistant\" is 11.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b11_1",
+      "t": 0.25,
+      "message": "\"ร่างข้อความภาษาไทยสำหรับทีมขาย\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b11_1",
+      "t": 0.25,
+      "message": "\"ส่งแล้ว · รอคำตอบก่อนส่งข้อความใหม่\" is 13.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b11_1",
+      "t": 0.25,
+      "message": "\"รอคำตอบ…\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b11_1",
+      "t": 0.25,
+      "message": "\"รอ…\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b11_2",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b11_2",
+      "t": 0,
+      "message": "\"B11 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b11_2",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b11_2",
+      "t": 0,
+      "message": "\"เก็บข้อความไว้ เพื่อให้ผู้ใช้ลองใหม่ได้\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b11_2",
+      "t": 0.25,
+      "message": "\"team.example / assistant\" is 11.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b11_2",
+      "t": 0.25,
+      "message": "\"ร่างข้อความภาษาไทยสำหรับทีมขาย\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b11_2",
+      "t": 0.25,
+      "message": "\"ข้อความยังอยู่ ลองส่งอีกครั้งได้\" is 14.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b11_2",
+      "t": 0.25,
+      "message": "\"ลองใหม่\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b11_2",
+      "t": 0.25,
+      "message": "\"ช่วยเขียนข้อความแจ้งลูกค้าว่าสินค้าส่งช้\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b11_2",
+      "t": 0.25,
+      "message": "\"ส่ง\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b12_1",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b12_1",
+      "t": 0,
+      "message": "\"B12 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b12_1",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b12_1",
+      "t": 0,
+      "message": "\"ตรวจข้อความก่อนนำไปส่งให้ลูกค้า\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b12_1",
+      "t": 0.25,
+      "message": "\"team.example / assistant\" is 11.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b12_1",
+      "t": 0.25,
+      "message": "\"ร่างข้อความภาษาไทยสำหรับทีมขาย\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b12_1",
+      "t": 0.25,
+      "message": "\"พิมพ์ข้อความถึงผู้ช่วย…\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b12_1",
+      "t": 0.25,
+      "message": "\"ส่ง\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b12_2",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b12_2",
+      "t": 0,
+      "message": "\"B12 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b12_2",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b12_2",
+      "t": 6.25,
+      "message": "\"conversation_id อย่างเดียวไม่ใช่สิทธิ์เข\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b12_3",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b12_3",
+      "t": 0,
+      "message": "\"B12 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b12_3",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b12_3",
+      "t": 0,
+      "message": "\"ถามต่อในบทสนทนาเดิม\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b12_3",
+      "t": 0.25,
+      "message": "\"team.example / assistant\" is 11.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b12_3",
+      "t": 0.25,
+      "message": "\"ร่างข้อความภาษาไทยสำหรับทีมขาย\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b12_3",
+      "t": 0.25,
+      "message": "\"พิมพ์ข้อความถึงผู้ช่วย…\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b12_3",
+      "t": 0.25,
+      "message": "\"ส่ง\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b13_1",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b13_1",
+      "t": 0,
+      "message": "\"B13 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b13_1",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b13_1",
+      "t": 0,
+      "message": "\"แอปเป็นผู้จัดการสถานะรอและกันส่งซ้ำ\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b13_1",
+      "t": 0.25,
+      "message": "\"team.example / assistant\" is 11.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b13_1",
+      "t": 0.25,
+      "message": "\"ร่างข้อความภาษาไทยสำหรับทีมขาย\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b13_1",
+      "t": 0.25,
+      "message": "\"ส่งแล้ว · รอคำตอบก่อนส่งข้อความใหม่\" is 13.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b13_1",
+      "t": 0.25,
+      "message": "\"รอคำตอบ…\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b13_1",
+      "t": 0.25,
+      "message": "\"รอ…\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b13_2",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b13_2",
+      "t": 0,
+      "message": "\"B13 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b13_2",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b13_2",
+      "t": 0,
+      "message": "\"ต้องพัฒนาเพิ่มทั้งสองฝั่ง\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b13_2",
+      "t": 0.25,
+      "message": "\"ปรับส่วนรับข้อมูล\" is 15.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b13_2",
+      "t": 0.75,
+      "message": "\"ปรับการแสดงผล\" is 15.6px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b14_1",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b14_1",
+      "t": 0,
+      "message": "\"B14 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b14_1",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b14_1",
+      "t": 0,
+      "message": "\"การจัดหน้าจอแต่ละอุปกรณ์ เป็นส่วนที่เราพ\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b14_1",
+      "t": 0.25,
+      "message": "\"พิมพ์ข้อความ…\" is 11.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b14_1",
+      "t": 0.75,
+      "message": "\"แชท\" is 15.1px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b14_1",
+      "t": 0.75,
+      "message": "\"แก้ข้อความ\" is 14.1px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b14_2",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b14_2",
+      "t": 0,
+      "message": "\"B14 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b14_2",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b14_2",
+      "t": 0,
+      "message": "\"คุยกับ Agent เดิม และเพิ่มเครื่องมือให้เ\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b14_2",
+      "t": 0.25,
+      "message": "\"team.example / workspace\" is 11.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b14_2",
+      "t": 0.25,
+      "message": "\"ขออภัยที่จัดส่งล่าช้าค่ะ\" is 15.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b14_2",
+      "t": 0.25,
+      "message": "\"ร้านกำลังติดตามและจะแจ้งความคืบหน้าค่ะ\" is 15.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b15_1",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b15_1",
+      "t": 0,
+      "message": "\"B15 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b15_1",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b15_1",
+      "t": 0,
+      "message": "\"ส่วนต่อยอดต้องเตรียมและพัฒนาเพิ่ม\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b15_1",
+      "t": 0.25,
+      "message": "\"หน้าที่และน้ำเสียง\" is 15.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b15_1",
+      "t": 0.75,
+      "message": "\"FAQ และคู่มือ\" is 15.6px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b15_1",
+      "t": 1,
+      "message": "\"เพิ่มเครื่องมือและตรวจสิทธิ์\" is 15.6px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b15_2",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b15_2",
+      "t": 0,
+      "message": "\"B15 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b15_2",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b15_2",
+      "t": 0,
+      "message": "\"หน้าเว็บ → server → Agent → คำตอบ\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b15_2",
+      "t": 0.25,
+      "message": "\"พิมพ์คำถาม · อ่านคำตอบ\" is 15.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b15_2",
+      "t": 1,
+      "message": "\"เก็บ key · เชื่อมต่อ API\" is 15.6px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b15_2",
+      "t": 1.5,
+      "message": "\"ผู้ช่วยที่ตั้งหน้าที่ไว้\" is 15.6px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b15_3",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b15_3",
+      "t": 0,
+      "message": "\"B15 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b15_3",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b15_3",
+      "t": 0.75,
+      "message": "\"หน้าเว็บและส่วนเชื่อมต่อ เป็นส่วนที่เราพ\" is 14.6px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b16_1",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b16_1",
+      "t": 0,
+      "message": "\"B16 / 16\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "b16_1",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ไม่ใช่ผลเรียก API \" is 12.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "hint",
+      "scene": "b01_1",
+      "t": 0,
+      "message": "no new element for 9.3s (from 0.0s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b01_2",
+      "t": 0.3,
+      "message": "no new element for 10.8s (from 0.3s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b02_1",
+      "t": 0,
+      "message": "no new element for 8.2s (from 0.0s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b02_2",
+      "t": 0,
+      "message": "no new element for 7.1s (from 0.0s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b03_1",
+      "t": 7.5,
+      "message": "no new element for 13.7s (from 7.5s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b04_1",
+      "t": 0.35,
+      "message": "no new element for 6.7s (from 0.3s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b04_2",
+      "t": 0.35,
+      "message": "no new element for 12.3s (from 0.3s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b06_1",
+      "t": 0,
+      "message": "no new element for 8.5s (from 0.0s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b06_2",
+      "t": 0.2,
+      "message": "no new element for 12.7s (from 0.2s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b06_3",
+      "t": 0,
+      "message": "no new element for 6.6s (from 0.0s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b07_2",
+      "t": 0,
+      "message": "no new element for 9.6s (from 0.0s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b07_3",
+      "t": 0.5,
+      "message": "no new element for 6.6s (from 0.5s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b08_1",
+      "t": 0,
+      "message": "no new element for 7.8s (from 0.0s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b08_2",
+      "t": 0,
+      "message": "no new element for 8.1s (from 0.0s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b08_3",
+      "t": 0,
+      "message": "no new element for 9.2s (from 0.0s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b09_3",
+      "t": 0,
+      "message": "no new element for 8.4s (from 0.0s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b10_1",
+      "t": 0,
+      "message": "no new element for 9.6s (from 0.0s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b10_2",
+      "t": 0,
+      "message": "no new element for 8.5s (from 0.0s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b11_1",
+      "t": 0,
+      "message": "no new element for 6.5s (from 0.0s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b11_2",
+      "t": 0,
+      "message": "no new element for 6.4s (from 0.0s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b12_2",
+      "t": 6,
+      "message": "no new element for 8.9s (from 6.0s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b12_3",
+      "t": 0,
+      "message": "no new element for 7.0s (from 0.0s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b13_2",
+      "t": 0.35,
+      "message": "no new element for 6.1s (from 0.3s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b14_2",
+      "t": 0,
+      "message": "no new element for 10.9s (from 0.0s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b15_1",
+      "t": 0.7,
+      "message": "no new element for 11.6s (from 0.7s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b15_2",
+      "t": 1.2,
+      "message": "no new element for 7.1s (from 1.2s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b15_3",
+      "t": 0.3,
+      "message": "no new element for 6.2s (from 0.3s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "b16_1",
+      "t": 0.2,
+      "message": "no new element for 6.6s (from 0.2s); consider revealing something on a cue in that stretch"
+    }
+  ],
+  "duration": 310.5,
+  "scenes": 38
+}

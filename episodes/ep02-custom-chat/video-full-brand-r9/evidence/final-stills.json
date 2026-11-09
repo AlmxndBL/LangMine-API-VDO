@@ -1,0 +1,24 @@
+{
+  "stills": [
+    {
+      "time": 0,
+      "label": "t0.00",
+      "file": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\video-full-brand-r9\\out\\stills\\t0.00.png"
+    },
+    {
+      "time": 131,
+      "label": "t131.00",
+      "file": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\video-full-brand-r9\\out\\stills\\t131.00.png"
+    },
+    {
+      "time": 263,
+      "label": "t263.00",
+      "file": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\video-full-brand-r9\\out\\stills\\t263.00.png"
+    },
+    {
+      "time": 307,
+      "label": "t307.00",
+      "file": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\video-full-brand-r9\\out\\stills\\t307.00.png"
+    }
+  ]
+}

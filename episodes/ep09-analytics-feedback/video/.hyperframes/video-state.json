@@ -1,0 +1,211 @@
+{
+  "version": 1,
+  "historyId": "c468c8c8-d4de-4763-8d82-59103e4ff740",
+  "currentRevision": "7176c39a-8569-4c7a-8834-2d88129e2a44",
+  "pendingChanges": false,
+  "files": {
+    "VOICE-SCRIPT.md": {
+      "hash": "9d1a1a4c7d743791fb49abdbf629fcdefc6d7e6e927e1a74d412917c40dfb1e1",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\c468c8c8-d4de-4763-8d82-59103e4ff740\\blobs\\9d\\9d1a1a4c7d743791fb49abdbf629fcdefc6d7e6e927e1a74d412917c40dfb1e1"
+    },
+    "assets/01-question.png": {
+      "hash": "c7d8bbe30cbc7ecbaf439b499ed35c4c2cb9dead8144dd08fcb84445065a5085",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\c468c8c8-d4de-4763-8d82-59103e4ff740\\blobs\\c7\\c7d8bbe30cbc7ecbaf439b499ed35c4c2cb9dead8144dd08fcb84445065a5085"
+    },
+    "assets/10-thumbs-up.png": {
+      "hash": "a12f374f8b804ab812c185f2191ec19b736cfea8466bae947a54926f4764cb17",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\c468c8c8-d4de-4763-8d82-59103e4ff740\\blobs\\a1\\a12f374f8b804ab812c185f2191ec19b736cfea8466bae947a54926f4764cb17"
+    },
+    "assets/11-reading.png": {
+      "hash": "19aa8a5a05ed18c626ff971252f56650d72fd2bbc00d4e9d75e5742fc871dd98",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\c468c8c8-d4de-4763-8d82-59103e4ff740\\blobs\\19\\19aa8a5a05ed18c626ff971252f56650d72fd2bbc00d4e9d75e5742fc871dd98"
+    },
+    "assets/14-heart.png": {
+      "hash": "88672eda8493cef66562410039bdd84b61cb7e0bfdfe955ebaabbc2637032afc",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\c468c8c8-d4de-4763-8d82-59103e4ff740\\blobs\\88\\88672eda8493cef66562410039bdd84b61cb7e0bfdfe955ebaabbc2637032afc"
+    },
+    "assets/fonts/Sarabun-Bold.ttf": {
+      "hash": "d38308ca27d067b9a1b79006337c1f9a66c29aa016d96a9d88d3801da7fa83b9",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\c468c8c8-d4de-4763-8d82-59103e4ff740\\blobs\\d3\\d38308ca27d067b9a1b79006337c1f9a66c29aa016d96a9d88d3801da7fa83b9"
+    },
+    "assets/fonts/Sarabun-Regular.ttf": {
+      "hash": "226d4f368fbc0457990ddef2692679badfd2c1a4e89e5ac4d43c10ba7743b2f1",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\c468c8c8-d4de-4763-8d82-59103e4ff740\\blobs\\22\\226d4f368fbc0457990ddef2692679badfd2c1a4e89e5ac4d43c10ba7743b2f1"
+    },
+    "assets/gsap.min.js": {
+      "hash": "fd6978c80858a3036c39b4e53b5a6f9385d759d43283e6b1de89237e5640d85f",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\c468c8c8-d4de-4763-8d82-59103e4ff740\\blobs\\fd\\fd6978c80858a3036c39b4e53b5a6f9385d759d43283e6b1de89237e5640d85f"
+    },
+    "assets/langmind-logo.png": {
+      "hash": "025dbb6064076ac724f42009635e715f985a3d2df8abfa374a8fcec398979c49",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\c468c8c8-d4de-4763-8d82-59103e4ff740\\blobs\\02\\025dbb6064076ac724f42009635e715f985a3d2df8abfa374a8fcec398979c49"
+    },
+    "build.mjs": {
+      "hash": "661bc5d31d9e6bc63b026894b6e77365ff2a31dd1038f6fe3495f81700bbcf46",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\c468c8c8-d4de-4763-8d82-59103e4ff740\\blobs\\66\\661bc5d31d9e6bc63b026894b6e77365ff2a31dd1038f6fe3495f81700bbcf46"
+    },
+    "index.html": {
+      "hash": "bf92c7fb1362d60bcb492990f1da298eeea57c081cdf52601b93f6ac351273d4",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\c468c8c8-d4de-4763-8d82-59103e4ff740\\blobs\\bf\\bf92c7fb1362d60bcb492990f1da298eeea57c081cdf52601b93f6ac351273d4"
+    },
+    "motion.js": {
+      "hash": "3cab4da878669c7fa8b202008deb410b7d5534b1e892b8206da2769691dfe66a",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\c468c8c8-d4de-4763-8d82-59103e4ff740\\blobs\\3c\\3cab4da878669c7fa8b202008deb410b7d5534b1e892b8206da2769691dfe66a"
+    },
+    "style.css": {
+      "hash": "f5999e07ba1054f12e74c32cb9a93e5883f32cf6f93b883eeadce021191eca3c",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\c468c8c8-d4de-4763-8d82-59103e4ff740\\blobs\\f5\\f5999e07ba1054f12e74c32cb9a93e5883f32cf6f93b883eeadce021191eca3c"
+    },
+    "timing.json": {
+      "hash": "c0d1d13354ef58070c2a9dcb2c0ef019493734b12e92f35081ed113a6f421fe5",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\c468c8c8-d4de-4763-8d82-59103e4ff740\\blobs\\c0\\c0d1d13354ef58070c2a9dcb2c0ef019493734b12e92f35081ed113a6f421fe5"
+    },
+    "assets/app-analytics-dashboard.jpg": {
+      "hash": "10f4fa15232f2ef7345a7f6189a77d3d6d10717585e13ac0db74585fab627752",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\c468c8c8-d4de-4763-8d82-59103e4ff740\\blobs\\10\\10f4fa15232f2ef7345a7f6189a77d3d6d10717585e13ac0db74585fab627752"
+    },
+    "assets/app-chat-feedback.jpg": {
+      "hash": "17826180061c09dc9cf00e4e06629c7d53b8c6552f58f3ff233c2a7de174a068",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\c468c8c8-d4de-4763-8d82-59103e4ff740\\blobs\\17\\17826180061c09dc9cf00e4e06629c7d53b8c6552f58f3ff233c2a7de174a068"
+    },
+    "SILENT-TIMING.md": {
+      "hash": "26b63ccdac3c61b3b9c3c13994fec6148c75cae3532a2d867447fed65e4a1169",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\c468c8c8-d4de-4763-8d82-59103e4ff740\\blobs\\26\\26b63ccdac3c61b3b9c3c13994fec6148c75cae3532a2d867447fed65e4a1169"
+    },
+    "REVIEW.md": {
+      "hash": "7a14dd230480c6ec087566f12d62117b399db5fab366ecf77de3a92f172d6932",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\c468c8c8-d4de-4763-8d82-59103e4ff740\\blobs\\7a\\7a14dd230480c6ec087566f12d62117b399db5fab366ecf77de3a92f172d6932"
+    }
+  },
+  "revisions": {
+    "9c0b9d33-6bfe-48c6-9180-909c6e7aaec2": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794209218166,
+      "endedAt": 1794209218181,
+      "files": {
+        "build.mjs": {
+          "before": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\c468c8c8-d4de-4763-8d82-59103e4ff740\\blobs\\f7\\f75df90c109a0e60caafaf5e3088bae3e0edb7a9622a1f598a5edd3f137d5a07",
+          "after": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\c468c8c8-d4de-4763-8d82-59103e4ff740\\blobs\\66\\661bc5d31d9e6bc63b026894b6e77365ff2a31dd1038f6fe3495f81700bbcf46"
+        },
+        "index.html": {
+          "before": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\c468c8c8-d4de-4763-8d82-59103e4ff740\\blobs\\4b\\4b25b3c85c2809aae5f29a31be250275c2d0c43698d0b07aa8273d1d9c005abe",
+          "after": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\c468c8c8-d4de-4763-8d82-59103e4ff740\\blobs\\bf\\bf92c7fb1362d60bcb492990f1da298eeea57c081cdf52601b93f6ac351273d4"
+        }
+      }
+    },
+    "7176c39a-8569-4c7a-8834-2d88129e2a44": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794209689782,
+      "endedAt": 1794209689787,
+      "files": {
+        "REVIEW.md": {
+          "before": null,
+          "after": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\c468c8c8-d4de-4763-8d82-59103e4ff740\\blobs\\7a\\7a14dd230480c6ec087566f12d62117b399db5fab366ecf77de3a92f172d6932"
+        },
+        "SILENT-TIMING.md": {
+          "before": null,
+          "after": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\c468c8c8-d4de-4763-8d82-59103e4ff740\\blobs\\26\\26b63ccdac3c61b3b9c3c13994fec6148c75cae3532a2d867447fed65e4a1169"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "25758e28-972a-4882-89b0-d2f8aa5a1cd9"
+    },
+    "revisions": {
+      "9c0b9d33-6bfe-48c6-9180-909c6e7aaec2": [
+        {
+          "id": "4a34ce1f-83cc-43ca-81a8-87aa585f093a",
+          "scope": "project",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": true,
+              "strict": false,
+              "snapshots": false,
+              "browserGpuMode": "auto",
+              "includeUnmounted": false
+            }
+          },
+          "createdAt": 1794209257699,
+          "contentHash": "7f0e995afceb3d0bb93b912b18e860a687487778d801f2d46b38f1c071452358",
+          "revision": "9c0b9d33-6bfe-48c6-9180-909c6e7aaec2",
+          "inputFingerprint": "3302259451e71c025b9c5bb3cb65cfd69ccbbc9395f5f8a8c8309ae803f4b46b",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision",
+          "status": "cleaned",
+          "cleanedAfterRender": "8296a521-381a-4d00-96fa-659f5d1452e6"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "id": "25758e28-972a-4882-89b0-d2f8aa5a1cd9",
+        "scope": "project",
+        "report": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep09-analytics-feedback\\video\\.hyperframes\\artifacts\\checks\\25758e28-972a-4882-89b0-d2f8aa5a1cd9.json",
+        "metadata": {
+          "ok": false,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "cache": true,
+            "contrast": true,
+            "craft": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto",
+            "includeUnmounted": false
+          }
+        },
+        "createdAt": 1794209171907,
+        "contentHash": "19f9759bf08de5adacca3f04c34216b4c0a8186cc1f0f811b0fb471c10edacf7",
+        "revision": null,
+        "inputFingerprint": "fafa78191f71e1dc293242b5d357f254fd9b8716e011b2ddf6b6eb2a7f72395c",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "8296a521-381a-4d00-96fa-659f5d1452e6",
+      "completedAt": 1794209913271,
+      "output": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep09-analytics-feedback\\video\\ep09-analytics-feedback-silent.mp4",
+      "status": "completed",
+      "revision": "7176c39a-8569-4c7a-8834-2d88129e2a44"
+    },
+    "retainedRevisions": [
+      "7176c39a-8569-4c7a-8834-2d88129e2a44"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}

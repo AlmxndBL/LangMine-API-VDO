@@ -1,0 +1,24 @@
+import './build.mjs';
+import fs from 'node:fs';
+const root=new URL('./',import.meta.url);
+const get=p=>fs.readFileSync(new URL(p,root),'utf8');
+const put=(p,s)=>fs.writeFileSync(new URL(p,root),s);
+const paper=`background-color:#f3e6c7!important;background-image:linear-gradient(#7394b94d 2px,transparent 2px),linear-gradient(90deg,#7394b92b 1px,transparent 1px)!important;background-size:72px 72px!important;`;
+let html=get('index.html');
+html=html.replace('</style>',`#root{${paper}--bg:#f3e6c7}.caption{top:1620px;font:700 52px/1.45 Sarabun;color:#202326;width:850px;left:115px}.caption span{display:inline;background:#ffe46d;border:3px solid #202326;border-radius:12px;padding:9px 18px;box-shadow:5px 6px 0 #fff;box-decoration-break:clone;-webkit-box-decoration-break:clone}.caption:nth-child(3n) span{background:#fffaf0}.robot-action{width:290px;height:330px;object-fit:contain}.label{background:#ffe46d}</style>`);
+html=html.replace(/<div id="sub\d+"[\s\S]*?<\/div>/g,'');
+const source=JSON.parse(get('../video-full-r3/evidence/corrected-captions.json')).filter(c=>c.beat==='B03');
+const segmenter=new Intl.Segmenter('th',{granularity:'word'});
+const cues=[];
+for(const c of source){let parts=[],group='';for(const w of segmenter.segment(c.text)){if(group.length+w.segment.length>30&&group){parts.push(group.trim());group='';}group+=w.segment;}if(group.trim())parts.push(group.trim());let offset=0;const n=parts.reduce((n,p)=>n+p.length,0);for(const text of parts){const start=c.start+(c.end-c.start)*offset/n;offset+=text.length;const end=c.start+(c.end-c.start)*offset/n;cues.push({text,start,end});}}
+html=html.replace('<div class="clip" id="sim"',cues.map((c,i)=>`<div id="sub${i}" class="clip caption" data-start="${c.start}" data-duration="${c.end-c.start}"><span>${c.text}</span></div>`).join('')+'<div class="clip" id="sim"');
+html=html.replace(/<div id="robot"[\s\S]*?<\/div>/,'');
+const poses=[['guide',0,4.1,'05-point-up.png',65,720],['server',4.1,3.4,'05-point-up.png',755,1030],['agent',7.5,6,'04-open-arms.png',670,1250],['success',13.5,4,'10-thumbs-up.png',735,1310],['recap',17.5,2.75,'12-clipboard.png',755,1100],['bye',20.25,6.75,'09-wai.png',700,1290]];
+html=html.replace('<audio id="voice"',poses.map(([id,start,duration,file,left,top])=>`<div id="robot-${id}" class="clip" data-start="${start}" data-duration="${duration}" style="left:${left}px;top:${top}px;z-index:9"><img class="robot-action" src="assets/${file}" width="290" height="330" alt="Robot ${id}"></div>`).join('')+'<audio id="voice"');
+html=html.replace('window.__timelines=window.__timelines||{};',poses.map(([id,start])=>`tl.fromTo('#robot-${id} img',{opacity:0,x:25,scale:.92},{opacity:1,x:0,scale:1,duration:.3,ease:'power2.out'},${start});`).join('')+"tl.to('#robot-guide img',{y:-24,duration:.45,yoyo:true,repeat:1},2.2);tl.to('#robot-success img',{rotation:6,duration:.2,yoyo:true,repeat:1},14.1);window.__timelines=window.__timelines||{};");
+html=html.replace('</style>','.caption{font-size:48px}.caption span{display:inline-block;max-width:850px;text-wrap:balance}.paper-grid{position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(#7394b94d 2px,transparent 2px),linear-gradient(90deg,#7394b92b 1px,transparent 1px);background-size:72px 72px}</style>').replace('<div id="hook"','<div class="clip paper-grid" id="paper-grid" data-start="0" data-duration="20.25"></div><div id="hook"');
+put('index.html',html);put('captions.json',JSON.stringify(cues,null,2));
+let chat=get('compositions/chat-payoff.html');chat=chat.replace('</style>',`#root{${paper}}</style>`);put('compositions/chat-payoff.html',chat);
+let logo=get('compositions/components/logo-brand-close.html');logo=logo.replace('</style>',`.lbc-clip{${paper}}</style>`);put('compositions/components/logo-brand-close.html',logo);
+let config=JSON.parse(get('explainroo/video.json'));config.theme='notebook.json';put('explainroo/video.json',JSON.stringify(config,null,2));
+console.log('r6: notebook background, short sticker captions, six robot cues; audio unchanged');

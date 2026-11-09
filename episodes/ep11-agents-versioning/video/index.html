@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<title>EP11 · Agents &amp; Versioning API</title>
+<link rel="stylesheet" href="style.css">
+<script src="assets/gsap.min.js"></script>
+</head>
+<body>
+<main id="film" data-composition-id="ep11-agents-versioning" data-width="1080" data-height="1920" data-fps="30" data-duration="233.13333333333333">
+  <div class="kicker">EP11 &nbsp;/&nbsp; AGENTS &amp; VERSIONING</div>
+  <div class="note">ภาพจำลอง</div>
+  <section id="stage" class="clip" data-start="0" data-duration="233.13333333333333" data-track-index="1">
+    <div class="spine"><span id="sp1" class="pill">1 เตรียม</span><i></i><span id="sp2" class="pill">2 เชื่อม</span><i></i><span id="sp3" class="pill">3 ใช้ผล</span></div>
+    <section class="scene" id="sc-b1">
+    <h1 class="heading">จัดการเวอร์ชัน Agent<small>ปรับ Prompt · แยก Draft · Rollback</small></h1>
+    <div class="place" style="left:242px;top:350px">
+  <div class="device" id="dev-b1" style="width:596px">
+    <div class="screen" style="width:580px;height:725px">
+      <img src="assets/app-agent-draft.jpg" width="1440" height="1800" alt="หน้าจอจัดการเวอร์ชัน Agent (ภาพจำลอง)" data-layout-allow-overflow style="width:580px">
+      <img class="img-a" src="assets/app-agent-publish.jpg" width="1440" height="1800" alt="หน้าจอสลับเป็นเวอร์ชันเผยแพร่จริง (ภาพจำลอง)" data-layout-allow-overflow style="width:580px">
+    </div>
+  </div></div>
+    <div class="wave-label" style="top:1130px">
+      <span id="wl-b1-1" data-in="0" data-at="0.3" data-anim="up">กำลังใช้งานจริง (v1) ⇄ ฉบับร่าง (v2)</span>
+      <span id="wl-b1-2" data-in="1" data-at="0.4" data-anim="up">ตรวจร่างมั่นใจก่อน Publish · Rollback ได้ทันที</span>
+    </div>
+    <div class="qrow" style="top:1230px">
+      <span class="qchip" data-in="2" data-at="0.3" data-anim="pop">เตรียมอะไร?</span>
+      <span class="qchip" data-in="2" data-at="0.8" data-anim="pop">เชื่อมตรงไหน?</span>
+      <span class="qchip" data-in="2" data-at="1.3" data-anim="pop">ใช้ผลยังไง?</span>
+    </div>
+    <img class="robot" src="assets/06-thinking.png" width="456" height="503" alt="" style="left:780px;top:1000px;width:220px" data-in="0" data-at="0.5" data-anim="up"></section>
+<section class="scene" id="sc-b2">
+    <h1 class="heading">ภาพรวม<small>แยก Published ออกจาก Draft</small></h1>
+    <div class="node wide" style="top:390px" data-in="0" data-at="0.2" data-anim="up"><svg class="ico big" viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg><div><b>สคริปต์หลังบ้าน / CI-CD</b><span>ควบคุมการอัปเดตรุ่นของ Agent</span></div><span class="badge haskey" data-in="0" data-at="0.8" data-anim="pop"><svg class="ico " viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg>Key</span></div>
+    <div class="lane small" style="top:550px">
+      <div class="lane-l" data-in="0" data-at="0.6" data-anim="left"><b>สร้าง / แก้ร่าง</b></div>
+      <svg class="varrow" data-in="0" data-at="0.5" data-anim="up" viewBox="0 0 60 130" style="height:130px"><path pathLength="1" d="M30 6 V116 M14 102 L30 120 L46 102"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="108"/></svg>
+      <svg class="varrow up" data-in="0" data-at="0.8" data-anim="up" viewBox="0 0 60 130" style="height:130px"><path pathLength="1" d="M30 6 V116 M14 102 L30 120 L46 102"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="108"/></svg>
+      <div class="lane-r" data-in="0" data-at="0.9" data-anim="up"><b>Publish / Rollback</b></div>
+    </div>
+    <div class="node wide lm" style="top:690px" data-in="0" data-at="1" data-anim="up"><img src="assets/langmind-logo.png" width="689" height="606" alt="LangMind"><div><b>LangMind Agents API</b><span>แยก Published v1 ออกจาก Draft v2</span></div></div>
+    <div class="lane small" style="top:870px">
+      <div class="calls3" data-in="2" data-at="0.2" data-anim="up">
+        <span class="step s1" data-in="2" data-at="0.4" data-anim="pop">1 create v1</span>
+        <span class="step s2" data-in="2" data-at="0.8" data-anim="pop">2 draft v2</span>
+        <span class="step s3" data-in="2" data-at="1.2" data-anim="pop">3 publish/rollback</span>
+      </div>
+      <svg class="varrow" data-in="1" data-at="0.6" data-anim="up" viewBox="0 0 60 140" style="height:140px"><path pathLength="1" d="M30 6 V126 M14 112 L30 130 L46 112"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="118"/></svg>
+      <svg class="varrow up" data-in="1" data-at="0.9" data-anim="up" viewBox="0 0 60 140" style="height:140px"><path pathLength="1" d="M30 6 V126 M14 112 L30 130 L46 112"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="118"/></svg>
+      <div class="lane-r" data-in="1" data-at="1" data-anim="up"><b>สนทนาเฉพาะ v ที่ publish</b></div>
+    </div>
+    <div class="node wide" style="top:1030px" data-in="1" data-at="0.2" data-anim="up"><svg class="ico big" viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg><div><b>ลูกค้าและผู้ใช้จริง</b><span>คุยปลอดภัย ไม่กระทบระหว่างแก้</span></div></div></section>
+<section class="scene" id="sc-b3">
+    <h1 class="heading"><span class="num">1</span>เตรียม<small>ต้องมี 3 อย่าง</small></h1>
+    <div class="stack" style="top:390px">
+      <div class="card" data-in="0" data-at="0.3" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 3.5V7M9 12.5h.01M15 12.5h.01M9.5 16h5"/></svg><div><b>LLM Credential บนเว็บ</b><span>ตั้งค่า API Key ของโมเดลให้พร้อม</span></div></div>
+        <div class="chips"><span class="chip"><svg class="ico " viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>Provider Credential</span><span class="chip"><svg class="ico " viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>โมเดลที่ได้รับสิทธิ์</span></div>
+      </div>
+      <div class="card" data-in="1" data-at="0.1" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="M11 12l8.5-8.5M16 7l2.5 2.5M14 9l2 2"/></svg><div><b>API Key สิทธิ์คู่</b><span class="mono">lmpat_••••••••</span></div></div>
+        <div class="chips"><span class="chip mono" data-in="1" data-at="0.8" data-anim="pop">agents:read (อ่านโมเดล/รุ่น)</span><span class="chip mono" data-in="1" data-at="1.4" data-anim="pop">agents:write (สร้าง/สลับรุ่น)</span></div>
+        <div class="warn" data-in="1" data-at="2" data-anim="up">ต้องมีทั้ง <code>agents:read</code> และ <code>agents:write</code> เพื่อจัดการรุ่นได้ครบ</div>
+      </div>
+      <div class="card" data-in="2" data-at="0.1" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg><div><b>ระบบหลังบ้านหรือสคริปต์</b><span>เก็บ Key ปลอดภัย · เรียก API อัปเดตรุ่นตามรอบ</span></div></div>
+      </div>
+    </div></section>
+<section class="scene" id="sc-b4">
+    <h1 class="heading"><span class="num">2</span>เชื่อม<small>ครั้งที่ 1 · เช็กโมเดล &amp; สร้าง</small></h1>
+    
+  <div class="minimap" style="--c:#38815A">
+    <span class="mm-node srv"><svg class="ico " viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg>สคริปต์ทีม<svg class="ico sm" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+    <i class="mm-link"></i>
+    <span class="mm-node lm"><img src="assets/langmind-logo.png" width="689" height="606" alt="">Agents API</span>
+    <span class="mm-call">1 · เช็กโมเดล &amp; สร้าง</span>
+    <span class="mm-node"><svg class="ico " viewBox="0 0 24 24"><rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 3.5V7M9 12.5h.01M15 12.5h.01M9.5 16h5"/></svg>ลูกค้าจริง</span>
+  </div>
+    
+  <div class="panel">
+    <div class="slot-in" data-in="0" data-at="0.2" data-anim="up"><div class="chip in-chip"><svg class="ico " viewBox="0 0 24 24"><rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 3.5V7M9 12.5h.01M15 12.5h.01M9.5 16h5"/></svg><span><b>GET /api/providers/models</b> · ดูโมเดลที่ใช้ได้</span></div></div>
+    <svg class="varrow" data-in="0" data-at="0.6" data-anim="up" viewBox="0 0 60 60" style="height:60px"><path pathLength="1" d="M30 6 V46 M14 32 L30 50 L46 32"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="38"/></svg>
+    <div class="code" data-in="0" data-at="0.9" data-anim="up">
+      <div class="code-head"><span class="method">POST</span><span class="scope">สิทธิ์ agents:write</span></div>
+      <div class="code-path">/api/agents</div>
+      <div class="code-body"><div class="ln " data-in="0" data-at="1" data-anim="left">Authorization: Bearer <span class="v">$LM_TOKEN</span></div><div class="ln " data-in="0" data-at="1.3" data-anim="left"><span class="k">"provider_type"</span>: <span class="v">"openrouter"</span>, <span class="k">"model_name"</span>: <span class="v">"google/gemma-3-27b-it"</span>,</div><div class="ln " data-in="0" data-at="1.6" data-anim="left"><span class="k">"name"</span>: <span class="v">"ผู้ช่วยฝ่ายขาย"</span></div></div>
+      <div class="code-foot">สร้าง Agent ใหม่ และ publish version 1 ให้อัตโนมัติ</div>
+    </div>
+    <svg class="varrow" data-in="1" data-at="-0.10000000000000003" data-anim="up" viewBox="0 0 60 60" style="height:60px"><path pathLength="1" d="M30 6 V46 M14 32 L30 50 L46 32"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="38"/></svg>
+    <div class="slot-out" data-in="1" data-at="0.3" data-anim="up"><div class="chip out-chip json">{ <span class="k">"id"</span>: <span class="v">"agent_sale01"</span>, <span class="k">"name"</span>: <span class="v">"ผู้ช่วยฝ่ายขาย"</span>,<br>
+<div class="ln hl"><span class="mark" data-mark="2" data-mark-at="0.2"></span>&nbsp;&nbsp;<span class="k">"published_version_no"</span>: <span class="v">1</span></div>}<em>สร้างเสร็จและเปิดใช้งานเวอร์ชัน 1 ทันที</em></div></div>
+  </div>
+    <img class="robot" src="assets/05-point-up.png" width="425" height="503" alt="" style="left:820px;top:1080px;width:190px" data-in="2" data-at="0.2" data-anim="up"></section>
+<section class="scene" id="sc-b5">
+    <h1 class="heading"><span class="num">2</span>เชื่อม<small>ครั้งที่ 2 · บันทึกฉบับร่าง</small></h1>
+    
+  <div class="minimap" style="--c:#8d732c">
+    <span class="mm-node srv"><svg class="ico " viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg>สคริปต์ทีม<svg class="ico sm" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+    <i class="mm-link"></i>
+    <span class="mm-node lm"><img src="assets/langmind-logo.png" width="689" height="606" alt="">Agents API</span>
+    <span class="mm-call">2 · บันทึก Draft</span>
+    <span class="mm-node"><svg class="ico " viewBox="0 0 24 24"><rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 3.5V7M9 12.5h.01M15 12.5h.01M9.5 16h5"/></svg>ลูกค้าจริง</span>
+  </div>
+    
+  <div class="panel">
+    <div class="slot-in" data-in="0" data-at="0.2" data-anim="up"><div class="chip in-chip"><svg class="ico " viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg><span><b>แก้ไข Config:</b> temperature: 0.2 · max_tokens: 8192</span></div></div>
+    <svg class="varrow" data-in="0" data-at="0.6" data-anim="up" viewBox="0 0 60 60" style="height:60px"><path pathLength="1" d="M30 6 V46 M14 32 L30 50 L46 32"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="38"/></svg>
+    <div class="code" data-in="0" data-at="0.9" data-anim="up">
+      <div class="code-head"><span class="method">POST</span><span class="scope">สิทธิ์ agents:write</span></div>
+      <div class="code-path">/api/agents/{id}/versions</div>
+      <div class="code-body"><div class="ln " data-in="0" data-at="1" data-anim="left">Authorization: Bearer <span class="v">$LM_TOKEN</span></div><div class="ln hl" data-in="0" data-at="1.3" data-anim="left"><span class="k">"note"</span>: <span class="v">"ปรับโทนคำตอบ"</span>, <span class="mark" data-mark="1" data-mark-at="0.2"></span><span class="k">"publish"</span>: <span class="v">false</span>,</div><div class="ln " data-in="0" data-at="1.6" data-anim="left"><span class="k">"config"</span>: { <span class="k">"temperature"</span>: <span class="v">0.2</span>, <span class="k">"max_tokens"</span>: <span class="v">8192</span> }</div></div>
+      <div class="code-foot">validate กับ context window · ผู้ใช้จริงยังสนทนากับ v1 อยู่</div>
+    </div>
+    <svg class="varrow" data-in="1" data-at="-0.10000000000000003" data-anim="up" viewBox="0 0 60 60" style="height:60px"><path pathLength="1" d="M30 6 V46 M14 32 L30 50 L46 32"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="38"/></svg>
+    <div class="slot-out" data-in="1" data-at="0.3" data-anim="up"><div class="chip out-chip json">{ <span class="k">"version_no"</span>: <span class="v">2</span>, <span class="k">"publish"</span>: <span class="v">false</span>, <span class="k">"note"</span>: <span class="v">"ปรับโทนคำตอบ"</span> }<div class="ln hl" style="margin-top:6px"><em>✓ บันทึกเป็นฉบับร่าง (Draft) โดยยังไม่กระทบลูกค้า</em></div></div></div>
+  </div></section>
+<section class="scene" id="sc-b6">
+    <h1 class="heading"><span class="num">2</span>เชื่อม<small>ครั้งที่ 3 · Publish / Rollback</small></h1>
+    
+  <div class="minimap" style="--c:#1E7578">
+    <span class="mm-node srv"><svg class="ico " viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg>สคริปต์ทีม<svg class="ico sm" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+    <i class="mm-link"></i>
+    <span class="mm-node lm"><img src="assets/langmind-logo.png" width="689" height="606" alt="">Agents API</span>
+    <span class="mm-call">3 · Publish / Rollback</span>
+    <span class="mm-node"><svg class="ico " viewBox="0 0 24 24"><rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 3.5V7M9 12.5h.01M15 12.5h.01M9.5 16h5"/></svg>ลูกค้าจริง</span>
+  </div>
+    
+  <div class="panel">
+    <div class="slot-in" data-in="0" data-at="0.2" data-anim="up"><div class="chip in-chip"><svg class="ico " viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg><span><b>เปิดใช้งานจริง</b> หรือ <b>Rollback ย้อนกลับ</b></span></div></div>
+    <svg class="varrow" data-in="0" data-at="0.6" data-anim="up" viewBox="0 0 60 60" style="height:60px"><path pathLength="1" d="M30 6 V46 M14 32 L30 50 L46 32"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="38"/></svg>
+    <div class="code" data-in="0" data-at="0.9" data-anim="up">
+      <div class="code-head"><span class="method">POST</span><span class="scope">สิทธิ์ agents:write</span></div>
+      <div class="code-path">/api/agents/{id}/publish  (หรือ /rollback)</div>
+      <div class="code-body"><div class="ln " data-in="0" data-at="1" data-anim="left">POST .../publish  <span class="v">(ส่งว่าง = publish ร่างล่าสุดอัตโนมัติ)</span></div><div class="ln hl" data-in="0" data-at="1.4" data-anim="left"><span class="mark" data-mark="1" data-mark-at="0.2"></span>POST .../rollback <span class="v">(ไม่ต้องมี body = ย้อนกลับ v1 ทันที)</span></div></div>
+      <div class="code-foot">สลับรุ่นใช้งานจริงในคำสั่งเดียว ไม่ต้อง deploy ใหม่</div>
+    </div>
+    <svg class="varrow" data-in="1" data-at="-0.10000000000000003" data-anim="up" viewBox="0 0 60 60" style="height:60px"><path pathLength="1" d="M30 6 V46 M14 32 L30 50 L46 32"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="38"/></svg>
+    <div class="slot-out" data-in="1" data-at="0.3" data-anim="up"><div class="chip out-chip" style="border-color:#38815A;background:#eef6f4;display:flex;align-items:center;gap:16px"><svg class="ico " viewBox="0 0 24 24"><rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 3.5V7M9 12.5h.01M15 12.5h.01M9.5 16h5"/></svg><div><b>published_version_no: 2</b><span style="display:block;font-size:28px;color:#4e6b5e">สลับเวอร์ชัน 2 ขึ้นใช้งานจริงสำเร็จ</span></div><span class="badge pub" style="background:#38815A;margin-left:auto">Published ✓</span></div></div>
+  </div>
+    <img class="robot" src="assets/10-thumbs-up.png" width="465" height="503" alt="" style="left:820px;top:1160px;width:180px" data-in="1" data-at="0.8" data-anim="up"></section>
+<section class="scene" id="sc-b7">
+    <h1 class="heading"><span class="num">3</span>ใช้ผล<small>การจัดการครบวงจร</small></h1>
+    <div class="stack" style="top:390px">
+      <div class="use" data-in="0" data-at="0.3" data-anim="left"><svg class="ico big" viewBox="0 0 24 24"><rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 3.5V7M9 12.5h.01M15 12.5h.01M9.5 16h5"/></svg><div><b>PATCH vs /versions</b><span><code>PATCH /agents/{id}</code> แก้เฉพาะชื่อ/ไอคอน/visibility<br>แก้ Prompt/Model ต้องผ่าน <code>/versions</code> เสมอ</span></div></div>
+      <div class="use" data-in="1" data-at="0.1" data-anim="left"><svg class="ico big" viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 13.7-5.6L20 9M20 4.5V9h-4.5M20 12a8 8 0 0 1-13.7 5.6L4 15M4 19.5V15h4.5"/></svg><div><b>คัดลอก Agent ด้วย duplicate</b><span>ส่ง <code>POST /agents/{id}/duplicate</code> โคลนทั้งตัวเป็น Agent ใหม่</span></div></div>
+      <div class="use" data-in="1" data-at="0.8" data-anim="left"><svg class="ico big" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="M11 12l8.5-8.5M16 7l2.5 2.5M14 9l2 2"/></svg>><div><b>ผูกทรัพยากรด้วย PUT</b><span>ผูก datasets, tools, credential ผ่าน <code>PUT /agents/{id}/...</code></span></div></div>
+    </div>
+    <div class="tip" style="top:1020px" data-in="1" data-at="1.2" data-anim="left">
+      <b>เทคนิคสำคัญ:</b><br>
+      ระบุ <code>version_id</code> ใน Chat API เพื่อทดสอบฉบับร่างก่อน publish<br>
+      <b>→ มั่นใจ 100% ก่อนเปิดให้ผู้ใช้จริง</b>
+    </div></section>
+<section class="scene" id="sc-b8">
+    <h1 class="heading">สรุป<small>เตรียม → เชื่อม → ใช้ผล</small></h1>
+    <div class="stack" style="top:390px">
+      
+        <div class="recap" style="--c:#38815A" data-in="0" data-at="0.1" data-anim="up">
+          <span class="recap-t"><b>1</b>เตรียม</span>
+          <div class="chips"><span class="chip" data-in="0" data-at="0.4" data-anim="pop">LLM Credential</span><span class="chip" data-in="0" data-at="0.65" data-anim="pop">API Key (read+write)</span><span class="chip" data-in="0" data-at="0.9" data-anim="pop">สคริปต์หลังบ้าน</span></div>
+        </div>
+        <div class="recap" style="--c:#8d732c" data-in="1" data-at="0.1" data-anim="up">
+          <span class="recap-t"><b>2</b>เชื่อม</span>
+          <div class="chips"><span class="chip" data-in="1" data-at="0.4" data-anim="pop">เช็กโมเดล/สร้าง (v1)</span><i class="arr" data-in="1" data-at="0.65" data-anim="up">→</i><span class="chip" data-in="1" data-at="0.9" data-anim="pop">บันทึกร่าง (v2)</span><i class="arr" data-in="1" data-at="1.15" data-anim="up">→</i><span class="chip" data-in="1" data-at="1.4" data-anim="pop">publish / rollback</span></div>
+        </div>
+        <div class="recap" style="--c:#1E7578" data-in="2" data-at="0.1" data-anim="up">
+          <span class="recap-t"><b>3</b>ใช้ผล</span>
+          <div class="chips"><span class="chip" data-in="2" data-at="0.4" data-anim="pop">ทดสอบก่อนเปิด</span><span class="chip" data-in="2" data-at="0.65" data-anim="pop">Rollback ทันที</span><span class="chip" data-in="2" data-at="0.9" data-anim="pop">จัดการครบวงจร</span></div>
+        </div>
+    </div>
+    <img class="robot" src="assets/04-open-arms.png" width="425" height="503" alt="" style="left:410px;top:1180px;width:260px" data-in="2" data-at="1" data-anim="up"></section>
+<section class="scene" id="sc-b9">
+    <div class="sponsor">
+      <div class="sp-by" data-in="0" data-at="0.2" data-anim="up">สนับสนุนโดย</div>
+      <img class="sp-logo" src="assets/langmind-logo.png" width="689" height="606" alt="LangMind" data-in="0" data-at="0.4" data-anim="pop">
+      <div class="sp-url" data-in="1" data-at="0.2" data-anim="pop">langmind.in.th</div>
+      <div class="chips sp-chips" data-in="1" data-at="0.8" data-anim="up"><span class="chip">Agents API</span><span class="chip">Versioning</span><span class="chip">Draft &amp; Publish</span><span class="chip">Rollback</span></div>
+    </div></section>
+  </section>
+  <div id="cap-b1-0" class="clip caption" data-start="0.4" data-duration="10.9" data-track-index="8" data-layout-allow-caption-zone>เวลาที่ Agent ใช้งานจริงอยู่<br>อยากแก้ Prompt ทำอย่างไรไม่ให้กระทบลูกค้า?</div>
+<div id="cap-b1-1" class="clip caption" data-start="11.3" data-duration="7.1" data-track-index="8" data-layout-allow-caption-zone>และถ้าผลลัพธ์ไม่เป็นไปตามคาด<br>จะย้อนกลับไปเวอร์ชันเดิมทันทีได้อย่างไร?</div>
+<div id="cap-b1-2" class="clip caption" data-start="18.366666666666667" data-duration="8.6" data-track-index="8" data-layout-allow-caption-zone>ถ้าอยากจัดการรุ่นของ Agent แบบมืออาชีพ<br>ต้องเตรียมอะไร เชื่อมตรงไหน และใช้ผลยังไง</div>
+<div id="cap-b2-0" class="clip caption" data-start="27.5" data-duration="8.066666666666666" data-track-index="8" data-layout-allow-caption-zone>ภาพรวมคือการแยกเวอร์ชันใช้งานจริง (Published)<br>ออกจากฉบับร่าง (Draft)</div>
+<div id="cap-b2-1" class="clip caption" data-start="35.56666666666667" data-duration="4.833333333333333" data-track-index="8" data-layout-allow-caption-zone>โดยระบบหลังบ้านเรียก Agents API 3 ขั้นตอนหลัก</div>
+<div id="cap-b2-2" class="clip caption" data-start="40.4" data-duration="11.5" data-track-index="8" data-layout-allow-caption-zone>1.สร้าง Agent → 2.บันทึกร่าง (versions)<br>→ 3.สั่ง publish หรือ rollback</div>
+<div id="cap-b3-0" class="clip caption" data-start="52.4" data-duration="7.1" data-track-index="8" data-layout-allow-caption-zone>สิ่งที่ต้องเตรียม อย่างแรกคือ<br>ตั้งค่า LLM Credential บนเว็บให้พร้อม</div>
+<div id="cap-b3-1" class="clip caption" data-start="59.5" data-duration="12.7" data-track-index="8" data-layout-allow-caption-zone>อย่างที่สอง API Key ที่มีสิทธิ์<br>agents:read และ agents:write</div>
+<div id="cap-b3-2" class="clip caption" data-start="72.2" data-duration="6.266666666666667" data-track-index="8" data-layout-allow-caption-zone>อย่างที่สาม ระบบหลังบ้านหรือสคริปต์<br>ที่เก็บ Key ไว้อย่างปลอดภัย</div>
+<div id="cap-b4-0" class="clip caption" data-start="78.96666666666667" data-duration="14.8" data-track-index="8" data-layout-allow-caption-zone>ครั้งที่ 1 เช็กโมเดล: GET /api/providers/models<br>รวม provider และโมเดลที่ใช้ได้ในคำตอบเดียว</div>
+<div id="cap-b4-1" class="clip caption" data-start="93.76666666666667" data-duration="8.866666666666667" data-track-index="8" data-layout-allow-caption-zone>นำ provider_type และ model_name<br>มาส่ง POST /api/agents สร้าง Agent</div>
+<div id="cap-b4-2" class="clip caption" data-start="102.63333333333334" data-duration="5.466666666666667" data-track-index="8" data-layout-allow-caption-zone>ระบบจะสร้าง Agent<br>และ publish เวอร์ชันที่ 1 ให้อัตโนมัติ</div>
+<div id="cap-b5-0" class="clip caption" data-start="111.1" data-duration="10.433333333333334" data-track-index="8" data-layout-allow-caption-zone>ครั้งที่ 2 บันทึกฉบับร่าง: ปรับ Prompt<br>หรือค่า temperature และ max_tokens</div>
+<div id="cap-b5-1" class="clip caption" data-start="121.53333333333333" data-duration="8.266666666666667" data-track-index="8" data-layout-allow-caption-zone>ส่ง POST .../versions พร้อมระบุ note<br>และตั้งค่า &quot;publish&quot;: false</div>
+<div id="cap-b5-2" class="clip caption" data-start="129.83333333333334" data-duration="12.5" data-track-index="8" data-layout-allow-caption-zone>บันทึกเป็นเวอร์ชัน 2 ในสถานะฉบับร่าง (Draft)<br>โดยยังไม่กระทบลูกค้าที่ใช้งานเวอร์ชัน 1 อยู่</div>
+<div id="cap-b6-0" class="clip caption" data-start="145.33333333333334" data-duration="15.233333333333333" data-track-index="8" data-layout-allow-caption-zone>ครั้งที่ 3 เปิดใช้งานจริง: POST .../publish<br>(ส่งว่างเพื่อ publish ร่างล่าสุดอัตโนมัติ)</div>
+<div id="cap-b6-1" class="clip caption" data-start="160.56666666666666" data-duration="10.2" data-track-index="8" data-layout-allow-caption-zone>หากต้องการย้อนกลับ ส่ง POST .../rollback<br>ได้ทันทีโดยไม่ต้องส่งข้อมูลใน body</div>
+<div id="cap-b7-0" class="clip caption" data-start="173.76666666666668" data-duration="16.6" data-track-index="8" data-layout-allow-caption-zone>PATCH /agents/{id} = แก้ชื่อ/ไอคอน/การมองเห็น<br>ส่วน Prompt หรือ Model ต้องผ่าน /versions เสมอ</div>
+<div id="cap-b7-1" class="clip caption" data-start="190.36666666666667" data-duration="10.9" data-track-index="8" data-layout-allow-caption-zone>คัดลอก Agent ด้วย POST .../duplicate<br>และผูก datasets / tools / credential ผ่าน PUT</div>
+<div id="cap-b8-0" class="clip caption" data-start="201.76666666666668" data-duration="4.233333333333333" data-track-index="8" data-layout-allow-caption-zone>สรุป: เตรียม API Key<br>สิทธิ์ agents:read และ agents:write</div>
+<div id="cap-b8-1" class="clip caption" data-start="206" data-duration="10.733333333333333" data-track-index="8" data-layout-allow-caption-zone>เชื่อม 3 ขั้นตอน: สร้าง Agent (v1)<br>บันทึกร่าง (versions) · publish หรือ rollback</div>
+<div id="cap-b8-2" class="clip caption" data-start="216.73333333333332" data-duration="5" data-track-index="8" data-layout-allow-caption-zone>ช่วยให้ทีมพัฒนาบริหารจัดการรุ่นของ AI<br>ได้อย่างปลอดภัยทุกครั้ง</div>
+<div id="cap-b9-0" class="clip caption" data-start="222.23333333333332" data-duration="2.566666666666667" data-track-index="8" data-layout-allow-caption-zone>คลิปนี้สนับสนุนโดย LangMind</div>
+<div id="cap-b9-1" class="clip caption" data-start="224.8" data-duration="6.3" data-track-index="8" data-layout-allow-caption-zone>เริ่มสร้างและบริหารจัดการ Agent ของคุณ<br>ได้ที่ langmind.in.th</div>
+  
+</main>
+<script>window.FILM={"duration":233.13333333333333,"beats":[{"id":"b1","start":0.4,"duration":26.6,"segments":[{"cue":"modify_safe","start":0.4,"duration":10.9},{"cue":"rollback_question","start":11.3,"duration":7.1},{"cue":"questions","start":18.366666666666667,"duration":8.6}]},{"id":"b2","start":27.5,"duration":24.4,"segments":[{"cue":"published_vs_draft","start":27.5,"duration":8.066666666666666},{"cue":"calls_intro","start":35.56666666666667,"duration":4.833333333333333},{"cue":"calls_list","start":40.4,"duration":11.5}]},{"id":"b3","start":52.4,"duration":26.066666666666666,"segments":[{"cue":"credential","start":52.4,"duration":7.1},{"cue":"key_scopes","start":59.5,"duration":12.7},{"cue":"server","start":72.2,"duration":6.266666666666667}]},{"id":"b4","start":78.96666666666667,"duration":29.133333333333333,"segments":[{"cue":"models","start":78.96666666666667,"duration":14.8},{"cue":"create","start":93.76666666666667,"duration":8.866666666666667},{"cue":"v1_published","start":102.63333333333334,"duration":5.466666666666667}]},{"id":"b5","start":111.1,"duration":31.233333333333334,"segments":[{"cue":"versions_request","start":111.1,"duration":10.433333333333334},{"cue":"publish_false","start":121.53333333333333,"duration":8.266666666666667},{"cue":"draft_safe","start":129.83333333333334,"duration":12.5}]},{"id":"b6","start":145.33333333333334,"duration":25.433333333333334,"segments":[{"cue":"publish","start":145.33333333333334,"duration":15.233333333333333},{"cue":"rollback","start":160.56666666666666,"duration":10.2}]},{"id":"b7","start":173.76666666666668,"duration":27.533333333333335,"segments":[{"cue":"patch_vs_versions","start":173.76666666666668,"duration":16.6},{"cue":"duplicate_put","start":190.36666666666667,"duration":10.9}]},{"id":"b8","start":201.76666666666668,"duration":19.966666666666665,"segments":[{"cue":"r1","start":201.76666666666668,"duration":4.233333333333333},{"cue":"r2","start":206,"duration":10.733333333333333},{"cue":"r3","start":216.73333333333332,"duration":5}]},{"id":"b9","start":222.23333333333332,"duration":8.866666666666667,"segments":[{"cue":"sponsor","start":222.23333333333332,"duration":2.566666666666667},{"cue":"cta","start":224.8,"duration":6.3}]}]}</script>
+<script src="motion.js"></script>
+</body>
+</html>

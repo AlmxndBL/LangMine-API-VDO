@@ -1,0 +1,1 @@
+{"extends":"clean","name":"langmind-navy-r8","bg":"#091540","ink":"#f1f6ff","muted":"#b6c8e8","surface":"#f5f9ff","background":"plain","code":{"bg":"#050d26","fg":"#edf4ff","comment":"#a3b6d5","keyword":"#c3a6ff","string":"#78e6ca","number":"#ffd08a","fn":"#80ddff","punct":"#b6c8e8","lineNo":"#91a6ca","highlight":"rgba(84,214,255,0.16)","border":"#36517c"}}

@@ -1,0 +1,207 @@
+{
+  "version": 1,
+  "historyId": "33d794aa-0a38-48dd-b22d-3b0fbd326f6a",
+  "currentRevision": "8caa815a-3c42-4967-8aca-8b3a9aa41380",
+  "pendingChanges": false,
+  "files": {
+    "VOICE-SCRIPT.md": {
+      "hash": "b0f97ac65f68e63be336b64c4846734fdb547ceb2b38f4e34b98f5b65a1a0bcc",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\33d794aa-0a38-48dd-b22d-3b0fbd326f6a\\blobs\\b0\\b0f97ac65f68e63be336b64c4846734fdb547ceb2b38f4e34b98f5b65a1a0bcc"
+    },
+    "assets/04-open-arms.png": {
+      "hash": "2269ed3e6e97689c292f2836dcec6769d81deb19ccc80d3e131be761a3459dcd",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\33d794aa-0a38-48dd-b22d-3b0fbd326f6a\\blobs\\22\\2269ed3e6e97689c292f2836dcec6769d81deb19ccc80d3e131be761a3459dcd"
+    },
+    "assets/05-point-up.png": {
+      "hash": "6596f6b0a6fd7a57a3a6cc6c31b8da13e18cf17bf14777351480bd222e04dc01",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\33d794aa-0a38-48dd-b22d-3b0fbd326f6a\\blobs\\65\\6596f6b0a6fd7a57a3a6cc6c31b8da13e18cf17bf14777351480bd222e04dc01"
+    },
+    "assets/06-thinking.png": {
+      "hash": "e75615014a2d280c0af1f018ebdb7a1307162f64e1f8a2ae235112dfa6144957",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\33d794aa-0a38-48dd-b22d-3b0fbd326f6a\\blobs\\e7\\e75615014a2d280c0af1f018ebdb7a1307162f64e1f8a2ae235112dfa6144957"
+    },
+    "assets/10-thumbs-up.png": {
+      "hash": "a12f374f8b804ab812c185f2191ec19b736cfea8466bae947a54926f4764cb17",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\33d794aa-0a38-48dd-b22d-3b0fbd326f6a\\blobs\\a1\\a12f374f8b804ab812c185f2191ec19b736cfea8466bae947a54926f4764cb17"
+    },
+    "assets/fonts/Sarabun-Bold.ttf": {
+      "hash": "d38308ca27d067b9a1b79006337c1f9a66c29aa016d96a9d88d3801da7fa83b9",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\33d794aa-0a38-48dd-b22d-3b0fbd326f6a\\blobs\\d3\\d38308ca27d067b9a1b79006337c1f9a66c29aa016d96a9d88d3801da7fa83b9"
+    },
+    "assets/fonts/Sarabun-Regular.ttf": {
+      "hash": "226d4f368fbc0457990ddef2692679badfd2c1a4e89e5ac4d43c10ba7743b2f1",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\33d794aa-0a38-48dd-b22d-3b0fbd326f6a\\blobs\\22\\226d4f368fbc0457990ddef2692679badfd2c1a4e89e5ac4d43c10ba7743b2f1"
+    },
+    "assets/gsap.min.js": {
+      "hash": "fd6978c80858a3036c39b4e53b5a6f9385d759d43283e6b1de89237e5640d85f",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\33d794aa-0a38-48dd-b22d-3b0fbd326f6a\\blobs\\fd\\fd6978c80858a3036c39b4e53b5a6f9385d759d43283e6b1de89237e5640d85f"
+    },
+    "assets/langmind-logo.png": {
+      "hash": "025dbb6064076ac724f42009635e715f985a3d2df8abfa374a8fcec398979c49",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\33d794aa-0a38-48dd-b22d-3b0fbd326f6a\\blobs\\02\\025dbb6064076ac724f42009635e715f985a3d2df8abfa374a8fcec398979c49"
+    },
+    "build.mjs": {
+      "hash": "6f1f88bdf97239cd841256fe7e459a09debabb2184f5efed7eb76f0307354c91",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\33d794aa-0a38-48dd-b22d-3b0fbd326f6a\\blobs\\6f\\6f1f88bdf97239cd841256fe7e459a09debabb2184f5efed7eb76f0307354c91"
+    },
+    "index.html": {
+      "hash": "a4b184935359b1acc65bcd52c92ee303f0bb76727da46ad16bf1365823292462",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\33d794aa-0a38-48dd-b22d-3b0fbd326f6a\\blobs\\a4\\a4b184935359b1acc65bcd52c92ee303f0bb76727da46ad16bf1365823292462"
+    },
+    "motion.js": {
+      "hash": "871d6ebc307ba19185abcdeaacfa027b5ed4532d07cfec214e0c7867e42cc011",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\33d794aa-0a38-48dd-b22d-3b0fbd326f6a\\blobs\\87\\871d6ebc307ba19185abcdeaacfa027b5ed4532d07cfec214e0c7867e42cc011"
+    },
+    "style.css": {
+      "hash": "2456332a123ab338fd2582b6fed9f0926c4892262fdb86438b72d2d94cd29234",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\33d794aa-0a38-48dd-b22d-3b0fbd326f6a\\blobs\\24\\2456332a123ab338fd2582b6fed9f0926c4892262fdb86438b72d2d94cd29234"
+    },
+    "timing.json": {
+      "hash": "ad74afd4c043d0d026021667389eca139d5a7a1b58ff5851cb4b9c7a5f43c077",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\33d794aa-0a38-48dd-b22d-3b0fbd326f6a\\blobs\\ad\\ad74afd4c043d0d026021667389eca139d5a7a1b58ff5851cb4b9c7a5f43c077"
+    },
+    "assets/app-agent-draft.jpg": {
+      "hash": "f8b52e6b6475cf9dfc87957f5223a8ed45e7206d37723e9efecd5c5d0a59b6c2",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\33d794aa-0a38-48dd-b22d-3b0fbd326f6a\\blobs\\f8\\f8b52e6b6475cf9dfc87957f5223a8ed45e7206d37723e9efecd5c5d0a59b6c2"
+    },
+    "assets/app-agent-publish.jpg": {
+      "hash": "da2cd24767257f24d9e5f6fee37634b2cb3fe18f86c3994b4012830923c2ffc0",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\33d794aa-0a38-48dd-b22d-3b0fbd326f6a\\blobs\\da\\da2cd24767257f24d9e5f6fee37634b2cb3fe18f86c3994b4012830923c2ffc0"
+    },
+    "SILENT-TIMING.md": {
+      "hash": "c6c5d313b43b489d337c4058f05f172c3e060369d6edd656c72dbad1455927d9",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\33d794aa-0a38-48dd-b22d-3b0fbd326f6a\\blobs\\c6\\c6c5d313b43b489d337c4058f05f172c3e060369d6edd656c72dbad1455927d9"
+    },
+    "REVIEW.md": {
+      "hash": "b7c7ed13e1acfeea36c421b92828d67c480c75a1f236072d7f7b07157141b790",
+      "content": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\33d794aa-0a38-48dd-b22d-3b0fbd326f6a\\blobs\\b7\\b7c7ed13e1acfeea36c421b92828d67c480c75a1f236072d7f7b07157141b790"
+    }
+  },
+  "revisions": {
+    "ebd00114-620d-48b2-9029-e2a5bfe06bad": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794208982412,
+      "endedAt": 1794208982463,
+      "files": {
+        "build.mjs": {
+          "before": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\33d794aa-0a38-48dd-b22d-3b0fbd326f6a\\blobs\\70\\70613786491f3d6dfb2777c3b4029b00e5e0d233c63ac4454a92c75450dd7924",
+          "after": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\33d794aa-0a38-48dd-b22d-3b0fbd326f6a\\blobs\\6f\\6f1f88bdf97239cd841256fe7e459a09debabb2184f5efed7eb76f0307354c91"
+        },
+        "index.html": {
+          "before": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\33d794aa-0a38-48dd-b22d-3b0fbd326f6a\\blobs\\a6\\a6eb4647d2b81e06c44117d2cbe78348457b408ea2e9e9446f3d5833c7ae9488",
+          "after": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\33d794aa-0a38-48dd-b22d-3b0fbd326f6a\\blobs\\a4\\a4b184935359b1acc65bcd52c92ee303f0bb76727da46ad16bf1365823292462"
+        },
+        "SILENT-TIMING.md": {
+          "before": null,
+          "after": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\33d794aa-0a38-48dd-b22d-3b0fbd326f6a\\blobs\\c6\\c6c5d313b43b489d337c4058f05f172c3e060369d6edd656c72dbad1455927d9"
+        }
+      }
+    },
+    "8caa815a-3c42-4967-8aca-8b3a9aa41380": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794209442453,
+      "endedAt": 1794209442454,
+      "files": {
+        "REVIEW.md": {
+          "before": null,
+          "after": "C:\\Users\\Admin\\.cache\\hyperframes\\history\\33d794aa-0a38-48dd-b22d-3b0fbd326f6a\\blobs\\b7\\b7c7ed13e1acfeea36c421b92828d67c480c75a1f236072d7f7b07157141b790"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "a3f587d1-df69-428d-87ff-14815449bf78"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "id": "5942399c-739f-4f4f-bc9a-4853ec964baa",
+        "scope": "project",
+        "report": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep11-agents-versioning\\video\\.hyperframes\\artifacts\\checks\\5942399c-739f-4f4f-bc9a-4853ec964baa.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "cache": true,
+            "contrast": true,
+            "craft": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto",
+            "includeUnmounted": false
+          }
+        },
+        "createdAt": 1794208828596,
+        "contentHash": "791706efc27871d1cbddaf8ea46291ef066994fd9e9fd475997e4996b5d4111c",
+        "revision": null,
+        "inputFingerprint": "991513caf04f6da78aeea0d2c079a3213017f272159208ecd8edd7eaa9f1571e",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "id": "a3f587d1-df69-428d-87ff-14815449bf78",
+        "scope": "project",
+        "report": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep11-agents-versioning\\video\\.hyperframes\\artifacts\\checks\\a3f587d1-df69-428d-87ff-14815449bf78.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "cache": true,
+            "contrast": true,
+            "craft": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto",
+            "includeUnmounted": false
+          }
+        },
+        "createdAt": 1794209040693,
+        "contentHash": "8193cf778c2ad1e9d18a0b7da966667e87053f79392fb419fc0f5d5a50b3a47d",
+        "revision": null,
+        "inputFingerprint": "1990935b477cdc6b579ca526821c08dfbd2f188ff4ba7a262f37d4c2122f1979",
+        "inputScope": "local-project-files",
+        "attribution": "inputs-changed"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "6a445b9d-fb82-4e6b-aca7-b4808691b165",
+      "completedAt": 1794209688940,
+      "output": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep11-agents-versioning\\video\\ep11-agents-versioning-silent.mp4",
+      "status": "completed",
+      "revision": "8caa815a-3c42-4967-8aca-8b3a9aa41380"
+    },
+    "retainedRevisions": [
+      "8caa815a-3c42-4967-8aca-8b3a9aa41380"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}

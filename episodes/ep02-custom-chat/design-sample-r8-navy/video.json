@@ -1,0 +1,42 @@
+{
+  "title": "EP02 · Navy color design r8",
+  "theme": "navy.json",
+  "size": "9:16",
+  "voice": "af_heart",
+  "music": false,
+  "sfx": false,
+  "captions": false,
+  "watermark": false,
+  "camera": "still",
+  "end": 0,
+  "motionBlur": false,
+  "brand": {
+    "accent": "#087f8c",
+    "background": "#091540",
+    "ink": "#f1f6ff",
+    "font": "Sarabun",
+    "headline": "Sarabun",
+    "colors": {
+      "text": "#10264a",
+      "soft": "#405773",
+      "muted": "#4c6380",
+      "faint": "#57718d",
+      "line": "#cfdeec",
+      "field": "#a5bed4",
+      "surface": "#f5f9ff",
+      "panel": "#eaf2fc"
+    }
+  },
+  "fonts": [
+    {
+      "family": "Sarabun",
+      "src": "assets/Sarabun-Regular.ttf",
+      "weight": 400
+    },
+    {
+      "family": "Sarabun",
+      "src": "assets/Sarabun-Bold.ttf",
+      "weight": 700
+    }
+  ]
+}

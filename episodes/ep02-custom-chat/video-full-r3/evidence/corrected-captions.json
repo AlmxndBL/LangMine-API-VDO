@@ -1,0 +1,555 @@
+[
+  {
+    "beat": "B01",
+    "text": "คุณอาจใช้ ChatGPT ช่วยร่างข้อความอยู่แล้ว แต่ถ้าอยากให้ทีมเปิด",
+    "start": 0,
+    "end": 4.7,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B01",
+    "text": "เว็บของร้าน แล้วใช้ผู้ช่วยที่กำหนดหน้าที่และน้ำเสียงไว้",
+    "start": 4.7,
+    "end": 8.82,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B01",
+    "text": "พร้อมหน้าจอที่เข้ากับงานของเรา ต้องเชื่อมอะไรบ้าง?",
+    "start": 8.82,
+    "end": 12.24,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B01",
+    "text": "ตอนนี้เราจะพาจากการสร้าง API key ไปจนถึงส่งคำถาม",
+    "start": 12.24,
+    "end": 15.96,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B01",
+    "text": "รับคำตอบ และถามต่อ ด้วย LangMind API",
+    "start": 15.96,
+    "end": 18.333333333333332,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B02",
+    "text": "ตัวอย่างคือผู้ช่วยร่างข้อความให้ทีมขาย เราตั้งให้ตอบเป็นภาษา",
+    "start": 0,
+    "end": 4.24,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B02",
+    "text": "ไทยสุภาพ เมื่อสินค้าส่งช้า ก็ให้ช่วยร่างคำแจ้งลูกค้า",
+    "start": 4.24,
+    "end": 8.18,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B02",
+    "text": "แล้วขอฉบับสั้นสำหรับ LINE ได้ ส่วนการตรวจข้อความและนำไปส่ง",
+    "start": 8.18,
+    "end": 12.4,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B02",
+    "text": "ยังเป็นหน้าที่ของผู้ใช้งาน",
+    "start": 12.4,
+    "end": 13.940000000000001,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B03",
+    "text": "มองเป็นสามส่วนก่อน หน้าจอหรือ frontend คือส่วนที่คนใช้พิมพ์และ",
+    "start": 0,
+    "end": 4.66,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B03",
+    "text": "อ่าน ส่วน server รับข้อความจากหน้าเว็บ แล้วเชื่อมกับ",
+    "start": 4.66,
+    "end": 8.633333333333333,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B03",
+    "text": "LangMind Agent ซึ่งเป็นผู้ช่วยที่เราตั้งหน้าที่ไว้",
+    "start": 8.633333333333333,
+    "end": 12.72,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B03",
+    "text": "เมื่อได้คำตอบก็ส่งกลับทางเดิม เราพัฒนาหน้าจอและส่วนเชื่อมต่อ",
+    "start": 12.72,
+    "end": 17.18,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B03",
+    "text": "ส่วน LangMind ให้ Agent ตอบตามที่ตั้งค่า",
+    "start": 17.18,
+    "end": 19.92,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B04",
+    "text": "ก่อนเชื่อม ให้มี Agent ที่พร้อมใช้งาน และกำหนดหน้าที่",
+    "start": 0,
+    "end": 4,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B04",
+    "text": "เช่น ร่างข้อความไทยสุภาพ ไม่แต่งวันส่งสินค้า",
+    "start": 4,
+    "end": 7.04,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B04",
+    "text": "จากนั้นเตรียมสองอย่าง รหัส Agent บอกว่าจะใช้ผู้ช่วยตัวไหน",
+    "start": 7.04,
+    "end": 11.42,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B04",
+    "text": "ส่วน API key ใช้ยืนยันสิทธิ์ในการเรียก เราจะสร้าง",
+    "start": 11.42,
+    "end": 15.16,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B04",
+    "text": "key แล้วนำไปตั้งค่า server คู่กับรหัส Agent",
+    "start": 15.16,
+    "end": 18.232,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B05",
+    "text": "เปิดหน้าจัดการ API แล้วสร้าง key ตั้งชื่อให้จำได้ว่าใช้กับแอป",
+    "start": 0,
+    "end": 4.42,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B05",
+    "text": "ไหน ชื่อนี้เป็นป้ายกำกับ ส่วนอายุคือช่วงเวลาที่",
+    "start": 4.42,
+    "end": 7.76,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B05",
+    "text": "key ใช้งานได้ และสิทธิ์กำหนดว่าเรียกงานอะไรได้",
+    "start": 7.76,
+    "end": 11.6,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B05",
+    "text": "ตัวอย่างแชทใช้ chat:invoke ส่วนรหัส Agent เราจะคัดลอกจากหน้า",
+    "start": 11.6,
+    "end": 15.66,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B05",
+    "text": "ผู้ช่วย จึงไม่ต้องเพิ่มสิทธิ์อ่านรายการเพื่อขั้นตอนนี้",
+    "start": 15.66,
+    "end": 19.94,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B05",
+    "text": "เมื่อสร้างแล้ว เราจะนำค่า key ไปตั้งค่าให้",
+    "start": 19.94,
+    "end": 23.16,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B05",
+    "text": "server ของแอป",
+    "start": 23.16,
+    "end": 24.1,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B06",
+    "text": "ฝั่ง server เก็บ key เป็นค่าตั้งต้นชื่อ LANGMIND_API_KEY",
+    "start": 0.32,
+    "end": 4.88,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B06",
+    "text": "อีกค่าคือ LANGMIND_AGENT_ID สำหรับรหัสผู้ช่วย",
+    "start": 4.88,
+    "end": 8.56,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B06",
+    "text": "ให้เปิดหน้าของ Agent ที่เราสร้าง ดู URL ด้านบน",
+    "start": 8.56,
+    "end": 12.34,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B06",
+    "text": "แล้วคัดลอกเฉพาะรหัสยาวหลัง /agents/ ไม่ต้องคัดลอกทั้ง",
+    "start": 12.34,
+    "end": 16.08,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B06",
+    "text": "URL ในภาพตัวอย่าง .env ใช้แสดงตำแหน่งตั้งค่าสองค่านี้",
+    "start": 16.08,
+    "end": 21.4,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B06",
+    "text": "ส่วนโค้ดฝั่ง server จะอ่านจากชื่อตัวแปร จึงไม่ต้องเขียน",
+    "start": 21.4,
+    "end": 25.38,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B06",
+    "text": "key จริงลงในหน้าเว็บ",
+    "start": 25.38,
+    "end": 26.76,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B07",
+    "text": "เมื่อกดส่ง หน้าเว็บนำข้อความไปที่ /api/chat",
+    "start": 0,
+    "end": 3,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B07",
+    "text": "นี่คือทางรับข้อความที่เราสร้างใน server ของแอปเอง",
+    "start": 3,
+    "end": 7.08,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B07",
+    "text": "ไม่ใช่ URL ของ LangMind หน้าเว็บส่งข้อความ",
+    "start": 7.08,
+    "end": 10.54,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B07",
+    "text": "ส่วน server ดูว่ากำลังคุยต่อในบทสนทนาไหน แล้วจึงเรียกผู้ช่วย",
+    "start": 10.54,
+    "end": 15.14,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B07",
+    "text": "ด้วยค่าที่เตรียมไว้",
+    "start": 15.14,
+    "end": 16.28,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B08",
+    "text": "server ส่ง POST หรือคำขอส่งข้อมูล ไปที่ chat/message/blocking",
+    "start": 0.46,
+    "end": 4.22,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B08",
+    "text": "ใต้ API ของ LangMind วิธีนี้รอคำตอบเต็มก่อน",
+    "start": 4.22,
+    "end": 7.82,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B08",
+    "text": "ในส่วนหัวใส่ Authorization คำว่า Bearer ตามด้วย",
+    "start": 7.82,
+    "end": 10.96,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B08",
+    "text": "key และกำหนดว่าข้อมูลเป็น JSON ซึ่งเขียนเป็นชื่อช่องกับค่า",
+    "start": 10.96,
+    "end": 15.96,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B08",
+    "text": "ส่วนข้อมูลส่ง agent_id เพื่อเลือกผู้ช่วย query",
+    "start": 15.96,
+    "end": 19.24,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B08",
+    "text": "คือคำถาม ครั้งแรกยังไม่มีรหัสบทสนทนา จึงส่ง",
+    "start": 19.24,
+    "end": 22.64,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B08",
+    "text": "conversation_id เป็น null",
+    "start": 22.64,
+    "end": 23.94,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B09",
+    "text": "ในโค้ด server ใช้ fetch ส่งคำขอนี้ อ่าน key",
+    "start": 0,
+    "end": 3.42,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B09",
+    "text": "และรหัส Agent จากค่าตั้งต้น แล้วใส่คำถามกับรหัสบทสนทนาใน",
+    "start": 3.42,
+    "end": 7.51,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B09",
+    "text": "body ส่วนนี้ตรงกับข้อมูลที่เพิ่งเห็น เมื่อ",
+    "start": 7.51,
+    "end": 10.82,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B09",
+    "text": "API ตอบกลับต้องตรวจว่าสำเร็จก่อน จึงอ่านผลลัพธ์",
+    "start": 10.82,
+    "end": 14.72,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B09",
+    "text": "ไม่เอาข้อความผิดพลาดไปแสดงเป็นคำตอบของผู้ช่วย",
+    "start": 14.72,
+    "end": 17.659999999999997,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B10",
+    "text": "ผลตอบกลับที่เราสนใจตอนนี้มี answer คือข้อความคำตอบ",
+    "start": 0,
+    "end": 3.82,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B10",
+    "text": "และ conversation_id คือรหัสบทสนทนา server เก็บรหัสไว้สำหรับ",
+    "start": 3.82,
+    "end": 8.34,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B10",
+    "text": "ครั้งถัดไป แล้วส่งข้อความคำตอบกลับหน้าเว็บ",
+    "start": 8.34,
+    "end": 11.64,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B10",
+    "text": "หน้าจอจึงนำ answer ไปเพิ่มในแชท ตอนนี้ข้อความหนึ่งข้อความเดิน",
+    "start": 11.64,
+    "end": 16.1,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B10",
+    "text": "ทางครบแล้ว",
+    "start": 16.1,
+    "end": 16.86,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B11",
+    "text": "ระหว่างรอ ให้หน้าจอบอกว่ากำลังรอคำตอบ และกันการกดส่งซ้ำ",
+    "start": 0,
+    "end": 3.94,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B11",
+    "text": "เมื่อสำเร็จค่อยแสดงข้อความผู้ช่วย ถ้าส่งไม่สำเร็จให้บอกผู้ใช้",
+    "start": 3.94,
+    "end": 8.52,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B11",
+    "text": "และเปิดให้ลองใหม่ โดยไม่ลบข้อความที่เขาพิมพ์ไว้",
+    "start": 8.52,
+    "end": 11.68,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B12",
+    "text": "คราวนี้ผู้ใช้บอกว่า ขอสั้นลงสำหรับส่งใน LINE",
+    "start": 0,
+    "end": 3.14,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B12",
+    "text": "เราส่งคำถามใหม่ แต่ใช้ conversation_id ที่ได้จากรอบก่อน",
+    "start": 3.14,
+    "end": 6.88,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B12",
+    "text": "เพื่อให้เป็นการคุยต่อในบทสนทนาเดียวกัน ถ้ามีผู้ใช้หลายคน",
+    "start": 6.88,
+    "end": 11.24,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B12",
+    "text": "server ต้องตรวจด้วยว่าบทสนทนานี้เป็นของใคร",
+    "start": 11.24,
+    "end": 14.88,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B12",
+    "text": "รหัสบทสนทนาเพียงอย่างเดียวไม่ใช่สิทธิ์เข้าถึง",
+    "start": 14.88,
+    "end": 17.68,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B13",
+    "text": "ตัวอย่างนี้รอคำตอบครบแล้วจึงแสดง ถ้าอยากให้คำตอบทยอยขึ้น",
+    "start": 0,
+    "end": 4.06,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B13",
+    "text": "ก็มีวิธีรับข้อมูลเป็นช่วง ซึ่งต้องปรับทั้งส่วนรับข้อมูลใน",
+    "start": 4.06,
+    "end": 8.52,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B13",
+    "text": "server และส่วนแสดงผลหน้าเว็บ",
+    "start": 8.52,
+    "end": 10.5,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B14",
+    "text": "เมื่อเราทำหน้าจอเอง ก็จัดเครื่องมือให้เข้ากับงานได้",
+    "start": 0,
+    "end": 3.82,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B14",
+    "text": "มือถือเน้นพิมพ์ถามและคัดลอกข้อความ ส่วนจอใหญ่เพิ่มพื้นที่แก้",
+    "start": 3.82,
+    "end": 7.96,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B14",
+    "text": "ข้อความข้างแชทได้ โดยยังเชื่อมกับ LangMind",
+    "start": 7.96,
+    "end": 10.96,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B14",
+    "text": "Agent ตัวเดิม การจัดหน้าสำหรับแต่ละอุปกรณ์เป็นส่วนที่เราพัฒนา",
+    "start": 10.96,
+    "end": 15.48,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B14",
+    "text": "ต่อ",
+    "start": 15.48,
+    "end": 15.98,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B15",
+    "text": "จากผู้ช่วยร่างข้อความ เราเปลี่ยนหน้าที่ หรือเตรียมและผูกฐาน",
+    "start": 0,
+    "end": 4.18,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B15",
+    "text": "ความรู้เพื่อช่วยตอบ FAQ กับคู่มือได้ หากจะเชื่อมระบบงาน",
+    "start": 4.18,
+    "end": 9.22,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B15",
+    "text": "ต้องเพิ่มเครื่องมือและตรวจสิทธิ์ให้เหมาะสมด้วย",
+    "start": 9.22,
+    "end": 12.3,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B15",
+    "text": "จำวงจรหลักไว้ หน้าเว็บส่งข้อความ server เรียก",
+    "start": 12.3,
+    "end": 15.84,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B15",
+    "text": "LangMind แล้วนำคำตอบกลับมาแสดง ถามต่อก็ใช้รหัสบทสนทนาเดิม",
+    "start": 15.84,
+    "end": 20.62,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B15",
+    "text": "ลองเริ่มจากงานหนึ่งอย่างที่อยากให้ผู้ช่วยทำ",
+    "start": 20.62,
+    "end": 23.7,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B15",
+    "text": "แล้วออกแบบหน้าจอให้เหมาะกับงานนั้น",
+    "start": 23.7,
+    "end": 25.76,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  },
+  {
+    "beat": "B16",
+    "text": "LangMind สร้างสิ่งต่อไป ในแบบของคุณ",
+    "start": 0,
+    "end": 2.16,
+    "alignment": "Whisper small word timing aligned to DESIGN narration"
+  }
+]

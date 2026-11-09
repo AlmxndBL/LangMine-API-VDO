@@ -1,0 +1,11 @@
+{
+  "assets/hyperframes-logo-white.svg": "f9f942c43b465616c3af2fb8b07daf1cc05a4776903bbb27beb2bb608060e6c7",
+  "compositions/ai-chat-reveal.html": "b4ce0e31242593d8b8d962bd6b9efd0a44aaa62473ad3405c8ed31948540dcfb",
+  "compositions/code-diff.html": "aff96dad92006220181d6d32f6a889ad1779c79bf23337051880884a6130b201",
+  "compositions/code-highlight.html": "382745003b34750dbbbabeafd78921fc1ca0a1949e45ea69db27fd414462a80f",
+  "compositions/components/dart-cursor.html": "cb45359056ff75e8412bb1476ca194e1cb85d1ecb18dcbde2d770c7fb068546e",
+  "compositions/components/onboarding-stepper-flow.html": "985712b460ba2203ae3a05aeb4ed0d580d8446a4c09aab1fc555c53eaf2b4746",
+  "compositions/components/yt-feather-highlight.html": "86be68363f9fc91a37cdf34736593acf5890e71a327a80de585671a7b9168d96",
+  "compositions/flowchart-vertical.html": "66c6604803025359d48af8f43f4fbc0f2832b8be2e8b60a915ca8a8398dd810b",
+  "TEMPLATE.md": "de62e4f1777f21b203701c2efc82ef347b5a03292844b99bc1b0af788b5cb91b"
+}

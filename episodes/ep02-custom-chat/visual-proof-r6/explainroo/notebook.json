@@ -1,0 +1,7 @@
+{
+  "extends": "paper",
+  "name": "ep02-notebook",
+  "bg": "#F4E8CE",
+  "ink": "#20272F",
+  "background": "grid"
+}

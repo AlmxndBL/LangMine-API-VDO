@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "checks": {
+    "lint": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 49
+    },
+    "runtime": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0
+    },
+    "layout": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0
+    },
+    "contrast": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 1
+    },
+    "craft": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 15
+    },
+    "audio": {
+      "ok": true,
+      "errorCount": 0,
+      "warningCount": 0
+    }
+  },
+  "note": "contrast period and footnote sizes corrected after check; see REVIEW"
+}

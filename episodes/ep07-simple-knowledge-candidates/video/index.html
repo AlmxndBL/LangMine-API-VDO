@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<title>EP07 · Simple Knowledge &amp; Knowledge Candidates API</title>
+<link rel="stylesheet" href="style.css">
+<script src="assets/gsap.min.js"></script>
+</head>
+<body>
+<main id="film" data-composition-id="ep07-simple-knowledge-candidates" data-width="1080" data-height="1920" data-fps="30" data-duration="219.53333333333333">
+  <div class="kicker">EP07 &nbsp;/&nbsp; SIMPLE KNOWLEDGE</div>
+  <div class="note">ภาพจำลอง</div>
+  <section id="stage" class="clip" data-start="0" data-duration="219.53333333333333" data-track-index="1">
+    <div class="spine"><span id="sp1" class="pill">1 เตรียม</span><i></i><span id="sp2" class="pill">2 เชื่อม</span><i></i><span id="sp3" class="pill">3 ใช้ผล</span></div>
+    <section class="scene" id="sc-b1">
+    <h1 class="heading">คำตอบด่วน &amp; คัดกรอง<small>ทำได้ยังไง?</small></h1>
+    <div class="place" style="left:242px;top:370px">
+  <div class="device" id="dev-b1" style="width:596px">
+    <div class="screen" style="width:580px;height:725px">
+      <img src="assets/app-faq-rule.jpg" width="1440" height="1800" alt="หน้าจอตั้งกฎคำตอบด่วน (ภาพจำลอง)" data-layout-allow-overflow style="width:580px">
+      <img class="img-a" src="assets/app-candidate-promote.jpg" width="1440" height="1800" alt="หน้าจอคัดกรองคำถามเข้าคลัง (ภาพจำลอง)" data-layout-allow-overflow style="width:580px;">
+    </div>
+  </div></div>
+    <img class="robot" src="assets/06-thinking.png" width="445" height="503" alt="" style="left:70px;top:1130px;width:190px" data-in="0" data-at="0.4" data-anim="up">
+    <div class="tip" style="top:1170px;left:280px;right:70px" data-in="1" data-at="0.2" data-anim="up"><b>ตอบไว &amp; เก็บข้อมูลฉลาด</b><br>FAQ ตอบเป๊ะทันทีโดยไม่เปลือง AI<br>คำถามจริงคัดกรองก่อนเข้าคลัง</div>
+    <div class="qrow" style="top:1360px">
+      <span class="qchip" data-in="2" data-at="0.3" data-anim="pop">เตรียมอะไร?</span>
+      <span class="qchip" data-in="2" data-at="0.9" data-anim="pop">เชื่อมตรงไหน?</span>
+      <span class="qchip" data-in="2" data-at="1.5" data-anim="pop">ใช้ผลยังไง?</span>
+    </div></section>
+<section class="scene" id="sc-b2">
+    <h1 class="heading">ภาพรวมทั้งหมด<small>2 ด่านทำงานร่วมกัน</small></h1>
+    <div class="node wide" style="top:410px" data-in="0" data-at="0.1" data-anim="up">
+      <svg class="ico big" viewBox="0 0 24 24"><path d="M12 2l2.4 6.9 6.9 2.4-6.9 2.4L12 20.6l-2.4-6.9L2.7 11.3l6.9-2.4z"/></svg>
+      <div><b>ด่านหน้า: Simple Knowledge</b><span>ตอบทันทีก่อนถึง RAG/LLM · จับคู่ Keyword</span></div>
+      <span class="badge haskey" data-in="0" data-at="0.8" data-anim="pop">ตอบทันที</span>
+    </div>
+    <div class="lane small" style="top:600px">
+      <div class="lane-l" data-in="0" data-at="0.5" data-anim="left"><b>คำถามลูกค้า</b></div>
+      <svg class="varrow" data-in="0" data-at="0.4" data-anim="up" viewBox="0 0 60 150" style="height:150px"><path pathLength="1" d="M30 6 V136 M14 122 L30 140 L46 122"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="128"/></svg>
+      <svg class="varrow up" data-in="0" data-at="0.8" data-anim="up" viewBox="0 0 60 150" style="height:150px"><path pathLength="1" d="M30 6 V136 M14 122 L30 140 L46 122"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="128"/></svg>
+      <div class="lane-r" data-in="0" data-at="0.9" data-anim="up"><b>คำตอบเป๊ะ</b></div>
+    </div>
+    <div class="node wide lm" style="top:760px" data-in="1" data-at="0.2" data-anim="up">
+      <img src="assets/langmind-logo.png" width="689" height="606" alt="LangMind">
+      <div><b>ด่านคัดกรอง: Knowledge Candidates</b><span>พักคำถามไว้ตรวจอนุมัติก่อนส่งเข้า Dataset</span></div>
+    </div>
+    <div class="lane small" style="top:950px">
+      <div class="calls3" data-in="1" data-at="0.6" data-anim="up">
+        <span class="step s1" data-in="2" data-at="0.2" data-anim="pop">1 ตั้งกฎด่วน</span>
+        <span class="step s2" data-in="2" data-at="0.7" data-anim="pop">2 ตรวจอนุมัติ</span>
+        <span class="step s3" data-in="2" data-at="1.2" data-anim="pop">3 ดันเข้าคลัง</span>
+      </div>
+      <svg class="varrow" data-in="1" data-at="0.8" data-anim="up" viewBox="0 0 60 150" style="height:150px"><path pathLength="1" d="M30 6 V136 M14 122 L30 140 L46 122"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="128"/></svg>
+      <svg class="varrow up" data-in="1" data-at="1.2" data-anim="up" viewBox="0 0 60 150" style="height:150px"><path pathLength="1" d="M30 6 V136 M14 122 L30 140 L46 122"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="128"/></svg>
+      <div class="lane-r" data-in="1" data-at="1.3" data-anim="up"><b>ส่งเข้า Dataset</b></div>
+    </div>
+    <div class="node wide" style="top:1110px" data-in="1" data-at="0.4" data-anim="up">
+      <svg class="ico big" viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg>
+      <div><b>ระบบหลังบ้านของคุณ</b><span>เก็บ Key · จัดการคำตอบด่วนและคัดกรอง</span></div>
+      <span class="badge haskey" data-in="1" data-at="1" data-anim="pop"><svg class="ico " viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg>Key</span>
+    </div></section>
+<section class="scene" id="sc-b3">
+    <h1 class="heading"><span class="num">1</span>เตรียม<small>ต้องมี 3 อย่าง</small></h1>
+    <div class="stack" style="top:410px">
+      <div class="card" data-in="0" data-at="0.2" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 3.5V7M9 12.5h.01M15 12.5h.01M9.5 16h5"/></svg><div><b>Agent ID &amp; Dataset ID</b><span>ระบุ Agent และคลังปลายทาง</span></div></div>
+        <div class="chips"><span class="chip mono" data-in="0" data-at="1" data-anim="pop">agent_id: "ag_cafe01"</span><span class="chip mono" data-in="0" data-at="1.4" data-anim="pop">dataset_id: "ds_5e2a..."</span></div>
+      </div>
+      <div class="card" data-in="1" data-at="0.2" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="M11 12l8.5-8.5M16 7l2.5 2.5M14 9l2 2"/></svg><div><b>API Key (สิทธิ์ Knowledge)</b><span class="mono">lmpat_••••••••</span></div></div>
+        <div class="chips">
+          <span class="chip mono" data-in="1" data-at="0.8" data-anim="pop">knowledge:write</span>
+          <span class="chip mono" data-in="1" data-at="1.2" data-anim="pop">knowledge:read</span>
+        </div>
+      </div>
+      <div class="card" data-in="2" data-at="0.2" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg><div><b>ระบบหลังบ้าน (Server)</b><span>เก็บ Key ฝั่งเซิร์ฟเวอร์ · จัดการผ่านแอดมิน</span></div></div>
+      </div>
+    </div></section>
+<section class="scene" id="sc-b4">
+    <h1 class="heading"><span class="num">2</span>เชื่อม<small>ครั้งที่ 1 · ตั้งกฎคำตอบด่วน</small></h1>
+    
+  <div class="minimap" style="--c:#38815A">
+    <span class="mm-node srv"><svg class="ico " viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg>หลังบ้าน<svg class="ico sm" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+    <i class="mm-link"></i>
+    <span class="mm-call">1 · ตั้งกฎ Simple Knowledge</span>
+    <i class="mm-link"></i>
+    <span class="mm-node lm"><img src="assets/langmind-logo.png" width="689" height="606" alt="">Agent</span>
+  </div>
+    <div class="panel">
+      <div class="slot-in" data-in="0" data-at="0.2" data-anim="up">
+        <div class="chip in-chip"><svg class="ico " viewBox="0 0 24 24"><path d="M4 5.5h16v10H9l-5 4z"/><path d="M8 9.5h8M8 12.5h5"/></svg><span>Keyword: <b>“เวลาทำการ”</b></span></div>
+      </div>
+      <svg class="varrow" data-in="0" data-at="0.6" data-anim="up" viewBox="0 0 60 60" style="height:60px"><path pathLength="1" d="M30 6 V46 M14 32 L30 50 L46 32"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="38"/></svg>
+      <div class="code" data-in="0" data-at="0.8" data-anim="up">
+        <div class="code-head"><span class="method">POST</span><span class="scope">สิทธิ์ knowledge:write</span></div>
+        <div class="code-path">/api/simple-knowledge</div>
+        <div class="code-body">
+          <div class="ln " data-in="0" data-at="1" data-anim="left"><span class="k">"agent_id"</span>: <span class="v">"ag_cafe01"</span>,</div>
+          <div class="ln " data-in="0" data-at="1.2" data-anim="left"><span class="k">"title"</span>: <span class="v">"เวลาทำการ"</span>,</div>
+          <div class="ln " data-in="1" data-at="0.2" data-anim="left"><span class="k">"keyword"</span>: <span class="v">"เวลาทำการ"</span>,</div>
+          <div class="ln " data-in="1" data-at="0.4" data-anim="left"><span class="k">"response"</span>: <span class="v">"เปิด 9 โมงถึง 5 โมง"</span>,</div>
+          <div class="ln hl" data-in="1" data-at="0.6" data-anim="left"><span class="mark" data-mark="1" data-mark-at="0.6"></span><span class="k">"match_type"</span>: <span class="v">"exact"</span></div>
+        </div>
+        <div class="code-foot">จับคู่เป๊ะทุกตัวอักษร ตอบทันทีก่อนถึง RAG/LLM</div>
+      </div>
+      <svg class="varrow" data-in="2" data-at="0.2" data-anim="up" viewBox="0 0 60 60" style="height:60px"><path pathLength="1" d="M30 6 V46 M14 32 L30 50 L46 32"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="38"/></svg>
+      <div class="slot-out" data-in="2" data-at="0.4" data-anim="up">
+        <div class="chip out-chip json">
+          { <span class="k">"status"</span>: <span class="v">"created"</span>, <span class="k">"id"</span>: <span class="v">"sk_9a1"</span>, <span class="k">"is_active"</span>: <span class="v">true</span> }
+          <em>ตอบทันทีเมื่อถามตรงคำ โดยไม่เรียก LLM</em>
+        </div>
+      </div>
+    </div>
+    <img class="robot" src="assets/05-point-up.png" width="445" height="503" alt="" style="right:70px;top:1320px;width:170px" data-in="0" data-at="0.4" data-anim="up"></section>
+<section class="scene" id="sc-b5">
+    <h1 class="heading"><span class="num">2</span>เชื่อม<small>ครั้งที่ 2 · ตรวจอนุมัติคำถาม</small></h1>
+    
+  <div class="minimap" style="--c:#8d732c">
+    <span class="mm-node srv"><svg class="ico " viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg>หลังบ้าน<svg class="ico sm" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+    <i class="mm-link"></i>
+    <span class="mm-call">2 · ตรวจอนุมัติ Candidates</span>
+    <i class="mm-link"></i>
+    <span class="mm-node lm"><img src="assets/langmind-logo.png" width="689" height="606" alt="">Review</span>
+  </div>
+    <div class="panel">
+      <div class="slot-in" data-in="0" data-at="0.2" data-anim="up">
+        <div class="chip in-chip"><svg class="ico " viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg><span>คำถามรอตรวจ: <b>“หน้าร้านมีที่จอดรถไหม”</b></span></div>
+      </div>
+      <svg class="varrow" data-in="0" data-at="0.6" data-anim="up" viewBox="0 0 60 60" style="height:60px"><path pathLength="1" d="M30 6 V46 M14 32 L30 50 L46 32"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="38"/></svg>
+      <div class="code" data-in="0" data-at="0.8" data-anim="up">
+        <div class="code-head"><span class="method" style="background:#8d732c">POST</span><span class="scope">สิทธิ์ knowledge:write</span></div>
+        <div class="code-path">/api/knowledge-candidates/review</div>
+        <div class="code-body">
+          <div class="ln " data-in="0" data-at="1" data-anim="left"><span class="k">"agent_id"</span>: <span class="v">"ag_cafe01"</span>,</div>
+          <div class="ln " data-in="1" data-at="0.2" data-anim="left"><span class="k">"ids"</span>: [<span class="v">"kc_6b2e"</span>],</div>
+          <div class="ln hl" data-in="1" data-at="0.4" data-anim="left"><span class="mark" data-mark="1" data-mark-at="0.5"></span><span class="k">"action"</span>: <span class="v">"approve"</span></div>
+        </div>
+        <div class="code-foot">ตรวจความถูกต้องแล้วอนุมัติ เพื่อเตรียมส่งเข้าคลังความรู้จริง</div>
+      </div>
+      <svg class="varrow" data-in="2" data-at="0.2" data-anim="up" viewBox="0 0 60 60" style="height:60px"><path pathLength="1" d="M30 6 V46 M14 32 L30 50 L46 32"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="38"/></svg>
+      <div class="slot-out" data-in="2" data-at="0.4" data-anim="up">
+        <div class="chip out-chip json">
+          { <span class="k">"updated"</span>: <span class="v">1</span>, <span class="k">"status"</span>: <span class="v">"approved"</span> }
+          <em>อนุมัติแล้ว พร้อมสำหรับขั้นตอน Promote</em>
+        </div>
+      </div>
+    </div></section>
+<section class="scene" id="sc-b6">
+    <h1 class="heading"><span class="num">2</span>เชื่อม<small>ครั้งที่ 3 · ดันเข้า Dataset</small></h1>
+    
+  <div class="minimap" style="--c:#1E7578">
+    <span class="mm-node srv"><svg class="ico " viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg>หลังบ้าน<svg class="ico sm" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+    <i class="mm-link"></i>
+    <span class="mm-call">3 · Promote เข้า Dataset</span>
+    <i class="mm-link"></i>
+    <span class="mm-node lm"><img src="assets/langmind-logo.png" width="689" height="606" alt="">Dataset</span>
+  </div>
+    <div class="group" data-out="2" data-out-at="0">
+      <div class="panel">
+        <div class="slot-in" data-in="0" data-at="0.2" data-anim="up">
+          <div class="chip in-chip"><svg class="ico " viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg><span>รายการที่อนุมัติ: <b>kc_6b2e (จอดฟรี 5 คัน)</b></span></div>
+        </div>
+        <svg class="varrow" data-in="1" data-at="0.2" data-anim="up" viewBox="0 0 60 60" style="height:60px"><path pathLength="1" d="M30 6 V46 M14 32 L30 50 L46 32"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="38"/></svg>
+        <div class="code" data-in="1" data-at="0.4" data-anim="up">
+          <div class="code-head"><span class="method" style="background:#1E7578">POST</span><span class="scope">สิทธิ์ knowledge:write</span></div>
+          <div class="code-path">/api/knowledge-candidates/{agent_id}/promote</div>
+          <div class="code-body">
+            <div class="ln " data-in="1" data-at="0.6" data-anim="left"><span class="k">"ids"</span>: [<span class="v">"kc_6b2e"</span>],</div>
+            <div class="ln " data-in="1" data-at="0.8" data-anim="left"><span class="k">"dataset_id"</span>: <span class="v">"ds_5e2a..."</span></div>
+          </div>
+          <div class="code-foot">เฉพาะ candidate สถานะ approved เท่านั้นที่จะถูกนำเข้าคลัง</div>
+        </div>
+        <svg class="varrow" data-in="1" data-at="1.2" data-anim="up" viewBox="0 0 60 60" style="height:60px"><path pathLength="1" d="M30 6 V46 M14 32 L30 50 L46 32"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="38"/></svg>
+        <div class="slot-out" data-in="1" data-at="1.4" data-anim="up">
+          <div class="chip out-chip json">
+            { <span class="k">"promoted"</span>: [<span class="v">"kc_6b2e"</span>],<br>
+              &nbsp;&nbsp;<span class="k">"skipped"</span>: [],<br>
+              &nbsp;&nbsp;<span class="k">"export_batch_id"</span>: <span class="v">"batch_20260818_01"</span> }
+            <em>ส่งเข้า Dataset จริงเรียบร้อย</em>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="place" style="left:270px;top:470px" data-in="2" data-at="0.2" data-anim="up">
+  <div class="device" id="dev-b6" style="width:540px">
+    <div class="screen" style="width:524px;height:655px">
+      <img src="assets/app-faq-rule.jpg" width="1440" height="1800" alt="หน้าจอตั้งกฎคำตอบด่วน (ภาพจำลอง)" data-layout-allow-overflow style="width:524px">
+      <img class="img-a" src="assets/app-candidate-promote.jpg" width="1440" height="1800" alt="หน้าจอคัดกรองคำถามเข้าคลัง (ภาพจำลอง)" data-layout-allow-overflow style="width:524px;opacity:1;">
+    </div>
+  </div></div>
+    <img class="robot" src="assets/12-clipboard.png" width="445" height="503" alt="" style="left:50px;top:1180px;width:200px" data-in="2" data-at="0.5" data-anim="up">
+    <div class="tip" style="top:1200px;left:270px;right:70px" data-in="2" data-at="0.7" data-anim="up"><b>ส่งเข้าคลังสำเร็จ:</b><br>รายการที่ approved เข้า Dataset ทันที<br>รายการ pending จะถูก skipped ป้องกันข้อมูลผิด</div></section>
+<section class="scene" id="sc-b7">
+    <h1 class="heading"><span class="num">3</span>ใช้ผล<small>ข้อควรรู้ตาม Contract</small></h1>
+    <div class="stack" style="top:410px">
+      <div class="use" data-in="0" data-at="0.3" data-anim="left">
+        <svg class="ico big" viewBox="0 0 24 24"><path d="M4 5.5h16v10H9l-5 4z"/><path d="M8 9.5h8M8 12.5h5"/></svg>
+        <div><b>เลือก Match Type ให้เหมาะ</b><span><code>exact</code> ตรงคำเป๊ะ · <code>contains</code> มีคำนั้น · <code>pattern</code> จับคู่ตามรูปแบบ</span></div>
+      </div>
+      <div class="use" data-in="1" data-at="0.1" data-anim="left">
+        <svg class="ico big" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg>
+        <div><b>กฎความปลอดภัยและการเช็กค่า</b><span><code>pattern</code> ต้องมี <code>{variable}</code> (ไม่มีได้ <code>422</code>) · keyword ซ้ำใน Agent ได้ <code>409</code></span></div>
+      </div>
+      <div class="use" data-in="2" data-at="0.1" data-anim="left">
+        <svg class="ico big" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+        <div><b>ระบบคัดกรอง Promote ปลอดภัย</b><span>เฉพาะ <code>status=approved</code> เท่านั้นที่เข้าคลัง รายการที่รอตรวจจะอยู่ใน <code>skipped</code></span></div>
+      </div>
+    </div></section>
+<section class="scene" id="sc-b8">
+    <h1 class="heading">สรุป<small>เตรียม → เชื่อม 3 จุด → ใช้ผล</small></h1>
+    <div class="stack" style="top:410px">
+      
+        <div class="recap" style="--c:#38815A" data-in="0" data-at="0.1" data-anim="up">
+          <span class="recap-t"><b>1</b>เตรียม</span>
+          <div class="chips"><span class="chip" data-in="0" data-at="0.4" data-anim="pop">Agent ID + Dataset ID</span><span class="chip" data-in="0" data-at="0.65" data-anim="pop">API Key (knowledge)</span><span class="chip" data-in="0" data-at="0.9" data-anim="pop">ระบบหลังบ้าน</span></div>
+        </div>
+        <div class="recap" style="--c:#8d732c" data-in="1" data-at="0.1" data-anim="up">
+          <span class="recap-t"><b>2</b>เชื่อม</span>
+          <div class="chips"><span class="chip" data-in="1" data-at="0.4" data-anim="pop">simple-knowledge</span><i class="arr" data-in="1" data-at="0.65" data-anim="up">→</i><span class="chip" data-in="1" data-at="0.9" data-anim="pop">review (approve)</span><i class="arr" data-in="1" data-at="1.15" data-anim="up">→</i><span class="chip" data-in="1" data-at="1.4" data-anim="pop">promote</span></div>
+        </div>
+        <div class="recap" style="--c:#1E7578" data-in="2" data-at="0.1" data-anim="up">
+          <span class="recap-t"><b>3</b>ใช้ผล</span>
+          <div class="chips"><span class="chip" data-in="2" data-at="0.4" data-anim="pop">ตอบด่วนไม่เปลือง AI</span><span class="chip" data-in="2" data-at="0.65" data-anim="pop">คัดกรองคำถามจริง</span><span class="chip" data-in="2" data-at="0.9" data-anim="pop">ปลอดภัยด้วย skipped</span></div>
+        </div>
+    </div>
+    <img class="robot" src="assets/04-open-arms.png" width="425" height="503" alt="" style="left:410px;top:1160px;width:260px" data-in="2" data-at="1.2" data-anim="up"></section>
+<section class="scene" id="sc-b9">
+    <div class="sponsor">
+      <div class="sp-by" data-in="0" data-at="0.2" data-anim="up">สนับสนุนโดย</div>
+      <img class="sp-logo" src="assets/langmind-logo.png" width="689" height="606" alt="LangMind" data-in="0" data-at="0.5" data-anim="pop">
+      <div class="sp-url" data-in="1" data-at="0.3" data-anim="pop">langmind.in.th</div>
+      <div class="chips sp-chips" data-in="1" data-at="0.9" data-anim="up"><span class="chip">Agent</span><span class="chip">Simple Knowledge</span><span class="chip">Knowledge Candidates</span></div>
+    </div></section>
+  </section>
+  <div id="cap-b1-0" class="clip caption" data-start="0.4" data-duration="10.166666666666666" data-track-index="8" data-layout-allow-caption-zone>เวลาทำแชทบอทร้านค้า คำถามพื้นฐาน<br>อยากให้ตอบเป๊ะทันที ไม่เปลืองโควตา AI</div>
+<div id="cap-b1-1" class="clip caption" data-start="10.566666666666666" data-duration="6.733333333333333" data-track-index="8" data-layout-allow-caption-zone>เรื่องที่ 2: คำถามใหม่ๆ จากลูกค้า<br>ที่อยากคัดกรองก่อนเติมเข้าคลังความรู้</div>
+<div id="cap-b1-2" class="clip caption" data-start="17.3" data-duration="7.5" data-track-index="8" data-layout-allow-caption-zone>ถ้าอยากทำทั้งสองอย่างนี้ ต้องเตรียมอะไร<br>เชื่อมตรงไหน และเอาผลไปใช้ยังไง มาดูกันครับ</div>
+<div id="cap-b2-0" class="clip caption" data-start="25.3" data-duration="9.466666666666667" data-track-index="8" data-layout-allow-caption-zone>ด่านหน้า: Simple Knowledge (กฎคำตอบด่วน)<br>ตอบทันทีก่อนถึง RAGFlow และ LLM</div>
+<div id="cap-b2-1" class="clip caption" data-start="34.8" data-duration="8.533333333333333" data-track-index="8" data-layout-allow-caption-zone>ด่านคัดกรอง: Knowledge Candidates<br>พักคำถามไว้ตรวจอนุมัติก่อนส่งเข้า Dataset</div>
+<div id="cap-b2-2" class="clip caption" data-start="43.3" data-duration="8.133333333333333" data-track-index="8" data-layout-allow-caption-zone>เชื่อม API 3 จุด: 1 ตั้งกฎคำตอบด่วน<br>→ 2 ตรวจอนุมัติ → 3 ดันเข้า Dataset</div>
+<div id="cap-b3-0" class="clip caption" data-start="51.96666666666667" data-duration="8.566666666666666" data-track-index="8" data-layout-allow-caption-zone>สิ่งที่ต้องเตรียม อย่างแรกคือ Agent ID<br>และรหัส Dataset ID ปลายทาง</div>
+<div id="cap-b3-1" class="clip caption" data-start="60.53333333333333" data-duration="5.8" data-track-index="8" data-layout-allow-caption-zone>อย่างที่สอง API Key ที่มีสิทธิ์<br>knowledge:write และ knowledge:read</div>
+<div id="cap-b3-2" class="clip caption" data-start="66.33333333333333" data-duration="8.4" data-track-index="8" data-layout-allow-caption-zone>อย่างที่สาม ระบบหลังบ้านของแอป<br>สำหรับเก็บ Key และให้แอดมินจัดการข้อมูล</div>
+<div id="cap-b4-0" class="clip caption" data-start="75.23333333333333" data-duration="9.233333333333333" data-track-index="8" data-layout-allow-caption-zone>ครั้งที่ 1: ตั้งกฎคำตอบด่วน<br>POST /api/simple-knowledge</div>
+<div id="cap-b4-1" class="clip caption" data-start="84.46666666666667" data-duration="7.9" data-track-index="8" data-layout-allow-caption-zone>ระบุ keyword: &quot;เวลาทำการ&quot;, response<br>และ match_type: &quot;exact&quot;</div>
+<div id="cap-b4-2" class="clip caption" data-start="92.36666666666666" data-duration="6.366666666666666" data-track-index="8" data-layout-allow-caption-zone>เมื่อลูกค้าถามตรงคำ ระบบตอบกลับทันที<br>โดยไม่เรียกโมเดลภาษา (LLM)</div>
+<div id="cap-b5-0" class="clip caption" data-start="101.73333333333333" data-duration="8.366666666666667" data-track-index="8" data-layout-allow-caption-zone>ครั้งที่ 2: ตรวจอนุมัติคำถามที่รออยู่<br>ใน Knowledge Candidates</div>
+<div id="cap-b5-1" class="clip caption" data-start="110.1" data-duration="8.766666666666667" data-track-index="8" data-layout-allow-caption-zone>POST /api/knowledge-candidates/review<br>ระบุ ids และ action: &quot;approve&quot;</div>
+<div id="cap-b5-2" class="clip caption" data-start="118.86666666666666" data-duration="6.266666666666667" data-track-index="8" data-layout-allow-caption-zone>สถานะเปลี่ยนเป็น approved<br>พร้อมส่งเข้า Dataset ปลายทาง</div>
+<div id="cap-b6-0" class="clip caption" data-start="127.66666666666667" data-duration="9.5" data-track-index="8" data-layout-allow-caption-zone>ครั้งที่ 3: ดันเข้า Dataset จริง<br>POST /api/knowledge-candidates/{id}/promote</div>
+<div id="cap-b6-1" class="clip caption" data-start="137.16666666666666" data-duration="8.166666666666666" data-track-index="8" data-layout-allow-caption-zone>ระบุ ids และ dataset_id ปลายทาง<br>เฉพาะที่ approved จะถูกส่งเข้าคลัง</div>
+<div id="cap-b6-2" class="clip caption" data-start="145.33333333333334" data-duration="6.366666666666666" data-track-index="8" data-layout-allow-caption-zone>คืน promoted: [&quot;6b2e...&quot;] และ export_batch_id<br>ส่วนที่ไม่อนุมัติจะอยู่ใน skipped</div>
+<div id="cap-b7-0" class="clip caption" data-start="155.2" data-duration="10.366666666666667" data-track-index="8" data-layout-allow-caption-zone>Simple Knowledge เลือก match_type ได้ 3 แบบ:<br>exact · contains · pattern</div>
+<div id="cap-b7-1" class="clip caption" data-start="165.56666666666666" data-duration="9.966666666666667" data-track-index="8" data-layout-allow-caption-zone>pattern ต้องมี {variable} (ถ้าไม่มีได้ 422)<br>และ keyword ซ้ำจะได้รหัส 409</div>
+<div id="cap-b7-2" class="clip caption" data-start="175.53333333333333" data-duration="9.9" data-track-index="8" data-layout-allow-caption-zone>ฝั่ง Promote: เฉพาะ approved เท่านั้น<br>รายการที่ยังไม่อนุมัติจะถูก skipped อัตโนมัติ</div>
+<div id="cap-b8-0" class="clip caption" data-start="185.93333333333334" data-duration="6.4" data-track-index="8" data-layout-allow-caption-zone>สรุป: เตรียม Agent ID, Dataset ID<br>และ API Key สิทธิ์ knowledge</div>
+<div id="cap-b8-1" class="clip caption" data-start="192.33333333333334" data-duration="8.4" data-track-index="8" data-layout-allow-caption-zone>เชื่อม 3 จุด: simple-knowledge<br>→ review (approve) → promote (Dataset)</div>
+<div id="cap-b8-2" class="clip caption" data-start="200.73333333333332" data-duration="6.866666666666666" data-track-index="8" data-layout-allow-caption-zone>ตอบคำถามพื้นฐานได้ไว และฉลาดขึ้น<br>จากคำถามจริงอย่างปลอดภัยครับ</div>
+<div id="cap-b9-0" class="clip caption" data-start="208.13333333333333" data-duration="2.566666666666667" data-track-index="8" data-layout-allow-caption-zone>คลิปนี้สนับสนุนโดย LangMind</div>
+<div id="cap-b9-1" class="clip caption" data-start="210.66666666666666" data-duration="6.866666666666666" data-track-index="8" data-layout-allow-caption-zone>เริ่มสร้างและดูแลคลังความรู้ให้ Agent ของคุณได้<br>ที่ langmind.in.th</div>
+  
+</main>
+<script>window.FILM={"duration":219.53333333333333,"beats":[{"id":"b1","start":0.4,"duration":24.4,"segments":[{"cue":"faq","start":0.4,"duration":10.166666666666666},{"cue":"candidate","start":10.566666666666666,"duration":6.733333333333333},{"cue":"questions","start":17.3,"duration":7.5}]},{"id":"b2","start":25.3,"duration":26.133333333333333,"segments":[{"cue":"front","start":25.3,"duration":9.466666666666667},{"cue":"curate","start":34.8,"duration":8.533333333333333},{"cue":"calls","start":43.3,"duration":8.133333333333333}]},{"id":"b3","start":51.96666666666667,"duration":22.766666666666666,"segments":[{"cue":"ids","start":51.96666666666667,"duration":8.566666666666666},{"cue":"key","start":60.53333333333333,"duration":5.8},{"cue":"server","start":66.33333333333333,"duration":8.4}]},{"id":"b4","start":75.23333333333333,"duration":23.5,"segments":[{"cue":"request","start":75.23333333333333,"duration":9.233333333333333},{"cue":"params","start":84.46666666666667,"duration":7.9},{"cue":"response","start":92.36666666666666,"duration":6.366666666666666}]},{"id":"b5","start":101.73333333333333,"duration":23.4,"segments":[{"cue":"candidates","start":101.73333333333333,"duration":8.366666666666667},{"cue":"review","start":110.1,"duration":8.766666666666667},{"cue":"approved","start":118.86666666666666,"duration":6.266666666666667}]},{"id":"b6","start":127.66666666666667,"duration":24.066666666666666,"segments":[{"cue":"promote-intro","start":127.66666666666667,"duration":9.5},{"cue":"params","start":137.16666666666666,"duration":8.166666666666666},{"cue":"response","start":145.33333333333334,"duration":6.366666666666666}]},{"id":"b7","start":155.2,"duration":30.233333333333334,"segments":[{"cue":"match-types","start":155.2,"duration":10.366666666666667},{"cue":"validation","start":165.56666666666666,"duration":9.966666666666667},{"cue":"skipped","start":175.53333333333333,"duration":9.9}]},{"id":"b8","start":185.93333333333334,"duration":21.7,"segments":[{"cue":"r1","start":185.93333333333334,"duration":6.4},{"cue":"r2","start":192.33333333333334,"duration":8.4},{"cue":"r3","start":200.73333333333332,"duration":6.866666666666666}]},{"id":"b9","start":208.13333333333333,"duration":9.433333333333334,"segments":[{"cue":"sponsor","start":208.13333333333333,"duration":2.566666666666667},{"cue":"cta","start":210.66666666666666,"duration":6.866666666666666}]}]}</script>
+<script src="motion.js"></script>
+</body>
+</html>

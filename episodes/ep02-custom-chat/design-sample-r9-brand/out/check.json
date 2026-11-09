@@ -1,0 +1,252 @@
+{
+  "issues": [
+    {
+      "level": "warn",
+      "scene": "chat",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "chat",
+      "t": 0,
+      "message": "\"01 / 03\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "chat",
+      "t": 0,
+      "message": "\"ให้ผู้ช่วยร่าง แล้วปรับให้เข้ากับช่องทาง\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "chat",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ตัวอย่างออกแบบ ไม่\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "chat",
+      "t": 0,
+      "message": "\"ร่าง → ตรวจ → ปรับข้อความก่อนนำไปใช้\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "chat",
+      "t": 0.25,
+      "message": "\"team.example / assistant\" is 8.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "chat",
+      "t": 0.25,
+      "message": "\"ร่างข้อความสำหรับทีมขาย\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "chat",
+      "t": 0.25,
+      "message": "\"กำลังร่างคำตอบ…\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "chat",
+      "t": 0.25,
+      "message": "\"พิมพ์ข้อความถึงผู้ช่วย…\" is 10.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "chat",
+      "t": 0.25,
+      "message": "\"ส่ง\" is 10.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "key",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "key",
+      "t": 0,
+      "message": "\"02 / 03\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "key",
+      "t": 0,
+      "message": "\"เลือกสิทธิ์ แล้วเก็บค่าไว้ฝั่ง server\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "key",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ตัวอย่างออกแบบ ไม่\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "key",
+      "t": 0.25,
+      "message": "\"LangMind · หน้าจอจำลอง\" is 8.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "key",
+      "t": 0.25,
+      "message": "\"ตั้งชื่อให้จำได้ว่าใช้กับแอปใด\" is 14.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "key",
+      "t": 0.25,
+      "message": "\"ชื่อ key\" is 9.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "key",
+      "t": 0.25,
+      "message": "\"อายุการใช้งาน\" is 9.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "key",
+      "t": 0.25,
+      "message": "\"เลือกตามการใช้งานของทีม\" is 10.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "key",
+      "t": 0.25,
+      "message": "\"สิทธิ์สำหรับตัวอย่างนี้\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "key",
+      "t": 0.25,
+      "message": "\"สนทนากับ Agent\" is 13.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "key",
+      "t": 0.25,
+      "message": "\"สร้าง key\" is 10.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "key",
+      "t": 1.25,
+      "message": "\"เว\" is 10.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "key",
+      "t": 1.5,
+      "message": "\"เว็บผ\" is 10.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "key",
+      "t": 1.75,
+      "message": "\"เว็บผู้ช่\" is 10.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "key",
+      "t": 2,
+      "message": "\"เว็บผู้ช่วย\" is 10.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "key",
+      "t": 2.25,
+      "message": "\"เว็บผู้ช่วยทีมข\" is 10.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "key",
+      "t": 2.5,
+      "message": "\"เว็บผู้ช่วยทีมขาย\" is 10.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "key",
+      "t": 9,
+      "message": "\"สร้างแล้ว\" is 10.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "key",
+      "t": 9,
+      "message": "\"ไม่วาง key ในโค้ดหน้าเว็บ\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "code",
+      "t": 0,
+      "message": "\"LANGMIND / EP02\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "code",
+      "t": 0,
+      "message": "\"03 / 03\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "code",
+      "t": 0,
+      "message": "\"หน้าเว็บ → server ของเรา → LangMind\" is 14.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "code",
+      "t": 0,
+      "message": "\"ภาพจำลองเพื่ออธิบาย · ตัวอย่างออกแบบ ไม่\" is 12.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "code",
+      "t": 0,
+      "message": "\"หน้าเว็บของเรา\" is 14.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "code",
+      "t": 0,
+      "message": "\"แนบ API key และ Agent ID ฝั่งนี้\" is 15.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "code",
+      "t": 0,
+      "message": "\"/api/chat เป็น route ของแอปเรา\" is 14.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "code",
+      "t": 0,
+      "message": "\"โค้ดเฉพาะส่วนเพื่ออธิบาย ไม่ใช่โปรเจกต์พ\" is 13.0px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "code",
+      "t": 0.25,
+      "message": "\"code\" is 13.5px at a 540px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "hint",
+      "scene": "chat",
+      "t": 0,
+      "message": "no new element for 12.0s (from 0.0s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "code",
+      "t": 5,
+      "message": "no new element for 7.0s (from 5.0s); consider revealing something on a cue in that stretch"
+    }
+  ],
+  "duration": 40,
+  "scenes": 4
+}

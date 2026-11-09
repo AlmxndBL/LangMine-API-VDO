@@ -1,0 +1,197 @@
+{
+  "fps": 30,
+  "lead_in": 0.4,
+  "beat_gap": 0.5,
+  "tail": 2.0,
+  "chars_per_second": 11,
+  "note": "EP07 video = viewer-first story + Simple Knowledge & Knowledge Candidates API walkthrough + LangMind sponsor end card. say = narration (voice), cap = caption (\\n = line break).",
+  "beats": [
+    {
+      "id": "b1",
+      "voice": "assets/voice/b1.wav",
+      "segments": [
+        {
+          "cue": "faq",
+          "say": "เวลาทำแชทบอทร้านค้า เรื่องแรกคือคำถามพื้นฐานอย่างร้านเปิดกี่โมง ที่อยากให้ตอบเป๊ะทันทีโดยไม่ต้องเปลืองโควตา AI",
+          "cap": "เวลาทำแชทบอทร้านค้า คำถามพื้นฐาน\nอยากให้ตอบเป๊ะทันที ไม่เปลืองโควตา AI"
+        },
+        {
+          "cue": "candidate",
+          "say": "เรื่องที่สองคือคำถามใหม่ๆ จากลูกค้า ที่อยากคัดกรองก่อนเติมเข้าคลังความรู้",
+          "cap": "เรื่องที่ 2: คำถามใหม่ๆ จากลูกค้า\nที่อยากคัดกรองก่อนเติมเข้าคลังความรู้"
+        },
+        {
+          "cue": "questions",
+          "say": "ถ้าอยากทำทั้งสองอย่างนี้ ต้องเตรียมอะไร เชื่อมตรงไหน และเอาผลไปใช้ยังไง มาดูกันครับ",
+          "cap": "ถ้าอยากทำทั้งสองอย่างนี้ ต้องเตรียมอะไร\nเชื่อมตรงไหน และเอาผลไปใช้ยังไง มาดูกันครับ"
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "voice": "assets/voice/b2.wav",
+      "segments": [
+        {
+          "cue": "front",
+          "say": "ภาพรวมแบ่งเป็นสองด่าน ด่านหน้าคือ Simple Knowledge กฎคำถามคำตอบแบบ Keyword ที่ตอบทันทีก่อนถึง RAGFlow และ LLM",
+          "cap": "ด่านหน้า: Simple Knowledge (กฎคำตอบด่วน)\nตอบทันทีก่อนถึง RAGFlow และ LLM"
+        },
+        {
+          "cue": "curate",
+          "say": "ส่วนด่านพัฒนาคือ Knowledge Candidates ที่พักคำถามคำตอบไว้ให้ตรวจอนุมัติก่อนส่งเข้า Dataset จริง",
+          "cap": "ด่านคัดกรอง: Knowledge Candidates\nพักคำถามไว้ตรวจอนุมัติก่อนส่งเข้า Dataset"
+        },
+        {
+          "cue": "calls",
+          "say": "โดยระบบหลังบ้านจะเชื่อม API สามจุดหลัก คือ ตั้งกฎคำตอบด่วน ตรวจอนุมัติ และดันเข้าคลังความรู้",
+          "cap": "เชื่อม API 3 จุด: 1 ตั้งกฎคำตอบด่วน\n→ 2 ตรวจอนุมัติ → 3 ดันเข้า Dataset"
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "voice": "assets/voice/b3.wav",
+      "segments": [
+        {
+          "cue": "ids",
+          "say": "เริ่มจากสิ่งที่ต้องเตรียม อย่างแรกคือรหัส Agent ID และรหัส Dataset ID ปลายทางที่ต้องการเติมข้อมูล",
+          "cap": "สิ่งที่ต้องเตรียม อย่างแรกคือ Agent ID\nและรหัส Dataset ID ปลายทาง"
+        },
+        {
+          "cue": "key",
+          "say": "อย่างที่สองคือ API Key ที่มีสิทธิ์ knowledge write และ knowledge read",
+          "cap": "อย่างที่สอง API Key ที่มีสิทธิ์\nknowledge:write และ knowledge:read"
+        },
+        {
+          "cue": "server",
+          "say": "อย่างที่สามคือระบบหลังบ้านของแอป สำหรับเก็บ Key และให้แอดมินจัดการข้อมูลผ่านหน้าจอของเราเอง",
+          "cap": "อย่างที่สาม ระบบหลังบ้านของแอป\nสำหรับเก็บ Key และให้แอดมินจัดการข้อมูล"
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "voice": "assets/voice/b4.wav",
+      "segments": [
+        {
+          "cue": "request",
+          "say": "มาดูการเชื่อมครั้งที่หนึ่ง การตั้งกฎคำตอบด่วน ส่งคำขอ POST ไปที่ simple knowledge โดยใส่ agent ID ไว้ใน body",
+          "cap": "ครั้งที่ 1: ตั้งกฎคำตอบด่วน\nPOST /api/simple-knowledge"
+        },
+        {
+          "cue": "params",
+          "say": "พร้อมระบุ keyword เช่น เวลาทำการ คำตอบคือ เปิดเก้าโมงถึงห้าโมง และเลือก match type เป็น exact",
+          "cap": "ระบุ keyword: \"เวลาทำการ\", response\nและ match_type: \"exact\""
+        },
+        {
+          "cue": "response",
+          "say": "เพียงเท่านี้ เมื่อลูกค้าถามตรงคำ ระบบจะตอบกลับทันทีโดยไม่เรียก LLM ครับ",
+          "cap": "เมื่อลูกค้าถามตรงคำ ระบบตอบกลับทันที\nโดยไม่เรียกโมเดลภาษา (LLM)"
+        }
+      ],
+      "hold": 2.5
+    },
+    {
+      "id": "b5",
+      "voice": "assets/voice/b5.wav",
+      "segments": [
+        {
+          "cue": "candidates",
+          "say": "ครั้งที่สอง การตรวจอนุมัติคำถามที่รออยู่ จากข้อความแชท หรือสร้างเข้ามาใน Knowledge Candidates",
+          "cap": "ครั้งที่ 2: ตรวจอนุมัติคำถามที่รออยู่\nใน Knowledge Candidates"
+        },
+        {
+          "cue": "review",
+          "say": "ส่ง POST ไปที่ knowledge candidates review พร้อมระบุ agent ID รายการ ID ที่เลือก และใส่ action เป็น approve",
+          "cap": "POST /api/knowledge-candidates/review\nระบุ ids และ action: \"approve\""
+        },
+        {
+          "cue": "approved",
+          "say": "เพื่ออนุมัติคำถามคำตอบที่ตรวจสอบความถูกต้องแล้ว ให้พร้อมส่งเข้าคลัง",
+          "cap": "สถานะเปลี่ยนเป็น approved\nพร้อมส่งเข้า Dataset ปลายทาง"
+        }
+      ],
+      "hold": 2.0
+    },
+    {
+      "id": "b6",
+      "voice": "assets/voice/b6.wav",
+      "segments": [
+        {
+          "cue": "promote-intro",
+          "say": "ครั้งที่สาม การดันคำถามเข้าคลังความรู้จริง ส่งคำขอ POST ไปที่ knowledge candidates ตามด้วย agent ID และ promote",
+          "cap": "ครั้งที่ 3: ดันเข้า Dataset จริง\nPOST /api/knowledge-candidates/{id}/promote"
+        },
+        {
+          "cue": "params",
+          "say": "โดยระบุรายการ ID และ dataset ID ปลายทาง ระบบจะนำเฉพาะรายการที่อนุมัติแล้ว ส่งเข้า Dataset ทันที",
+          "cap": "ระบุ ids และ dataset_id ปลายทาง\nเฉพาะที่ approved จะถูกส่งเข้าคลัง"
+        },
+        {
+          "cue": "response",
+          "say": "และคืนรายการที่สำเร็จในชื่อ promoted พร้อมรหัส export batch ID กลับมาครับ",
+          "cap": "คืน promoted: [\"6b2e...\"] และ export_batch_id\nส่วนที่ไม่อนุมัติจะอยู่ใน skipped"
+        }
+      ],
+      "hold": 3.0
+    },
+    {
+      "id": "b7",
+      "voice": "assets/voice/b7.wav",
+      "segments": [
+        {
+          "cue": "match-types",
+          "say": "ผลที่ได้ช่วยให้จัดการความรู้อย่างมีระบบ ในฝั่ง Simple Knowledge เลือก match type ได้สามแบบคือ exact, contains และ pattern",
+          "cap": "Simple Knowledge เลือก match_type ได้ 3 แบบ:\nexact · contains · pattern"
+        },
+        {
+          "cue": "validation",
+          "say": "โดยถ้าใช้ pattern ต้องมีตัวแปรในปีกกา ไม่อย่างนั้นจะได้รหัสสี่สองสอง และถ้าตั้ง keyword ซ้ำจะได้รหัสสี่ศูนย์เก้า",
+          "cap": "pattern ต้องมี {variable} (ถ้าไม่มีได้ 422)\nและ keyword ซ้ำจะได้รหัส 409"
+        },
+        {
+          "cue": "skipped",
+          "say": "ส่วนฝั่ง Promote หากส่งรายการที่ยังไม่อนุมัติไปด้วย ระบบจะแยกไปไว้ใน skipped ให้อัตโนมัติ ไม่ปนเข้าคลังจริงครับ",
+          "cap": "ฝั่ง Promote: เฉพาะ approved เท่านั้น\nรายการที่ยังไม่อนุมัติจะถูก skipped อัตโนมัติ"
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "voice": "assets/voice/b8.wav",
+      "segments": [
+        {
+          "cue": "r1",
+          "say": "สรุปครับ เตรียม Agent ID, Dataset ID และ API Key สิทธิ์ knowledge write และ read",
+          "cap": "สรุป: เตรียม Agent ID, Dataset ID\nและ API Key สิทธิ์ knowledge"
+        },
+        {
+          "cue": "r2",
+          "say": "เชื่อมสามจุด คือเพิ่มกฎด่วนที่ simple knowledge ตรวจอนุมัติที่ review และดันเข้าคลังที่ promote",
+          "cap": "เชื่อม 3 จุด: simple-knowledge\n→ review (approve) → promote (Dataset)"
+        },
+        {
+          "cue": "r3",
+          "say": "ช่วยให้แชทบอทตอบคำถามพื้นฐานได้ไว และฉลาดขึ้นจากคำถามจริงอย่างปลอดภัยครับ",
+          "cap": "ตอบคำถามพื้นฐานได้ไว และฉลาดขึ้น\nจากคำถามจริงอย่างปลอดภัยครับ"
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "voice": "assets/voice/b9.wav",
+      "segments": [
+        {
+          "cue": "sponsor",
+          "say": "คลิปนี้สนับสนุนโดย LangMind",
+          "cap": "คลิปนี้สนับสนุนโดย LangMind"
+        },
+        {
+          "cue": "cta",
+          "say": "เริ่มสร้างและดูแลคลังความรู้ให้ Agent ของคุณได้ที่ LangMind ดอท อิน ดอท ทีเอช",
+          "cap": "เริ่มสร้างและดูแลคลังความรู้ให้ Agent ของคุณได้\nที่ langmind.in.th"
+        }
+      ]
+    }
+  ]
+}

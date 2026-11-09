@@ -1,0 +1,173 @@
+<!doctype html><html lang="th"><head><meta charset="utf-8"><title>จำวงจรหลักไว้</title></head><body><template><style>@font-face{font-family:Sarabun;src:url('assets/Sarabun-Regular.ttf')}@font-face{font-family:Sarabun;src:url('assets/Sarabun-Bold.ttf');font-weight:700}*{box-sizing:border-box}#root{position:relative;width:1080px;height:1920px;overflow:hidden;color:#17252e;font-family:Sarabun;background-color:var(--paper,#fff9e9);background-image:linear-gradient(#658baf24 2px,transparent 2px),linear-gradient(90deg,#658baf24 2px,transparent 2px);background-size:54px 54px}h1{position:absolute;left:100px;top:177px;width:880px;margin:0;padding:24px 28px;font-size:65px;line-height:1.3;text-align:center;background:var(--label,#ffda35);border:7px solid #202326;box-shadow:8px 9px 0 white;transform:rotate(-1deg);font-weight:700;z-index:5}.kicker{position:absolute;top:105px;left:110px;font-size:32px;font-weight:700}.note{position:absolute;left:110px;top:1280px;width:860px;font-size:43px;line-height:1.5;background:#fffdf5;border:4px solid #202326;padding:22px 30px;border-radius:15px;z-index:5}.big{position:absolute;left:110px;top:445px;width:860px;font-size:65px;line-height:1.55;font-weight:700}.big strong{background:#ffe16b;padding:0 12px}.sub{font-size:43px;font-weight:400}.tile{padding:30px 34px;margin-bottom:38px;background:white;border:6px solid #202326;border-radius:25px;box-shadow:8px 9px 0 #ffffff}.tile b{display:block;color:#125eac}.tile small{font-size:40px;font-weight:400}.robot{position:absolute;right:100px;top:930px;width:290px;height:320px;object-fit:contain}.badge{display:inline-block;background:#1bae76;border:5px solid #202326;padding:12px 24px;color:#102c25;font-size:46px;font-weight:700}.foot{position:absolute;top:1410px;left:110px;font-size:32px;width:860px;color:#344953}.url{font-family:Consolas,monospace;font-size:48px;overflow-wrap:anywhere;line-height:1.7}.arrow{font-size:70px;text-align:center;color:#145eac}img,video{object-fit:contain}
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        width: 1440px;
+        height: 2560px;
+        overflow: hidden;
+        background-color: #ffffff;
+      }
+    
+
+        #flowchart-vertical {
+          width: 1440px;
+          height: 2560px;
+          background-color: #ffffff;
+          background-image: radial-gradient(#e5e5e5 1px, transparent 1px);
+          background-size: 20px 20px;
+          position: absolute;
+          overflow: hidden;
+          font-family: "Inter", sans-serif;
+        }
+
+        #flowchart-vertical .canvas {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          transform: none;
+          transform-origin: 720px 640px;
+        }
+
+        #flowchart-vertical .node {
+          position: absolute;
+          transform: translate(-50%, -50%) scale(0);
+          padding: 16px 24px;
+          border-radius: 12px;
+          font-size: 18px;
+          font-weight: 500;
+          color: #333;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+          white-space: nowrap;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          z-index: 10;
+        }
+
+        #flowchart-vertical .node.yellow {
+          background-color: #e8d44d;
+        }
+        #flowchart-vertical .node.green {
+          background-color: #c2e8a0;
+        }
+        #flowchart-vertical .node.peach {
+          background-color: #f5c5a3;
+        }
+        #flowchart-vertical .node.lavender {
+          background-color: #d4c5f9;
+        }
+        #flowchart-vertical .node.blue {
+          background-color: #a8d8f0;
+        }
+        #flowchart-vertical .node.pink {
+          background-color: #f8b4c8;
+        }
+
+        #flowchart-vertical .connectors {
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 5;
+          pointer-events: none;
+        }
+
+        #flowchart-vertical .connector {
+          stroke-dasharray: 1000;
+          stroke-dashoffset: 1000;
+        }
+
+        #flowchart-vertical .connector-label {
+          position: absolute;
+          font-size: 14px;
+          font-weight: 600;
+          color: #333;
+          background: white;
+          padding: 2px 6px;
+          border-radius: 4px;
+          opacity: 0;
+          z-index: 6;
+          transform: translate(-50%, -50%);
+        }
+
+        #flowchart-vertical #label-yes {
+          left: 580px;
+          top: 420px;
+        }
+        #flowchart-vertical #label-not-sure {
+          left: 860px;
+          top: 420px;
+        }
+
+        #flowchart-vertical .cursor-container {
+          position: absolute;
+          left: 1440px;
+          top: 2560px;
+          z-index: 100;
+          pointer-events: none;
+          display: flex;
+          align-items: flex-start;
+        }
+
+        #flowchart-vertical .cursor-tag {
+          background-color: #9747ff;
+          color: white;
+          padding: 2px 8px;
+          border-radius: 4px;
+          font-size: 12px;
+          font-weight: 600;
+          margin-left: 4px;
+          margin-top: 12px;
+        }
+
+        #flowchart-vertical .squiggle-container {
+          position: absolute;
+          right: 0;
+          bottom: -4px;
+          opacity: 0;
+        }
+
+        #flowchart-vertical .emoji {
+          position: absolute;
+          font-size: 32px;
+          left: 390px;
+          top: 960px;
+          transform: translate(-50%, -50%) scale(0);
+          z-index: 20;
+        }
+
+        #flowchart-vertical #fade-overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: white;
+          opacity: 0;
+          z-index: 1000;
+          pointer-events: none;
+        }
+
+        #flowchart-vertical .selection-border {
+          position: absolute;
+          top: -4px;
+          left: -4px;
+          right: -4px;
+          bottom: -4px;
+          border: 2px solid #0b84f3;
+          border-radius: 16px;
+          pointer-events: none;
+          opacity: 0;
+        }
+
+        #flowchart-vertical .text-highlight {
+          background-color: #d0e4ff;
+        }
+      
+@font-face{font-family:Sarabun;src:url('assets/Sarabun-Regular.ttf')}@font-face{font-family:Sarabun;src:url('assets/Sarabun-Bold.ttf');font-weight:700}*{box-sizing:border-box}#root{position:relative;width:1080px;height:1920px;overflow:hidden;color:#17252e;font-family:Sarabun;background-color:var(--paper,#fff9e9);background-image:linear-gradient(#658baf24 2px,transparent 2px),linear-gradient(90deg,#658baf24 2px,transparent 2px);background-size:54px 54px}h1{position:absolute;left:100px;top:177px;width:880px;margin:0;padding:24px 28px;font-size:65px;line-height:1.3;text-align:center;background:var(--label,#ffda35);border:7px solid #202326;box-shadow:8px 9px 0 white;transform:rotate(-1deg);font-weight:700;z-index:5}.kicker{position:absolute;top:105px;left:110px;font-size:32px;font-weight:700}.note{position:absolute;left:110px;top:1280px;width:860px;font-size:43px;line-height:1.5;background:#fffdf5;border:4px solid #202326;padding:22px 30px;border-radius:15px;z-index:5}.big{position:absolute;left:110px;top:445px;width:860px;font-size:65px;line-height:1.55;font-weight:700}.big strong{background:#ffe16b;padding:0 12px}.sub{font-size:43px;font-weight:400}.tile{padding:30px 34px;margin-bottom:38px;background:white;border:6px solid #202326;border-radius:25px;box-shadow:8px 9px 0 #ffffff}.tile b{display:block;color:#125eac}.tile small{font-size:40px;font-weight:400}.robot{position:absolute;right:100px;top:930px;width:290px;height:320px;object-fit:contain}.badge{display:inline-block;background:#1bae76;border:5px solid #202326;padding:12px 24px;color:#102c25;font-size:46px;font-weight:700}.foot{position:absolute;top:1410px;left:110px;font-size:32px;width:860px;color:#344953}.url{font-family:Consolas,monospace;font-size:48px;overflow-wrap:anywhere;line-height:1.7}.arrow{font-size:70px;text-align:center;color:#145eac}img,video{object-fit:contain}
+.canvas{position:absolute;inset:0}.node{position:absolute;left:170px;width:740px;height:180px;border:6px solid #202326;border-radius:22px;box-shadow:8px 9px 0 white;font:700 54px Sarabun;text-align:center;display:flex;flex-direction:column;justify-content:center;transform:none}.node small{font:39px Sarabun;margin-top:12px}#node-0{top:435px;background:#ffdf60}#node-1{top:735px;background:#bce9d8}#node-2{top:1035px;background:#c8dfff}.connector{stroke:#202326;stroke-width:7;fill:none;stroke-dasharray:140}.note{top:1285px;font-size:40px}#root{background-color:#f4e8ce;background-image:linear-gradient(#557ea52b 2px,transparent 2px),linear-gradient(90deg,#557ea52b 2px,transparent 2px);background-size:54px 54px;}.kicker,.note{display:none!important}.foot{font-size:29px;top:1460px;width:860px}.robot{display:none}.big{top:390px;font-size:58px}.tile{box-shadow:7px 9px 0 white;border-width:5px}.tile:nth-child(2n){transform:rotate(1deg);background:#e3f3eb}.tile:nth-child(2n+1){transform:rotate(-1deg)}h1{display:none}.acr-stage{transform:rotate(-1deg);transform-origin:center}.editor{top:360px!important}.url{font-size:46px}.badge{font-size:43px}.foot{width:570px;font-size:30px}.code{padding-left:60px!important}</style><div id="root" data-composition-id="b15-2" style="--paper:#fff9e9;--label:#ffda35"><div class="kicker">EP02 · เว็บแชทของเราเอง</div><h1>จำวงจรหลักไว้</h1><div class="canvas"><svg class="connectors" width="1080" height="1300"><path class="connector" d="M540 615 L540 735"/><path class="connector" d="M540 915 L540 1035"/></svg><div id="node-0" class="node yellow">หน้าเว็บ<small>พิมพ์และอ่านคำตอบ</small></div><div id="node-1" class="node green">server ของแอปเรา<small>/api/chat · รับข้อความ</small></div><div id="node-2" class="node peach">LangMind Agent<small>ผู้ช่วยที่เราตั้งหน้าที่ไว้</small></div></div><div class="note">หน้าเว็บ → server → LangMind → คำตอบ<br>ถามต่อ ใช้รหัสบทสนทนาเดิม</div></div><script>const tl=gsap.timeline({paused:true});tl.fromTo('#node-0',{scale:.8,opacity:0},{scale:1,opacity:1,duration:.4,ease:'back.out(1.3)'},0.2);tl.fromTo('#node-1',{scale:.8,opacity:0},{scale:1,opacity:1,duration:.4,ease:'back.out(1.3)'},1.5999999999999999);tl.fromTo('#node-2',{scale:.8,opacity:0},{scale:1,opacity:1,duration:.4,ease:'back.out(1.3)'},3);tl.fromTo('.connector',{strokeDashoffset:140},{strokeDashoffset:0,duration:.7,stagger:1.4},1);tl.fromTo('#node-2',{borderColor:'#202326'},{borderColor:'#1667d0',duration:.4},4.5);window.__timelines=window.__timelines||{};window.__timelines['b15-2']=tl;</script></template></body></html>

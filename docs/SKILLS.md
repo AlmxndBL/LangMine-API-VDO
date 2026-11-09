@@ -4,21 +4,27 @@
 
 เอกสารนี้เป็นรายการติดตั้งและตรวจความพร้อม กติกาการทำงานอยู่ใน [AGENTS.md](../AGENTS.md) ส่วนทิศทางภาพอยู่ใน [Video style guide](VIDEO_STYLE_GUIDE.md) ใช้ skills ชุดกลางร่วมกันทุก episode ไม่ติดตั้งซ้ำในโฟลเดอร์คลิป
 
-## ชุดหลักสำหรับผลิตวิดีโอ
+## ชุดหลักสำหรับผลิตวิดีโอ (LangMind API Video Standard)
 
+### สกิลหลักประจำโปรเจกต์ (Core Production Skill)
+| Skill | หน้าที่ / ขอบเขต | ความจำเป็น |
+|---|---|---|
+| [langmind-video-producer](../.agents/skills/langmind-video-producer/SKILL.md) | พิมพ์เขียวผลิตวิดีโออธิบาย LangMind API แนวตั้ง (1080×1920 30fps) ตามมาตรฐาน EP04-EP11 ครบวงจร (โครงเรื่อง 9 Beat, ธีม Editorial Paper & Sage Ink, โค้ด build.mjs อัตโนมัติ, ระบบ Silent Draft และเสียง Edge TTS) | **แกนหลักสูงสุด (Primary)** สำหรับทุก Episode |
+
+### สกิลสนับสนุนระบบ HyperFrames
 ติดตั้งจาก `heygen-com/hyperframes` ระดับ workspace ที่ `.agents/skills/` ครบ 9 ตัวแล้ว รายการและ source hashes อยู่ใน [skills-lock.json](../skills-lock.json)
 
 | Skill | ใช้เมื่อ | ความจำเป็น |
 |---|---|---|
-| hyperframes | สร้าง/แก้ composition และตรวจ render contract | หลัก |
-| hyperframes-cli | Init, check, preview และ render ผ่าน CLI | หลัก |
-| hyperframes-registry | เลือก Catalog blocks/components ก่อนสร้างเอฟเฟกต์เอง | หลัก |
-| media-use | เตรียมภาพ เสียง คำบรรยาย และ media | หลักเมื่อทำสื่อ |
+| hyperframes | สร้าง/แก้ composition และตรวจ render contract | รองรับการทำงานภายใน |
+| hyperframes-cli | Init, check, preview และ render ผ่าน CLI | เครื่องมือตรวจและ Render |
+| hyperframes-registry | เลือก Catalog blocks/components ก่อนสร้างเอฟเฟกต์เอง | ค้นหาไอเดีย Motion |
+| media-use | เตรียมภาพ เสียง คำบรรยาย และ media | เตรียมสื่อและฟอนต์ |
 | style-sampling | ทำตอนใหม่โดยใช้แนวภาพที่กำหนด | เสริมตามโจทย์ |
 | figma | นำ design จาก Figma มาใช้ | เสริม ยังไม่มี Figma input |
-| remotion-to-hyperframes | ย้ายวิดีโอจาก framework อื่น | เสริม ยังไม่ต้องใช้กับ EP01 |
+| remotion-to-hyperframes | ย้ายวิดีโอจาก framework อื่น | เสริม ไม่ได้ใช้งานหลัก |
 | reverse-any-video | วิเคราะห์และสร้างวิดีโออ้างอิงกลับเป็น project | เสริม ไม่ใช่คำอนุญาตคัดลอกสื่อของผู้อื่น |
-| slideshow | ทำ presentation แบบนำเสนอสด | เสริม ไม่ใช่งานคลิปแรก |
+| slideshow | ทำ presentation แบบนำเสนอสด | เสริม ไม่ใช่งานคลิปวิดีโอ |
 
 ## ชุด antislop
 

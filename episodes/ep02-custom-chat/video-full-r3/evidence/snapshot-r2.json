@@ -1,0 +1,49 @@
+{
+  "ok": true,
+  "outputDir": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\video-full-r3\\.hyperframes\\artifacts\\snapshots\\29667eb7-e49d-487f-a362-dda4765c14ef",
+  "frames": [
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\video-full-r3\\.hyperframes\\artifacts\\snapshots\\29667eb7-e49d-487f-a362-dda4765c14ef\\frame-00-at-7s.png",
+      "time": 7
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\video-full-r3\\.hyperframes\\artifacts\\snapshots\\29667eb7-e49d-487f-a362-dda4765c14ef\\frame-01-at-69s.png",
+      "time": 69
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\video-full-r3\\.hyperframes\\artifacts\\snapshots\\29667eb7-e49d-487f-a362-dda4765c14ef\\frame-02-at-87s.png",
+      "time": 87
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\video-full-r3\\.hyperframes\\artifacts\\snapshots\\29667eb7-e49d-487f-a362-dda4765c14ef\\frame-03-at-115s.png",
+      "time": 115
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\video-full-r3\\.hyperframes\\artifacts\\snapshots\\29667eb7-e49d-487f-a362-dda4765c14ef\\frame-04-at-231s.png",
+      "time": 231
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\video-full-r3\\.hyperframes\\artifacts\\snapshots\\29667eb7-e49d-487f-a362-dda4765c14ef\\frame-05-at-257s.png",
+      "time": 257
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\video-full-r3\\.hyperframes\\artifacts\\snapshots\\29667eb7-e49d-487f-a362-dda4765c14ef\\frame-06-at-299s.png",
+      "time": 299
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\video-full-r3\\.hyperframes\\artifacts\\snapshots\\29667eb7-e49d-487f-a362-dda4765c14ef\\frame-07-at-302s.png",
+      "time": 302
+    }
+  ],
+  "contactSheets": [
+    "C:\\Users\\Admin\\Desktop\\work\\gitlab_intern\\LangMine-API-VDO\\episodes\\ep02-custom-chat\\video-full-r3\\.hyperframes\\artifacts\\snapshots\\29667eb7-e49d-487f-a362-dda4765c14ef\\contact-sheet.jpg"
+  ],
+  "_meta": {
+    "version": "0.9.19",
+    "latestVersion": "0.9.19",
+    "updateAvailable": false,
+    "checkedAt": "2026-11-07T02:32:27.021Z",
+    "skillsOutdated": 2,
+    "skillsMissing": 0
+  }
+}

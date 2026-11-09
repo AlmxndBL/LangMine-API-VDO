@@ -1,0 +1,465 @@
+[
+  {
+    "id": "b01-1",
+    "beat": "B01",
+    "start": 0,
+    "duration": 9.32,
+    "title": "ใช้ AI ช่วยร่างข้อความอยู่แล้ว?",
+    "kind": "chat",
+    "state": "answer",
+    "head": "แชท AI ที่คุ้นเคย"
+  },
+  {
+    "id": "b01-2",
+    "beat": "B01",
+    "start": 9.32,
+    "duration": 11.123999999999999,
+    "title": "ถ้าเป็นเว็บของทีมเราเองล่ะ?",
+    "kind": "hero"
+  },
+  {
+    "id": "b02-1",
+    "beat": "B02",
+    "start": 20.444,
+    "duration": 8.18,
+    "title": "ช่วยทีมร่างข้อความ",
+    "kind": "chat",
+    "state": "answer"
+  },
+  {
+    "id": "b02-2",
+    "beat": "B02",
+    "start": 28.624,
+    "duration": 7.145333000000004,
+    "title": "ขอฉบับสั้นสำหรับ LINE",
+    "kind": "chat",
+    "state": "follow"
+  },
+  {
+    "id": "b03-1",
+    "beat": "B03",
+    "start": 35.769333,
+    "duration": 17.42117306,
+    "title": "ข้อความเดินทางผ่าน 3 ส่วน",
+    "kind": "flow"
+  },
+  {
+    "id": "b03-2",
+    "beat": "B03",
+    "start": 53.190506060000004,
+    "duration": 3.8241599400000013,
+    "title": "เริ่มจากเตรียมผู้ช่วย",
+    "kind": "step"
+  },
+  {
+    "id": "b04-1",
+    "beat": "B04",
+    "start": 57.014666000000005,
+    "duration": 7.040000000000006,
+    "title": "ตั้งหน้าที่ให้ผู้ช่วยก่อน",
+    "kind": "cards",
+    "items": [
+      "ร่างข้อความไทยสุภาพ",
+      "ไม่แต่งวันส่งสินค้า"
+    ],
+    "note": "Agent = ผู้ช่วยที่เราตั้งหน้าที่ไว้",
+    "robot": "06-thinking.png"
+  },
+  {
+    "id": "b04-2",
+    "beat": "B04",
+    "start": 64.05466600000001,
+    "duration": 12.679999999999993,
+    "title": "สองรหัส ใช้คนละหน้าที่",
+    "kind": "cards",
+    "items": [
+      "Agent ID|เลือกผู้ช่วย",
+      "API key|ยืนยันสิทธิ์"
+    ],
+    "note": "นำทั้งคู่ไปตั้งค่าฝั่ง server",
+    "robot": "05-point-up.png"
+  },
+  {
+    "id": "b05-1",
+    "beat": "B05",
+    "start": 76.734666,
+    "duration": 6.260000000000005,
+    "title": "สร้าง key สำหรับแอปนี้",
+    "kind": "footage",
+    "media": 0,
+    "note": "ชื่อ key เป็นป้ายกำกับให้จำได้"
+  },
+  {
+    "id": "b05-2",
+    "beat": "B05",
+    "start": 82.99466600000001,
+    "duration": 3,
+    "title": "เลือกอายุการใช้งาน",
+    "kind": "footage",
+    "media": 7,
+    "note": "อายุ = ช่วงเวลาที่ key ใช้งานได้"
+  },
+  {
+    "id": "b05-3",
+    "beat": "B05",
+    "start": 85.99466600000001,
+    "duration": 10.679999999999993,
+    "title": "เลือกสิทธิ์ที่ต้องใช้",
+    "kind": "footage",
+    "media": 14,
+    "note": "ตัวอย่างแชทใช้ chat:invoke"
+  },
+  {
+    "id": "b05-4",
+    "beat": "B05",
+    "start": 96.674666,
+    "duration": 5.347999999999999,
+    "title": "นำ key ไปตั้งค่า server",
+    "kind": "code",
+    "file": ".env · server",
+    "lines": [
+      "LANGMIND_API_KEY=<API_KEY>"
+    ],
+    "active": 0,
+    "note": "ภาพอธิบาย · ค่าจริงเก็บฝั่ง server"
+  },
+  {
+    "id": "b06-1",
+    "beat": "B06",
+    "start": 102.022666,
+    "duration": 8.560000000000002,
+    "title": "ตั้งค่าฝั่ง server",
+    "kind": "code",
+    "file": ".env · server",
+    "lines": [
+      "LANGMIND_API_KEY=<API_KEY>",
+      "",
+      "LANGMIND_AGENT_ID=<AGENT_ID>"
+    ],
+    "active": 0,
+    "note": "key ยืนยันสิทธิ์ · Agent ID เลือกผู้ช่วย"
+  },
+  {
+    "id": "b06-2",
+    "beat": "B06",
+    "start": 110.582666,
+    "duration": 12.83999999999999,
+    "title": "คัดลอกเฉพาะหลัง /agents/",
+    "kind": "agent"
+  },
+  {
+    "id": "b06-3",
+    "beat": "B06",
+    "start": 123.42266599999999,
+    "duration": 6.576000000000022,
+    "title": "โค้ด server อ่านค่าตั้งต้น",
+    "kind": "code",
+    "file": "server.mjs · server",
+    "lines": [
+      "const API_KEY =",
+      "  process.env.",
+      "  LANGMIND_API_KEY;",
+      "",
+      "const AGENT_ID =",
+      "  process.env.",
+      "  LANGMIND_AGENT_ID;"
+    ],
+    "active": 1,
+    "note": ".env → ค่าตั้งต้น → โค้ด server"
+  },
+  {
+    "id": "b07-1",
+    "beat": "B07",
+    "start": 129.99866600000001,
+    "duration": 0.9240000000000066,
+    "title": "กดส่งจากหน้าเว็บ",
+    "kind": "chat",
+    "state": "wait"
+  },
+  {
+    "id": "b07-2",
+    "beat": "B07",
+    "start": 130.92266600000002,
+    "duration": 9.615999999999985,
+    "title": "/api/chat เป็นของแอปเรา",
+    "kind": "code",
+    "file": "public/chat.js · หน้าเว็บ",
+    "lines": [
+      "fetch('/api/chat', {",
+      "  method: 'POST',",
+      "  body: JSON.stringify({",
+      "    message",
+      "  })",
+      "})"
+    ],
+    "active": 0,
+    "note": "หน้าเว็บส่งข้อความให้ server ของแอป"
+  },
+  {
+    "id": "b07-3",
+    "beat": "B07",
+    "start": 140.538666,
+    "duration": 7.068000000000012,
+    "title": "server เชื่อมให้ผู้ใช้",
+    "kind": "flow",
+    "focus": 1
+  },
+  {
+    "id": "b08-1",
+    "beat": "B08",
+    "start": 147.60666600000002,
+    "duration": 7.819999999999993,
+    "title": "ส่งคำขอไปที่ไหน?",
+    "kind": "code",
+    "file": "HTTP request · server",
+    "lines": [
+      "POST",
+      "/api/chat/message/blocking",
+      "",
+      "Host: langmind.in.th"
+    ],
+    "active": 1,
+    "note": "endpoint ของ LangMind · รอคำตอบเต็ม"
+  },
+  {
+    "id": "b08-2",
+    "beat": "B08",
+    "start": 155.426666,
+    "duration": 8.140000000000015,
+    "title": "ยืนยันสิทธิ์ตรงไหน?",
+    "kind": "code",
+    "file": "Request headers · server",
+    "lines": [
+      "Authorization:",
+      "  Bearer <API_KEY>",
+      "",
+      "Content-Type:",
+      "  application/json"
+    ],
+    "active": 1,
+    "note": "JSON = ข้อมูลที่เขียนเป็นชื่อช่องกับค่า"
+  },
+  {
+    "id": "b08-3",
+    "beat": "B08",
+    "start": 163.56666600000003,
+    "duration": 9.17866699999999,
+    "title": "ส่งข้อมูลอะไร?",
+    "kind": "code",
+    "file": "Request body · server",
+    "lines": [
+      "{",
+      "  \"agent_id\": \"<AGENT_ID>\",",
+      "  \"query\": \"คำถามผู้ใช้\",",
+      "  \"conversation_id\": null",
+      "}"
+    ],
+    "active": 3,
+    "note": "ครั้งแรกยังไม่มีรหัสบทสนทนา"
+  },
+  {
+    "id": "b09-1",
+    "beat": "B09",
+    "start": 172.74533300000002,
+    "duration": 5.47999999999999,
+    "title": "ใช้ fetch ฝั่ง server",
+    "kind": "code",
+    "file": "server.mjs · server",
+    "lines": [
+      "const res = await fetch(",
+      "  LANGMIND_URL, {",
+      "  method: 'POST',",
+      "  headers: {",
+      "    Authorization:",
+      "      `Bearer ${API_KEY}`",
+      "  },"
+    ],
+    "active": 5,
+    "note": "ภาพย่อเพื่ออธิบาย · key อ่านจากฝั่ง server"
+  },
+  {
+    "id": "b09-2",
+    "beat": "B09",
+    "start": 178.225333,
+    "duration": 5.060000000000002,
+    "title": "จับคู่ข้อมูลใน body",
+    "kind": "code",
+    "file": "server.mjs · server",
+    "lines": [
+      "body: JSON.stringify({",
+      "  agent_id: AGENT_ID,",
+      "  query: message,",
+      "  conversation_id:",
+      "    conversationId",
+      "})"
+    ],
+    "active": 0,
+    "note": "เลือกผู้ช่วย + คำถาม + รหัสบทสนทนา"
+  },
+  {
+    "id": "b09-3",
+    "beat": "B09",
+    "start": 183.285333,
+    "duration": 8.412000000000006,
+    "title": "ตรวจผลก่อนอ่านคำตอบ",
+    "kind": "code",
+    "file": "server.mjs · server",
+    "lines": [
+      "if (!res.ok) {",
+      "  throw Error('API error');",
+      "}",
+      "return await res.json();"
+    ],
+    "active": 0,
+    "note": "ข้อผิดพลาดต้องแยกจากคำตอบของผู้ช่วย"
+  },
+  {
+    "id": "b10-1",
+    "beat": "B10",
+    "start": 191.69733300000001,
+    "duration": 9.620000000000005,
+    "title": "แสดงคำตอบ เก็บรหัสไว้",
+    "kind": "code",
+    "file": "Response ตัวอย่าง · server",
+    "lines": [
+      "{",
+      "  \"answer\": \"ข้อความคำตอบ\",",
+      "  \"conversation_id\":",
+      "    \"conv_demo_01\"",
+      "}"
+    ],
+    "active": 1,
+    "note": "answer → แชท · conversation_id → server"
+  },
+  {
+    "id": "b10-2",
+    "beat": "B10",
+    "start": 201.31733300000002,
+    "duration": 8.510666999999984,
+    "title": "คำตอบกลับถึงหน้าเว็บ",
+    "kind": "chat",
+    "state": "answer"
+  },
+  {
+    "id": "b11-1",
+    "beat": "B11",
+    "start": 209.828,
+    "duration": 6.52000000000001,
+    "title": "ระหว่างรอ กันการส่งซ้ำ",
+    "kind": "chat",
+    "state": "wait"
+  },
+  {
+    "id": "b11-2",
+    "beat": "B11",
+    "start": 216.348,
+    "duration": 6.394666999999998,
+    "title": "ถ้าส่งไม่สำเร็จ",
+    "kind": "chat",
+    "state": "error"
+  },
+  {
+    "id": "b12-1",
+    "beat": "B12",
+    "start": 222.742667,
+    "duration": 3.1399999999999864,
+    "title": "ถามต่อในเรื่องเดิม",
+    "kind": "chat",
+    "state": "followQ"
+  },
+  {
+    "id": "b12-2",
+    "beat": "B12",
+    "start": 225.882667,
+    "duration": 14.844000000000023,
+    "title": "ใช้ conversation_id เดิม",
+    "kind": "diff"
+  },
+  {
+    "id": "b12-3",
+    "beat": "B12",
+    "start": 240.72666700000002,
+    "duration": 7,
+    "title": "ได้ฉบับสั้นสำหรับ LINE",
+    "kind": "chat",
+    "state": "follow"
+  },
+  {
+    "id": "b13-1",
+    "beat": "B13",
+    "start": 247.72666700000002,
+    "duration": 5.29320014999999,
+    "title": "ตัวอย่างนี้รอคำตอบครบ",
+    "kind": "chat",
+    "state": "wait"
+  },
+  {
+    "id": "b13-2",
+    "beat": "B13",
+    "start": 253.01986715,
+    "duration": 6.469466850000032,
+    "title": "ถ้าจะรับคำตอบเป็นช่วง",
+    "kind": "cards",
+    "items": [
+      "server|ปรับส่วนรับข้อมูล",
+      "หน้าเว็บ|ปรับการแสดงผล"
+    ],
+    "note": "ต้องพัฒนาเพิ่มทั้งสองฝั่ง"
+  },
+  {
+    "id": "b14-1",
+    "beat": "B14",
+    "start": 259.48933400000004,
+    "duration": 6.160000000000025,
+    "title": "ออกแบบให้เหมาะกับอุปกรณ์",
+    "kind": "devices"
+  },
+  {
+    "id": "b14-2",
+    "beat": "B14",
+    "start": 265.64933400000007,
+    "duration": 10.839999999999975,
+    "title": "จอใหญ่ เพิ่มพื้นที่แก้ข้อความ",
+    "kind": "workspace"
+  },
+  {
+    "id": "b15-1",
+    "beat": "B15",
+    "start": 276.48933400000004,
+    "duration": 12.300000000000011,
+    "title": "เปลี่ยนหน้าที่ แล้วต่อเติม",
+    "kind": "cards",
+    "items": [
+      "คำสั่ง|หน้าที่และน้ำเสียง",
+      "ฐานความรู้|FAQ และคู่มือ",
+      "ระบบงาน|เพิ่มเครื่องมือและตรวจสิทธิ์"
+    ],
+    "note": "ส่วนต่อยอดต้องเตรียมและพัฒนาเพิ่ม"
+  },
+  {
+    "id": "b15-2",
+    "beat": "B15",
+    "start": 288.78933400000005,
+    "duration": 8.319999999999993,
+    "title": "จำวงจรหลักไว้",
+    "kind": "flow",
+    "summary": true
+  },
+  {
+    "id": "b15-3",
+    "beat": "B15",
+    "start": 297.10933400000005,
+    "duration": 6.492000000000019,
+    "title": "งานแรกของคุณคืออะไร?",
+    "kind": "hero",
+    "end": true
+  },
+  {
+    "id": "b16-1",
+    "beat": "B16",
+    "start": 303.60133400000007,
+    "duration": 6.52800000000002,
+    "title": "สร้างสิ่งต่อไป ในแบบของคุณ",
+    "kind": "logo"
+  }
+]

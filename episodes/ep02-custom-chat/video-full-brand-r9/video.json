@@ -1,0 +1,42 @@
+{
+  "title": "EP02 · เว็บแชทของเราเองด้วย LangMind API · Brand r9",
+  "theme": "brand.json",
+  "size": "9:16",
+  "voice": "af_heart",
+  "music": false,
+  "sfx": false,
+  "captions": false,
+  "watermark": false,
+  "camera": "still",
+  "end": 0,
+  "motionBlur": false,
+  "brand": {
+    "accent": "#007d88",
+    "background": "#091D20",
+    "ink": "#e3eeed",
+    "font": "Sarabun",
+    "headline": "Sarabun",
+    "colors": {
+      "text": "#102c30",
+      "soft": "#3e5b5d",
+      "muted": "#4a6668",
+      "faint": "#4a6668",
+      "line": "#c8dcda",
+      "field": "#8eaaa8",
+      "surface": "#f0f7f5",
+      "panel": "#e4efed"
+    }
+  },
+  "fonts": [
+    {
+      "family": "Sarabun",
+      "src": "assets/Sarabun-Regular.ttf",
+      "weight": 400
+    },
+    {
+      "family": "Sarabun",
+      "src": "assets/Sarabun-Bold.ttf",
+      "weight": 700
+    }
+  ]
+}
