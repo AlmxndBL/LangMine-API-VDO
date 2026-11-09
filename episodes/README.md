@@ -6,7 +6,7 @@
 |---|---|---|---|
 | EP01 | [ep01-api-introduction](ep01-api-introduction/README.md) | - | ผู้ใช้ให้เดินหน้าตอนต่อไป ไม่แก้ EP01 ในงานนี้; หลักฐานเดิมอยู่ README ตอน |
 | EP02 | [ep02-custom-chat](ep02-custom-chat/README.md) | [ep02-continuity-r10.mp4](ep02-custom-chat/video-continuity-r10/ep02-continuity-r10.mp4) | เว็บแชทของเราเองด้วย LangMind Agent; สถานะและ next action อยู่ README ตอน |
-| EP03 | [ep03](ep03/README.md) | [EP03-animatic-v2.mp4](ep03/video-v2/renders/EP03-animatic-v2.mp4) | Streaming API (SSE) — W5 ภาพนิ่งผ่าน, voice audition pending; silent animatic v2; สถานะปัจจุบันอยู่ README ตอน |
+| EP03 | [ep03](ep03/README.md) | [ep03-v4.1.mp4](ep03/video-v4.1/renders/ep03-v4.1.mp4) | Chat API — v4.1 silent animatic 133.2s; ขั้นถัดไปคือเสียงพากย์; สถานะปัจจุบันอยู่ README ตอน |
 | EP04 | [ep04-voice-api](ep04-voice-api/README.md) | [ep04-video-v3-draft.mp4](ep04-voice-api/video-v3/ep04-video-v3-draft.mp4) | Voice API (STT & TTS) W7 — draft video-v3 รอฟังตรวจและรับงาน สถานะอยู่ README ตอน |
 | EP06 | [ep06-knowledge-rag](ep06-knowledge-rag/README.md) | [ep06-knowledge-rag-silent.mp4](ep06-knowledge-rag/video/ep06-knowledge-rag-silent.mp4) | Knowledge & Datasets API + RAG Retrieval Test — 223.03s / 14.63 MB (W6 Silent Draft) |
 | EP07 | [ep07-simple-knowledge-candidates](ep07-simple-knowledge-candidates/README.md) | [ep07-simple-knowledge-candidates-silent.mp4](ep07-simple-knowledge-candidates/video/ep07-simple-knowledge-candidates-silent.mp4) | Simple Knowledge (FAQ ด่วน) & Knowledge Candidates — 219.53s / 13.70 MB (W6 Silent Draft) |

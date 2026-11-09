@@ -1,0 +1,10 @@
+{
+  "name": "ep03-video-v4",
+  "version": "1.0.0",
+  "description": "LangMind API EP03 v4 — Chat API Animatic",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "render": "python render_fallback.py"
+  }
+}

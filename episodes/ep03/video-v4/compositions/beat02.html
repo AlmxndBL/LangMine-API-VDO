@@ -1,0 +1,22 @@
+<template>
+<style>*{box-sizing:border-box}
+@font-face{font-family:Sarabun;src:url("assets/fonts/Sarabun-Bold.ttf");font-weight:bold}
+@font-face{font-family:Sarabun;src:url("assets/fonts/Sarabun-Regular.ttf");font-weight:normal}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#f8f4e9}
+#root{position:absolute;inset:0;width:1080px;height:1920px;overflow:hidden}
+.plate{position:absolute;inset:0;width:1080px;height:1920px;object-fit:cover;opacity:0}
+</style>
+<div id="root" data-composition-id="beat02" data-width="1080" data-height="1920" data-duration="8" data-layout-allow-overlap="true">
+<img id="stage-b2-chat-q" class="clip plate" data-start="0" data-duration="4" data-track-index="0" data-layout-allow-overlap="true" src="assets/plates/v4/b2-chat-q.png" alt="แชทจากมุมผู้ใช้ทั่วไป — b2-chat-q">
+<img id="stage-b2-chat-a" class="clip plate" data-start="4" data-duration="4" data-track-index="0" data-layout-allow-overlap="true" src="assets/plates/v4/b2-chat-a.png" alt="แชทจากมุมผู้ใช้ทั่วไป — b2-chat-a">
+</div>
+<script>
+  window.__timelines = window.__timelines || {};
+  const tl = gsap.timeline({paused:true});
+  tl.set("#stage-b2-chat-q", {opacity:1}, 0);
+  tl.set("#stage-b2-chat-q", {opacity:0}, 4);
+  tl.set("#stage-b2-chat-a", {opacity:1}, 4);
+  tl.set("#stage-b2-chat-a", {opacity:0}, 8);
+  window.__timelines["beat02"] = tl;
+</script>
+</template>

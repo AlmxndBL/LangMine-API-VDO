@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<title>EP03 · Chat API · video-v4.1</title>
+<link rel="stylesheet" href="style.css">
+<script src="assets/gsap.min.js"></script>
+</head>
+<body>
+<main id="film" data-composition-id="ep03-chat-v41" data-width="1080" data-height="1920" data-fps="30" data-duration="143.46666666666667">
+  <div class="kicker">EP03 &nbsp;/&nbsp; CHAT API</div>
+  <div class="note">ภาพจำลอง</div>
+  <section id="stage" class="clip" data-start="0" data-duration="143.46666666666667" data-track-index="1">
+    <div class="spine"><span id="sp1" class="pill">1 เข้าใจ</span><i></i><span id="sp2" class="pill">2 รู้จัก API</span><i></i><span id="sp3" class="pill">3 ลองส่ง</span></div>
+
+  <section class="scene" id="sc-b1">
+    
+    <h1 class="heading">แอปที่คุยด้วยแชท<small>ทำได้ยังไง?</small></h1>
+    <div class="place" style="left:242px;top:370px">
+  <div class="device" id="dev-b1" style="width:596px">
+    <div class="screen" style="width:580px;height:652px">
+      <img src="assets/app-chat-q.jpg" width="1160" height="1304" alt="หน้าจอลูกค้าพิมพ์ขอร่างข้อความ" style="width:580px">
+      <img class="img-a" src="assets/app-chat-a.jpg" width="1160" height="1304" alt="หน้าจอแชทถามต่อและปรับสั้นลง" style="width:580px">
+    </div>
+  </div></div>
+    <div class="qrow" style="top:1280px">
+      <span class="qchip" data-in="2" data-at="0.4" data-anim="pop">เตรียมอะไร?</span>
+      <span class="qchip" data-in="2" data-at="1" data-anim="pop">เชื่อมตรงไหน?</span>
+      <span class="qchip" data-in="2" data-at="1.6" data-anim="pop">ส่งคำขอยังไง?</span>
+    </div>
+  </section>
+
+  <section class="scene" id="sc-b2">
+    
+    <h1 class="heading">ภาพรวมทั้งหมด<small>API คืออะไร · ใครคุยกับใคร</small></h1>
+    <div class="group" data-out="1" data-out-at="0">
+      <div class="node" style="top:430px" data-in="0" data-at="0.1" data-anim="up"><svg class="ico big" viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg><div><b>แอปของคุณ</b><span class="alias" data-in="0" data-at="1.2" data-anim="left">= พนักงานหน้าร้าน</span></div></div>
+      <div class="lane" style="top:640px">
+        <div class="lane-l" data-in="0" data-at="0.5" data-anim="left"><b>ส่งคำขอ</b><span data-in="0" data-at="1.5" data-anim="up">ส่งคำถาม</span></div>
+        <svg class="varrow" data-in="0" data-at="0.4" data-anim="up" viewBox="0 0 60 250" style="height:250px"><path pathLength="1" d="M30 6 V236 M14 222 L30 240 L46 222"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="228"/></svg>
+        <svg class="varrow up" data-in="0" data-at="0.8" data-anim="up" viewBox="0 0 60 250" style="height:250px"><path pathLength="1" d="M30 6 V236 M14 222 L30 240 L46 222"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="228"/></svg>
+        <div class="lane-r" data-in="0" data-at="0.9" data-anim="up"><b>รับผลลัพธ์</b><span data-in="0" data-at="1.8" data-anim="up">รับคำตอบ</span></div>
+      </div>
+      <div class="node lm" style="top:910px" data-in="0" data-at="0.7" data-anim="up"><img src="assets/langmind-logo.png" width="689" height="606" alt="LangMind"><div><b>LangMind</b><span class="alias" data-in="0" data-at="1.4" data-anim="left">= ครัว / สมอง</span></div></div>
+    </div>
+    <div class="node wide" style="top:400px" data-in="1" data-at="0.2" data-anim="up"><svg class="ico big" viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg><div><b>แอปมือถือ / Frontend</b><span>รับคำถาม · แสดงผลแชท</span></div></div>
+    <div class="lane small" style="top:590px">
+      <div class="lane-l" data-in="1" data-at="0.5" data-anim="left"><b>คำถาม</b></div>
+      <svg class="varrow" data-in="1" data-at="0.4" data-anim="up" viewBox="0 0 60 140" style="height:140px"><path pathLength="1" d="M30 6 V126 M14 112 L30 130 L46 112"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="118"/></svg>
+      <svg class="varrow up" data-in="1" data-at="0.7" data-anim="up" viewBox="0 0 60 140" style="height:140px"><path pathLength="1" d="M30 6 V126 M14 112 L30 130 L46 112"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="118"/></svg>
+      <div class="lane-r" data-in="1" data-at="0.8" data-anim="up"><b>คำตอบ</b></div>
+    </div>
+    <div class="node wide" style="top:740px" data-in="1" data-at="0.8" data-anim="up"><svg class="ico big" viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg><div><b>ระบบหลังบ้านของคุณ (Backend)</b><span>เก็บ API Key ปลอดภัย</span></div><span class="badge haskey" data-in="1" data-at="1.2" data-anim="pop"><svg class="ico " viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg>Key</span></div>
+    <div class="lane small" style="top:930px">
+      <div class="calls3" data-in="2" data-at="0.2" data-anim="up"><span class="step s1" data-in="2" data-at="0.4" data-anim="pop">1 ส่งคำขอ</span><span class="step s2" data-in="2" data-at="0.8" data-anim="pop">2 สตรีมผล</span><span class="step s3" data-in="2" data-at="1.2" data-anim="pop">3 คุยต่อ</span></div>
+      <svg class="varrow" data-in="1" data-at="1.3" data-anim="up" viewBox="0 0 60 140" style="height:140px"><path pathLength="1" d="M30 6 V126 M14 112 L30 130 L46 112"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="118"/></svg>
+      <svg class="varrow up" data-in="1" data-at="1.5" data-anim="up" viewBox="0 0 60 140" style="height:140px"><path pathLength="1" d="M30 6 V126 M14 112 L30 130 L46 112"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="118"/></svg>
+      <div class="lane-r" data-in="1" data-at="1.6" data-anim="up"><b>ผลลัพธ์</b></div>
+    </div>
+    <div class="node wide lm" style="top:1080px" data-in="1" data-at="1.7" data-anim="up"><img src="assets/langmind-logo.png" width="689" height="606" alt="LangMind"><div><b>LangMind Chat API</b><span>Agent · Server-Sent Events</span></div></div>
+  </section>
+
+  <section class="scene" id="sc-b3">
+    
+    <h1 class="heading"><span class="num">1</span>เตรียม<small>ต้องมี 3 อย่าง</small></h1>
+    <div class="stack" style="top:410px">
+      <div class="card" data-in="0" data-at="0.2" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 3.5V7M9 12.5h.01M15 12.5h.01M9.5 16h5"/></svg><div><b>Agent ใน LangMind</b><span>ตั้งค่า Prompt & ข้อมูลร้าน</span></div></div>
+        <div class="chips"><span class="chip" data-in="0" data-at="0.8" data-anim="pop"><svg class="ico " viewBox="0 0 24 24"><path d="M4 5.5A2 2 0 0 1 6 3.5h12v15H6a2 2 0 0 0-2 2z"/><path d="M4 20.5V5.5M8 8h7M8 11.5h7"/></svg>คำแนะนำ</span><span class="chip" data-in="0" data-at="1.2" data-anim="pop"><svg class="ico " viewBox="0 0 24 24"><path d="M4 5.5A2 2 0 0 1 6 3.5h12v15H6a2 2 0 0 0-2 2z"/><path d="M4 20.5V5.5M8 8h7M8 11.5h7"/></svg>คลังความรู้</span></div>
+        <div class="setting" data-in="0" data-at="1.5" data-anim="up">
+          <span class="setting-l">บันทึก Agent → <b>กด Publish</b></span>
+          <span class="switch" data-toggle="0" data-toggle-at="1.8"><i></i></span>
+          <span class="badge pub" data-in="0" data-at="2.2" data-anim="pop">publish ✓</span>
+        </div>
+      </div>
+      <div class="card" data-in="1" data-at="0.2" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="M11 12l8.5-8.5M16 7l2.5 2.5M14 9l2 2"/></svg><div><b>Personal API Key</b><span class="mono">lmpat_••••••••</span></div></div>
+        <div class="chips"><span class="chip mono" data-in="1" data-at="0.8" data-anim="pop">chat:invoke</span></div>
+      </div>
+      <div class="card" data-in="2" data-at="0.2" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg><div><b>ระบบหลังบ้าน (Backend Server)</b><span>เก็บ Key เป็น Secret · ป้องกันรั่วไหลสู่ Client</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="scene" id="sc-b4">
+    
+    <h1 class="heading"><span class="num">2</span>เชื่อม<small>กลุ่มที่ 1 · ส่งข้อความ</small></h1>
+    
+  <div class="minimap" style="--c:#38815A">
+    <span class="mm-node"><svg class="ico " viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>แอป</span>
+    <i class="mm-link"></i>
+    <span class="mm-node srv"><svg class="ico " viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg>หลังบ้าน<svg class="ico sm" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+    <span class="mm-call">1 · ส่งข้อความ</span>
+    <span class="mm-node lm"><img src="assets/langmind-logo.png" width="689" height="606" alt="">LangMind</span>
+  </div>
+    <div class="calls">
+      <div class="call" style="--c:#38815A" data-in="0" data-at="0.2" data-anim="up">
+        <div class="call-h"><span class="call-n">POST</span><code>/api/chat/message</code></div>
+        <div class="call-b">
+          <div class="io in"><b>SSE Stream (ค่าเริ่มต้น)</b><small>ทยอยสตรีมคำตอบกลับมาแบบ real-time เหมาะกับหน้าจอแชท</small></div>
+        </div>
+      </div>
+      <div class="call" style="--c:#8d732c" data-in="1" data-at="0.2" data-anim="up">
+        <div class="call-h"><span class="call-n" style="background:#8d732c">POST</span><code>/api/chat/message/blocking</code></div>
+        <div class="call-b">
+          <div class="io in"><b>JSON ก้อนเดียว (Blocking)</b><small>รอประมวลผลจนเสร็จสมบูรณ์ แล้วส่งคำตอบเต็มกลับครั้งเดียว</small></div>
+        </div>
+      </div>
+      <div class="card" style="margin-top:10px" data-in="2" data-at="0.2" data-anim="up">
+        <div class="chips" style="margin-top:0">
+          <span class="chip mono">POST /api/chat/preview (Builder)</span>
+          <span class="chip mono">POST /messages/{id}/stop (สั่งหยุด)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="scene" id="sc-b5">
+    
+    <h1 class="heading"><span class="num">2</span>เชื่อม<small>กลุ่มที่ 2 · จัดการประวัติ</small></h1>
+    
+  <div class="minimap" style="--c:#8d732c">
+    <span class="mm-node"><svg class="ico " viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>แอป</span>
+    <i class="mm-link"></i>
+    <span class="mm-node srv"><svg class="ico " viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg>หลังบ้าน<svg class="ico sm" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+    <span class="mm-call">2 · จัดการห้องแชท</span>
+    <span class="mm-node lm"><img src="assets/langmind-logo.png" width="689" height="606" alt="">LangMind</span>
+  </div>
+    <div class="stack" style="top:460px">
+      <div class="card" data-in="0" data-at="0.2" data-anim="up">
+        <div class="card-h"><b>1. เรียกอ่านประวัติบทสนทนา</b></div>
+        <div class="chips">
+          <span class="chip mono">GET /api/chat/conversations</span>
+          <span class="chip mono">GET /api/chat/conversations/{id}</span>
+          <span class="chip mono">GET /api/chat/conversations/{id}/messages</span>
+        </div>
+        <div class="warn" style="background:#fff2d6;color:#8d6010;margin-top:14px">⚠️ ทุกเส้นต้องระบุ agent_id เสมอเพื่อยืนยันสิทธิ์</div>
+      </div>
+      <div class="card" data-in="1" data-at="0.2" data-anim="up">
+        <div class="card-h"><b>2. แก้ไขชื่อห้อง และลบประวัติ</b></div>
+        <div class="chips">
+          <span class="chip mono">PATCH /api/chat/conversations/{id} (เปลี่ยนชื่อ)</span>
+          <span class="chip mono" style="color:#a83232">DELETE /api/chat/conversations/{id} (ลบถาวร)</span>
+        </div>
+        <div class="warn">⚠️ DELETE เป็นการลบถาวร ไม่สามารถกู้คืนได้ ควรถามยืนยันผู้ใช้</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="scene" id="sc-b6">
+    
+    <h1 class="heading"><span class="num">2</span>เชื่อม<small>กลุ่มที่ 3 · ส่วนเสริม</small></h1>
+    
+  <div class="minimap" style="--c:#1E7578">
+    <span class="mm-node"><svg class="ico " viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>แอป</span>
+    <i class="mm-link"></i>
+    <span class="mm-node srv"><svg class="ico " viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg>หลังบ้าน<svg class="ico sm" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+    <span class="mm-call">3 · Feedback & Files</span>
+    <span class="mm-node lm"><img src="assets/langmind-logo.png" width="689" height="606" alt="">LangMind</span>
+  </div>
+    <div class="stack" style="top:460px">
+      <div class="card" data-in="0" data-at="0.2" data-anim="up">
+        <div class="card-h"><b>1. ให้คะแนนประเมินคำตอบ (Feedback)</b></div>
+        <div class="chips">
+          <span class="chip mono">POST /api/chat/messages/{id}/feedback</span>
+          <span class="chip">👍 rating: 1</span>
+          <span class="chip">👎 rating: -1</span>
+        </div>
+      </div>
+      <div class="card" data-in="1" data-at="0.2" data-anim="up">
+        <div class="card-h"><b>2. ดาวน์โหลดไฟล์ที่ Agent สร้างขึ้น</b></div>
+        <div class="chips">
+          <span class="chip mono">GET /api/chat/messages/{id}/generated-files/{file_id}</span>
+          <span class="chip"><svg class="ico " viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>PDF, Excel, ภาพ</span>
+        </div>
+        <div class="chips" style="margin-top:16px">
+          <span class="chip" style="background:#e4ede6;color:#2f5e46">✓ ทุก Endpoint ใช้สิทธิ์ Scope: chat:invoke</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="scene" id="sc-b7">
+    
+    <h1 class="heading"><span class="num">3</span>ลองส่ง<small>ยิงคำขอแรกด้วย cURL</small></h1>
+    
+  <div class="minimap" style="--c:#38815A">
+    <span class="mm-node"><svg class="ico " viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>แอป</span>
+    <i class="mm-link"></i>
+    <span class="mm-node srv"><svg class="ico " viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg>หลังบ้าน<svg class="ico sm" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+    <span class="mm-call">1 · ส่งคำขอแรก</span>
+    <span class="mm-node lm"><img src="assets/langmind-logo.png" width="689" height="606" alt="">LangMind</span>
+  </div>
+    <div class="panel">
+      <div class="slot-in" data-in="0" data-at="0.2" data-anim="up"><div class="chip in-chip"><span>💬 ช่วยร่างข้อความแจ้งทีมว่าเลื่อนประชุมเป็น 15:00 น. ให้สุภาพ</span></div></div>
+      <svg class="varrow" data-in="0" data-at="0.6" data-anim="up" viewBox="0 0 60 60" style="height:60px"><path pathLength="1" d="M30 6 V46 M14 32 L30 50 L46 32"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="38"/></svg>
+      <div class="code" data-in="0" data-at="0.8" data-anim="up">
+        <div class="code-head"><span class="method">POST</span><span class="scope">chat:invoke</span></div>
+        <div class="code-path">/api/chat/message</div>
+        <div class="code-body">
+          <div class="ln" data-in="0" data-at="1" data-anim="left">Authorization: Bearer <span class="v">$LM_TOKEN</span></div>
+          <div class="ln" data-in="0" data-at="1.2" data-anim="left">Content-Type: application/json</div>
+          <div class="ln" data-in="1" data-at="0.2" data-anim="left">--data '{<span class="k">"agent_id"</span>: <span class="v">"&lt;AGENT_ID&gt;"</span>,</div>
+          <div class="ln" data-in="1" data-at="0.5" data-anim="left">  <span class="k">"query"</span>: <span class="v">"ช่วยร่างข้อความ..."</span>,</div>
+          <div class="ln" data-in="1" data-at="0.8" data-anim="left"><span class="mark" data-mark="1" data-mark-at="1.0"></span>  <span class="k">"conversation_id"</span>: <span class="v" style="color:#d9822b;font-weight:700">null</span> }'</div>
+        </div>
+        <div class="code-foot">💡 ส่ง "conversation_id": null เพื่อเริ่มบทสนทนาใหม่</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="scene" id="sc-b8">
+    
+    <h1 class="heading"><span class="num">3</span>ลองส่ง<small>รับผลแบบ SSE Stream</small></h1>
+    
+  <div class="minimap" style="--c:#8d732c">
+    <span class="mm-node"><svg class="ico " viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>แอป</span>
+    <i class="mm-link"></i>
+    <span class="mm-node srv"><svg class="ico " viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg>หลังบ้าน<svg class="ico sm" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+    <span class="mm-call">2 · อ่านผลสตรีม</span>
+    <span class="mm-node lm"><img src="assets/langmind-logo.png" width="689" height="606" alt="">LangMind</span>
+  </div>
+    <div class="stack" style="top:450px">
+      <div class="card" data-in="0" data-at="0.2" data-anim="up">
+        <div class="card-h"><b>event: message_start</b></div>
+        <div class="chip mono" style="margin-top:6px">{ "conversation_id": "conv_123", "message_id": "msg_01" }</div>
+      </div>
+      <div class="card" data-in="1" data-at="0.2" data-anim="up">
+        <div class="card-h"><b>event: message</b></div>
+        <div class="chip mono" style="margin-top:6px">{ "answer": "ขอแจ้งเลื่อนประชุมเป็นเวลา 15:00 น. ขอบคุณครับ" }</div>
+      </div>
+      <div class="card" data-in="2" data-at="0.2" data-anim="up">
+        <div class="card-h"><b>event: message_end</b></div>
+        <div class="chip mono" style="margin-top:6px">{ "answer": "...", "usage": { "total_tokens": 78 } }</div>
+      </div>
+      <div class="slot-out" data-in="2" data-at="0.6" data-anim="up"><div class="chip out-chip ok"><span>✓ แอปนำข้อความคำตอบไปแสดงผล และเก็บ conversation_id ไว้</span></div></div>
+    </div>
+  </section>
+
+  <section class="scene" id="sc-b9">
+    
+    <h1 class="heading"><span class="num">3</span>ลองส่ง<small>คุยต่อในเรื่องเดิม</small></h1>
+    
+  <div class="minimap" style="--c:#1E7578">
+    <span class="mm-node"><svg class="ico " viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>แอป</span>
+    <i class="mm-link"></i>
+    <span class="mm-node srv"><svg class="ico " viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg>หลังบ้าน<svg class="ico sm" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+    <span class="mm-call">3 · ถามต่อ</span>
+    <span class="mm-node lm"><img src="assets/langmind-logo.png" width="689" height="606" alt="">LangMind</span>
+  </div>
+    <div class="panel">
+      <div class="slot-in" data-in="0" data-at="0.2" data-anim="up"><div class="chip in-chip cont"><span>💬 ขอให้สั้นลงอีกนิด (ถามต่อ)</span></div></div>
+      <svg class="varrow" data-in="0" data-at="0.6" data-anim="up" viewBox="0 0 60 60" style="height:60px"><path pathLength="1" d="M30 6 V46 M14 32 L30 50 L46 32"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="38"/></svg>
+      <div class="code" data-in="0" data-at="0.8" data-anim="up">
+        <div class="code-head"><span class="method">POST</span><span class="scope">chat:invoke</span></div>
+        <div class="code-path">/api/chat/message</div>
+        <div class="code-body">
+          <div class="ln">--data '{<span class="k">"agent_id"</span>: <span class="v">"&lt;AGENT_ID&gt;"</span>,</div>
+          <div class="ln">  <span class="k">"query"</span>: <span class="v">"ขอให้สั้นลงอีกนิด"</span>,</div>
+          <div class="ln"><span class="mark" data-mark="0" data-mark-at="1.0"></span>  <span class="k">"conversation_id"</span>: <span class="v" style="color:#1E7578;font-weight:700">"conv_123"</span> }'</div>
+        </div>
+      </div>
+      <svg class="varrow" data-in="1" data-at="0.2" data-anim="up" viewBox="0 0 60 60" style="height:60px"><path pathLength="1" d="M30 6 V46 M14 32 L30 50 L46 32"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="38"/></svg>
+      <div class="slot-out" data-in="1" data-at="0.4" data-anim="up"><div class="chip out-chip ok"><span>Agent: “ประชุมเลื่อนเป็น 15:00 น. นะครับ”</span></div></div>
+    </div>
+  </section>
+
+  <section class="scene" id="sc-b10">
+    
+    <h1 class="heading">สรุปภาพรวม<small>3 หัวใจสำคัญ & LangMind</small></h1>
+    <div class="stack" style="top:410px">
+      <div class="recap" style="--c:#38815A" data-in="0" data-at="0.2" data-anim="up">
+        <div class="recap-t"><b>1</b>เลือก Endpoint ให้ตรงงาน</div>
+        <div class="desc">ใช้ SSE Stream สำหรับแชทสด · ใช้ Blocking เมื่อต้องการรับ JSON ก้อนเดียว</div>
+      </div>
+      <div class="recap" style="--c:#8d732c" data-in="0" data-at="0.8" data-anim="up">
+        <div class="recap-t"><b>2</b>ปลอดภัยที่ระบบหลังบ้าน</div>
+        <div class="desc">เก็บ Personal API Key ฝั่ง Server เท่านั้น · ทุก Endpoint ใช้ scope chat:invoke</div>
+      </div>
+      <div class="recap" style="--c:#1E7578" data-in="0" data-at="1.4" data-anim="up">
+        <div class="recap-t"><b>3</b>ส่ง conversation_id เพื่อคุยต่อ</div>
+        <div class="desc">ส่ง null เพื่อเริ่มใหม่ · ส่ง ID เดิมเมื่อต้องการคุยต่อในเรื่องเดิม</div>
+      </div>
+    </div>
+    <div class="sponsor" data-in="1" data-at="0.2" data-anim="up">
+      <div class="sp-by">สนับสนุนโดย</div>
+      <img class="sp-logo" src="assets/langmind-logo.png" width="689" height="606" alt="LangMind">
+      <div class="sp-url">langmind.in.th</div>
+    </div>
+    <img class="robot" src="assets/10-thumbs-up.png" style="right:80px;bottom:380px;width:240px" data-in="1" data-at="0.6" data-anim="pop">
+  </section>
+  </section>
+<div id="cap-b1-0" class="clip caption" data-start="0.4" data-duration="4.633333333333334" data-track-index="8" data-layout-allow-caption-zone>เคยขอให้ผู้ช่วยช่วยเขียนข้อความ<br>แล้วอยากให้แก้ต่ออีกนิดไหม?</div>
+<div id="cap-b1-1" class="clip caption" data-start="5.033333333333333" data-duration="3.533333333333333" data-track-index="8" data-layout-allow-caption-zone>เช่น ขอให้สั้นลง<br>โดยคุยต่อในเรื่องเดิมได้ทันที</div>
+<div id="cap-b1-2" class="clip caption" data-start="8.566666666666666" data-duration="5.7" data-track-index="8" data-layout-allow-caption-zone>ถ้าอยากทำฟีเจอร์นี้ ต้องเตรียมอะไร<br>เชื่อมตรงไหน และส่งคำขอยังไง</div>
+<div id="cap-b2-0" class="clip caption" data-start="14.966666666666667" data-duration="5.5" data-track-index="8" data-layout-allow-caption-zone>Chat API คือช่องทางที่แอปส่งคำถามให้ Agent<br>แล้วรับคำตอบกลับมาแสดงบนหน้าจอ</div>
+<div id="cap-b2-1" class="clip caption" data-start="20.466666666666665" data-duration="4.766666666666667" data-track-index="8" data-layout-allow-caption-zone>ภาพรวมมี 3 ส่วน: แอปมือถือ<br>ระบบหลังบ้านของคุณ และ LangMind</div>
+<div id="cap-b2-2" class="clip caption" data-start="25.233333333333334" data-duration="4.533333333333333" data-track-index="8" data-layout-allow-caption-zone>ระบบหลังบ้านส่งคำขอ รับ Stream ตอบกลับ<br>และคุยต่อในบทสนทนาเดิม</div>
+<div id="cap-b3-0" class="clip caption" data-start="30.6" data-duration="6.5" data-track-index="8" data-layout-allow-caption-zone>สิ่งที่ต้องเตรียม อย่างแรกคือ Agent<br>ที่ตั้งค่าและกด publish แล้ว</div>
+<div id="cap-b3-1" class="clip caption" data-start="37.06666666666667" data-duration="3.6333333333333333" data-track-index="8" data-layout-allow-caption-zone>อย่างที่สอง Personal API Key<br>ที่มีสิทธิ์ chat:invoke</div>
+<div id="cap-b3-2" class="clip caption" data-start="40.733333333333334" data-duration="6.333333333333333" data-track-index="8" data-layout-allow-caption-zone>อย่างที่สาม ระบบหลังบ้านของแอป<br>ไว้เก็บ Key และเรียก API แทนหน้าบ้าน</div>
+<div id="cap-b4-0" class="clip caption" data-start="47.86666666666667" data-duration="6.7" data-track-index="8" data-layout-allow-caption-zone>เส้นหลักส่งข้อความมี 2 แบบ:<br>1. POST /api/chat/message (SSE Stream)</div>
+<div id="cap-b4-1" class="clip caption" data-start="54.53333333333333" data-duration="5.2" data-track-index="8" data-layout-allow-caption-zone>2. POST /api/chat/message/blocking<br>รอคำตอบเต็มทั้งก้อนเป็น JSON</div>
+<div id="cap-b4-2" class="clip caption" data-start="59.733333333333334" data-duration="5.966666666666667" data-track-index="8" data-layout-allow-caption-zone>พร้อมเส้น preview ใน Builder<br>และคำสั่ง stop stream เมื่อต้องการหยุด</div>
+<div id="cap-b5-0" class="clip caption" data-start="66.6" data-duration="7" data-track-index="8" data-layout-allow-caption-zone>กลุ่มจัดการประวัติ: อ่านรายการ, รายละเอียด,<br>และข้อความ โดยต้องระบุ agent_id</div>
+<div id="cap-b5-1" class="clip caption" data-start="73.63333333333334" data-duration="4.966666666666667" data-track-index="8" data-layout-allow-caption-zone>PATCH แก้ชื่อ/สถานะ<br>DELETE ลบบทสนทนาถาวร (Permanent)</div>
+<div id="cap-b6-0" class="clip caption" data-start="79.36666666666666" data-duration="5.333333333333333" data-track-index="8" data-layout-allow-caption-zone>กลุ่มเสริม: POST feedback<br>ให้คะแนน rating: 1 หรือ -1</div>
+<div id="cap-b6-1" class="clip caption" data-start="84.7" data-duration="5.166666666666667" data-track-index="8" data-layout-allow-caption-zone>และ GET ดาวน์โหลดไฟล์ที่ Agent สร้าง<br>ทุก endpoint ใช้สิทธิ์ chat:invoke</div>
+<div id="cap-b7-0" class="clip caption" data-start="90.66666666666667" data-duration="5.933333333333334" data-track-index="8" data-layout-allow-caption-zone>ส่งคำขอแรก: ยิง POST /api/chat/message<br>พร้อม Bearer API Key</div>
+<div id="cap-b7-1" class="clip caption" data-start="96.6" data-duration="5.066666666666666" data-track-index="8" data-layout-allow-caption-zone>ใส่ agent_id, query และส่ง<br>&quot;conversation_id&quot;: null เพื่อเริ่มใหม่</div>
+<div id="cap-b8-0" class="clip caption" data-start="102.43333333333334" data-duration="5.733333333333333" data-track-index="8" data-layout-allow-caption-zone>Stream ส่งกลับมาเป็น event:<br>message_start ให้ ID บทสนทนาและข้อความ</div>
+<div id="cap-b8-1" class="clip caption" data-start="108.16666666666667" data-duration="5.1" data-track-index="8" data-layout-allow-caption-zone>message ทยอยส่งข้อความคำตอบ<br>และ citations แหล่งอ้างอิง (ถ้ามี)</div>
+<div id="cap-b8-2" class="clip caption" data-start="113.26666666666667" data-duration="4.7" data-track-index="8" data-layout-allow-caption-zone>ปิดท้ายด้วย message_end<br>มีคำตอบฉบับเต็มและ usage ให้แอปใช้งาน</div>
+<div id="cap-b9-0" class="clip caption" data-start="118.83333333333333" data-duration="5.666666666666667" data-track-index="8" data-layout-allow-caption-zone>ถามต่อ: ส่งคำถามใหม่พร้อม<br>conversation_id เดิมที่เก็บไว้</div>
+<div id="cap-b9-1" class="clip caption" data-start="124.5" data-duration="4.3" data-track-index="8" data-layout-allow-caption-zone>Agent เข้าใจบริบทเดิมทันที<br>โดยไม่ต้องปูพื้นใหม่</div>
+<div id="cap-b10-0" class="clip caption" data-start="129.6" data-duration="6.466666666666667" data-track-index="8" data-layout-allow-caption-zone>สรุป 3 ขั้นตอน:<br>เลือก Endpoint · ปลอดภัยที่หลังบ้าน · เก็บ ID คุยต่อ</div>
+<div id="cap-b10-1" class="clip caption" data-start="136.06666666666666" data-duration="4.9" data-track-index="8" data-layout-allow-caption-zone>เชื่อม Chat API กับ LangMind ได้แล้ววันนี้<br>langmind.in.th</div>
+
+</main>
+<script>
+window.FILM = {
+  "fps": 30,
+  "duration": 143.46666666666667,
+  "beats": [
+    {
+      "id": "b1",
+      "voice": null,
+      "start": 0.4,
+      "duration": 13.866666666666667,
+      "segments": [
+        {
+          "cue": "draft",
+          "say": "เคยขอให้ผู้ช่วยช่วยเขียนข้อความ แล้วอยากให้แก้ต่ออีกนิดไหม?",
+          "cap": "เคยขอให้ผู้ช่วยช่วยเขียนข้อความ\nแล้วอยากให้แก้ต่ออีกนิดไหม?",
+          "start": 0.4,
+          "duration": 4.633333333333334
+        },
+        {
+          "cue": "shorten",
+          "say": "เช่น ขอให้สั้นลง โดยคุยต่อในเรื่องเดิมได้ทันที",
+          "cap": "เช่น ขอให้สั้นลง\nโดยคุยต่อในเรื่องเดิมได้ทันที",
+          "start": 5.033333333333333,
+          "duration": 3.533333333333333
+        },
+        {
+          "cue": "questions",
+          "say": "ถ้าอยากทำฟีเจอร์นี้ ต้องเตรียมอะไร เชื่อมตรงไหน และส่งคำขอยังไง มาดูกันครับ",
+          "cap": "ถ้าอยากทำฟีเจอร์นี้ ต้องเตรียมอะไร\nเชื่อมตรงไหน และส่งคำขอยังไง",
+          "start": 8.566666666666666,
+          "duration": 5.7
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "voice": null,
+      "start": 14.966666666666667,
+      "duration": 14.833333333333334,
+      "segments": [
+        {
+          "cue": "concept",
+          "say": "Chat API คือช่องทางที่แอปส่งคำถามให้ Agent แล้วรับคำตอบกลับมาแสดงบนหน้าจอ",
+          "cap": "Chat API คือช่องทางที่แอปส่งคำถามให้ Agent\nแล้วรับคำตอบกลับมาแสดงบนหน้าจอ",
+          "start": 14.966666666666667,
+          "duration": 5.5
+        },
+        {
+          "cue": "map",
+          "say": "ภาพรวมของระบบมีสามส่วน แอปมือถือ ระบบหลังบ้านของคุณ และ LangMind",
+          "cap": "ภาพรวมมี 3 ส่วน: แอปมือถือ\nระบบหลังบ้านของคุณ และ LangMind",
+          "start": 20.466666666666665,
+          "duration": 4.766666666666667
+        },
+        {
+          "cue": "calls",
+          "say": "ระบบหลังบ้านส่งคำขอ รับ Stream ตอบกลับ และคุยต่อในบทสนทนาเดิม",
+          "cap": "ระบบหลังบ้านส่งคำขอ รับ Stream ตอบกลับ\nและคุยต่อในบทสนทนาเดิม",
+          "start": 25.233333333333334,
+          "duration": 4.533333333333333
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "voice": null,
+      "start": 30.6,
+      "duration": 16.466666666666665,
+      "segments": [
+        {
+          "cue": "agent",
+          "say": "เริ่มจากสิ่งที่ต้องเตรียม อย่างแรกคือ Agent ใน LangMind ที่ตั้งค่าเรียบร้อยและกด publish",
+          "cap": "สิ่งที่ต้องเตรียม อย่างแรกคือ Agent\nที่ตั้งค่าและกด publish แล้ว",
+          "start": 30.6,
+          "duration": 6.5
+        },
+        {
+          "cue": "key",
+          "say": "อย่างที่สอง Personal API Key ที่มีสิทธิ์ chat invoke",
+          "cap": "อย่างที่สอง Personal API Key\nที่มีสิทธิ์ chat:invoke",
+          "start": 37.06666666666667,
+          "duration": 3.6333333333333333
+        },
+        {
+          "cue": "server",
+          "say": "อย่างที่สาม ระบบหลังบ้านของแอป ไว้เก็บ Key อย่างปลอดภัย และเป็นผู้เรียก API แทนหน้าบ้าน",
+          "cap": "อย่างที่สาม ระบบหลังบ้านของแอป\nไว้เก็บ Key และเรียก API แทนหน้าบ้าน",
+          "start": 40.733333333333334,
+          "duration": 6.333333333333333
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "voice": null,
+      "start": 47.86666666666667,
+      "duration": 17.866666666666667,
+      "segments": [
+        {
+          "cue": "stream",
+          "say": "เส้นหลักสำหรับส่งข้อความมีสองแบบ แบบแรกคือ Server-Sent Events ทยอยส่งคำตอบกลับมาเป็นสตรีม",
+          "cap": "เส้นหลักส่งข้อความมี 2 แบบ:\n1. POST /api/chat/message (SSE Stream)",
+          "start": 47.86666666666667,
+          "duration": 6.7
+        },
+        {
+          "cue": "blocking",
+          "say": "แบบที่สองคือ blocking สำหรับรอคำตอบสมบูรณ์ทั้งก้อนเป็น JSON ครั้งเดียว",
+          "cap": "2. POST /api/chat/message/blocking\nรอคำตอบเต็มทั้งก้อนเป็น JSON",
+          "start": 54.53333333333333,
+          "duration": 5.2
+        },
+        {
+          "cue": "preview-stop",
+          "say": "นอกจากนี้ยังมี preview ใน Agent Builder และคำสั่ง stop stream เมื่อต้องการหยุดการตอบ",
+          "cap": "พร้อมเส้น preview ใน Builder\nและคำสั่ง stop stream เมื่อต้องการหยุด",
+          "start": 59.733333333333334,
+          "duration": 5.966666666666667
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "voice": null,
+      "start": 66.6,
+      "duration": 11.966666666666667,
+      "segments": [
+        {
+          "cue": "read",
+          "say": "กลุ่มที่สองคือจัดการประวัติ มีเส้นอ่านรายการห้อง รายละเอียด และข้อความ ทั้งหมดต้องระบุ agent ID",
+          "cap": "กลุ่มจัดการประวัติ: อ่านรายการ, รายละเอียด,\nและข้อความ โดยต้องระบุ agent_id",
+          "start": 66.6,
+          "duration": 7
+        },
+        {
+          "cue": "manage",
+          "say": "และมี PATCH สำหรับเปลี่ยนชื่อห้อง ส่วน DELETE จะเป็นการลบบทสนทนาถาวร",
+          "cap": "PATCH แก้ชื่อ/สถานะ\nDELETE ลบบทสนทนาถาวร (Permanent)",
+          "start": 73.63333333333334,
+          "duration": 4.966666666666667
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "voice": null,
+      "start": 79.36666666666666,
+      "duration": 10.466666666666667,
+      "segments": [
+        {
+          "cue": "feedback",
+          "say": "กลุ่มที่สามคือส่วนเสริม ให้คะแนนคำตอบได้สองค่า คือหนึ่ง หรือหนึ่งติดลบ",
+          "cap": "กลุ่มเสริม: POST feedback\nให้คะแนน rating: 1 หรือ -1",
+          "start": 79.36666666666666,
+          "duration": 5.333333333333333
+        },
+        {
+          "cue": "files",
+          "say": "และดาวน์โหลดไฟล์ที่ Agent สร้างได้ โดยทุก endpoint ใช้สิทธิ์ chat invoke",
+          "cap": "และ GET ดาวน์โหลดไฟล์ที่ Agent สร้าง\nทุก endpoint ใช้สิทธิ์ chat:invoke",
+          "start": 84.7,
+          "duration": 5.166666666666667
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "voice": null,
+      "start": 90.66666666666667,
+      "duration": 11,
+      "segments": [
+        {
+          "cue": "request",
+          "say": "มาลองส่งคำถามแรก ระบบหลังบ้านยิง POST ไปที่ chat message พร้อม Authorization Bearer",
+          "cap": "ส่งคำขอแรก: ยิง POST /api/chat/message\nพร้อม Bearer API Key",
+          "start": 90.66666666666667,
+          "duration": 5.933333333333334
+        },
+        {
+          "cue": "conv-null",
+          "say": "ใส่ agent ID คำถาม และส่ง conversation ID เป็น null เพื่อเริ่มบทสนทนาใหม่",
+          "cap": "ใส่ agent_id, query และส่ง\n\"conversation_id\": null เพื่อเริ่มใหม่",
+          "start": 96.6,
+          "duration": 5.066666666666666
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "voice": null,
+      "start": 102.43333333333334,
+      "duration": 15.5,
+      "segments": [
+        {
+          "cue": "start",
+          "say": "ผลลัพธ์สตรีมกลับมาเป็น event เริ่มจาก message start ให้ ID ของบทสนทนาและข้อความ",
+          "cap": "Stream ส่งกลับมาเป็น event:\nmessage_start ให้ ID บทสนทนาและข้อความ",
+          "start": 102.43333333333334,
+          "duration": 5.733333333333333
+        },
+        {
+          "cue": "message",
+          "say": "message ทยอยส่งคำตอบมาเป็นชิ้น และอาจมี citations แหล่งอ้างอิงประกอบ",
+          "cap": "message ทยอยส่งข้อความคำตอบ\nและ citations แหล่งอ้างอิง (ถ้ามี)",
+          "start": 108.16666666666667,
+          "duration": 5.1
+        },
+        {
+          "cue": "end",
+          "say": "ปิดท้ายด้วย message end ที่มีคำตอบฉบับเต็มและ usage ให้แอปใช้งาน",
+          "cap": "ปิดท้ายด้วย message_end\nมีคำตอบฉบับเต็มและ usage ให้แอปใช้งาน",
+          "start": 113.26666666666667,
+          "duration": 4.7
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "voice": null,
+      "start": 118.83333333333333,
+      "duration": 9.966666666666667,
+      "segments": [
+        {
+          "cue": "followup",
+          "say": "เมื่อผู้ใช้ขอให้สั้นลง แอปส่งคำถามใหม่พร้อม conversation ID เดิมที่ได้รับมา",
+          "cap": "ถามต่อ: ส่งคำถามใหม่พร้อม\nconversation_id เดิมที่เก็บไว้",
+          "start": 118.83333333333333,
+          "duration": 5.666666666666667
+        },
+        {
+          "cue": "continuity",
+          "say": "Agent จะเข้าใจบริบทเดิม และตอบกลับมาในหัวข้อเดิมได้ทันที",
+          "cap": "Agent เข้าใจบริบทเดิมทันที\nโดยไม่ต้องปูพื้นใหม่",
+          "start": 124.5,
+          "duration": 4.3
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "voice": null,
+      "start": 129.6,
+      "duration": 11.366666666666667,
+      "segments": [
+        {
+          "cue": "recap",
+          "say": "สรุป 3 ขั้นตอน เลือก Endpoint ให้ตรงงาน เก็บ Key ในหลังบ้าน และส่ง conversation ID เพื่อคุยต่อ",
+          "cap": "สรุป 3 ขั้นตอน:\nเลือก Endpoint · ปลอดภัยที่หลังบ้าน · เก็บ ID คุยต่อ",
+          "start": 129.6,
+          "duration": 6.466666666666667
+        },
+        {
+          "cue": "outro",
+          "say": "เริ่มต้นเชื่อม Chat API กับ LangMind ได้แล้ววันนี้ ที่ langmind.in.th",
+          "cap": "เชื่อม Chat API กับ LangMind ได้แล้ววันนี้\nlangmind.in.th",
+          "start": 136.06666666666666,
+          "duration": 4.9
+        }
+      ]
+    }
+  ]
+};
+</script>
+<script src="motion.js"></script>
+</body>
+</html>

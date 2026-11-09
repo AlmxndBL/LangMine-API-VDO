@@ -1,0 +1,22 @@
+<template>
+<style>*{box-sizing:border-box}
+@font-face{font-family:Sarabun;src:url("assets/fonts/Sarabun-Bold.ttf");font-weight:bold}
+@font-face{font-family:Sarabun;src:url("assets/fonts/Sarabun-Regular.ttf");font-weight:normal}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#f8f4e9}
+#root{position:absolute;inset:0;width:1080px;height:1920px;overflow:hidden}
+.plate{position:absolute;inset:0;width:1080px;height:1920px;object-fit:cover;opacity:0}
+</style>
+<div id="root" data-composition-id="beat08" data-width="1080" data-height="1920" data-duration="9.333333" data-layout-allow-overlap="true">
+<img id="stage-b8-req-auth" class="clip plate" data-start="0" data-duration="4.666667" data-track-index="0" data-layout-allow-overlap="true" src="assets/plates/v4/b8-req-auth.png" alt="เตรียม Key และส่งคำถามแรก — b8-req-auth">
+<img id="stage-b8-req-curl" class="clip plate" data-start="4.666667" data-duration="4.666667" data-track-index="0" data-layout-allow-overlap="true" src="assets/plates/v4/b8-req-curl.png" alt="เตรียม Key และส่งคำถามแรก — b8-req-curl">
+</div>
+<script>
+  window.__timelines = window.__timelines || {};
+  const tl = gsap.timeline({paused:true});
+  tl.set("#stage-b8-req-auth", {opacity:1}, 0);
+  tl.set("#stage-b8-req-auth", {opacity:0}, 4.666667);
+  tl.set("#stage-b8-req-curl", {opacity:1}, 4.666667);
+  tl.set("#stage-b8-req-curl", {opacity:0}, 9.333333);
+  window.__timelines["beat08"] = tl;
+</script>
+</template>

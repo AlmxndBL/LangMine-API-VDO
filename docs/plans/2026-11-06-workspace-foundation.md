@@ -21,7 +21,7 @@
 รอบนี้บันทึกแผนและออกแบบช่วงเพิ่มเติม ยังไม่ผลิต timeline ภาพ เสียง หรือ MP4 ดู [แผน EP02](../../episodes/ep02-custom-chat/PLAN.md) สำหรับขอบเขตที่อนุมัติ แบบช่วงท้าย ข้อจำกัด Catalog และลำดับงานถัดไป ไม่ตีความการอนุมัติแนวเรื่องเป็นผลตรวจรับภาพหรือเสียงที่ยังไม่ผลิต
 
 ### สถานะ EP03 ที่ส่งต่อจาก dev_boy
-EP03 v3.1 มี silent animatic 52 วินาที พร้อมภาพอธิบายและ motion ในซีนเปรียบเทียบ; บทและ storyboard อยู่ระหว่างทบทวน, voice audition ยังรอเลือก และ HyperFrames runtime check ยังติดการเข้าถึง localhost. รายละเอียดอยู่ใน [README EP03](../../episodes/ep03/README.md) และ [review v3.1](../../episodes/ep03/video-v3.1/REVIEW-v3.1.md). สถานะ EP03 นี้เป็นบันทึกงานรายตอนและไม่เปลี่ยนลำดับงานหลัก EP02 ที่ระบุไว้ด้านบน.
+9 พ.ย. 2026: EP03 v4 Chat API อยู่ W4 draft: มี [บท](../../episodes/ep03/video-v4/SCRIPT-v4.md), [storyboard และแบบหน้าจอ](../../episodes/ep03/video-v4/STORYBOARD-v4.md), [Catalog shortlist](../../episodes/ep03/video-v4/CATALOG-v4.md) และ [แผน/API evidence](../../episodes/ep03/video-v4/PLAN.md). W5 ยังไม่เริ่มสร้างภาพ/เสียงหรือทดลอง Catalog ในแนวตั้ง; จึงยังไม่มี timeline/คลิป v4. v3.1 ยังคงเป็นคลิปล่าสุดที่ผลิต; รายละเอียดเดิมอยู่ [README EP03](../../episodes/ep03/README.md) และ [review v3.1](../../episodes/ep03/video-v3.1/REVIEW-v3.1.md). บันทึกนี้ไม่เปลี่ยนลำดับงานหลัก EP02 ที่ระบุไว้ด้านบน.
 ## ประวัติการจัดฐานกลางก่อนคำสั่งรีเซ็ต EP01
 ส่วนด้านล่างบันทึกรอบก่อน ไม่ใช่สถานะหรือสิทธิ์ผลิตปัจจุบัน ไฟล์ EP01 เก่าที่กล่าวถึงถูกลบแล้ว
 

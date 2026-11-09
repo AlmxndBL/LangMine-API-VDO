@@ -1,0 +1,231 @@
+{
+  "fps": 30,
+  "lead_in": 0.4,
+  "beat_gap": 0.5,
+  "tail": 2.0,
+  "chars_per_second": 13.5,
+  "note": "EP03 video-v4.1 = Viewer-first story + Chat API architecture & endpoints + Server-side cURL SSE + Recap. say = narration (voice), cap = caption (\\n = line break).",
+  "beats": [
+    {
+      "id": "b1",
+      "voice": "assets/voice/b1.wav",
+      "hold": 0.2,
+      "segments": [
+        {
+          "cue": "draft",
+          "say": "เคยขอให้ผู้ช่วยช่วยเขียนข้อความ แล้วอยากให้แก้ต่ออีกนิดไหม?",
+          "cap": "เคยขอให้ผู้ช่วยช่วยเขียนข้อความ\nแล้วอยากให้แก้ต่ออีกนิดไหม?"
+        },
+        {
+          "cue": "shorten",
+          "say": "เช่น ขอให้สั้นลง โดยคุยต่อในเรื่องเดิมได้ทันที",
+          "cap": "เช่น ขอให้สั้นลง\nโดยคุยต่อในเรื่องเดิมได้ทันที"
+        },
+        {
+          "cue": "questions",
+          "say": "ถ้าอยากทำฟีเจอร์นี้ ต้องเตรียมอะไร เชื่อมตรงไหน และส่งคำขอยังไง มาดูกันครับ",
+          "cap": "ถ้าอยากทำฟีเจอร์นี้ ต้องเตรียมอะไร\nเชื่อมตรงไหน และส่งคำขอยังไง"
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "voice": "assets/voice/b2.wav",
+      "hold": 0.3,
+      "segments": [
+        {
+          "cue": "concept",
+          "say": "Chat API คือช่องทางที่แอปส่งคำถามให้ Agent แล้วรับคำตอบกลับมาแสดงบนหน้าจอ",
+          "cap": "Chat API คือช่องทางที่แอปส่งคำถามให้ Agent\nแล้วรับคำตอบกลับมาแสดงบนหน้าจอ"
+        },
+        {
+          "cue": "map",
+          "say": "ภาพรวมของระบบมีสามส่วน แอปมือถือ ระบบหลังบ้านของคุณ และ LangMind",
+          "cap": "ภาพรวมมี 3 ส่วน: แอปมือถือ\nระบบหลังบ้านของคุณ และ LangMind"
+        },
+        {
+          "cue": "calls",
+          "say": "ระบบหลังบ้านส่งคำขอ รับ Stream ตอบกลับ และคุยต่อในบทสนทนาเดิม",
+          "cap": "ระบบหลังบ้านส่งคำขอ รับ Stream ตอบกลับ\nและคุยต่อในบทสนทนาเดิม"
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "voice": "assets/voice/b3.wav",
+      "hold": 0.3,
+      "segments": [
+        {
+          "cue": "agent",
+          "say": "เริ่มจากสิ่งที่ต้องเตรียม อย่างแรกคือ Agent ใน LangMind ที่ตั้งค่าเรียบร้อยและกด publish",
+          "cap": "สิ่งที่ต้องเตรียม อย่างแรกคือ Agent\nที่ตั้งค่าและกด publish แล้ว"
+        },
+        {
+          "cue": "key",
+          "say": "อย่างที่สอง Personal API Key ที่มีสิทธิ์ chat invoke",
+          "cap": "อย่างที่สอง Personal API Key\nที่มีสิทธิ์ chat:invoke"
+        },
+        {
+          "cue": "server",
+          "say": "อย่างที่สาม ระบบหลังบ้านของแอป ไว้เก็บ Key อย่างปลอดภัย และเป็นผู้เรียก API แทนหน้าบ้าน",
+          "cap": "อย่างที่สาม ระบบหลังบ้านของแอป\nไว้เก็บ Key และเรียก API แทนหน้าบ้าน"
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "voice": "assets/voice/b4.wav",
+      "hold": 0.4,
+      "segments": [
+        {
+          "cue": "stream",
+          "say": "เส้นหลักสำหรับส่งข้อความมีสองแบบ แบบแรกคือ Server-Sent Events ทยอยส่งคำตอบกลับมาเป็นสตรีม",
+          "cap": "เส้นหลักส่งข้อความมี 2 แบบ:\n1. POST /api/chat/message (SSE Stream)"
+        },
+        {
+          "cue": "blocking",
+          "say": "แบบที่สองคือ blocking สำหรับรอคำตอบสมบูรณ์ทั้งก้อนเป็น JSON ครั้งเดียว",
+          "cap": "2. POST /api/chat/message/blocking\nรอคำตอบเต็มทั้งก้อนเป็น JSON"
+        },
+        {
+          "cue": "preview-stop",
+          "say": "นอกจากนี้ยังมี preview ใน Agent Builder และคำสั่ง stop stream เมื่อต้องการหยุดการตอบ",
+          "cap": "พร้อมเส้น preview ใน Builder\nและคำสั่ง stop stream เมื่อต้องการหยุด"
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "voice": "assets/voice/b5.wav",
+      "hold": 0.3,
+      "segments": [
+        {
+          "cue": "read",
+          "say": "กลุ่มที่สองคือจัดการประวัติ มีเส้นอ่านรายการห้อง รายละเอียด และข้อความ ทั้งหมดต้องระบุ agent ID",
+          "cap": "กลุ่มจัดการประวัติ: อ่านรายการ, รายละเอียด,\nและข้อความ โดยต้องระบุ agent_id"
+        },
+        {
+          "cue": "manage",
+          "say": "และมี PATCH สำหรับเปลี่ยนชื่อห้อง ส่วน DELETE จะเป็นการลบบทสนทนาถาวร",
+          "cap": "PATCH แก้ชื่อ/สถานะ\nDELETE ลบบทสนทนาถาวร (Permanent)"
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "voice": "assets/voice/b6.wav",
+      "hold": 0.3,
+      "segments": [
+        {
+          "cue": "feedback",
+          "say": "กลุ่มที่สามคือส่วนเสริม ให้คะแนนคำตอบได้สองค่า คือหนึ่ง หรือหนึ่งติดลบ",
+          "cap": "กลุ่มเสริม: POST feedback\nให้คะแนน rating: 1 หรือ -1"
+        },
+        {
+          "cue": "files",
+          "say": "และดาวน์โหลดไฟล์ที่ Agent สร้างได้ โดยทุก endpoint ใช้สิทธิ์ chat invoke",
+          "cap": "และ GET ดาวน์โหลดไฟล์ที่ Agent สร้าง\nทุก endpoint ใช้สิทธิ์ chat:invoke"
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "voice": "assets/voice/b7.wav",
+      "hold": 0.3,
+      "segments": [
+        {
+          "cue": "request",
+          "say": "มาลองส่งคำถามแรก ระบบหลังบ้านยิง POST ไปที่ chat message พร้อม Authorization Bearer",
+          "cap": "ส่งคำขอแรก: ยิง POST /api/chat/message\nพร้อม Bearer API Key"
+        },
+        {
+          "cue": "conv-null",
+          "say": "ใส่ agent ID คำถาม และส่ง conversation ID เป็น null เพื่อเริ่มบทสนทนาใหม่",
+          "cap": "ใส่ agent_id, query และส่ง\n\"conversation_id\": null เพื่อเริ่มใหม่"
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "voice": "assets/voice/b8.wav",
+      "hold": 0.4,
+      "segments": [
+        {
+          "cue": "start",
+          "say": "ผลลัพธ์สตรีมกลับมาเป็น event เริ่มจาก message start ให้ ID ของบทสนทนาและข้อความ",
+          "cap": "Stream ส่งกลับมาเป็น event:\nmessage_start ให้ ID บทสนทนาและข้อความ"
+        },
+        {
+          "cue": "message",
+          "say": "message ทยอยส่งคำตอบมาเป็นชิ้น และอาจมี citations แหล่งอ้างอิงประกอบ",
+          "cap": "message ทยอยส่งข้อความคำตอบ\nและ citations แหล่งอ้างอิง (ถ้ามี)"
+        },
+        {
+          "cue": "end",
+          "say": "ปิดท้ายด้วย message end ที่มีคำตอบฉบับเต็มและ usage ให้แอปใช้งาน",
+          "cap": "ปิดท้ายด้วย message_end\nมีคำตอบฉบับเต็มและ usage ให้แอปใช้งาน"
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "voice": "assets/voice/b9.wav",
+      "hold": 0.3,
+      "segments": [
+        {
+          "cue": "followup",
+          "say": "เมื่อผู้ใช้ขอให้สั้นลง แอปส่งคำถามใหม่พร้อม conversation ID เดิมที่ได้รับมา",
+          "cap": "ถามต่อ: ส่งคำถามใหม่พร้อม\nconversation_id เดิมที่เก็บไว้"
+        },
+        {
+          "cue": "continuity",
+          "say": "Agent จะเข้าใจบริบทเดิม และตอบกลับมาในหัวข้อเดิมได้ทันที",
+          "cap": "Agent เข้าใจบริบทเดิมทันที\nโดยไม่ต้องปูพื้นใหม่"
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "voice": "assets/voice/b10.wav",
+      "hold": 0.5,
+      "segments": [
+        {
+          "cue": "recap",
+          "say": "สรุป 3 ขั้นตอน เลือก Endpoint ให้ตรงงาน เก็บ Key ในหลังบ้าน และส่ง conversation ID เพื่อคุยต่อ",
+          "cap": "สรุป 3 ขั้นตอน:\nเลือก Endpoint · ปลอดภัยที่หลังบ้าน · เก็บ ID คุยต่อ"
+        },
+        {
+          "cue": "outro",
+          "say": "เริ่มต้นเชื่อม Chat API กับ LangMind ได้แล้ววันนี้ ที่ langmind.in.th",
+          "cap": "เชื่อม Chat API กับ LangMind ได้แล้ววันนี้\nlangmind.in.th"
+        }
+      ]
+    }
+  ],
+  "claims": {
+    "documented": [
+      "Chat API scope is chat:invoke",
+      "POST /api/chat/message uses Server-Sent Events (SSE)",
+      "POST /api/chat/message/blocking returns full JSON response",
+      "POST /api/chat/preview targets published Agent version on channel web",
+      "POST /api/chat/messages/{id}/stop halts the ongoing stream",
+      "GET /api/chat/conversations, GET .../{id}, GET .../{id}/messages require agent_id",
+      "PATCH /api/chat/conversations/{id} updates metadata, DELETE deletes permanently",
+      "POST /api/chat/messages/{id}/feedback accepts rating 1 or -1",
+      "GET /api/chat/messages/{id}/generated-files/{file_id} downloads generated files",
+      "SSE events sequence: message_start -> message chunks -> citations (optional) -> message_end",
+      "conversation_id is null for starting a new conversation; returned in message_start and message_end",
+      "Follow-up request reuses conversation_id in JSON payload",
+      "API Key is held securely on backend/server side, never leaked to client bundle"
+    ],
+    "illustrative": [
+      "User drafting meeting postponement to 15:00 and requesting shortening",
+      "Simulated chat device screens marked with 'ภาพจำลอง'",
+      "Placeholder LM_TOKEN, AGENT_ID, conv_123"
+    ],
+    "unknown": [
+      "Exact provider latency and token timing on live API",
+      "Voiceover talent timing prior to live audio recording"
+    ]
+  }
+}

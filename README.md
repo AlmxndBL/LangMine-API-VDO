@@ -17,7 +17,7 @@ Workspace ของ Jack สำหรับวางแผนและผลิ�
 **งานปัจจุบัน: [EP02 เว็บแชทของเราเอง](episodes/ep02-custom-chat/README.md)** ใช้โครงเรื่องที่ผู้ใช้อนุมัติและ Catalog เป็นฐานหลัก กำลังออกแบบก่อนผลิต ส่วน EP01 ผู้ใช้ระบุว่ายอมรับได้สำหรับเดินหน้าตอนต่อไปและให้หยุดแก้ ดูหลักฐานเดิมใน [README EP01](episodes/ep01-api-introduction/README.md) และหลักการทำตอนต่อไปใน [Workflow](docs/WORKFLOW.md)
 
 
-สถานะผลงาน EP03 ล่าสุด: มี silent animatic v3.1 ยาว 52 วินาที พร้อมภาพอธิบายและ motion; สถานะตรวจและข้อจำกัดอยู่ใน [README EP03](episodes/ep03/README.md) งานหลักของ workspace ยังคงเป็น EP02 ตามสถานะด้านบน.
+สถานะ EP03: v4 Chat API มีบทและ storyboard draft (W4); ยังไม่เริ่ม sample ภาพ/เสียงหรือ timeline. silent animatic v3.1 ยาว 52 วินาทียังคงเป็นคลิปล่าสุดที่ผลิตและเป็นหลักฐานของเนื้อหา SSE รุ่นก่อน ดู [สถานะ EP03](episodes/ep03/README.md) และ [โฟลเดอร์ v4](episodes/ep03/video-v4/README.md). งานหลักของ workspace ยังคงเป็น EP02 ตามสถานะด้านบน.
 ## เริ่มจากที่นี่
 | เอกสาร | หน้าที่ |
 |---|---|
