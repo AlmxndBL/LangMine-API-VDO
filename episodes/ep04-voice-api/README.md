@@ -1,3 +1,5 @@
+> อัปเดต 9 พ.ย. 2026: [EP04 V3 เสียง Orus draft](video-v3-orus/ep04-v3-orus.mp4) สร้างจากเสียงแบบ 3 ที่ผู้ใช้เลือก ยาว 2:18.1 · [ผลตรวจและข้อจำกัด](video-v3-orus/REVIEW.md) · รอฟังและตรวจจังหวะซับ
+
 # EP04 — Voice API: คุยกับ AI ด้วยเสียงพูด
 
 Episode ID: `ep04-voice-api`  
@@ -33,3 +35,4 @@ Episode ID: `ep04-voice-api`
 2. ถ้ามีคำที่ออกเสียงผิดหรือต้องแก้บท แก้ `say`/`cap` ใน [video-v3/timing.json](video-v3/timing.json) แล้วรันในโฟลเดอร์ `video-v3/`: `python make-voice-samples.py` → `node build.mjs` → `npx hyperframes check` → `npx hyperframes render --quality draft` (render เป็นไฟล์ชื่อใหม่ ไม่เขียนทับ draft เดิม)
 3. ตรวจเงื่อนไขการใช้เสียง Edge TTS ก่อนเผยแพร่ แล้วบันทึกผลรับงานใน [video-v3/REVIEW.md](video-v3/REVIEW.md)
 4. เมื่อผู้ใช้รับงานแล้ว render ฉบับส่งมอบด้วย `npx hyperframes render --quality delivery`; publish ต้องมีคำสั่ง
+

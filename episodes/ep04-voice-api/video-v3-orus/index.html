@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<title>EP04 · Voice API · video-v3</title>
+<link rel="stylesheet" href="style.css">
+<script src="assets/gsap.min.js"></script>
+</head>
+<body>
+<main id="film" data-composition-id="ep04-voice-v3" data-width="1080" data-height="1920" data-fps="30" data-duration="138.1">
+  <div class="kicker">EP04 &nbsp;/&nbsp; VOICE API</div>
+  <div class="note">ภาพจำลอง</div>
+  <section id="stage" class="clip" data-start="0" data-duration="138.1" data-track-index="1">
+    <div class="spine"><span id="sp1" class="pill">1 เตรียม</span><i></i><span id="sp2" class="pill">2 เชื่อม</span><i></i><span id="sp3" class="pill">3 ใช้ผล</span></div>
+    <section class="scene" id="sc-b1">
+    <h1 class="heading">แอปที่คุยด้วยเสียง<small>ทำได้ยังไง?</small></h1>
+    <div class="place" style="left:242px;top:370px">
+  <div class="device" id="dev-b1" style="width:596px">
+    <div class="screen" style="width:580px;height:652px">
+      <img src="assets/app-voice-q.jpg" width="1440" height="1800" alt="หน้าจอลูกค้ากดไมค์สั่งกาแฟ (ภาพจำลอง)" data-layout-allow-overflow style="width:580px">
+      <img class="img-a" src="assets/app-voice-a.jpg" width="1440" height="1800" alt="หน้าจอแอปเล่นเสียงตอบกลับ (ภาพจำลอง)" data-layout-allow-overflow style="width:580px">
+    </div>
+  </div></div>
+    <div class="wave big" id="wave-b1" style="left:242px;top:1090px;width:596px"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="wave-label" style="top:1226px"><span id="wl-b1-l" data-in="0" data-at="0.3" data-anim="up">กำลังฟังเสียงพูด…</span><span id="wl-b1-p" data-in="1" data-at="0.5" data-anim="up">กำลังเล่นเสียงตอบกลับ…</span></div>
+    <div class="qrow" style="top:1330px">
+      <span class="qchip" data-in="2" data-at="0.4" data-anim="pop">เตรียมอะไร?</span>
+      <span class="qchip" data-in="2" data-at="1" data-anim="pop">เชื่อมตรงไหน?</span>
+      <span class="qchip" data-in="2" data-at="1.6" data-anim="pop">ใช้ผลยังไง?</span>
+    </div></section>
+<section class="scene" id="sc-b2">
+    <h1 class="heading">ภาพรวมทั้งหมด<small>API คืออะไร · ใครคุยกับใคร</small></h1>
+    <div class="group" data-out="1" data-out-at="0">
+      <div class="node" style="top:430px" data-in="0" data-at="0.1" data-anim="up"><svg class="ico big" viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg><div><b>แอปของคุณ</b><span class="alias" data-in="0" data-at="2.6" data-anim="left">= พนักงานหน้าร้าน</span></div></div>
+      <div class="lane" style="top:640px">
+        <div class="lane-l" data-in="0" data-at="0.7" data-anim="left"><b>ส่งงาน</b><span data-in="0" data-at="3" data-anim="up">ส่งออร์เดอร์</span></div>
+        <svg class="varrow" data-in="0" data-at="0.6" data-anim="up" viewBox="0 0 60 250" style="height:250px"><path pathLength="1" d="M30 6 V236 M14 222 L30 240 L46 222"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="228"/></svg>
+        <svg class="varrow up" data-in="0" data-at="1.4" data-anim="up" viewBox="0 0 60 250" style="height:250px"><path pathLength="1" d="M30 6 V236 M14 222 L30 240 L46 222"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="228"/></svg>
+        <div class="lane-r" data-in="0" data-at="1.5" data-anim="up"><b>รับผล</b><span data-in="0" data-at="3.4" data-anim="up">รับจานกลับ</span></div>
+      </div>
+      <div class="node lm" style="top:910px" data-in="0" data-at="1" data-anim="up"><img src="assets/langmind-logo.png" width="689" height="606" alt="LangMind"><div><b>LangMind</b><span class="alias" data-in="0" data-at="2.8" data-anim="left">= ครัว</span></div></div>
+    </div>
+    <div class="node wide" style="top:400px" data-in="1" data-at="0.4" data-anim="up"><svg class="ico big" viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg><div><b>แอปมือถือ</b><span>อัดเสียง · เล่นเสียง</span></div></div>
+    <div class="lane small" style="top:600px">
+      <div class="lane-l" data-in="1" data-at="0.9" data-anim="left"><b>ไฟล์เสียง</b></div>
+      <svg class="varrow" data-in="1" data-at="0.8" data-anim="up" viewBox="0 0 60 150" style="height:150px"><path pathLength="1" d="M30 6 V136 M14 122 L30 140 L46 122"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="128"/></svg><svg class="varrow up" data-in="1" data-at="1.1" data-anim="up" viewBox="0 0 60 150" style="height:150px"><path pathLength="1" d="M30 6 V136 M14 122 L30 140 L46 122"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="128"/></svg>
+      <div class="lane-r" data-in="1" data-at="1.2" data-anim="up"><b>เสียงตอบ</b></div>
+    </div>
+    <div class="node wide" style="top:760px" data-in="1" data-at="1.2" data-anim="up"><svg class="ico big" viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg><div><b>ระบบหลังบ้านของคุณ</b><span>เก็บ API Key</span></div><span class="badge haskey" data-in="1" data-at="1.8" data-anim="pop"><svg class="ico " viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg>Key</span></div>
+    <div class="lane small" style="top:960px">
+      <div class="calls3" data-in="2" data-at="0.2" data-anim="up"><span class="step s1" data-in="2" data-at="0.5" data-anim="pop">1 ฟัง</span><span class="step s2" data-in="2" data-at="0.9" data-anim="pop">2 คิด</span><span class="step s3" data-in="2" data-at="1.3" data-anim="pop">3 พูด</span></div>
+      <svg class="varrow" data-in="1" data-at="1.9" data-anim="up" viewBox="0 0 60 150" style="height:150px"><path pathLength="1" d="M30 6 V136 M14 122 L30 140 L46 122"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="128"/></svg><svg class="varrow up" data-in="1" data-at="2.2" data-anim="up" viewBox="0 0 60 150" style="height:150px"><path pathLength="1" d="M30 6 V136 M14 122 L30 140 L46 122"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="128"/></svg>
+      <div class="lane-r" data-in="1" data-at="2.3" data-anim="up"><b>ผลลัพธ์</b></div>
+    </div>
+    <div class="node wide lm" style="top:1120px" data-in="1" data-at="2.4" data-anim="up"><img src="assets/langmind-logo.png" width="689" height="606" alt="LangMind"><div><b>LangMind</b><span>Agent · Voice API · Chat API</span></div></div></section>
+<section class="scene" id="sc-b3">
+    <h1 class="heading"><span class="num">1</span>เตรียม<small>ต้องมี 3 อย่าง</small></h1>
+    <div class="stack" style="top:410px">
+      <div class="card" data-in="0" data-at="0.4" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 3.5V7M9 12.5h.01M15 12.5h.01M9.5 16h5"/></svg><div><b>Agent ใน LangMind</b><span>ใส่ข้อมูลร้านไว้</span></div></div>
+        <div class="chips"><span class="chip" data-in="0" data-at="1.4" data-anim="pop"><svg class="ico " viewBox="0 0 24 24"><path d="M4 5.5A2 2 0 0 1 6 3.5h12v15H6a2 2 0 0 0-2 2z"/><path d="M4 20.5V5.5M8 8h7M8 11.5h7"/></svg>เมนู</span><span class="chip" data-in="0" data-at="1.8" data-anim="pop"><svg class="ico " viewBox="0 0 24 24"><path d="M4 5.5A2 2 0 0 1 6 3.5h12v15H6a2 2 0 0 0-2 2z"/><path d="M4 20.5V5.5M8 8h7M8 11.5h7"/></svg>ราคา</span></div>
+        <div class="setting" data-in="1" data-at="0.1" data-anim="up">
+          <span class="setting-l">แท็บสื่อและเสียง → <b>สนทนาด้วยเสียง</b></span>
+          <span class="switch" data-toggle="1" data-toggle-at="0.8"><i></i></span>
+          <span class="badge pub" data-in="1" data-at="1.8" data-anim="pop">publish ✓</span>
+        </div>
+        <div class="warn" data-in="1" data-at="2.6" data-anim="up">ไม่เปิด = <code>403 VOICE_DISABLED</code> · แก้แล้วไม่ publish = ยังไม่มีผล</div>
+      </div>
+      <div class="card" data-in="2" data-at="0.1" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="M11 12l8.5-8.5M16 7l2.5 2.5M14 9l2 2"/></svg><div><b>API Key</b><span class="mono">lmpat_••••••••</span></div></div>
+        <div class="chips"><span class="chip mono" data-in="2" data-at="1.6" data-anim="pop">voice:invoke</span><span class="chip mono" data-in="2" data-at="2.4" data-anim="pop">chat:invoke</span></div>
+      </div>
+      <div class="card" data-in="3" data-at="0.1" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg><div><b>ระบบหลังบ้าน (server)</b><span>เก็บ Key · เรียก API แทนแอปมือถือ</span></div></div>
+      </div>
+    </div></section>
+<section class="scene" id="sc-b4">
+    <h1 class="heading"><span class="num">2</span>เชื่อม<small>ครั้งที่ 1 · ฟัง</small></h1>
+    
+  <div class="minimap" style="--c:#38815A">
+    <span class="mm-node"><svg class="ico " viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>แอป</span>
+    <i class="mm-link"></i>
+    <span class="mm-node srv"><svg class="ico " viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg>หลังบ้าน<svg class="ico sm" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+    <span class="mm-call">1 · ฟัง</span>
+    <span class="mm-node lm"><img src="assets/langmind-logo.png" width="689" height="606" alt="">LangMind</span>
+  </div>
+    
+  <div class="panel">
+    <div class="slot-in" data-in="0" data-at="0.2" data-anim="up"><div class="chip in-chip"><svg class="ico " viewBox="0 0 24 24"><rect x="8.5" y="2.5" width="7" height="12" rx="3.5"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3.5"/></svg><span><b>order.wav</b> · เสียงจากไมค์</span></div></div>
+    <svg class="varrow" data-in="0" data-at="0.7" data-anim="up" viewBox="0 0 60 70" style="height:70px"><path pathLength="1" d="M30 6 V56 M14 42 L30 60 L46 42"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="48"/></svg>
+    <div class="code" data-in="0" data-at="1" data-anim="up">
+      <div class="code-head"><span class="method">POST</span><span class="scope">สิทธิ์ voice:invoke</span></div>
+      <div class="code-path">/api/v1/agents/{id}/voice/transcribe</div>
+      <div class="code-body"><div class="ln " data-in="0" data-at="1.3" data-anim="left">Authorization: Bearer <span class="v">$LM_TOKEN</span></div><div class="ln " data-in="0" data-at="1.5" data-anim="left">-F <span class="v">audio=@order.wav;type=audio/wav</span></div><div class="ln " data-in="0" data-at="1.7" data-anim="left">-F <span class="v">language=th</span></div></div>
+      <div class="code-foot">ไฟล์ไม่เกิน 4 MB · wav, mp3, webm, ogg, m4a</div>
+    </div>
+    <svg class="varrow" data-in="1" data-at="0.09999999999999998" data-anim="up" viewBox="0 0 60 70" style="height:70px"><path pathLength="1" d="M30 6 V56 M14 42 L30 60 L46 42"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="48"/></svg>
+    <div class="slot-out" data-in="1" data-at="0.5" data-anim="up"><div class="chip out-chip json">{ <span class="k">"text"</span>: <span class="v">"ขอสั่งอเมริกาโน่เย็น 1 แก้วครับ"</span> }</div></div>
+  </div></section>
+<section class="scene" id="sc-b5">
+    <h1 class="heading"><span class="num">2</span>เชื่อม<small>ครั้งที่ 2 · คิด</small></h1>
+    
+  <div class="minimap" style="--c:#8d732c">
+    <span class="mm-node"><svg class="ico " viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>แอป</span>
+    <i class="mm-link"></i>
+    <span class="mm-node srv"><svg class="ico " viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg>หลังบ้าน<svg class="ico sm" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+    <span class="mm-call">2 · คิด</span>
+    <span class="mm-node lm"><img src="assets/langmind-logo.png" width="689" height="606" alt="">LangMind</span>
+  </div>
+    
+  <div class="panel">
+    <div class="slot-in" data-in="0" data-at="0.2" data-anim="up"><div class="chip in-chip"><svg class="ico " viewBox="0 0 24 24"><path d="M4 6h16M4 11h16M4 16h10"/></svg><span>“ขอสั่งอเมริกาโน่เย็น 1 แก้วครับ”</span></div></div>
+    <svg class="varrow" data-in="0" data-at="0.7" data-anim="up" viewBox="0 0 60 70" style="height:70px"><path pathLength="1" d="M30 6 V56 M14 42 L30 60 L46 42"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="48"/></svg>
+    <div class="code" data-in="0" data-at="1" data-anim="up">
+      <div class="code-head"><span class="method">POST</span><span class="scope">สิทธิ์ chat:invoke</span></div>
+      <div class="code-path">/api/chat/message/blocking</div>
+      <div class="code-body"><div class="ln " data-in="0" data-at="1.3" data-anim="left"><span class="k">"query"</span>: <span class="v">"ขอสั่งอเมริกาโน่เย็น 1 แก้วครับ"</span>,</div><div class="ln hl" data-in="0" data-at="1.5" data-anim="left"><span class="mark" data-mark="0" data-mark-at="2.4"></span><span class="k">"input_mode"</span>: <span class="v">"voice"</span>,</div><div class="ln " data-in="0" data-at="1.7" data-anim="left"><span class="k">"conversation_id"</span>: <span class="v">null</span></div></div>
+      <div class="code-foot">agent_id ของร้าน · Agent ตอบแบบภาษาพูดตามที่ตั้งไว้</div>
+    </div>
+    <svg class="varrow" data-in="1" data-at="-0.2" data-anim="up" viewBox="0 0 60 70" style="height:70px"><path pathLength="1" d="M30 6 V56 M14 42 L30 60 L46 42"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="48"/></svg>
+    <div class="slot-out" data-in="1" data-at="0.2" data-anim="up"><div class="chip out-chip json">{ <span class="k">"answer"</span>: <span class="v">"รับอเมริกาโน่เย็น 1 แก้วครับ<br>&nbsp;&nbsp;&nbsp;ทั้งหมด 65 บาท<br>&nbsp;&nbsp;&nbsp;รับหวานกี่เปอร์เซ็นต์ดีครับ?"</span>,<div class="ln hl2">&nbsp;&nbsp;<span class="mark" data-mark="2" data-mark-at="0.2"></span><span class="k">"conversation_id"</span>: <span class="v">"c_7Q2…"</span> }</div><em>คำตอบตัวอย่าง (ภาพจำลอง)</em></div></div>
+  </div></section>
+<section class="scene" id="sc-b6">
+    <h1 class="heading"><span class="num">2</span>เชื่อม<small>ครั้งที่ 3 · พูด</small></h1>
+    
+  <div class="minimap" style="--c:#1E7578">
+    <span class="mm-node"><svg class="ico " viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>แอป</span>
+    <i class="mm-link"></i>
+    <span class="mm-node srv"><svg class="ico " viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg>หลังบ้าน<svg class="ico sm" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+    <span class="mm-call">3 · พูด</span>
+    <span class="mm-node lm"><img src="assets/langmind-logo.png" width="689" height="606" alt="">LangMind</span>
+  </div>
+    <div class="group" data-out="2" data-out-at="0">
+    
+  <div class="panel">
+    <div class="slot-in" data-in="0" data-at="0.2" data-anim="up"><div class="chip in-chip"><svg class="ico " viewBox="0 0 24 24"><path d="M4 6h16M4 11h16M4 16h10"/></svg><span>“รับอเมริกาโน่เย็น 1 แก้วครับ ทั้งหมด…”</span></div></div>
+    <svg class="varrow" data-in="0" data-at="0.7" data-anim="up" viewBox="0 0 60 70" style="height:70px"><path pathLength="1" d="M30 6 V56 M14 42 L30 60 L46 42"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="48"/></svg>
+    <div class="code" data-in="0" data-at="1" data-anim="up">
+      <div class="code-head"><span class="method">POST</span><span class="scope">สิทธิ์ voice:invoke</span></div>
+      <div class="code-path">/api/v1/agents/{id}/voice/speech</div>
+      <div class="code-body"><div class="ln " data-in="0" data-at="1.3" data-anim="left"><span class="k">"text"</span>: <span class="v">"รับอเมริกาโน่เย็น 1 แก้วครับ…"</span>,</div><div class="ln " data-in="0" data-at="1.5" data-anim="left"><span class="k">"format"</span>: <span class="v">"auto"</span></div></div>
+      <div class="code-foot">ข้อความไม่เกิน 4,000 ตัวอักษรต่อครั้ง</div>
+    </div>
+    <svg class="varrow" data-in="1" data-at="0.09999999999999998" data-anim="up" viewBox="0 0 60 70" style="height:70px"><path pathLength="1" d="M30 6 V56 M14 42 L30 60 L46 42"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="48"/></svg>
+    <div class="slot-out" data-in="1" data-at="0.5" data-anim="up"><div class="chip out-chip audio"><svg class="ico " viewBox="0 0 24 24"><path class="fill" d="M3.5 9.5h3.5l5-4v13l-5-4H3.5z"/><path d="M15.5 9a4 4 0 0 1 0 6M18.5 6.5a7.5 7.5 0 0 1 0 11"/></svg><span><b>audio/mpeg</b> หรือ <b>audio/wav</b></span><div class="wave mini" id="wave-b6-mini"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div></div>
+  </div>
+    </div>
+    <div class="place" style="left:270px;top:520px" data-in="2" data-at="0.2" data-anim="up">
+  <div class="device" id="dev-b6" style="width:540px">
+    <div class="screen" style="width:524px;height:610px">
+      <img src="assets/app-voice-q.jpg" width="1440" height="1800" alt="หน้าจอลูกค้ากดไมค์สั่งกาแฟ (ภาพจำลอง)" data-layout-allow-overflow style="width:524px">
+      <img class="img-a" src="assets/app-voice-a.jpg" width="1440" height="1800" alt="หน้าจอแอปเล่นเสียงตอบกลับ (ภาพจำลอง)" data-layout-allow-overflow style="width:524px">
+    </div>
+  </div></div>
+    <div class="wave big" id="wave-b6" style="left:270px;top:1180px;width:540px"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="wave-label" style="top:1316px"><span data-in="2" data-at="0.9" data-anim="up">กำลังเล่นเสียงตอบกลับ…</span></div></section>
+<section class="scene" id="sc-b7">
+    <h1 class="heading"><span class="num">3</span>ใช้ผล<small>เอาผลลัพธ์ไปทำอะไร</small></h1>
+    <div class="stack" style="top:410px">
+      <div class="use" data-in="0" data-at="0.5" data-anim="left"><svg class="ico big" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path class="fill" d="M10 8.5l5.5 3.5-5.5 3.5z"/></svg><div><b>เล่นไฟล์เสียง</b><span>ให้ลูกค้าฟังคำตอบ (audio/mpeg หรือ audio/wav)</span></div></div>
+      <div class="use" data-in="1" data-at="0.1" data-anim="left"><svg class="ico big" viewBox="0 0 24 24"><path d="M4 5.5h16v10H9l-5 4z"/><path d="M8 9.5h8M8 12.5h5"/></svg><div><b>แสดงเป็นแชท</b><span>ข้อความที่ถอดได้ (text) + คำตอบ (answer)</span></div></div>
+      <div class="use" data-in="2" data-at="0.1" data-anim="left"><svg class="ico big" viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 13.7-5.6L20 9M20 4.5V9h-4.5M20 12a8 8 0 0 1-13.7 5.6L4 15M4 19.5V15h4.5"/></svg><div><b>เก็บ conversation_id</b><span>ส่งไปพร้อมข้อความรอบถัดไป</span></div></div>
+    </div>
+    <div class="convo" style="top:960px" data-in="2" data-at="1" data-anim="up">
+      <span class="bub">“หวาน 50%”</span><span class="plus">+</span><code>conversation_id</code><span class="eq">→ บทสนทนาเดิม</span>
+    </div>
+    <img class="robot" src="assets/01-question.png" width="445" height="503" alt="" style="left:60px;top:1120px;width:180px" data-in="3" data-at="0.1" data-anim="up">
+    <div class="tip" style="top:1130px" data-in="3" data-at="0.3" data-anim="left"><code>{ "text": "" }</code><br>= ไม่ได้ยินเสียงพูด ไม่ใช่ error<br><b>→ ให้แอปชวนลูกค้าพูดใหม่</b></div></section>
+<section class="scene" id="sc-b8">
+    <h1 class="heading">สรุป<small>เตรียม → เชื่อม → ใช้ผล</small></h1>
+    <div class="stack" style="top:410px">
+      
+        <div class="recap" style="--c:#38815A" data-in="0" data-at="0.1" data-anim="up">
+          <span class="recap-t"><b>1</b>เตรียม</span>
+          <div class="chips"><span class="chip" data-in="0" data-at="0.4" data-anim="pop">Agent + เปิดเสียง + publish</span><span class="chip" data-in="0" data-at="0.65" data-anim="pop">API Key (voice + chat)</span><span class="chip" data-in="0" data-at="0.9" data-anim="pop">ระบบหลังบ้าน</span></div>
+        </div>
+        <div class="recap" style="--c:#8d732c" data-in="1" data-at="0.1" data-anim="up">
+          <span class="recap-t"><b>2</b>เชื่อม</span>
+          <div class="chips"><span class="chip" data-in="1" data-at="0.4" data-anim="pop">ฟัง</span><i class="arr" data-in="1" data-at="0.65" data-anim="up">→</i><span class="chip" data-in="1" data-at="0.9" data-anim="pop">คิด</span><i class="arr" data-in="1" data-at="1.15" data-anim="up">→</i><span class="chip" data-in="1" data-at="1.4" data-anim="pop">พูด</span></div>
+        </div>
+        <div class="recap" style="--c:#1E7578" data-in="2" data-at="0.1" data-anim="up">
+          <span class="recap-t"><b>3</b>ใช้ผล</span>
+          <div class="chips"><span class="chip" data-in="2" data-at="0.4" data-anim="pop">เล่นเสียง</span><span class="chip" data-in="2" data-at="0.65" data-anim="pop">แสดงข้อความ</span><span class="chip" data-in="2" data-at="0.9" data-anim="pop">คุยต่อ</span></div>
+        </div>
+    </div>
+    <img class="robot" src="assets/04-open-arms.png" width="425" height="503" alt="" style="left:410px;top:1180px;width:260px" data-in="2" data-at="1.4" data-anim="up"></section>
+<section class="scene" id="sc-b9">
+    <div class="sponsor">
+      <div class="sp-by" data-in="0" data-at="0.2" data-anim="up">สนับสนุนโดย</div>
+      <img class="sp-logo" src="assets/langmind-logo.png" width="689" height="606" alt="LangMind" data-in="0" data-at="0.5" data-anim="pop">
+      <div class="sp-url" data-in="1" data-at="0.3" data-anim="pop">langmind.in.th</div>
+      <div class="chips sp-chips" data-in="1" data-at="1" data-anim="up"><span class="chip">Agent</span><span class="chip">Voice API</span><span class="chip">Chat API</span></div>
+    </div></section>
+  </section>
+  <div id="cap-b1-0" class="clip caption" data-start="0.4" data-duration="5.1" data-track-index="8" data-layout-allow-caption-zone>ลองนึกภาพแอปร้านกาแฟ<br>ที่ลูกค้ากดไมค์แล้วพูดสั่งได้เลย</div>
+<div id="cap-b1-1" class="clip caption" data-start="5.5" data-duration="4.6" data-track-index="8" data-layout-allow-caption-zone>แอปฟังออก แล้วตอบกลับเป็นเสียง<br>แถมถามต่อว่ารับหวานกี่เปอร์เซ็นต์</div>
+<div id="cap-b1-2" class="clip caption" data-start="10.1" data-duration="5.833333333333333" data-track-index="8" data-layout-allow-caption-zone>ถ้าอยากทำฟีเจอร์นี้ ต้องเตรียมอะไร<br>เชื่อมตรงไหน และเอาผลไปใช้ยังไง</div>
+<div id="cap-b2-0" class="clip caption" data-start="16.466666666666665" data-duration="7.6" data-track-index="8" data-layout-allow-caption-zone>API คือช่องทางที่แอปส่งงานให้ LangMind ทำ<br>แล้วรับผลกลับมา เหมือนส่งออร์เดอร์เข้าครัว</div>
+<div id="cap-b2-1" class="clip caption" data-start="24.066666666666666" data-duration="6.6" data-track-index="8" data-layout-allow-caption-zone>ภาพรวมมี 3 ส่วน: แอปมือถือ<br>ระบบหลังบ้านของคุณ และ LangMind</div>
+<div id="cap-b2-2" class="clip caption" data-start="30.666666666666668" data-duration="5.466666666666667" data-track-index="8" data-layout-allow-caption-zone>ทุกออร์เดอร์ ระบบหลังบ้านเรียก LangMind 3 ครั้ง<br>ฟัง → คิด → พูด</div>
+<div id="cap-b3-0" class="clip caption" data-start="36.63333333333333" data-duration="6.933333333333334" data-track-index="8" data-layout-allow-caption-zone>สิ่งที่ต้องเตรียม อย่างแรกคือ Agent<br>ที่ใส่ข้อมูลร้านไว้ เช่น เมนูและราคา</div>
+<div id="cap-b3-1" class="clip caption" data-start="43.56666666666667" data-duration="3.7333333333333334" data-track-index="8" data-layout-allow-caption-zone>เปิด “สนทนาด้วยเสียง” ในแท็บสื่อและเสียง<br>แล้วกด publish</div>
+<div id="cap-b3-2" class="clip caption" data-start="47.3" data-duration="4.833333333333333" data-track-index="8" data-layout-allow-caption-zone>อย่างที่สอง API Key ที่มีสิทธิ์<br>voice:invoke และ chat:invoke</div>
+<div id="cap-b3-3" class="clip caption" data-start="52.166666666666664" data-duration="5.966666666666667" data-track-index="8" data-layout-allow-caption-zone>อย่างที่สาม ระบบหลังบ้านของแอป<br>ไว้เก็บ Key และเรียก API แทนแอปมือถือ</div>
+<div id="cap-b4-0" class="clip caption" data-start="58.63333333333333" data-duration="7.5" data-track-index="8" data-layout-allow-caption-zone>ครั้งที่ 1 ฟัง: ส่งไฟล์เสียง (ไม่เกิน 4 MB)<br>ไปที่ Voice Transcribe</div>
+<div id="cap-b4-1" class="clip caption" data-start="66.13333333333334" data-duration="2.6666666666666665" data-track-index="8" data-layout-allow-caption-zone>แล้วได้ข้อความที่ถอดจากเสียงกลับมา</div>
+<div id="cap-b5-0" class="clip caption" data-start="69.26666666666667" data-duration="6.266666666666667" data-track-index="8" data-layout-allow-caption-zone>ครั้งที่ 2 คิด: ส่งข้อความเข้า Chat API<br>พร้อมระบุ input_mode เป็น voice</div>
+<div id="cap-b5-1" class="clip caption" data-start="75.53333333333333" data-duration="2.8666666666666667" data-track-index="8" data-layout-allow-caption-zone>Agent จะตอบสั้น กระชับ เป็นภาษาพูด</div>
+<div id="cap-b5-2" class="clip caption" data-start="78.4" data-duration="2.2" data-track-index="8" data-layout-allow-caption-zone>และส่ง conversation_id กลับมาด้วย</div>
+<div id="cap-b6-0" class="clip caption" data-start="83.6" data-duration="3.5" data-track-index="8" data-layout-allow-caption-zone>ครั้งที่ 3 พูด: ส่งคำตอบเข้า Voice Speech</div>
+<div id="cap-b6-1" class="clip caption" data-start="87.1" data-duration="2.933333333333333" data-track-index="8" data-layout-allow-caption-zone>ได้ไฟล์เสียงกลับมา เป็น MP3 หรือ WAV</div>
+<div id="cap-b6-2" class="clip caption" data-start="90.03333333333333" data-duration="4.833333333333333" data-track-index="8" data-layout-allow-caption-zone>ระบบหลังบ้านส่งไฟล์เสียงกลับไป<br>ให้แอปเปิดให้ลูกค้าฟัง</div>
+<div id="cap-b7-0" class="clip caption" data-start="95.36666666666666" data-duration="4.933333333333334" data-track-index="8" data-layout-allow-caption-zone>ผลที่ได้ เอาไปใช้ได้หลายแบบ<br>ไฟล์เสียง เอาไปเล่นให้ลูกค้าฟัง</div>
+<div id="cap-b7-1" class="clip caption" data-start="100.33333333333333" data-duration="3.8333333333333335" data-track-index="8" data-layout-allow-caption-zone>ข้อความที่ถอดได้และคำตอบ<br>เอาไปแสดงบนจอเป็นแชท</div>
+<div id="cap-b7-2" class="clip caption" data-start="104.16666666666667" data-duration="4.566666666666666" data-track-index="8" data-layout-allow-caption-zone>เก็บ conversation_id ไว้ส่งไปรอบถัดไป<br>Agent จะคุยต่อในบทสนทนาเดิม</div>
+<div id="cap-b7-3" class="clip caption" data-start="108.73333333333333" data-duration="5.6" data-track-index="8" data-layout-allow-caption-zone>ถ้าถอดเสียงได้ข้อความว่าง แปลว่าไม่ได้ยิน<br>ให้แอปชวนลูกค้าพูดใหม่</div>
+<div id="cap-b8-0" class="clip caption" data-start="114.83333333333333" data-duration="7.966666666666667" data-track-index="8" data-layout-allow-caption-zone>สรุป: เตรียม Agent (เปิดเสียง + publish)<br>API Key (voice + chat) และระบบหลังบ้าน</div>
+<div id="cap-b8-1" class="clip caption" data-start="122.8" data-duration="2.8666666666666667" data-track-index="8" data-layout-allow-caption-zone>เชื่อม 3 ครั้ง: ฟัง → คิด → พูด</div>
+<div id="cap-b8-2" class="clip caption" data-start="125.66666666666667" data-duration="3.4" data-track-index="8" data-layout-allow-caption-zone>แล้วเอาผลไปเล่นเสียง<br>แสดงข้อความ และคุยต่อ</div>
+<div id="cap-b9-0" class="clip caption" data-start="129.56666666666666" data-duration="2.433333333333333" data-track-index="8" data-layout-allow-caption-zone>คลิปนี้สนับสนุนโดย LangMind</div>
+<div id="cap-b9-1" class="clip caption" data-start="132" data-duration="4.1" data-track-index="8" data-layout-allow-caption-zone>เริ่มสร้าง Agent ที่คุยด้วยเสียงได้<br>ที่ langmind.in.th</div>
+  <audio id="vo-b1" class="clip" data-start="0.4" data-duration="15.566666666666666" data-track-index="9" src="assets/voice/b1.wav"></audio>
+<audio id="vo-b2" class="clip" data-start="16.466666666666665" data-duration="19.666666666666668" data-track-index="9" src="assets/voice/b2.wav"></audio>
+<audio id="vo-b3" class="clip" data-start="36.63333333333333" data-duration="21.466666666666665" data-track-index="9" src="assets/voice/b3.wav"></audio>
+<audio id="vo-b4" class="clip" data-start="58.63333333333333" data-duration="10.166666666666666" data-track-index="9" src="assets/voice/b4.wav"></audio>
+<audio id="vo-b5" class="clip" data-start="69.26666666666667" data-duration="11.333333333333334" data-track-index="9" src="assets/voice/b5.wav"></audio>
+<audio id="vo-b6" class="clip" data-start="83.6" data-duration="11.266666666666667" data-track-index="9" src="assets/voice/b6.wav"></audio>
+<audio id="vo-b7" class="clip" data-start="95.36666666666666" data-duration="18.966666666666665" data-track-index="9" src="assets/voice/b7.wav"></audio>
+<audio id="vo-b8" class="clip" data-start="114.83333333333333" data-duration="14.233333333333333" data-track-index="9" src="assets/voice/b8.wav"></audio>
+<audio id="vo-b9" class="clip" data-start="129.56666666666666" data-duration="6.533333333333333" data-track-index="9" src="assets/voice/b9.wav"></audio>
+</main>
+<script>window.FILM={"duration":138.1,"beats":[{"id":"b1","start":0.4,"duration":15.566666666666666,"segments":[{"cue":"listen","start":0.4,"duration":5.1},{"cue":"reply","start":5.5,"duration":4.6},{"cue":"questions","start":10.1,"duration":5.833333333333333}]},{"id":"b2","start":16.466666666666665,"duration":19.666666666666668,"segments":[{"cue":"api","start":16.466666666666665,"duration":7.6},{"cue":"map","start":24.066666666666666,"duration":6.6},{"cue":"calls","start":30.666666666666668,"duration":5.466666666666667}]},{"id":"b3","start":36.63333333333333,"duration":21.466666666666665,"segments":[{"cue":"agent","start":36.63333333333333,"duration":6.933333333333334},{"cue":"voice-on","start":43.56666666666667,"duration":3.7333333333333334},{"cue":"key","start":47.3,"duration":4.833333333333333},{"cue":"server","start":52.166666666666664,"duration":5.966666666666667}]},{"id":"b4","start":58.63333333333333,"duration":10.166666666666666,"segments":[{"cue":"request","start":58.63333333333333,"duration":7.5},{"cue":"response","start":66.13333333333334,"duration":2.6666666666666665}]},{"id":"b5","start":69.26666666666667,"duration":11.333333333333334,"segments":[{"cue":"request","start":69.26666666666667,"duration":6.266666666666667},{"cue":"highlight","start":75.53333333333333,"duration":2.8666666666666667},{"cue":"response","start":78.4,"duration":2.2}]},{"id":"b6","start":83.6,"duration":11.266666666666667,"segments":[{"cue":"request","start":83.6,"duration":3.5},{"cue":"response","start":87.1,"duration":2.933333333333333},{"cue":"device","start":90.03333333333333,"duration":4.833333333333333}]},{"id":"b7","start":95.36666666666666,"duration":18.966666666666665,"segments":[{"cue":"play","start":95.36666666666666,"duration":4.933333333333334},{"cue":"chat","start":100.33333333333333,"duration":3.8333333333333335},{"cue":"convo","start":104.16666666666667,"duration":4.566666666666666},{"cue":"empty","start":108.73333333333333,"duration":5.6}]},{"id":"b8","start":114.83333333333333,"duration":14.233333333333333,"segments":[{"cue":"r1","start":114.83333333333333,"duration":7.966666666666667},{"cue":"r2","start":122.8,"duration":2.8666666666666667},{"cue":"r3","start":125.66666666666667,"duration":3.4}]},{"id":"b9","start":129.56666666666666,"duration":6.533333333333333,"segments":[{"cue":"sponsor","start":129.56666666666666,"duration":2.433333333333333},{"cue":"cta","start":132,"duration":4.1}]}]}</script>
+<script src="motion.js"></script>
+</body>
+</html>
