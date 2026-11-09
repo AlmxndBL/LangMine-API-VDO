@@ -1,0 +1,29 @@
+{
+  "tool": "built-in image_gen.imagegen; no CLI or API key",
+  "intent": "ui-mockup, generated fictional store chat UI; not official LangMind dashboard",
+  "basePrompt": "Create a precise flat UI raster asset for an explanatory vertical video. Output 1080x1920 portrait PNG. Solid backdrop #091D20. One chat panel bounds x108 y400 width792 height960, light #F0F7F5, dark #102C30 text. Outside panel blank backdrop, no titles/captions. Sarabun Thai headed font equivalent, all chat text 48px minimum, comfortable spacing. Header exactly ผู้ช่วยร้านเรา. In panel show user message in cyan pale bubble and assistant answer in pale green bubble, exactly the canonical Q1 and A1. Bottom composer contains canonical Q2 and a small send affordance. This is state R01 before followup send, no A2, no conversation ID. No other text, no logo, no sidebar, no avatars, no real personal data. Keep Thai exact. Asset is a fictional store chat UI, not official LangMind dashboard.",
+  "canonical": {
+    "APP-NAME": "ผู้ช่วยร้านเรา",
+    "Q1": "ช่วยเขียนข้อความแจ้งลูกค้าว่าสินค้าส่งช้า ให้สุภาพหน่อย",
+    "A1": "ขออภัยค่ะ สินค้าจัดส่งล่าช้ากว่ากำหนด ทางร้านกำลังติดตามและจะแจ้งให้ทราบค่ะ",
+    "Q2": "ขอสั้นลงสำหรับส่งใน LINE",
+    "A2": "ขออภัยที่จัดส่งล่าช้าค่ะ ร้านกำลังติดตามและจะแจ้งความคืบหน้าค่ะ",
+    "WAIT": "กำลังรอคำตอบ…",
+    "ERROR": "ส่งข้อความไม่สำเร็จ / ข้อความยังอยู่ ลองส่งอีกครั้งได้"
+  },
+  "editConstraints": "Preserve exact panel geometry, header, background #091D20, pale panel and bubble styles and font. No captions, titles, IDs, logo or real data. Precise Thai Sarabun regular headed Thai. Do not add punctuation.",
+  "states": {
+    "R01": "Q1/A1, composer Q2 unsent. Original generated asset.",
+    "R02-composer": "Remove both history bubbles. Put full Q1 in composer. Final corrective edit removes a generated full stop after หน่อย.",
+    "R02-sent": "Keep first cyan Q1 bubble, no assistant answer. Clear composer. Remove waiting status from R02-pending. Normal green send affordance.",
+    "R02-pending": "Keep Q1, remove A1 entirely. Status WAIT. Empty composer and disabled send button รอ….",
+    "R03-success": "Keep Q1/A1. Clear composer with placeholder พิมพ์ข้อความ… . No followup.",
+    "R04-error": "Remove history bubbles. Q1 remains in composer. Show ERROR and button ลองใหม่. No assistant answer.",
+    "R05-pending": "Keep Q1/A1. Add Q2 as user bubble, then WAIT. Composer cleared. No A2.",
+    "R05-answer": "Keep Q1/A1, then Q2 and A2. All four messages complete. Composer cleared.",
+    "R06-mobile": "Reuse exact R05-answer file; frame as device in host.",
+    "R06-desktop": "Preserve header/panel. Workspace cropped to Q2/A2, divider, title พื้นที่แก้ข้อความ and editor containing identical A2. No Q1/A1 in this cropped workspace view. No IDs or outside labels."
+  },
+  "actualOutput": "916x1717 PNG, measured from real files; host crops/pins raster regions to master rather than asserting generator delivered requested dimensions",
+  "fontLimitation": "Prompt requested Sarabun; generated raster has no embedded font metadata. Host embeds local Sarabun TTFs."
+}

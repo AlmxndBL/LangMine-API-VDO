@@ -1,0 +1,29 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Box,Sarabun,44,&H00FFFFFF,&H0000FFFF,&H00102C30,&HCC102C30,0,0,3,2,0,2,110,110,210,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:14.40,Box,,0,0,0,,แชทรู้ได้อย่างไร\Nว่า “ขอสั้นลง” หมายถึงอะไร?
+Dialogue: 0,0:00:14.40,0:00:32.00,Box,,0,0,0,,ใช้เว็บช่วยทีมขาย\Nร่างข้อความให้ลูกค้า
+Dialogue: 0,0:00:32.00,0:00:54.40,Box,,0,0,0,,หน้าเว็บส่งข้อความผ่าน server\Nแล้วคุยกับ LangMind Agent
+Dialogue: 0,0:00:54.40,0:01:16.80,Box,,0,0,0,,Agent ID เลือกผู้ช่วย\NAPI key ยืนยันสิทธิ์
+Dialogue: 0,0:01:16.80,0:01:48.80,Box,,0,0,0,,ตั้งชื่อ key เลือกอายุ\Nและสิทธิ์ chat:invoke
+Dialogue: 0,0:01:48.80,0:02:17.60,Box,,0,0,0,,เก็บ key กับ Agent ID\Nไว้ฝั่ง server
+Dialogue: 0,0:02:17.60,0:02:38.40,Box,,0,0,0,,หน้าเว็บส่งข้อความให้ /api/chat\Nserver จัดการก่อนเรียก Agent
+Dialogue: 0,0:02:38.40,0:03:07.20,Box,,0,0,0,,POST ส่งคำถามพร้อม key\Nครั้งแรก conversation_id = null
+Dialogue: 0,0:03:07.20,0:03:31.20,Box,,0,0,0,,server ส่งคำขอ ตรวจผล\Nแล้วค่อยนำคำตอบไปใช้
+Dialogue: 0,0:03:31.20,0:03:53.60,Box,,0,0,0,,answer คือคำตอบ\Nconversation_id เชื่อมแชทเดิม
+Dialogue: 0,0:03:53.60,0:04:12.80,Box,,0,0,0,,แอปแจ้งว่ากำลังรอ\Nและเก็บข้อความเมื่อล้มเหลว
+Dialogue: 0,0:04:12.80,0:04:43.20,Box,,0,0,0,,ถามต่อด้วย conversation_id เดิม\Nserver ตรวจเจ้าของบทสนทนา
+Dialogue: 0,0:04:43.20,0:04:57.60,Box,,0,0,0,,คำตอบทยอยขึ้นได้\Nแต่ต้องปรับทั้ง server และหน้าเว็บ
+Dialogue: 0,0:04:57.60,0:05:16.80,Box,,0,0,0,,ออกแบบหน้าจอให้เหมาะกับทีม\Nการเรียก Agent ใช้หลักเดิม
+Dialogue: 0,0:05:16.80,0:05:36.00,Box,,0,0,0,,Agent ID เลือกผู้ช่วย\NAPI key ยืนยันสิทธิ์\Nconversation_id เชื่อมแชทเดิม
+Dialogue: 0,0:05:36.00,0:05:52.00,Box,,0,0,0,,เริ่มจากข้อความเดียว\Nแล้วลองถามต่อในแชทเดิม

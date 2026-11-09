@@ -1,0 +1,58 @@
+{
+  "file": "ep02-continuity-r10.mp4",
+  "bytes": 15542078,
+  "sha256": "8cbb8efb8e8588935e62b0da1dd5543f893fbfb40d6bc95481696dc8d6a229eb",
+  "duration": 440,
+  "frames": 13200,
+  "video": {
+    "codec": "h264",
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "pixFmt": "yuv420p",
+    "colorRange": "tv",
+    "colorSpace": "bt709"
+  },
+  "audio": {
+    "codec": "aac",
+    "rate": "48000",
+    "channels": 2,
+    "status": "silent track by explicit user request; no VO/BGM/SFX"
+  },
+  "fullDecodeExit": 0,
+  "exportFrames": 86,
+  "whiteEndCorners": [
+    {
+      "x": 0,
+      "y": 0,
+      "min": 253,
+      "max": 255,
+      "frames": 510
+    },
+    {
+      "x": 1060,
+      "y": 0,
+      "min": 253,
+      "max": 255,
+      "frames": 510
+    },
+    {
+      "x": 0,
+      "y": 1900,
+      "min": 253,
+      "max": 255,
+      "frames": 510
+    },
+    {
+      "x": 1060,
+      "y": 1900,
+      "min": 253,
+      "max": 255,
+      "frames": 510
+    }
+  ],
+  "sourceHashes": {
+    "api": "dddbe02f30ec0215e98cb515a3d3374a85f754298163ed84f21facc6e9164a2c",
+    "logo": "025dbb6064076ac724f42009635e715f985a3d2df8abfa374a8fcec398979c49"
+  }
+}

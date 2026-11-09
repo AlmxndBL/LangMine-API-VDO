@@ -1,0 +1,81 @@
+;FFMETADATA1
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=14400
+title=B01 · พิมพ์ว่า ขอสั้นลง แชทรู้ได้อย่างไรว่าหมายถึงข้อความไหน
+[CHAPTER]
+TIMEBASE=1/1000
+START=14400
+END=32000
+title=B02 · มาดูตัวอย่างทีมร้านค้า เราอยากมีหน้าเว็บให้ทีมใช้ร่างข
+[CHAPTER]
+TIMEBASE=1/1000
+START=32000
+END=54400
+title=B03 · มองเป็นสามส่วน หน้าเว็บคือที่พิมพ์และอ่าน server ของแอ
+[CHAPTER]
+TIMEBASE=1/1000
+START=54400
+END=76800
+title=B04 · ก่อนเชื่อม ต้องมี Agent ที่พร้อมใช้งาน เช่น ผู้ช่วยร่า
+[CHAPTER]
+TIMEBASE=1/1000
+START=76800
+END=108800
+title=B05 · ในหน้าจัดการ API สร้าง key สำหรับแอปนี้ ตั้งชื่อเพื่อจ
+[CHAPTER]
+TIMEBASE=1/1000
+START=108800
+END=137600
+title=B06 · เก็บ key เป็นค่าตั้งต้นฝั่ง server ชื่อ LANGMIND_API_K
+[CHAPTER]
+TIMEBASE=1/1000
+START=137600
+END=158400
+title=B07 · กลับมาที่ข้อความแรก เมื่อกดส่ง หน้าเว็บส่งข้อความไป /a
+[CHAPTER]
+TIMEBASE=1/1000
+START=158400
+END=187200
+title=B08 · server ส่ง POST ไปที่ API ของ LangMind เส้นทาง chat/me
+[CHAPTER]
+TIMEBASE=1/1000
+START=187200
+END=211200
+title=B09 · ในโค้ดฝั่ง server ใช้ fetch ส่งคำขอนี้ ค่า key กับรหัส
+[CHAPTER]
+TIMEBASE=1/1000
+START=211200
+END=233600
+title=B10 · ผลตัวอย่างนี้มี answer คือข้อความคำตอบ และ conversatio
+[CHAPTER]
+TIMEBASE=1/1000
+START=233600
+END=252800
+title=B11 · ระหว่างรอ แอปควรบอกว่ากำลังรอคำตอบและกันกดส่งซ้ำ ถ้าส่
+[CHAPTER]
+TIMEBASE=1/1000
+START=252800
+END=283200
+title=B12 · ขอสั้นลง ต้องเปลี่ยนอะไร เก็บอะไรไว้? เราเปลี่ยน query
+[CHAPTER]
+TIMEBASE=1/1000
+START=283200
+END=297600
+title=B13 · ตัวอย่างที่ผ่านมารอคำตอบครบแล้วค่อยแสดง ถ้าอยากให้ทยอย
+[CHAPTER]
+TIMEBASE=1/1000
+START=297600
+END=316800
+title=B14 · เมื่อเข้าใจวงจรนี้ เราออกแบบหน้าจอให้เข้ากับทีมได้ มือ
+[CHAPTER]
+TIMEBASE=1/1000
+START=316800
+END=336000
+title=B15 · ลองทวนจากข้อความเดียว หน้าเว็บส่งคำถาม server เชื่อมกั
+[CHAPTER]
+TIMEBASE=1/1000
+START=336000
+END=352000
+title=B16 · ตาคุณลองแล้ว ใช้ Agent ของคุณร่างข้อความหนึ่งเรื่อง แล

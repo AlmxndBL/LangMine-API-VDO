@@ -1,0 +1,13 @@
+B06-env: 4 lines, sweep .2..1.1s, hold after1.2s
+B06-process: 5 lines, sweep .2..1.1s, hold after1.2s
+B07-route: 6 lines, sweep .2..1.1s, hold after1.2s
+B08-endpoint: 4 lines, sweep .2..1.1s, hold after1.2s
+B08-headers: 4 lines, sweep .2..1.1s, hold after1.2s
+B08-body: 5 lines, sweep .2..1.1s, hold after1.2s
+B09-fetch: 5 lines, sweep .2..1.1s, hold after1.2s
+B09-body: 5 lines, sweep .2..1.1s, hold after1.2s
+B09-result: 5 lines, sweep .2..1.1s, hold after1.2s
+B10-answer: 4 lines, sweep .2..1.1s, hold after1.2s
+B10-id: 3 lines, sweep .2..1.1s, hold after1.2s
+B12-query: 5 lines, sweep .2..1.1s, hold after1.2s
+B12-id: 5 lines, sweep .2..1.1s, hold after1.2s

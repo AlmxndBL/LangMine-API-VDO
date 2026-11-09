@@ -1,0 +1,119 @@
+{
+  "file": "ep02-continuity-r10-with-voice.mp4",
+  "duration": 440,
+  "video": {
+    "codec": "h264",
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1"
+  },
+  "audio": {
+    "codec": "aac",
+    "sampleRate": "48000",
+    "channels": 2
+  },
+  "subtitle": {
+    "codec": "mov_text"
+  },
+  "chapters": 16,
+  "voiceFiles": [
+    {
+      "id": "B01",
+      "start": 0,
+      "duration": 8.4,
+      "sha256": "1958bea3686833941326d4454955d3af5c1d077ac06ea6f8717b355a614fc71b"
+    },
+    {
+      "id": "B02",
+      "start": 18,
+      "duration": 16.52,
+      "sha256": "07c7ab47cab726cafdca787b630ded4583c5deb78d1317a3b855922fb5ce3de6"
+    },
+    {
+      "id": "B03",
+      "start": 40,
+      "duration": 23.2,
+      "sha256": "4799888e78acc3b8ffe902432a773bec47df69c456cbbbb48323b00b79ad9aa8"
+    },
+    {
+      "id": "B04",
+      "start": 68,
+      "duration": 23.72,
+      "sha256": "aa57651394e2b55a7ce7f50e1acebe5a6948c244bc4ac14e604eb02fadb6cbc8"
+    },
+    {
+      "id": "B05",
+      "start": 96,
+      "duration": 30.32,
+      "sha256": "ed331bc92dc1c237a4c1e1eaf46a4c374eb702e2b5d4e520e3217e5c98cd8714"
+    },
+    {
+      "id": "B06",
+      "start": 136,
+      "duration": 24.6,
+      "sha256": "96cab9de5bc07a8c1c5574d910f0e0faf79a567037f5a3ae3e9d0a3212ca2776"
+    },
+    {
+      "id": "B07",
+      "start": 172,
+      "duration": 23.28,
+      "sha256": "a630873687aad20a7f298996a7c168612935bb6f057366439a3f6224bffe85de"
+    },
+    {
+      "id": "B08",
+      "start": 198,
+      "duration": 28.16,
+      "sha256": "ea3056477ba7fc9d318230746bfc03a96a99a6804cf567fba7c4c660e33e4d7c"
+    },
+    {
+      "id": "B09",
+      "start": 234,
+      "duration": 23.6,
+      "sha256": "23cc9b1b49017b86718eabf657f5968ffb5fb3014836e1a0e7e78e142c3d8c66"
+    },
+    {
+      "id": "B10",
+      "start": 264,
+      "duration": 22.16,
+      "sha256": "4debdfa2d9a29204b9ca591f99812eacef241e44fd2f8ea5fbbfffb2af75bda4"
+    },
+    {
+      "id": "B11",
+      "start": 292,
+      "duration": 20.08,
+      "sha256": "f5db3c2a4154c57967f62a6021c7b68da8d3802a38479f81bff9f5f08efec791"
+    },
+    {
+      "id": "B12",
+      "start": 316,
+      "duration": 26.2,
+      "sha256": "4b15fb1f4853f8545586393f4b131e2bce2326d99a5dc27e276939c99075db93"
+    },
+    {
+      "id": "B13",
+      "start": 354,
+      "duration": 13.96,
+      "sha256": "722c4edc06688ba064779031078b50be453af45ef2ffa42d6a7e9f30e124d96a"
+    },
+    {
+      "id": "B14",
+      "start": 372,
+      "duration": 18.96,
+      "sha256": "e11f3ad3063d5e61dbaa9a968919c8730e1d3bf489bfa5fd5fb564cc1907594e"
+    },
+    {
+      "id": "B15",
+      "start": 396,
+      "duration": 22.64,
+      "sha256": "9166554a027a1af4edf3df7ef6ebbaa287e2000ee11bdcb2a8932fed17ddac23"
+    },
+    {
+      "id": "B16",
+      "start": 420,
+      "duration": 11.48,
+      "sha256": "78b5ff9f02f1d5328ba0a1b666e87218184de9ff6a3084ce5102ced976162c92"
+    }
+  ],
+  "sha256": "af5cd023a2af7317666caef5888613592f25d612ea975738229a7801e706b4b0",
+  "decodeExit": 0
+}

@@ -1,0 +1,1 @@
+{"extends":"clean","name":"langmind-brand-r9","bg":"#091d20","ink":"#e3eeed","muted":"#b7cbca","surface":"#102c30","background":"plain","code":{"bg":"#071719","fg":"#e3eeed","comment":"#a0b9b7","keyword":"#80ceec","string":"#b7dd78","number":"#d1e5a9","fn":"#64dfcc","punct":"#b7cbca","lineNo":"#92afad","highlight":"rgba(0,148,202,0.20)","border":"#35575a"}}

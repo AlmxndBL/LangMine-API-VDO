@@ -1,0 +1,952 @@
+{
+  "status": "rendered-silent-draft; technical verified; visual/story review scoped to evidence",
+  "noLiveAPI": true,
+  "noTTS": true,
+  "sourceDesign": "../DESIGN.md r10 only",
+  "assets": [
+    {
+      "file": "assets/code-B06-env-hold.png",
+      "bytes": 36901,
+      "sha256": "8b438ec49af68cd7a81261d969828cc494a1d5331620a6f6bf0653db765082a4",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B06-env.html",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/code-B06-env.mp4",
+      "bytes": 51849,
+      "sha256": "d66463342bdbe4609c0d48417d7fbaf9ce016b43c8b28800ad1bdeae9af9565b",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B06-env.html",
+      "media": [
+        {
+          "codec_name": "h264",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "yuvj420p",
+          "duration": "1.200000",
+          "side_data_list": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "file": "assets/code-B06-process-hold.png",
+      "bytes": 42889,
+      "sha256": "84239cf629afcbe1851aaa8abfb383dde13a4fc758735a3ca946a0908999228d",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B06-process.html",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/code-B06-process.mp4",
+      "bytes": 52520,
+      "sha256": "a5f595fd1f55bcb1f36b9f3299f0babf0aedb7af07e9cb852391a1c5783c9886",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B06-process.html",
+      "media": [
+        {
+          "codec_name": "h264",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "yuvj420p",
+          "duration": "1.200000",
+          "side_data_list": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "file": "assets/code-B07-route-hold.png",
+      "bytes": 46373,
+      "sha256": "598260e7e5980ef2a4b22c89e509bdddb68e2582d0ea2c5a27b85a4ec6085a8d",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B07-route.html",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/code-B07-route.mp4",
+      "bytes": 54380,
+      "sha256": "01131923e0235c98f59465cd14dbdbb89d803f4a2b016520cff0ed8a0b885ef4",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B07-route.html",
+      "media": [
+        {
+          "codec_name": "h264",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "yuvj420p",
+          "duration": "1.200000",
+          "side_data_list": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "file": "assets/code-B08-body-hold.png",
+      "bytes": 63650,
+      "sha256": "b46505eca92e0002dfd1b0a4222d2ff7a8c49f28f8f03d21459d01e029806179",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B08-body.html",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/code-B08-body.mp4",
+      "bytes": 76470,
+      "sha256": "2179a0474ac8c4b64a2ff5e43402901df37c8a87375cdd1c977488fb1b00c44a",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B08-body.html",
+      "media": [
+        {
+          "codec_name": "h264",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "yuvj420p",
+          "duration": "1.200000",
+          "side_data_list": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "file": "assets/code-B08-endpoint-hold.png",
+      "bytes": 39563,
+      "sha256": "7942d65ccc9088c23b5a87fa2835b211a65aa98f65459c3eaabf63d5158fbd7f",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B08-endpoint.html",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/code-B08-endpoint.mp4",
+      "bytes": 46981,
+      "sha256": "4c35506999cef2bda46d7702bf12bc91aaf2cd1dc957d16d0fe20ac5909dc47b",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B08-endpoint.html",
+      "media": [
+        {
+          "codec_name": "h264",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "yuvj420p",
+          "duration": "1.200000",
+          "side_data_list": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "file": "assets/code-B08-headers-hold.png",
+      "bytes": 42333,
+      "sha256": "4e0953d8aada36cefe00b842c386c7fa0c0bb15f5e8d52b6a79efedf7e21181c",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B08-headers.html",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/code-B08-headers.mp4",
+      "bytes": 58180,
+      "sha256": "04aaca851f570ccdd06e62510055d4544a7270a3825353e46d933b8bdcde1b90",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B08-headers.html",
+      "media": [
+        {
+          "codec_name": "h264",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "yuvj420p",
+          "duration": "1.200000",
+          "side_data_list": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "file": "assets/code-B09-body-hold.png",
+      "bytes": 49450,
+      "sha256": "938edd30f32cb3c849c469abd1bd48b96a2596995c825c68774248c8de095507",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B09-body.html",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/code-B09-body.mp4",
+      "bytes": 60180,
+      "sha256": "601cca6c885e985b7e11226f434c42a04849dbbfadc4dd02034b6f38dc837c0a",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B09-body.html",
+      "media": [
+        {
+          "codec_name": "h264",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "yuvj420p",
+          "duration": "1.200000",
+          "side_data_list": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "file": "assets/code-B09-fetch-hold.png",
+      "bytes": 47163,
+      "sha256": "04a363bcd21ec57829436a2be9914ae99eb1e714c1d5f69b886b82169d9d5b66",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B09-fetch.html",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/code-B09-fetch.mp4",
+      "bytes": 58366,
+      "sha256": "b3b0d15e4188c90308e2ed16a352954fbca7b0ad2dcf7c34d086cc3bcd42f69d",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B09-fetch.html",
+      "media": [
+        {
+          "codec_name": "h264",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "yuvj420p",
+          "duration": "1.200000",
+          "side_data_list": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "file": "assets/code-B09-result-hold.png",
+      "bytes": 50836,
+      "sha256": "caa2248233695b9f10adbd3d3b91e8cc30758fa3fecfa8b23e4d9227f72074d2",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B09-result.html",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/code-B09-result.mp4",
+      "bytes": 59716,
+      "sha256": "08c5c46dbb21640db610951392be5192d46af443643ddc37536e111a6f861e1f",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B09-result.html",
+      "media": [
+        {
+          "codec_name": "h264",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "yuvj420p",
+          "duration": "1.200000",
+          "side_data_list": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "file": "assets/code-B10-answer-hold.png",
+      "bytes": 56004,
+      "sha256": "86b13df6af466abf5ddbcc94a9b3b9be555ee8749142e8b664d4e72b28c8f076",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B10-answer.html",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/code-B10-answer.mp4",
+      "bytes": 59248,
+      "sha256": "395b00115590e7b3ec10a067885a46fa21f3eabfbdc9fafdc6200723067a7090",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B10-answer.html",
+      "media": [
+        {
+          "codec_name": "h264",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "yuvj420p",
+          "duration": "1.200000",
+          "side_data_list": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "file": "assets/code-B10-id-hold.png",
+      "bytes": 37740,
+      "sha256": "b0757cb6975c14791782a2f9e6eed122c314d7cb89e91e040966e85435d7edb9",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B10-id.html",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/code-B10-id.mp4",
+      "bytes": 47033,
+      "sha256": "57df61dc1c85ceaa51c3615573274878d1e48b7a252e88022083dca4ae662c25",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B10-id.html",
+      "media": [
+        {
+          "codec_name": "h264",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "yuvj420p",
+          "duration": "1.200000",
+          "side_data_list": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "file": "assets/code-B12-id-hold.png",
+      "bytes": 52813,
+      "sha256": "411c2587eed51d61a3f271cf970548bcef76f11bc90fd5590c1b0c12e5b8c598",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B12-id.html",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/code-B12-id.mp4",
+      "bytes": 63918,
+      "sha256": "0cbc6e4a48d2ee3cc1121056e180238869498ed01d6e373ed554280c4581a199",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B12-id.html",
+      "media": [
+        {
+          "codec_name": "h264",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "yuvj420p",
+          "duration": "1.200000",
+          "side_data_list": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "file": "assets/code-B12-query-hold.png",
+      "bytes": 64912,
+      "sha256": "817c96b281c49b93bef99499e72a2fbc1e7bec6bf08f935444a8ac5badcb5e32",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B12-query.html",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/code-B12-query.mp4",
+      "bytes": 95940,
+      "sha256": "207054967465df7d7a06b0b4db35e9cc6c91595a8357b48d8844c2921e2afd9e",
+      "visualReview": "actual Catalog runtime preview, all 13 cue hosts inspected, final export frames reviewed",
+      "kind": "actual Catalog code-highlight prerender / hold frame",
+      "source": "compositions/code-highlight-B12-query.html",
+      "media": [
+        {
+          "codec_name": "h264",
+          "width": 792,
+          "height": 820,
+          "pix_fmt": "yuvj420p",
+          "duration": "1.200000",
+          "side_data_list": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "file": "assets/gsap.min.js",
+      "bytes": 72790,
+      "sha256": "fd6978c80858a3036c39b4e53b5a6f9385d759d43283e6b1de89237e5640d85f",
+      "visualReview": "see REVIEW.md",
+      "kind": "local GSAP runtime",
+      "source": "../video-full-r3/assets/gsap.min.js"
+    },
+    {
+      "file": "assets/K-age-hold.png",
+      "bytes": 65691,
+      "sha256": "fdc83922b41dac74e3f08cb6ecc54a5b7b3a2859e1ad26a48f2322b8d899e8b5",
+      "visualReview": "see REVIEW.md",
+      "kind": "historical footage / sanitized reference",
+      "source": "../video-full-r3/assets/key-age.mp4",
+      "processing": "last real frame, no invented UI",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 626,
+          "height": 420,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/K-age.mp4",
+      "bytes": 49614,
+      "sha256": "1c5dc24df18317decde210919941950083080d8f024d30d3c56670211e47eaa2",
+      "visualReview": "see REVIEW.md",
+      "kind": "historical footage / sanitized reference",
+      "source": "../video-full-r3/assets/key-age.mp4",
+      "processing": "audio removed, original form content retained",
+      "media": [
+        {
+          "codec_name": "h264",
+          "width": 626,
+          "height": 420,
+          "pix_fmt": "yuv420p",
+          "duration": "7.000000"
+        }
+      ]
+    },
+    {
+      "file": "assets/K-agent-domain.png",
+      "bytes": 18551,
+      "sha256": "8f2afc821aa33659665f4c8e6be75aa59d6fe340ffd21b762f07e9fee9840291",
+      "visualReview": "see REVIEW.md",
+      "kind": "historical footage / sanitized reference",
+      "source": "../video-full-r3/assets/agent-url.png",
+      "processing": "crop x0 y0 w350 h74 excludes UUID",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 350,
+          "height": 74,
+          "pix_fmt": "rgba"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/K-name-hold.png",
+      "bytes": 53183,
+      "sha256": "d00c7e78b84f9c4893d4b971f42086c85270032b7fbed9b9963557ed2859782a",
+      "visualReview": "see REVIEW.md",
+      "kind": "historical footage / sanitized reference",
+      "source": "../video-full-r3/assets/key-name.mp4",
+      "processing": "last real frame, no invented UI",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 626,
+          "height": 390,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/K-name.mp4",
+      "bytes": 27590,
+      "sha256": "d413aaba8d42c6b528bb1eb9202394f0a9406366cc624034360030ea31160906",
+      "visualReview": "see REVIEW.md",
+      "kind": "historical footage / sanitized reference",
+      "source": "../video-full-r3/assets/key-name.mp4",
+      "processing": "audio removed, original form content retained",
+      "media": [
+        {
+          "codec_name": "h264",
+          "width": 626,
+          "height": 390,
+          "pix_fmt": "yuv420p",
+          "duration": "8.000000"
+        }
+      ]
+    },
+    {
+      "file": "assets/K-scope-hold.png",
+      "bytes": 88908,
+      "sha256": "04a8473a165b6ab7f5afa7e0b43e0a150c77785b45de4e2fab1fd2d330f153f3",
+      "visualReview": "see REVIEW.md",
+      "kind": "historical footage / sanitized reference",
+      "source": "../video-full-r3/assets/key-scope.mp4",
+      "processing": "last real frame, no invented UI",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 626,
+          "height": 560,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/K-scope.mp4",
+      "bytes": 149675,
+      "sha256": "e52a84fefbdeaf293d549a3baa0255fda2a6e871dd785a12a3e318358d2128d8",
+      "visualReview": "see REVIEW.md",
+      "kind": "historical footage / sanitized reference",
+      "source": "../video-full-r3/assets/key-scope.mp4",
+      "processing": "audio removed, original form content retained",
+      "media": [
+        {
+          "codec_name": "h264",
+          "width": 626,
+          "height": 560,
+          "pix_fmt": "yuv420p",
+          "duration": "7.000000"
+        }
+      ]
+    },
+    {
+      "file": "assets/langmind-logo.png",
+      "bytes": 96320,
+      "sha256": "025dbb6064076ac724f42009635e715f985a3d2df8abfa374a8fcec398979c49",
+      "visualReview": "see REVIEW.md",
+      "kind": "original shared logo",
+      "source": "../../../shared/assets/brand/langmind-logo.png",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 689,
+          "height": 606,
+          "pix_fmt": "rgba"
+        }
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "nonOpaquePixels": 280346
+      }
+    },
+    {
+      "file": "assets/R01.png",
+      "bytes": 1279295,
+      "sha256": "26dd4ee8e1dfb17d2ca21927dc119ef71cc8a3b89158ed07fe371dd0cb3fc2a6",
+      "visualReview": "opened generated state and host preflight; export review recorded in REVIEW.md",
+      "kind": "generated fictional demo UI raster",
+      "source": "built-in imagegen; raster-prompts.json",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 916,
+          "height": 1717,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/R02-composer.png",
+      "bytes": 1477093,
+      "sha256": "4fd5d98c5c941e80d2f4d93cdb311fc3afb199d184d5cab2d13ba532b9e665e0",
+      "visualReview": "opened generated state and host preflight; export review recorded in REVIEW.md",
+      "kind": "generated fictional demo UI raster",
+      "source": "built-in imagegen; raster-prompts.json",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 916,
+          "height": 1717,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/R02-pending.png",
+      "bytes": 1451504,
+      "sha256": "e6788b2035585934ea08ab260dadfd13feeec21ad5b3b9b8fe5e819d74c18ea0",
+      "visualReview": "opened generated state and host preflight; export review recorded in REVIEW.md",
+      "kind": "generated fictional demo UI raster",
+      "source": "built-in imagegen; raster-prompts.json",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 916,
+          "height": 1717,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/R02-sent.png",
+      "bytes": 1265743,
+      "sha256": "6a8bf5b51104e8dbe96e16e380b4f66bafb056ec15c6e89d80da02dd5d59b67c",
+      "visualReview": "opened generated state and host preflight; export review recorded in REVIEW.md",
+      "kind": "generated fictional demo UI raster",
+      "source": "built-in imagegen; raster-prompts.json",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 916,
+          "height": 1717,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/R03-success.png",
+      "bytes": 1522725,
+      "sha256": "120fa327a6a70dbbbd7b68b4cbe1f335a26b2fab95c866cb2bc090935f1ebbae",
+      "visualReview": "opened generated state and host preflight; export review recorded in REVIEW.md",
+      "kind": "generated fictional demo UI raster",
+      "source": "built-in imagegen; raster-prompts.json",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 916,
+          "height": 1717,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/R04-error.png",
+      "bytes": 1196714,
+      "sha256": "6fc5ada73c0ee5d89d29be68da536cd425bf5a8e479dbe51be724a16c59123c2",
+      "visualReview": "opened generated state and host preflight; export review recorded in REVIEW.md",
+      "kind": "generated fictional demo UI raster",
+      "source": "built-in imagegen; raster-prompts.json",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 916,
+          "height": 1717,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/R05-answer.png",
+      "bytes": 1449699,
+      "sha256": "a46a1db8e3604d2d1f2d0b4836cea2f8e9c534cf9f9c6478ceeb212402dec1c2",
+      "visualReview": "opened generated state and host preflight; export review recorded in REVIEW.md",
+      "kind": "generated fictional demo UI raster",
+      "source": "built-in imagegen; raster-prompts.json",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 916,
+          "height": 1717,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/R05-pending.png",
+      "bytes": 1306719,
+      "sha256": "c7ad292f3f4d93ff2135cd5c343fd17a2ead82a961892456baa17751defaade1",
+      "visualReview": "opened generated state and host preflight; export review recorded in REVIEW.md",
+      "kind": "generated fictional demo UI raster",
+      "source": "built-in imagegen; raster-prompts.json",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 916,
+          "height": 1717,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/R06-desktop.png",
+      "bytes": 1472317,
+      "sha256": "1fc74f814a6d1ee6fe3a47d0e69dbc5147c438ecffe5d50e1d142f4ead092f60",
+      "visualReview": "opened generated state and host preflight; export review recorded in REVIEW.md",
+      "kind": "generated fictional demo UI raster",
+      "source": "built-in imagegen; raster-prompts.json",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 916,
+          "height": 1717,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/R06-mobile.png",
+      "bytes": 1449699,
+      "sha256": "a46a1db8e3604d2d1f2d0b4836cea2f8e9c534cf9f9c6478ceeb212402dec1c2",
+      "visualReview": "opened generated state and host preflight; export review recorded in REVIEW.md",
+      "kind": "generated fictional demo UI raster",
+      "source": "assets/R05-answer.png (exact reuse for continuity)",
+      "media": [
+        {
+          "codec_name": "png",
+          "width": 916,
+          "height": 1717,
+          "pix_fmt": "rgb24"
+        }
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "nonOpaquePixels": 0
+      }
+    },
+    {
+      "file": "assets/Sarabun-Bold.ttf",
+      "bytes": 89804,
+      "sha256": "d38308ca27d067b9a1b79006337c1f9a66c29aa016d96a9d88d3801da7fa83b9",
+      "visualReview": "see REVIEW.md",
+      "kind": "local Sarabun font",
+      "source": "../video-full-brand-r9/assets/Sarabun-Bold.ttf"
+    },
+    {
+      "file": "assets/Sarabun-OFL.txt",
+      "bytes": 4387,
+      "sha256": "b26cae1321380296ba8311b632a397d5eac11b47197f9d0aa0b9310f1531ad60",
+      "visualReview": "see REVIEW.md",
+      "kind": "font license",
+      "source": "../../ep01-api-introduction/video-voice/assets/fonts/Sarabun-OFL.txt"
+    },
+    {
+      "file": "assets/Sarabun-Regular.ttf",
+      "bytes": 90220,
+      "sha256": "226d4f368fbc0457990ddef2692679badfd2c1a4e89e5ac4d43c10ba7743b2f1",
+      "visualReview": "see REVIEW.md",
+      "kind": "local Sarabun font",
+      "source": "../video-full-brand-r9/assets/Sarabun-Regular.ttf"
+    }
+  ],
+  "output": {
+    "file": "ep02-continuity-r10.mp4",
+    "sha256": "8cbb8efb8e8588935e62b0da1dd5543f893fbfb40d6bc95481696dc8d6a229eb",
+    "duration": 440,
+    "frames": 13200
+  }
+}

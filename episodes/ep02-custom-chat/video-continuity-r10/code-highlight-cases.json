@@ -1,0 +1,337 @@
+[
+  {
+    "id": "B06-env",
+    "scene": "B06",
+    "start": 0,
+    "end": 10,
+    "title": ".env / ค่าตั้งต้น",
+    "rows": [
+      "LANGMIND_API_KEY\n= <API_KEY>",
+      "LANGMIND_AGENT_ID\n= <AGENT_ID>"
+    ],
+    "active": 0,
+    "layout": {
+      "lines": [
+        "LANGMIND_API_KEY",
+        "= <API_KEY>",
+        "LANGMIND_AGENT_ID",
+        "= <AGENT_ID>"
+      ],
+      "target": 0
+    },
+    "video": "assets/code-B06-env.mp4",
+    "hold": "assets/code-B06-env-hold.png"
+  },
+  {
+    "id": "B06-process",
+    "scene": "B06",
+    "start": 22,
+    "end": 36,
+    "title": ".env / ค่าตั้งต้น",
+    "rows": [
+      "LANGMIND_API_KEY\n= <API_KEY>",
+      "LANGMIND_AGENT_ID\n= <AGENT_ID>",
+      "process.env"
+    ],
+    "active": 2,
+    "layout": {
+      "lines": [
+        "LANGMIND_API_KEY",
+        "= <API_KEY>",
+        "LANGMIND_AGENT_ID",
+        "= <AGENT_ID>",
+        "process.env"
+      ],
+      "target": 4
+    },
+    "video": "assets/code-B06-process.mp4",
+    "hold": "assets/code-B06-process-hold.png"
+  },
+  {
+    "id": "B07-route",
+    "scene": "B07",
+    "start": 12,
+    "end": 21,
+    "title": "หน้าเว็บ → server",
+    "rows": [
+      "fetch('/api/chat', {",
+      "method: 'POST',",
+      "body: JSON.stringify({",
+      "  message",
+      "})",
+      "})"
+    ],
+    "active": 0,
+    "layout": {
+      "lines": [
+        "fetch('/api/chat', {",
+        "method: 'POST',",
+        "body: JSON.stringify({",
+        "  message",
+        "})",
+        "})"
+      ],
+      "target": 0
+    },
+    "video": "assets/code-B07-route.mp4",
+    "hold": "assets/code-B07-route-hold.png"
+  },
+  {
+    "id": "B08-endpoint",
+    "scene": "B08",
+    "start": 0,
+    "end": 9,
+    "title": "ส่วนหนึ่งของ request",
+    "rows": [
+      "POST",
+      "https://langmind.in.th",
+      "/api/chat/message",
+      "/blocking"
+    ],
+    "active": 0,
+    "layout": {
+      "lines": [
+        "POST",
+        "https://langmind.in.th",
+        "/api/chat/message",
+        "/blocking"
+      ],
+      "target": 0
+    },
+    "video": "assets/code-B08-endpoint.mp4",
+    "hold": "assets/code-B08-endpoint-hold.png"
+  },
+  {
+    "id": "B08-headers",
+    "scene": "B08",
+    "start": 9,
+    "end": 18,
+    "title": "ส่วนหนึ่งของ request",
+    "rows": [
+      "Authorization:",
+      "Bearer <API_KEY>",
+      "Content-Type:",
+      "application/json"
+    ],
+    "active": 0,
+    "layout": {
+      "lines": [
+        "Authorization:",
+        "Bearer <API_KEY>",
+        "Content-Type:",
+        "application/json"
+      ],
+      "target": 0
+    },
+    "video": "assets/code-B08-headers.mp4",
+    "hold": "assets/code-B08-headers-hold.png"
+  },
+  {
+    "id": "B08-body",
+    "scene": "B08",
+    "start": 18,
+    "end": 36,
+    "title": "ส่วนหนึ่งของ request",
+    "rows": [
+      "agent_id: <AGENT_ID>",
+      "query:",
+      "ช่วยเขียนข้อความแจ้งลูกค้าว่าสินค้าส่งช้า ให้สุภาพหน่อย",
+      "conversation_id: null"
+    ],
+    "active": 0,
+    "layout": {
+      "lines": [
+        "agent_id: <AGENT_ID>",
+        "query:",
+        "ช่วยเขียนข้อความแจ้งลูกค้าว่า",
+        "สินค้าส่งช้า ให้สุภาพหน่อย",
+        "conversation_id: null"
+      ],
+      "target": 0
+    },
+    "video": "assets/code-B08-body.mp4",
+    "hold": "assets/code-B08-body-hold.png"
+  },
+  {
+    "id": "B09-fetch",
+    "scene": "B09",
+    "start": 0,
+    "end": 8,
+    "title": "fetch ฝั่ง server",
+    "rows": [
+      "const response =",
+      "await fetch(endpoint, {",
+      "method: 'POST',",
+      "// blocking endpoint",
+      "});"
+    ],
+    "active": 1,
+    "layout": {
+      "lines": [
+        "const response =",
+        "await fetch(endpoint, {",
+        "method: 'POST',",
+        "// blocking endpoint",
+        "});"
+      ],
+      "target": 1
+    },
+    "video": "assets/code-B09-fetch.mp4",
+    "hold": "assets/code-B09-fetch-hold.png"
+  },
+  {
+    "id": "B09-body",
+    "scene": "B09",
+    "start": 8,
+    "end": 16,
+    "title": "headers / body",
+    "rows": [
+      "Authorization:",
+      "Bearer ${API_KEY}",
+      "agent_id: AGENT_ID",
+      "query: message",
+      "conversation_id"
+    ],
+    "active": 3,
+    "layout": {
+      "lines": [
+        "Authorization:",
+        "Bearer ${API_KEY}",
+        "agent_id: AGENT_ID",
+        "query: message",
+        "conversation_id"
+      ],
+      "target": 3
+    },
+    "video": "assets/code-B09-body.mp4",
+    "hold": "assets/code-B09-body-hold.png"
+  },
+  {
+    "id": "B09-result",
+    "scene": "B09",
+    "start": 16,
+    "end": 30,
+    "title": "ตรวจผลก่อนนำไปใช้",
+    "rows": [
+      "if (!response.ok) {",
+      "  // จัดการข้อผิดพลาด",
+      "}",
+      "const data =",
+      "await response.json();"
+    ],
+    "active": 0,
+    "layout": {
+      "lines": [
+        "if (!response.ok) {",
+        "  // จัดการข้อผิดพลาด",
+        "}",
+        "const data =",
+        "await response.json();"
+      ],
+      "target": 0
+    },
+    "video": "assets/code-B09-result.mp4",
+    "hold": "assets/code-B09-result-hold.png"
+  },
+  {
+    "id": "B10-answer",
+    "scene": "B10",
+    "start": 0,
+    "end": 8,
+    "title": "ผลตัวอย่างแบบย่อ",
+    "rows": [
+      "answer:",
+      "ขออภัยค่ะ สินค้าจัดส่งล่าช้ากว่ากำหนด ทางร้านกำลังติดตามและจะแจ้งให้ทราบค่ะ"
+    ],
+    "active": 0,
+    "layout": {
+      "lines": [
+        "answer:",
+        "ขออภัยค่ะ สินค้าจัดส่งล่าช้ากว่า",
+        "กำหนด ทางร้านกำลังติดตามและ",
+        "จะแจ้งให้ทราบค่ะ"
+      ],
+      "target": 0
+    },
+    "video": "assets/code-B10-answer.mp4",
+    "hold": "assets/code-B10-answer-hold.png"
+  },
+  {
+    "id": "B10-id",
+    "scene": "B10",
+    "start": 8,
+    "end": 15,
+    "title": "เก็บคู่กับเจ้าของ",
+    "rows": [
+      "conversation_id:",
+      "conv_demo_01",
+      "server ตรวจเจ้าของ"
+    ],
+    "active": 1,
+    "layout": {
+      "lines": [
+        "conversation_id:",
+        "conv_demo_01",
+        "server ตรวจเจ้าของ"
+      ],
+      "target": 1
+    },
+    "video": "assets/code-B10-id.mp4",
+    "hold": "assets/code-B10-id-hold.png"
+  },
+  {
+    "id": "B12-query",
+    "scene": "B12",
+    "start": 7,
+    "end": 12,
+    "zoom": true,
+    "title": "ส่วนหนึ่งของ request",
+    "rows": [
+      "query:",
+      "ขอสั้นลงสำหรับส่งใน LINE",
+      "conversation_id:",
+      "conv_demo_01",
+      "agent_id: <AGENT_ID>"
+    ],
+    "active": 1,
+    "layout": {
+      "lines": [
+        "query:",
+        "ขอสั้นลงสำหรับส่งใน LINE",
+        "conversation_id:",
+        "conv_demo_01",
+        "agent_id: <AGENT_ID>"
+      ],
+      "target": 1
+    },
+    "video": "assets/code-B12-query.mp4",
+    "hold": "assets/code-B12-query-hold.png"
+  },
+  {
+    "id": "B12-id",
+    "scene": "B12",
+    "start": 12,
+    "end": 17,
+    "title": "ส่วนหนึ่งของ request",
+    "rows": [
+      "query:",
+      "ขอสั้นลงสำหรับส่งใน LINE",
+      "conversation_id:",
+      "conv_demo_01",
+      "agent_id: <AGENT_ID>"
+    ],
+    "active": 3,
+    "layout": {
+      "lines": [
+        "query:",
+        "ขอสั้นลงสำหรับส่งใน LINE",
+        "conversation_id:",
+        "conv_demo_01",
+        "agent_id: <AGENT_ID>"
+      ],
+      "target": 3
+    },
+    "video": "assets/code-B12-id.mp4",
+    "hold": "assets/code-B12-id-hold.png"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "file": "episodes/ep02-custom-chat/README.md",
+    "priorSHA256": "0e6724c8ab13f442e9324ebd951e5adec3c55dbc6418263b6b1f34957d5c1fee",
+    "priorContentPreserved": true
+  },
+  {
+    "file": "README.md",
+    "priorSHA256": "adeb2ec32cdbe6a0f407c8c9ac2832dc01cb19ddec6bd4e2a4cba5b30d78d1cc",
+    "priorContentPreserved": true
+  },
+  {
+    "file": "docs/plans/2026-11-06-workspace-foundation.md",
+    "priorSHA256": "954419d77d8cd5349a2362101742c5b7fd020db3b859a882a5f630704462933a",
+    "priorContentPreserved": true
+  }
+]

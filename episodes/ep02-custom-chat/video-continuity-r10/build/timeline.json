@@ -1,0 +1,300 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "duration": 440,
+  "frames": 13200,
+  "transitionSeconds": 0.7,
+  "pace": 1,
+  "scenes": [
+    {
+      "id": "B01",
+      "index": 0,
+      "start": 0,
+      "dur": 18,
+      "lead": 0,
+      "text": "",
+      "transition": "none",
+      "voice": null,
+      "words": [],
+      "marks": {},
+      "attrs": {
+        "min": 18,
+        "hold": 0,
+        "lead": 0,
+        "transition": "cut"
+      }
+    },
+    {
+      "id": "B02",
+      "index": 1,
+      "start": 18,
+      "dur": 22,
+      "lead": 0,
+      "text": "",
+      "transition": "cut",
+      "voice": null,
+      "words": [],
+      "marks": {},
+      "attrs": {
+        "min": 22,
+        "hold": 0,
+        "lead": 0,
+        "transition": "cut"
+      }
+    },
+    {
+      "id": "B03",
+      "index": 2,
+      "start": 40,
+      "dur": 28,
+      "lead": 0,
+      "text": "",
+      "transition": "cut",
+      "voice": null,
+      "words": [],
+      "marks": {},
+      "attrs": {
+        "min": 28,
+        "hold": 0,
+        "lead": 0,
+        "transition": "cut"
+      }
+    },
+    {
+      "id": "B04",
+      "index": 3,
+      "start": 68,
+      "dur": 28,
+      "lead": 0,
+      "text": "",
+      "transition": "cut",
+      "voice": null,
+      "words": [],
+      "marks": {},
+      "attrs": {
+        "min": 28,
+        "hold": 0,
+        "lead": 0,
+        "transition": "cut"
+      }
+    },
+    {
+      "id": "B05",
+      "index": 4,
+      "start": 96,
+      "dur": 40,
+      "lead": 0,
+      "text": "",
+      "transition": "cut",
+      "voice": null,
+      "words": [],
+      "marks": {},
+      "attrs": {
+        "min": 40,
+        "hold": 0,
+        "lead": 0,
+        "transition": "cut"
+      }
+    },
+    {
+      "id": "B06",
+      "index": 5,
+      "start": 136,
+      "dur": 36,
+      "lead": 0,
+      "text": "",
+      "transition": "cut",
+      "voice": null,
+      "words": [],
+      "marks": {},
+      "attrs": {
+        "min": 36,
+        "hold": 0,
+        "lead": 0,
+        "transition": "cut"
+      }
+    },
+    {
+      "id": "B07",
+      "index": 6,
+      "start": 172,
+      "dur": 26,
+      "lead": 0,
+      "text": "",
+      "transition": "cut",
+      "voice": null,
+      "words": [],
+      "marks": {},
+      "attrs": {
+        "min": 26,
+        "hold": 0,
+        "lead": 0,
+        "transition": "cut"
+      }
+    },
+    {
+      "id": "B08",
+      "index": 7,
+      "start": 198,
+      "dur": 36,
+      "lead": 0,
+      "text": "",
+      "transition": "cut",
+      "voice": null,
+      "words": [],
+      "marks": {},
+      "attrs": {
+        "min": 36,
+        "hold": 0,
+        "lead": 0,
+        "transition": "cut"
+      }
+    },
+    {
+      "id": "B09",
+      "index": 8,
+      "start": 234,
+      "dur": 30,
+      "lead": 0,
+      "text": "",
+      "transition": "cut",
+      "voice": null,
+      "words": [],
+      "marks": {},
+      "attrs": {
+        "min": 30,
+        "hold": 0,
+        "lead": 0,
+        "transition": "cut"
+      }
+    },
+    {
+      "id": "B10",
+      "index": 9,
+      "start": 264,
+      "dur": 28,
+      "lead": 0,
+      "text": "",
+      "transition": "cut",
+      "voice": null,
+      "words": [],
+      "marks": {},
+      "attrs": {
+        "min": 28,
+        "hold": 0,
+        "lead": 0,
+        "transition": "cut"
+      }
+    },
+    {
+      "id": "B11",
+      "index": 10,
+      "start": 292,
+      "dur": 24,
+      "lead": 0,
+      "text": "",
+      "transition": "cut",
+      "voice": null,
+      "words": [],
+      "marks": {},
+      "attrs": {
+        "min": 24,
+        "hold": 0,
+        "lead": 0,
+        "transition": "cut"
+      }
+    },
+    {
+      "id": "B12",
+      "index": 11,
+      "start": 316,
+      "dur": 38,
+      "lead": 0,
+      "text": "",
+      "transition": "cut",
+      "voice": null,
+      "words": [],
+      "marks": {},
+      "attrs": {
+        "min": 38,
+        "hold": 0,
+        "lead": 0,
+        "transition": "cut"
+      }
+    },
+    {
+      "id": "B13",
+      "index": 12,
+      "start": 354,
+      "dur": 18,
+      "lead": 0,
+      "text": "",
+      "transition": "cut",
+      "voice": null,
+      "words": [],
+      "marks": {},
+      "attrs": {
+        "min": 18,
+        "hold": 0,
+        "lead": 0,
+        "transition": "cut"
+      }
+    },
+    {
+      "id": "B14",
+      "index": 13,
+      "start": 372,
+      "dur": 24,
+      "lead": 0,
+      "text": "",
+      "transition": "cut",
+      "voice": null,
+      "words": [],
+      "marks": {},
+      "attrs": {
+        "min": 24,
+        "hold": 0,
+        "lead": 0,
+        "transition": "cut"
+      }
+    },
+    {
+      "id": "B15",
+      "index": 14,
+      "start": 396,
+      "dur": 24,
+      "lead": 0,
+      "text": "",
+      "transition": "cut",
+      "voice": null,
+      "words": [],
+      "marks": {},
+      "attrs": {
+        "min": 24,
+        "hold": 0,
+        "lead": 0,
+        "transition": "cut"
+      }
+    },
+    {
+      "id": "B16",
+      "index": 15,
+      "start": 420,
+      "dur": 20,
+      "lead": 0,
+      "text": "",
+      "transition": "cut",
+      "voice": null,
+      "words": [],
+      "marks": {},
+      "attrs": {
+        "min": 20,
+        "hold": 0,
+        "lead": 0,
+        "transition": "cut"
+      }
+    }
+  ],
+  "voiceSpans": []
+}

@@ -1,0 +1,17 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {execFileSync} from 'node:child_process';
+import {fileURLToPath} from 'node:url';
+const dir=path.dirname(fileURLToPath(import.meta.url)),ev=path.join(dir,'evidence');
+const original=path.join(dir,'ep02-continuity-r10.mp4');
+const before=path.join(ev,'pre-correction-master.mp4');
+if(!fs.existsSync(before))fs.copyFileSync(original,before);
+const ff=args=>execFileSync('ffmpeg',['-v','error',...args],{maxBuffer:8*1024*1024});
+const items=['original frames 0..5159','corrected B07 frames 0..779','original frames 5940..12599','corrected B16 frames 0..599'];
+const revised=path.join(ev,'revised-master.mp4');
+const filter='[0:v]split=2[p][m];[p]trim=start_frame=0:end_frame=5160,setpts=PTS-STARTPTS[a];[1:v]trim=end_frame=780,setpts=PTS-STARTPTS[b];[m]trim=start_frame=5940:end_frame=12600,setpts=PTS-STARTPTS[c];[2:v]trim=end_frame=600,setpts=PTS-STARTPTS[d];[a][b][c][d]concat=n=4:v=1:a=0,scale=in_range=pc:out_range=tv,format=yuv420p[v]';
+ff(['-filter_complex_threads','2','-i',before,'-i',path.join(ev,'B07-corrected.mp4'),'-i',path.join(ev,'B16-corrected.mp4'),'-filter_complex',filter,'-map','[v]','-map','0:a:0','-c:v','libx264','-preset','veryfast','-crf','17','-tune','animation','-threads','4','-r','30','-frames:v','13200','-color_range','tv','-c:a','copy','-t','440','-movflags','+faststart','-y',revised]);
+const probe=JSON.parse(execFileSync('ffprobe',['-v','error','-select_streams','v:0','-show_entries','stream=duration,nb_frames','-of','json',revised],{encoding:'utf8'}));
+if(Number(probe.streams[0].nb_frames)!==13200||Number(probe.streams[0].duration)!==440)throw Error('Assembled frame count/duration mismatch; original retained');
+fs.copyFileSync(revised,original);
+console.log(JSON.stringify({segments:items,frames:13200,duration:440,originalRetained:'evidence/pre-correction-master.mp4',output:path.basename(original)}));

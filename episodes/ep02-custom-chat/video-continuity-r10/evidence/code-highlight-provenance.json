@@ -1,0 +1,18 @@
+{
+  "source": "../video-sample-b06-b12/compositions/code-highlight.html",
+  "catalog": "https://hyperframes.heygen.com/catalog/blocks/code-highlight",
+  "sourceSHA256": "382745003b34750dbbbabeafd78921fc1ca0a1949e45ea69db27fd414462a80f",
+  "engine": "actual hf-code-anim.js highlight() + GSAP paused timeline from the Catalog source; not a Canvas reimplementation",
+  "changes": [
+    "792x820 portrait host",
+    "local Sarabun48 / lineHeight72",
+    "brand palette",
+    "replacement canonical code tokens",
+    "no grid/glow/dots",
+    "no editor scale entrance",
+    "surrounding lines opacity .65",
+    "cue sweep .2..1.1s",
+    "B12 query field scale1.15 only"
+  ],
+  "variants": 13
+}

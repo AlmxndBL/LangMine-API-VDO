@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {execFileSync} from 'node:child_process';
+import {fileURLToPath} from 'node:url';
+const dir=path.dirname(fileURLToPath(import.meta.url));
+const input=path.join(dir,'out/explainroo-master.mp4');
+const output=path.join(dir,'out/bt709-master.mp4');
+const args=['-v','error','-i',input,'-vf','scale=in_range=pc:out_range=tv:in_color_matrix=bt601:out_color_matrix=bt709,format=yuv420p','-c:v','libx264','-preset','veryfast','-tune','animation','-crf','16','-threads','4','-color_range','tv','-colorspace','bt709','-color_primaries','bt709','-color_trc','bt709','-r','30','-frames:v','13200','-c:a','copy','-t','440','-movflags','+faststart','-y',output];
+execFileSync('ffmpeg',args,{maxBuffer:4*1024*1024});
+const probe=JSON.parse(execFileSync('ffprobe',['-v','error','-show_streams','-show_format','-of','json',output],{encoding:'utf8'}));
+const v=probe.streams.find(s=>s.codec_type==='video'),a=probe.streams.find(s=>s.codec_type==='audio');
+if(v.color_range!=='tv'||v.color_space!=='bt709'||Number(v.nb_frames)!==13200||Number(v.duration)!==440||a.sample_rate!=='48000'||a.channels!==2)throw Error('Color-normalized export mismatch; source master retained');
+fs.writeFileSync(path.join(dir,'evidence/color-normalization.json'),JSON.stringify({source:'out/explainroo-master.mp4',output:'ep02-continuity-r10.mp4',command:['ffmpeg',...args],reason:'Browser playback of the full-range source darkened RGB 9,29,32 to0,12,18. BT709 limited proof measured7,27,29; compression/color conversion remains lossy.',video:v,audio:a},null,2));
+fs.copyFileSync(output,path.join(dir,'ep02-continuity-r10.mp4'));
+console.log(JSON.stringify({frames:v.nb_frames,duration:v.duration,range:v.color_range,space:v.color_space,pixFmt:v.pix_fmt,audio:'copied AAC48kHz stereo, silent',output:'ep02-continuity-r10.mp4'}));

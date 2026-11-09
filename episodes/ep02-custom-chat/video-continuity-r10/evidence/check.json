@@ -1,0 +1,696 @@
+{
+  "issues": [
+    {
+      "level": "warn",
+      "scene": "B01",
+      "t": 0,
+      "message": "\"EP02 · B01\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B01",
+      "t": 0,
+      "message": "\"ฉบับภาพ · ไม่มีเสียง\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B01",
+      "t": 0,
+      "message": "\"ภาพจำลอง · คำตอบตัวอย่าง\" is 11.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B01",
+      "t": null,
+      "message": "nothing enters in this scene; add at least one element with an \"at\" time"
+    },
+    {
+      "level": "warn",
+      "scene": "B02",
+      "t": 0,
+      "message": "\"EP02 · B02\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B02",
+      "t": 0,
+      "message": "\"ฉบับภาพ · ไม่มีเสียง\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B02",
+      "t": 0,
+      "message": "\"ภาพจำลอง · คำตอบตัวอย่าง\" is 11.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B02",
+      "t": 0,
+      "message": "\"ย้อนดูข้อความแรก\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B02",
+      "t": null,
+      "message": "nothing enters in this scene; add at least one element with an \"at\" time"
+    },
+    {
+      "level": "warn",
+      "scene": "B03",
+      "t": 0,
+      "message": "\"EP02 · B03\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B03",
+      "t": 0,
+      "message": "\"ฉบับภาพ · ไม่มีเสียง\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B03",
+      "t": 0,
+      "message": "\"ภาพจำลอง · คำตอบตัวอย่าง\" is 11.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B03",
+      "t": 5,
+      "message": "\"พิมพ์ · อ่านคำตอบ\" is 12.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B03",
+      "t": 5,
+      "message": "\"/api/chat · เก็บ key\" is 12.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B03",
+      "t": 5,
+      "message": "\"ผู้ช่วยที่ตั้งหน้าที่ไว้\" is 12.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B03",
+      "t": 5,
+      "message": "\"ช่วยเขียนข้อความแจ้งลูกค้าว่าสินค้าส่ง\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B03",
+      "t": 5,
+      "message": "\"ช้า ให้สุภาพหน่อย\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B03",
+      "t": null,
+      "message": "nothing enters in this scene; add at least one element with an \"at\" time"
+    },
+    {
+      "level": "warn",
+      "scene": "B04",
+      "t": 0,
+      "message": "\"EP02 · B04\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B04",
+      "t": 0,
+      "message": "\"ฉบับภาพ · ไม่มีเสียง\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B04",
+      "t": 0,
+      "message": "\"ภาพจำลอง · คำตอบตัวอย่าง\" is 11.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B04",
+      "t": 0,
+      "message": "\"พิมพ์ · อ่านคำตอบ\" is 12.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B04",
+      "t": 0,
+      "message": "\"/api/chat · เก็บ key\" is 12.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B04",
+      "t": 0,
+      "message": "\"ผู้ช่วยที่ตั้งหน้าที่ไว้\" is 12.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B04",
+      "t": null,
+      "message": "nothing enters in this scene; add at least one element with an \"at\" time"
+    },
+    {
+      "level": "warn",
+      "scene": "B05",
+      "t": 0,
+      "message": "\"EP02 · B05\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B05",
+      "t": 0,
+      "message": "\"ฉบับภาพ · ไม่มีเสียง\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B05",
+      "t": 0,
+      "message": "\"ภาพจำลอง · คำตอบตัวอย่าง\" is 11.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B05",
+      "t": 0,
+      "message": "\"ภาพขั้นตอนเดิม · ไม่ใช่การเรียก API\" is 11.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B06",
+      "t": 0,
+      "message": "\"EP02 · B06\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B06",
+      "t": 0,
+      "message": "\"ฉบับภาพ · ไม่มีเสียง\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B06",
+      "t": 0,
+      "message": "\"ภาพจำลอง · คำตอบตัวอย่าง\" is 11.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B06",
+      "t": 0,
+      "message": "\"server ของแอปเรา\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B06",
+      "t": 0,
+      "message": "\".env / ค่าตั้งต้น\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B06",
+      "t": 0,
+      "message": "\"โค้ดประกอบคำอธิบาย\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B06",
+      "t": null,
+      "message": "nothing enters in this scene; add at least one element with an \"at\" time"
+    },
+    {
+      "level": "warn",
+      "scene": "B07",
+      "t": 0,
+      "message": "\"EP02 · B07\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B07",
+      "t": 0,
+      "message": "\"ฉบับภาพ · ไม่มีเสียง\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B07",
+      "t": 0,
+      "message": "\"ภาพจำลอง · คำตอบตัวอย่าง\" is 11.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B07",
+      "t": 5,
+      "message": "\"พิมพ์ · อ่านคำตอบ\" is 12.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B07",
+      "t": 5,
+      "message": "\"/api/chat · เก็บ key\" is 12.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B07",
+      "t": 5,
+      "message": "\"ผู้ช่วยที่ตั้งหน้าที่ไว้\" is 12.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B07",
+      "t": 5,
+      "message": "\"ช่วยเขียนข้อความแจ้งลูกค้าว่าสินค้าส่ง\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B07",
+      "t": 5,
+      "message": "\"ช้า ให้สุภาพหน่อย\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B07",
+      "t": 12,
+      "message": "\"server ของแอปเรา\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B07",
+      "t": 12,
+      "message": "\"หน้าเว็บ → server\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B07",
+      "t": 12,
+      "message": "\"โค้ดประกอบคำอธิบาย\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B07",
+      "t": null,
+      "message": "nothing enters in this scene; add at least one element with an \"at\" time"
+    },
+    {
+      "level": "warn",
+      "scene": "B08",
+      "t": 0,
+      "message": "\"EP02 · B08\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B08",
+      "t": 0,
+      "message": "\"ฉบับภาพ · ไม่มีเสียง\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B08",
+      "t": 0,
+      "message": "\"ภาพจำลอง · คำตอบตัวอย่าง\" is 11.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B08",
+      "t": 0,
+      "message": "\"server ของแอปเรา\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B08",
+      "t": 0,
+      "message": "\"ส่วนหนึ่งของ request\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B08",
+      "t": 0,
+      "message": "\"โค้ดประกอบคำอธิบาย\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B08",
+      "t": null,
+      "message": "nothing enters in this scene; add at least one element with an \"at\" time"
+    },
+    {
+      "level": "warn",
+      "scene": "B09",
+      "t": 0,
+      "message": "\"EP02 · B09\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B09",
+      "t": 0,
+      "message": "\"ฉบับภาพ · ไม่มีเสียง\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B09",
+      "t": 0,
+      "message": "\"ภาพจำลอง · คำตอบตัวอย่าง\" is 11.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B09",
+      "t": 0,
+      "message": "\"server ของแอปเรา\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B09",
+      "t": 0,
+      "message": "\"fetch ฝั่ง server\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B09",
+      "t": 0,
+      "message": "\"โค้ดประกอบคำอธิบาย\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B09",
+      "t": 8,
+      "message": "\"headers / body\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B09",
+      "t": 16,
+      "message": "\"ตรวจผลก่อนนำไปใช้\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B09",
+      "t": null,
+      "message": "nothing enters in this scene; add at least one element with an \"at\" time"
+    },
+    {
+      "level": "warn",
+      "scene": "B10",
+      "t": 0,
+      "message": "\"EP02 · B10\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B10",
+      "t": 0,
+      "message": "\"ฉบับภาพ · ไม่มีเสียง\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B10",
+      "t": 0,
+      "message": "\"ภาพจำลอง · คำตอบตัวอย่าง\" is 11.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B10",
+      "t": 0,
+      "message": "\"server ของแอปเรา\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B10",
+      "t": 0,
+      "message": "\"ผลตัวอย่างแบบย่อ\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B10",
+      "t": 0,
+      "message": "\"โค้ดประกอบคำอธิบาย\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B10",
+      "t": 8,
+      "message": "\"เก็บคู่กับเจ้าของ\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B10",
+      "t": 8,
+      "message": "\"server · รหัสบทสนทนา\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B10",
+      "t": 8,
+      "message": "\"conv_demo_01\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B10",
+      "t": null,
+      "message": "nothing enters in this scene; add at least one element with an \"at\" time"
+    },
+    {
+      "level": "warn",
+      "scene": "B11",
+      "t": 0,
+      "message": "\"EP02 · B11\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B11",
+      "t": 0,
+      "message": "\"ฉบับภาพ · ไม่มีเสียง\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B11",
+      "t": 0,
+      "message": "\"ภาพจำลอง · คำตอบตัวอย่าง\" is 11.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B11",
+      "t": 0,
+      "message": "\"server · รหัสบทสนทนา\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B11",
+      "t": 0,
+      "message": "\"conv_demo_01\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B11",
+      "t": null,
+      "message": "nothing enters in this scene; add at least one element with an \"at\" time"
+    },
+    {
+      "level": "warn",
+      "scene": "B12",
+      "t": 0,
+      "message": "\"EP02 · B12\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B12",
+      "t": 0,
+      "message": "\"ฉบับภาพ · ไม่มีเสียง\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B12",
+      "t": 0,
+      "message": "\"ภาพจำลอง · คำตอบตัวอย่าง\" is 11.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B12",
+      "t": 0,
+      "message": "\"server · รหัสบทสนทนา\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B12",
+      "t": 0,
+      "message": "\"conv_demo_01\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B12",
+      "t": 7,
+      "message": "\"server ของแอปเรา\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B12",
+      "t": 7,
+      "message": "\"ส่วนหนึ่งของ request\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B12",
+      "t": 7,
+      "message": "\"โค้ดประกอบคำอธิบาย\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B12",
+      "t": null,
+      "message": "nothing enters in this scene; add at least one element with an \"at\" time"
+    },
+    {
+      "level": "warn",
+      "scene": "B13",
+      "t": 0,
+      "message": "\"EP02 · B13\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B13",
+      "t": 0,
+      "message": "\"ฉบับภาพ · ไม่มีเสียง\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B13",
+      "t": 0,
+      "message": "\"ภาพจำลอง · คำตอบตัวอย่าง\" is 11.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B13",
+      "t": 0,
+      "message": "\"server · รหัสบทสนทนา\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B13",
+      "t": 0,
+      "message": "\"conv_demo_01\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B13",
+      "t": null,
+      "message": "nothing enters in this scene; add at least one element with an \"at\" time"
+    },
+    {
+      "level": "warn",
+      "scene": "B14",
+      "t": 0,
+      "message": "\"EP02 · B14\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B14",
+      "t": 0,
+      "message": "\"ฉบับภาพ · ไม่มีเสียง\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B14",
+      "t": 0,
+      "message": "\"ภาพจำลอง · คำตอบตัวอย่าง\" is 11.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B14",
+      "t": null,
+      "message": "nothing enters in this scene; add at least one element with an \"at\" time"
+    },
+    {
+      "level": "warn",
+      "scene": "B15",
+      "t": 0,
+      "message": "\"EP02 · B15\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B15",
+      "t": 0,
+      "message": "\"ฉบับภาพ · ไม่มีเสียง\" is 9.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B15",
+      "t": 0,
+      "message": "\"ภาพจำลอง · คำตอบตัวอย่าง\" is 11.3px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B15",
+      "t": 0,
+      "message": "\"พิมพ์ · อ่านคำตอบ\" is 12.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B15",
+      "t": 0,
+      "message": "\"/api/chat · เก็บ key\" is 12.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B15",
+      "t": 0,
+      "message": "\"ผู้ช่วยที่ตั้งหน้าที่ไว้\" is 12.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B15",
+      "t": 0,
+      "message": "\"server · รหัสบทสนทนา\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B15",
+      "t": 0,
+      "message": "\"conv_demo_01\" is 14.0px at a 360px player width; enlarge important text or zoom in (aim for at least 16px)"
+    },
+    {
+      "level": "warn",
+      "scene": "B15",
+      "t": null,
+      "message": "nothing enters in this scene; add at least one element with an \"at\" time"
+    },
+    {
+      "level": "warn",
+      "scene": "B16",
+      "t": null,
+      "message": "nothing enters in this scene; add at least one element with an \"at\" time"
+    },
+    {
+      "level": "hint",
+      "scene": "B05",
+      "t": 8,
+      "message": "clip \"assets/K-name.mp4\" freezes on its last frame from 8.00s until 10.00s; use loop: true or an earlier out"
+    },
+    {
+      "level": "hint",
+      "scene": "B05",
+      "t": 17,
+      "message": "clip \"assets/K-age.mp4\" freezes on its last frame from 17.00s until 20.00s; use loop: true or an earlier out"
+    },
+    {
+      "level": "hint",
+      "scene": "B05",
+      "t": 27,
+      "message": "clip \"assets/K-scope.mp4\" freezes on its last frame from 27.00s until 31.00s; use loop: true or an earlier out"
+    },
+    {
+      "level": "hint",
+      "scene": "B05",
+      "t": 0,
+      "message": "no new element for 10.0s (from 0.0s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "B05",
+      "t": 10,
+      "message": "no new element for 10.0s (from 10.0s); consider revealing something on a cue in that stretch"
+    },
+    {
+      "level": "hint",
+      "scene": "B05",
+      "t": 20,
+      "message": "no new element for 20.0s (from 20.0s); consider revealing something on a cue in that stretch"
+    }
+  ],
+  "duration": 440,
+  "scenes": 16
+}
