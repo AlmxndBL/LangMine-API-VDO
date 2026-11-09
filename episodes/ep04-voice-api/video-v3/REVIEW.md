@@ -26,3 +26,10 @@
 - การออกเสียง LangMind, Voice Transcribe, Voice Speech, input mode, conversation ID, publish, voice invoke / chat invoke, "LangMind ดอท อิน ดอท ทีเอช"
 - จังหวะเว้นระหว่างประโยคฟังเป็นธรรมชาติไหม และความยาว 2:13 เหมาะกับคนดูหรือไม่
 - เงื่อนไขการใช้เสียง Edge TTS ก่อนเผยแพร่
+
+## ฉบับไม่มีเสียง (9 พฤศจิกายน 2026)
+ผู้รับผิดชอบขอคลิปไม่มีเสียงเพื่อนำไปใส่เสียงเอง
+- ไฟล์: [ep04-video-v3-silent.mp4](ep04-video-v3-silent.mp4) · md5 `22ae0515b80914ece7e48270314871d0`
+- วิธีทำ: `npx hyperframes render --quality delivery` (ต้องมี `tools/ffmpeg` ใน PATH) แล้ว `ffmpeg -map 0:v:0 -c:v copy -an` ถอดแทร็กเสียงออก ภาพไม่ถูก encode ซ้ำ
+- observed: H.264 1080×1920 30 fps 3,998 เฟรม ยาว 133.27 s ไม่มีแทร็กเสียง `ffmpeg -f null` decode ผ่าน · เฟรมตรวจ [evidence/silent-v1/contact-sheet.jpg](evidence/silent-v1/contact-sheet.jpg)
+- เวลาฉากและซับยังเป็นของเสียง Niwat −16% เดิม ตารางเวลารายประโยคอยู่ที่ [SILENT-TIMING.md](SILENT-TIMING.md)

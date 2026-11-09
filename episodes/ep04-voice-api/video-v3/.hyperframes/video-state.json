@@ -537,13 +537,15 @@
   },
   "renders": {
     "latest": {
-      "id": "04dce079-c50b-4b62-bc86-3956279fe5b8",
-      "completedAt": 1794105822451,
-      "output": "D:\\vedio langmind\\LangMine-API-VDO\\episodes\\ep04-voice-api\\video-v3\\ep04-video-v3-niwat-draft.mp4",
+      "id": "ef667b26-18da-4a47-9c3b-8f96520ca324",
+      "completedAt": 1794191450133,
+      "output": "C:\\Users\\dacha\\AppData\\Local\\Temp\\claude\\b58716c3ac88fcca\\c1336413-6442-4e34-8eed-f42d24b628f6\\scratchpad\\ep04-v3-delivery-with-audio.mp4",
       "status": "completed",
-      "revision": null
+      "revision": "a3259747-477f-4f3f-8954-3bb400533bf5"
     },
-    "retainedRevisions": []
+    "retainedRevisions": [
+      "a3259747-477f-4f3f-8954-3bb400533bf5"
+    ]
   },
   "pendingArtifactCleanup": []
 }
