@@ -5,10 +5,10 @@
 .kicker{position:absolute;top:110px;left:86px;color:#d1ee9a;font-size:35px;font-weight:750}
 .badge{position:absolute;top:102px;right:86px;border:2px solid #d1ee9a;border-radius:40px;padding:10px 23px;font-size:33px}
 .scene{position:absolute;inset:0}h1{position:absolute;left:86px;right:86px;top:250px;font-size:88px;line-height:1.24;margin:0;font-weight:800}em{font-style:normal;color:#d1ee9a}
-.screen{position:absolute;left:108px;top:615px;width:864px;height:1080px;max-height:920px;border-radius:28px;overflow:hidden;border:5px solid #d6e8bb;background:white;box-shadow:15px 17px #08251c}
+.screen{position:absolute;left:108px;top:560px;width:864px;height:970px;border-radius:28px;overflow:hidden;border:5px solid #d6e8bb;background:white;box-shadow:15px 17px #08251c}
 .screen img{position:absolute;width:2592px;height:1080px;max-width:none;left:0;top:0}
 .node{position:absolute;left:130px;width:820px;border:4px solid #c4dea5;border-radius:24px;padding:38px;text-align:center;background:#224b3c;font-size:57px;font-weight:760}
-.n1{top:650px}.n2{top:1120px}.arrow{position:absolute;top:860px;left:509px;font-size:142px;color:#d1ee9a}.tool-label{position:absolute;top:1030px;left:130px;width:820px;text-align:center;font-size:37px;color:#d1ee9a}
+.n1{top:650px}.n2{top:1120px}.arrow{position:absolute;top:860px;left:509px;font-size:142px;color:#d1ee9a}.tool-label{position:absolute;top:930px;left:610px;width:340px;text-align:left;font-size:37px;color:#d1ee9a}
 .caption{position:absolute;top:1600px;left:80px;right:80px;border-radius:20px;background:#09251c;padding:23px;text-align:center;font-size:42px;line-height:1.43;font-weight:650}
 .brand{position:absolute;bottom:70px;left:86px;font-size:31px;color:#c6ddba}.brand img{width:65px;background:white;padding:6px;vertical-align:middle;margin-right:13px;border-radius:7px}
 .end{position:absolute;top:650px;left:110px;right:110px;font-size:62px;line-height:1.7;color:#d1ee9a}
@@ -17,7 +17,8 @@
 <div class="kicker">EP05 / LANGMIND</div><div class="badge">ภาพจำลอง</div>
 <section id="question" class="clip scene" data-start="0" data-duration="6.716"><h1>ลูกค้าถาม<br><em>“ของมีไหม?”</em></h1><div class="screen"><img src="assets/screens.png" alt="เสื้อสีดำ ไซซ์ M ยังมีไหม?"></div></section>
 <section id="tool" class="clip scene" data-start="6.716" data-duration="6.908"><h1>ให้ผู้ช่วย<br><em>เรียกเครื่องมือเช็ก</em></h1><div class="node n1">LangMind</div><div class="arrow">↓</div><div class="tool-label">สีดำ · ไซซ์ M</div><div class="node n2">ระบบสต็อกของร้าน</div></section>
-<section id="stock" class="clip scene" data-start="13.624" data-duration="6.62"><h1>ระบบร้านค้น<br><em>รายการที่ตรงกัน</em></h1><div class="screen"><img style="left:-864px" src="assets/screens.png" alt="ตารางสต็อก ดำ M จำนวน 3"></div></section>
+<section id="stock" class="clip scene" data-start="13.624" data-duration="3.976"><h1>ระบบร้านค้น<br><em>รายการที่ตรงกัน</em></h1><div class="screen"><img style="left:-864px" src="assets/screens.png" alt="ตารางสต็อก ดำ M จำนวน 3"></div></section>
+<section id="result" class="clip scene" data-start="17.6" data-duration="2.644"><h1>ระบบร้าน<br><em>ส่งผลกลับ</em></h1><div class="node n1">LangMind</div><div class="arrow">↑</div><div class="tool-label">พบ 3 ตัว</div><div class="node n2">ระบบสต็อกของร้าน</div></section>
 <section id="answer" class="clip scene" data-start="20.244" data-duration="5.54"><h1>ได้ข้อมูลแล้ว<br><em>จึงตอบลูกค้า</em></h1><div class="screen"><img style="left:-1728px" src="assets/screens.png" alt="สีดำ ไซซ์ M มี 3 ตัวค่ะ"></div></section>
 <section id="finish" class="clip scene" data-start="25.784" data-duration="5.924"><h1>เริ่มจาก<br><em>ระบบร้านของคุณ</em></h1><div class="end">01 เตรียมข้อมูลสินค้า<br>02 เชื่อมเครื่องมือเช็กสต็อก<br>03 ทดลองถามและตรวจผล</div></section>
 <div id="cap1" class="clip caption" data-start="0" data-duration="6.4">เสื้อสีดำ ไซซ์ M ยังมีไหม?<br>ให้ผู้ช่วย AI ช่วยเช็กได้</div>
@@ -30,8 +31,9 @@
 <script>
 const tl=gsap.timeline({paused:true});
 tl.fromTo("#question .screen",{y:35},{y:0,duration:.45},0);
-tl.fromTo(".arrow",{scaleY:0},{scaleY:1,duration:.65},9);
+tl.fromTo("#tool .arrow",{scaleY:0},{scaleY:1,duration:.65},9);
 tl.fromTo("#stock .screen",{y:30},{y:0,duration:.45},13.624);
+tl.fromTo("#result .arrow",{scaleY:0},{scaleY:1,duration:.4},17.6);
 tl.fromTo("#answer .screen",{y:30},{y:0,duration:.45},20.244);
 tl.set({}, {},31.708);window.__timelines={"ep05-stock":tl};
 </script></html>
