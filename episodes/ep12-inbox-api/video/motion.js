@@ -85,7 +85,7 @@
       [1, 2, 3].forEach(p => tl.set(`#sp${p}`, p < phase ? DONE : p === phase ? ON([GREEN, OCHRE, TEAL][p - 1]) : IDLE, b.start));
     }
     if (b.id === 'b10') tl.set('.pill', DONE, b.start);
-    if (b.id === 'b11') tl.to(['.spine', '.note'], { opacity: 0, duration: 0.3 }, b.start);
+    if (b.id === 'b11') tl.to(['.spine', '#film > .note'], { opacity: 0, duration: 0.3 }, b.start);
 
     // ---- per-scene moments ----
     if (b.id === 'b1') {
