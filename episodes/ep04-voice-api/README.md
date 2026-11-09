@@ -1,28 +1,35 @@
 # EP04 — Voice API: คุยกับ AI ด้วยเสียงพูด
 
 Episode ID: `ep04-voice-api`  
-อัปเดต 7 พฤศจิกายน 2026 (Asia/Bangkok)
+อัปเดต 9 พฤศจิกายน 2026 (Asia/Bangkok)
 
-## สถานะปัจจุบัน: W7 — Full draft v2 ครบ 6 Beat ซับตรงเสียง รอผู้รับผิดชอบฟังตรวจและรับงาน
+## สถานะปัจจุบัน: W7 — video-v3 draft ครบ 9 beat รอผู้รับผิดชอบฟังตรวจและรับงาน
 
-- **วิดีโอตัวอย่าง**: [video/ep04-b03-b05-draft-v4.mp4](video/ep04-b03-b05-draft-v4.mp4) ยาว 43 วินาที เสียง Edge TTS `th-TH-NiwatNeural` rate −8% เวลาฉาก/ซับคิดจากเสียงจริง `check` ไม่มี finding ผลตรวจอยู่ที่ [video/REVIEW.md](video/REVIEW.md) (v2–v3 ยังเก็บไว้)
-- **ภาพหน้าจอจำลอง**: [app-voice-q.jpg](video/assets/app-voice-q.jpg) (กดไมค์พูด) และ [app-voice-a.jpg](video/assets/app-voice-a.jpg) (เล่นเสียงตอบ กล่องตอบสีเขียวอ่อน) สร้างจากภาพต้นฉบับเดียวกันด้วย [make-voice-screens.py](video/evidence/make-voice-screens.py) ฟอนต์/ขนาด/ความหนาเดียวกัน วิดีโอใช้ไฟล์ .jpg ส่วน .png เป็นสำเนา
-- **โครงสร้าง source**: แก้บท/เวลาใน [video/timing.json](video/timing.json) แล้วรัน `node build.mjs` ในโฟลเดอร์ `video/` จะสร้าง `index.html` และ [VOICE-SCRIPT.md](video/VOICE-SCRIPT.md) ใหม่ sample v1 เดิมเก็บไว้ที่ `video/evidence/sample-v1/`
-- **ฉากใหม่ B01, B02, B06**: เปิดเรื่อง (มือถือ + คำถาม), ภาพรวมท่อ 3 สเต็ป, เช็กลิสต์ 3 ข้อ (โหมดเสียง + publish, สิทธิ์ 2 ตัว, Key ฝั่ง server) เฟรมตรวจที่ [video/evidence/full-v1/b01-b02-b06-frames.jpg](video/evidence/full-v1/b01-b02-b06-frames.jpg)
-- **บทและ claim ledger**: [SCRIPT.md](SCRIPT.md) v2 แก้ให้ตรงคู่มือแล้ว (สิทธิ์ `voice:invoke` + `chat:invoke`, publish, endpoint สเต็ป 2, MP3/WAV, ไม่มีคำว่า "ทันที")
+- **ฉบับทำงานหลัก**: [video-v3/](video-v3/PLAN.md) ใช้โครงเล่าจากมุมคนดูของ v2 (เตรียม → เชื่อม → ใช้ผล) ผสมฉากเดิน API 3 ครั้งจาก v1 และปิดท้ายด้วยฉากผู้สนับสนุน LangMind ยังไม่ผ่านการตรวจรับจากผู้ใช้
+- **วิดีโอ draft**: [video-v3/ep04-video-v3-draft.mp4](video-v3/ep04-video-v3-draft.mp4) H.264 1080×1920 + AAC ยาว 133.27 s (2:13) เสียง Edge TTS `th-TH-NiwatNeural` rate −16% `hyperframes check` ไม่มี finding ผลตรวจอยู่ที่ [video-v3/REVIEW.md](video-v3/REVIEW.md)
+  - [ep04-video-v3-niwat-draft.mp4](video-v3/ep04-video-v3-niwat-draft.mp4) ยาว 130.77 s เป็น render ก่อนหน้า (สั้นกว่า 2.5 s ตรงกับ `hold` ของ b5 ที่เพิ่มภายหลัง — inferred จากความยาว)
+- **บทและ claim ledger**: บทพูด/ซับอยู่ใน [video-v3/timing.json](video-v3/timing.json) และ [VOICE-SCRIPT.md](video-v3/VOICE-SCRIPT.md); claim ledger เทียบ `langmind-api.md` อยู่ใน [video-v3/PLAN.md](video-v3/PLAN.md)
+- **ภาพหน้าจอจำลอง**: `app-voice-q.jpg` / `app-voice-a.jpg` ชุดเดียวกับ v1 (ที่มาและสคริปต์สร้างอยู่ [video/evidence/make-voice-screens.py](video/evidence/make-voice-screens.py)) เป็นภาพจำลอง ไม่ใช่ official UI หรือผลเรียก API จริง
+
+### รุ่นอื่นที่เก็บไว้ (ไม่แก้)
+| โฟลเดอร์ | แนวเล่า | ผลงาน |
+|---|---|---|
+| [video/](video/REVIEW.md) (v1) | เล่าตาม endpoint 6 beat | [ep04-full-draft-v2.mp4](video/ep04-full-draft-v2.mp4) 86.3 s และ sample B03–B05 draft v2–v4 |
+| [video-v2/](video-v2/PLAN.md) | เล่าจากมุมคนดู 7 beat | ยังไม่มีเสียง มีเฉพาะเฟรมตรวจใน `video-v2/evidence/` |
 
 ## เอกสารประจำตอน
 | เอกสาร | หน้าที่ | สถานะ |
 |---|---|---|
 | [README.md](README.md) | สถานะภาพรวมของตอน และลำดับถัดไป | อัปเดตล่าสุด |
-| [PLAN.md](PLAN.md) | แผน W3: โจทย์คนดู ขอบเขต use case และโครงเรื่องคร่าว ๆ | จัดทำแล้ว |
-| [SCRIPT.md](SCRIPT.md) | บทพากย์ภาษาพูด 6 Beats และ Claim Ledger ตรวจเทียบ API | v2 แก้ตามคู่มือ |
+| [PLAN.md](PLAN.md) | แผน W3: โจทย์คนดู ขอบเขต use case และโครงเรื่องคร่าว ๆ | จัดทำแล้ว (ฐานของ v1) |
+| [SCRIPT.md](SCRIPT.md) | บทพากย์ 6 Beats และ Claim Ledger ของ v1 | v2 แก้ตามคู่มือ |
 | [CATALOG.md](CATALOG.md) | ทะเบียนคัดเลือกบล็อก Motion ตามหน้าที่ของแต่ละ Beat | จัดทำแล้ว |
-| [STORYBOARD.md](STORYBOARD.md) | Storyboard ราย Beat, การเลือกช่วง Sample, และแบบกำหนดหน้าจอ Mockup (APP-VOICE-Q / A) | จัดทำแล้ว |
-| [video/index.html](video/index.html) | HyperFrames ฉาก Sample B03–B05 (สร้างจาก `build.mjs`) | draft v2 |
+| [STORYBOARD.md](STORYBOARD.md) | Storyboard ราย Beat และแบบหน้าจอ Mockup (APP-VOICE-Q / A) | จัดทำแล้ว (ฐานของ v1) |
+| [video-v3/PLAN.md](video-v3/PLAN.md) | โครงเรื่อง 9 beat, claim ledger และวิธีทำงานของ v3 | ฉบับทำงานหลัก |
+| [video-v3/REVIEW.md](video-v3/REVIEW.md) | ผลตรวจ technical/visual ของ draft v3 และสิ่งที่ต้องฟังตรวจ | รอตรวจเสียงโดยคน |
 
 ## ลำดับถัดไป (Next Actions)
-1. ดู [video/ep04-full-draft-v2.mp4](video/ep04-full-draft-v2.mp4) (86.3 s) บนมือถือ ฟังการออกเสียงชื่อเฉพาะ และดูว่าซับตรงเสียง
-2. ถ้ามีคำที่ออกเสียงผิด แก้คำใน `say` ของ [video/timing.json](video/timing.json) แล้วรัน `python make-voice-samples.py` และ `node build.mjs`
-3. ตรวจเงื่อนไขการใช้เสียง Edge TTS ก่อนเผยแพร่ แล้วบันทึกผลรับงานใน [video/REVIEW.md](video/REVIEW.md)
-4. เมื่อรับงานแล้ว render ฉบับส่งมอบด้วย `npx hyperframes render --quality delivery`
+1. ดู [video-v3/ep04-video-v3-draft.mp4](video-v3/ep04-video-v3-draft.mp4) บนมือถือ ฟังการออกเสียงชื่อเฉพาะตามรายการใน [REVIEW.md](video-v3/REVIEW.md) ดูว่าซับตรงเสียง และตัดสินว่าความยาว 2:13 เหมาะกับคนดูหรือไม่
+2. ถ้ามีคำที่ออกเสียงผิดหรือต้องแก้บท แก้ `say`/`cap` ใน [video-v3/timing.json](video-v3/timing.json) แล้วรันในโฟลเดอร์ `video-v3/`: `python make-voice-samples.py` → `node build.mjs` → `npx hyperframes check` → `npx hyperframes render --quality draft` (render เป็นไฟล์ชื่อใหม่ ไม่เขียนทับ draft เดิม)
+3. ตรวจเงื่อนไขการใช้เสียง Edge TTS ก่อนเผยแพร่ แล้วบันทึกผลรับงานใน [video-v3/REVIEW.md](video-v3/REVIEW.md)
+4. เมื่อผู้ใช้รับงานแล้ว render ฉบับส่งมอบด้วย `npx hyperframes render --quality delivery`; publish ต้องมีคำสั่ง
