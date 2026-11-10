@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1080,height=1920" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../assets/gsap.min.js"></script>
+    <style>
+      .id-card { position:absolute; left:140px; top:386px; width:800px; height:570px; padding:44px; border:3px solid var(--line); border-radius:28px; background:var(--card); box-shadow:14px 14px 0 var(--sage); text-align:center; }
+      .id-tag { display:inline-block; padding:10px 24px; border:2px solid var(--teal); border-radius:28px; background:#e1f0ee; color:#176360; font-size:30px; font-weight:700; }
+      .id-name { margin-top:52px; color:var(--ink); font-size:48px; font-weight:700; }
+      .id-value { margin:28px auto 0; padding:24px 28px; width:650px; border:2px dashed var(--forest); border-radius:18px; color:var(--forest); font-size:40px; font-weight:700; }
+      .id-note { margin-top:30px; color:var(--muted); font-size:32px; }
+      .id-link { position:absolute; left:175px; top:1040px; color:var(--forest); font-size:38px; font-weight:700; }
+    </style>
+  </head>
+  <body>
+    <main id="root" style="position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--paper);font-family:Sarabun,sans-serif;color:var(--ink)" data-composition-id="b6" data-width="1080" data-height="1920" data-duration="__DURATION__">
+      <div class="scene-ground" data-layout-ignore></div>
+      <div id="b6-title" class="clip headline" data-start="0" data-duration="__DURATION__" data-track-index="1">เก็บรหัสของบทสนทนา</div>
+      <div id="b6-card" class="clip id-card" data-start="0.25" data-duration="__DURATION__" data-track-index="2">
+        <span class="id-tag">ภาพอธิบาย · ไม่ใช่ค่าจาก API จริง</span>
+        <div class="id-name">conversation_id</div>
+        <div class="id-value">รหัสของบทสนทนานี้</div>
+        <div class="id-note">เก็บไว้ใช้เมื่อต้องถามต่อ</div>
+      </div>
+      <div id="b6-link" class="clip id-link" data-start="1.3" data-duration="__DURATION__" data-track-index="3">คำตอบเริ่มต้น → ได้รหัสนี้</div>
+    </main>
+    <script>
+      (() => {
+        const root = document.getElementById("root");
+        const tl = gsap.timeline({ paused: true });
+        tl.fromTo("#b6-card", { y: 20, opacity: 0.55 }, { y: 0, opacity: 1, duration: 0.36, ease: "back.out(1.3)" }, 0.25);
+        gsap.set("#b6-link", { opacity: 0 });
+        tl.to("#b6-link", { opacity: 1, duration: 0.18, ease: "none" }, 1.3);
+        window.__timelines = window.__timelines || {};
+        window.__timelines[root.dataset.compositionId] = tl;
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1080,height=1920" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../assets/gsap.min.js"></script>
+  </head>
+  <body>
+    <main id="root" style="position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--ground);font-family:Sarabun,sans-serif;color:var(--ink)" data-composition-id="b1" data-width="1080" data-height="1920" data-duration="7.605">
+      <div class="scene-ground" data-layout-ignore></div>
+      <div id="b1-title" class="clip headline" data-start="0" data-duration="7.605" data-track-index="1">ขอร่าง แล้วขอแก้ต่อ</div>
+      <div id="b1-screen" class="clip screen-frame" data-start="0" data-duration="7.605" data-track-index="2" style="left:120px;top:280px;width:840px;height:817px">
+        <img id="b1-screen-media" class="screen-media" src="../assets/screens/CHAT-01.png" alt="ภาพจำลองบทสนทนา" />
+      </div>
+      <div id="b1-robot" class="clip" data-start="0" data-duration="7.605" data-track-index="3" style="left:8px;top:912px;width:108px;height:178px">
+        <img id="b1-robot-media" src="../assets/robot/01-question.png" alt="" style="width:100%;height:100%;object-fit:contain" />
+      </div>
+    </main>
+    <script>
+      (() => {
+        const root = document.getElementById("root");
+        const tl = gsap.timeline({ paused: true });
+        tl.fromTo("#b1-screen-media", { scale: 1.02 }, { scale: 1, duration: 0.42, ease: "power1.out" }, 0);
+        tl.fromTo("#b1-robot-media", { x: -14 }, { x: 0, duration: 0.38, ease: "power2.out" }, 0.12);
+        window.__timelines = window.__timelines || {};
+        window.__timelines[root.dataset.compositionId] = tl;
+      })();
+    </script>
+  </body>
+</html>

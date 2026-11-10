@@ -1,0 +1,106 @@
+{
+  "episode": "EP03",
+  "version": "v4.3.1",
+  "title": "Chat API แบบเข้าใจง่าย",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "mode": "silent-draft",
+  "durationFormula": {
+    "charactersPerSecond": 10.5,
+    "pauseSecondsPerBeat": 0.45,
+    "note": "Editorial estimate from Thai narration plus holds; replace with real voice timing after sample approval."
+  },
+  "beats": [
+    {
+      "id": "b1",
+      "title": "เริ่มจากแชตที่คุ้นเคย",
+      "narration": "ใน LangMind เราพิมพ์สิ่งที่อยากได้ แล้วผู้ช่วยช่วยร่างคำตอบให้ เช่น ขอข้อความเลื่อนประชุม",
+      "subtitle": "พิมพ์สิ่งที่อยากได้\nผู้ช่วยช่วยร่างคำตอบ",
+      "onScreenText": "ตัวอย่างแชต · ขอข้อความเลื่อนประชุม",
+      "visual": "Show one large illustrative chat raster with the request and reply; robot remains secondary.",
+      "step": 1,
+      "holdSeconds": 0.8
+    },
+    {
+      "id": "b2",
+      "title": "ถ้าอยากมีแชตในแอปเรา",
+      "narration": "ถ้าอยากให้แชตนี้อยู่ในแอปของเรา แอปเป็นคนแสดงหน้าจอ ส่วน server ส่งคำถามไปที่ Chat API",
+      "subtitle": "แอปแสดงหน้าจอ\nserver ส่งคำถามไปที่ Chat API",
+      "onScreenText": "แอป → server → Chat API → ผู้ช่วย",
+      "visual": "Show the request moving from the app through the server and Chat API to the chosen assistant; response returns to the app.",
+      "step": 1,
+      "holdSeconds": 0.9
+    },
+    {
+      "id": "b3",
+      "title": "เตรียมของสองอย่าง",
+      "narration": "ก่อนเรียก API ต้องรู้ว่าจะคุยกับผู้ช่วยตัวไหน และให้ server เก็บ API key ที่มีสิทธิ์ใช้ Chat API ไว้ ห้ามใส่ key ในหน้าเว็บ",
+      "subtitle": "agent_id เลือกผู้ช่วย\nAPI key เก็บไว้ที่ server",
+      "onScreenText": "agent_id = ผู้ช่วย · chat:invoke = สิทธิ์",
+      "visual": "Explain assistant selection and server permission as two plain-language labeled cards; keep the API key on the server.",
+      "step": 2,
+      "holdSeconds": 1.1
+    },
+    {
+      "id": "b4",
+      "title": "ส่งคำถามไปที่ API",
+      "narration": "ฝั่ง server เรียก POST /api/chat/message แล้วแนบ API key ในส่วนหัว ส่ง agent_id กับคำถามในข้อมูลคำขอ ส่วน conversation_id: null คือเริ่มบทสนทนาใหม่ในตัวอย่างนี้",
+      "subtitle": "server แนบ API key ในส่วนหัว\nconversation_id: null = เริ่มบทสนทนาใหม่",
+      "onScreenText": "Authorization: Bearer $LM_TOKEN · server",
+      "visual": "Show one minimal request body with a placeholder agent_id, the meeting question, and null for the new conversation; sweep-highlight that field.",
+      "step": 2,
+      "holdSeconds": 1.4
+    },
+    {
+      "id": "b5",
+      "title": "คำตอบทยอยมาเป็นช่วง",
+      "narration": "SSE คือการส่งคำตอบเป็นช่วง ๆ แอปอ่านข้อมูลแล้วทยอยแสดงได้ เมื่อได้รับ message_end จึงรู้ว่าคำตอบครบแล้ว",
+      "subtitle": "SSE ส่งคำตอบเป็นช่วง ๆ\nmessage_end บอกว่าครบแล้ว",
+      "onScreenText": "เริ่ม → คำตอบทยอยมา → ครบแล้ว",
+      "visual": "Reveal an illustrative answer in three chunks, then mark message_end as complete; citations are optional and omitted from this simplified explanation.",
+      "step": 2,
+      "holdSeconds": 1.8
+    },
+    {
+      "id": "b6",
+      "title": "เก็บรหัสของบทสนทนา",
+      "narration": "ตอนเริ่ม API ส่ง conversation_id กลับมา ให้นึกว่าเป็นรหัสห้องแชตของบทสนทนานี้ เก็บไว้สำหรับคำถามถัดไป",
+      "subtitle": "API ส่ง conversation_id กลับมา\nเก็บรหัสนี้ไว้ถามต่อ",
+      "onScreenText": "conversation_id = รหัสของบทสนทนา",
+      "visual": "Use a labeled room-key card to explain conversation_id; show no realistic ID value and mark the diagram as illustrative.",
+      "step": 3,
+      "holdSeconds": 1.2
+    },
+    {
+      "id": "b7",
+      "title": "ใช้รหัสเดิมเพื่อถามต่อ",
+      "narration": "ถ้าอยากคุยต่อเรื่องเดิม ให้ส่ง conversation_id เดิมไปพร้อมคำถามใหม่ ผู้ช่วยจะต่อในบทสนทนาเดิม",
+      "subtitle": "ส่ง conversation_id เดิม\nแล้วถามต่อในห้องเดิม",
+      "onScreenText": "รหัสเดิม + คำถามใหม่",
+      "visual": "Show the second illustrative chat state and connect the saved conversation_id to the follow-up question.",
+      "step": 3,
+      "holdSeconds": 1.1
+    },
+    {
+      "id": "b8",
+      "title": "Chat API มีอะไรอีกบ้าง",
+      "narration": "นอกจากส่งข้อความ ยังดูหรือจัดการประวัติ หยุด stream ให้คะแนนคำตอบ และดาวน์โหลดไฟล์ได้ ถ้าต้องการผลทีเดียวก็มีแบบรอคำตอบเต็ม และมีพรีวิวใน Agent Builder",
+      "subtitle": "ส่งและควบคุม · ดูประวัติ\nให้คะแนน · ดาวน์โหลดไฟล์ · พรีวิว",
+      "onScreenText": "ส่ง/หยุด · ประวัติ · คะแนน/ไฟล์ · พรีวิว",
+      "visual": "Group the Chat API capabilities into three large plain-language cards; do not display a dense endpoint table.",
+      "step": 3,
+      "holdSeconds": 1.8
+    },
+    {
+      "id": "b9",
+      "title": "จำสามขั้นตอนนี้ไว้",
+      "narration": "สรุปสามอย่าง เลือกผู้ช่วย ส่งคำถาม แล้วเก็บรหัสบทสนทนาไว้เมื่อต้องถามต่อ อ่านคู่มือ Chat API ได้ที่ langmind.in.th",
+      "subtitle": "เลือกผู้ช่วย → ส่งคำถาม → เก็บรหัสไว้ถามต่อ\nคู่มือ Chat API · langmind.in.th",
+      "onScreenText": "LangMind API · langmind.in.th",
+      "visual": "Center the real LangMind logo and website; finish the three-step memory aid without implying sponsorship.",
+      "step": 3,
+      "holdSeconds": 1.2
+    }
+  ]
+}

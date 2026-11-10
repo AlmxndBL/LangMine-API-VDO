@@ -1,0 +1,10 @@
+{
+  "name": "ep03-video-v4.1",
+  "version": "1.0.0",
+  "description": "LangMind API EP03 v4.1 — Chat API Animatic (EP04 v3 Orus style)",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "render": "python render_v4_1.py"
+  }
+}

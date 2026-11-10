@@ -1,0 +1,14 @@
+{
+  "file": "renders\\ep03-v4.3-silent.mp4",
+  "renderer": "Pillow + FFmpeg fallback; HyperFrames native snapshot/render blocked by sandbox localhost access",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 2830,
+  "expectedDurationSeconds": 94.323,
+  "frameDurationSeconds": 94.33333333333333,
+  "audio": false,
+  "sha256": "eb55787dae4cffcb685efe54a64e807e3e2312bd407fbfbc850fdd43050ac56b",
+  "bytes": 1202406,
+  "ffmpegExitCode": 0
+}

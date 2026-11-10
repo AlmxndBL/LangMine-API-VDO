@@ -1,0 +1,76 @@
+{
+  "episodeId": "ep03-streaming-chat",
+  "version": "animatic-v4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationSeconds": 91.166667,
+  "totalFrames": 2735,
+  "audioStatus": "none; voice audition pending user selection",
+  "subtitleStatus": "draft Thai captions burned into each stage; not speech-synchronized",
+  "timingBasis": "silent story holds with draft per-stage captions; not speech-synchronized",
+  "beats": [
+    {"id":"beat01","start":0,"duration":7.333333,"title":"คำถามที่คนคุ้นเคย","kind":"hook"},
+    {"id":"beat02","start":7.333333,"duration":8.0,"title":"แชทจากมุมผู้ใช้ทั่วไป","kind":"chat-intro"},
+    {"id":"beat03","start":15.333333,"duration":8.0,"title":"ถามต่อในเรื่องเดิม","kind":"continuity"},
+    {"id":"beat04","start":23.333333,"duration":10.0,"title":"เบื้องหลังแอปกับ Chat API","kind":"architecture"},
+    {"id":"beat05","start":33.333333,"duration":10.5,"title":"Endpoint ส่งและควบคุมคำตอบ","kind":"endpoints-send"},
+    {"id":"beat06","start":43.833333,"duration":9.0,"title":"Endpoint สำหรับบทสนทนา","kind":"endpoints-conversations"},
+    {"id":"beat07","start":52.833333,"duration":8.0,"title":"Endpoint เสริมหลังคำตอบ","kind":"endpoints-feedback-files"},
+    {"id":"beat08","start":60.833333,"duration":9.333333,"title":"เตรียม Key และส่งคำถามแรก","kind":"request-first"},
+    {"id":"beat09","start":70.166667,"duration":12.0,"title":"อ่านผลแบบ SSE","kind":"stream-events"},
+    {"id":"beat10","start":82.166667,"duration":9.0,"title":"ส่งคำถามต่อด้วยบทสนทนาเดิม","kind":"summary-recap"}
+  ],
+  "stages": [
+    {"id":"b1-hook-1","beat":"beat01","frames":110,"file":"b1-hook-1.png","caption":"เคยขอให้ผู้ช่วยช่วยเขียนข้อความ แล้วอยากให้แก้ต่ออีกนิดไหม?"},
+    {"id":"b1-hook-2","beat":"beat01","frames":110,"file":"b1-hook-2.png","caption":"คลิปนี้จะพาจากคำถามแรก ไปจนถึงการถามต่อในบทสนทนาเดิม"},
+    {"id":"b2-chat-q","beat":"beat02","frames":120,"file":"b2-chat-q.png","caption":"ในแชท ผู้ใช้พิมพ์สิ่งที่อยากให้ Agent ช่วย แล้วอ่านคำตอบ"},
+    {"id":"b2-chat-a","beat":"beat02","frames":120,"file":"b2-chat-a.png","caption":"ตัวอย่างนี้เป็นภาพจำลองเพื่ออธิบายแนวคิด ไม่ใช่หน้าจอจริง"},
+    {"id":"b3-followup-q","beat":"beat03","frames":120,"file":"b3-followup-q.png","caption":"ถ้าอยากปรับคำตอบ ก็พิมพ์ถามต่อได้ เช่น ขอให้สั้นลง"},
+    {"id":"b3-followup-a","beat":"beat03","frames":120,"file":"b3-followup-a.png","caption":"ระบบเชื่อมบทสนทนาเดิมด้วย conversation_id โดยอัตโนมัติ"},
+    {"id":"b4-arch-front","beat":"beat04","frames":100,"file":"b4-arch-front.png","caption":"เมื่อเชื่อม API แอปส่งคำขอจากระบบหลังบ้านไปยัง LangMind"},
+    {"id":"b4-arch-back","beat":"beat04","frames":100,"file":"b4-arch-back.png","caption":"API Key ควรอยู่ฝั่ง server; ส่วนหน้าตาแชทเป็นงานของแอป"},
+    {"id":"b4-arch-api","beat":"beat04","frames":100,"file":"b4-arch-api.png","caption":"LangMind Agent ประมวลผลคำขอและส่งข้อมูลกลับให้แอปแสดงผล"},
+    {"id":"b5-ep-stream","beat":"beat05","frames":105,"file":"b5-ep-stream.png","caption":"Chat API มีเส้นส่งข้อความแบบ stream (SSE) เป็นค่าเริ่มต้น"},
+    {"id":"b5-ep-blocking","beat":"beat05","frames":105,"file":"b5-ep-blocking.png","caption":"และมีแบบ blocking สำหรับรอรับ JSON คำตอบฉบับเต็มทั้งก้อน"},
+    {"id":"b5-ep-preview-stop","beat":"beat05","frames":105,"file":"b5-ep-preview-stop.png","caption":"พร้อม endpoint สำหรับ preview ใน Builder และคำสั่ง stop stream"},
+    {"id":"b6-ep-read","beat":"beat06","frames":135,"file":"b6-ep-read.png","caption":"ดูรายการ รายละเอียด และข้อความในบทสนทนา โดยระบุ agent ID"},
+    {"id":"b6-ep-manage","beat":"beat06","frames":135,"file":"b6-ep-manage.png","caption":"แก้ชื่อ/สถานะด้วย PATCH หรือเลือก DELETE เพื่อลบบทสนทนาถาวร"},
+    {"id":"b7-ep-feedback","beat":"beat07","frames":120,"file":"b7-ep-feedback.png","caption":"ให้ feedback คำตอบได้สองค่า (1 หรือ -1) สำหรับประเมินผล"},
+    {"id":"b7-ep-files","beat":"beat07","frames":120,"file":"b7-ep-files.png","caption":"ดาวน์โหลดไฟล์ที่สร้างได้ โดยทุก endpoint ใช้ scope chat:invoke"},
+    {"id":"b8-req-auth","beat":"beat08","frames":140,"file":"b8-req-auth.png","caption":"สร้าง Personal API Key (scope chat:invoke) แล้วเก็บใน Backend"},
+    {"id":"b8-req-curl","beat":"beat08","frames":140,"file":"b8-req-curl.png","caption":"ส่ง agent_id, คำถาม, และใส่ conversation_id เป็น null เพื่อเริ่มใหม่"},
+    {"id":"b9-sse-start","beat":"beat09","frames":90,"file":"b9-sse-start.png","caption":"เริ่มด้วย message_start ได้ ID ของข้อความและบทสนทนา"},
+    {"id":"b9-sse-chunks","beat":"beat09","frames":90,"file":"b9-sse-chunks.png","caption":"ตามด้วย message ที่ทยอยส่งข้อความเป็นช่วง (chunks)"},
+    {"id":"b9-sse-citations","beat":"beat09","frames":90,"file":"b9-sse-citations.png","caption":"อาจมี citations ส่งมาประกอบคำตอบเมื่อเกี่ยวข้อง"},
+    {"id":"b9-sse-end","beat":"beat09","frames":90,"file":"b9-sse-end.png","caption":"ปิดท้ายด้วย message_end ที่มีคำตอบฉบับเต็มและ usage ให้แอปใช้งาน"},
+    {"id":"b10-cont-body","beat":"beat10","frames":135,"file":"b10-cont-body.png","caption":"ถามต่อได้ทันทีโดยส่งคำถามใหม่พร้อม conversation_id เดิม"},
+    {"id":"b10-summary","beat":"beat10","frames":135,"file":"b10-summary.png","caption":"สรุป 3 ขั้น: เลือก endpoint ให้ตรงงาน, ส่งข้อความ, และเก็บ ID เพื่อคุยต่อ"}
+  ],
+  "claims": {
+    "documented": [
+      "Chat API scope is chat:invoke",
+      "POST /api/chat/message uses Server-Sent Events (SSE)",
+      "POST /api/chat/message/blocking returns full JSON response",
+      "POST /api/chat/preview targets published Agent version on channel web",
+      "POST /api/chat/messages/{id}/stop halts the ongoing generation stream",
+      "GET /api/chat/conversations, GET .../{id}, GET .../{id}/messages require agent_id",
+      "PATCH /api/chat/conversations/{id} updates metadata, DELETE deletes permanently",
+      "POST /api/chat/messages/{id}/feedback accepts rating 1 or -1",
+      "GET /api/chat/messages/{id}/generated-files/{file_id} downloads generated files",
+      "SSE events sequence: message_start -> message chunks -> citations (optional) -> message_end",
+      "conversation_id is null for starting a new conversation; returned in message_start and message_end",
+      "Follow-up request reuses conversation_id in JSON payload",
+      "API Key is held securely on backend/server side, never leaked to client bundle"
+    ],
+    "illustrative": [
+      "User drafting meeting postponement to 15:00 and requesting shortening",
+      "Simulated chat bubbles marked with 'ภาพจำลอง'",
+      "Placeholder LM_TOKEN, AGENT_ID, CONVERSATION_ID"
+    ],
+    "unknown": [
+      "Exact provider latency and token timing on live API",
+      "Final production voiceover timing prior to voice talent selection"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1080,height=1920" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../assets/gsap.min.js"></script>
+    <style>
+      .stream-label { position:absolute; left:144px; top:282px; color:var(--forest); font-size:28px; font-weight:700; }
+      .code-host { left:144px; top:326px; width:792px; height:820px; overflow:hidden; }
+    </style>
+  </head>
+  <body>
+    <main id="root" style="position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--ground);font-family:Sarabun,sans-serif;color:var(--ink)" data-composition-id="b4" data-width="1080" data-height="1920" data-duration="17.088">
+      <div class="scene-ground" data-layout-ignore></div><header class="series-header" data-layout-ignore><span>LANGMIND · EP03 / CHAT API</span><span class="page-index">04 / 09</span></header><!-- Adapted from the HyperFrames Catalog component: Onboarding Stepper Flow (HF-337). -->
+<nav id="ep03-stepper" class="hf-ui-onboarding-flow" aria-label="ลำดับเนื้อหา" data-layout-ignore>
+  <div class="hf-ui-onboarding-steps">
+    <span class="done"><i>1</i>รู้จักแชต</span>
+    <span class="active"><i>2</i>ส่งคำถาม</span>
+    <span class=""><i>3</i>ถามต่อ</span>
+  </div>
+</nav>
+<style>
+  .hf-ui-onboarding-flow { position:absolute; left:72px; top:116px; width:936px; height:62px; }
+  .hf-ui-onboarding-steps { display:flex; justify-content:space-between; gap:14px; width:100%; height:100%; }
+  .hf-ui-onboarding-steps span { flex:1; display:flex; justify-content:center; align-items:center; gap:9px; border:2px solid #C9D7D2; border-radius:32px; background:#FFFEFA; color:#536575; font:700 25px Sarabun,sans-serif; transform-origin:center; }
+  .hf-ui-onboarding-steps i { width:32px; height:32px; border-radius:50%; background:#D7DFDD; color:#1D2B39; font:700 20px/32px Sarabun,sans-serif; text-align:center; font-style:normal; }
+  .hf-ui-onboarding-steps .done { background:#E1EEE9; border-color:#006D5E; color:#006D5E; }
+  .hf-ui-onboarding-steps .done i { background:#006D5E; color:#FFFEFA; }
+  .hf-ui-onboarding-steps .active { background:#E1F0EE; border-color:#277D7A; color:#176360; }
+  .hf-ui-onboarding-steps .active i { background:#277D7A; color:#FFFEFA; }
+</style>
+
+      <div id="b4-title" class="clip headline" data-start="0" data-duration="17.088" data-track-index="1">ส่งคำถามไปที่ API</div>
+      <div id="b4-stream" class="clip stream-label" data-start="0" data-duration="17.088" data-track-index="2">Authorization: Bearer $LM_TOKEN · server</div>
+      <div id="b4-code-host" class="clip code-host" data-start="0" data-duration="17.088" data-composition-src="./compositions/code-highlight.html" data-composition-id="code-highlight" data-track-index="3" data-track-kind="graphics"></div>
+    </main>
+    <script>
+      (() => {
+        const root = document.getElementById("root");
+        const tl = gsap.timeline({ paused: true });
+        tl.fromTo("#ep03-stepper .hf-ui-onboarding-steps span", { scale: 0.88, opacity: 0.55 }, { scale: 1, opacity: 1, duration: 0.28, stagger: 0.08, ease: "back.out(1.4)" }, 0.12);
+        window.__timelines = window.__timelines || {};
+        window.__timelines[root.dataset.compositionId] = tl;
+      })();
+    </script>
+  </body>
+</html>

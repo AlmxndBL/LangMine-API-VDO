@@ -1,0 +1,28 @@
+<template>
+<style>*{box-sizing:border-box}
+@font-face{font-family:Sarabun;src:url("assets/fonts/Sarabun-Bold.ttf");font-weight:bold}
+@font-face{font-family:Sarabun;src:url("assets/fonts/Sarabun-Regular.ttf");font-weight:normal}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#f8f4e9}
+#root{position:absolute;inset:0;width:1080px;height:1920px;overflow:hidden}
+.plate{position:absolute;inset:0;width:1080px;height:1920px;object-fit:cover;opacity:0}
+</style>
+<div id="root" data-composition-id="beat09" data-width="1080" data-height="1920" data-duration="12" data-layout-allow-overlap="true">
+<img id="stage-b9-sse-start" class="clip plate" data-start="0" data-duration="3" data-track-index="0" data-layout-allow-overlap="true" src="assets/plates/v4/b9-sse-start.png" alt="อ่านผลแบบ SSE — b9-sse-start">
+<img id="stage-b9-sse-chunks" class="clip plate" data-start="3" data-duration="3" data-track-index="0" data-layout-allow-overlap="true" src="assets/plates/v4/b9-sse-chunks.png" alt="อ่านผลแบบ SSE — b9-sse-chunks">
+<img id="stage-b9-sse-citations" class="clip plate" data-start="6" data-duration="3" data-track-index="0" data-layout-allow-overlap="true" src="assets/plates/v4/b9-sse-citations.png" alt="อ่านผลแบบ SSE — b9-sse-citations">
+<img id="stage-b9-sse-end" class="clip plate" data-start="9" data-duration="3" data-track-index="0" data-layout-allow-overlap="true" src="assets/plates/v4/b9-sse-end.png" alt="อ่านผลแบบ SSE — b9-sse-end">
+</div>
+<script>
+  window.__timelines = window.__timelines || {};
+  const tl = gsap.timeline({paused:true});
+  tl.set("#stage-b9-sse-start", {opacity:1}, 0);
+  tl.set("#stage-b9-sse-start", {opacity:0}, 3);
+  tl.set("#stage-b9-sse-chunks", {opacity:1}, 3);
+  tl.set("#stage-b9-sse-chunks", {opacity:0}, 6);
+  tl.set("#stage-b9-sse-citations", {opacity:1}, 6);
+  tl.set("#stage-b9-sse-citations", {opacity:0}, 9);
+  tl.set("#stage-b9-sse-end", {opacity:1}, 9);
+  tl.set("#stage-b9-sse-end", {opacity:0}, 12);
+  window.__timelines["beat09"] = tl;
+</script>
+</template>

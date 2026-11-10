@@ -1,0 +1,36 @@
+<!--
+  Adapted from the HyperFrames Catalog component "Before After Wipe":
+  https://hyperframes.heygen.com/catalog/components/before-after-wipe
+  Official source: https://raw.githubusercontent.com/heygen-com/hyperframes/main/registry/components/before-after-wipe/before-after-wipe.html
+  Preview inspected. The before slot remains the base; the after slot wipes
+  from the left, then a divider rests at 50%. This local adaptation uses the
+  project's illustration raster files and local GSAP; no remote scripts.
+  Limit: a single comparison pass; it does not represent measured API timing.
+-->
+<style>
+#baw-clip{position:absolute;left:50px;top:420px;width:980px;height:820px;overflow:hidden;border:3px solid #c8d3cf;border-radius:28px;background:#fffdf8;z-index:2}
+#baw-stage,.baw-panel{position:absolute;inset:0;width:100%;height:100%}
+#baw-stage{--baw-split:0;opacity:0;isolation:isolate}
+.baw-panel{overflow:hidden}
+.baw-slot,.baw-slot>img{position:absolute;inset:0;width:100%;height:100%}
+.baw-slot>img{object-fit:contain}
+.baw-after{z-index:2;clip-path:inset(0 calc((100 - var(--baw-split))*1%) 0 0)}
+.baw-chip{position:absolute;z-index:4;top:18px;padding:12px 20px;border:2px solid #c8d3cf;border-radius:999px;background:rgba(255,253,248,.96);color:#162536;font:700 27px/1.05 Sarabun,Arial,sans-serif;white-space:nowrap}
+.baw-before .baw-chip{right:18px}
+.baw-after .baw-chip{left:18px;border-color:#08795f;color:#075c4a}
+#baw-divider{position:absolute;z-index:5;top:0;bottom:0;left:calc(var(--baw-split)*1%);width:5px;transform:translateX(-50%);background:#fff;box-shadow:0 0 0 1px rgba(22,37,54,.2);pointer-events:none;opacity:0}
+#baw-divider:after{content:"";position:absolute;left:50%;top:50%;width:58px;height:58px;transform:translate(-50%,-50%);border:5px solid #08795f;border-radius:50%;background:#fffdf8;box-shadow:0 2px 8px rgba(22,37,54,.2)}
+</style>
+<div id="baw-clip" data-layout-allow-overlap="true" aria-label="ภาพอธิบายเปรียบเทียบการรอรับครบกับการทยอยแสดง">
+  <div id="baw-stage">
+    <section class="baw-panel baw-before" aria-label="รับคำตอบครบก่อนแสดง">
+      <div class="baw-slot" data-slot="before"><img src="assets/illustrations/v3.1/batch-complete.png" alt="แผนภาพรอรับคำตอบครบก่อนแสดง"></div>
+      <div class="baw-chip">รับคำตอบครบ</div>
+    </section>
+    <section class="baw-panel baw-after" aria-label="ทยอยแสดงข้อมูลที่ได้รับ">
+      <div class="baw-slot" data-slot="after"><img src="assets/illustrations/v3.1/stream-chunks.png" alt="แผนภาพข้อความที่ทยอยมาเป็นชิ้น"></div>
+      <div class="baw-chip">ทยอยแสดง</div>
+    </section>
+    <div id="baw-divider" aria-hidden="true"></div>
+  </div>
+</div>

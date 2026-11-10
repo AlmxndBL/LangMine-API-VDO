@@ -1,0 +1,26 @@
+<template>
+<style>*{box-sizing:border-box}
+@font-face{font-family:Sarabun;src:url("assets/fonts/Sarabun-Bold.ttf")}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#f3f0e8}
+#root{position:absolute;inset:0;width:1080px;height:1920px;overflow:hidden}
+.plate{position:absolute;inset:0;width:1080px;height:1920px;object-fit:cover;opacity:0}
+</style>
+<div id="root" data-composition-id="beat04" data-width="1080" data-height="1920" data-duration="12" data-layout-allow-overlap="true">
+<img id="stage-b4-roles-1" class="clip plate" data-start="0" data-duration="4" data-track-index="0" data-layout-allow-overlap="true" src="assets/plates/v3.1/b4-roles-1.png" alt="ใครส่ง ใครอ่าน ใครแสดง — b4-roles-1">
+<img id="stage-b4-roles-2" class="clip plate" data-start="4" data-duration="4" data-track-index="0" data-layout-allow-overlap="true" src="assets/plates/v3.1/b4-roles-2.png" alt="ใครส่ง ใครอ่าน ใครแสดง — b4-roles-2">
+<img id="stage-b4-roles-3" class="clip plate" data-start="8" data-duration="4" data-track-index="0" data-layout-allow-overlap="true" src="assets/plates/v3.1/b4-roles-3.png" alt="ใครส่ง ใครอ่าน ใครแสดง — b4-roles-3">
+
+</div>
+<script>
+  window.__timelines = window.__timelines || {};
+  const tl = gsap.timeline({paused:true});
+  tl.set("#stage-b4-roles-1", {opacity:1}, 0);
+  tl.set("#stage-b4-roles-1", {opacity:0}, 4);
+  tl.set("#stage-b4-roles-2", {opacity:1}, 4);
+  tl.set("#stage-b4-roles-2", {opacity:0}, 8);
+  tl.set("#stage-b4-roles-3", {opacity:1}, 8);
+  tl.set("#stage-b4-roles-3", {opacity:0}, 12);
+
+  window.__timelines["beat04"] = tl;
+</script>
+</template>

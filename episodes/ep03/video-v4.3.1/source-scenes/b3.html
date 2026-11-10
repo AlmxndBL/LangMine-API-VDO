@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1080,height=1920" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../assets/gsap.min.js"></script>
+    <style>
+      .prep-name { position:absolute; left:250px; color:var(--ink); font-size:48px; font-weight:700; line-height:1.18; }
+      .prep-note { position:absolute; left:250px; width:720px; color:var(--muted); font-size:32px; line-height:1.3; }
+      .prep-mark { position:absolute; left:132px; width:28px; height:28px; border:5px solid var(--accent); border-radius:50%; background:var(--ground); }
+    </style>
+  </head>
+  <body>
+    <main id="root" style="position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--ground);font-family:Sarabun,sans-serif;color:var(--ink)" data-composition-id="b3" data-width="1080" data-height="1920" data-duration="__DURATION__">
+      <div class="scene-ground" data-layout-ignore></div>
+      <div id="b3-title" class="clip headline" data-start="0" data-duration="__DURATION__" data-track-index="1">เตรียมของสองอย่าง</div>
+      <div id="b3-vertical-path" class="clip" data-start="0" data-duration="__DURATION__" data-track-index="2" style="left:0;top:310px;width:1080px;height:760px">
+        <svg width="1080" height="760" viewBox="0 0 1080 760" aria-hidden="true"><path id="b3-spine" d="M146 70 L146 350" fill="none" stroke="#C9D7D2" stroke-width="6" /></svg>
+      </div>
+      <div id="b3-agent" class="clip" data-start="0.5" data-duration="__DURATION__" data-track-index="3" style="left:0;top:365px;width:900px;height:150px"><div class="prep-mark" style="top:8px"></div><div class="prep-name">agent_id</div><div class="prep-note" style="top:62px">ใช้ ID ของ Agent ที่มีอยู่</div></div>
+      <div id="b3-scope" class="clip" data-start="1.5" data-duration="__DURATION__" data-track-index="3" style="left:0;top:645px;width:980px;height:180px"><div class="prep-mark" style="top:8px"></div><div class="prep-name">API key · chat:invoke</div><div class="prep-note" style="top:66px">สิทธิ์เรียก Chat API · เก็บ key ที่ server</div></div>
+      <div id="b3-secret" class="clip" data-start="2.4" data-duration="__DURATION__" data-track-index="4" style="left:220px;top:900px;width:700px;height:90px"><div style="padding:18px 22px;border:2px solid var(--teal);border-radius:36px;background:#E1F0EE;color:#176360;text-align:center;font-size:30px;font-weight:700">ห้ามใส่ API key ในหน้าเว็บ</div></div>
+    </main>
+    <script>
+      (() => {
+        const root = document.getElementById("root");
+        const tl = gsap.timeline({ paused: true });
+        const spine = document.getElementById("b3-spine");
+        spine.style.strokeDasharray = spine.getTotalLength();
+        spine.style.strokeDashoffset = spine.getTotalLength();
+        tl.to(spine, { strokeDashoffset: 0, duration: 1.8, ease: "none" }, 0.2);
+        ["#b3-agent", "#b3-scope", "#b3-secret"].forEach((selector) => {
+          const node = document.querySelector(selector);
+          const start = Number(node.dataset.start);
+          gsap.set(node, { opacity: 0 });
+          tl.to(node, { opacity: 1, duration: 0.18, ease: "none" }, start);
+        });
+        window.__timelines = window.__timelines || {};
+        window.__timelines[root.dataset.compositionId] = tl;
+      })();
+    </script>
+  </body>
+</html>

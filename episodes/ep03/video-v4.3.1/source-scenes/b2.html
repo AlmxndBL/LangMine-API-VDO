@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1080,height=1920" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../assets/gsap.min.js"></script>
+    <style>
+      .role-label { position: absolute; left: 270px; color: var(--ink); font-size: 48px; font-weight: 700; line-height: 1.15; }
+      .role-note { position: absolute; left: 270px; color: var(--muted); font-size: 32px; line-height: 1.3; }
+      .path-label { position: absolute; color: var(--accent); font-size: 30px; font-weight: 700; }
+    </style>
+  </head>
+  <body>
+    <main id="root" style="position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--ground);font-family:Sarabun,sans-serif;color:var(--ink)" data-composition-id="b2" data-width="1080" data-height="1920" data-duration="__DURATION__">
+      <div class="scene-ground" data-layout-ignore></div>
+      <div id="b2-title" class="clip headline" data-start="0" data-duration="__DURATION__" data-track-index="1">ถ้าอยากมีแชตในแอปเรา</div>
+      <div id="b2-arrows" class="clip" data-start="0" data-duration="__DURATION__" data-track-index="2" style="left:0;top:310px;width:1080px;height:760px">
+        <svg width="1080" height="760" viewBox="0 0 1080 760" aria-hidden="true">
+          <defs><marker id="arrow-down" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#1D2B39" /></marker><marker id="arrow-up" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#277D7A" /></marker></defs>
+          <path id="b2-request-path" d="M190 42 L190 620" fill="none" stroke="#1D2B39" stroke-width="6" marker-end="url(#arrow-down)" />
+          <path id="b2-response-path" d="M925 620 L925 42" fill="none" stroke="#277D7A" stroke-width="6" marker-end="url(#arrow-up)" />
+          <circle cx="190" cy="75" r="12" fill="#183431" /><circle cx="190" cy="252" r="12" fill="#183431" /><circle cx="190" cy="430" r="12" fill="#183431" /><circle cx="190" cy="610" r="12" fill="#183431" />
+        </svg>
+      </div>
+      <div id="b2-app" class="clip" data-start="0.4" data-duration="__DURATION__" data-track-index="3" style="left:0;top:345px;width:900px;height:130px"><div class="role-label">แอปของคุณ</div><div class="role-note" style="top:56px">หน้าจอที่ผู้ใช้เห็น</div></div>
+      <div id="b2-server" class="clip" data-start="1.2" data-duration="__DURATION__" data-track-index="4" style="left:0;top:525px;width:900px;height:130px"><div class="role-label">server</div><div class="role-note" style="top:56px">เก็บ key และเรียก API</div></div>
+      <div id="b2-api" class="clip" data-start="2.0" data-duration="__DURATION__" data-track-index="5" style="left:0;top:704px;width:900px;height:130px"><div class="role-label">LangMind Chat API</div><div class="role-note" style="top:56px">รับคำถามและส่ง event กลับ</div></div>
+      <div id="b2-agent" class="clip" data-start="2.8" data-duration="__DURATION__" data-track-index="6" style="left:0;top:882px;width:900px;height:130px"><div class="role-label">Agent</div><div class="role-note" style="top:56px">Agent ที่เตรียมไว้</div></div>
+      <div id="b2-return-label" class="clip path-label" data-start="3.4" data-duration="__DURATION__" data-track-index="7" style="left:820px;top:565px">SSE กลับ</div>
+    </main>
+    <script>
+      (() => {
+        const root = document.getElementById("root");
+        const tl = gsap.timeline({ paused: true });
+        ["#b2-app", "#b2-server", "#b2-api", "#b2-agent", "#b2-return-label"].forEach((selector) => {
+          const node = document.querySelector(selector);
+          const start = Number(node.dataset.start);
+          gsap.set(node, { opacity: 0 });
+          tl.to(node, { opacity: 1, duration: 0.16, ease: "none" }, start);
+        });
+        const request = document.getElementById("b2-request-path");
+        const response = document.getElementById("b2-response-path");
+        request.style.strokeDasharray = request.getTotalLength();
+        request.style.strokeDashoffset = request.getTotalLength();
+        response.style.strokeDasharray = response.getTotalLength();
+        response.style.strokeDashoffset = response.getTotalLength();
+        tl.to(request, { strokeDashoffset: 0, duration: 2.2, ease: "none" }, 0.3);
+        tl.to(response, { strokeDashoffset: 0, duration: 2.2, ease: "none" }, 3.2);
+        window.__timelines = window.__timelines || {};
+        window.__timelines[root.dataset.compositionId] = tl;
+      })();
+    </script>
+  </body>
+</html>

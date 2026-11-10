@@ -1,0 +1,18 @@
+<!-- Adapted from the HyperFrames Catalog component: Onboarding Stepper Flow (HF-337). -->
+<nav id="ep03-stepper" class="hf-ui-onboarding-flow" aria-label="ลำดับเนื้อหา" data-layout-ignore>
+  <div class="hf-ui-onboarding-steps">
+    <span class="__STEP1_CLASS__"><i>1</i>รู้จักแชต</span>
+    <span class="__STEP2_CLASS__"><i>2</i>ส่งคำถาม</span>
+    <span class="__STEP3_CLASS__"><i>3</i>ถามต่อ</span>
+  </div>
+</nav>
+<style>
+  .hf-ui-onboarding-flow { position:absolute; left:72px; top:116px; width:936px; height:62px; }
+  .hf-ui-onboarding-steps { display:flex; justify-content:space-between; gap:14px; width:100%; height:100%; }
+  .hf-ui-onboarding-steps span { flex:1; display:flex; justify-content:center; align-items:center; gap:9px; border:2px solid #C9D7D2; border-radius:32px; background:#FFFEFA; color:#536575; font:700 25px Sarabun,sans-serif; transform-origin:center; }
+  .hf-ui-onboarding-steps i { width:32px; height:32px; border-radius:50%; background:#D7DFDD; color:#1D2B39; font:700 20px/32px Sarabun,sans-serif; text-align:center; font-style:normal; }
+  .hf-ui-onboarding-steps .done { background:#E1EEE9; border-color:#006D5E; color:#006D5E; }
+  .hf-ui-onboarding-steps .done i { background:#006D5E; color:#FFFEFA; }
+  .hf-ui-onboarding-steps .active { background:#E1F0EE; border-color:#277D7A; color:#176360; }
+  .hf-ui-onboarding-steps .active i { background:#277D7A; color:#FFFEFA; }
+</style>

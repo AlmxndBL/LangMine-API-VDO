@@ -20,6 +20,8 @@
 
 รอบนี้บันทึกแผนและออกแบบช่วงเพิ่มเติม ยังไม่ผลิต timeline ภาพ เสียง หรือ MP4 ดู [แผน EP02](../../episodes/ep02-custom-chat/PLAN.md) สำหรับขอบเขตที่อนุมัติ แบบช่วงท้าย ข้อจำกัด Catalog และลำดับงานถัดไป ไม่ตีความการอนุมัติแนวเรื่องเป็นผลตรวจรับภาพหรือเสียงที่ยังไม่ผลิต
 
+### สถานะ EP03 ที่ส่งต่อจาก dev_boy
+10 พ.ย. 2026: ทำ [EP03 v4.3.1 Silent Draft](../../episodes/ep03/video-v4.3.1/renders/ep03-v4.3.1-silent.mp4) ให้เข้าใจง่ายขึ้นเป็น 9 beats, 112.5s, 1080×1920/30fps; ไม่มีเสียง. HyperFrames lint ผ่าน 0 errors/0 warnings; MP4 ใช้ Pillow + FFmpeg fallback และ decode ผ่าน. Native preview/render ยังไม่ได้ยืนยันใน environment นี้; Catalog source integration กับสถานะ preview แยกไว้ใน [CATALOG](../../episodes/ep03/video-v4.3.1/CATALOG.md). แผน/source/ข้อจำกัดอยู่ [README v4.3.1](../../episodes/ep03/video-v4.3.1/README.md), [REVIEW](../../episodes/ep03/video-v4.3.1/REVIEW.md) และ [README EP03](../../episodes/ep03/README.md). v4.3/v4.2 และรุ่นก่อนยังคงเก็บไว้. ขั้นถัดไปหลังตรวจบทคือทำ voice sample ให้ผู้ใช้เลือกก่อนเสียงเต็มและ sync.
 ## ประวัติการจัดฐานกลางก่อนคำสั่งรีเซ็ต EP01
 ส่วนด้านล่างบันทึกรอบก่อน ไม่ใช่สถานะหรือสิทธิ์ผลิตปัจจุบัน ไฟล์ EP01 เก่าที่กล่าวถึงถูกลบแล้ว
 

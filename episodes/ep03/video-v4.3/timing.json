@@ -1,0 +1,97 @@
+{
+  "episode": "EP03",
+  "version": "v4.3",
+  "title": "Chat API: จากคำถามแรกสู่การถามต่อ",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "mode": "silent-draft",
+  "durationFormula": {
+    "charactersPerSecond": 11,
+    "pauseSecondsPerBeat": 0.35,
+    "note": "Approximate silent timing from Thai script length plus per-beat hold; not synchronized to recorded audio."
+  },
+  "beats": [
+    {
+      "id": "b1",
+      "title": "ขอร่าง แล้วขอแก้ต่อ",
+      "narration": "อยากเลื่อนประชุม แต่คิดคำสุภาพไม่ออก? ผู้ใช้ขอร่าง แล้วขอให้ย่ออีกครั้ง",
+      "subtitle": "อยากเลื่อนประชุม แต่คิดคำสุภาพไม่ออก?\nผู้ใช้ขอร่าง แล้วขอให้ย่ออีกครั้ง",
+      "onScreenText": "จากคำขอหนึ่งครั้ง ไปถึงการถามต่อ",
+      "visual": "CHAT-01 raster mockup with question and answer visible at frame 0; robot 01-question supports the hook.",
+      "holdSeconds": 0.8
+    },
+    {
+      "id": "b2",
+      "title": "ใครแสดงหน้าจอ",
+      "narration": "ในแอปของคุณ แอปเป็นคนแสดงหน้าจอ; server ส่งคำถามผ่าน Chat API ไปยัง Agent",
+      "subtitle": "แอปของคุณแสดงหน้าจอ\nserver ส่งคำถามผ่าน Chat API ไปยัง Agent",
+      "onScreenText": "แอปของคุณ → server → Chat API → Agent",
+      "visual": "One-way request path and return stream; show one role at a time, no fake product UI.",
+      "holdSeconds": 0.9
+    },
+    {
+      "id": "b3",
+      "title": "เตรียมก่อนเรียก",
+      "narration": "เตรียม agent_id กับ API key ที่มีสิทธิ์ chat:invoke; เก็บ key ไว้ฝั่ง server ไม่ใส่ browser",
+      "subtitle": "เตรียม agent_id กับ API key ที่มีสิทธิ์ chat:invoke;\nเก็บ key ไว้ฝั่ง server ไม่ใส่ browser",
+      "onScreenText": "agent_id · chat:invoke · เก็บ key ฝั่ง server",
+      "visual": "A single vertical setup path: existing Agent ID, least scope needed, server-side secret.",
+      "holdSeconds": 0.9
+    },
+    {
+      "id": "b4",
+      "title": "ส่งคำถาม",
+      "narration": "เริ่มด้วย POST /api/chat/message แบบ SSE ที่ทยอยส่งข้อมูล; ส่ง agent_id, query และ conversation_id: null เพื่อเปิดบทสนทนาใหม่",
+      "subtitle": "เริ่มด้วย POST /api/chat/message แบบ SSE\nที่ทยอยส่งข้อมูล; ส่ง agent_id, query\nและ conversation_id: null เพื่อเริ่มใหม่",
+      "onScreenText": "POST /api/chat/message · SSE stream",
+      "visual": "Catalog Code Highlight source emphasizes the conversation_id field in an illustrative request body.",
+      "holdSeconds": 1.5
+    },
+    {
+      "id": "b5",
+      "title": "อ่าน SSE events",
+      "narration": "message_start แจ้ง ID ของบทสนทนาและข้อความ; message ทยอยส่งคำตอบ, citations อาจมี แล้ว message_end ส่งคำตอบฉบับเต็ม",
+      "subtitle": "message_start แจ้ง ID ของบทสนทนาและข้อความ\nmessage ส่งคำตอบทีละช่วง; citations อาจมี\nmessage_end ส่งคำตอบฉบับเต็ม",
+      "onScreenText": "message_start → message → citations (อาจมี) → message_end",
+      "visual": "Illustrative event path; no fabricated IDs, citations, answer, usage or terminal output.",
+      "holdSeconds": 2.2
+    },
+    {
+      "id": "b6",
+      "title": "ถามต่อในบทสนทนาเดิม",
+      "narration": "เก็บ conversation_id ไว้; เมื่อถามต่อ ส่ง ID เดิมเพื่อกลับไปยังบทสนทนาเดิม",
+      "subtitle": "เก็บ conversation_id ไว้; เมื่อถามต่อ\nส่ง ID เดิมเพื่อกลับไปยังบทสนทนาเดิม",
+      "onScreenText": "คำถามถัดไปใช้ conversation_id เดิม",
+      "visual": "CHAT-02 continues the same illustrative conversation; an external path returns the ID to the next request.",
+      "holdSeconds": 1.1
+    },
+    {
+      "id": "b7",
+      "title": "เส้นทางอื่นของ Chat API",
+      "narration": "นอกจากแบบทยอยส่ง ยังมีแบบรอคำตอบเต็ม; พรีวิวใน Agent Builder; หยุด stream; ดูหรือจัดการประวัติ; ให้คะแนนคำตอบ และดาวน์โหลดไฟล์ที่ Agent สร้าง",
+      "subtitle": "ยังเลือกแบบรอคำตอบเต็มหรือพรีวิวใน Agent Builder\nหยุด stream และอ่านหรือจัดการประวัติได้\nรวมถึงให้คะแนนคำตอบและดาวน์โหลดไฟล์จาก Agent",
+      "onScreenText": "ส่ง/ควบคุม · ประวัติ · feedback/ไฟล์",
+      "visual": "Grouped Chat API route map from langmind-api.md; history routes visibly require agent_id.",
+      "holdSeconds": 3.3
+    },
+    {
+      "id": "b8",
+      "title": "กลับไปที่ผู้ใช้",
+      "narration": "สรุป: server ส่งคำถาม; แอปรับ stream และแสดงคำตอบ; ส่ง conversation_id เดิมเมื่อถามต่อ",
+      "subtitle": "server ส่งคำถาม; แอปรับ stream และแสดงคำตอบ\nส่ง conversation_id เดิมเมื่อถามต่อ",
+      "onScreenText": "server ส่ง → แอปแสดง → ID ใช้ถามต่อ",
+      "visual": "Return to CHAT-02; one path connects the conversation to the repeated request.",
+      "holdSeconds": 0.9
+    },
+    {
+      "id": "b9",
+      "title": "LangMind API",
+      "narration": "หน้าจอและคำตอบเป็นภาพจำลอง ไม่ได้เรียก API จริง. ดูคู่มือ Chat API ที่ langmind.in.th",
+      "subtitle": "หน้าจอและคำตอบเป็นภาพจำลอง ไม่ได้เรียก API จริง.\nดูคู่มือ Chat API ที่ langmind.in.th",
+      "onScreenText": "LangMind API · langmind.in.th",
+      "visual": "Real LangMind logo, carried in once and held; no sponsor claim.",
+      "holdSeconds": 1.3
+    }
+  ]
+}
