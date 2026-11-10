@@ -1,0 +1,286 @@
+{
+  "fps": 30,
+  "lead_in": 0.4,
+  "beat_gap": 0.5,
+  "tail": 2.0,
+  "chars_per_second": 11,
+  "note": "EP14 Errors / Rate Limit & Quota (use case: the shop's backend from EP12/EP13 hits errors). say = narration, cap = caption. Run `python make-voice-samples.py` then `node build.mjs`.",
+  "beats": [
+    {
+      "id": "b1",
+      "voice": "assets/voice/b1.wav",
+      "segments": [
+        {
+          "cue": "broken",
+          "say": "ระบบหลังบ้านของร้าน เรียก API ของ LangMind ทุกวัน แต่วันหนึ่ง หน้ากล่องแชทก็ขึ้นว่า เกิดข้อผิดพลาด",
+          "cap": "ระบบหลังบ้านเรียก API ทุกวัน\nวันหนึ่งหน้ากล่องแชทขึ้นว่า “เกิดข้อผิดพลาด”"
+        },
+        {
+          "cue": "why",
+          "say": "ทีมไม่รู้ว่าพังเพราะอะไร ต้องแก้ตรงไหน หรือแค่รอแล้วลองใหม่",
+          "cap": "ไม่รู้ว่าพังเพราะอะไร ต้องแก้ตรงไหน\nหรือแค่รอแล้วลองใหม่"
+        },
+        {
+          "cue": "questions",
+          "say": "มาดูกันครับ ว่า error ของ LangMind หน้าตาแบบไหน แต่ละรหัสแปลว่าอะไร และระบบควรรับมือยังไง",
+          "cap": "error หน้าตาแบบไหน แต่ละรหัสแปลว่าอะไร\nและควรรับมือยังไง"
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "voice": "assets/voice/b2.wav",
+      "segments": [
+        {
+          "cue": "status",
+          "say": "ทุก error ของ LangMind หน้าตาเดียวกัน เป็น JSON ที่มี status เป็น error",
+          "cap": "ทุก error หน้าตาเดียวกัน\nเป็น JSON ที่มี status เป็น error"
+        },
+        {
+          "cue": "fields",
+          "say": "code บอกว่าเป็นกรณีไหน ส่วน message กับ message en คือข้อความภาษาไทย และภาษาอังกฤษ",
+          "cap": "code บอกว่าเป็นกรณีไหน\nmessage / message_en คือข้อความไทย / อังกฤษ"
+        },
+        {
+          "cue": "rid",
+          "say": "และ request id ประจำคำขอนั้น",
+          "cap": "และ request_id\nประจำคำขอนั้น"
+        },
+        {
+          "cue": "rule",
+          "say": "คู่มือแนะนำให้เช็กที่ code เพื่อจัดการแต่ละกรณี ไม่ต้องไปแกะข้อความ",
+          "cap": "เช็กที่ code เพื่อจัดการแต่ละกรณี\nไม่ต้องแกะข้อความ"
+        }
+      ],
+      "hold": 1.5
+    },
+    {
+      "id": "b3",
+      "voice": "assets/voice/b3.wav",
+      "segments": [
+        {
+          "cue": "cause",
+          "say": "รหัสแรก 401 UNAUTHORIZED แปลว่า API Key ขาด หมดอายุ หรือถูกเพิกถอน",
+          "cap": "401 UNAUTHORIZED: API Key ขาด\nหมดอายุ หรือถูกเพิกถอน"
+        },
+        {
+          "cue": "closed",
+          "say": "หรือไปเรียก endpoint ที่ปิดไว้สำหรับ API Key เช่น การจัดการ API Key หรือการตอบลูกค้าใน Inbox ซึ่งต้องเข้าสู่ระบบผ่านเว็บเท่านั้น",
+          "cap": "หรือเรียก endpoint ที่ปิดไว้สำหรับ API Key\nเช่น จัดการ API Key, ตอบลูกค้าใน Inbox"
+        },
+        {
+          "cue": "fix",
+          "say": "ทางแก้ เช็กว่าส่ง Authorization Bearer ถูกต้อง ถ้า Key หมดอายุหรือถูกเพิกถอน ให้สร้าง Key ใหม่ในหน้า Personal API Key",
+          "cap": "ทางแก้: เช็ก Authorization: Bearer\nKey หมดอายุ/ถูกเพิกถอน → สร้างใหม่"
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "voice": "assets/voice/b4.wav",
+      "segments": [
+        {
+          "cue": "cause",
+          "say": "403 FORBIDDEN แปลว่า Key ไม่มี scope ที่ endpoint นี้ต้องการ หรือ role ไม่พอ",
+          "cap": "403 FORBIDDEN: Key ไม่มี scope\nที่ endpoint ต้องการ หรือ role ไม่พอ"
+        },
+        {
+          "cue": "example",
+          "say": "เช่น Key ที่มีแค่ chat invoke แต่ไปเรียกรายการแชทใน Inbox ซึ่งต้องใช้ inbox read",
+          "cap": "เช่น Key มีแค่ chat:invoke\nแต่เรียกรายการแชท Inbox ที่ต้องใช้ inbox:read"
+        },
+        {
+          "cue": "fix",
+          "say": "ทางแก้ ใช้ Key ที่มี scope ตรงกับ endpoint และให้ scope เท่าที่จำเป็นเท่านั้น",
+          "cap": "ทางแก้: ใช้ Key ที่มี scope ตรงกับ endpoint\nให้เท่าที่จำเป็นเท่านั้น"
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "voice": "assets/voice/b5.wav",
+      "segments": [
+        {
+          "cue": "nf",
+          "say": "404 NOT FOUND แปลว่าไม่พบสิ่งที่ขอ หรือสิ่งนั้นเป็นของบัญชีอื่น",
+          "cap": "404 NOT_FOUND: ไม่พบสิ่งที่ขอ\nหรือเป็นของบัญชีอื่น"
+        },
+        {
+          "cue": "val",
+          "say": "422 VALIDATION ERROR แปลว่า body หรือ query ไม่ผ่านการตรวจรูปแบบ เช่น ขาดช่องที่บังคับ",
+          "cap": "422 VALIDATION_ERROR: body / query\nไม่ผ่านการตรวจรูปแบบ"
+        },
+        {
+          "cue": "same",
+          "say": "ทั้งสองแบบ ส่งซ้ำแบบเดิมก็ได้ผลเหมือนเดิม ต้องแก้คำขอก่อน",
+          "cap": "ส่งซ้ำแบบเดิม ก็ได้ผลเหมือนเดิม\nต้องแก้คำขอก่อน"
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "voice": "assets/voice/b6.wav",
+      "segments": [
+        {
+          "cue": "cause",
+          "say": "429 RATE LIMIT EXCEEDED แปลว่าเรียกถี่เกินลิมิต",
+          "cap": "429 RATE_LIMIT_EXCEEDED\nเรียกถี่เกินลิมิต"
+        },
+        {
+          "cue": "backoff",
+          "say": "รับมือด้วยการรอสักพักแล้วลองใหม่ และเว้นให้นานขึ้นทุกครั้งที่ยังเจอ คู่มือไม่ได้บอกว่าต้องรอนานเท่าไร",
+          "cap": "รอแล้วลองใหม่ เว้นให้นานขึ้นทุกครั้ง\n(คู่มือไม่ได้ระบุเวลารอ)"
+        },
+        {
+          "cue": "other",
+          "say": "แต่ 429 ไม่ได้มีแบบเดียว VOICE QUOTA EXCEEDED คือโควตาเสียงไม่พอ ต้องดูยอดคงเหลือ ไม่ใช่แค่รอ",
+          "cap": "429 ไม่ได้มีแบบเดียว · VOICE_QUOTA_EXCEEDED\nคือโควตาเสียงไม่พอ ต้องดูยอดคงเหลือ"
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "voice": "assets/voice/b7.wav",
+      "segments": [
+        {
+          "cue": "off",
+          "say": "ฝั่ง Voice API มี code เฉพาะ VOICE DISABLED คือ agent ยังไม่เปิดสนทนาด้วยเสียง ในเวอร์ชันที่เผยแพร่ และ VOICE NOT IN PLAN คือแพ็กเกจของเจ้าของ agent ไม่รวมงานเสียง",
+          "cap": "Voice: VOICE_DISABLED = ยังไม่เปิดเสียง\nVOICE_NOT_IN_PLAN = แพ็กเกจไม่รวมงานเสียง"
+        },
+        {
+          "cue": "setup",
+          "say": "NO CREDENTIAL คือยังไม่ได้ตั้ง API key ให้โมเดลของ agent และ VOICE AUDIO FORMAT UNSUPPORTED คืออ่านไฟล์เสียงไม่ได้ ให้แปลงเป็น WAV แล้วส่งใหม่",
+          "cap": "NO_CREDENTIAL = โมเดลยังไม่มี API key\nFORMAT_UNSUPPORTED = แปลงเป็น WAV แล้วส่งใหม่"
+        },
+        {
+          "cue": "quota",
+          "say": "ส่วน VOICE QUOTA EXCEEDED ถอดเสียงนับเป็นนาที อ่านออกเสียงนับเป็นตัวอักษร ดูยอดคงเหลือได้ที่ me voice quota",
+          "cap": "โควตาเสียง: ถอดเสียงนับนาที อ่านนับตัวอักษร\nดูยอดที่ GET /api/me/voice-quota"
+        }
+      ],
+      "hold": 1.0
+    },
+    {
+      "id": "b8",
+      "voice": "assets/voice/b8.wav",
+      "segments": [
+        {
+          "cue": "retry",
+          "say": "สรุปเป็นวิธีคิดง่าย ๆ กลุ่มแรก รอแล้วลองใหม่ได้ คือ RATE LIMIT EXCEEDED",
+          "cap": "กลุ่ม 1 รอแล้วลองใหม่ได้\nRATE_LIMIT_EXCEEDED"
+        },
+        {
+          "cue": "fixreq",
+          "say": "กลุ่มที่สอง ต้องแก้คำขอก่อน คือ 401 403 404 422 และไฟล์เสียงผิดรูปแบบ",
+          "cap": "กลุ่ม 2 แก้คำขอก่อน\n401 · 403 · 404 · 422 · ไฟล์เสียงผิดรูปแบบ"
+        },
+        {
+          "cue": "setup",
+          "say": "กลุ่มที่สาม ต้องไปตั้งค่าในเว็บ หรือดูแพ็กเกจ คือ voice disabled, no credential, voice not in plan และโควตาเสียง",
+          "cap": "กลุ่ม 3 ตั้งค่าในเว็บ / ดูแพ็กเกจ\nปิดเสียง · ไม่มี credential · นอกแผน · โควตาเสียง"
+        }
+      ],
+      "hold": 1.5
+    },
+    {
+      "id": "b9",
+      "voice": "assets/voice/b9.wav",
+      "segments": [
+        {
+          "cue": "log",
+          "say": "เอาไปใช้ในระบบหลังบ้าน ทุกครั้งที่เจอ error ให้บันทึก HTTP status, code และ request id ไว้ใน log",
+          "cap": "เอาไปใช้: บันทึก HTTP status, code\nและ request_id ไว้ใน log"
+        },
+        {
+          "cue": "route",
+          "say": "error ที่ลองใหม่ได้ ให้ระบบลองใหม่เอง ที่เหลือแจ้งทีม พร้อมบอกว่าต้องแก้อะไร",
+          "cap": "ลองใหม่ได้ → ระบบลองเอง\nที่เหลือ → แจ้งทีม พร้อมบอกทางแก้"
+        },
+        {
+          "cue": "screen",
+          "say": "หน้าจอของทีม ก็ขึ้นข้อความที่บอกทางแก้ แทนคำว่า เกิดข้อผิดพลาด เฉย ๆ",
+          "cap": "หน้าจอของทีมบอกทางแก้\nแทน “เกิดข้อผิดพลาด” เฉย ๆ"
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "voice": "assets/voice/b10.wav",
+      "segments": [
+        {
+          "cue": "shared",
+          "say": "เรื่องโควตา การเรียกผ่าน API Key นับรวมกับโควตาบัญชีเดียวกับตอนใช้งานผ่านเว็บ",
+          "cap": "เรียกผ่าน API Key นับรวมโควตาบัญชีเดียวกัน\nกับตอนใช้งานผ่านเว็บ"
+        },
+        {
+          "cue": "llm",
+          "say": "ทั้งโควตาโทเค็นของ LLM และ rate limit ของการสนทนา คิดจากผู้ใช้คนเดียวกัน เช็กโควตาที่เหลือได้จากหน้า Credentials",
+          "cap": "โควตาโทเค็น LLM + rate limit การสนทนา\nคิดจากผู้ใช้คนเดียวกัน · ดูที่หน้า Credentials"
+        },
+        {
+          "cue": "voice",
+          "say": "ส่วน Voice API มีลิมิตของตัวเอง ค่าเริ่มต้นคือ ถอดเสียง 60 ครั้งต่อนาที อ่านออกเสียง 300 ครั้งต่อนาที และข้อความที่ถอดแล้วส่งเข้า chat ยังนับโควตา chat ตามปกติ",
+          "cap": "Voice: ถอด 60 ครั้ง/นาที · อ่าน 300 ครั้ง/นาที\nข้อความที่ถอดแล้วส่ง chat ยังนับโควตา chat"
+        }
+      ]
+    },
+    {
+      "id": "b11",
+      "voice": "assets/voice/b11.wav",
+      "segments": [
+        {
+          "cue": "scope",
+          "say": "ป้องกันไว้ก่อน ให้ scope น้อยที่สุดเท่าที่จำเป็น และแยก API Key ตามการใช้งาน จะได้เพิกถอนทีละอันได้",
+          "cap": "scope น้อยที่สุดเท่าที่จำเป็น\nแยก API Key ตามการใช้งาน"
+        },
+        {
+          "cue": "store",
+          "say": "ตั้งวันหมดอายุถ้าทำได้ และอย่า commit Key ลง repo ใช้ environment variable หรือ secret manager แทน",
+          "cap": "ตั้งวันหมดอายุ · อย่า commit Key ลง repo\nใช้ environment variable / secret manager"
+        },
+        {
+          "cue": "revoke",
+          "say": "ถ้าสงสัยว่า Key หลุด เพิกถอนทันที มีผลในคำขอถัดไปเลย และ API Key สร้างหรือลบ Key อื่นแทนตัวเองไม่ได้",
+          "cap": "สงสัยว่าหลุด → เพิกถอนทันที (มีผลคำขอถัดไป)\nAPI Key สร้าง/ลบ Key อื่นไม่ได้"
+        }
+      ]
+    },
+    {
+      "id": "b12",
+      "voice": "assets/voice/b12.wav",
+      "segments": [
+        {
+          "cue": "r1",
+          "say": "สรุปครับ อ่าน error จาก code ไม่ใช่จากข้อความ และเก็บ request id ไว้",
+          "cap": "สรุป: อ่านจาก code ไม่ใช่ข้อความ\nเก็บ request_id ไว้"
+        },
+        {
+          "cue": "r2",
+          "say": "รับมือตามกลุ่ม รอแล้วลองใหม่ แก้คำขอ หรือไปตั้งค่าในเว็บ",
+          "cap": "รับมือตามกลุ่ม: รอแล้วลองใหม่\nแก้คำขอ หรือตั้งค่าในเว็บ"
+        },
+        {
+          "cue": "r3",
+          "say": "และป้องกันด้วย scope ที่น้อยที่สุด แยก Key และไม่ commit Key ลง repo",
+          "cap": "ป้องกัน: scope น้อยสุด · แยก Key\nไม่ commit Key ลง repo"
+        }
+      ]
+    },
+    {
+      "id": "b13",
+      "voice": "assets/voice/b13.wav",
+      "segments": [
+        {
+          "cue": "sponsor",
+          "say": "คลิปนี้สนับสนุนโดย LangMind",
+          "cap": "คลิปนี้สนับสนุนโดย LangMind"
+        },
+        {
+          "cue": "cta",
+          "say": "เริ่มเชื่อม API ได้ที่ LangMind ดอท อิน ดอท ทีเอช",
+          "cap": "เริ่มเชื่อม API ได้ที่\nlangmind.in.th"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "fps": 30,
+  "lead_in": 0.4,
+  "beat_gap": 0.5,
+  "tail": 2.0,
+  "chars_per_second": 11,
+  "note": "EP14 Errors (use case: the shop's backend from EP12/EP13 hits errors). say = narration, cap = caption. Run `python make-voice-samples.py` then `node build.mjs`.",
+  "beats": [
+    {
+      "id": "b1",
+      "voice": "assets/voice/b1.wav",
+      "segments": [
+        {
+          "cue": "broken",
+          "say": "ระบบหลังบ้านของร้านเรียก API ทุกวัน วันหนึ่งหน้ากล่องแชทขึ้นแค่ว่า เกิดข้อผิดพลาด",
+          "cap": "ระบบหลังบ้านเรียก API ทุกวัน\nวันหนึ่งขึ้นแค่ว่า “เกิดข้อผิดพลาด”"
+        },
+        {
+          "cue": "questions",
+          "say": "error แบบนี้หน้าตาเป็นยังไง แปลว่าอะไร และควรรับมือยังไง มาดูกันครับ",
+          "cap": "error หน้าตาแบบไหน แปลว่าอะไร\nและควรรับมือยังไง"
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "voice": "assets/voice/b2.wav",
+      "segments": [
+        {
+          "cue": "status",
+          "say": "ทุก error ของ LangMind หน้าตาเดียวกัน code บอกว่าเป็นกรณีไหน",
+          "cap": "ทุก error หน้าตาเดียวกัน\ncode บอกว่าเป็นกรณีไหน"
+        },
+        {
+          "cue": "fields",
+          "say": "message คือข้อความภาษาไทย message en คือภาษาอังกฤษ และมี request id ประจำคำขอ",
+          "cap": "message ไทย · message_en อังกฤษ\nและ request_id ประจำคำขอ"
+        },
+        {
+          "cue": "rule",
+          "say": "ให้เช็กที่ code เสมอ ไม่ต้องแกะข้อความ",
+          "cap": "เช็กที่ code เสมอ\nไม่ต้องแกะข้อความ"
+        }
+      ],
+      "hold": 1.0
+    },
+    {
+      "id": "b3",
+      "voice": "assets/voice/b3.wav",
+      "segments": [
+        {
+          "cue": "cause",
+          "say": "401 UNAUTHORIZED คือ Key ขาด หมดอายุ ถูกเพิกถอน หรือเรียก endpoint ที่ต้องเข้าสู่ระบบผ่านเว็บ",
+          "cap": "401 UNAUTHORIZED: Key ขาด หมดอายุ\nถูกเพิกถอน หรือ endpoint ที่ต้อง login เว็บ"
+        },
+        {
+          "cue": "fix",
+          "say": "ทางแก้ เช็ก Authorization Bearer หรือสร้าง Key ใหม่ในหน้า Personal API Key",
+          "cap": "ทางแก้: เช็ก Authorization: Bearer\nหรือสร้าง Key ใหม่ที่หน้า Personal API Key"
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "voice": "assets/voice/b4.wav",
+      "segments": [
+        {
+          "cue": "cause",
+          "say": "403 FORBIDDEN คือ Key ไม่มี scope ที่ endpoint ต้องการ หรือ role ไม่พอ เช่นเรียก Inbox ด้วย Key ที่ไม่มี inbox read",
+          "cap": "403 FORBIDDEN: ไม่มี scope / role ไม่พอ\nเช่น เรียก Inbox ด้วย Key ที่ไม่มี inbox:read"
+        },
+        {
+          "cue": "fix",
+          "say": "ทางแก้ ใช้ Key ที่มี scope ตรงกับงาน",
+          "cap": "ทางแก้: ใช้ Key ที่มี scope\nตรงกับงาน"
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "voice": "assets/voice/b5.wav",
+      "segments": [
+        {
+          "cue": "cause",
+          "say": "404 NOT FOUND คือไม่พบ หรือเป็นของบัญชีอื่น ส่วน 422 VALIDATION ERROR คือ body หรือ query ผิดรูปแบบ",
+          "cap": "404 NOT_FOUND: ไม่พบ / ของบัญชีอื่น\n422 VALIDATION_ERROR: รูปแบบผิด"
+        },
+        {
+          "cue": "same",
+          "say": "ส่งซ้ำแบบเดิมก็ได้ผลเดิม ต้องแก้คำขอก่อน",
+          "cap": "ส่งซ้ำแบบเดิมก็ได้ผลเดิม\nต้องแก้คำขอก่อน"
+        }
+      ]
+    },
+    {
+      "id": "b6",
+      "voice": "assets/voice/b6.wav",
+      "segments": [
+        {
+          "cue": "cause",
+          "say": "429 RATE LIMIT EXCEEDED คือเรียกถี่เกินลิมิต ให้รอแล้วลองใหม่ รายละเอียดลิมิตดูต่อใน EP15",
+          "cap": "429 RATE_LIMIT_EXCEEDED: เรียกถี่เกินลิมิต\nรอแล้วลองใหม่ (ลิมิตดูต่อใน EP15)"
+        },
+        {
+          "cue": "other",
+          "say": "แต่ 429 VOICE QUOTA EXCEEDED คือโควตาเสียงไม่พอ ต้องดูยอดคงเหลือ ไม่ใช่แค่รอ",
+          "cap": "429 VOICE_QUOTA_EXCEEDED: เสียงไม่พอ\nดูยอดคงเหลือ ไม่ใช่แค่รอ"
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "voice": "assets/voice/b7.wav",
+      "segments": [
+        {
+          "cue": "off",
+          "say": "ฝั่ง Voice ยังมี VOICE DISABLED คือยังไม่เปิดเสียงในเวอร์ชันที่เผยแพร่ และ VOICE NOT IN PLAN คือแพ็กเกจไม่รวมงานเสียง",
+          "cap": "VOICE_DISABLED: ยังไม่เปิดเสียง\nVOICE_NOT_IN_PLAN: แพ็กเกจไม่รวมงานเสียง"
+        },
+        {
+          "cue": "setup",
+          "say": "NO CREDENTIAL คือโมเดลของ agent ยังไม่มี API key และ FORMAT UNSUPPORTED ให้แปลงไฟล์เป็น WAV แล้วส่งใหม่",
+          "cap": "NO_CREDENTIAL: โมเดลยังไม่มี API key\nFORMAT_UNSUPPORTED: แปลงเป็น WAV"
+        }
+      ]
+    },
+    {
+      "id": "b8",
+      "voice": "assets/voice/b8.wav",
+      "segments": [
+        {
+          "cue": "retry",
+          "say": "จำง่าย ๆ เป็นสามกลุ่ม รอแล้วลองใหม่ได้ คือ rate limit",
+          "cap": "3 กลุ่ม: รอแล้วลองใหม่ได้\nRATE_LIMIT_EXCEEDED"
+        },
+        {
+          "cue": "fixreq",
+          "say": "แก้คำขอก่อน คือ 401 403 404 422 และไฟล์เสียงผิดรูปแบบ",
+          "cap": "แก้คำขอก่อน\n401 · 403 · 404 · 422 · ไฟล์เสียงผิดรูปแบบ"
+        },
+        {
+          "cue": "setup",
+          "say": "ที่เหลือของ Voice ต้องไปตั้งค่าในเว็บ หรือดูแพ็กเกจ",
+          "cap": "ที่เหลือของ Voice\nตั้งค่าในเว็บ / ดูแพ็กเกจ"
+        }
+      ],
+      "hold": 1.0
+    },
+    {
+      "id": "b9",
+      "voice": "assets/voice/b9.wav",
+      "segments": [
+        {
+          "cue": "log",
+          "say": "ในระบบหลังบ้าน บันทึก status code และ request id ไว้ใน log ที่ลองใหม่ได้ให้ระบบลองเอง ที่เหลือแจ้งทีม",
+          "cap": "บันทึก status, code, request_id ใน log\nลองใหม่ได้ → ระบบลองเอง · ที่เหลือ → แจ้งทีม"
+        },
+        {
+          "cue": "screen",
+          "say": "หน้าจอของทีมก็บอกทางแก้ได้ แทนคำว่า เกิดข้อผิดพลาด เฉย ๆ",
+          "cap": "หน้าจอของทีมบอกทางแก้\nแทน “เกิดข้อผิดพลาด” เฉย ๆ"
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "voice": "assets/voice/b10.wav",
+      "segments": [
+        {
+          "cue": "r1",
+          "say": "สรุปครับ อ่านจาก code เก็บ request id และรับมือตามสามกลุ่ม",
+          "cap": "สรุป: อ่านจาก code · เก็บ request_id\nรับมือตาม 3 กลุ่ม"
+        }
+      ]
+    },
+    {
+      "id": "b11",
+      "voice": "assets/voice/b11.wav",
+      "segments": [
+        {
+          "cue": "sponsor",
+          "say": "คลิปนี้สนับสนุนโดย LangMind",
+          "cap": "คลิปนี้สนับสนุนโดย LangMind"
+        },
+        {
+          "cue": "cta",
+          "say": "เริ่มเชื่อม API ได้ที่ LangMind ดอท อิน ดอท ทีเอช",
+          "cap": "เริ่มเชื่อม API ได้ที่\nlangmind.in.th"
+        }
+      ]
+    }
+  ]
+}

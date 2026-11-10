@@ -117,7 +117,7 @@ const beats = cfg.beats.map(b => {
 });
 
 function finish(b, audio, dur, cuts) {
-  const segments = b.segments.map((s, i) => ({ ...s, start: fr(t + cuts[i]), duration: fr(cuts[i + 1] - cuts[i]) }));
+  const segments = b.segments.map((s, i) => ({ ...s, start: fr(t + cuts[i]), duration: fr(cuts[i + 1] - cuts[i]), est: fr(len(s.say) / cfg.chars_per_second + 0.35) }));
   const resolvedVoice = resolveVoiceRel(b.voice);
   const beat = { id: b.id, voice: audio ? resolvedVoice : null, start: fr(t), duration: fr(dur), segments };
   t += dur + cfg.beat_gap + (b.hold || 0);   // optional hold: keep the scene up after the narration
@@ -363,7 +363,7 @@ const html = `<!doctype html>
   ${captions}
   ${audioTags}
 </main>
-<script>window.FILM=${JSON.stringify({ duration, beats: beats.map(({ id, start, duration, segments }) => ({ id, start, duration, segments: segments.map(({ cue, start, duration }) => ({ cue, start, duration })) })) })}</script>
+<script>window.FILM=${JSON.stringify({ duration, beats: beats.map(({ id, start, duration, segments }) => ({ id, start, duration, segments: segments.map(({ cue, start, duration, est }) => ({ cue, start, duration, est })) })) })}</script>
 <script src="motion.js"></script>
 </body>
 </html>

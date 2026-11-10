@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<title>EP14 · Errors / Rate Limit & Quota · draft</title>
+<link rel="stylesheet" href="style.css">
+<script src="assets/gsap.min.js"></script>
+</head>
+<body>
+<main id="film" data-composition-id="ep14-errors" data-width="1080" data-height="1920" data-fps="30" data-duration="298.4">
+  <div class="kicker">EP14 &nbsp;/&nbsp; ERRORS &amp; LIMITS</div>
+  <div class="note">ภาพจำลอง</div>
+  <section id="stage" class="clip" data-start="0" data-duration="298.4" data-track-index="1">
+    <div class="spine"><span id="sp1" class="pill">1 อ่าน</span><i></i><span id="sp2" class="pill">2 รับมือ</span><i></i><span id="sp3" class="pill">3 ป้องกัน</span></div>
+    <section class="scene" id="sc-b1">
+    <h1 class="heading">เกิดข้อผิดพลาด<small>แต่ไม่รู้ว่าเพราะอะไร</small></h1>
+    <div class="place" style="left:242px;top:370px">
+  <div class="device" id="dev-b1" style="width:596px">
+    <div class="screen" style="width:580px;height:720px">
+      <img src="assets/app-err-broken.jpg" width="1440" height="1800" alt="หน้ากล่องแชทที่ขึ้นว่าเกิดข้อผิดพลาด (ภาพจำลอง)" data-layout-allow-overflow style="width:967px;left:-194px;top:-87px">
+      <img class="img-a" src="assets/app-err-broken.jpg" width="1440" height="1800" alt="หน้ากล่องแชทที่ขึ้นว่าเกิดข้อผิดพลาด (ภาพจำลอง)" data-layout-allow-overflow style="width:967px;left:-194px;top:-87px">
+    </div>
+  </div></div>
+    <div class="wave-label" style="top:1150px"><span data-in="0" data-at="3" data-anim="up" data-out="1" data-out-at="0.1">“เกิดข้อผิดพลาด” แค่นั้น</span><span data-in="1" data-at="0.4" data-anim="up">พังเพราะอะไร? แก้ตรงไหน? รอได้ไหม?</span></div>
+    <div class="qrow" style="top:1350px">
+      <span class="qchip" data-in="2" data-at="1.2" data-anim="pop">หน้าตาแบบไหน?</span>
+      <span class="qchip" data-in="2" data-at="2.4" data-anim="pop">แปลว่าอะไร?</span>
+      <span class="qchip" data-in="2" data-at="3.6" data-anim="pop">รับมือยังไง?</span>
+    </div></section>
+<section class="scene" id="sc-b2">
+    <h1 class="heading"><span class="num">1</span>อ่าน error<small>หน้าตาเดียวกันทุกตัว</small></h1>
+    <div class="panel" style="top:420px">
+      <div class="code" data-in="0" data-at="0.2" data-anim="up">
+        <div class="code-head"><span class="method del">HTTP 403</span><span class="scope">error envelope</span></div>
+        <div class="code-body">
+          <div class="ln " data-in="0" data-at="1.4" data-anim="left">{ <span class="k">"status"</span>: <span class="v">"error"</span>,</div>
+          <div class="ln " data-in="1" data-at="0.2" data-anim="left"><span class="mark" data-mark="1" data-mark-at="0.4"></span>&nbsp;&nbsp;<span class="k">"code"</span>: <span class="v">"FORBIDDEN"</span>, <span class="c">// กรณีไหน</span></div>
+          <div class="ln " data-in="1" data-at="2.4" data-anim="left">&nbsp;&nbsp;<span class="k">"message"</span>: <span class="c">// ไทย</span><br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="v">"คุณไม่มีสิทธิ์เข้าถึงข้อมูลนี้"</span>,</div>
+          <div class="ln " data-in="1" data-at="4.4" data-anim="left">&nbsp;&nbsp;<span class="k">"message_en"</span>: <span class="c">// อังกฤษ</span><br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="v">"You do not have permission…"</span>,</div>
+          <div class="ln " data-in="2" data-at="0.1" data-anim="left"><span class="mark" data-mark="2" data-mark-at="0.4"></span>&nbsp;&nbsp;<span class="k">"request_id"</span>: <span class="v">"01J8XK2..."</span> } <span class="c">// ประจำคำขอ</span></div>
+        </div>
+        <div class="code-foot">ค่าจากตัวอย่างในคู่มือ (message_en ตัดให้สั้น)</div>
+      </div>
+      <div class="vs" data-in="3" data-at="0.2" data-anim="up">
+        <div class="card ok"><b>✓ เช็ก code</b><code>code === "FORBIDDEN"</code></div>
+        <div class="card no"><b>✕ แกะข้อความ</b><code>message มีคำว่า “สิทธิ์”</code></div>
+      </div>
+    </div></section>
+<section class="scene" id="sc-b3">
+    <h1 class="heading"><span class="num">2</span>รับมือ<small>401 · Key ใช้ไม่ได้</small></h1>
+    
+  <div class="codemap"><span class="on">401</span><span class="">403</span><span class="">404</span><span class="">422</span><span class="">429</span><span class="">Voice</span></div>
+    <div class="stack" style="top:500px">
+      <div class="card no" data-in="0" data-at="0.2" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="M11 12l8.5-8.5M16 7l2.5 2.5M14 9l2 2"/></svg><div><span class="chip err big"><i>401</i>UNAUTHORIZED</span></div></div>
+        <div class="chips"><span class="chip note" data-in="0" data-at="3" data-anim="pop">Key ขาด</span><span class="chip note" data-in="0" data-at="3.8" data-anim="pop">หมดอายุ</span><span class="chip note" data-in="0" data-at="4.6" data-anim="pop">ถูกเพิกถอน</span></div>
+        <div class="chips"><span class="chip note" data-in="1" data-at="0.3" data-anim="pop">endpoint ที่ปิดไว้สำหรับ API Key</span></div>
+        <div class="chips"><span class="chip mono" data-in="1" data-at="2.6" data-anim="pop">/me/api-tokens</span><span class="chip mono" data-in="1" data-at="3.6" data-anim="pop">/inbox/reply</span></div>
+        <div class="warn" data-in="1" data-at="5.4" data-anim="up">กลุ่มนี้ต้องเข้าสู่ระบบผ่านเว็บเท่านั้น</div>
+      </div>
+      
+      <div class="card ok" data-in="2" data-at="0.1" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M8 12.3l2.7 2.7L16.2 9.5"/></svg><div><b>ทางแก้</b></div></div>
+        <div class="chips col"><span class="chip note" data-in="2" data-at="0.8" data-anim="pop">เช็ก <code>Authorization: Bearer lmpat_…</code></span><span class="chip note" data-in="2" data-at="3.4" data-anim="pop">หมดอายุ/ถูกเพิกถอน → สร้างใหม่ที่ บัญชี → Personal API Key</span></div>
+      </div>
+    </div></section>
+<section class="scene" id="sc-b4">
+    <h1 class="heading"><span class="num">2</span>รับมือ<small>403 · สิทธิ์ไม่พอ</small></h1>
+    
+  <div class="codemap"><span class="">401</span><span class="on">403</span><span class="">404</span><span class="">422</span><span class="">429</span><span class="">Voice</span></div>
+    <div class="stack" style="top:500px">
+      <div class="card no" data-in="0" data-at="0.2" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg><div><span class="chip err big"><i>403</i>FORBIDDEN</span></div></div>
+        <div class="chips"><span class="chip note" data-in="0" data-at="2.2" data-anim="pop">Key ไม่มี scope ที่ endpoint ต้องการ</span><span class="chip note" data-in="0" data-at="4.4" data-anim="pop">role ไม่พอ</span></div>
+      </div>
+      
+    <div class="code" data-in="1" data-at="0.2" data-anim="up">
+      <div class="code-head"><span class="method">GET</span><span class="scope">สิทธิ์ inbox:read</span></div>
+      <div class="code-path">/api/agents/{id}/inbox/threads</div>
+      <div class="code-body"><div class="ln " data-in="1" data-at="1.4" data-anim="left">Key มี: <span class="v">chat:invoke</span> <span class="c">// ไม่พอ</span></div><div class="ln " data-in="1" data-at="3.6" data-anim="left"><span class="mark" data-mark="0" data-mark-at="4.2"></span>ต้องใช้: <span class="v">inbox:read</span></div></div>
+      <div class="code-foot">ตัวอย่าง</div>
+    </div>
+      
+      <div class="card ok" data-in="2" data-at="0.1" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M8 12.3l2.7 2.7L16.2 9.5"/></svg><div><b>ทางแก้</b></div></div>
+        <div class="chips col"><span class="chip note" data-in="2" data-at="0.8" data-anim="pop">ใช้ Key ที่มี scope ตรงกับ endpoint</span><span class="chip note" data-in="2" data-at="3" data-anim="pop">ให้ scope เท่าที่จำเป็นเท่านั้น</span></div>
+      </div>
+    </div></section>
+<section class="scene" id="sc-b5">
+    <h1 class="heading"><span class="num">2</span>รับมือ<small>404 · 422 · คำขอผิด</small></h1>
+    
+  <div class="codemap"><span class="">401</span><span class="">403</span><span class="on">404</span><span class="on">422</span><span class="">429</span><span class="">Voice</span></div>
+    <div class="stack" style="top:500px">
+      <div class="card no" data-in="0" data-at="0.2" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.3-4.3"/></svg><div><span class="chip err big"><i>404</i>NOT_FOUND</span></div></div>
+        <div class="chips"><span class="chip note" data-in="0" data-at="2" data-anim="pop">ไม่พบสิ่งที่ขอ</span><span class="chip note" data-in="0" data-at="3.4" data-anim="pop">เป็นของบัญชีอื่น</span></div>
+      </div>
+      <div class="card no" data-in="1" data-at="0.2" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><path d="M6 2.5h8l4.5 4.5v14.5h-12.5z"/><path d="M14 2.5V7h4.5M9 12h6M9 15.5h6"/></svg><div><span class="chip err big"><i>422</i>VALIDATION_ERROR</span></div></div>
+        <div class="chips"><span class="chip note" data-in="1" data-at="2.4" data-anim="pop">body / query ไม่ผ่านการตรวจรูปแบบ</span><span class="chip note" data-in="1" data-at="4.6" data-anim="pop">เช่น ขาดช่องที่บังคับ</span></div>
+      </div>
+      <div class="loop" data-in="2" data-at="0.2" data-anim="up"><span>ส่งซ้ำแบบเดิม</span><svg class="ico " viewBox="0 0 24 24"><path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3"/><path d="M19.5 4v4h-4"/></svg><span>ได้ผลเดิม</span><b data-in="2" data-at="2.6" data-anim="pop">→ แก้คำขอก่อน</b></div>
+    </div></section>
+<section class="scene" id="sc-b6">
+    <h1 class="heading"><span class="num">2</span>รับมือ<small>429 · เรียกถี่เกิน</small></h1>
+    
+  <div class="codemap"><span class="">401</span><span class="">403</span><span class="">404</span><span class="">422</span><span class="on">429</span><span class="">Voice</span></div>
+    <div class="stack" style="top:500px">
+      <div class="card no" data-in="0" data-at="0.2" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><path d="M4.5 16a7.5 7.5 0 1 1 15 0"/><path d="M12 16l3.5-5"/><circle cx="12" cy="16" r="1.2"/></svg><div><span class="chip err big"><i>429</i>RATE_LIMIT_EXCEEDED</span><span>เรียกถี่เกินลิมิต</span></div></div>
+      </div>
+      <div class="card ok" data-in="1" data-at="0.1" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3"/><path d="M19.5 4v4h-4"/></svg><div><b>รอแล้วลองใหม่ · เว้นให้นานขึ้น</b></div></div>
+        <div class="backoff">
+          <span data-in="1" data-at="1.6" data-anim="pop">ลอง</span><i data-in="1" data-at="2" data-anim="up">รอ 1 วิ</i><span data-in="1" data-at="2.4" data-anim="pop">ลอง</span><i data-in="1" data-at="2.8" data-anim="up">รอ 2 วิ</i><span data-in="1" data-at="3.2" data-anim="pop">ลอง</span><i data-in="1" data-at="3.6" data-anim="up">รอ 4 วิ</i><span class="okk" data-in="1" data-at="4" data-anim="pop">✓</span>
+        </div>
+        <div class="fine" data-in="1" data-at="5.2" data-anim="up">ตัวเลขเป็นตัวอย่าง · คู่มือไม่ได้ระบุเวลารอ</div>
+      </div>
+      <div class="card no" data-in="2" data-at="0.2" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><rect x="8.5" y="2.5" width="7" height="12" rx="3.5"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3.5"/></svg><div><span class="chip err big"><i>429</i>VOICE_QUOTA_EXCEEDED</span><span>โควตาเสียงไม่พอ → ดูยอดคงเหลือ ไม่ใช่แค่รอ</span></div></div>
+      </div>
+    </div></section>
+<section class="scene" id="sc-b7">
+    <h1 class="heading"><span class="num">2</span>รับมือ<small>code เฉพาะของ Voice</small></h1>
+    
+  <div class="codemap"><span class="">401</span><span class="">403</span><span class="">404</span><span class="">422</span><span class="">429</span><span class="on">Voice</span></div>
+    <div class="stack tight" style="top:500px">
+      <div class="erow" data-in="0" data-at="0.6" data-anim="up"><span class="chip err"><i>403</i>VOICE_DISABLED</span><span>agent ยังไม่เปิด “สนทนาด้วยเสียง” ในเวอร์ชันที่เผยแพร่</span></div>
+      <div class="erow" data-in="0" data-at="6.4" data-anim="up"><span class="chip err"><i>403</i>VOICE_NOT_IN_PLAN</span><span>แพ็กเกจของเจ้าของ agent ไม่รวมงานเสียง</span></div>
+      <div class="erow" data-in="1" data-at="0.3" data-anim="up"><span class="chip err"><i>400</i>NO_CREDENTIAL</span><span>ยังไม่ได้ตั้ง API key ให้โมเดลของ agent</span></div>
+      <div class="erow" data-in="1" data-at="4" data-anim="up"><span class="chip err"><i>422</i>VOICE_AUDIO_FORMAT_UNSUPPORTED</span><span>อ่านไฟล์เสียงไม่ได้ → แปลงเป็น WAV แล้วส่งใหม่</span></div>
+      <div class="erow" data-in="2" data-at="0.3" data-anim="up"><span class="chip err"><i>429</i>VOICE_QUOTA_EXCEEDED</span><span>ถอดเสียงนับเป็นนาที · อ่านออกเสียงนับเป็นตัวอักษร</span></div>
+      <div class="chip mono" style="align-self:flex-start" data-in="2" data-at="4.6" data-anim="pop">GET /api/me/voice-quota · ดูยอดคงเหลือ</div>
+    </div></section>
+<section class="scene" id="sc-b8">
+    <h1 class="heading"><span class="num">2</span>รับมือ<small>แบ่งเป็น 3 กลุ่ม</small></h1>
+    <div class="stack tight" style="top:420px">
+      <div class="grp" style="--c:#38815A" data-in="0" data-at="0.6" data-anim="up"><b>1 · รอแล้วลองใหม่ได้</b><div class="chips"><span class="chip err"><i>429</i>RATE_LIMIT_EXCEEDED</span></div></div>
+      <div class="grp" style="--c:#8d732c" data-in="1" data-at="0.2" data-anim="up"><b>2 · แก้คำขอก่อน</b><div class="chips"><span class="chip err"><i>401</i>UNAUTHORIZED</span><span class="chip err"><i>403</i>FORBIDDEN</span><span class="chip err"><i>404</i>NOT_FOUND</span><span class="chip err"><i>422</i>VALIDATION_ERROR</span><span class="chip err"><i>422</i>VOICE_AUDIO_FORMAT_UNSUPPORTED</span></div></div>
+      <div class="grp" style="--c:#1E7578" data-in="2" data-at="0.2" data-anim="up"><b>3 · ตั้งค่าในเว็บ / ดูแพ็กเกจ</b><div class="chips"><span class="chip err"><i>403</i>VOICE_DISABLED</span><span class="chip err"><i>400</i>NO_CREDENTIAL</span><span class="chip err"><i>403</i>VOICE_NOT_IN_PLAN</span><span class="chip err"><i>429</i>VOICE_QUOTA_EXCEEDED</span></div></div>
+      <div class="fine" data-in="2" data-at="5" data-anim="up">การแบ่งกลุ่มเป็นแนวทางของคลิป สรุปจากความหมายในคู่มือ</div>
+    </div></section>
+<section class="scene" id="sc-b9">
+    <h1 class="heading"><span class="num">2</span>ใช้ผล<small>ระบบหลังบ้านของร้าน</small></h1>
+    <div class="place" style="left:252px;top:390px">
+  <div class="device" id="dev-b9" style="width:576px">
+    <div class="screen" style="width:560px;height:660px">
+      <img src="assets/app-err-log.jpg" width="1440" height="1800" alt="หน้าบันทึก error ของระบบ (ภาพจำลอง)" data-layout-allow-overflow style="width:933px;left:-187px;top:-84px">
+      <img class="img-a" src="assets/app-err-friendly.jpg" width="1440" height="1800" alt="หน้ากล่องแชทที่บอกทางแก้ (ภาพจำลอง)" data-layout-allow-overflow style="width:933px;left:-187px;top:-84px">
+    </div>
+  </div></div>
+    <div class="callouts" style="top:1100px" data-out="1" data-out-at="0">
+      <div class="callout" data-in="0" data-at="1.8" data-anim="left"><code>HTTP status + code</code><span>แยกว่าเป็นกรณีไหน</span></div>
+      <div class="callout" data-in="0" data-at="4.4" data-anim="left"><code>request_id</code><span>เก็บไว้ไล่ดูภายหลัง</span></div>
+    </div>
+    <div class="callouts" style="top:1100px" data-out="2" data-out-at="0">
+      <div class="callout" data-in="1" data-at="0.6" data-anim="left"><code>RATE_LIMIT_EXCEEDED</code><span>ระบบลองใหม่เอง</span></div>
+      <div class="callout" data-in="1" data-at="2.6" data-anim="left"><code>code อื่น</code><span>แจ้งทีม + ทางแก้</span></div>
+    </div>
+    <div class="callouts" style="top:1100px">
+      <div class="callout" data-in="2" data-at="0.8" data-anim="left"><code>code → ข้อความ</code><span>บอกทางแก้บนหน้าจอ</span></div>
+      <div class="callout" data-in="2" data-at="2.6" data-anim="left"><code>request_id</code><span>ปุ่มคัดลอกรหัสอ้างอิง</span></div>
+    </div></section>
+<section class="scene" id="sc-b10">
+    <h1 class="heading"><span class="num">3</span>ป้องกัน<small>โควตาและลิมิต</small></h1>
+    <div class="stack" style="top:420px">
+      <div class="card" data-in="0" data-at="0.2" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><path d="M4.5 16a7.5 7.5 0 1 1 15 0"/><path d="M12 16l3.5-5"/><circle cx="12" cy="16" r="1.2"/></svg><div><b>โควตาบัญชีเดียวกัน</b><span>ใช้ผ่านเว็บ หรือ API Key ก็นับรวมกัน</span></div></div>
+        <div class="chips"><span class="chip" data-in="0" data-at="2.4" data-anim="pop">เว็บ</span><span class="chip" data-in="0" data-at="2.8" data-anim="pop">+ API Key</span><span class="chip note" data-in="0" data-at="3.4" data-anim="pop">= บัญชีเดียวกัน</span></div>
+        <div class="chips"><span class="chip note" data-in="1" data-at="0.6" data-anim="pop">โควตาโทเค็น LLM</span><span class="chip note" data-in="1" data-at="2.2" data-anim="pop">rate limit การสนทนา</span></div>
+        <div class="chips"><span class="chip mono" data-in="1" data-at="5.4" data-anim="pop">ดูที่เหลือ: หน้า Credentials</span></div>
+      </div>
+      <div class="card" data-in="2" data-at="0.2" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><rect x="8.5" y="2.5" width="7" height="12" rx="3.5"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3.5"/></svg><div><b>Voice API มีลิมิตของตัวเอง</b><span>ค่าเริ่มต้น ต่อผู้ใช้ · ไม่ผูกกับแพ็กเกจ</span></div></div>
+        <div class="stats"><div data-in="2" data-at="2.4" data-anim="pop"><b>60</b><span>ถอดเสียง / นาที</span></div><div data-in="2" data-at="4.2" data-anim="pop"><b>300</b><span>อ่านออกเสียง / นาที</span></div></div>
+        <div class="warn" data-in="2" data-at="6.6" data-anim="up">ข้อความที่ถอดแล้วส่งเข้า chat ยังนับโควตา chat</div>
+      </div>
+    </div></section>
+<section class="scene" id="sc-b11">
+    <h1 class="heading"><span class="num">3</span>ป้องกัน<small>ใช้ API Key อย่างปลอดภัย</small></h1>
+    <div class="stack tight" style="top:420px">
+      <div class="safe" data-in="0" data-at="1" data-anim="up"><svg class="ico big" viewBox="0 0 24 24"><path d="M12 3l7.5 3v5.5c0 4.5-3.2 8-7.5 9.5-4.3-1.5-7.5-5-7.5-9.5V6z"/><path d="M9 12l2.2 2.2L15.5 10"/></svg><div><b>scope น้อยที่สุดเท่าที่จำเป็น</b><span>สคริปต์ที่แค่อ่าน agent ไม่ต้องมี agents:write</span></div></div><div class="safe" data-in="0" data-at="4.4" data-anim="up"><svg class="ico big" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="M11 12l8.5-8.5M16 7l2.5 2.5M14 9l2 2"/></svg><div><b>แยก API Key ตามการใช้งาน</b><span>เพิกถอนทีละอันได้ ไม่กระทบอันอื่น</span></div></div><div class="safe" data-in="1" data-at="0.3" data-anim="up"><svg class="ico big" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg><div><b>ตั้งวันหมดอายุถ้าทำได้</b><span>โดยเฉพาะ Key ทดสอบชั่วคราว</span></div></div><div class="safe" data-in="1" data-at="2.4" data-anim="up"><svg class="ico big" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg><div><b>อย่า commit Key ลง repo</b><span>ใช้ environment variable / secret manager</span></div></div><div class="safe" data-in="2" data-at="0.3" data-anim="up"><svg class="ico big" viewBox="0 0 24 24"><path d="M4.5 7h15M9.5 7V4.5h5V7M6.5 7l1 13h9l1-13"/></svg><div><b>สงสัยว่าหลุด → เพิกถอนทันที</b><span>มีผลในคำขอถัดไป ไม่ต้องรอ</span></div></div><div class="safe" data-in="2" data-at="4" data-anim="up"><svg class="ico big" viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg><div><b>API Key สร้าง/ลบ Key อื่นไม่ได้</b><span>/me/api-tokens ต้อง login ผ่านเว็บ</span></div></div>
+    </div></section>
+<section class="scene" id="sc-b12">
+    <h1 class="heading">สรุป<small>อ่าน → รับมือ → ป้องกัน</small></h1>
+    <div class="stack" style="top:410px">
+      
+        <div class="recap" style="--c:#38815A" data-in="0" data-at="0.1" data-anim="up">
+          <span class="recap-t"><b>1</b>อ่าน</span>
+          <div class="chips"><span class="chip" data-in="0" data-at="0.4" data-anim="pop">ดูที่ code</span><span class="chip" data-in="0" data-at="0.65" data-anim="pop">เก็บ request_id</span></div>
+        </div>
+        <div class="recap" style="--c:#8d732c" data-in="1" data-at="0.1" data-anim="up">
+          <span class="recap-t"><b>2</b>รับมือ</span>
+          <div class="chips"><span class="chip" data-in="1" data-at="0.4" data-anim="pop">รอแล้วลองใหม่</span><span class="chip" data-in="1" data-at="0.65" data-anim="pop">แก้คำขอ</span><span class="chip" data-in="1" data-at="0.9" data-anim="pop">ตั้งค่าในเว็บ</span></div>
+        </div>
+        <div class="recap" style="--c:#1E7578" data-in="2" data-at="0.1" data-anim="up">
+          <span class="recap-t"><b>3</b>ป้องกัน</span>
+          <div class="chips"><span class="chip" data-in="2" data-at="0.4" data-anim="pop">scope น้อยสุด</span><span class="chip" data-in="2" data-at="0.65" data-anim="pop">แยก Key</span><span class="chip" data-in="2" data-at="0.9" data-anim="pop">ไม่ commit Key</span></div>
+        </div>
+    </div>
+    <img class="robot" src="assets/04-open-arms.png" width="425" height="503" alt="" style="left:410px;top:1180px;width:260px" data-in="2" data-at="1.4" data-anim="up"></section>
+<section class="scene" id="sc-b13">
+    <div class="sponsor">
+      <div class="sp-by" data-in="0" data-at="0.2" data-anim="up">สนับสนุนโดย</div>
+      <img class="sp-logo" src="assets/langmind-logo.png" width="689" height="606" alt="LangMind" data-in="0" data-at="0.5" data-anim="pop">
+      <div class="sp-url" data-in="1" data-at="0.3" data-anim="pop">langmind.in.th</div>
+      <div class="chips sp-chips" data-in="1" data-at="1" data-anim="up"><span class="chip">Errors</span><span class="chip">Rate Limit</span><span class="chip">Quota</span></div>
+    </div></section>
+  </section>
+  <div id="cap-b1-0" class="clip caption" data-start="0.4" data-duration="8.6" data-track-index="8" data-layout-allow-caption-zone>ระบบหลังบ้านเรียก API ทุกวัน<br>วันหนึ่งหน้ากล่องแชทขึ้นว่า “เกิดข้อผิดพลาด”</div>
+<div id="cap-b1-1" class="clip caption" data-start="9" data-duration="5.433333333333334" data-track-index="8" data-layout-allow-caption-zone>ไม่รู้ว่าพังเพราะอะไร ต้องแก้ตรงไหน<br>หรือแค่รอแล้วลองใหม่</div>
+<div id="cap-b1-2" class="clip caption" data-start="14.433333333333334" data-duration="7.833333333333333" data-track-index="8" data-layout-allow-caption-zone>error หน้าตาแบบไหน แต่ละรหัสแปลว่าอะไร<br>และควรรับมือยังไง</div>
+<div id="cap-b2-0" class="clip caption" data-start="22.766666666666666" data-duration="5.933333333333334" data-track-index="8" data-layout-allow-caption-zone>ทุก error หน้าตาเดียวกัน<br>เป็น JSON ที่มี status เป็น error</div>
+<div id="cap-b2-1" class="clip caption" data-start="28.7" data-duration="7.2" data-track-index="8" data-layout-allow-caption-zone>code บอกว่าเป็นกรณีไหน<br>message / message_en คือข้อความไทย / อังกฤษ</div>
+<div id="cap-b2-2" class="clip caption" data-start="35.9" data-duration="2.433333333333333" data-track-index="8" data-layout-allow-caption-zone>และ request_id<br>ประจำคำขอนั้น</div>
+<div id="cap-b2-3" class="clip caption" data-start="38.3" data-duration="6.233333333333333" data-track-index="8" data-layout-allow-caption-zone>เช็กที่ code เพื่อจัดการแต่ละกรณี<br>ไม่ต้องแกะข้อความ</div>
+<div id="cap-b3-0" class="clip caption" data-start="46.53333333333333" data-duration="5.5" data-track-index="8" data-layout-allow-caption-zone>401 UNAUTHORIZED: API Key ขาด<br>หมดอายุ หรือถูกเพิกถอน</div>
+<div id="cap-b3-1" class="clip caption" data-start="52.03333333333333" data-duration="11.066666666666666" data-track-index="8" data-layout-allow-caption-zone>หรือเรียก endpoint ที่ปิดไว้สำหรับ API Key<br>เช่น จัดการ API Key, ตอบลูกค้าใน Inbox</div>
+<div id="cap-b3-2" class="clip caption" data-start="63.1" data-duration="9.833333333333334" data-track-index="8" data-layout-allow-caption-zone>ทางแก้: เช็ก Authorization: Bearer<br>Key หมดอายุ/ถูกเพิกถอน → สร้างใหม่</div>
+<div id="cap-b4-0" class="clip caption" data-start="73.43333333333334" data-duration="6.233333333333333" data-track-index="8" data-layout-allow-caption-zone>403 FORBIDDEN: Key ไม่มี scope<br>ที่ endpoint ต้องการ หรือ role ไม่พอ</div>
+<div id="cap-b4-1" class="clip caption" data-start="79.7" data-duration="6.833333333333333" data-track-index="8" data-layout-allow-caption-zone>เช่น Key มีแค่ chat:invoke<br>แต่เรียกรายการแชท Inbox ที่ต้องใช้ inbox:read</div>
+<div id="cap-b4-2" class="clip caption" data-start="86.5" data-duration="6.533333333333333" data-track-index="8" data-layout-allow-caption-zone>ทางแก้: ใช้ Key ที่มี scope ตรงกับ endpoint<br>ให้เท่าที่จำเป็นเท่านั้น</div>
+<div id="cap-b5-0" class="clip caption" data-start="93.53333333333333" data-duration="5.7" data-track-index="8" data-layout-allow-caption-zone>404 NOT_FOUND: ไม่พบสิ่งที่ขอ<br>หรือเป็นของบัญชีอื่น</div>
+<div id="cap-b5-1" class="clip caption" data-start="99.23333333333333" data-duration="7.433333333333334" data-track-index="8" data-layout-allow-caption-zone>422 VALIDATION_ERROR: body / query<br>ไม่ผ่านการตรวจรูปแบบ</div>
+<div id="cap-b5-2" class="clip caption" data-start="106.66666666666667" data-duration="5.3" data-track-index="8" data-layout-allow-caption-zone>ส่งซ้ำแบบเดิม ก็ได้ผลเหมือนเดิม<br>ต้องแก้คำขอก่อน</div>
+<div id="cap-b6-0" class="clip caption" data-start="112.46666666666667" data-duration="4.1" data-track-index="8" data-layout-allow-caption-zone>429 RATE_LIMIT_EXCEEDED<br>เรียกถี่เกินลิมิต</div>
+<div id="cap-b6-1" class="clip caption" data-start="116.56666666666666" data-duration="9.466666666666667" data-track-index="8" data-layout-allow-caption-zone>รอแล้วลองใหม่ เว้นให้นานขึ้นทุกครั้ง<br>(คู่มือไม่ได้ระบุเวลารอ)</div>
+<div id="cap-b6-2" class="clip caption" data-start="126.03333333333333" data-duration="8.133333333333333" data-track-index="8" data-layout-allow-caption-zone>429 ไม่ได้มีแบบเดียว · VOICE_QUOTA_EXCEEDED<br>คือโควตาเสียงไม่พอ ต้องดูยอดคงเหลือ</div>
+<div id="cap-b7-0" class="clip caption" data-start="134.63333333333333" data-duration="13.5" data-track-index="8" data-layout-allow-caption-zone>Voice: VOICE_DISABLED = ยังไม่เปิดเสียง<br>VOICE_NOT_IN_PLAN = แพ็กเกจไม่รวมงานเสียง</div>
+<div id="cap-b7-1" class="clip caption" data-start="148.13333333333333" data-duration="11.9" data-track-index="8" data-layout-allow-caption-zone>NO_CREDENTIAL = โมเดลยังไม่มี API key<br>FORMAT_UNSUPPORTED = แปลงเป็น WAV แล้วส่งใหม่</div>
+<div id="cap-b7-2" class="clip caption" data-start="160.03333333333333" data-duration="9.2" data-track-index="8" data-layout-allow-caption-zone>โควตาเสียง: ถอดเสียงนับนาที อ่านนับตัวอักษร<br>ดูยอดที่ GET /api/me/voice-quota</div>
+<div id="cap-b8-0" class="clip caption" data-start="170.73333333333332" data-duration="6.1" data-track-index="8" data-layout-allow-caption-zone>กลุ่ม 1 รอแล้วลองใหม่ได้<br>RATE_LIMIT_EXCEEDED</div>
+<div id="cap-b8-1" class="clip caption" data-start="176.86666666666667" data-duration="5.933333333333334" data-track-index="8" data-layout-allow-caption-zone>กลุ่ม 2 แก้คำขอก่อน<br>401 · 403 · 404 · 422 · ไฟล์เสียงผิดรูปแบบ</div>
+<div id="cap-b8-2" class="clip caption" data-start="182.76666666666668" data-duration="9.566666666666666" data-track-index="8" data-layout-allow-caption-zone>กลุ่ม 3 ตั้งค่าในเว็บ / ดูแพ็กเกจ<br>ปิดเสียง · ไม่มี credential · นอกแผน · โควตาเสียง</div>
+<div id="cap-b9-0" class="clip caption" data-start="194.33333333333334" data-duration="8.133333333333333" data-track-index="8" data-layout-allow-caption-zone>เอาไปใช้: บันทึก HTTP status, code<br>และ request_id ไว้ใน log</div>
+<div id="cap-b9-1" class="clip caption" data-start="202.46666666666667" data-duration="6.9" data-track-index="8" data-layout-allow-caption-zone>ลองใหม่ได้ → ระบบลองเอง<br>ที่เหลือ → แจ้งทีม พร้อมบอกทางแก้</div>
+<div id="cap-b9-2" class="clip caption" data-start="209.36666666666667" data-duration="6.033333333333333" data-track-index="8" data-layout-allow-caption-zone>หน้าจอของทีมบอกทางแก้<br>แทน “เกิดข้อผิดพลาด” เฉย ๆ</div>
+<div id="cap-b10-0" class="clip caption" data-start="215.86666666666667" data-duration="6.866666666666666" data-track-index="8" data-layout-allow-caption-zone>เรียกผ่าน API Key นับรวมโควตาบัญชีเดียวกัน<br>กับตอนใช้งานผ่านเว็บ</div>
+<div id="cap-b10-1" class="clip caption" data-start="222.76666666666668" data-duration="9.8" data-track-index="8" data-layout-allow-caption-zone>โควตาโทเค็น LLM + rate limit การสนทนา<br>คิดจากผู้ใช้คนเดียวกัน · ดูที่หน้า Credentials</div>
+<div id="cap-b10-2" class="clip caption" data-start="232.56666666666666" data-duration="13.566666666666666" data-track-index="8" data-layout-allow-caption-zone>Voice: ถอด 60 ครั้ง/นาที · อ่าน 300 ครั้ง/นาที<br>ข้อความที่ถอดแล้วส่ง chat ยังนับโควตา chat</div>
+<div id="cap-b11-0" class="clip caption" data-start="246.6" data-duration="8.633333333333333" data-track-index="8" data-layout-allow-caption-zone>scope น้อยที่สุดเท่าที่จำเป็น<br>แยก API Key ตามการใช้งาน</div>
+<div id="cap-b11-1" class="clip caption" data-start="255.23333333333332" data-duration="8.166666666666666" data-track-index="8" data-layout-allow-caption-zone>ตั้งวันหมดอายุ · อย่า commit Key ลง repo<br>ใช้ environment variable / secret manager</div>
+<div id="cap-b11-2" class="clip caption" data-start="263.4" data-duration="8.533333333333333" data-track-index="8" data-layout-allow-caption-zone>สงสัยว่าหลุด → เพิกถอนทันที (มีผลคำขอถัดไป)<br>API Key สร้าง/ลบ Key อื่นไม่ได้</div>
+<div id="cap-b12-0" class="clip caption" data-start="272.43333333333334" data-duration="5.733333333333333" data-track-index="8" data-layout-allow-caption-zone>สรุป: อ่านจาก code ไม่ใช่ข้อความ<br>เก็บ request_id ไว้</div>
+<div id="cap-b12-1" class="clip caption" data-start="278.1666666666667" data-duration="5.133333333333334" data-track-index="8" data-layout-allow-caption-zone>รับมือตามกลุ่ม: รอแล้วลองใหม่<br>แก้คำขอ หรือตั้งค่าในเว็บ</div>
+<div id="cap-b12-2" class="clip caption" data-start="283.3" data-duration="5.733333333333333" data-track-index="8" data-layout-allow-caption-zone>ป้องกัน: scope น้อยสุด · แยก Key<br>ไม่ commit Key ลง repo</div>
+<div id="cap-b13-0" class="clip caption" data-start="289.53333333333336" data-duration="2.6333333333333333" data-track-index="8" data-layout-allow-caption-zone>คลิปนี้สนับสนุนโดย LangMind</div>
+<div id="cap-b13-1" class="clip caption" data-start="292.1666666666667" data-duration="4.266666666666667" data-track-index="8" data-layout-allow-caption-zone>เริ่มเชื่อม API ได้ที่<br>langmind.in.th</div>
+  
+</main>
+<script>window.FILM={"duration":298.4,"beats":[{"id":"b1","start":0.4,"duration":21.866666666666667,"segments":[{"cue":"broken","start":0.4,"duration":8.6},{"cue":"why","start":9,"duration":5.433333333333334},{"cue":"questions","start":14.433333333333334,"duration":7.833333333333333}]},{"id":"b2","start":22.766666666666666,"duration":21.766666666666666,"segments":[{"cue":"status","start":22.766666666666666,"duration":5.933333333333334},{"cue":"fields","start":28.7,"duration":7.2},{"cue":"rid","start":35.9,"duration":2.433333333333333},{"cue":"rule","start":38.3,"duration":6.233333333333333}]},{"id":"b3","start":46.53333333333333,"duration":26.4,"segments":[{"cue":"cause","start":46.53333333333333,"duration":5.5},{"cue":"closed","start":52.03333333333333,"duration":11.066666666666666},{"cue":"fix","start":63.1,"duration":9.833333333333334}]},{"id":"b4","start":73.43333333333334,"duration":19.6,"segments":[{"cue":"cause","start":73.43333333333334,"duration":6.233333333333333},{"cue":"example","start":79.7,"duration":6.833333333333333},{"cue":"fix","start":86.5,"duration":6.533333333333333}]},{"id":"b5","start":93.53333333333333,"duration":18.4,"segments":[{"cue":"nf","start":93.53333333333333,"duration":5.7},{"cue":"val","start":99.23333333333333,"duration":7.433333333333334},{"cue":"same","start":106.66666666666667,"duration":5.3}]},{"id":"b6","start":112.46666666666667,"duration":21.7,"segments":[{"cue":"cause","start":112.46666666666667,"duration":4.1},{"cue":"backoff","start":116.56666666666666,"duration":9.466666666666667},{"cue":"other","start":126.03333333333333,"duration":8.133333333333333}]},{"id":"b7","start":134.63333333333333,"duration":34.6,"segments":[{"cue":"off","start":134.63333333333333,"duration":13.5},{"cue":"setup","start":148.13333333333333,"duration":11.9},{"cue":"quota","start":160.03333333333333,"duration":9.2}]},{"id":"b8","start":170.73333333333332,"duration":21.6,"segments":[{"cue":"retry","start":170.73333333333332,"duration":6.1},{"cue":"fixreq","start":176.86666666666667,"duration":5.933333333333334},{"cue":"setup","start":182.76666666666668,"duration":9.566666666666666}]},{"id":"b9","start":194.33333333333334,"duration":21.066666666666666,"segments":[{"cue":"log","start":194.33333333333334,"duration":8.133333333333333},{"cue":"route","start":202.46666666666667,"duration":6.9},{"cue":"screen","start":209.36666666666667,"duration":6.033333333333333}]},{"id":"b10","start":215.86666666666667,"duration":30.233333333333334,"segments":[{"cue":"shared","start":215.86666666666667,"duration":6.866666666666666},{"cue":"llm","start":222.76666666666668,"duration":9.8},{"cue":"voice","start":232.56666666666666,"duration":13.566666666666666}]},{"id":"b11","start":246.6,"duration":25.333333333333332,"segments":[{"cue":"scope","start":246.6,"duration":8.633333333333333},{"cue":"store","start":255.23333333333332,"duration":8.166666666666666},{"cue":"revoke","start":263.4,"duration":8.533333333333333}]},{"id":"b12","start":272.43333333333334,"duration":16.6,"segments":[{"cue":"r1","start":272.43333333333334,"duration":5.733333333333333},{"cue":"r2","start":278.1666666666667,"duration":5.133333333333334},{"cue":"r3","start":283.3,"duration":5.733333333333333}]},{"id":"b13","start":289.53333333333336,"duration":6.866666666666666,"segments":[{"cue":"sponsor","start":289.53333333333336,"duration":2.6333333333333333},{"cue":"cta","start":292.1666666666667,"duration":4.266666666666667}]}]}</script>
+<script src="motion.js"></script>
+</body>
+</html>

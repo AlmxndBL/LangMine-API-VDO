@@ -1,8 +1,8 @@
 # EP13 — Short Links API: ลิงก์โปรของร้าน ย่อลิงก์และนับคลิกเอง
 
-**สถานะ: W5 — draft v1 (12 ช่วง ~3:51) มีภาพและซับครบ ยังไม่มีเสียงพากย์** · ใช้ Short Links API ครบทุก endpoint: usage, สร้าง + ตัวเลือก, รายการ/อ่าน/แก้/ลบ, สถิติลิงก์เดียว/ภาพรวม/CSV, error 3 รหัส
+**สถานะ: W6 — v1 มีเสียงพากย์ (12 ช่วง 3:31) รอฟังตรวจ** · ใช้ Short Links API ครบทุก endpoint: usage, สร้าง + ตัวเลือก, รายการ/อ่าน/แก้/ลบ, สถิติลิงก์เดียว/ภาพรวม/CSV, error 3 รหัส
 
-- วิดีโอ draft (ไม่มีเสียง เวลาประมาณจากบท): [video/ep13-short-links-draft-v1.mp4](video/ep13-short-links-draft-v1.mp4) · ผลตรวจ: [video/REVIEW.md](video/REVIEW.md)
+- วิดีโอ v1 มีเสียง: [video/ep13-short-links-v1.mp4](video/ep13-short-links-v1.mp4) · draft เดิมไม่มีเสียง: [video/ep13-short-links-draft-v1.mp4](video/ep13-short-links-draft-v1.mp4) · ผลตรวจ: [video/REVIEW.md](video/REVIEW.md)
 
 - แผน คนดู โครงเรื่อง: [PLAN.md](PLAN.md)
 - บทพากย์ราย beat + claim ledger อ้างบรรทัดคู่มือ: [SCRIPT.md](SCRIPT.md)
@@ -15,11 +15,8 @@
   - ภาพหน้าจอจำลอง (ทำจากโค้ด): `video/assets/app-sl-*.jpg` · ต้นฉบับ HTML: [video/mockups/](video/mockups/)
 
 ## ลำดับถัดไป (Next Actions)
-1. ตรวจบทใน `video/VOICE-SCRIPT.md` และภาพตัวอย่าง ถ้าจะแก้ ให้แก้ก่อนสร้างเสียง
-2. สร้างเสียง: ในโฟลเดอร์ `video/` รัน `python make-voice-samples.py` (Niwat −16%) หรือให้คนพากย์อ่านจาก VOICE-SCRIPT แล้ววางไฟล์ `assets/voice/b1.wav` … `b12.wav`
-3. `node build.mjs` → `npx hyperframes check` → `npx hyperframes render --quality draft`
-4. ฟังตรวจ บันทึกผลใน `video/REVIEW.md` แล้ว render ฉบับส่งมอบ
+1. ฟังตรวจ `video/ep13-short-links-v1.mp4` (เสียง + ซับ + จังหวะภาพ) แล้วจดจุดที่ต้องแก้ใน `video/REVIEW.md`
+2. ถ้าแก้บท: แก้ `video/timing.json` → สร้างเสียงใหม่ด้วย `python make-voice-samples.py` (ได้ทั้ง `.wav` และ `.segments.json`) → `node build.mjs` → `npx hyperframes check` → render
+3. ผ่านแล้ว render ฉบับส่งมอบ (`--quality high`)
 
-## แก้ภาพหน้าจอจำลอง
-แก้ไฟล์ใน `video/mockups/*.html` แล้วถ่ายเป็นภาพ 1440×1800 เช่น
-`chrome --headless=new --hide-scrollbars --window-size=1440,1800 --screenshot=campaign.png video/mockups/campaign.html` แล้วแปลงเป็น `video/assets/app-sl-campaign.jpg`
+จุดตัดซับมาจาก `video/assets/voice/<beat>.segments.json` — ชุดนี้สร้างจากการถอดเสียง (Whisper) เทียบกับบท เพราะไฟล์เสียงที่ได้มาไม่มี `.segments.json` (รายละเอียดใน `video/REVIEW.md`) ถ้าสร้างเสียงใหม่ด้วยสคริปต์ จะได้ไฟล์นี้แบบแม่นยำแทน
