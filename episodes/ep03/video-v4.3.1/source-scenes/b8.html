@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1080,height=1920" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../assets/gsap.min.js"></script>
+    <style>
+      .cap-card { position:absolute; left:120px; width:840px; min-height:230px; padding:32px 38px; border:2px solid var(--line); border-radius:24px; background:var(--card); box-shadow:10px 10px 0 var(--sage); }
+      .cap-card h2 { margin:0 0 18px; color:var(--forest); font-size:40px; line-height:1.18; }
+      .cap-card p { margin:0; color:var(--ink); font-size:31px; line-height:1.36; }
+      .cap-card .tag { float:right; color:var(--muted); font-size:24px; font-weight:700; }
+      .cap-note { position:absolute; left:120px; top:1320px; width:840px; text-align:center; color:var(--muted); font-size:28px; font-weight:700; }
+    </style>
+  </head>
+  <body>
+    <main id="root" style="position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--paper);font-family:Sarabun,sans-serif;color:var(--ink)" data-composition-id="b8" data-width="1080" data-height="1920" data-duration="__DURATION__">
+      <div class="scene-ground" data-layout-ignore></div>
+      <div id="b8-title" class="clip headline" data-start="0" data-duration="__DURATION__" data-track-index="1">Chat API มีอะไรอีกบ้าง</div>
+      <div id="b8-send" class="clip cap-card" data-start="0.2" data-duration="__DURATION__" data-track-index="2" style="top:340px">
+        <span class="tag">ส่ง / ควบคุม</span><h2>ส่งข้อความและควบคุม</h2>
+        <p>รับคำตอบเป็นช่วง · รอคำตอบครบ · พรีวิว · หยุดการส่ง</p>
+      </div>
+      <div id="b8-history" class="clip cap-card" data-start="1.5" data-duration="__DURATION__" data-track-index="3" style="top:650px">
+        <span class="tag">ประวัติ</span><h2>ดูแลบทสนทนา</h2>
+        <p>ดูรายการ · เปิดประวัติ · เปลี่ยนชื่อ · ปิดหรือลบ</p>
+      </div>
+      <div id="b8-output" class="clip cap-card" data-start="2.8" data-duration="__DURATION__" data-track-index="4" style="top:960px">
+        <span class="tag">คำตอบ</span><h2>ให้คะแนนและรับไฟล์</h2>
+        <p>ให้คะแนนคำตอบ · ดาวน์โหลดไฟล์ที่ Agent สร้าง</p>
+      </div>
+      <div id="b8-note" class="clip cap-note" data-start="4.0" data-duration="__DURATION__" data-track-index="5">ทั้งหมดนี้คือความสามารถของ Chat API</div>
+    </main>
+    <script>
+      (() => {
+        const root = document.getElementById("root");
+        const tl = gsap.timeline({ paused: true });
+        ["#b8-send", "#b8-history", "#b8-output", "#b8-note"].forEach((selector) => {
+          const node = document.querySelector(selector);
+          const start = Number(node.dataset.start);
+          gsap.set(node, { opacity: 0, y: 18 });
+          tl.to(node, { opacity: 1, y: 0, duration: 0.28, ease: "power1.out" }, start);
+        });
+        window.__timelines = window.__timelines || {};
+        window.__timelines[root.dataset.compositionId] = tl;
+      })();
+    </script>
+  </body>
+</html>

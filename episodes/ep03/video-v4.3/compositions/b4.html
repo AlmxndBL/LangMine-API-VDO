@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1080,height=1920" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../assets/gsap.min.js"></script>
+    <style>
+      .stream-label { position:absolute; left:144px; top:256px; color:var(--accent); font-size:30px; font-weight:700; }
+      .code-host { left:144px; top:300px; width:792px; height:820px; overflow:hidden; }
+    </style>
+  </head>
+  <body>
+    <main id="root" style="position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--ground);font-family:Sarabun,sans-serif;color:var(--ink)" data-composition-id="b4" data-width="1080" data-height="1920" data-duration="13.214">
+      <div class="scene-ground" data-layout-ignore></div>
+      <div id="b4-title" class="clip headline" data-start="0" data-duration="13.214" data-track-index="1">ส่งคำถาม</div>
+      <div id="b4-stream" class="clip stream-label" data-start="0" data-duration="13.214" data-track-index="2">SSE stream · Authorization: Bearer $LM_TOKEN</div>
+      <div id="b4-code-host" class="clip code-host" data-start="0" data-duration="13.214" data-composition-src="./compositions/code-highlight.html" data-composition-id="code-highlight" data-track-index="3" data-track-kind="graphics"></div>
+    </main>
+    <script>
+      (() => {
+        const root = document.getElementById("root");
+        const tl = gsap.timeline({ paused: true });
+        window.__timelines = window.__timelines || {};
+        window.__timelines[root.dataset.compositionId] = tl;
+      })();
+    </script>
+  </body>
+</html>

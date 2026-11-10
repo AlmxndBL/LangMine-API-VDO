@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "historyId": "a932b5c7-d0cc-4501-9c0d-e98f6ec1023e",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "ASSETS-v4.2.md": {
+      "hash": "6648aa869b499b6ba4a1049c75447d5bf9eb8c098e2d515a69624f7df1670d6e",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\66\\6648aa869b499b6ba4a1049c75447d5bf9eb8c098e2d515a69624f7df1670d6e"
+    },
+    "CATALOG-v4.2.md": {
+      "hash": "754efafadd50fd742c90389c1f8a44a8351a6633e914b00bceb99743eb0a8f2c",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\75\\754efafadd50fd742c90389c1f8a44a8351a6633e914b00bceb99743eb0a8f2c"
+    },
+    "PLAN-v4.2.md": {
+      "hash": "3297f89c743781c12e32b138913e2e60ddf7b92a74e48c57aa5cc7bafe6cf9b8",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\32\\3297f89c743781c12e32b138913e2e60ddf7b92a74e48c57aa5cc7bafe6cf9b8"
+    },
+    "README.md": {
+      "hash": "f91522b62796476316a88f2c9776f27b90ccd9d498eeb3d047a74e73c3036717",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\f9\\f91522b62796476316a88f2c9776f27b90ccd9d498eeb3d047a74e73c3036717"
+    },
+    "REVIEW-v4.2.md": {
+      "hash": "909b0997c337dc01e145fa35a8b9aaded9d09a7a123b1ee9c3c47476d32b0d46",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\90\\909b0997c337dc01e145fa35a8b9aaded9d09a7a123b1ee9c3c47476d32b0d46"
+    },
+    "SCREEN-DESIGNS-v4.2.md": {
+      "hash": "cc5f681b4cc765c3de33f1304c20133af85a1404a305495384d2af1eb191262e",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\cc\\cc5f681b4cc765c3de33f1304c20133af85a1404a305495384d2af1eb191262e"
+    },
+    "SILENT-TIMING-v4.2.md": {
+      "hash": "a0687a87c4bcd03132d0d0b0ea578944e0d7d754109e643a5f139c0e9a778244",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\a0\\a0687a87c4bcd03132d0d0b0ea578944e0d7d754109e643a5f139c0e9a778244"
+    },
+    "STORYBOARD-v4.2.md": {
+      "hash": "c27bca07a09038d416f2d4d42964ee8adc0329dc8048e34cbfef3bc9ebd340d7",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\c2\\c27bca07a09038d416f2d4d42964ee8adc0329dc8048e34cbfef3bc9ebd340d7"
+    },
+    "VOICE-SCRIPT-v4.2.md": {
+      "hash": "449970abcab32d5ceae24572ba709a9f9eb566214852ce350be3dcd72a11aed2",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\44\\449970abcab32d5ceae24572ba709a9f9eb566214852ce350be3dcd72a11aed2"
+    },
+    "assets/fonts/Sarabun-Bold.ttf": {
+      "hash": "d38308ca27d067b9a1b79006337c1f9a66c29aa016d96a9d88d3801da7fa83b9",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\d3\\d38308ca27d067b9a1b79006337c1f9a66c29aa016d96a9d88d3801da7fa83b9"
+    },
+    "assets/fonts/Sarabun-Regular.ttf": {
+      "hash": "226d4f368fbc0457990ddef2692679badfd2c1a4e89e5ac4d43c10ba7743b2f1",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\22\\226d4f368fbc0457990ddef2692679badfd2c1a4e89e5ac4d43c10ba7743b2f1"
+    },
+    "assets/gsap.min.js": {
+      "hash": "fd6978c80858a3036c39b4e53b5a6f9385d759d43283e6b1de89237e5640d85f",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\fd\\fd6978c80858a3036c39b4e53b5a6f9385d759d43283e6b1de89237e5640d85f"
+    },
+    "assets/langmind-logo.png": {
+      "hash": "025dbb6064076ac724f42009635e715f985a3d2df8abfa374a8fcec398979c49",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\02\\025dbb6064076ac724f42009635e715f985a3d2df8abfa374a8fcec398979c49"
+    },
+    "assets/plates/v4.2/stage_01_b1_ask.png": {
+      "hash": "efc1999005bfa2c0d05fbe979af88396ae5e07182ec5f8966d7d5d55ac3dfeb3",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\ef\\efc1999005bfa2c0d05fbe979af88396ae5e07182ec5f8966d7d5d55ac3dfeb3"
+    },
+    "assets/plates/v4.2/stage_02_b1_follow-up.png": {
+      "hash": "7c9f8d386a5d1c9d3643b8abb28098ef5241b9911be471d9f67dcf4aa1c85ae4",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\7c\\7c9f8d386a5d1c9d3643b8abb28098ef5241b9911be471d9f67dcf4aa1c85ae4"
+    },
+    "assets/plates/v4.2/stage_03_b2_roles.png": {
+      "hash": "d2f2217ce10137ee80e39aefe4d037c4c01be3eb8f70fff54fcc615553aa9d80",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\d2\\d2f2217ce10137ee80e39aefe4d037c4c01be3eb8f70fff54fcc615553aa9d80"
+    },
+    "assets/plates/v4.2/stage_04_b2_flow.png": {
+      "hash": "869972469d48e8ec755972a8c6d933d16fd16b57ab862bfb19a002e2ab6c6687",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\86\\869972469d48e8ec755972a8c6d933d16fd16b57ab862bfb19a002e2ab6c6687"
+    },
+    "assets/plates/v4.2/stage_05_b3_agent.png": {
+      "hash": "fe4caaa50bf9ef5106e7c5f3be793714b66b878a7641582b24583b793ae80eca",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\fe\\fe4caaa50bf9ef5106e7c5f3be793714b66b878a7641582b24583b793ae80eca"
+    },
+    "assets/plates/v4.2/stage_06_b3_key.png": {
+      "hash": "e3bbb5ce74ccac650fc96cc50f640c2cd2f9eab740bb2c352cf4aa5971cab55d",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\e3\\e3bbb5ce74ccac650fc96cc50f640c2cd2f9eab740bb2c352cf4aa5971cab55d"
+    },
+    "assets/plates/v4.2/stage_07_b4_route.png": {
+      "hash": "05dd75687c42606af5cae3b62b2fba7f838722874c6dff0b6032a5b465dff5ec",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\05\\05dd75687c42606af5cae3b62b2fba7f838722874c6dff0b6032a5b465dff5ec"
+    },
+    "assets/plates/v4.2/stage_08_b4_payload.png": {
+      "hash": "a4d11eaf88916e584a610d150a4efd6af4913f7f6189fd5d7a902bfa311582aa",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\a4\\a4d11eaf88916e584a610d150a4efd6af4913f7f6189fd5d7a902bfa311582aa"
+    },
+    "assets/plates/v4.2/stage_09_b5_meaning.png": {
+      "hash": "246e877e76e0dfcfc2bb42b508c60f9b4be964bb53a31e720c93b645ea6820c0",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\24\\246e877e76e0dfcfc2bb42b508c60f9b4be964bb53a31e720c93b645ea6820c0"
+    },
+    "assets/plates/v4.2/stage_10_b5_chunks.png": {
+      "hash": "918ce19b6f5008df6318716f3b4a79a489fe1e8455790161c6e9410751994fd1",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\91\\918ce19b6f5008df6318716f3b4a79a489fe1e8455790161c6e9410751994fd1"
+    },
+    "assets/plates/v4.2/stage_11_b5_end.png": {
+      "hash": "26305fa9e956e4c077b5f06b7c62855278b257f9461aa9de8426ca3e3cc85a38",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\26\\26305fa9e956e4c077b5f06b7c62855278b257f9461aa9de8426ca3e3cc85a38"
+    },
+    "assets/plates/v4.2/stage_12_b6_reuse.png": {
+      "hash": "24f5ec8f56a2506cafd50c3a291cf3e4e56bbf6c1528a4ea9a575b5a8d700084",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\24\\24f5ec8f56a2506cafd50c3a291cf3e4e56bbf6c1528a4ea9a575b5a8d700084"
+    },
+    "assets/plates/v4.2/stage_13_b6_continue.png": {
+      "hash": "3a89c892f2f5594e717189cfe95f9ed57c48df9097b1da9259aa724544f0bfb4",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\3a\\3a89c892f2f5594e717189cfe95f9ed57c48df9097b1da9259aa724544f0bfb4"
+    },
+    "assets/plates/v4.2/stage_14_b7_control.png": {
+      "hash": "bafd52dc1a9377e973bc935fbe67f8067e614d2a99d8f5554c2c519bbc186d1e",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\ba\\bafd52dc1a9377e973bc935fbe67f8067e614d2a99d8f5554c2c519bbc186d1e"
+    },
+    "assets/plates/v4.2/stage_15_b7_history.png": {
+      "hash": "700d030cc363426a0c90c9147ec7104a5f0ed23b10c9f9c6a409caf75f938977",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\70\\700d030cc363426a0c90c9147ec7104a5f0ed23b10c9f9c6a409caf75f938977"
+    },
+    "assets/plates/v4.2/stage_16_b8_steps.png": {
+      "hash": "90b774f6cd574f2ee23cf9d88c63a11c5456bf05f2fad7f750ac5356a3aea627",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\90\\90b774f6cd574f2ee23cf9d88c63a11c5456bf05f2fad7f750ac5356a3aea627"
+    },
+    "assets/plates/v4.2/stage_17_b8_responsibility.png": {
+      "hash": "41b454959925e7398861b96ac4717d134b6b5dd935228dfaca71c53ab6d82ff8",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\41\\41b454959925e7398861b96ac4717d134b6b5dd935228dfaca71c53ab6d82ff8"
+    },
+    "assets/plates/v4.2/stage_18_b9_brand.png": {
+      "hash": "b0568decbe82dcf03b5311d318ff336c41124efce043c37b08d2c9bbdef673d0",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\b0\\b0568decbe82dcf03b5311d318ff336c41124efce043c37b08d2c9bbdef673d0"
+    },
+    "assets/robot/01-question.png": {
+      "hash": "c7d8bbe30cbc7ecbaf439b499ed35c4c2cb9dead8144dd08fcb84445065a5085",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\c7\\c7d8bbe30cbc7ecbaf439b499ed35c4c2cb9dead8144dd08fcb84445065a5085"
+    },
+    "assets/robot/05-point-up.png": {
+      "hash": "6596f6b0a6fd7a57a3a6cc6c31b8da13e18cf17bf14777351480bd222e04dc01",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\65\\6596f6b0a6fd7a57a3a6cc6c31b8da13e18cf17bf14777351480bd222e04dc01"
+    },
+    "assets/robot/10-thumbs-up.png": {
+      "hash": "a12f374f8b804ab812c185f2191ec19b736cfea8466bae947a54926f4764cb17",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\a1\\a12f374f8b804ab812c185f2191ec19b736cfea8466bae947a54926f4764cb17"
+    },
+    "assets/screens/CHAT-01.png": {
+      "hash": "98af4063f33cfbe11c330e7d0262f5acf262b80737b5033e4f26c58588e1a38b",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\98\\98af4063f33cfbe11c330e7d0262f5acf262b80737b5033e4f26c58588e1a38b"
+    },
+    "assets/screens/CHAT-02.png": {
+      "hash": "fa3b38f09713773f4e0e93d3b3bfd89dad61d2840c8623d5af82fbbc579cb913",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\fa\\fa3b38f09713773f4e0e93d3b3bfd89dad61d2840c8623d5af82fbbc579cb913"
+    },
+    "build.mjs": {
+      "hash": "73ff725c7110c2db449e44e96205641f3626e180958f46f3f4248aae446120c3",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\73\\73ff725c7110c2db449e44e96205641f3626e180958f46f3f4248aae446120c3"
+    },
+    "index.html": {
+      "hash": "47a35eee089abe6d57da79a62309277fcb5d3f5b487bec6bb3bd698965822412",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\47\\47a35eee089abe6d57da79a62309277fcb5d3f5b487bec6bb3bd698965822412"
+    },
+    "motion.js": {
+      "hash": "d4f726b37df203dc335883a84e5d00016d1c9ae855729f0f620b114ccb36e83c",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\d4\\d4f726b37df203dc335883a84e5d00016d1c9ae855729f0f620b114ccb36e83c"
+    },
+    "render_v4_2.py": {
+      "hash": "798fa58fa092b1ac12369a6db507ae8fa474c9404f2960f4bfa77036b0d0ebef",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\79\\798fa58fa092b1ac12369a6db507ae8fa474c9404f2960f4bfa77036b0d0ebef"
+    },
+    "style.css": {
+      "hash": "d70e14a80fb043117d53cc680f66c70b93840ae2a62174785141ba4e305b27b3",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\d7\\d70e14a80fb043117d53cc680f66c70b93840ae2a62174785141ba4e305b27b3"
+    },
+    "timing.json": {
+      "hash": "32e4e104e6240ed4d8a1d8313c93e596c0dfdf52dcdc62e3b163e6d56fb40cf9",
+      "content": "C:\\Users\\lenovo\\.cache\\hyperframes\\history\\a932b5c7-d0cc-4501-9c0d-e98f6ec1023e\\blobs\\32\\32e4e104e6240ed4d8a1d8313c93e596c0dfdf52dcdc62e3b163e6d56fb40cf9"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  }
+}

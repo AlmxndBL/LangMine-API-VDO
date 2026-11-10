@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1080,height=1920" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../assets/gsap.min.js"></script>
+    <style>
+      .follow-frame { left:140px; top:300px; width:800px; height:1000px; }
+      #b7-screen-media { width:800px; height:1000px; }
+      .follow-note { position:absolute; left:140px; top:1360px; width:800px; height:88px; display:flex; align-items:center; justify-content:center; border:2px solid var(--teal); border-radius:44px; background:#e1f0ee; color:#176360; font-size:34px; font-weight:700; }
+    </style>
+  </head>
+  <body>
+    <main id="root" style="position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--paper);font-family:Sarabun,sans-serif;color:var(--ink)" data-composition-id="b7" data-width="1080" data-height="1920" data-duration="__DURATION__">
+      <div class="scene-ground" data-layout-ignore></div>
+      <div id="b7-title" class="clip headline" data-start="0" data-duration="__DURATION__" data-track-index="1">ใช้รหัสเดิมเพื่อถามต่อ</div>
+      <div id="b7-screen" class="clip screen-frame follow-frame" data-start="0" data-duration="__DURATION__" data-track-index="2">
+        <img id="b7-screen-media" class="screen-media" src="../assets/screens/CHAT-02.png" alt="ภาพจำลองแชตที่ผู้ช่วยตอบต่อในบทสนทนาเดิม" />
+      </div>
+      <div id="b7-follow-note" class="clip follow-note" data-start="0.8" data-duration="__DURATION__" data-track-index="3">conversation_id เดิม&nbsp; + &nbsp;คำถามใหม่</div>
+    </main>
+    <script>
+      (() => {
+        const root = document.getElementById("root");
+        const tl = gsap.timeline({ paused: true });
+        tl.fromTo("#b7-screen-media", { scale: 1.012 }, { scale: 1, duration: 0.34, ease: "power1.out" }, 0);
+        gsap.set("#b7-follow-note", { opacity: 0, y: 10 });
+        tl.to("#b7-follow-note", { opacity: 1, y: 0, duration: 0.22, ease: "power1.out" }, 0.8);
+        window.__timelines = window.__timelines || {};
+        window.__timelines[root.dataset.compositionId] = tl;
+      })();
+    </script>
+  </body>
+</html>

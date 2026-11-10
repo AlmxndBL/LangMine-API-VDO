@@ -14,10 +14,10 @@
 
 Workspace ของ Jack สำหรับวางแผนและผลิตคลิปภาษาไทยเกี่ยวกับ LangMind API ผู้ชมคือ developer และคนที่ต้องการนำ AI/API ไปสร้างฟีเจอร์
 
-**งานปัจจุบัน: [EP02 เว็บแชทของเราเอง](episodes/ep02-custom-chat/README.md)** ใช้โครงเรื่องที่ผู้ใช้อนุมัติและ Catalog เป็นฐานหลัก กำลังออกแบบก่อนผลิต ส่วน EP01 ผู้ใช้ระบุว่ายอมรับได้สำหรับเดินหน้าตอนต่อไปและให้หยุดแก้ ดูหลักฐานเดิมใน [README EP01](episodes/ep01-api-introduction/README.md) และหลักการทำตอนต่อไปใน [Workflow](docs/WORKFLOW.md)
+**งานที่เพิ่งส่งมอบ: [EP03 v4.3.1 Silent Draft](episodes/ep03/video-v4.3.1/README.md)** ปรับบทให้เข้าใจง่ายและยึดสไตล์ `.agents`/EP04; MP4 112.5 วินาที, 9 beats, Pillow + FFmpeg fallback, ไม่มีเสียง/native render และยังรอตรวจจากผู้ใช้. ดู [วิดีโอ](episodes/ep03/video-v4.3.1/renders/ep03-v4.3.1-silent.mp4), [สถานะ EP03](episodes/ep03/README.md) และ [Workflow](docs/WORKFLOW.md).
 
 
-สถานะ EP03: ผลิต [v4.2 Silent Draft](episodes/ep03/video-v4.2/renders/ep03-v4.2-silent.mp4) แล้ว (9 beats, 110.47 วินาที, 1080×1920/30fps); ยังไม่มีเสียงและยังไม่ผ่าน HyperFrames native preview. รายละเอียดและข้อจำกัดอยู่ที่ [สถานะ EP03](episodes/ep03/README.md) และ [README v4.2](episodes/ep03/video-v4.2/README.md). ลำดับงานหลักของ workspace อ้างอิงแผนกลางด้านบน.
+สถานะ EP03 ล่าสุด: [v4.3.1 Silent Draft](episodes/ep03/video-v4.3.1/renders/ep03-v4.3.1-silent.mp4) — 9 beats, 112.5 วินาที, 1080×1920/30fps; Pillow + FFmpeg fallback; HyperFrames lint 0/0; ไม่มีเสียง/native render และยังไม่ได้ตรวจรับ. ดู [README v4.3.1](episodes/ep03/video-v4.3.1/README.md) และ [สถานะตอน](episodes/ep03/README.md).
 ## เริ่มจากที่นี่
 | เอกสาร | หน้าที่ |
 |---|---|

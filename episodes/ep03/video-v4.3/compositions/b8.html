@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1080,height=1920" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../assets/gsap.min.js"></script>
+    <style>
+      .summary-line { position:absolute; left:168px; top:1082px; color:var(--accent); font-size:32px; font-weight:700; }
+    </style>
+  </head>
+  <body>
+    <main id="root" style="position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--ground);font-family:Sarabun,sans-serif;color:var(--ink)" data-composition-id="b8" data-width="1080" data-height="1920" data-duration="9.068">
+      <div class="scene-ground" data-layout-ignore></div>
+      <div id="b8-title" class="clip headline" data-start="0" data-duration="9.068" data-track-index="1">กลับไปที่ผู้ใช้</div>
+      <div id="b8-screen" class="clip screen-frame" data-start="0" data-duration="9.068" data-track-index="2" style="left:120px;top:260px;width:840px;height:817px">
+        <img id="b8-screen-media" class="screen-media" src="../assets/screens/CHAT-02.png" alt="ภาพจำลองคำตอบหลังถามต่อ" />
+      </div>
+      <div id="b8-summary" class="clip summary-line" data-start="0.5" data-duration="9.068" data-track-index="3">server ส่ง → แอปแสดง → ID ใช้ถามต่อ</div>
+    </main>
+    <script>
+      (() => {
+        const root = document.getElementById("root");
+        const tl = gsap.timeline({ paused: true });
+        tl.fromTo("#b8-screen-media", { scale: 1.015 }, { scale: 1, duration: 0.35, ease: "power1.out" }, 0);
+        const summary = document.getElementById("b8-summary");
+        gsap.set(summary, { opacity: 0 });
+        tl.to(summary, { opacity: 1, duration: 0.18, ease: "none" }, Number(summary.dataset.start));
+        window.__timelines = window.__timelines || {};
+        window.__timelines[root.dataset.compositionId] = tl;
+      })();
+    </script>
+  </body>
+</html>

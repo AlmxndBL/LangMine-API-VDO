@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<title>EP03 · Chat API · video-v4.4</title>
+<link rel="stylesheet" href="style.css">
+<script src="assets/gsap.min.js"></script>
+</head>
+<body>
+<main id="film" data-composition-id="ep03-chat-v4.4" data-width="1080" data-height="1920" data-fps="30" data-duration="183.63333333333333">
+  <div class="kicker">EP03 &nbsp;/&nbsp; CHAT API</div>
+  <div class="note">ภาพจำลอง</div>
+  <section id="stage" class="clip" data-start="0" data-duration="183.63333333333333" data-track-index="1">
+    <div class="spine"><span id="sp1" class="pill">1 เตรียม</span><i></i><span id="sp2" class="pill">2 เชื่อม</span><i></i><span id="sp3" class="pill">3 ใช้ผล</span></div>
+    <section class="scene" id="sc-b1">
+    <h1 class="heading">แอปที่มีแชตบอต AI<small>ทำได้ยังไง?</small></h1>
+    <div class="place" style="left:232px;top:380px">
+  <div class="device" id="dev-b1" style="width:616px">
+    <div class="screen" style="width:600px;height:367px">
+      <img src="assets/app-chat-1.jpg" style="width:600px;height:367px;display:block" alt="ภาพจำลองหน้าจอแชต">
+      <img class="img-a" src="assets/app-chat-2.jpg" style="width:600px;height:367px;display:block" alt="ภาพจำลองคำตอบ">
+    </div>
+  </div></div>
+    <div class="tip" style="left:110px;right:110px;top:800px;text-align:center" data-in="1" data-at="0.3" data-anim="up">
+      <b>แชตบอตตอบช้า หรือจำเรื่องเดิมไม่ได้?</b><br>
+      ต่อ Chat API ให้ตอบแบบสตรีมมิ่ง พิมพ์สดทีละคำ และจำบริบทคุยต่อได้ทันที
+    </div>
+    <div class="qrow" style="top:1000px">
+      <span class="qchip" data-in="2" data-at="0.4" data-anim="pop">เตรียมอะไร?</span>
+      <span class="qchip" data-in="2" data-at="1" data-anim="pop">เชื่อมตรงไหน?</span>
+      <span class="qchip" data-in="2" data-at="1.6" data-anim="pop">ใช้ผลยังไง?</span>
+    </div>
+    <img class="robot" src="assets/01-question.png" width="445" height="503" alt="" style="left:440px;top:1180px;width:200px" data-in="2" data-at="1.8" data-anim="pop"></section>
+<section class="scene" id="sc-b2">
+    <h1 class="heading">ภาพรวมทั้งหมด<small>Chat API ทำงานร่วมกับแอปยังไง</small></h1>
+    <div class="group" data-out="1" data-out-at="0">
+      <div class="node" style="top:430px" data-in="0" data-at="0.1" data-anim="up"><svg class="ico big" viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg><div><b>แอปของคุณ</b><span class="alias" data-in="0" data-at="2.6" data-anim="left">= หน้าร้าน (รับคำถามลูกค้า)</span></div></div>
+      <div class="lane" style="top:640px">
+        <div class="lane-l" data-in="0" data-at="0.7" data-anim="left"><b>ส่งคำถาม</b><span data-in="0" data-at="3" data-anim="up">ผ่านหลังบ้าน</span></div>
+        <svg class="varrow" data-in="0" data-at="0.6" data-anim="up" viewBox="0 0 60 250" style="height:250px"><path pathLength="1" d="M30 6 V236 M14 222 L30 240 L46 222"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="228"/></svg>
+        <svg class="varrow up" data-in="0" data-at="1.4" data-anim="up" viewBox="0 0 60 250" style="height:250px"><path pathLength="1" d="M30 6 V236 M14 222 L30 240 L46 222"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="228"/></svg>
+        <div class="lane-r" data-in="0" data-at="1.5" data-anim="up"><b>สตรีมตอบ</b><span data-in="0" data-at="3.4" data-anim="up">พิมพ์สดทีละคำ</span></div>
+      </div>
+      <div class="node lm" style="top:910px" data-in="0" data-at="1" data-anim="up"><img src="assets/langmind-logo.png" width="689" height="606" alt="LangMind"><div><b>LangMind Chat API</b><span class="alias" data-in="0" data-at="2.8" data-anim="left">= สมอง AI</span></div></div>
+    </div>
+    <div class="node wide" style="top:400px" data-in="1" data-at="0.4" data-anim="up"><svg class="ico big" viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg><div><b>แอปพลิเคชันของคุณ (Client)</b><span>แสดงหน้าแชต · ส่งคำถามผู้ใช้</span></div></div>
+    <div class="lane small" style="top:600px">
+      <div class="lane-l" data-in="1" data-at="0.9" data-anim="left"><b>คำถามผู้ใช้</b></div>
+      <svg class="varrow" data-in="1" data-at="0.8" data-anim="up" viewBox="0 0 60 150" style="height:150px"><path pathLength="1" d="M30 6 V136 M14 122 L30 140 L46 122"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="128"/></svg><svg class="varrow up" data-in="1" data-at="1.1" data-anim="up" viewBox="0 0 60 150" style="height:150px"><path pathLength="1" d="M30 6 V136 M14 122 L30 140 L46 122"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="128"/></svg>
+      <div class="lane-r" data-in="1" data-at="1.2" data-anim="up"><b>สตรีมคำตอบ</b></div>
+    </div>
+    <div class="node wide" style="top:760px" data-in="1" data-at="1.2" data-anim="up"><svg class="ico big" viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg><div><b>เซิร์ฟเวอร์หลังบ้าน (Backend Server)</b><span>เก็บ API Key ปลอดภัย · เรียก Chat API</span></div><span class="badge haskey" data-in="1" data-at="1.8" data-anim="pop"><svg class="ico " viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg>Key</span></div>
+    <div class="lane small" style="top:960px">
+      <div class="calls3" data-in="2" data-at="0.2" data-anim="up"><span class="step s1" data-in="2" data-at="0.5" data-anim="pop">1 เริ่มห้อง</span><span class="step s2" data-in="2" data-at="0.9" data-anim="pop">2 สตรีมสด</span><span class="step s3" data-in="2" data-at="1.3" data-anim="pop">3 ถามต่อ</span></div>
+      <svg class="varrow" data-in="1" data-at="1.9" data-anim="up" viewBox="0 0 60 150" style="height:150px"><path pathLength="1" d="M30 6 V136 M14 122 L30 140 L46 122"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="128"/></svg><svg class="varrow up" data-in="1" data-at="2.2" data-anim="up" viewBox="0 0 60 150" style="height:150px"><path pathLength="1" d="M30 6 V136 M14 122 L30 140 L46 122"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="128"/></svg>
+      <div class="lane-r" data-in="1" data-at="2.3" data-anim="up"><b>ประมวลผล</b></div>
+    </div>
+    <div class="node wide lm" style="top:1120px" data-in="1" data-at="2.4" data-anim="up"><img src="assets/langmind-logo.png" width="689" height="606" alt="LangMind"><div><b>LangMind Chat API & Agent</b><span>ประมวลผลคำตอบ · สตรีมข้อความ Real-time</span></div></div></section>
+<section class="scene" id="sc-b3">
+    <h1 class="heading"><span class="num">1</span>เตรียม<small>ต้องมี 3 อย่าง</small></h1>
+    <div class="stack" style="top:410px">
+      <div class="card" data-in="0" data-at="0.4" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 3.5V7M9 12.5h.01M15 12.5h.01M9.5 16h5"/></svg><div><b>Agent ใน LangMind</b><span>ตั้งค่าผู้ช่วย AI และข้อมูลร้านค้าไว้</span></div><span class="badge haskey" data-in="0" data-at="1.2" data-anim="pop">ready ✓</span></div>
+        <div class="chips"><span class="chip" data-in="0" data-at="1.4" data-anim="pop"><svg class="ico " viewBox="0 0 24 24"><path d="M4 5.5A2 2 0 0 1 6 3.5h12v15H6a2 2 0 0 0-2 2z"/><path d="M4 20.5V5.5M8 8h7M8 11.5h7"/></svg>ข้อมูลสินค้า</span><span class="chip" data-in="0" data-at="1.8" data-anim="pop"><svg class="ico " viewBox="0 0 24 24"><path d="M4 5.5A2 2 0 0 1 6 3.5h12v15H6a2 2 0 0 0-2 2z"/><path d="M4 20.5V5.5M8 8h7M8 11.5h7"/></svg>คำนวณส่วนลด</span></div>
+      </div>
+      <div class="card" data-in="1" data-at="0.2" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="M11 12l8.5-8.5M16 7l2.5 2.5M14 9l2 2"/></svg><div><b>API Key (Personal Token)</b><span class="mono">lmpat_••••••••</span></div></div>
+        <div class="chips"><span class="chip mono" data-in="1" data-at="1.4" data-anim="pop">chat:invoke</span><span class="chip mono" data-in="1" data-at="2" data-anim="pop">agents:read</span></div>
+      </div>
+      <div class="card" data-in="2" data-at="0.2" data-anim="up">
+        <div class="card-h"><svg class="ico big" viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg><div><b>เซิร์ฟเวอร์หลังบ้าน</b><span>เก็บ API Key ปลอดภัย · ห้ามใส่ในหน้าเว็บ</span></div><span class="badge nokey" data-in="2" data-at="1.2" data-anim="pop">ห้ามใส่ในเว็บ</span></div>
+      </div>
+    </div>
+    <div class="warn" style="margin:24px 90px 0;font-size:29px;line-height:1.4" data-in="3" data-at="0.2" data-anim="left">
+      <b>ข้อควรระวัง:</b> หากไม่ระบุ <code>agent_id</code> หรือ Agent ยังไม่พร้อมใช้งาน ระบบจะคืนรหัสข้อผิดพลาดทันที
+    </div></section>
+<section class="scene" id="sc-b4">
+    <h1 class="heading"><span class="num">2</span>เชื่อม<small>ครั้งที่ 1 · เริ่มห้องใหม่</small></h1>
+    
+  <div class="minimap" style="--c:#38815A">
+    <span class="mm-node"><svg class="ico " viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>แอป</span>
+    <i class="mm-link"></i>
+    <span class="mm-node srv"><svg class="ico " viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg>หลังบ้าน<svg class="ico sm" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+    <span class="mm-call">1 · เริ่มห้องใหม่</span>
+    <span class="mm-node lm"><img src="assets/langmind-logo.png" width="689" height="606" alt="">LangMind</span>
+  </div>
+    
+  <div class="panel">
+    <div class="slot-in" data-in="0" data-at="0.2" data-anim="up"><div class="chip in-chip"><svg class="ico " viewBox="0 0 24 24"><path d="M4 5.5h16v10H9l-5 4z"/><path d="M8 9.5h8M8 12.5h5"/></svg><span><b>คำถามแรก:</b> “สินค้าชิ้นนี้มีของพร้อมส่งไหมครับ?”</span></div></div>
+    <svg class="varrow" data-in="0" data-at="0.6" data-anim="up" viewBox="0 0 60 60" style="height:60px"><path pathLength="1" d="M30 6 V46 M14 32 L30 50 L46 32"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="38"/></svg>
+    <div class="code" data-in="0" data-at="0.9" data-anim="up">
+      <div class="code-head"><span class="method">POST</span><span class="scope">สิทธิ์ chat:invoke</span></div>
+      <div class="code-path">/api/chat/message</div>
+      <div class="code-body"><div class="ln " data-in="0" data-at="1.2" data-anim="left">Authorization: Bearer <span class="v">$LM_TOKEN</span></div><div class="ln " data-in="0" data-at="1.4" data-anim="left"><span class="k">"agent_id"</span>: <span class="v">"01J8XM9K…"</span>,</div><div class="ln " data-in="0" data-at="1.6" data-anim="left"><span class="k">"query"</span>: <span class="v">"สินค้าชิ้นนี้มีของพร้อมส่งไหมครับ"</span>,</div><div class="ln hl" data-in="0" data-at="1.8" data-anim="left"><span class="mark" data-mark="0" data-mark-at="2.2"></span><span class="k">"conversation_id"</span>: <span class="v">null</span></div></div>
+      <div class="code-foot">💡 ส่ง conversation_id: null หมายถึงขอเปิดห้องแชตใหม่</div>
+    </div>
+    <svg class="varrow" data-in="1" data-at="0.10000000000000003" data-anim="up" viewBox="0 0 60 60" style="height:60px"><path pathLength="1" d="M30 6 V46 M14 32 L30 50 L46 32"/><circle class="dot" cx="30" cy="10" r="7" data-y0="10" data-y1="38"/></svg>
+    <div class="slot-out" data-in="1" data-at="0.4" data-anim="up"><div class="chip out-chip json">
+          <b>รับ event แรกชื่อ message_start ทันที:</b><br>
+          <code>data: { "event": "message_start", <span class="k">"conversation_id"</span>: <span class="v">"conv_8892"</span> }</code>
+          <em>» เก็บ รหัส conv_8892 นี้ไว้ใช้ส่งในคำถามถัดไป «</em>
+        </div></div>
+  </div></section>
+<section class="scene" id="sc-b5">
+    <h1 class="heading"><span class="num">2</span>เชื่อม<small>ครั้งที่ 2 · สตรีมคำตอบ</small></h1>
+    
+  <div class="minimap" style="--c:#8d732c">
+    <span class="mm-node"><svg class="ico " viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>แอป</span>
+    <i class="mm-link"></i>
+    <span class="mm-node srv"><svg class="ico " viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg>หลังบ้าน<svg class="ico sm" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+    <span class="mm-call">2 · สตรีมคำตอบ</span>
+    <span class="mm-node lm"><img src="assets/langmind-logo.png" width="689" height="606" alt="">LangMind</span>
+  </div>
+    <div class="chat-row" style="top:470px">
+      <div class="device" id="dev-b5" style="width:456px;flex:none" data-in="0" data-at="0.2" data-anim="up">
+        <div class="screen" style="width:440px;height:269px">
+          <img src="assets/app-chat-2.jpg" style="width:440px;height:269px;display:block" alt="แชตสตรีมคำตอบ">
+        </div>
+      </div>
+      <div style="flex:1;display:flex;flex-direction:column;gap:16px" data-in="0" data-at="0.5" data-anim="up">
+        <div class="code" style="padding:20px 24px">
+          <div class="code-head"><span class="method">SSE Stream</span><span class="scope">Real-time Events</span></div>
+          <div class="code-body" style="font-size:26px;line-height:1.6">
+            <div class="ln" data-in="0" data-at="0.8" data-anim="left">data: { <span class="k">"event"</span>: <span class="v">"message"</span>, <span class="k">"answer"</span>: <span class="v">"มีสินค้า..."</span> }</div>
+            <div class="ln" data-in="0" data-at="1.2" data-anim="left">data: { <span class="k">"event"</span>: <span class="v">"message"</span>, <span class="k">"answer"</span>: <span class="v">"พร้อมส่งค่ะ"</span> }</div>
+            <div class="ln hl" data-in="0" data-at="1.6" data-anim="left"><span class="mark" data-mark="0" data-mark-at="2.0"></span>data: { <span class="k">"event"</span>: <span class="v">"message_end"</span>, <span class="k">"usage"</span>: { ... } }</div>
+          </div>
+          <div class="code-foot" style="font-size:25px">✓ ตัวหนังสือทยอยออกทันที ไม่ต้องรอทั้งประโยค</div>
+        </div>
+        <div class="tip" style="position:static;font-size:27px;padding:16px 20px" data-in="1" data-at="0.3" data-anim="up">
+          <b>ทางเลือกสำหรับสคริปต์หลังบ้าน:</b><br>
+          ใช้ <code>POST /api/chat/message/blocking</code> เพื่อรับ JSON ก้อนเดียวจบ
+        </div>
+      </div>
+    </div></section>
+<section class="scene" id="sc-b6">
+    <h1 class="heading"><span class="num">2</span>เชื่อม<small>ครั้งที่ 3 · ถามต่อในห้องเดิม</small></h1>
+    
+  <div class="minimap" style="--c:#1E7578">
+    <span class="mm-node"><svg class="ico " viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>แอป</span>
+    <i class="mm-link"></i>
+    <span class="mm-node srv"><svg class="ico " viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/></svg>หลังบ้าน<svg class="ico sm" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></span>
+    <span class="mm-call">3 · ถามต่อในห้องเดิม</span>
+    <span class="mm-node lm"><img src="assets/langmind-logo.png" width="689" height="606" alt="">LangMind</span>
+  </div>
+    <div class="chat-row" style="top:470px">
+      <div class="device" id="dev-b6" style="width:456px;flex:none" data-in="0" data-at="0.2" data-anim="up">
+        <div class="screen" style="width:440px;height:348px">
+          <img src="assets/app-chat-3.jpg" style="width:440px;height:348px;display:block" alt="แชตถามต่อ">
+        </div>
+      </div>
+      <div style="flex:1;display:flex;flex-direction:column;gap:16px" data-in="0" data-at="0.5" data-anim="up">
+        <div class="code" style="padding:20px 24px">
+          <div class="code-head"><span class="method">POST</span><span class="scope">/api/chat/message</span></div>
+          <div class="code-body" style="font-size:26px;line-height:1.6">
+            <div class="ln" data-in="0" data-at="0.8" data-anim="left"><span class="k">"query"</span>: <span class="v">"ถ้าสั่ง 2 ชิ้น มีส่วนลดไหม"</span>,</div>
+            <div class="ln hl" data-in="0" data-at="1.2" data-anim="left"><span class="mark" data-mark="0" data-mark-at="1.6"></span><span class="k">"conversation_id"</span>: <span class="v">"conv_8892"</span></div>
+          </div>
+          <div class="code-foot" style="font-size:25px">✓ ใช้รหัสห้องเดิม เพื่อให้ AI ดึงประวัติที่คุยไว้มาคิดต่อ</div>
+        </div>
+        <div class="tip" style="position:static;font-size:27px;padding:16px 20px" data-in="1" data-at="0.3" data-anim="up">
+          <b>ผลลัพธ์:</b> AI จำได้ทันทีว่าเป็นสินค้าชิ้นไหน<br>พร้อมคำนวณส่วนลดให้ต่อเนื่อง โดยที่ลูกค้าไม่ต้องถามซ้ำ
+        </div>
+      </div>
+    </div></section>
+<section class="scene" id="sc-b7">
+    <h1 class="heading"><span class="num">3</span>ใช้ผล<small>นำไปใช้ & ข้อควรระวัง</small></h1>
+    <div class="stack" style="top:410px">
+      <div class="use" data-in="0" data-at="0.4" data-anim="left"><svg class="ico big" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path class="fill" d="M10 8.5l5.5 3.5-5.5 3.5z"/></svg><div><b>1. ส่ง user_id ปลายทาง</b><span>ส่งรหัสผู้ใช้ทุกครั้งเพื่อนับสถิติ Unique Users ได้อย่างแท้จริง</span></div></div>
+      <div class="use" data-in="1" data-at="0.1" data-anim="left"><svg class="ico big" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg><div><b>2. สั่งยกเลิกสตรีมกะทันหัน</b><span>ใช้ POST /chat/messages/{id}/stop สั่งหยุดการพิมพ์ของ AI ได้ทันที</span></div></div>
+      <div class="use" data-in="2" data-at="0.1" data-anim="left"><svg class="ico big" viewBox="0 0 24 24"><path d="M4 5.5h16v10H9l-5 4z"/><path d="M8 9.5h8M8 12.5h5"/></svg><div><b>3. ดึงประวัติข้อความย้อนหลัง</b><span>ใช้ GET /chat/conversations/{id}/messages ดึงข้อความมาแสดงในแอป</span></div></div>
+      <div class="use" data-in="2" data-at="0.7" data-anim="left"><svg class="ico big" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg><div><b>4. เช็ก message_end & ปลอดภัย</b><span>รอตรวจ event message_end เสมอ และเก็บ API Key ฝั่ง Server เท่านั้น</span></div></div>
+    </div>
+    <img class="robot" src="assets/01-question.png" width="445" height="503" alt="" style="left:80px;top:1180px;width:180px" data-in="2" data-at="1.2" data-anim="up">
+    <div class="tip" style="top:1210px;left:290px;right:90px" data-in="2" data-at="1.4" data-anim="left">
+      <b>ความปลอดภัยสูงสุด:</b><br>
+      เก็บ Personal Token ไว้ที่หลังบ้านเท่านั้น ห้ามฝังใน Frontend หรือแอปมือถือ
+    </div></section>
+<section class="scene" id="sc-b8">
+    <h1 class="heading">สรุป<small>เตรียม → เชื่อม → ใช้ผล</small></h1>
+    <div class="stack" style="top:410px">
+      
+        <div class="recap" style="--c:#38815A" data-in="0" data-at="0.1" data-anim="up">
+          <span class="recap-t"><b>1</b>เตรียม</span>
+          <div class="chips"><span class="chip" data-in="0" data-at="0.4" data-anim="pop">Agent พร้อมใช้</span><span class="chip" data-in="0" data-at="0.6000000000000001" data-anim="pop">API Key (chat:invoke)</span><span class="chip" data-in="0" data-at="0.8" data-anim="pop">เซิร์ฟเวอร์หลังบ้าน</span></div>
+        </div>
+        <div class="recap" style="--c:#8d732c" data-in="1" data-at="0.1" data-anim="up">
+          <span class="recap-t"><b>2</b>เชื่อม</span>
+          <div class="chips"><span class="chip" data-in="1" data-at="0.4" data-anim="pop">เริ่มห้อง (null)</span><i class="arr" data-in="1" data-at="0.6000000000000001" data-anim="up">→</i><span class="chip" data-in="1" data-at="0.8" data-anim="pop">สตรีมสด (message)</span><i class="arr" data-in="1" data-at="1" data-anim="up">→</i><span class="chip" data-in="1" data-at="1.2000000000000002" data-anim="pop">ถามต่อ ID เดิม</span></div>
+        </div>
+        <div class="recap" style="--c:#1E7578" data-in="2" data-at="0.1" data-anim="up">
+          <span class="recap-t"><b>3</b>ใช้ผล</span>
+          <div class="chips"><span class="chip" data-in="2" data-at="0.4" data-anim="pop">สลับ Blocking ได้</span><span class="chip" data-in="2" data-at="0.6000000000000001" data-anim="pop">ส่ง user_id</span><span class="chip" data-in="2" data-at="0.8" data-anim="pop">ดึงประวัติย้อนหลัง</span></div>
+        </div>
+    </div>
+    <img class="robot" src="assets/04-open-arms.png" width="425" height="503" alt="" style="left:410px;top:1180px;width:260px" data-in="2" data-at="1.4" data-anim="up"></section>
+<section class="scene" id="sc-b9">
+    <div class="sponsor">
+      <div class="sp-by" data-in="0" data-at="0.2" data-anim="up">สนับสนุนโดย</div>
+      <img class="sp-logo" src="assets/langmind-logo.png" width="689" height="606" alt="LangMind" data-in="0" data-at="0.5" data-anim="pop">
+      <div class="sp-url" data-in="1" data-at="0.3" data-anim="pop">langmind.in.th</div>
+      <div class="chips sp-chips" data-in="1" data-at="1" data-anim="up"><span class="chip" style="font-size:38px;padding:8px 36px">Chat API</span></div>
+    </div></section>
+  </section>
+  <div id="cap-b1-0" class="clip caption" data-start="0.4" data-duration="6.866666666666666" data-track-index="8" data-layout-allow-caption-zone>อยากต่อแชตบอต AI เข้ากับแอปของตัวเอง<br>ที่ตอบไวและจำเรื่องที่คุยได้ใช่ไหมครับ</div>
+<div id="cap-b1-1" class="clip caption" data-start="7.266666666666667" data-duration="7.166666666666667" data-track-index="8" data-layout-allow-caption-zone>แชตบอตทั่วไปมักตอบช้าเพราะรอโหลดทั้งก้อน<br>หรือพอถามต่อก็ลืมเรื่องเดิมไปแล้ว</div>
+<div id="cap-b1-2" class="clip caption" data-start="14.466666666666667" data-duration="7.366666666666666" data-track-index="8" data-layout-allow-caption-zone>มาดูวิธีต่อ Chat API ของ LangMind กันครับ<br>เตรียมอะไร · เชื่อมตรงไหน · ใช้ผลยังไง</div>
+<div id="cap-b2-0" class="clip caption" data-start="22.7" data-duration="6.333333333333333" data-track-index="8" data-layout-allow-caption-zone>แอปมือถือรับคำถามจากผู้ใช้<br>แล้วส่งต่อไปยังเซิร์ฟเวอร์หลังบ้านของคุณ</div>
+<div id="cap-b2-1" class="clip caption" data-start="29.066666666666666" data-duration="6.166666666666667" data-track-index="8" data-layout-allow-caption-zone>เซิร์ฟเวอร์ส่งคำขอไปยัง LangMind Chat API<br>แยกหน้าที่ระหว่างแอป เซิร์ฟเวอร์ และโมเดล</div>
+<div id="cap-b2-2" class="clip caption" data-start="35.2" data-duration="6.933333333333334" data-track-index="8" data-layout-allow-caption-zone>3 ขั้นตอนสำคัญ: 1 เริ่มห้องใหม่<br>→ 2 สตรีมคำตอบ → 3 ถามต่อในห้องเดิม</div>
+<div id="cap-b3-0" class="clip caption" data-start="43.03333333333333" data-duration="7.466666666666667" data-track-index="8" data-layout-allow-caption-zone>1. agent_id ของผู้ช่วยใน LangMind<br>เปิดใช้งานโมเดลและตั้งค่าเรียบร้อย</div>
+<div id="cap-b3-1" class="clip caption" data-start="50.5" data-duration="6.3" data-track-index="8" data-layout-allow-caption-zone>2. API Key (lmpat_••••••••)<br>พร้อมระบุ Scope สิทธิ์ chat:invoke</div>
+<div id="cap-b3-2" class="clip caption" data-start="56.8" data-duration="7.266666666666667" data-track-index="8" data-layout-allow-caption-zone>3. เซิร์ฟเวอร์หลังบ้าน (Backend Server)<br>เก็บกุญแจปลอดภัย ห้ามใส่ในหน้าเว็บเด็ดขาด</div>
+<div id="cap-b4-0" class="clip caption" data-start="64.96666666666667" data-duration="6.966666666666667" data-track-index="8" data-layout-allow-caption-zone>เชื่อมครั้งที่ 1: เริ่มห้องแชตใหม่<br>POST /api/chat/message · Bearer $LM_TOKEN</div>
+<div id="cap-b4-1" class="clip caption" data-start="71.96666666666667" data-duration="7.066666666666666" data-track-index="8" data-layout-allow-caption-zone>ส่ง agent_id, query, และ conversation_id: null<br>ค่า null บอกระบบว่าเป็นการเปิดห้องใหม่</div>
+<div id="cap-b4-2" class="clip caption" data-start="79.03333333333333" data-duration="7.066666666666666" data-track-index="8" data-layout-allow-caption-zone>รับ event แรกชื่อ message_start<br>ซึ่งส่ง conversation_id ประจำห้องกลับมาทันที</div>
+<div id="cap-b5-0" class="clip caption" data-start="87.03333333333333" data-duration="7.166666666666667" data-track-index="8" data-layout-allow-caption-zone>เชื่อมครั้งที่ 2: สตรีมคำตอบสดแบบ Real-time<br>ทยอยส่งชิ้นข้อความผ่าน event message</div>
+<div id="cap-b5-1" class="clip caption" data-start="94.2" data-duration="6.6" data-track-index="8" data-layout-allow-caption-zone>แอปคลี่ตัวหนังสือพิมพ์สดทันทีโดยไม่ต้องรอ<br>ปิดท้ายด้วย event message_end บอกว่าครบแล้ว</div>
+<div id="cap-b5-2" class="clip caption" data-start="100.8" data-duration="7.566666666666666" data-track-index="8" data-layout-allow-caption-zone>มีทางเลือก POST /api/chat/message/blocking<br>รับคำตอบเป็น JSON ก้อนเดียวสำหรับสคริปต์</div>
+<div id="cap-b6-0" class="clip caption" data-start="109.23333333333333" data-duration="7.7" data-track-index="8" data-layout-allow-caption-zone>เชื่อมครั้งที่ 3: ถามต่อในบทสนทนาเดิม<br>ลูกค้าถามต่อ เช่น &quot;ถ้าสั่ง 2 ชิ้น มีส่วนลดไหม&quot;</div>
+<div id="cap-b6-1" class="clip caption" data-start="116.93333333333334" data-duration="5.366666666666666" data-track-index="8" data-layout-allow-caption-zone>ส่ง conversation_id เดิมที่ได้จากรอบแรกไปด้วย<br>ยิงคำขอไปที่ POST /api/chat/message เหมือนเดิม</div>
+<div id="cap-b6-2" class="clip caption" data-start="122.3" data-duration="6.333333333333333" data-track-index="8" data-layout-allow-caption-zone>AI เข้าใจบริบทเดิมและตอบต่อเนื่องได้ทันที<br>ลูกค้าไม่ต้องพิมพ์ชื่อสินค้าซ้ำอีกรอบ</div>
+<div id="cap-b7-0" class="clip caption" data-start="129.56666666666666" data-duration="6.433333333333334" data-track-index="8" data-layout-allow-caption-zone>1. ส่ง user_id ของผู้ใช้จริงปลายทาง<br>เพื่อนับสถิติ Unique Users ได้อย่างแม่นยำ</div>
+<div id="cap-b7-1" class="clip caption" data-start="136" data-duration="6.266666666666667" data-track-index="8" data-layout-allow-caption-zone>2. สั่งหยุดสตรีมด้วย /chat/messages/{id}/stop<br>3. ดึงประวัติย้อนหลังด้วย /chat/conversations</div>
+<div id="cap-b7-2" class="clip caption" data-start="142.23333333333332" data-duration="6.533333333333333" data-track-index="8" data-layout-allow-caption-zone>4. ตรวจจับ message_end เสมอก่อนยืนยันผล<br>และเก็บ API Key ไว้บนเซิร์ฟเวอร์หลังบ้านเสมอ</div>
+<div id="cap-b8-0" class="clip caption" data-start="149.7" data-duration="5.3" data-track-index="8" data-layout-allow-caption-zone>1. เตรียม: Agent พร้อมใช้ + Key (chat:invoke)<br>+ เซิร์ฟเวอร์เก็บกุญแจปลอดภัย</div>
+<div id="cap-b8-1" class="clip caption" data-start="155" data-duration="6.266666666666667" data-track-index="8" data-layout-allow-caption-zone>2. เชื่อม: เปิดห้องใหม่ (null) → สตรีมสด (message)<br>→ ถามต่อด้วย conversation_id เดิม</div>
+<div id="cap-b8-2" class="clip caption" data-start="161.3" data-duration="6.1" data-track-index="8" data-layout-allow-caption-zone>3. ใช้ผล: สลับ Blocking ได้ + ส่ง user_id<br>และควบคุมแชตผ่าน API ได้เต็มรูปแบบ</div>
+<div id="cap-b9-0" class="clip caption" data-start="168.26666666666668" data-duration="5.966666666666667" data-track-index="8" data-layout-allow-caption-zone>เพียงเท่านี้ แอปของคุณก็มีแชตบอต AI<br>ที่ตอบไวและจำเรื่องที่คุยได้แล้วครับ</div>
+<div id="cap-b9-1" class="clip caption" data-start="174.26666666666668" data-duration="6.166666666666667" data-track-index="8" data-layout-allow-caption-zone>คลิปนี้สนับสนุนโดย LangMind<br>ศึกษาคู่มือ Chat API ได้ที่ langmind.in.th</div>
+  
+</main>
+<script>window.FILM={"duration":183.63333333333333,"beats":[{"id":"b1","start":0.4,"duration":21.4,"segments":[{"cue":"problem","start":0.4,"duration":6.866666666666666},{"cue":"friction","start":7.266666666666667,"duration":7.166666666666667},{"cue":"questions","start":14.466666666666667,"duration":7.366666666666666}]},{"id":"b2","start":22.7,"duration":19.4,"segments":[{"cue":"overview-nodes","start":22.7,"duration":6.333333333333333},{"cue":"overview-api","start":29.066666666666666,"duration":6.166666666666667},{"cue":"overview-steps","start":35.2,"duration":6.933333333333334}]},{"id":"b3","start":43.03333333333333,"duration":21.066666666666666,"segments":[{"cue":"prep-agent","start":43.03333333333333,"duration":7.466666666666667},{"cue":"prep-key","start":50.5,"duration":6.3},{"cue":"prep-server","start":56.8,"duration":7.266666666666667}]},{"id":"b4","start":64.96666666666667,"duration":21.133333333333333,"segments":[{"cue":"call1-req","start":64.96666666666667,"duration":6.966666666666667},{"cue":"call1-body","start":71.96666666666667,"duration":7.066666666666666},{"cue":"call1-res","start":79.03333333333333,"duration":7.066666666666666}]},{"id":"b5","start":87.03333333333333,"duration":21.333333333333332,"segments":[{"cue":"call2-stream","start":87.03333333333333,"duration":7.166666666666667},{"cue":"call2-mockup","start":94.2,"duration":6.6},{"cue":"call2-blocking","start":100.8,"duration":7.566666666666666}]},{"id":"b6","start":109.23333333333333,"duration":19.4,"segments":[{"cue":"call3-followup","start":109.23333333333333,"duration":7.7},{"cue":"call3-convid","start":116.93333333333334,"duration":5.366666666666666},{"cue":"call3-result","start":122.3,"duration":6.333333333333333}]},{"id":"b7","start":129.56666666666666,"duration":19.233333333333334,"segments":[{"cue":"use-userid","start":129.56666666666666,"duration":6.433333333333334},{"cue":"use-stop-history","start":136,"duration":6.266666666666667},{"cue":"use-security","start":142.23333333333332,"duration":6.533333333333333}]},{"id":"b8","start":149.7,"duration":17.7,"segments":[{"cue":"recap-prep","start":149.7,"duration":5.3},{"cue":"recap-connect","start":155,"duration":6.266666666666667},{"cue":"recap-apply","start":161.3,"duration":6.1}]},{"id":"b9","start":168.26666666666668,"duration":12.166666666666666,"segments":[{"cue":"outro-sponsor","start":168.26666666666668,"duration":5.966666666666667},{"cue":"outro-cta","start":174.26666666666668,"duration":6.166666666666667}]}]}</script>
+<script src="motion.js"></script>
+</body>
+</html>

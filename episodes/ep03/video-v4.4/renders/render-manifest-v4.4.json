@@ -1,0 +1,15 @@
+{
+  "file": "ep03-v4.4-silent.mp4",
+  "renderer": "Native HyperFrames CLI 0.9.20 (6 parallel Chrome GPU workers) with EP04 Orus GSAP Motion Engine",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 5509,
+  "expectedDurationSeconds": 183.63333333333333,
+  "frameDurationSeconds": 183.63333333333333,
+  "audio": false,
+  "sha256": "22feebf8d405d202e53c41874c25d588d67d33f995287d0c7c096fe425069121",
+  "bytes": 18274577,
+  "renderTool": "hyperframes render --quality delivery",
+  "hyperframesExitCode": 0
+}
