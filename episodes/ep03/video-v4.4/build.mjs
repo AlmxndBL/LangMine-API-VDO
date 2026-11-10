@@ -41,6 +41,17 @@ function resolveVoiceRel(rel) {
   return null;
 }
 
+function pauseList(rel) {
+  if (!rel) return [];
+  const p = path.join(root, rel);
+  if (!fs.existsSync(p)) return [];
+  const res = spawnSync('ffmpeg', ['-hide_banner', '-i', p, '-af', 'silencedetect=n=-40dB:d=0.18', '-f', 'null', '-'], { encoding: 'utf8' });
+  const r = res.stderr || '';
+  const starts = [...r.matchAll(/silence_start: ([0-9.]+)/g)].map(m => Number(m[1]));
+  const ends = [...r.matchAll(/silence_end: ([0-9.]+)/g)].map(m => Number(m[1]));
+  return starts.map((s, i) => ({ start: s, end: ends[i] ?? s }));
+}
+
 let t = cfg.lead_in;
 let exactBeats = 0;
 let usedVoice = 0;
@@ -52,11 +63,22 @@ const beats = cfg.beats.map(b => {
   if (audio) usedVoice++;
   const total = b.segments.reduce((n, s) => n + len(s.say), 0);
 
+  let spanStart = 0, spanEnd = dur, gaps = [];
+  if (audio) {
+    const ps = pauseList(resolveVoiceRel(b.voice));
+    if (ps.length && ps[0].start < 0.05) { spanStart = ps[0].end; ps.shift(); }
+    if (ps.length && ps[ps.length - 1].end > dur - 0.05) { spanEnd = ps[ps.length - 1].start; ps.pop(); }
+    gaps = ps.map(p => (p.start + p.end) / 2);
+  }
+
   const cuts = [0];
   let acc = 0;
   b.segments.slice(0, -1).forEach(s => {
     acc += len(s.say);
-    cuts.push(dur * acc / total);
+    let c = spanStart + (spanEnd - spanStart) * acc / total;
+    const near = gaps.reduce((best, g) => (Math.abs(g - c) < Math.abs(best - c) ? g : best), Infinity);
+    if (Math.abs(near - c) <= 0.8) c = near;
+    cuts.push(c);
   });
   cuts.push(dur);
 

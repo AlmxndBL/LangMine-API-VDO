@@ -1,0 +1,52 @@
+{
+  "episode": "ep03",
+  "version": "v4.4",
+  "title": "Chat API — 9-Beat Blueprint & EP04 Motion Engine (Final Voiceover)",
+  "rendered_at": "2026-11-10T13:52:35+07:00",
+  "output_file": "renders/ep03-v4.4-with-voice.mp4",
+  "sha256": "BC002340661284CDB8D755E6F293EC4611BFBF4FF1848DF285603F8CE5618C82",
+  "size_bytes": 19811669,
+  "duration_seconds": 158.433333,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "total_frames": 4753,
+  "streams": [
+    {
+      "index": 0,
+      "type": "video",
+      "codec": "h264",
+      "profile": "High",
+      "pixel_format": "yuv420p",
+      "width": 1080,
+      "height": 1920,
+      "fps": "30/1"
+    },
+    {
+      "index": 1,
+      "type": "audio",
+      "codec": "aac",
+      "sample_rate": 48000,
+      "channels": 2,
+      "channel_layout": "stereo"
+    }
+  ],
+  "voice_files": [
+    "assets/voice/b1.wav",
+    "assets/voice/b2.wav",
+    "assets/voice/b3.wav",
+    "assets/voice/b4.wav",
+    "assets/voice/b5.wav",
+    "assets/voice/b6.wav",
+    "assets/voice/b7.wav",
+    "assets/voice/b8.wav",
+    "assets/voice/b9.wav"
+  ],
+  "qa_contact_sheet": "renders/qa-contact-sheet-v4.4-with-voice.png",
+  "verification_status": {
+    "hyperframes_check": "passed_0_errors",
+    "audio_sync": "exact_pause_snapped",
+    "device_snug_fit": "verified",
+    "sponsor_chips": "chat_api_only"
+  }
+}

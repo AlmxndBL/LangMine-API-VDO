@@ -51,13 +51,15 @@
     const next = F.beats[bi + 1];
     const end = next ? next.start - 0.35 : F.duration;
     const seg = k => b.segments[Math.min(k, b.segments.length - 1)];
+    // offsets were written against estimated reading time; with real voice, shrink them to the real segment length
+    const off = (k, x) => { const s = seg(k); const r = s.est ? Math.min(1, s.duration / s.est) : 1; return s.start + x * r; };
 
     tl.fromTo(sc, { opacity: 0 }, { opacity: 1, duration: 0.4, immediateRender: false }, b.start - 0.05);
     if (next) tl.to(sc, { opacity: 0, duration: 0.3 }, end);
 
     qa('[data-in]', sc).forEach(el => {
       const k = +el.dataset.in;
-      const t = seg(k).start + (+el.dataset.at || 0);
+      const t = off(k, +el.dataset.at || 0);
       const a = el.dataset.anim || 'up';
       tl.fromTo(el, FROM[a], { opacity: 1, ...TO[a], duration: 0.45, ease: a === 'pop' ? 'back.out(1.8)' : 'power2.out', immediateRender: false }, t);
       const paths = qa('path[pathLength]', el);
@@ -69,7 +71,7 @@
       tl.to(el, { opacity: 0, y: -16, duration: 0.35, ease: 'power1.in' }, t);
     });
     qa('.mark[data-mark]', sc).forEach(el => {
-      const t = seg(+el.dataset.mark).start + (+el.dataset.markAt || 0);
+      const t = off(+el.dataset.mark, +el.dataset.markAt || 0);
       tl.to(el, { scaleX: 1, duration: 0.6, ease: 'power2.out' }, t);
     });
     qa('.switch[data-toggle]', sc).forEach(s => {

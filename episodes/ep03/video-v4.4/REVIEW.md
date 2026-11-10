@@ -106,5 +106,16 @@
    - **ปัญหาเดิม**: มีชิปแสดง 3 ตัวคือ `Agent`, `Chat API`, `Voice API`
    - **การแก้ไข**: ตัดชิป `Agent` และ `Voice API` ออก ให้เหลือเฉพาะ `<span class="chip">Chat API</span>` ขนาดเด่นชัดตรงตามบริบทของตอนนี้ 100%
 
+---
 
+## 6. ผลการผสานเสียงพากย์จริง (Final Voiceover Integration)
 
+- **ไฟล์เสียงพากย์**: ได้รับไฟล์เสียงทั้ง 9 ฉาก (ssets/voice/b1.wav ถึง 9.wav) ที่สร้างจาก LangMind Voice Studio
+- **การตัดจังหวะซับไตเติล**: ระบบ uild.mjs ใช้ pauseList() ตรวจจับช่วงเงียบ (Breaths & Pauses) ด้วย fmpeg -af silencedetect=n=-40dB:d=0.18 เพื่อสแนปการตัดแบ่งช่วงซับไตเติลให้ตรงกับจังหวะการเว้นวรรคและการหายใจของผู้พากย์จริง
+- **การเรนเดอร์และมัลติเพล็กซ์**: เรนเดอร์ด้วย Native HyperFrames CLI โดยรวมสตรีมวิดีโอ H.264 (1080x1920 30fps) และสตรีมเสียง AAC (Stereo 48kHz) เป็นไฟล์ MP4 เดียวกัน
+- **ไฟล์ผลลัพธ์ฉบับสมบูรณ์**:
+  - วิดีโอพร้อมเสียง: [ep03-v4.4-with-voice.mp4](file:///d:/ฝึกงาน 4 เดือน/LangMine-API-VDO/episodes/ep03/video-v4.4/renders/ep03-v4.4-with-voice.mp4)
+  - ขนาดไฟล์: 18.9 MB (19,811,669 ไบต์)
+  - ความยาว: 158.43 วินาที (2 นาที 38.4 วินาที, 4,753 เฟรม)
+  - SHA-256: BC002340661284CDB8D755E6F293EC4611BFBF4FF1848DF285603F8CE5618C82
+  - ภาพสรุป 9 ฉากพร้อมเสียง: [qa-contact-sheet-v4.4-with-voice.png](file:///d:/ฝึกงาน 4 เดือน/LangMine-API-VDO/episodes/ep03/video-v4.4/renders/qa-contact-sheet-v4.4-with-voice.png)
