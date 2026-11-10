@@ -117,7 +117,7 @@ const beats = cfg.beats.map(b => {
 });
 
 function finish(b, audio, dur, cuts) {
-  const segments = b.segments.map((s, i) => ({ ...s, start: fr(t + cuts[i]), duration: fr(cuts[i + 1] - cuts[i]) }));
+  const segments = b.segments.map((s, i) => ({ ...s, start: fr(t + cuts[i]), duration: fr(cuts[i + 1] - cuts[i]), est: fr(len(s.say) / cfg.chars_per_second + 0.35) }));
   const resolvedVoice = resolveVoiceRel(b.voice);
   const beat = { id: b.id, voice: audio ? resolvedVoice : null, start: fr(t), duration: fr(dur), segments };
   t += dur + cfg.beat_gap + (b.hold || 0);   // optional hold: keep the scene up after the narration
@@ -311,7 +311,7 @@ const scenes = {
       </div>
       <div class="card" ${at(1, 0.2)}>
         <div class="card-h">${ico('gauge', 'big')}<div><b>เช็กยอดก่อนงานใหญ่</b></div></div>
-        <div class="chips"><span class="chip mono" ${at(1, 1.0, 'pop')}>/api/me/voice-quota</span><span class="chip mono" ${at(1, 1.6, 'pop')}>/api/short-links/usage</span><span class="chip note" ${at(1, 2.2, 'pop')}>หน้า Credentials</span></div>
+        <div class="chips"><span class="chip mono" ${at(1, 0.5, 'pop')}>/api/me/voice-quota</span><span class="chip mono" ${at(1, 0.8, 'pop')}>/api/short-links/usage</span><span class="chip note" ${at(1, 1.1, 'pop')}>หน้า Credentials</span></div>
       </div>
     </div>`,
 
@@ -333,7 +333,7 @@ const scenes = {
     <div class="place" style="left:252px;top:390px">${device('dev-b9', 560, 660, QUOTA, QLOW, 'หน้าการใช้งาน API ของร้าน (ภาพจำลอง)', 'หน้าการใช้งาน API ของร้าน โควตาเสียงใกล้หมด (ภาพจำลอง)')}</div>
     <div class="callouts" style="top:1100px" data-out="1" data-out-at="0">
       ${callout('/api/me/voice-quota', 'ยอดเสียง', 0, 2.4)}
-      ${callout('/api/short-links/usage', 'ยอดลิงก์ย่อ', 0, 4.8)}
+      ${callout('/api/short-links/usage', 'ยอดลิงก์ย่อ', 0, 3.4)}
     </div>
     <div class="callouts" style="top:1100px">
       ${callout('ใกล้หมด', 'แจ้งทีมล่วงหน้า', 1, 0.6)}
@@ -389,7 +389,7 @@ const html = `<!doctype html>
   ${captions}
   ${audioTags}
 </main>
-<script>window.FILM=${JSON.stringify({ duration, beats: beats.map(({ id, start, duration, segments }) => ({ id, start, duration, segments: segments.map(({ cue, start, duration }) => ({ cue, start, duration })) })) })}</script>
+<script>window.FILM=${JSON.stringify({ duration, beats: beats.map(({ id, start, duration, segments }) => ({ id, start, duration, segments: segments.map(({ cue, start, duration, est }) => ({ cue, start, duration, est })) })) })}</script>
 <script src="motion.js"></script>
 </body>
 </html>

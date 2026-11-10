@@ -1,0 +1,21 @@
+{
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 7.68
+  },
+  {
+   "start": 7.68,
+   "end": 12.583
+  },
+  {
+   "start": 12.921,
+   "end": 16.875
+  },
+  {
+   "start": 17.469,
+   "end": 23.18
+  }
+ ],
+ "source": "Whisper char timestamps + per-boundary check: candidate cuts scored by transcribing both sides against the script"
+}

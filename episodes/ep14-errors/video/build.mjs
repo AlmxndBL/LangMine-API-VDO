@@ -117,7 +117,7 @@ const beats = cfg.beats.map(b => {
 });
 
 function finish(b, audio, dur, cuts) {
-  const segments = b.segments.map((s, i) => ({ ...s, start: fr(t + cuts[i]), duration: fr(cuts[i + 1] - cuts[i]) }));
+  const segments = b.segments.map((s, i) => ({ ...s, start: fr(t + cuts[i]), duration: fr(cuts[i + 1] - cuts[i]), est: fr(len(s.say) / cfg.chars_per_second + 0.35) }));
   const resolvedVoice = resolveVoiceRel(b.voice);
   const beat = { id: b.id, voice: audio ? resolvedVoice : null, start: fr(t), duration: fr(dur), segments };
   t += dur + cfg.beat_gap + (b.hold || 0);   // optional hold: keep the scene up after the narration
@@ -291,7 +291,7 @@ const scenes = {
         <div class="card-h">${ico('file', 'big')}<div>${E('422', 'VALIDATION_ERROR', ' big')}</div></div>
         <div class="chips"><span class="chip note" ${at(0, 6.4, 'pop')}>body / query ผิดรูปแบบ</span></div>
       </div>
-      <div class="loop" ${at(1, 0.2)}><span>ส่งซ้ำแบบเดิม</span>${ico('refresh')}<span>ได้ผลเดิม</span><b ${at(1, 2.4, 'pop')}>→ แก้คำขอก่อน</b></div>
+      <div class="loop" ${at(1, 0.2)}><span>ส่งซ้ำแบบเดิม</span>${ico('refresh')}<span>ได้ผลเดิม</span><b ${at(1, 1.2, 'pop')}>→ แก้คำขอก่อน</b></div>
     </div>`,
 
   b6: `
@@ -326,7 +326,7 @@ const scenes = {
       <div class="grp" style="--c:#38815A" ${at(0, 1.6)}><b>1 · รอแล้วลองใหม่ได้</b><div class="chips">${E('429', 'RATE_LIMIT_EXCEEDED')}</div></div>
       <div class="grp" style="--c:#8d732c" ${at(1, 0.2)}><b>2 · แก้คำขอก่อน</b><div class="chips">${E('401', 'UNAUTHORIZED')}${E('403', 'FORBIDDEN')}${E('404', 'NOT_FOUND')}${E('422', 'VALIDATION_ERROR')}${E('422', 'VOICE_AUDIO_FORMAT_UNSUPPORTED')}</div></div>
       <div class="grp" style="--c:#1E7578" ${at(2, 0.2)}><b>3 · ตั้งค่าในเว็บ / ดูแพ็กเกจ</b><div class="chips">${E('403', 'VOICE_DISABLED')}${E('400', 'NO_CREDENTIAL')}${E('403', 'VOICE_NOT_IN_PLAN')}${E('429', 'VOICE_QUOTA_EXCEEDED')}</div></div>
-      <div class="fine" ${at(2, 2.4)}>การแบ่งกลุ่มเป็นแนวทางของคลิป สรุปจากความหมายในคู่มือ</div>
+      <div class="fine" ${at(2, 0.9)}>การแบ่งกลุ่มเป็นแนวทางของคลิป สรุปจากความหมายในคู่มือ</div>
     </div>`,
 
   b9: `
@@ -392,7 +392,7 @@ const html = `<!doctype html>
   ${captions}
   ${audioTags}
 </main>
-<script>window.FILM=${JSON.stringify({ duration, beats: beats.map(({ id, start, duration, segments }) => ({ id, start, duration, segments: segments.map(({ cue, start, duration }) => ({ cue, start, duration })) })) })}</script>
+<script>window.FILM=${JSON.stringify({ duration, beats: beats.map(({ id, start, duration, segments }) => ({ id, start, duration, segments: segments.map(({ cue, start, duration, est }) => ({ cue, start, duration, est })) })) })}</script>
 <script src="motion.js"></script>
 </body>
 </html>
