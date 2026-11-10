@@ -99,7 +99,8 @@ code, .mono { font-family: 'DejaVu Sans Mono', Consolas, 'Sarabun', monospace; }
 .chip .k { color: #2f6a4c; } .chip .v { color: #7a4f12; }
 .code { background: #1f2a25; color: #e9efe6; border-radius: 26px; padding: 24px 30px 22px; box-shadow: 10px 12px #a2b78d; }
 .code-head { display: flex; justify-content: space-between; align-items: center; }
-.method { font-family: 'DejaVu Sans Mono', Consolas, monospace; font-size: 28px; font-weight: 700; background: #38815A; color: #fff; border-radius: 10px; padding: 2px 16px; }
+.method { display: inline-flex; align-items: center; gap: 8px; font-family: 'DejaVu Sans Mono', Consolas, monospace; font-size: 28px; font-weight: 700; background: #38815A; color: #fff; border-radius: 10px; padding: 2px 16px; }
+.method .ico { width: 26px; height: 26px; stroke-width: 2.5; color: #fff; }
 .scope { font-size: 28px; font-weight: 700; color: #bfe5cc; border: 2px solid #6fae89; border-radius: 30px; padding: 0 18px; }
 .code-path { font-family: 'DejaVu Sans Mono', Consolas, monospace; font-size: 33px; font-weight: 700; color: #fff; margin-top: 10px; overflow-wrap: anywhere; }
 .code-body { font-family: 'DejaVu Sans Mono', Consolas, 'Sarabun', monospace; font-size: 29px; line-height: 1.55; margin-top: 10px; }
@@ -107,8 +108,10 @@ code, .mono { font-family: 'DejaVu Sans Mono', Consolas, 'Sarabun', monospace; }
 .ln { position: relative; z-index: 0; }
 .ln .mark { position: absolute; left: -10px; right: -10px; top: 2px; bottom: 2px; z-index: -1; border-radius: 8px; background: rgba(169, 204, 121, .42); transform-origin: left center; transform: scaleX(0); }
 .chip.json .ln .mark { background: rgba(200, 144, 44, .28); }
-.code-foot { font-size: 28px; color: #b9c8be; margin-top: 10px; padding-top: 8px; border-top: 2px dashed #4a5a52; }
-.warn { margin-top: 14px; font-size: 28px; color: #9b3b2b; background: #f7e1dc; border-radius: 14px; padding: 8px 16px; }
+.code-foot { display: flex; align-items: center; gap: 10px; font-size: 28px; color: #b9c8be; margin-top: 10px; padding-top: 8px; border-top: 2px dashed #4a5a52; }
+.code-foot .ico { width: 28px; height: 28px; stroke-width: 2.4; color: #a9cca0; flex: none; }
+.warn { display: flex; align-items: center; gap: 14px; margin-top: 14px; font-size: 28px; color: #9b3b2b; background: #f7e1dc; border-radius: 14px; padding: 12px 18px; }
+.warn .ico { width: 34px; height: 34px; stroke-width: 2.2; flex: none; color: #9b3b2b; }
 .warn code { font-size: 27px; }
 
 /* use cards */
@@ -126,7 +129,8 @@ code, .mono { font-family: 'DejaVu Sans Mono', Consolas, 'Sarabun', monospace; }
 .recap-t { display: inline-flex; align-items: center; gap: 14px; font-size: 44px; font-weight: 700; color: var(--c); }
 .recap-t b { display: inline-grid; place-items: center; width: 60px; height: 60px; border-radius: 50%; background: var(--c); color: #fff; font-size: 36px; }
 .recap .chips { margin-top: 14px; }
-.recap .arr { font-style: normal; font-size: 34px; color: #6f857a; }
+.recap .arr { display: inline-flex; align-items: center; justify-content: center; font-style: normal; font-size: 34px; color: #6f857a; }
+.recap .arr .ico { width: 30px; height: 30px; stroke-width: 2.5; color: #6f857a; }
 
 /* captions */
 .caption { position: absolute; left: 70px; right: 70px; top: 1572px; min-height: 140px; border-radius: 24px;

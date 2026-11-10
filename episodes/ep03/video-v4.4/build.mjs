@@ -92,18 +92,25 @@ const beats = cfg.beats.map(b => {
 const duration = fr(t - cfg.beat_gap + cfg.tail);
 
 // ---------- markup helpers ----------
+// ---------- Lucide SVG Icon Dictionary (24x24, stroke-width: 2, stroke: currentColor, fill: none) ----------
 const I = {
-  chat: '<path d="M4 5.5h16v10H9l-5 4z"/><path d="M8 9.5h8M8 12.5h5"/>',
-  phone: '<rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/>',
-  server: '<rect x="3.5" y="4" width="17" height="6.5" rx="1.5"/><rect x="3.5" y="13.5" width="17" height="6.5" rx="1.5"/><path d="M7 7.2h.01M7 16.7h.01M11 7.2h6M11 16.7h6"/>',
-  key: '<circle cx="8" cy="15" r="4"/><path d="M11 12l8.5-8.5M16 7l2.5 2.5M14 9l2 2"/>',
-  lock: '<rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/>',
-  bot: '<rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 3.5V7M9 12.5h.01M15 12.5h.01M9.5 16h5"/>',
-  book: '<path d="M4 5.5A2 2 0 0 1 6 3.5h12v15H6a2 2 0 0 0-2 2z"/><path d="M4 20.5V5.5M8 8h7M8 11.5h7"/>',
-  play: '<circle cx="12" cy="12" r="9"/><path class="fill" d="M10 8.5l5.5 3.5-5.5 3.5z"/>',
-  loop: '<path d="M4 12a8 8 0 0 1 13.7-5.6L20 9M20 4.5V9h-4.5M20 12a8 8 0 0 1-13.7 5.6L4 15M4 19.5V15h4.5"/>',
-  x: '<path d="M6 6l12 12M18 6L6 18"/>',
-  check: '<path d="M5 13l4 4L19 7"/>',
+  chat: '<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M13 8H7"/><path d="M17 12H7"/>',
+  phone: '<rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/>',
+  server: '<rect width="20" height="8" x="2" y="2" rx="2" ry="2"/><rect width="20" height="8" x="2" y="14" rx="2" ry="2"/><line x1="6" x2="6.01" y1="6" y2="6"/><line x1="6" x2="6.01" y1="18" y2="18"/>',
+  key: '<path d="M2 18v3c0 .6.4 1 1 1h4v-3h3v-3h2l1.4-1.4a6.5 6.5 0 1 0-4-4Z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/>',
+  lock: '<rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>',
+  bot: '<path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/>',
+  book: '<path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>',
+  users: '<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>',
+  stop: '<circle cx="12" cy="12" r="10"/><rect width="6" height="6" x="9" y="9"/>',
+  history: '<path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l4 2"/>',
+  shield: '<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.5 3.8 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/>',
+  check: '<path d="M20 6 9 17l-5-5"/>',
+  lightbulb: '<path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/>',
+  arrow: '<path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>',
+  zap: '<polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>',
+  warn: '<path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><line x1="12" x2="12" y1="9" y2="13"/><line x1="12" x2="12.01" y1="17" y2="17"/>',
+  x: '<path d="M18 6 6 18"/><path d="m6 6 12 12"/>',
 };
 
 const ico = (n, cls = '') => `<svg class="ico ${cls}" viewBox="0 0 24 24">${I[n] || ''}</svg>`;
@@ -194,7 +201,7 @@ const scenes = {
     ${head('b3', '1', 'เตรียม', 'ต้องมี 3 อย่าง')}
     <div class="stack" style="top:410px">
       <div class="card" ${at(0, 0.4)}>
-        <div class="card-h">${ico('bot', 'big')}<div><b>Agent ใน LangMind</b><span>ตั้งค่าผู้ช่วย AI และข้อมูลร้านค้าไว้</span></div><span class="badge haskey" ${at(0, 1.2, 'pop')}>ready ✓</span></div>
+        <div class="card-h">${ico('bot', 'big')}<div><b>Agent ใน LangMind</b><span>ตั้งค่าผู้ช่วย AI และข้อมูลร้านค้าไว้</span></div><span class="badge haskey" ${at(0, 1.2, 'pop')}>ready ${ico('check', 'sm')}</span></div>
         <div class="chips"><span class="chip" ${at(0, 1.4, 'pop')}>${ico('book')}ข้อมูลสินค้า</span><span class="chip" ${at(0, 1.8, 'pop')}>${ico('book')}คำนวณส่วนลด</span></div>
       </div>
       <div class="card" ${at(1, 0.2)}>
@@ -205,9 +212,7 @@ const scenes = {
         <div class="card-h">${ico('server', 'big')}<div><b>เซิร์ฟเวอร์หลังบ้าน</b><span>เก็บ API Key ปลอดภัย · ห้ามใส่ในหน้าเว็บ</span></div><span class="badge nokey" ${at(2, 1.2, 'pop')}>ห้ามใส่ในเว็บ</span></div>
       </div>
     </div>
-    <div class="warn" style="margin:24px 90px 0;font-size:29px;line-height:1.4" ${at(3, 0.2, 'left')}>
-      <b>ข้อควรระวัง:</b> หากไม่ระบุ <code>agent_id</code> หรือ Agent ยังไม่พร้อมใช้งาน ระบบจะคืนรหัสข้อผิดพลาดทันที
-    </div>`,
+    <div class="warn" style="margin:24px 90px 0;font-size:29px;line-height:1.4;display:flex;align-items:center;gap:14px" ${at(3, 0.2, 'left')}>${ico('warn', 'sm')}<div><b>ข้อควรระวัง:</b> หากไม่ระบุ <code>agent_id</code> หรือ Agent ยังไม่พร้อมใช้งาน ระบบจะคืนรหัสข้อผิดพลาดทันที</div></div>`,
 
   b4: `
     ${head('b4', '2', 'เชื่อม', 'ครั้งที่ 1 · เริ่มห้องใหม่')}
@@ -222,7 +227,7 @@ const scenes = {
         + lnx(`${k('"agent_id"')}: <span class="v">"01J8XM9K…"</span>,`, 0, 1.4)
         + lnx(`${k('"query"')}: <span class="v">"สินค้าชิ้นนี้มีของพร้อมส่งไหมครับ"</span>,`, 0, 1.6)
         + lnx(`<span class="mark" data-mark="0" data-mark-at="2.2"></span>${k('"conversation_id"')}: <span class="v">null</span>`, 0, 1.8, 'hl'),
-      foot: '💡 ส่ง conversation_id: null หมายถึงขอเปิดห้องแชตใหม่',
+      foot: `${ico('lightbulb', 'sm')} ส่ง conversation_id: null หมายถึงขอเปิดห้องแชตใหม่`,
       output: {
         seg: 1,
         at: 0.4,
@@ -245,13 +250,13 @@ const scenes = {
       </div>
       <div style="flex:1;display:flex;flex-direction:column;gap:16px" ${at(0, 0.5)}>
         <div class="code" style="padding:20px 24px">
-          <div class="code-head"><span class="method">SSE Stream</span><span class="scope">Real-time Events</span></div>
+          <div class="code-head"><span class="method">${ico('zap', 'sm')} SSE Stream</span><span class="scope">Real-time Events</span></div>
           <div class="code-body" style="font-size:26px;line-height:1.6">
             <div class="ln" ${at(0, 0.8, 'left')}>data: { ${k('"event"')}: ${v('"message"')}, ${k('"answer"')}: ${v('"มีสินค้า..."')} }</div>
             <div class="ln" ${at(0, 1.2, 'left')}>data: { ${k('"event"')}: ${v('"message"')}, ${k('"answer"')}: ${v('"พร้อมส่งค่ะ"')} }</div>
             <div class="ln hl" ${at(0, 1.6, 'left')}><span class="mark" data-mark="0" data-mark-at="2.0"></span>data: { ${k('"event"')}: ${v('"message_end"')}, ${k('"usage"')}: { ... } }</div>
           </div>
-          <div class="code-foot" style="font-size:25px">✓ ตัวหนังสือทยอยออกทันที ไม่ต้องรอทั้งประโยค</div>
+          <div class="code-foot" style="font-size:25px">${ico('check', 'sm')} ตัวหนังสือทยอยออกทันที ไม่ต้องรอทั้งประโยค</div>
         </div>
         <div class="tip" style="position:static;font-size:27px;padding:16px 20px" ${at(1, 0.3, 'up')}>
           <b>ทางเลือกสำหรับสคริปต์หลังบ้าน:</b><br>
@@ -276,7 +281,7 @@ const scenes = {
             <div class="ln" ${at(0, 0.8, 'left')}>${k('"query"')}: <span class="v">"ถ้าสั่ง 2 ชิ้น มีส่วนลดไหม"</span>,</div>
             <div class="ln hl" ${at(0, 1.2, 'left')}><span class="mark" data-mark="0" data-mark-at="1.6"></span>${k('"conversation_id"')}: <span class="v">"conv_8892"</span></div>
           </div>
-          <div class="code-foot" style="font-size:25px">✓ ใช้รหัสห้องเดิม เพื่อให้ AI ดึงประวัติที่คุยไว้มาคิดต่อ</div>
+          <div class="code-foot" style="font-size:25px">${ico('check', 'sm')} ใช้รหัสห้องเดิม เพื่อให้ AI ดึงประวัติที่คุยไว้มาคิดต่อ</div>
         </div>
         <div class="tip" style="position:static;font-size:27px;padding:16px 20px" ${at(1, 0.3, 'up')}>
           <b>ผลลัพธ์:</b> AI จำได้ทันทีว่าเป็นสินค้าชิ้นไหน<br>พร้อมคำนวณส่วนลดให้ต่อเนื่อง โดยที่ลูกค้าไม่ต้องถามซ้ำ
@@ -287,10 +292,10 @@ const scenes = {
   b7: `
     ${head('b7', '3', 'ใช้ผล', 'นำไปใช้ & ข้อควรระวัง')}
     <div class="stack" style="top:410px">
-      <div class="use" ${at(0, 0.4, 'left')}>${ico('play', 'big')}<div><b>1. ส่ง user_id ปลายทาง</b><span>ส่งรหัสผู้ใช้ทุกครั้งเพื่อนับสถิติ Unique Users ได้อย่างแท้จริง</span></div></div>
-      <div class="use" ${at(1, 0.1, 'left')}>${ico('x', 'big')}<div><b>2. สั่งยกเลิกสตรีมกะทันหัน</b><span>ใช้ POST /chat/messages/{id}/stop สั่งหยุดการพิมพ์ของ AI ได้ทันที</span></div></div>
-      <div class="use" ${at(2, 0.1, 'left')}>${ico('chat', 'big')}<div><b>3. ดึงประวัติข้อความย้อนหลัง</b><span>ใช้ GET /chat/conversations/{id}/messages ดึงข้อความมาแสดงในแอป</span></div></div>
-      <div class="use" ${at(2, 0.7, 'left')}>${ico('lock', 'big')}<div><b>4. เช็ก message_end & ปลอดภัย</b><span>รอตรวจ event message_end เสมอ และเก็บ API Key ฝั่ง Server เท่านั้น</span></div></div>
+      <div class="use" ${at(0, 0.4, 'left')}>${ico('users', 'big')}<div><b>1. ส่ง user_id ปลายทาง</b><span>ส่งรหัสผู้ใช้ทุกครั้งเพื่อนับสถิติ Unique Users ได้อย่างแท้จริง</span></div></div>
+      <div class="use" ${at(1, 0.1, 'left')}>${ico('stop', 'big')}<div><b>2. สั่งยกเลิกสตรีมกะทันหัน</b><span>ใช้ POST /chat/messages/{id}/stop สั่งหยุดการพิมพ์ของ AI ได้ทันที</span></div></div>
+      <div class="use" ${at(2, 0.1, 'left')}>${ico('history', 'big')}<div><b>3. ดึงประวัติข้อความย้อนหลัง</b><span>ใช้ GET /chat/conversations/{id}/messages ดึงข้อความมาแสดงในแอป</span></div></div>
+      <div class="use" ${at(2, 0.7, 'left')}>${ico('shield', 'big')}<div><b>4. เช็ก message_end & ปลอดภัย</b><span>รอตรวจ event message_end เสมอ และเก็บ API Key ฝั่ง Server เท่านั้น</span></div></div>
     </div>
     <img class="robot" src="assets/01-question.png" width="445" height="503" alt="" style="left:80px;top:1180px;width:180px" ${at(2, 1.2)}>
     <div class="tip" style="top:1210px;left:290px;right:90px" ${at(2, 1.4, 'left')}>
@@ -308,7 +313,7 @@ const scenes = {
       ].map(([n, t, c, items], i) => `
         <div class="recap" style="--c:${c}" ${at(i, 0.1)}>
           <span class="recap-t"><b>${n}</b>${t}</span>
-          <div class="chips">${items.map((x, j) => x === '→' ? `<i class="arr" ${at(i, 0.4 + j * 0.2)}>→</i>` : `<span class="chip" ${at(i, 0.4 + j * 0.2, 'pop')}>${x}</span>`).join('')}</div>
+          <div class="chips">${items.map((x, j) => x === '→' ? `<i class="arr" ${at(i, 0.4 + j * 0.2)}>${ico('arrow', 'sm')}</i>` : `<span class="chip" ${at(i, 0.4 + j * 0.2, 'pop')}>${x}</span>`).join('')}</div>
         </div>`).join('')}
     </div>
     <img class="robot" src="assets/04-open-arms.png" width="425" height="503" alt="" style="left:410px;top:1180px;width:260px" ${at(2, 1.4)}>`,

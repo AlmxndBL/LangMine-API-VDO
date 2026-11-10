@@ -64,8 +64,19 @@ def bubble(draw, y, role, lines, side="right", fill=GREEN_USER, tag=None):
         label_x = 142
         draw.text((label_x, y), role, font=label_fnt, fill="#1E7578")
         if tag:
-            draw.rounded_rectangle((320, y - 6, 560, y + 40), radius=16, fill="#E1EEE9")
-            draw.text((336, y), tag, font=font(28, True), fill="#006D5E")
+            icon_kind, tag_text = tag if isinstance(tag, tuple) else (None, tag)
+            tag_box_w = 265 if icon_kind else 240
+            draw.rounded_rectangle((320, y - 6, 320 + tag_box_w, y + 42), radius=16, fill="#E1EEE9")
+            if icon_kind == "stream":
+                # Vector dot indicator
+                draw.ellipse((338, y + 11, 352, y + 25), fill="#006D5E")
+                draw.text((364, y), tag_text, font=font(28, True), fill="#006D5E")
+            elif icon_kind == "check":
+                # Lucide-style checkmark
+                draw.line([(338, y + 18), (346, y + 26), (358, y + 10)], fill="#006D5E", width=4)
+                draw.text((370, y), tag_text, font=font(28, True), fill="#006D5E")
+            else:
+                draw.text((336, y), tag_text, font=font(28, True), fill="#006D5E")
 
     top = y + 50
     height = 76 * len(lines) + 54
@@ -89,7 +100,7 @@ def screen2():
     bubble(d, y + 40, "AI Assistant", [
         "มีสินค้าพร้อมส่ง 5 รายการค่ะ",
         "สั่งซื้อตอนนี้ จัดส่งรอบบ่ายได้ทันทีค่ะ"
-    ], "left", TEAL_AGENT, tag="● กำลังสตรีมคำตอบ")
+    ], "left", TEAL_AGENT, tag=("stream", "กำลังสตรีมคำตอบ"))
     return im
 
 
@@ -102,7 +113,7 @@ def screen3():
     bubble(d, y + 36, "AI Assistant", [
         "สั่ง 2 ชิ้นได้รับส่วนลด 10% ทันทีค่ะ",
         "รวมยอดสุทธิ 1,062 บาทค่ะ"
-    ], "left", TEAL_AGENT, tag="✓ จำบริบทเดิมได้")
+    ], "left", TEAL_AGENT, tag=("check", "จำบริบทเดิมได้"))
     return im
 
 
