@@ -1,0 +1,40 @@
+<!doctype html><html lang="th"><meta charset="utf-8"><style>
+@font-face{font-family:Thai;src:url(../assets/NotoSansThai.ttf);font-weight:100 900}*{box-sizing:border-box}body{margin:0;width:1080px;height:1920px;padding:100px 84px;background:repeating-linear-gradient(#f7f3e6 0 58px,#e6e1d0 59px 61px);color:#20382e;font:650 42px Thai}header{display:flex;justify-content:space-between;align-items:center;font-size:34px}.badge{border:2px solid;border-radius:32px;padding:7px 20px}h1{font-size:83px;line-height:1.2;margin:92px 0 42px}em{color:#48765b;font-style:normal}.card{background:#20382e;color:#fff;border-radius:25px;padding:38px 44px;box-shadow:10px 12px #b6c7ad}.card small{font-size:34px;color:#d6eea8}pre{font-size:53px;line-height:1.55;margin:22px 0 0;font-family:Consolas,monospace}.active{background:#456651;color:#e6ffa7}.robot{position:absolute;bottom:320px;right:80px;width:310px;height:330px;object-fit:contain}.caption{position:absolute;bottom:121px;left:84px;right:84px;background:#20382e;color:#fff;border-radius:24px;padding:21px;text-align:center;font-size:41px;line-height:1.4}.chat{height:900px;width:720px;background:url(../assets/screens.png) right center/2160px 900px;border:5px solid #20382e;border-radius:27px}.brand{position:absolute;bottom:54px;left:84px;font-size:30px}.brand img{width:49px;vertical-align:middle;margin-right:12px}
+.catalog-marker{position:relative;display:inline-block}.catalog-marker svg{position:absolute;pointer-events:none;left:-2%;bottom:-7px;width:104%;height:13px}</style><header><strong>EP05 / LANGMIND</strong><span class="badge">ภาพจำลอง</span></header><main id="scene"></main><div class="brand"><img src="../assets/langmind-logo.png" alt="">LangMind</div>
+<script>
+const scenes=["<h1>ให้ AI ถาม<br><em>คู่มือของทีม</em></h1><div class=\"card\"><small>สถานการณ์ตัวอย่าง</small><div style=\"margin-top:22px;line-height:1.58\">พนักงานใหม่ถามว่า<br>“วันแรกต้องส่งเอกสารอะไรบ้าง?”</div></div><img class=\"robot\" src=\"../../../shared/assets/characters/robot/05-point-up.png\" alt=\"\"><div class=\"caption\">ใช้ผู้ช่วยที่ทีมใช้อยู่<br>ถามเอเจนต์ใน LangMind ผ่าน MCP</div>","<h1>เห็นภาพรวม<br><em>ก่อนเชื่อม</em></h1><div class=\"card\"><small>เส้นทางคำถาม</small><div style=\"margin-top:22px;line-height:1.58\">Claude Code → MCP → LangMind<br>← คำตอบและแหล่งอ้างอิง</div></div><div class=\"caption\">MCP เชื่อมผู้ช่วยกับเครื่องมือ<br>ของเอเจนต์ LangMind</div>","<h1>เตรียมเอเจนต์<br><em>และสิทธิ์</em></h1><div class=\"card\"><small>ให้ผู้ดูแลเปิด MCP ก่อน</small><div style=\"margin-top:22px;line-height:1.58\">ผูกคู่มือกับเอเจนต์<br><code>agents:read</code><br><code>chat:invoke</code><br><code>knowledge:read</code></div></div><div class=\"caption\">สร้าง Personal API Key ตามสิทธิ์ที่ใช้<br>แล้วเก็บไว้ในตัวแปร LM_TOKEN</div>","<h1>เชื่อมจาก<br><em>Claude Code</em></h1><div class=\"card\"><small>ตัวอย่างสำหรับ shell แบบ Bash</small><div style=\"margin-top:22px;line-height:1.58\"><pre style=\"font-size:33px;white-space:pre-wrap\">claude mcp add --transport http langmind &#92;<br>  https://langmind.in.th/mcp &#92;<br>  --header &quot;Authorization: Bearer $LM_TOKEN&quot;</pre></div></div><img class=\"robot\" src=\"../../../shared/assets/characters/robot/05-point-up.png\" alt=\"\"><div class=\"caption\">URL คือปลายทาง MCP<br>ส่วน header ส่งคีย์จากตัวแปร</div>","<h1>เลือกเอเจนต์<br><em>แล้วส่งคำถาม</em></h1><div class=\"card\"><small>เครื่องมือที่ใช้</small><div style=\"margin-top:22px;line-height:1.58\"><code>list_agents</code> · หาเอเจนต์คู่มือ<br><code>ask_agent</code> · ส่งคำถาม</div></div><div class=\"caption\">เลือกเอเจนต์คู่มือพนักงาน<br>แล้วถามว่าต้องส่งเอกสารอะไร</div>","<h1>ตรวจคำตอบ<br><em>พร้อมแหล่งที่มา</em></h1><div class=\"card\"><small>ผลจำลองจาก ask_agent</small><div style=\"margin-top:22px;line-height:1.58\">สำเนาบัตรประชาชน<br>และข้อมูลบัญชีธนาคาร<br><small>ที่มา · คู่มือพนักงานใหม่ (สมมติ)</small></div></div><img class=\"robot\" src=\"../../../shared/assets/characters/robot/12-clipboard.png\" alt=\"\"><div class=\"caption\">เปิดแหล่งอ้างอิงเพื่อเทียบคำตอบ<br>กับคู่มือของทีม</div>","<h1>ลองถามต่อ<br><em>ในบทสนทนาเดิม</em></h1><div class=\"card\"><small>ใช้ conversation_id ที่ได้รับ</small><div style=\"margin-top:22px;line-height:1.58\">“แล้วส่งเอกสารให้ใคร?”<br><code>conversation_id</code> → คุยต่อ</div></div><div class=\"caption\">ส่ง conversation_id เดิมเพื่อคุยต่อ<br>จากคำถามก่อนหน้า</div>","<h1>เริ่มใช้กับทีม<br><em>ทีละขั้น</em></h1><div class=\"card\"><small>เตรียม → เชื่อม → ลองถาม</small><div style=\"margin-top:22px;line-height:1.58\">Claude Code · ใช้ API Key<br>claude.ai / ChatGPT · ใช้ OAuth</div></div><div class=\"caption\">เริ่มด้วยคำถามเดียว<br>แล้วตรวจคำตอบกับคู่มือจริง</div>"];
+document.querySelector('#scene').innerHTML=scenes[Number(new URLSearchParams(location.search).get('step'))||0];
+
+// Adapted from the HyperFrames Catalog marker-highlight component.
+// Use a measured SVG dash reveal and a brief settle on the marked term.
+const markerTerms=["MCP","MCP","chat:invoke","$LM_TOKEN","ask_agent","ที่มา","conversation_id","OAuth"];
+const markerStep=Number(new URLSearchParams(location.search).get("step"))||0;
+const markerCard=document.querySelector(".card");
+const walker=document.createTreeWalker(markerCard,NodeFilter.SHOW_TEXT);
+for(let textNode=walker.nextNode();textNode;textNode=walker.nextNode()){
+  const term=markerTerms[markerStep];
+  const offset=textNode.data.indexOf(term);
+  if(offset<0)continue;
+  const range=document.createRange();
+  range.setStart(textNode,offset);range.setEnd(textNode,offset+term.length);
+  const mark=document.createElement("span");
+  mark.className="catalog-marker";
+  range.surroundContents(mark);
+  const svg=document.createElementNS("http://www.w3.org/2000/svg","svg");
+  svg.setAttribute("viewBox","0 0 160 12");
+  svg.setAttribute("preserveAspectRatio","none");
+  svg.innerHTML='<path d="M4 8 Q74 2 156 5" fill="none" stroke="#e6ffa7" stroke-width="5" stroke-linecap="round"/>';
+  mark.append(svg);
+  const path=svg.firstElementChild;
+  const length=path.getTotalLength();
+  path.style.strokeDasharray=length;
+  const draw=path.animate([{strokeDashoffset:length,opacity:0},{strokeDashoffset:length*.97,opacity:1,offset:.04},{strokeDashoffset:0,opacity:1}],{delay:650,duration:600,fill:"both",easing:"ease-in-out"});
+  const settle=mark.animate([{scale:1},{scale:1.045},{scale:1}],{delay:1070,duration:320,fill:"both",easing:"ease-out"});
+  window.catalogMarker=[draw,settle];
+  if(new URLSearchParams(location.search).has("seek"))window.catalogMarker.forEach(a=>a.pause());
+  break;
+}
+
+</script></html>
+
+

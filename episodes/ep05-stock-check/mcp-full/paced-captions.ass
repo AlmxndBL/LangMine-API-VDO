@@ -1,0 +1,18 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans Thai,54,&H00FFFFFF,&H00FFFFFF,&H002E3820,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,100,100,137,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:12.83,0:00:18.10,Default,,0,0,0,,เริ่มที่ Claude Code\Nหน้าที่เราใช้พิมพ์คำถาม
+Dialogue: 0,0:00:18.80,0:00:25.20,Default,,0,0,0,,คำถามเดินทางผ่าน MCP\Nเพื่อให้ผู้ช่วยเรียกเครื่องมือ
+Dialogue: 0,0:00:25.87,0:00:31.90,Default,,0,0,0,,LangMind ส่งคำตอบและแหล่งอ้างอิง\Nกลับไปที่ Claude Code
+Dialogue: 0,0:00:59.20,0:01:04.40,Default,,0,0,0,,ใช้ list_agents\Nเพื่อเลือกเอเจนต์คู่มือพนักงาน
+Dialogue: 0,0:01:05.73,0:01:13.10,Default,,0,0,0,,ใช้ ask_agent ส่งคำถาม\Nว่าพนักงานใหม่ต้องเตรียมอะไร
+Dialogue: 0,0:01:14.30,0:01:19.90,Default,,0,0,0,,เอเจนต์คืนคำตอบพร้อมแหล่งที่มา\Nให้เราเปิดตรวจได้
+Dialogue: 0,0:01:33.92,0:01:39.10,Default,,0,0,0,,ถามครั้งแรกแล้วรับ conversation_id\Nกลับมาพร้อมคำตอบ
+Dialogue: 0,0:01:40.39,0:01:46.85,Default,,0,0,0,,ส่งคำถามใหม่พร้อม ID เดิม\Nเช่น “แล้วส่งเอกสารให้ใคร?”
+Dialogue: 0,0:01:48.15,0:01:55.00,Default,,0,0,0,,ask_agent ตอบต่อในบทสนทนาเดิม\Nโดยใช้บริบทจากคำถามก่อนหน้า

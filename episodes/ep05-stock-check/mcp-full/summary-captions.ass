@@ -1,0 +1,14 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans Thai,56,&H00FFFFFF,&H00FFFFFF,&H002E3820,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,100,100,137,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:16.97,0:01:23.11,Default,,0,0,0,,ขั้นแรก เตรียมเอเจนต์ที่ผูกกับคู่มือของทีม\Nแล้วให้ผู้ดูแลเปิด MCP
+Dialogue: 0,0:01:23.81,0:01:27.60,Default,,0,0,0,,ขั้นที่สอง เชื่อมผู้ช่วยกับ LangMind\NClaude Code ใช้ API Key
+Dialogue: 0,0:01:27.60,0:01:31.11,Default,,0,0,0,,ส่วน Claude บนเว็บและ ChatGPT\Nใช้ OAuth
+Dialogue: 0,0:01:31.81,0:01:35.70,Default,,0,0,0,,ขั้นสุดท้าย ลองถามหนึ่งข้อ\Nผ่าน ask_agent
+Dialogue: 0,0:01:35.70,0:01:39.34,Default,,0,0,0,,เปิดแหล่งอ้างอิงเพื่อตรวจคำตอบ\Nกับคู่มือของทีม
