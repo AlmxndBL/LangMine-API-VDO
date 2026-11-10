@@ -1,0 +1,66 @@
+<!doctype html><html lang="th"><meta charset="utf-8"><title>EP05 · LangMind MCP</title><style>
+@font-face{font-family:Thai;src:url(../assets/NotoSansThai.ttf);font-weight:100 900}*{box-sizing:border-box}body{margin:0;width:1080px;height:1920px;background:repeating-linear-gradient(#f7f3e6 0 58px,#e6e1d0 59px 61px);color:#20382e;font:650 42px Thai;padding:100px 84px}header{display:flex;justify-content:space-between;font-size:34px;font-weight:760}.badge{border:2px solid;border-radius:40px;padding:5px 20px}.progress{display:flex;gap:10px;margin-top:28px}.progress i{flex:1;height:6px;border-radius:9px;background:#b9c7b1}.progress .active{background:#48765b}h1{font-size:78px;line-height:1.2;margin:65px 0 36px}h1 small{display:block;font-size:37px;color:#48765b;margin-bottom:15px}.nodes{display:grid;gap:20px}.node{padding:24px 34px;background:#fffcf1;border:3px solid #48765b;border-radius:25px;box-shadow:9px 9px #bfd0b7;font-size:44px}.arrow{font-size:48px;text-align:center;line-height:1;color:#48765b}.code{background:#20382e;color:#e6ffa7;padding:30px;border-radius:24px}.code .node{padding:8px;border:0;background:none;box-shadow:none;font:35px Consolas,monospace;white-space:pre-wrap}.robot{position:absolute;bottom:330px;right:88px;width:250px;height:265px;object-fit:contain}.caption{position:absolute;bottom:121px;left:84px;right:84px;background:#20382e;color:#fff;border-radius:24px;padding:22px 28px;text-align:center;font-size:38px;line-height:1.35;font-weight:700}.brand{position:absolute;bottom:54px;left:84px;font-size:30px}.brand img{width:49px;vertical-align:middle;margin-right:12px}
+h1{margin-bottom:22px}.tabs{display:flex;gap:16px;margin:0 0 28px}.tabs span{font-size:31px;border:2px solid #769982;border-radius:32px;padding:5px 21px}.tabs .selected{color:white;background:#48765b}.mock-chat{border:3px solid #20382e;border-radius:32px;padding:30px;background:#fffdf1;gap:22px}.chat-title{font-size:38px;font-weight:800;border-bottom:2px solid #d7dfcb;padding-bottom:16px}.chat-title small,.bubble small{display:block;font-size:28px;color:#48765b}.bubble{max-width:95%;box-shadow:none;font-size:41px}.bubble.user{justify-self:end;background:#e6efd8}.bubble.assistant{background:#fff}.code .node{overflow-wrap:anywhere;color:#e6ffa7}.arrow{font-size:36px}</style><header><strong>EP05 / LANGMIND MCP</strong><span class="badge">ภาพจำลอง</span></header><div class="progress"></div><main></main><div class="brand"><img src="../assets/langmind-logo.png" alt="">LangMind</div>
+<script src="sync-cues.js"></script><script>
+const beats=[["เริ่มจากคำถาม","วันแรกต้องส่งเอกสารอะไร?",["พนักงานถามในหน้าแชท","ผู้ช่วยพนักงานใหม่ของบริษัท"],"พนักงานใหม่เปิดหน้าแชทแล้วถามว่า วันแรกต้องส่งเอกสารอะไรบ้าง นี่คือผู้ช่วยพนักงานใหม่ที่บริษัทสร้างเอง ให้คนในทีมถามเรื่องคู่มือได้"],["ภาพรวมระบบ","คำถามเดินทางไปไหน?",["หน้าแชทของเรา","ระบบหลังบ้านของเรา","MCP → LangMind"],"หน้าแชทรับคำถามของพนักงาน ระบบหลังบ้านรับข้อความแล้วเรียกเครื่องมือที่เชื่อมไว้ เอ็มซีพีเป็นทางเชื่อมจากระบบหลังบ้านไปยังแลงมายด์"],["ใครหาคำตอบ","เอเจนต์ตอบจากคู่มือ",["คำถามจากผู้ช่วยของเรา","เอเจนต์คู่มือใน LangMind","คำตอบและแหล่งอ้างอิง"],"ผู้ช่วยส่งคำถามเรื่องเอกสารวันแรก เอเจนต์ในแลงมายด์ใช้คู่มือพนักงานเพื่อหาคำตอบ แล้วส่งคำตอบและแหล่งอ้างอิงกลับมา"],["01 เตรียม","เตรียมเอเจนต์และคู่มือ",["ผูกคู่มือกับเอเจนต์","ให้ผู้ดูแลเปิด MCP"],"ผูกคู่มือพนักงานกับเอเจนต์ที่ต้องการใช้ ให้ผู้ดูแลเปิดเอ็มซีพีและตรวจสิทธิ์เข้าถึงเอเจนต์"],["01 เตรียม","ให้สิทธิ์ตามที่ใช้",["agents:read · เลือกเอเจนต์","chat:invoke · ถามเอเจนต์"],"ถ้าต้องค้นชื่อเอเจนต์ ให้ใช้สิทธิ์เอเจนต์รีด ส่วนการถามเอเจนต์ใช้สิทธิ์แชตอินโวก"],["02 เชื่อม","ตั้งค่าที่ระบบหลังบ้าน",["https://langmind.in.th/mcp","Authorization: Bearer <TOKEN>","เก็บคีย์ฝั่งเซิร์ฟเวอร์"],"ตั้งปลายทางเอ็มซีพีของแลงมายด์ในระบบหลังบ้าน ในตัวอย่างนี้ระบบหลังบ้านส่งคีย์ในเฮดเดอร์สำหรับยืนยันตัวตน เก็บคีย์ไว้บนเซิร์ฟเวอร์ แยกจากหน้าแชท"],["02 เชื่อม","ส่งข้อมูลให้ ask_agent",["เลือกเอเจนต์คู่มือ","ส่งคำถามของพนักงาน"],"ให้ระบบหลังบ้านระบุเอเจนต์คู่มือพนักงาน แล้วเรียกแอสก์เอเจนต์พร้อมคำถามเรื่องเอกสารวันแรก"],["03 ใช้ผล","อ่านผลที่เครื่องมือคืน",["คำตอบ · เอกสารที่ต้องเตรียม","ที่มา · คู่มือพนักงานใหม่","conversation_id · ใช้ถามต่อ"],"เครื่องมือคืนคำตอบเกี่ยวกับเอกสารที่ต้องเตรียม พร้อมชื่อคู่มือที่ใช้เป็นแหล่งอ้างอิง และคอนเวอร์เซชันไอดีสำหรับถามต่อ"],["03 ใช้ผล","แสดงคำตอบในแชทของเรา",["สำเนาบัตรประชาชน","ข้อมูลบัญชีธนาคาร","ที่มา · คู่มือพนักงานใหม่ (สมมติ)"],"ในตัวอย่างสมมติ หน้าแชทตอบว่าให้เตรียมสำเนาบัตรประชาชน พร้อมข้อมูลบัญชีธนาคาร พนักงานเปิดที่มาเพื่อเทียบคำตอบกับคู่มือได้"],["03 ถามต่อ","ถามต่อโดยใช้บริบทเดิม",["“แล้วส่งเอกสารให้ใคร?”","ส่ง conversation_id เดิม","คำถามต่อเนื่อง"],"พนักงานถามต่อว่า แล้วส่งเอกสารให้ใคร ระบบหลังบ้านส่งคอนเวอร์เซชันไอดีเดิมไปกับคำถามใหม่ เอเจนต์จึงใช้บริบทจากคำถามก่อนหน้าได้"],["สรุป","เริ่มด้วยคำถามเดียว",["เตรียมคู่มือและสิทธิ์","เชื่อมจากระบบหลังบ้าน","ลองถามและตรวจที่มา"],"เริ่มจากเตรียมคู่มือและสิทธิ์ เชื่อมเอ็มซีพีจากระบบหลังบ้านของผู้ช่วยเรา แล้วลองถามหนึ่งข้อและตรวจคำตอบกับคู่มือจริง"]];
+const i=Number(new URLSearchParams(location.search).get("step"))||0;
+const [phase,title,items,voice,kind]=beats[i];
+const esc=s=>s.replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;");
+const flow=[1,2,7,9].includes(i);
+const nodes=items.map((s,j)=>(flow&&j?'<div class="arrow">↓</div>':'')+'<div class="node">'+esc(s)+'</div>').join("");
+document.querySelector(".progress").innerHTML=beats.map((_,j)=>'<i class="'+(j<=i?"active":"")+'"></i>').join("");
+document.querySelector("main").innerHTML='<h1><small>'+phase+'</small>'+title+'</h1><div class="nodes '+(kind==="code"?"code":"")+'">'+nodes+'</div>'+([0,5,8].includes(i)?'<img class="robot" src="../../../shared/assets/characters/robot/'+(i===8?'12-clipboard':'05-point-up')+'.png" alt="">':'')+'<div class="caption">'+esc(voice.replaceAll("เอชทีทีพีเอส แลงมายด์ ดอต อิน ดอต ทีเอช ทับ เอ็มซีพี","https://langmind.in.th/mcp").replaceAll("แลงมายด์","LangMind").replaceAll("เอ็มซีพี","MCP").replaceAll("แอสก์เอเจนต์","ask_agent").replaceAll("คอนเวอร์เซชันไอดี","conversation_id").replaceAll("โอออธ","OAuth"))+'</div>';
+const phaseIndex=i<3?-1:i<5?0:i<7?1:2;
+const tabs=document.createElement("div");
+tabs.className="tabs";
+tabs.innerHTML=["1 เตรียม","2 เชื่อม","3 ใช้ผล"].map((label,j)=>'<span class="'+(j===phaseIndex?"selected":"")+'">'+label+'</span>').join("");
+if(phaseIndex>=0)document.querySelector("h1").after(tabs);
+if(i===0){
+ const nodes=document.querySelector(".nodes");
+ nodes.classList.add("mock-chat");
+ nodes.innerHTML='<div class="chat-title">ผู้ช่วยพนักงานใหม่ <small>แชทจำลอง</small></div><div class="node bubble user">วันแรกต้องส่งเอกสารอะไรบ้าง?</div><div class="node bubble assistant">เตรียมสำเนาบัตรประชาชนและข้อมูลบัญชีธนาคาร<small>ที่มา · คู่มือพนักงานใหม่ (สมมติ)</small></div>';
+}
+if(i===2){
+ const arrows=document.querySelectorAll(".arrow");
+ if(arrows.length>1) arrows[1].textContent="↓ ส่งคำตอบและที่มากลับ";
+}
+if(i===5||i===6){
+ const nodes=document.querySelector(".nodes");nodes.classList.add("code");
+ if(i===5){
+ const rows=nodes.querySelectorAll(".node");
+ rows[0].textContent="MCP_URL = https://langmind.in.th/mcp";
+ rows[1].textContent="Authorization: Bearer <TOKEN>";
+ rows[2].textContent="# เก็บ TOKEN ฝั่งเซิร์ฟเวอร์";
+ }else{
+ const rows=nodes.querySelectorAll(".node");
+ rows[0].textContent="agent = เอเจนต์คู่มือพนักงาน";
+ rows[1].textContent='ask_agent → คำถามเรื่องเอกสารวันแรก';
+ }
+}
+
+const parts=[...document.querySelectorAll("h1,.node,.arrow,.robot,.caption")];
+const cues=window.cueTrack[i];
+const readable=line=>line.replaceAll("เอชทีทีพีเอส แลงมายด์ ดอต อิน ดอต ทีเอช ทับ เอ็มซีพี","https://langmind.in.th/mcp").replaceAll("แลงมายด์","LangMind").replaceAll("เอ็มซีพี","MCP").replaceAll("แอสก์เอเจนต์","ask_agent").replaceAll("ลิสต์เอเจนต์","list_agents").replaceAll("คอนเวอร์เซชันไอดี","conversation_id").replaceAll("โอออธ","OAuth").replaceAll("เอพีไอคีย์","API Key").replaceAll("เอเจนต์รีด","agents:read").replaceAll("แชตอินโวก","chat:invoke").replaceAll("นอลเลจรีด","knowledge:read").replaceAll("แอลเอ็มโทเคน","LM_TOKEN").replaceAll("เอชทีทีพี","HTTP").replaceAll("ยูอาร์แอล","URL");
+const clamp=n=>Math.max(0,Math.min(1,n));
+window.seekBeat=(time,duration)=>{
+ for(const [j,el] of parts.entries()){
+  const caption=el.classList.contains("caption");
+  const arrow=el.classList.contains("arrow");
+  const ordinal=parts.slice(0,j).filter(p=>p.classList.contains("node")).length;
+  let start=j===0?0:el.classList.contains("robot")?.2:cues[Math.max(0,ordinal-(arrow?0:0))]?.[0]??0;
+  let stop=duration-.2;
+  if(caption){
+   const cue=cues.find(([a,b])=>time>=a-.16&&time<=b+.16);
+   if(!cue){el.style.opacity=0;el.textContent="";continue;}
+   const [a,b,line]=cue; start=a-.16;stop=b+.16;el.textContent=readable(line);
+  }
+  const ease=1-Math.pow(1-clamp((time-start)/.25),3);
+  const out=clamp((stop-time)/.2);
+  el.style.opacity=ease*out;
+  if(arrow)el.style.clipPath="inset(0 0 "+((1-ease)*100)+"% 0)";
+  el.style.transform="translateY("+((1-ease)*18+(1-out)*-10)+"px)";
+ }
+};
+</script></html>
+
+
